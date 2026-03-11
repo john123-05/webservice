@@ -56,7 +56,12 @@
               Standort: Lehmkuhlstr. 18, 32108 Bad Salzuflen
             </p>
           </div>
-          <form class="offer-form" action="#" method="post" onsubmit="event.preventDefault()">
+          <form
+            class="offer-form"
+            action="https://hook.eu2.make.com/1xxbdgempookm7ht52gbk5fxamw8iknm"
+            method="post"
+            data-form-source="contact-page"
+          >
             <label for="contact-name">Name</label>
             <input id="contact-name" name="name" type="text" required />
 
@@ -67,12 +72,20 @@
             <input id="contact-email" name="email" type="email" required />
 
             <label for="contact-url">Website URL</label>
-            <input id="contact-url" name="url" type="url" placeholder="https://" />
+            <input
+              id="contact-url"
+              name="url"
+              type="text"
+              inputmode="url"
+              autocomplete="url"
+              placeholder="ihrewebsite.de"
+            />
 
             <label for="contact-message">Nachricht</label>
             <input id="contact-message" name="message" type="text" placeholder="Worum geht es?" />
 
             <button class="btn btn-primary" type="submit">Kostenlose Analyse anfordern</button>
+            <p class="form-status" data-form-status aria-live="polite"></p>
           </form>
         </div>
       </section>

@@ -476,7 +476,12 @@
                 <li>Wie Ihre Website mehr Anfragen unterstützen kann</li>
               </ul>
             </div>
-            <form class="offer-form" action="#" method="post" onsubmit="event.preventDefault()">
+            <form
+              class="offer-form"
+              action="https://hook.eu2.make.com/1xxbdgempookm7ht52gbk5fxamw8iknm"
+              method="post"
+              data-form-source="homepage-offer"
+            >
               <label for="name">Name</label>
               <input id="name" name="name" type="text" required />
 
@@ -484,9 +489,10 @@
               <input id="email" name="email" type="email" required />
 
               <label for="url">Website URL</label>
-              <input id="url" name="url" type="url" placeholder="https://" required />
+              <input id="url" name="url" type="text" inputmode="url" autocomplete="url" placeholder="ihrewebsite.de" required />
 
               <button class="btn btn-primary" type="submit">Kostenlose Analyse anfragen</button>
+              <p class="form-status" data-form-status aria-live="polite"></p>
             </form>
           </div>
         </section>
