@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt | Webservice.Studios</title>
+    <meta
+      name="description"
+      content="Kontaktieren Sie Webservice.Studios für eine kostenlose Website Analyse."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="subpage-head">
+      <div class="container">
+        <nav class="nav">
+          <a class="brand" href="index.html">Webservice.Studios</a>
+          <button class="menu-toggle" type="button" aria-label="Navigation öffnen" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projekte.html">Projekte</a></li>
+            <li><a class="nav-cta active" href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+        <div class="subpage-title">
+          <p class="eyebrow">Kontakt</p>
+          <h1>Kostenlose Website Analyse anfragen</h1>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container split">
+          <div>
+            <h2>Kontakt &amp; kostenlose Website Analyse</h2>
+            <p class="section-copy left">
+              Schicken Sie uns kurz die wichtigsten Infos. Sie erhalten eine klare Ersteinschätzung
+              inklusive konkreter Handlungsempfehlungen.
+            </p>
+            <ul class="problem-list">
+              <li>Direkter Kontakt zu Webservice.Studios</li>
+              <li>Klare Empfehlungen für Struktur, Sichtbarkeit und Anfragen</li>
+              <li>Fokus auf Websites, die Leads generieren</li>
+            </ul>
+            <p class="section-copy left">
+              E-Mail: <a href="mailto:kontakt@webservice-studios.com">kontakt@webservice-studios.com</a><br />
+              Standort: Lehmkuhlstr. 18, 32108 Bad Salzuflen
+            </p>
+          </div>
+          <form class="offer-form" action="#" method="post" onsubmit="event.preventDefault()">
+            <label for="contact-name">Name</label>
+            <input id="contact-name" name="name" type="text" required />
+
+            <label for="contact-company">Unternehmen</label>
+            <input id="contact-company" name="company" type="text" />
+
+            <label for="contact-email">Email</label>
+            <input id="contact-email" name="email" type="email" required />
+
+            <label for="contact-url">Website URL</label>
+            <input id="contact-url" name="url" type="url" placeholder="https://" />
+
+            <label for="contact-message">Nachricht</label>
+            <input id="contact-message" name="message" type="text" placeholder="Worum geht es?" />
+
+            <button class="btn btn-primary" type="submit">Kostenlose Analyse anfordern</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="index.html">Webservice.Studios</a>
+          <p>Websites für Unternehmen mit Fokus auf Sichtbarkeit, Struktur und Anfragen.</p>
+        </div>
+        <div>
+          <h4>Seiten</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projekte.html">Projekte / Case Studies</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="datenschutz.html">Datenschutz</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Kontakt</h4>
+          <ul>
+            <li>John Marvin Nolting</li>
+            <li>Lehmkuhlstr. 18, 32108 Bad Salzuflen</li>
+            <li><a href="mailto:kontakt@webservice-studios.com">kontakt@webservice-studios.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="cookie-banner" data-cookie-banner hidden>
+      <div class="cookie-banner__copy">
+        <strong>Cookies &amp; Statistik</strong>
+        <p>
+          Diese Website nutzt notwendige Cookies und optional Google Analytics. Mehr dazu steht in
+          der <a href="datenschutz.html">Datenschutzerklärung</a>.
+        </p>
+      </div>
+      <div class="cookie-banner__actions">
+        <button class="btn btn-ghost" type="button" data-cookie-decline>Nur notwendige</button>
+        <button class="btn btn-primary" type="button" data-cookie-accept>Alle akzeptieren</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "webservice",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "sh -c 'PORT=${PORT:-5173}; while lsof -nP -iTCP:$PORT -sTCP:LISTEN >/dev/null 2>&1; do PORT=$((PORT+1)); done; echo Serving on http://localhost:$PORT; python3 -m http.server $PORT'",
+    "start": "npm run dev"
+  }
+}
