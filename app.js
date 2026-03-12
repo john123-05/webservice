@@ -392,7 +392,72 @@ const initDeferredInteractions = () => {
   }
 };
 
+const initAboutVideo = () => {
+  const card = document.querySelector('[data-about-video]');
+  if (!card) return;
+
+  const video = card.querySelector('video');
+  const playButton = card.querySelector('[data-about-video-play]');
+  const muteButton = card.querySelector('[data-about-video-mute]');
+  if (!video || !playButton || !muteButton) return;
+
+  const updateVideoUi = () => {
+    const state = video.paused ? 'paused' : video.muted ? 'muted' : 'playing';
+    card.dataset.videoState = state;
+    muteButton.textContent = video.muted ? 'Ton an' : 'Ton aus';
+    muteButton.setAttribute('aria-pressed', video.muted ? 'false' : 'true');
+    if (video.paused) {
+      playButton.querySelector('strong').textContent = 'Video abspielen';
+      playButton.querySelector('span').textContent = video.currentTime > 0 ? 'Weiter mit Ton' : 'Startet neu mit Ton';
+    } else if (video.muted) {
+      playButton.querySelector('strong').textContent = 'Mit Ton ansehen';
+      playButton.querySelector('span').textContent = 'Startet neu mit Ton';
+    }
+  };
+
+  const startWithSound = async (restart = false) => {
+    if (restart) video.currentTime = 0;
+    video.muted = false;
+    video.loop = false;
+    video.controls = true;
+    try {
+      await video.play();
+    } catch (error) {
+      video.muted = true;
+    }
+    updateVideoUi();
+  };
+
+  playButton.addEventListener('click', () => {
+    startWithSound(true);
+  });
+
+  muteButton.addEventListener('click', async () => {
+    if (video.paused) {
+      await startWithSound(false);
+      return;
+    }
+    video.muted = !video.muted;
+    updateVideoUi();
+  });
+
+  video.addEventListener('pause', updateVideoUi);
+  video.addEventListener('play', updateVideoUi);
+  video.addEventListener('volumechange', updateVideoUi);
+  video.addEventListener('ended', () => {
+    video.currentTime = 0;
+    video.muted = true;
+    video.controls = false;
+    video.loop = true;
+    video.play().catch(() => {});
+    updateVideoUi();
+  });
+
+  updateVideoUi();
+};
+
 initMenu();
 initCookieBanner();
 initLeadForms();
 initDeferredInteractions();
+initAboutVideo();
