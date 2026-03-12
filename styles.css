@@ -93,6 +93,8 @@ ul {
 
 .section {
   padding: 82px 0;
+  content-visibility: auto;
+  contain-intrinsic-size: 760px;
 }
 
 .section-soft {
