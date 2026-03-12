@@ -12,6 +12,40 @@
   --shadow: 0 20px 45px rgba(13, 38, 70, 0.12);
 }
 
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src:
+    url("assets/fonts/manrope-latin-ext.woff2") format("woff2"),
+    url("assets/fonts/manrope-latin.woff2") format("woff2");
+  unicode-range:
+    U+0000-00FF,
+    U+0100-02BA,
+    U+02BB-02BC,
+    U+02C6,
+    U+02DA,
+    U+02DC,
+    U+0304,
+    U+0308,
+    U+0329,
+    U+1D00-1DBF,
+    U+1E00-1E9F,
+    U+1EF2-1EFF,
+    U+2000-206F,
+    U+20A0-20C0,
+    U+20AB,
+    U+20AC,
+    U+2122,
+    U+2191,
+    U+2193,
+    U+2212,
+    U+2215,
+    U+FEFF,
+    U+FFFD;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -221,7 +255,7 @@ ul {
   z-index: -2;
   background:
     linear-gradient(90deg, rgba(238, 242, 248, 0.5) 0%, rgba(238, 242, 248, 0.2) 36%, rgba(238, 242, 248, 0.06) 100%),
-    url("assets/Nano_Banana_2_Create_a_visual_metaphor_representing_business_success_vs_stagnation__both_on_the_left.png");
+    url("assets/Nano_Banana_2_Create_a_visual_metaphor_representing_business_success_vs_stagnation__both_on_the_left.webp");
   background-size: cover;
   background-position: center;
   filter: blur(2px);
