@@ -398,21 +398,10 @@ const initAboutVideo = () => {
 
   const video = card.querySelector('video');
   const playButton = card.querySelector('[data-about-video-play]');
-  const muteButton = card.querySelector('[data-about-video-mute]');
-  if (!video || !playButton || !muteButton) return;
+  if (!video || !playButton) return;
 
   const updateVideoUi = () => {
-    const state = video.paused ? 'paused' : video.muted ? 'muted' : 'playing';
-    card.dataset.videoState = state;
-    muteButton.textContent = video.muted ? 'Ton an' : 'Ton aus';
-    muteButton.setAttribute('aria-pressed', video.muted ? 'false' : 'true');
-    if (video.paused) {
-      playButton.querySelector('strong').textContent = 'Video abspielen';
-      playButton.querySelector('span').textContent = video.currentTime > 0 ? 'Weiter mit Ton' : 'Startet neu mit Ton';
-    } else if (video.muted) {
-      playButton.querySelector('strong').textContent = 'Mit Ton ansehen';
-      playButton.querySelector('span').textContent = 'Startet neu mit Ton';
-    }
+    card.dataset.videoState = video.paused ? 'paused' : video.muted ? 'muted' : 'playing';
   };
 
   const startWithSound = async (restart = false) => {
@@ -432,18 +421,8 @@ const initAboutVideo = () => {
     startWithSound(true);
   });
 
-  muteButton.addEventListener('click', async () => {
-    if (video.paused) {
-      await startWithSound(false);
-      return;
-    }
-    video.muted = !video.muted;
-    updateVideoUi();
-  });
-
   video.addEventListener('pause', updateVideoUi);
   video.addEventListener('play', updateVideoUi);
-  video.addEventListener('volumechange', updateVideoUi);
   video.addEventListener('ended', () => {
     video.currentTime = 0;
     video.muted = true;
