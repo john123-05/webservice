@@ -307,8 +307,6 @@ const initCaseCarousel = () => {
   const slides = Array.from(caseCarousel.querySelectorAll('.case-carousel-slide'));
   const prevButton = caseCarousel.querySelector('.case-carousel-prev');
   const nextButton = caseCarousel.querySelector('.case-carousel-next');
-  let autoRotateId = null;
-  let autoResumeId = null;
   let slots = [slides.length - 1, 0, 1, 2];
 
   const renderCaseCarousel = () => {
@@ -342,40 +340,14 @@ const initCaseCarousel = () => {
     renderCaseCarousel();
   };
 
-  const startCaseCarousel = () => {
-    if (autoRotateId) return;
-    autoRotateId = window.setInterval(() => moveCaseCarousel(1), 3200);
-  };
-
-  const stopCaseCarousel = () => {
-    if (!autoRotateId) return;
-    window.clearInterval(autoRotateId);
-    autoRotateId = null;
-  };
-
-  const scheduleCaseCarouselResume = () => {
-    stopCaseCarousel();
-    if (autoResumeId) window.clearTimeout(autoResumeId);
-    autoResumeId = window.setTimeout(() => {
-      startCaseCarousel();
-    }, 5200);
-  };
-
   prevButton?.addEventListener('click', () => {
     moveCaseCarousel(-1);
-    scheduleCaseCarouselResume();
   });
   nextButton?.addEventListener('click', () => {
     moveCaseCarousel(1);
-    scheduleCaseCarouselResume();
   });
-  caseCarousel.addEventListener('mouseenter', stopCaseCarousel);
-  caseCarousel.addEventListener('mouseleave', startCaseCarousel);
-  caseCarousel.addEventListener('focusin', stopCaseCarousel);
-  caseCarousel.addEventListener('focusout', startCaseCarousel);
 
   renderCaseCarousel();
-  startCaseCarousel();
 };
 
 const initDeferredInteractions = () => {
