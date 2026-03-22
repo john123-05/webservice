@@ -8,6 +8,7 @@ const distDir = join(rootDir, 'dist');
 
 const copyTargets = [
   'index.html',
+  'anfrage.html',
   'kontakt.html',
   'projekte.html',
   'impressum.html',
