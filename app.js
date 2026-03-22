@@ -116,7 +116,7 @@ const initLeadForms = () => {
   const forms = document.querySelectorAll('.offer-form');
   if (!forms.length) return;
 
-  const webhookUrl = 'https://hook.eu2.make.com/1xxbdgempookm7ht52gbk5fxamw8iknm';
+  const webhookUrl = 'https://hook.eu2.make.com/y5jbf5tppgs3e9gfiyuwtol7bx9nxnr6';
   const normalizeUrl = (value) => {
     const trimmed = value.trim();
     if (!trimmed) return '';
