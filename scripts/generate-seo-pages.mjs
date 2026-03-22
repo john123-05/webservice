@@ -292,6 +292,10 @@ const servicePages = [
       { href: 'local-seo-bielefeld.html', title: 'Local SEO Bielefeld', text: 'Für lokale Rankings, Maps-Sichtbarkeit und regionale Anfragen.' },
       { href: 'webentwicklung-bielefeld.html', title: 'Webentwicklung Bielefeld', text: 'Technische Umsetzung für moderne Unternehmenswebsites.' },
       { href: 'backend-entwicklung-bielefeld.html', title: 'Backend Entwicklung Bielefeld', text: 'Für individuelle Funktionen, Datenflüsse und Prozesse.' },
+      { href: 'webdesign-handwerker-bielefeld.html', title: 'Webdesign für Handwerker in Bielefeld', text: 'Für Handwerksbetriebe mit Fokus auf Vertrauen, Leistungen und regionale Anfragen.' },
+      { href: 'webdesign-praxen-bielefeld.html', title: 'Webdesign für Praxen in Bielefeld', text: 'Für Praxen, die professioneller wirken und Anfragen besser führen wollen.' },
+      { href: 'webdesign-dienstleister-bielefeld.html', title: 'Webdesign für Dienstleister in Bielefeld', text: 'Für lokale Dienstleister mit erklärungsbedürftigen Leistungen.' },
+      { href: 'webdesign-beratung-bielefeld.html', title: 'Webdesign für Berater in Bielefeld', text: 'Für Beratungen, die Expertise, Vertrauen und Klarheit online besser zeigen wollen.' },
       { href: 'website-bringt-keine-anfragen.html', title: 'Website bringt keine Anfragen', text: 'Problemseite für Unternehmen mit schwacher Conversion.' },
       { href: 'website-wird-bei-google-nicht-gefunden.html', title: 'Website wird bei Google nicht gefunden', text: 'Problemseite für fehlende Sichtbarkeit und Rankings.' },
     ],
@@ -629,6 +633,133 @@ const locationPages = [
   },
 ];
 
+const industryPages = [
+  {
+    fileName: 'webdesign-handwerker-bielefeld.html',
+    title: 'Webdesign für Handwerker in Bielefeld | Mehr Anfragen für Handwerksbetriebe',
+    description: 'Webdesign für Handwerksbetriebe in Bielefeld, die online professioneller auftreten und mehr qualifizierte Anfragen gewinnen möchten.',
+    eyebrow: 'Handwerk',
+    h1: 'Webdesign für Handwerker in Bielefeld, die online mehr Anfragen gewinnen wollen',
+    introTitle: 'Websites für Handwerksbetriebe mit klarem Nutzen',
+    introText: 'Viele Handwerksbetriebe haben gute Leistungen, aber die Website erklärt diese zu unklar, wirkt veraltet oder führt Besucher nicht schnell genug zur Kontaktaufnahme. Genau dort setzt diese Branchenseite an.',
+    points: [
+      'Leistungen und Einsatzgebiete klar verständlich machen',
+      'Vertrauen durch Referenzen, Bilder und klare Ansprechpartner stärken',
+      'Mobile Kontaktaufnahme und schnelle Orientierung verbessern',
+      'Besser für lokale Suchanfragen rund um Handwerk in Bielefeld aufgestellt sein',
+    ],
+    detailTitle: 'Was bei Websites für Handwerker besonders wichtig ist',
+    detailParagraphs: [
+      'Handwerksseiten müssen schnell verständlich sein: Was wird angeboten, in welchem Gebiet wird gearbeitet und wie läuft die Anfrage ab? Genau das entscheidet oft darüber, ob aus einem Besucher ein echter Kontakt wird.',
+      'Die vorhandenen Projektbeispiele auf dieser Website zeigen die Herangehensweise an Struktur, Klarheit und Conversion. Sie stehen bewusst nicht als erfundene Handwerks-Referenzen, sondern als ehrlicher Nachweis der Arbeitsweise.',
+    ],
+    relatedTitle: 'Passende Seiten für Handwerksbetriebe',
+    relatedLinks: [
+      { href: 'website-bringt-keine-anfragen.html', title: 'Website bringt keine Anfragen', text: 'Wenn die Website vorhanden ist, aber zu wenig Kontakte daraus entstehen.' },
+      { href: 'local-seo-bielefeld.html', title: 'Local SEO Bielefeld', text: 'Für regionale Sichtbarkeit bei Suchanfragen mit Ortsbezug.' },
+      { href: 'projekte.html', title: 'Projektbeispiele', text: 'Vorhandene Arbeiten als Einblick in Struktur und Herangehensweise.' },
+    ],
+    faq: [
+      { question: 'Brauchen Handwerksbetriebe wirklich mehr als eine einfache Website?', answer: 'Oft ja. Gerade im lokalen Wettbewerb zählen klare Leistungen, Vertrauenssignale, saubere mobile Nutzung und ein einfacher Kontaktweg.' },
+      { question: 'Muss es viele Referenzen aus dem Handwerk geben?', answer: 'Nicht zwingend. Wichtiger ist, dass die Website die typischen Entscheidungsfaktoren von Handwerkskunden gut abbildet.' },
+      { question: 'Hilft eine bessere Website auch bei Google?', answer: 'Ja. Wenn Leistungen, Regionen und Kontaktwege klarer dargestellt sind, hilft das sowohl Nutzern als auch Suchmaschinen.' },
+    ],
+  },
+  {
+    fileName: 'webdesign-praxen-bielefeld.html',
+    title: 'Webdesign für Praxen in Bielefeld | Mehr Vertrauen und Anfragen',
+    description: 'Webdesign für Praxen in Bielefeld, die online professioneller wirken, Vertrauen aufbauen und Patientenanfragen besser unterstützen möchten.',
+    eyebrow: 'Praxen',
+    h1: 'Webdesign für Praxen in Bielefeld mit Fokus auf Vertrauen und klare Patientenanfragen',
+    introTitle: 'Wenn eine Praxis-Website Vertrauen schneller aufbauen soll',
+    introText: 'Bei Praxen entscheidet der erste Eindruck besonders stark über Vertrauen. Eine gute Website muss Seriosität, Leistungen, Ansprechpartner und Kontaktmöglichkeiten klar vermitteln.',
+    points: [
+      'Vertrauen durch Struktur, Tonalität und Klarheit stärken',
+      'Leistungen verständlich und ruhig darstellen',
+      'Kontakt, Anfahrt und wichtige Informationen sofort auffindbar machen',
+      'Eine Website schaffen, die professionell wirkt und Hemmschwellen senkt',
+    ],
+    detailTitle: 'Was Websites für Praxen leisten müssen',
+    detailParagraphs: [
+      'Praxen brauchen in der Regel keine laute Website, sondern eine, die Orientierung, Vertrauen und professionelle Sicherheit vermittelt. Das gilt besonders für mobile Nutzer, die schnell Informationen suchen.',
+      'Die vorhandenen Projekte auf dieser Website werden nicht als Praxis-Referenzen ausgegeben. Sie zeigen stattdessen die Herangehensweise an Struktur, Nutzerführung und Anfragen.',
+    ],
+    relatedTitle: 'Passende Seiten für Praxen',
+    relatedLinks: [
+      { href: 'webdesign-bielefeld.html', title: 'Webdesign Bielefeld', text: 'Die zentrale Leistungsseite für Website-Struktur und Anfragen.' },
+      { href: 'website-relaunch-bielefeld.html', title: 'Website Relaunch Bielefeld', text: 'Wenn eine bestehende Praxis-Website modernisiert werden soll.' },
+      { href: 'anfrage.html', title: 'Kostenlose Einschätzung anfragen', text: 'Direkter Einstieg für eine erste Bewertung der aktuellen Website.' },
+    ],
+    faq: [
+      { question: 'Was ist bei einer Praxis-Website wichtiger als bei anderen Branchen?', answer: 'Vor allem Vertrauen, Seriosität, klare Informationen und eine ruhige, verlässliche Nutzerführung.' },
+      { question: 'Braucht eine Praxis-Website Local SEO?', answer: 'Ja, in vielen Fällen. Patienten suchen häufig lokal und erwarten klare regionale Zuordnung.' },
+      { question: 'Ist eine schöne Gestaltung schon genug?', answer: 'Nein. Entscheidend ist, ob Leistungen, Kontaktwege und Vertrauenssignale schnell verständlich sind.' },
+    ],
+  },
+  {
+    fileName: 'webdesign-dienstleister-bielefeld.html',
+    title: 'Webdesign für Dienstleister in Bielefeld | Websites für mehr Anfragen',
+    description: 'Webdesign für Dienstleister in Bielefeld, die ihre Leistungen klarer erklären und aus Website-Besuchern mehr qualifizierte Anfragen machen möchten.',
+    eyebrow: 'Dienstleister',
+    h1: 'Webdesign für Dienstleister in Bielefeld, die online klarer überzeugen wollen',
+    introTitle: 'Wenn erklärungsbedürftige Leistungen online zu unklar wirken',
+    introText: 'Lokale Dienstleister haben oft das gleiche Problem: Die Leistung ist gut, aber auf der Website wird sie nicht schnell genug verständlich. Dann gehen Vertrauen und Anfragen verloren.',
+    points: [
+      'Leistungen und Nutzen klarer formulieren',
+      'Den Unterschied zu Wettbewerbern verständlicher zeigen',
+      'Kontaktwege sichtbarer und einfacher machen',
+      'Die Website stärker auf qualifizierte Anfragen ausrichten',
+    ],
+    detailTitle: 'Warum Dienstleister besonders von klarer Website-Struktur profitieren',
+    detailParagraphs: [
+      'Bei Dienstleistern verkaufen oft nicht Produkte, sondern Vertrauen, Klarheit und das Gefühl, dass das Angebot zum eigenen Problem passt. Genau deshalb muss die Website den Entscheidungsprozess gut tragen.',
+      'Die bestehenden Projektseiten dienen hier als ehrliche Beispiele für Positionierung, Struktur und Conversion-Denken, nicht als vorgetäuschte Branchen-Referenzen.',
+    ],
+    relatedTitle: 'Passende Seiten für Dienstleister',
+    relatedLinks: [
+      { href: 'online-marketing-bielefeld.html', title: 'Online Marketing Bielefeld', text: 'Wenn Website und Nachfrage besser zusammenspielen sollen.' },
+      { href: 'website-wird-bei-google-nicht-gefunden.html', title: 'Website wird bei Google nicht gefunden', text: 'Für Dienstleister mit zu wenig organischer Sichtbarkeit.' },
+      { href: 'projekte.html', title: 'Projektbeispiele', text: 'Einblick in die Arbeitsweise bei Struktur und Nutzerführung.' },
+    ],
+    faq: [
+      { question: 'Warum ist Webdesign für Dienstleister oft ein Conversion-Thema?', answer: 'Weil Vertrauen, Klarheit und der Weg zur Anfrage bei Dienstleistungen meist wichtiger sind als reine Gestaltung.' },
+      { question: 'Ist diese Seite nur für klassische Agentur-Dienstleistungen gedacht?', answer: 'Nein. Sie richtet sich allgemein an lokale Dienstleister mit erklärungsbedürftigen Leistungen.' },
+      { question: 'Kann eine klarere Website auch die Qualität der Anfragen verbessern?', answer: 'Ja. Wenn Leistungen, Zielgruppen und Abläufe klarer sind, werden Anfragen oft passender.' },
+    ],
+  },
+  {
+    fileName: 'webdesign-beratung-bielefeld.html',
+    title: 'Webdesign für Berater in Bielefeld | Klarheit, Vertrauen und Sichtbarkeit',
+    description: 'Webdesign für Berater und Beratungen in Bielefeld, die Expertise sichtbar machen und online mehr qualifizierte Anfragen gewinnen möchten.',
+    eyebrow: 'Beratung',
+    h1: 'Webdesign für Berater in Bielefeld mit Fokus auf Expertise und Vertrauen',
+    introTitle: 'Wenn Expertise online nicht klar genug sichtbar wird',
+    introText: 'Beratungen und einzelne Berater leben davon, dass Menschen Vertrauen in Kompetenz, Vorgehen und Passung gewinnen. Eine Website muss genau das früh und klar vermitteln.',
+    points: [
+      'Expertise und Positionierung klarer sichtbar machen',
+      'Vertrauen durch klare Botschaften und seriöse Struktur aufbauen',
+      'Leistungen, Zielgruppen und Abläufe verständlicher darstellen',
+      'Aus Website-Besuchern häufiger qualifizierte Anfragen machen',
+    ],
+    detailTitle: 'Was Berater-Websites in Bielefeld leisten müssen',
+    detailParagraphs: [
+      'Gerade bei Beratungsleistungen entscheidet die Website oft darüber, ob jemand fachliche Kompetenz zutraut oder weitersucht. Deshalb müssen Nutzen, Spezialisierung und nächster Schritt schnell erkennbar sein.',
+      'Auch hier gilt: Die Projektbeispiele auf dieser Website zeigen Arbeitsweise und Denkansatz, nicht erfundene Beratungs-Referenzen aus Branchen, in denen keine Projekte vorliegen.',
+    ],
+    relatedTitle: 'Passende Seiten für Berater',
+    relatedLinks: [
+      { href: 'seo-bielefeld.html', title: 'SEO Bielefeld', text: 'Für Berater, die bei Google sichtbarer werden wollen.' },
+      { href: 'webdesign-bielefeld.html', title: 'Webdesign Bielefeld', text: 'Die übergeordnete Leistungsseite für Website-Struktur und Conversion.' },
+      { href: 'website-bringt-keine-anfragen.html', title: 'Website bringt keine Anfragen', text: 'Wenn Expertise da ist, aber online zu wenig Resonanz entsteht.' },
+    ],
+    faq: [
+      { question: 'Warum ist Webdesign für Berater so sensibel?', answer: 'Weil Beratung stark über Vertrauen, Passung und klare Positionierung verkauft wird. Eine unklare Website kostet hier schnell Chancen.' },
+      { question: 'Reicht eine schöne Website für Beratungen aus?', answer: 'Nein. Wichtig ist, dass Spezialisierung, Nutzen, Zielgruppe und nächster Schritt verständlich werden.' },
+      { question: 'Kann eine Berater-Website gleichzeitig SEO und Vertrauen stärken?', answer: 'Ja. Wenn Inhalte klar strukturiert, zielgerichtet formuliert und technisch sauber umgesetzt sind, unterstützen sie beides.' },
+    ],
+  },
+];
+
 for (const page of servicePages) {
   renderPage(page);
 }
@@ -665,6 +796,10 @@ for (const page of locationPages) {
       { question: 'Geht es hier nur um Design?', answer: 'Nein. Die Seite verbindet Webdesign bewusst mit Sichtbarkeit, Vertrauen und Anfragen, weil diese Themen in der Praxis zusammenhängen.' },
     ],
   });
+}
+
+for (const page of industryPages) {
+  renderPage(page);
 }
 
 console.log('SEO landing pages generated.');

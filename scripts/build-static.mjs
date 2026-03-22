@@ -123,6 +123,10 @@ Wichtige Einstiegsseiten:
 - ${domain}/
 - ${domain}/leistungen.html
 - ${domain}/standorte.html
+- ${domain}/webdesign-handwerker-bielefeld.html
+- ${domain}/webdesign-praxen-bielefeld.html
+- ${domain}/webdesign-dienstleister-bielefeld.html
+- ${domain}/webdesign-beratung-bielefeld.html
 - ${domain}/webdesign-bielefeld.html
 - ${domain}/seo-bielefeld.html
 - ${domain}/online-marketing-bielefeld.html
