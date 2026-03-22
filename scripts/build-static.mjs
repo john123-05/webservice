@@ -128,6 +128,7 @@ Wichtige Einstiegsseiten:
 - ${domain}/webdesign-dienstleister-bielefeld.html
 - ${domain}/webdesign-beratung-bielefeld.html
 - ${domain}/webdesign-bielefeld.html
+- ${domain}/website-erstellen-lassen-bielefeld.html
 - ${domain}/seo-bielefeld.html
 - ${domain}/online-marketing-bielefeld.html
 - ${domain}/website-relaunch-bielefeld.html
