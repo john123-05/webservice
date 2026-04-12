@@ -1,3 +1,79 @@
+const getLocale = () => (document.documentElement.lang || '').toLowerCase().startsWith('en') ? 'en' : 'de';
+
+const getLanguageTargets = () => {
+  const pathname = window.location.pathname || '/';
+  const isEnglish = pathname.endsWith('-en.html');
+
+  if (pathname === '/' || pathname.endsWith('/index.html')) {
+    return {
+      current: isEnglish ? 'en' : 'de',
+      de: pathname === '/' ? '/' : pathname,
+      en: pathname.replace(/index\.html$/, 'index-en.html'),
+    };
+  }
+
+  if (pathname.endsWith('/')) {
+    return {
+      current: 'de',
+      de: pathname,
+      en: `${pathname}index-en.html`,
+    };
+  }
+
+  if (isEnglish) {
+    return {
+      current: 'en',
+      de: pathname.replace(/-en\.html$/, '.html'),
+      en: pathname,
+    };
+  }
+
+  if (pathname.endsWith('.html')) {
+    return {
+      current: 'de',
+      de: pathname,
+      en: pathname.replace(/\.html$/, '-en.html'),
+    };
+  }
+
+  return {
+    current: getLocale(),
+    de: pathname,
+    en: pathname,
+  };
+};
+
+const initLanguageSwitch = () => {
+  const footerGrid = document.querySelector('.footer-grid');
+  if (!footerGrid || footerGrid.querySelector('.language-switch')) return;
+
+  const locale = getLocale();
+  const targets = getLanguageTargets();
+  const wrapper = document.createElement('div');
+  wrapper.className = 'language-switch-wrap';
+
+  const heading = document.createElement('h4');
+  heading.textContent = locale === 'en' ? 'Language' : 'Sprache';
+
+  const switcher = document.createElement('div');
+  switcher.className = 'language-switch';
+  switcher.setAttribute('aria-label', locale === 'en' ? 'Language switch' : 'Sprachwechsel');
+
+  const deLink = document.createElement('a');
+  deLink.href = targets.de;
+  deLink.textContent = 'DE';
+  if (targets.current === 'de') deLink.classList.add('is-active');
+
+  const enLink = document.createElement('a');
+  enLink.href = targets.en;
+  enLink.textContent = 'EN';
+  if (targets.current === 'en') enLink.classList.add('is-active');
+
+  switcher.append(deLink, enLink);
+  wrapper.append(heading, switcher);
+  footerGrid.appendChild(wrapper);
+};
+
 const initMenu = () => {
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.nav-links');
@@ -116,6 +192,19 @@ const initLeadForms = () => {
   const forms = document.querySelectorAll('.offer-form');
   if (!forms.length) return;
 
+  const locale = getLocale();
+  const messages = locale === 'en'
+    ? {
+        sending: 'Sending...',
+        success: 'Thank you. Your request was sent successfully.',
+        error: 'Sending failed. Please try again or contact us by email.',
+      }
+    : {
+        sending: 'Wird gesendet...',
+        success: 'Danke. Die Anfrage wurde erfolgreich gesendet.',
+        error: 'Senden fehlgeschlagen. Bitte versuchen Sie es erneut oder schreiben Sie per E-Mail.',
+      };
+
   const webhookUrl = 'https://hook.eu2.make.com/y5jbf5tppgs3e9gfiyuwtol7bx9nxnr6';
   const normalizeUrl = (value) => {
     const trimmed = value.trim();
@@ -149,11 +238,11 @@ const initLeadForms = () => {
       payload.page = window.location.pathname;
       payload.source = form.dataset.formSource || 'website';
 
-      status.textContent = 'Wird gesendet...';
+      status.textContent = messages.sending;
       status.dataset.state = 'loading';
       status.hidden = false;
       submitButton?.setAttribute('disabled', 'disabled');
-      if (submitButton) submitButton.textContent = 'Wird gesendet...';
+      if (submitButton) submitButton.textContent = messages.sending;
 
       try {
         const response = await fetch(webhookUrl, {
@@ -169,11 +258,11 @@ const initLeadForms = () => {
         }
 
         form.reset();
-        status.textContent = 'Danke. Die Anfrage wurde erfolgreich gesendet.';
+        status.textContent = messages.success;
         status.dataset.state = 'success';
         status.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       } catch (error) {
-        status.textContent = 'Senden fehlgeschlagen. Bitte versuchen Sie es erneut oder schreiben Sie per E-Mail.';
+        status.textContent = messages.error;
         status.dataset.state = 'error';
         status.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       } finally {
@@ -185,6 +274,34 @@ const initLeadForms = () => {
     urlInput?.addEventListener('blur', () => {
       urlInput.value = normalizeUrl(urlInput.value);
     });
+  });
+};
+
+const initSeoSwitcher = () => {
+  const switcher = document.querySelector('[data-seo-switcher]');
+  if (!switcher) return;
+
+  const tabs = [...switcher.querySelectorAll('[data-seo-tab]')];
+  const panels = [...switcher.querySelectorAll('[data-seo-panel]')];
+
+  const setActive = (target) => {
+    tabs.forEach((tab) => {
+      const active = tab.dataset.seoTab === target;
+      tab.classList.toggle('seo-tab--active', active);
+      tab.setAttribute('aria-selected', active ? 'true' : 'false');
+    });
+
+    panels.forEach((panel) => {
+      const active = panel.dataset.seoPanel === target;
+      panel.hidden = !active;
+      panel.classList.toggle('seo-panel--active', active);
+    });
+
+    switcher.classList.toggle('is-after', target === 'after');
+  };
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => setActive(tab.dataset.seoTab));
   });
 };
 
@@ -408,7 +525,41 @@ const initAboutVideo = () => {
 };
 
 initMenu();
+initLanguageSwitch();
 initCookieBanner();
 initLeadForms();
+initSeoSwitcher();
 initDeferredInteractions();
 initAboutVideo();
+
+// Scroll animations
+const initScrollAnimations = () => {
+  const targets = document.querySelectorAll(
+    '.service-card, .diff-card, .option-card, .compare-card, .seo-step, .ads-card, .faq-item, .home-problem-lead, .home-problem-sub, .home-problem-question, .diff-with-image, .section-question'
+  );
+
+  if (!targets.length) return;
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.12 }
+  );
+
+  targets.forEach((el, i) => {
+    // stagger cards in a grid
+    const parent = el.parentElement;
+    const siblings = [...parent.children].filter(c => c.classList.contains(el.classList[0]));
+    const idx = siblings.indexOf(el);
+    el.style.transitionDelay = `${idx * 80}ms`;
+    observer.observe(el);
+  });
+};
+
+initScrollAnimations();
