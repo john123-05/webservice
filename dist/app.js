@@ -8,7 +8,7 @@ const getLanguageTargets = () => {
     return {
       current: isEnglish ? 'en' : 'de',
       de: pathname === '/' ? '/' : pathname,
-      en: pathname.replace(/index\.html$/, 'index-en.html'),
+      en: pathname === '/' ? '/index-en.html' : pathname.replace(/index\.html$/, 'index-en.html'),
     };
   }
 
