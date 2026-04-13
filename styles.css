@@ -193,6 +193,15 @@ ul {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding-left: calc((100vw - min(1160px, 92vw)) / 2);
+  padding-right: calc((100vw - min(1160px, 92vw)) / 2);
+  box-sizing: border-box;
 }
 
 .brand {
@@ -205,10 +214,23 @@ ul {
 }
 
 .brand-logo {
-  width: 28px;
-  height: 28px;
+  height: 52px;
+  width: auto;
   object-fit: contain;
   flex-shrink: 0;
+  margin-left: 0;
+  transform: scale(3) translateY(7px);
+  transform-origin: left center;
+}
+
+.footer .brand-logo {
+  transform: scale(1.8);
+  transform-origin: left top;
+  height: 44px;
+}
+
+.footer .brand + p {
+  margin-top: 48px;
 }
 
 .nav-links {
@@ -346,8 +368,9 @@ ul {
 }
 
 .home-problem-lead {
-  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
   font-weight: 700;
+  letter-spacing: -0.02em;
   color: var(--text);
 }
 
@@ -359,8 +382,10 @@ ul {
 
 .home-problem-question {
   margin-top: 36px;
-  font-size: clamp(1.3rem, 2.8vw, 2rem);
-  color: var(--primary-deep);
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
 }
 
 .options-grid {
@@ -400,7 +425,9 @@ ul {
 
 .section-question {
   text-align: center;
-  font-size: clamp(1.4rem, 3vw, 2.2rem);
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
   margin-bottom: 48px;
   color: var(--text);
 }
@@ -1149,7 +1176,7 @@ ul {
 }
 
 .hero-copy {
-  margin-top: 28px;
+  margin-top: 80px;
 }
 
 .hero-copy h1 {
@@ -1297,9 +1324,10 @@ ul {
 }
 
 h2 {
-  font-size: clamp(1.6rem, 2.8vw, 2.3rem);
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 700;
   letter-spacing: -0.02em;
-  line-height: 1.15;
+  line-height: 1.2;
 }
 
 .section-copy {
@@ -2806,6 +2834,10 @@ h2 {
   .brand {
     min-width: 0;
     font-size: 1rem;
+  }
+
+  .brand-logo {
+    margin-left: 12px;
   }
 
   .nav-links {
