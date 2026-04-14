@@ -188,30 +188,12 @@ const initCookieBanner = () => {
   };
 
   const loadAnalytics = () => {
-    if (!GA_MEASUREMENT_ID || window.gtag) return;
-
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function gtag() {
-      window.dataLayer.push(arguments);
-    };
-
-    // Consent Mode v2 — grant analytics, keep ads denied
-    window.gtag('consent', 'update', {
+    // gtag.js is loaded statically in <head> — just grant consent and init tracking
+    window.gtag?.('consent', 'update', {
       analytics_storage: 'granted',
       ad_storage: 'denied',
       ad_user_data: 'denied',
       ad_personalization: 'denied',
-    });
-
-    const script = document.createElement('script');
-    script.async = true;
-    script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
-    document.head.appendChild(script);
-
-    window.gtag('js', new Date());
-    window.gtag('config', GA_MEASUREMENT_ID, {
-      anonymize_ip: true,
-      send_page_view: true,
     });
 
     initAnalyticsTracking();
