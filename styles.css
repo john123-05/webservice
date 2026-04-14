@@ -769,9 +769,14 @@ ul {
 
 /* Services Grid */
 .services-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: center;
   gap: 20px;
+}
+
+.services-grid .service-card {
+  flex: 0 0 320px;
+  max-width: 360px;
 }
 
 .service-card {
