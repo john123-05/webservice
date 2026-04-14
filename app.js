@@ -134,87 +134,22 @@ const initCookieBanner = () => {
   const acceptButton = banner.querySelector('[data-cookie-accept]');
   const declineButton = banner.querySelector('[data-cookie-decline]');
   const manageButtons = document.querySelectorAll('[data-cookie-open]');
-  const GA_MEASUREMENT_ID = 'G-JWEQYND20F';
-
-  const initAnalyticsTracking = () => {
-    // Contact click tracking — nav CTA, hero button, section CTAs
-    document.querySelectorAll(
-      'a[href="anfrage.html"], a[href$="/anfrage.html"], a[href="#contact"], .nav-cta'
-    ).forEach((el) => {
-      el.addEventListener('click', () => {
-        window.gtag?.('event', 'contact_click', {
-          event_category: 'engagement',
-          event_label: (el.textContent?.trim() || el.getAttribute('href') || '').slice(0, 100),
-          page_path: window.location.pathname,
-        });
-      });
-    });
-
-    // Scroll depth milestones — 25 / 50 / 75 / 90 %
-    const scrollMilestones = [25, 50, 75, 90];
-    const reachedMilestones = new Set();
-
-    const trackScroll = () => {
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      if (!docHeight) return;
-      const pct = Math.round((window.scrollY / docHeight) * 100);
-      scrollMilestones.forEach((milestone) => {
-        if (pct >= milestone && !reachedMilestones.has(milestone)) {
-          reachedMilestones.add(milestone);
-          window.gtag?.('event', 'scroll_depth', {
-            event_category: 'engagement',
-            event_label: `${milestone}%`,
-            value: milestone,
-            page_path: window.location.pathname,
-          });
-        }
-      });
-    };
-
-    window.addEventListener('scroll', trackScroll, { passive: true });
-
-    // Time on page — fire at 30s, 60s, 2min, 5min
-    [30, 60, 120, 300].forEach((seconds) => {
-      setTimeout(() => {
-        if (document.visibilityState === 'hidden') return;
-        window.gtag?.('event', 'time_on_page', {
-          event_category: 'engagement',
-          event_label: `${seconds}s`,
-          value: seconds,
-          page_path: window.location.pathname,
-        });
-      }, seconds * 1000);
-    });
-  };
+  const GA_MEASUREMENT_ID = 'G-G20B10NL3Q';
 
   const loadAnalytics = () => {
     if (!GA_MEASUREMENT_ID || window.gtag) return;
-
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function gtag() {
-      window.dataLayer.push(arguments);
-    };
-
-    // Consent Mode v2 — grant analytics, keep ads denied
-    window.gtag('consent', 'update', {
-      analytics_storage: 'granted',
-      ad_storage: 'denied',
-      ad_user_data: 'denied',
-      ad_personalization: 'denied',
-    });
 
     const script = document.createElement('script');
     script.async = true;
     script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
     document.head.appendChild(script);
 
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function gtag() {
+      window.dataLayer.push(arguments);
+    };
     window.gtag('js', new Date());
-    window.gtag('config', GA_MEASUREMENT_ID, {
-      anonymize_ip: true,
-      send_page_view: true,
-    });
-
-    initAnalyticsTracking();
+    window.gtag('config', GA_MEASUREMENT_ID, { anonymize_ip: true });
   };
 
   const applyConsent = (consent) => {
