@@ -5,13 +5,14 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
 const distDir = join(rootDir, 'dist');
-const domain = 'https://webservice-studios.com';
+const domain = 'https://impress-rank.de';
 
 const copyTargets = [
   'styles.css',
   'app.js',
   'blog',
   'assets',
+  '_redirects',
 ];
 
 const excludedAssetNames = new Set([
@@ -110,7 +111,7 @@ Sitemap: ${domain}/sitemap.xml
 
 const llmsTxt = `# ${domain}
 
-> ${domain} ist die Website von Webservice.Studios.
+> ${domain} ist die Website von ImpressRank.
 
 Wichtige Themen:
 - Webdesign in Bielefeld
@@ -130,7 +131,9 @@ Wichtige Einstiegsseiten:
 - ${domain}/webdesign-bielefeld.html
 - ${domain}/website-erstellen-lassen-bielefeld.html
 - ${domain}/seo-bielefeld.html
+- ${domain}/seo-bad-salzuflen.html
 - ${domain}/online-marketing-bielefeld.html
+- ${domain}/online-marketing-bad-salzuflen.html
 - ${domain}/website-relaunch-bielefeld.html
 - ${domain}/local-seo-bielefeld.html
 - ${domain}/webentwicklung-bielefeld.html

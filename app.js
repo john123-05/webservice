@@ -571,6 +571,81 @@ const initAboutVideo = () => {
   updateVideoUi();
 };
 
+const initCalendlyModal = () => {
+  const modal = document.querySelector('[data-calendly-modal]');
+  const openButtons = document.querySelectorAll('[data-calendly-open]');
+  if (!modal || !openButtons.length) return;
+
+  const widgetContainer = modal.querySelector('[data-calendly-container]');
+  const closeButtons = modal.querySelectorAll('[data-calendly-close]');
+  let widgetLoaded = false;
+  let scriptPromise;
+
+  const loadCalendlyScript = () => {
+    if (window.Calendly) return Promise.resolve(window.Calendly);
+    if (scriptPromise) return scriptPromise;
+
+    scriptPromise = new Promise((resolve, reject) => {
+      const existing = document.querySelector('script[data-calendly-script]');
+      if (existing) {
+        existing.addEventListener('load', () => resolve(window.Calendly), { once: true });
+        existing.addEventListener('error', reject, { once: true });
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.src = 'https://assets.calendly.com/assets/external/widget.js';
+      script.async = true;
+      script.dataset.calendlyScript = 'true';
+      script.addEventListener('load', () => resolve(window.Calendly), { once: true });
+      script.addEventListener('error', reject, { once: true });
+      document.head.appendChild(script);
+    });
+
+    return scriptPromise;
+  };
+
+  const openModal = async () => {
+    modal.hidden = false;
+    document.body.style.overflow = 'hidden';
+
+    try {
+      await loadCalendlyScript();
+      if (!widgetLoaded && widgetContainer && window.Calendly) {
+        window.Calendly.initInlineWidget({
+          url: widgetContainer.dataset.url,
+          parentElement: widgetContainer,
+        });
+        widgetLoaded = true;
+      }
+    } catch (error) {
+      console.error('Calendly konnte nicht geladen werden.', error);
+    }
+  };
+
+  const closeModal = () => {
+    modal.hidden = true;
+    document.body.style.overflow = '';
+  };
+
+  openButtons.forEach((button) => {
+    button.addEventListener('click', (event) => {
+      event.preventDefault();
+      openModal();
+    });
+  });
+
+  closeButtons.forEach((button) => {
+    button.addEventListener('click', closeModal);
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !modal.hidden) {
+      closeModal();
+    }
+  });
+};
+
 initMenu();
 initLanguageSwitch();
 initCookieBanner();
@@ -578,6 +653,7 @@ initLeadForms();
 initSeoSwitcher();
 initDeferredInteractions();
 initAboutVideo();
+initCalendlyModal();
 
 // Scroll animations
 const initScrollAnimations = () => {

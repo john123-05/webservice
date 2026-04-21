@@ -1244,6 +1244,65 @@ ul {
   gap: 12px;
 }
 
+.modal[hidden] {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 24px 16px;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.72);
+}
+
+.modal-dialog {
+  position: relative;
+  z-index: 1;
+  width: min(960px, 100%);
+  max-height: min(90vh, 900px);
+  overflow: auto;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 32px 80px rgba(15, 23, 42, 0.28);
+}
+
+.modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 8px;
+  background: #f3f4f6;
+  color: var(--text);
+  font-size: 1.7rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.calendly-modal {
+  padding: 28px 20px 20px;
+}
+
+.calendly-modal-head {
+  margin-bottom: 12px;
+  padding-right: 48px;
+}
+
+.calendly-modal-head h2 {
+  margin-top: 8px;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -2942,5 +3001,16 @@ h2 {
   .cookie-banner__actions {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 781px) {
+  .modal {
+    align-items: center;
+    padding: 32px;
+  }
+
+  .calendly-modal {
+    padding: 32px 28px 28px;
   }
 }

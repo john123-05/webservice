@@ -13,7 +13,7 @@ from deep_translator import GoogleTranslator
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE_PATH = ROOT / "scripts" / ".translation-cache-en.json"
-DOMAIN = "https://webservice-studios.com"
+DOMAIN = "https://impress-rank.de"
 SKIP_DIRS = {"dist", "assets", ".git", "scripts"}
 SKIP_TRANSLATED_SUFFIX = "-en.html"
 TEXT_ATTRS = {"alt", "aria-label", "placeholder", "title"}
@@ -25,7 +25,7 @@ META_TRANSLATABLE = {
     ("property", "og:description"),
 }
 PROTECTED_TERMS = {
-    "Webservice.Studios": "__KEEP_BRAND__",
+    "ImpressRank": "__KEEP_BRAND__",
     "Bielefeld": "__KEEP_BIELEFELD__",
     "Bad Salzuflen": "__KEEP_BADSALZ__",
     "Gütersloh": "__KEEP_GUETERSLOH__",

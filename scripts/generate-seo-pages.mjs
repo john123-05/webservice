@@ -4,9 +4,19 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
-const domain = 'https://webservice-studios.com';
-const brand = 'Webservice.Studios';
-const supportEmail = 'kontakt@webservice-studios.com';
+const domain = 'https://impress-rank.de';
+const brand = 'ImpressRank';
+const supportEmail = 'kontakt@impress-rank.de';
+const supportStreet = 'Lehmkuhlstr. 18';
+const supportPostalCode = '32108';
+const supportCity = 'Bad Salzuflen';
+const supportAddress = `${supportStreet}, ${supportPostalCode} ${supportCity}`;
+const sameAs = [
+  'https://www.linkedin.com/company/impress-rank/',
+  'https://www.instagram.com/impress.rank',
+  'https://www.facebook.com/share/1ArUxL2xYM/',
+  'https://x.com/impress_rank',
+];
 
 const footer = `
     <footer class="footer">
@@ -31,7 +41,7 @@ const footer = `
           <h4>Kontakt</h4>
           <ul>
             <li>${brand}</li>
-            <li>Bielefeld &amp; OWL</li>
+            <li>${supportAddress}</li>
             <li><a href="mailto:${supportEmail}">${supportEmail}</a></li>
           </ul>
         </div>
@@ -59,11 +69,19 @@ const globalSchema = (title, description, path) => ({
   '@context': 'https://schema.org',
   '@graph': [
     {
-      '@type': 'Organization',
+      '@type': ['Organization', 'ProfessionalService'],
       '@id': `${domain}/#organization`,
       name: brand,
       url: domain,
       email: supportEmail,
+      sameAs,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: supportStreet,
+        postalCode: supportPostalCode,
+        addressLocality: supportCity,
+        addressCountry: 'DE',
+      },
       areaServed: [
         'Bielefeld',
         'Bad Salzuflen',
@@ -180,6 +198,36 @@ const renderPage = ({
 }) => {
   const schema = globalSchema(title, description, fileName);
   schema['@graph'].push({
+    '@type': 'Service',
+    '@id': `${makeCanonical(fileName)}#service`,
+    name: eyebrow,
+    serviceType: eyebrow,
+    description,
+    provider: {
+      '@id': `${domain}/#organization`,
+    },
+    areaServed: ['Bielefeld', 'Bad Salzuflen', 'OWL'],
+    url: makeCanonical(fileName),
+  });
+  schema['@graph'].push({
+    '@type': 'BreadcrumbList',
+    '@id': `${makeCanonical(fileName)}#breadcrumb`,
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: domain,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: eyebrow,
+        item: makeCanonical(fileName),
+      },
+    ],
+  });
+  schema['@graph'].push({
     '@type': 'FAQPage',
     '@id': `${makeCanonical(fileName)}#faq`,
     mainEntity: faq.map((entry) => ({
@@ -223,7 +271,7 @@ ${renderHeader(eyebrow, h1)}
               <h2>${relatedTitle}</h2>
               <p class="section-copy">
                 Diese Seiten helfen Suchmaschinen, AI-Systemen und lokalen Unternehmen schneller zu
-                verstehen, welche Leistungen ${brand} in Bielefeld und dem Umland anbietet.
+                verstehen, welche Leistungen ${brand} in Bielefeld, Bad Salzuflen und dem Umland anbietet.
               </p>
             </div>
           </div>
@@ -264,7 +312,7 @@ ${footer}
 const servicePages = [
   {
     fileName: 'leistungen.html',
-    title: 'Leistungen für Webdesign, SEO & Online Marketing in Bielefeld | Webservice.Studios',
+    title: 'Leistungen für Webdesign, SEO & Online Marketing in Bielefeld | ImpressRank',
     description: 'Übersicht über Webdesign, SEO, Online Marketing, Website erstellen lassen, Webentwicklung und Website-Relaunch für Unternehmen in Bielefeld und OWL.',
     eyebrow: 'Leistungen',
     h1: 'Leistungen für Websites, Sichtbarkeit und mehr Anfragen',
@@ -308,7 +356,7 @@ const servicePages = [
   },
   {
     fileName: 'standorte.html',
-    title: 'Standorte in Bielefeld & OWL | Webservice.Studios',
+    title: 'Standorte in Bielefeld & OWL | ImpressRank',
     description: 'Leistungen rund um Webdesign, SEO und Websites für Unternehmen in Bielefeld, Bad Salzuflen, Gütersloh, Detmold, Verl und weiteren Orten in OWL.',
     eyebrow: 'Standorte',
     h1: 'Standorte für Webdesign, SEO und Websites in OWL',
@@ -392,10 +440,10 @@ const servicePages = [
   },
   {
     fileName: 'seo-bielefeld.html',
-    title: 'SEO Bielefeld | Mehr Anfragen durch bessere Google Rankings',
-    description: 'SEO in Bielefeld für Unternehmen, die bei Google besser gefunden werden, höher ranken und mehr qualifizierte Anfragen gewinnen möchten.',
-    eyebrow: 'SEO Bielefeld',
-    h1: 'SEO in Bielefeld für Unternehmen, die über Google mehr Anfragen gewinnen wollen',
+    title: 'SEO Agentur Bielefeld | Mehr Anfragen durch bessere Google Rankings',
+    description: 'SEO Agentur in Bielefeld für Unternehmen, die bei Google besser gefunden werden, höher ranken und mehr qualifizierte Anfragen gewinnen möchten.',
+    eyebrow: 'SEO Agentur Bielefeld',
+    h1: 'SEO Agentur in Bielefeld für Unternehmen, die über Google mehr Anfragen gewinnen wollen',
     introTitle: 'Wenn die Website nicht sichtbar genug ist',
     introText: 'SEO in Bielefeld ist besonders dann relevant, wenn Ihre Website zwar online ist, aber bei Google zu wenig sichtbar bleibt oder aus Rankings zu wenig Anfragen entstehen.',
     points: ['Bessere Themen- und Seitenstruktur', 'Lokale Relevanz für Bielefeld und OWL', 'Stärkere Suchintention statt bloßer Keyword-Wiederholung', 'Mehr Sichtbarkeit für Unternehmen mit regionalem Fokus'],
@@ -404,6 +452,7 @@ const servicePages = [
     relatedTitle: 'SEO-nahe Seiten',
     relatedLinks: [
       { href: 'local-seo-bielefeld.html', title: 'Local SEO Bielefeld', text: 'Für regionale Rankings, Maps-Signale und lokale Nachfrage.' },
+      { href: 'seo-bad-salzuflen.html', title: 'SEO Bad Salzuflen', text: 'Für die zweite Kernregion mit lokalem Fokus auf Lippe.' },
       { href: 'website-wird-bei-google-nicht-gefunden.html', title: 'Website wird bei Google nicht gefunden', text: 'Problemseite für fehlende Sichtbarkeit und Rankings.' },
       { href: 'online-marketing-bielefeld.html', title: 'Online Marketing Bielefeld', text: 'Für die Verbindung aus Website, Reichweite und Nachfrage.' },
     ],
@@ -411,6 +460,37 @@ const servicePages = [
       { question: 'Wie schnell sieht man bei SEO Ergebnisse?', answer: 'Das hängt von Wettbewerb, Ausgangslage und Suchintention ab. Oft zeigen sich zuerst Verbesserungen bei Struktur, Sichtbarkeit und passenden Rankings, bevor daraus stabil mehr Anfragen entstehen.' },
       { question: 'Ist SEO nur für große Unternehmen sinnvoll?', answer: 'Nein. Gerade lokale Unternehmen profitieren von sauberem SEO, weil sie meist in klar umrissenen Märkten sichtbar werden wollen.' },
       { question: 'Braucht man dafür regelmäßig neue Inhalte?', answer: 'Nicht zwingend massenhaft. Häufig ist es wirksamer, die wichtigsten Leistungs- und Problemseiten sauber aufzubauen und intern gut zu verknüpfen.' },
+    ],
+  },
+  {
+    fileName: 'seo-bad-salzuflen.html',
+    title: 'SEO Bad Salzuflen | Mehr Sichtbarkeit und lokale Anfragen',
+    description: 'SEO in Bad Salzuflen für Unternehmen, die regional besser gefunden werden und aus Google mehr qualifizierte Anfragen gewinnen möchten.',
+    eyebrow: 'SEO Bad Salzuflen',
+    h1: 'SEO in Bad Salzuflen für Unternehmen, die lokal besser gefunden werden wollen',
+    introTitle: 'Wenn gute Angebote in Bad Salzuflen online zu wenig sichtbar sind',
+    introText: 'Viele lokale Unternehmen in Bad Salzuflen haben ein starkes Angebot, werden aber bei Google nicht für die passenden Suchanfragen gefunden. SEO sorgt dafür, dass Leistung, Region und Vertrauen klarer zusammenkommen.',
+    points: [
+      'Klarere Leistungsseiten für regionale Suchanfragen',
+      'Lokale Relevanz für Bad Salzuflen und Lippe',
+      'Saubere technische Grundlage für bessere Indexierung',
+      'Mehr qualifizierte Anfragen statt nur mehr Besucher',
+    ],
+    detailTitle: 'Wie SEO in Bad Salzuflen Wirkung entfaltet',
+    detailParagraphs: [
+      'Bad Salzuflen ist ein enger lokaler Markt. Suchmaschinen müssen schnell verstehen, welche Leistungen angeboten werden, für welche Zielgruppen sie relevant sind und warum ImpressRank lokal vertrauenswürdig ist.',
+      'Darum verbinden wir technische SEO-Grundlagen, klare Seitenstruktur, lokale Signale und anfrageorientierte Inhalte zu einem System.',
+    ],
+    relatedTitle: 'Passende Seiten für Bad Salzuflen',
+    relatedLinks: [
+      { href: 'online-marketing-bad-salzuflen.html', title: 'Marketing Agentur Bad Salzuflen', text: 'Die zentrale Seite für Sichtbarkeit, Positionierung und Anfragen in Bad Salzuflen.' },
+      { href: 'webdesign-bad-salzuflen.html', title: 'Webdesign Bad Salzuflen', text: 'Für Websites, die regional Vertrauen aufbauen und Anfragen besser führen.' },
+      { href: 'seo-bielefeld.html', title: 'SEO Bielefeld', text: 'Für die zweite Kernregion und größere Suchvolumina in OWL.' },
+    ],
+    faq: [
+      { question: 'Braucht SEO in Bad Salzuflen eine eigene Seite?', answer: 'Ja, für eine klare lokale Suchintention ist eine eigene Seite sinnvoll. So verstehen Suchmaschinen und Nutzer schneller, dass die Leistung gezielt auf Bad Salzuflen ausgerichtet ist.' },
+      { question: 'Reicht dafür nur ein Google Unternehmensprofil?', answer: 'Nein. Ein Google Unternehmensprofil hilft, aber eine starke Website mit klaren Leistungs- und Ortssignalen bleibt die Grundlage für nachhaltige Sichtbarkeit.' },
+      { question: 'Was ist in Bad Salzuflen wichtiger: Technik oder Inhalte?', answer: 'Beides gehört zusammen. Technik sorgt für saubere Indexierung, Inhalte und Struktur sorgen dafür, dass Leistung, Region und Vertrauen klar erkennbar sind.' },
     ],
   },
   {
@@ -474,7 +554,7 @@ const servicePages = [
     relatedLinks: [
       { href: 'seo-bielefeld.html', title: 'SEO Bielefeld', text: 'Für die breitere organische Sichtbarkeit.' },
       { href: 'standorte.html', title: 'Standorte in OWL', text: 'Für die regionale Seitenstruktur rund um Bielefeld.' },
-      { href: 'webdesign-bad-salzuflen.html', title: 'Webdesign Bad Salzuflen', text: 'Beispiel für eine gezielte regionale Standortseite.' },
+      { href: 'seo-bad-salzuflen.html', title: 'SEO Bad Salzuflen', text: 'Gezielte Service-Ort-Seite für die zweite Kernregion.' },
     ],
     faq: [
       { question: 'Ist Local SEO nur für Google Maps?', answer: 'Nein. Es geht generell um regionale Suchanfragen, also auch um organische Ergebnisse für Leistungen in einer bestimmten Stadt oder Region.' },
