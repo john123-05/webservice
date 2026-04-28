@@ -429,13 +429,13 @@ ul {
 }
 
 .trust-marquee {
-  margin-top: 24px;
+  margin-top: 42px;
   text-align: center;
 }
 
 .trust-marquee-label {
-  margin-bottom: 12px;
-  font-size: clamp(0.85rem, 1.4vw, 1rem);
+  margin-bottom: 24px;
+  font-size: clamp(1rem, 1.8vw, 1.25rem);
   font-weight: 700;
   color: #516579;
 }
@@ -459,12 +459,12 @@ ul {
 
 .trust-marquee-viewport::before {
   left: 0;
-  background: linear-gradient(90deg, #eef1f6 0%, rgba(238, 241, 246, 0) 100%);
+  background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .trust-marquee-viewport::after {
   right: 0;
-  background: linear-gradient(270deg, #eef1f6 0%, rgba(238, 241, 246, 0) 100%);
+  background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .trust-marquee-track {
@@ -479,21 +479,21 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 160px;
-  height: 64px;
-  padding: 4px 6px;
+  min-width: 240px;
+  height: 120px;
+  padding: 8px 6px;
 }
 
 .trust-logo-mark img {
   max-width: 100%;
-  max-height: 48px;
+  max-height: 82px;
   object-fit: contain;
   filter: grayscale(1) contrast(1.05);
   opacity: 0.7;
 }
 
 .trust-logo-mark--lift img {
-  max-height: 54px;
+  max-height: 94px;
 }
 
 .trust-marquee-note {
