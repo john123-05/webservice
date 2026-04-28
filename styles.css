@@ -163,13 +163,18 @@ ul {
 }
 
 .section-soft {
-  background: linear-gradient(180deg, #eff4f8, #f7f9fb);
+  background: linear-gradient(180deg, rgba(239, 244, 248, 0.88), rgba(247, 249, 251, 0.88));
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
 
+.section-soft--calendly-flow {
+  border-bottom: 0;
+  padding-bottom: 28px;
+}
+
 .section-accent {
-  background: linear-gradient(130deg, #ddf2ff, #eef3ff);
+  background: linear-gradient(130deg, rgba(221, 242, 255, 0.9), rgba(238, 243, 255, 0.9));
 }
 
 .eyebrow {
@@ -1478,6 +1483,26 @@ ul {
 
 .calendly-modal-head h2 {
   margin-top: 8px;
+}
+
+.calendly-showcase-section {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-top: 0;
+  background: transparent;
+  overflow: hidden;
+}
+
+.calendly-showcase {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.calendly-inline-widget--surface {
+  min-width: 320px;
+  height: 980px;
+  overflow: hidden;
 }
 
 .btn {
@@ -3178,6 +3203,15 @@ h2 {
   .cookie-banner__actions {
     width: 100%;
     flex-direction: column;
+  }
+
+  .calendly-showcase-section {
+    padding-top: 0;
+    padding-bottom: 28px;
+  }
+
+  .calendly-inline-widget--surface {
+    height: 860px;
   }
 }
 

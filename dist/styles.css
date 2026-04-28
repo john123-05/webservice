@@ -163,13 +163,18 @@ ul {
 }
 
 .section-soft {
-  background: linear-gradient(180deg, #eff4f8, #f7f9fb);
+  background: linear-gradient(180deg, rgba(239, 244, 248, 0.88), rgba(247, 249, 251, 0.88));
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
 
+.section-soft--calendly-flow {
+  border-bottom: 0;
+  padding-bottom: 28px;
+}
+
 .section-accent {
-  background: linear-gradient(130deg, #ddf2ff, #eef3ff);
+  background: linear-gradient(130deg, rgba(221, 242, 255, 0.9), rgba(238, 243, 255, 0.9));
 }
 
 .eyebrow {
@@ -424,13 +429,13 @@ ul {
 }
 
 .trust-marquee {
-  margin-top: 42px;
+  margin-top: 24px;
   text-align: center;
 }
 
 .trust-marquee-label {
-  margin-bottom: 24px;
-  font-size: clamp(1rem, 1.8vw, 1.25rem);
+  margin-bottom: 12px;
+  font-size: clamp(0.85rem, 1.4vw, 1rem);
   font-weight: 700;
   color: #516579;
 }
@@ -454,12 +459,12 @@ ul {
 
 .trust-marquee-viewport::before {
   left: 0;
-  background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(90deg, #eef1f6 0%, rgba(238, 241, 246, 0) 100%);
 }
 
 .trust-marquee-viewport::after {
   right: 0;
-  background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(270deg, #eef1f6 0%, rgba(238, 241, 246, 0) 100%);
 }
 
 .trust-marquee-track {
@@ -474,21 +479,21 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 240px;
-  height: 120px;
-  padding: 8px 6px;
+  min-width: 160px;
+  height: 64px;
+  padding: 4px 6px;
 }
 
 .trust-logo-mark img {
   max-width: 100%;
-  max-height: 82px;
+  max-height: 48px;
   object-fit: contain;
   filter: grayscale(1) contrast(1.05);
   opacity: 0.7;
 }
 
 .trust-logo-mark--lift img {
-  max-height: 94px;
+  max-height: 54px;
 }
 
 .trust-marquee-note {
@@ -1478,6 +1483,26 @@ ul {
 
 .calendly-modal-head h2 {
   margin-top: 8px;
+}
+
+.calendly-showcase-section {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-top: 0;
+  background: transparent;
+  overflow: hidden;
+}
+
+.calendly-showcase {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.calendly-inline-widget--surface {
+  min-width: 320px;
+  height: 980px;
+  overflow: hidden;
 }
 
 .btn {
@@ -3178,6 +3203,15 @@ h2 {
   .cookie-banner__actions {
     width: 100%;
     flex-direction: column;
+  }
+
+  .calendly-showcase-section {
+    padding-top: 0;
+    padding-bottom: 28px;
+  }
+
+  .calendly-inline-widget--surface {
+    height: 860px;
   }
 }
 
