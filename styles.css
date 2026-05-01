@@ -3390,12 +3390,12 @@ h2 {
 }
 
 .lc-location-pill {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 7px;
   font-size: 0.82rem;
   color: var(--muted);
-  margin: 0 0 18px;
+  margin: 0 0 14px;
   min-height: 1.2em;
 }
 
