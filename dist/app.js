@@ -253,6 +253,7 @@ const initLeadForms = () => {
       };
 
   const webhookUrl = 'https://hook.eu2.make.com/y5jbf5tppgs3e9gfiyuwtol7bx9nxnr6';
+  const analysisWebhookUrl = 'https://hook.eu2.make.com/voi2ztpfhfwloym9exphw29rmn2dju3f';
   const normalizeUrl = (value) => {
     const trimmed = value.trim();
     if (!trimmed) return '';
@@ -284,6 +285,12 @@ const initLeadForms = () => {
       }
       payload.page = window.location.pathname;
       payload.source = form.dataset.formSource || 'website';
+      payload.timestamp = new Date().toISOString();
+      payload.angemeldet = 'ja';
+
+      const target = (form.dataset.formSource || '').startsWith('3-tipps')
+        ? analysisWebhookUrl
+        : webhookUrl;
 
       status.textContent = messages.sending;
       status.dataset.state = 'loading';
@@ -292,7 +299,7 @@ const initLeadForms = () => {
       if (submitButton) submitButton.textContent = messages.sending;
 
       try {
-        const response = await fetch(webhookUrl, {
+        const response = await fetch(target, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -753,6 +760,21 @@ const initSubscribeForm = () => {
   });
 };
 initSubscribeForm();
+
+// LC location pill
+const initLocationPill = () => {
+  const pill = document.getElementById('lc-location');
+  if (!pill) return;
+  fetch('https://ipapi.co/json/')
+    .then(r => r.json())
+    .then(data => {
+      if (data.city) {
+        pill.textContent = `${data.city}, ${data.country_name}`;
+      }
+    })
+    .catch(() => {});
+};
+initLocationPill();
 
 // LC header shrink on scroll
 const lcHeader = document.querySelector('.lc-header');
