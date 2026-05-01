@@ -680,7 +680,7 @@ initCalendlyModal();
 // Scroll animations
 const initScrollAnimations = () => {
   const targets = document.querySelectorAll(
-    '.service-card, .diff-card, .option-card, .compare-card, .seo-step, .ads-card, .faq-item, .home-problem-lead, .home-problem-sub, .home-problem-question, .diff-with-image, .section-question'
+    '.service-card, .diff-card, .option-card, .compare-card, .seo-step, .ads-card, .faq-item, .home-problem-lead, .home-problem-sub, .home-problem-question, .diff-with-image, .section-question, .lc-faq-item, .lc-who-card, .lc-tips-card, .lc-reveal'
   );
 
   if (!targets.length) return;
@@ -708,3 +708,58 @@ const initScrollAnimations = () => {
 };
 
 initScrollAnimations();
+
+// LC newsletter subscribe form
+const initSubscribeForm = () => {
+  const form = document.querySelector('.lc-subscribe-form');
+  if (!form) return;
+
+  const webhookUrl = 'https://hook.eu2.make.com/py853sy75xwacg5chb32gtk0i3cyt48a';
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const btn = form.querySelector('button[type="submit"]');
+    const originalLabel = btn?.textContent;
+    if (btn) btn.disabled = true;
+
+    const payload = {
+      email: form.querySelector('input[name="email"]')?.value,
+      source: form.dataset.formSource || 'newsletter',
+      page: window.location.pathname,
+      angemeldet: 'ja',
+      timestamp: new Date().toISOString(),
+    };
+
+    try {
+      await fetch(webhookUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+    } catch (_) {}
+
+    // Show confirmation regardless of network result
+    const thanks = document.getElementById('lc-thanks');
+    if (thanks) {
+      // Hide all other main sections
+      document.querySelectorAll('main > section, main > div').forEach(el => {
+        if (el !== thanks) el.hidden = true;
+      });
+      thanks.hidden = false;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    if (btn) { btn.disabled = false; if (originalLabel) btn.textContent = originalLabel; }
+  });
+};
+initSubscribeForm();
+
+// LC header shrink on scroll
+const lcHeader = document.querySelector('.lc-header');
+if (lcHeader) {
+  const onLcScroll = () => {
+    lcHeader.classList.toggle('lc-header--scrolled', window.scrollY > 60);
+  };
+  window.addEventListener('scroll', onLcScroll, { passive: true });
+  onLcScroll();
+}
