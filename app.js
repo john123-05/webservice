@@ -761,6 +761,21 @@ const initSubscribeForm = () => {
 };
 initSubscribeForm();
 
+// LC location pill
+const initLocationPill = () => {
+  const pill = document.getElementById('lc-location');
+  if (!pill) return;
+  fetch('https://ipapi.co/json/')
+    .then(r => r.json())
+    .then(data => {
+      if (data.city) {
+        pill.textContent = `${data.city}, ${data.country_name}`;
+      }
+    })
+    .catch(() => {});
+};
+initLocationPill();
+
 // LC header shrink on scroll
 const lcHeader = document.querySelector('.lc-header');
 if (lcHeader) {
