@@ -1071,15 +1071,30 @@ ul {
 
 .service-card h3 {
   font-size: 1.05rem;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   color: var(--text);
+}
+
+.service-card-img {
+  display: block;
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.service-tagline {
+  font-size: 0.88rem;
+  color: var(--primary);
+  font-style: italic;
+  font-weight: 500;
 }
 
 .service-card p {
   font-size: 0.9rem;
   color: var(--muted);
   line-height: 1.6;
-  flex: 1;
+  margin-top: auto;
 }
 
 .service-link {
@@ -1453,6 +1468,24 @@ ul {
   line-height: 1.05;
   letter-spacing: -0.03em;
   max-width: 760px;
+}
+
+.hero-underline-wrap {
+  display: inline-block;
+  position: relative;
+}
+
+.hero-underline {
+  display: block;
+  width: 100%;
+  height: 18px;
+  object-fit: fill;
+  margin-top: 2px;
+}
+
+.hero-bielefeld {
+  display: inline-block;
+  margin-top: 12px;
 }
 
 .hero-highlight {
