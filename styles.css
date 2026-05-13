@@ -451,8 +451,27 @@ ul {
 
 .option-card {
   border-radius: 16px;
-  padding: 28px;
+  padding: 16px 28px 28px;
   box-shadow: var(--shadow);
+}
+
+.option-card-img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center 60%;
+  margin-bottom: -40px;
+}
+
+.option-card:nth-child(2) .option-card-img {
+  object-position: center 40%;
+}
+
+.option-card:nth-child(3) .option-card-img {
+  object-position: center 55%;
+  transform: scale(1.2);
+  transform-origin: center 55%;
 }
 
 .option-card h3 {
@@ -460,18 +479,19 @@ ul {
   font-weight: 800;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  margin-bottom: 14px;
+  margin-bottom: 6px;
+  text-align: center;
 }
 
 .option-card p {
   font-size: 0.95rem;
   color: var(--muted);
-  margin-top: 8px;
+  margin-top: 4px;
+  text-align: center;
 }
 
 .option-card--bad {
   background: #fff6f6;
-  border: 1.5px solid #f5c6c6;
 }
 
 .option-card--bad h3 {
@@ -498,23 +518,7 @@ ul {
 
 .trust-marquee-viewport::before,
 .trust-marquee-viewport::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 72px;
-  z-index: 1;
-  pointer-events: none;
-}
-
-.trust-marquee-viewport::before {
-  left: 0;
-  background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
-}
-
-.trust-marquee-viewport::after {
-  right: 0;
-  background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  display: none;
 }
 
 .trust-marquee-track {
@@ -586,7 +590,7 @@ ul {
     transform: translateX(0);
   }
   to {
-    transform: translateX(calc(-50% - 9px));
+    transform: translateX(calc(-50% - 12px));
   }
 }
 
@@ -609,8 +613,35 @@ ul {
   background: var(--surface);
   border: 1px solid #dce6f0;
   border-radius: 16px;
-  padding: 28px;
+  padding: 18px;
   box-shadow: var(--shadow);
+}
+
+.diff-card-img-wrap {
+  height: 110px;
+  overflow: visible;
+  margin-top: 55px;
+}
+
+.diff-card-img {
+  width: 100%;
+  height: 90px;
+  object-fit: contain;
+  object-position: center center;
+  transform: scale(1.5);
+  transform-origin: center 70%;
+}
+
+.diff-card-img--verbindlich {
+  object-fit: contain;
+  object-position: center center;
+  transform: none;
+  height: 90px;
+}
+
+.diff-card:nth-child(1) .diff-card-img-wrap {
+  height: 80px;
+  margin-top: -20px;
 }
 
 .diff-label {
