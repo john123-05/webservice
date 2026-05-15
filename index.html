@@ -110,6 +110,26 @@
   </head>
   <body>
     <div class="site-wrap">
+      <nav class="nav">
+        <a class="brand" href="/"><img src="assets/logo-cropped.png" alt="ImpressRank" class="brand-logo" /></a>
+        <button class="menu-toggle" type="button" aria-label="Navigation öffnen" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a class="active" href="/">Home</a></li>
+          <li class="nav-dropdown">
+            <a href="#">Services</a>
+            <div class="nav-dropdown-wrap"><ul class="nav-dropdown-menu">
+                <li><a href="webdesign.html">Websites / Webdesign</a></li>
+                <li><a href="seo.html">SEO</a></li>
+                <li><a href="anzeigen.html">Google & Meta Ads</a></li>
+              </ul></div>
+            </li>
+          <li><a href="projekte.html">Projekte</a></li>
+          <li><a href="ressourcen.html">Ressourcen</a></li>
+          <li><a class="nav-cta" href="anfrage.html">Kontakt</a></li>
+        </ul>
+      </nav>
       <header class="hero-area" id="top">
         <div class="hero-showcase" aria-hidden="true">
           <div class="hero-showcase-grid">
@@ -224,27 +244,6 @@
           </div>
         </div>
         <div class="container">
-          <nav class="nav">
-            <a class="brand" href="/"><img src="assets/digital.png" alt="ImpressRank" class="brand-logo" /></a>
-            <button class="menu-toggle" type="button" aria-label="Navigation öffnen" aria-expanded="false">
-              <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-links">
-              <li><a class="active" href="/">Home</a></li>
-              <li class="nav-dropdown">
-                <a href="#">Service</a>
-                <ul class="nav-dropdown-menu">
-                  <li><a href="webdesign.html">Websites / Webdesign</a></li>
-                  <li><a href="seo.html">SEO</a></li>
-                  <li><a href="anzeigen.html">Google & Meta Ads</a></li>
-                </ul>
-              </li>
-              <li><a href="projekte.html">Projekte</a></li>
-              <li><a href="ressourcen.html">Ressourcen</a></li>
-            <li><a class="nav-cta" href="anfrage.html">Kontakt</a></li>
-            </ul>
-          </nav>
-
           <section class="hero-grid">
             <div class="hero-copy">
               <p class="eyebrow">Marketing Büro Bielefeld</p>
@@ -648,6 +647,7 @@
     <script>
       const months = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
       document.getElementById('current-month').textContent = months[new Date().getMonth()];
+
     </script>
   </body>
 </html>
