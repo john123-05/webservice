@@ -4213,3 +4213,180 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
+/* ---- SEO Before/After Card ---- */
+.seo-ba-card {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #dce6f0;
+  box-shadow: 0 12px 40px rgba(17, 35, 67, 0.08);
+  background: var(--surface);
+  min-height: 380px;
+}
+
+.seo-ba-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 32px 28px;
+  background: var(--surface);
+  border-right: 1px solid #e8eef5;
+}
+
+.seo-ba-tabs {
+  display: flex;
+  gap: 8px;
+  background: #f0f4f9;
+  border-radius: 999px;
+  padding: 4px;
+  width: fit-content;
+}
+
+.seo-ba-tab {
+  background: transparent;
+  border: none;
+  border-radius: 999px;
+  padding: 6px 20px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+}
+
+.seo-ba-tab--active {
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 2px 8px rgba(17, 35, 67, 0.12);
+}
+
+.seo-ba-company {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #f5f8fc;
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.seo-ba-company-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: #1a2a4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.seo-ba-company strong {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.seo-ba-company small {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.seo-ba-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.seo-ba-stat-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.88rem;
+  color: var(--text);
+}
+
+.seo-ba-badge {
+  font-weight: 700;
+  font-size: 0.82rem;
+  padding: 3px 12px;
+  border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.seo-ba-badge--red {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.seo-ba-badge--green {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.seo-ba-right {
+  position: relative;
+  overflow: hidden;
+  background: #f0f4f9;
+}
+
+.seo-ba-map {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: stretch;
+}
+
+.seo-ba-map img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.seo-ba-dot-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 6px;
+  padding: 24px;
+  width: 100%;
+  align-content: center;
+}
+
+.seo-ba-dot-grid span {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.seo-ba-dot-grid--red span {
+  background: #ef4444;
+}
+
+@media (max-width: 780px) {
+  .seo-ba-card {
+    grid-template-columns: 1fr;
+    min-height: unset;
+  }
+
+  .seo-ba-right {
+    position: relative;
+    min-height: 280px;
+  }
+
+  .seo-ba-left {
+    border-right: none;
+    border-bottom: 1px solid #e8eef5;
+    padding: 24px 20px;
+  }
+}
