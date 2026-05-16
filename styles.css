@@ -827,6 +827,41 @@ ul {
   margin-bottom: 12px;
 }
 
+.seo-advantage-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.seo-advantage-card {
+  background: var(--surface);
+  border: 1px solid #dce6f0;
+  border-radius: 16px;
+  padding: 28px 24px;
+  box-shadow: var(--shadow);
+}
+
+.seo-advantage-icon {
+  width: 36px;
+  height: 36px;
+  color: var(--primary);
+  margin-bottom: 16px;
+  display: block;
+}
+
+.seo-advantage-card p:last-child {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 780px) {
+  .seo-advantage-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .seo-before-after {
   max-width: 960px;
   margin: 0 auto;
