@@ -341,7 +341,7 @@ const initSeoSwitcher = () => {
   const setActive = (target) => {
     tabs.forEach((tab) => {
       const active = tab.dataset.seoTab === target;
-      tab.classList.toggle('seo-tab--active', active);
+      tab.classList.toggle('seo-ba-tab--active', active);
       tab.setAttribute('aria-selected', active ? 'true' : 'false');
     });
 
