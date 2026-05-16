@@ -4346,9 +4346,11 @@ h2 {
 }
 
 .seo-ba-map img {
-  width: 100%;
+  width: calc(100% - 24px);
   height: auto;
   display: block;
+  margin: 12px;
+  border-radius: 10px;
 }
 
 .seo-ba-dot-grid {
