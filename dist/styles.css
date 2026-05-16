@@ -827,6 +827,41 @@ ul {
   margin-bottom: 12px;
 }
 
+.seo-advantage-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.seo-advantage-card {
+  background: var(--surface);
+  border: 1px solid #dce6f0;
+  border-radius: 16px;
+  padding: 28px 24px;
+  box-shadow: var(--shadow);
+}
+
+.seo-advantage-icon {
+  width: 36px;
+  height: 36px;
+  color: var(--primary);
+  margin-bottom: 16px;
+  display: block;
+}
+
+.seo-advantage-card p:last-child {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 780px) {
+  .seo-advantage-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .seo-before-after {
   max-width: 960px;
   margin: 0 auto;
@@ -1611,6 +1646,15 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+
+.hero-guaranteed {
+  margin-top: 28px;
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
 
 .hero-actions {
   margin-top: 28px;
@@ -3855,7 +3899,6 @@ h2 {
 
 .lc-tips-title-italic {
   font-style: italic;
-  font-family: 'Cormorant Garamond', Georgia, serif;
   font-weight: 700;
 }
 
@@ -4176,5 +4219,217 @@ h2 {
 
   .lc-field-row-2 {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ---- SEO Before/After Card ---- */
+.seo-ba-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #dce6f0;
+  box-shadow: 0 8px 28px rgba(17, 35, 67, 0.08);
+  background: var(--surface);
+  max-width: 1032px;
+  margin: 0 auto;
+}
+
+.seo-ba-left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 36px 30px;
+  background: var(--surface);
+  border-right: 1px solid #e8eef5;
+}
+
+.seo-ba-tabs {
+  display: flex;
+  gap: 4px;
+  background: #f0f4f9;
+  border-radius: 999px;
+  padding: 4px;
+  width: fit-content;
+}
+
+.seo-ba-tab {
+  background: transparent;
+  border: none;
+  border-radius: 999px;
+  padding: 5px 17px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+}
+
+.seo-ba-tab--active {
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 2px 6px rgba(17, 35, 67, 0.12);
+}
+
+.seo-ba-company {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f5f8fc;
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.seo-ba-company-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 7px;
+  background: #1a2a4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.seo-ba-company strong {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.seo-ba-company small {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.seo-ba-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 12px;
+}
+
+.seo-ba-stat-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: var(--text);
+  padding-top: 18px;
+  border-top: 1px solid #eef2f7;
+}
+
+.seo-ba-stat-row:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+
+.seo-ba-badge {
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 3px 11px;
+  border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.seo-ba-badge--red {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.seo-ba-badge--green {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.seo-ba-right {
+  overflow: hidden;
+  background: #f0f4f9;
+  display: flex;
+  align-items: center;
+}
+
+.seo-ba-map {
+  width: 100%;
+}
+
+.seo-ba-map[hidden] {
+  display: none;
+}
+
+.seo-ba-map img {
+  width: calc(100% - 48px);
+  height: auto;
+  display: block;
+  margin: 24px;
+  border-radius: 10px;
+}
+
+.seo-ba-dot-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 6px;
+  padding: 24px;
+  width: 100%;
+  align-content: center;
+}
+
+.seo-ba-dot-grid span {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.seo-ba-dot-grid--red span {
+  background: #ef4444;
+}
+
+@media (max-width: 780px) {
+  .seo-ba-card {
+    grid-template-columns: 1fr;
+    min-height: unset;
+  }
+
+  .seo-ba-right {
+    min-height: unset;
+  }
+
+  .seo-ba-left {
+    border-right: none;
+    border-bottom: 1px solid #e8eef5;
+    padding: 20px 16px;
+    gap: 14px;
+  }
+
+  .seo-ba-tab {
+    padding: 4px 12px;
+    font-size: 0.82rem;
+  }
+
+  .seo-ba-stat-row {
+    font-size: 0.85rem;
+  }
+
+  .seo-ba-badge {
+    font-size: 0.78rem;
+    padding: 2px 8px;
+  }
+
+  .hero-guaranteed {
+    margin-top: 14px;
+    font-size: clamp(1rem, 4.5vw, 1.4rem);
+  }
+
+  .hero-trust {
+    margin-top: 12px;
   }
 }
