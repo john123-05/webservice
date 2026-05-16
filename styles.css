@@ -4406,6 +4406,30 @@ h2 {
   .seo-ba-left {
     border-right: none;
     border-bottom: 1px solid #e8eef5;
-    padding: 24px 20px;
+    padding: 20px 16px;
+    gap: 14px;
+  }
+
+  .seo-ba-tab {
+    padding: 4px 12px;
+    font-size: 0.82rem;
+  }
+
+  .seo-ba-stat-row {
+    font-size: 0.85rem;
+  }
+
+  .seo-ba-badge {
+    font-size: 0.78rem;
+    padding: 2px 8px;
+  }
+
+  .hero-guaranteed {
+    margin-top: 14px;
+    font-size: clamp(1rem, 4.5vw, 1.4rem);
+  }
+
+  .hero-trust {
+    margin-top: 12px;
   }
 }
