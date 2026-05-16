@@ -4223,15 +4223,15 @@ h2 {
   border: 1px solid #dce6f0;
   box-shadow: 0 8px 28px rgba(17, 35, 67, 0.08);
   background: var(--surface);
-  max-width: 700px;
+  max-width: 860px;
   margin: 0 auto;
 }
 
 .seo-ba-left {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  padding: 20px 18px;
+  gap: 16px;
+  padding: 26px 22px;
   background: var(--surface);
   border-right: 1px solid #e8eef5;
 }
