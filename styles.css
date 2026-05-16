@@ -4223,7 +4223,6 @@ h2 {
   border: 1px solid #dce6f0;
   box-shadow: 0 12px 40px rgba(17, 35, 67, 0.08);
   background: var(--surface);
-  min-height: 380px;
 }
 
 .seo-ba-left {
@@ -4330,16 +4329,14 @@ h2 {
 }
 
 .seo-ba-right {
-  position: relative;
   overflow: hidden;
   background: #f0f4f9;
+  display: flex;
+  align-items: center;
 }
 
 .seo-ba-map {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: stretch;
+  width: 100%;
 }
 
 .seo-ba-map[hidden] {
@@ -4348,8 +4345,7 @@ h2 {
 
 .seo-ba-map img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   display: block;
 }
 
@@ -4384,8 +4380,7 @@ h2 {
   }
 
   .seo-ba-right {
-    position: relative;
-    min-height: 280px;
+    min-height: unset;
   }
 
   .seo-ba-left {
