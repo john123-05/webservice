@@ -4299,7 +4299,7 @@ h2 {
 .seo-ba-stats {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 18px;
 }
 
 .seo-ba-stat-row {
@@ -4309,6 +4309,13 @@ h2 {
   gap: 8px;
   font-size: 0.95rem;
   color: var(--text);
+  padding-top: 18px;
+  border-top: 1px solid #eef2f7;
+}
+
+.seo-ba-stat-row:first-child {
+  padding-top: 0;
+  border-top: none;
 }
 
 .seo-ba-badge {
