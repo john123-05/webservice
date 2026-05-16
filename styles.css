@@ -4342,6 +4342,10 @@ h2 {
   align-items: stretch;
 }
 
+.seo-ba-map[hidden] {
+  display: none;
+}
+
 .seo-ba-map img {
   width: 100%;
   height: 100%;
