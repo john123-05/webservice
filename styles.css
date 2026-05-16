@@ -1651,7 +1651,7 @@ ul {
   margin-top: 28px;
   font-size: clamp(1.15rem, 2vw, 1.5rem);
   font-weight: 700;
-  color: var(--primary);
+  color: var(--text);
   letter-spacing: -0.01em;
 }
 
