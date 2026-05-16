@@ -1647,6 +1647,14 @@ ul {
   margin-right: auto;
 }
 
+.hero-guaranteed {
+  margin-top: 28px;
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  font-weight: 700;
+  color: var(--primary);
+  letter-spacing: -0.01em;
+}
+
 .hero-actions {
   margin-top: 28px;
   display: flex;
