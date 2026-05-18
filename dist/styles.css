@@ -1587,7 +1587,8 @@ ul {
   max-width: 760px;
 }
 
-.hero-copy h1.eyebrow {
+.hero-copy h1.eyebrow,
+.subpage-title h1.eyebrow {
   font-size: 0.82rem;
   line-height: 1;
   letter-spacing: 0.02em;
@@ -2925,12 +2926,14 @@ h2 {
   margin: 28px 0 16px;
 }
 
-.subpage-title h1 {
+.subpage-title h1,
+.subpage-h2 {
   margin-top: 10px;
   font-size: clamp(1.95rem, 4vw, 2.9rem);
   line-height: 1.08;
   letter-spacing: -0.03em;
   max-width: 840px;
+  font-weight: 800;
 }
 
 .subpage-lead {
