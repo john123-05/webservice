@@ -88,7 +88,8 @@
     animation: fadeUp 0.6s ease both;
     animation-delay: 0.1s;
   }
-  .hero-copy h1 {
+  .hero-copy h1,
+  .hero-main-heading {
     animation: fadeUp 0.6s ease both;
     animation-delay: 0.2s;
   }
@@ -241,6 +242,8 @@ ul {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   width: fit-content;
+  line-height: 1;
+  margin: 0;
 }
 
 .nav {
@@ -1582,6 +1585,23 @@ ul {
   line-height: 1.05;
   letter-spacing: -0.03em;
   max-width: 760px;
+}
+
+.hero-copy h1.eyebrow {
+  font-size: 0.82rem;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  margin-top: 0;
+  max-width: fit-content;
+}
+
+.hero-main-heading {
+  margin-top: 16px;
+  font-size: clamp(2rem, 4.2vw, 3.25rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  max-width: 760px;
+  font-weight: 800;
 }
 
 .hero-underline-wrap {
