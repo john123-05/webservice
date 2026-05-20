@@ -187,6 +187,15 @@ const initCookieBanner = () => {
     });
   };
 
+  const loadClarity = () => {
+    if (window.clarity) return;
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, 'clarity', 'script', 'wu351o84oe');
+  };
+
   const loadAnalytics = () => {
     // gtag.js is loaded statically in <head> — just grant consent and init tracking
     window.gtag?.('consent', 'update', {
@@ -196,6 +205,7 @@ const initCookieBanner = () => {
       ad_personalization: 'denied',
     });
 
+    loadClarity();
     initAnalyticsTracking();
   };
 
