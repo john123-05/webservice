@@ -213,15 +213,18 @@ const initCookieBanner = () => {
     if (consent === 'accepted') {
       loadAnalytics();
       banner.hidden = true;
+      document.body.style.overflow = '';
       return;
     }
 
     if (consent === 'declined') {
       banner.hidden = true;
+      document.body.style.overflow = '';
       return;
     }
 
     banner.hidden = false;
+    document.body.style.overflow = 'hidden';
   };
 
   const storedConsent = window.localStorage.getItem(storageKey);

@@ -3159,43 +3159,49 @@ h2 {
 
 .cookie-banner {
   position: fixed;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  z-index: 50;
+  inset: 0;
+  z-index: 9999;
   display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 18px;
-  padding: 18px;
-  border-radius: 18px;
-  border: 1px solid #c9d8f1;
-  background: rgba(255, 255, 255, 0.98);
-  box-shadow: 0 20px 44px rgba(16, 36, 65, 0.16);
-  backdrop-filter: blur(10px);
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(10, 25, 47, 0.62);
+  backdrop-filter: blur(3px);
 }
 
 .cookie-banner[hidden] {
   display: none;
 }
 
+.cookie-banner__modal {
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #c9d8f1;
+  box-shadow: 0 24px 60px rgba(16, 36, 65, 0.22);
+  padding: 36px 40px;
+  max-width: 520px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .cookie-banner__copy strong {
   display: block;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #163555;
 }
 
 .cookie-banner__copy p {
-  margin-top: 6px;
-  max-width: 62ch;
+  margin-top: 8px;
   color: #48627e;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 .cookie-banner__actions {
   display: flex;
   gap: 10px;
-  flex: 0 0 auto;
 }
 
 @media (max-width: 1000px) {
@@ -3476,11 +3482,27 @@ h2 {
   }
 
   .cookie-banner {
+    inset: auto;
     left: 14px;
     right: 14px;
     bottom: 14px;
-    flex-direction: column;
+    background: rgba(255, 255, 255, 0.98);
+    border-radius: 18px;
+    border: 1px solid #c9d8f1;
+    box-shadow: 0 20px 44px rgba(16, 36, 65, 0.16);
+    backdrop-filter: blur(10px);
+    padding: 18px;
     align-items: stretch;
+  }
+
+  .cookie-banner__modal {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    max-width: none;
+    gap: 14px;
   }
 
   .cookie-banner__actions {
