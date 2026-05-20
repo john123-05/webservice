@@ -3173,18 +3173,38 @@ h2 {
 }
 
 .cookie-banner__modal {
+  position: relative;
   background: #0e1d30;
   border-radius: 4px;
   border-top: 3px solid #3b7bf6;
   border-left: 1px solid rgba(255, 255, 255, 0.07);
   border-right: 1px solid rgba(255, 255, 255, 0.07);
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-  padding: 32px 36px;
-  max-width: 480px;
+  padding: 36px 44px;
+  max-width: 560px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 24px;
+}
+
+.cookie-banner__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 2px;
+  transition: color 0.15s;
+}
+
+.cookie-banner__close:hover {
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .cookie-banner__copy strong {

@@ -132,7 +132,7 @@ const initCookieBanner = () => {
 
   const storageKey = 'webservice_cookie_consent';
   const acceptButton = banner.querySelector('[data-cookie-accept]');
-  const declineButton = banner.querySelector('[data-cookie-decline]');
+  const declineButtons = banner.querySelectorAll('[data-cookie-decline]');
   const manageButtons = document.querySelectorAll('[data-cookie-open]');
   const GA_MEASUREMENT_ID = 'G-JWEQYND20F';
 
@@ -213,31 +213,34 @@ const initCookieBanner = () => {
     if (consent === 'accepted') {
       loadAnalytics();
       banner.hidden = true;
-      document.body.style.overflow = '';
       return;
     }
 
     if (consent === 'declined') {
       banner.hidden = true;
-      document.body.style.overflow = '';
       return;
     }
 
     banner.hidden = false;
-    document.body.style.overflow = 'hidden';
   };
 
   const storedConsent = window.localStorage.getItem(storageKey);
-  applyConsent(storedConsent);
+  if (storedConsent) {
+    applyConsent(storedConsent);
+  } else {
+    setTimeout(() => applyConsent(null), 1500);
+  }
 
   acceptButton?.addEventListener('click', () => {
     window.localStorage.setItem(storageKey, 'accepted');
     applyConsent('accepted');
   });
 
-  declineButton?.addEventListener('click', () => {
-    window.localStorage.setItem(storageKey, 'declined');
-    applyConsent('declined');
+  declineButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      window.localStorage.setItem(storageKey, 'declined');
+      applyConsent('declined');
+    });
   });
 
   manageButtons.forEach((button) => {
