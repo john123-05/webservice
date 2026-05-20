@@ -132,7 +132,7 @@ const initCookieBanner = () => {
 
   const storageKey = 'webservice_cookie_consent';
   const acceptButton = banner.querySelector('[data-cookie-accept]');
-  const declineButton = banner.querySelector('[data-cookie-decline]');
+  const declineButtons = banner.querySelectorAll('[data-cookie-decline]');
   const manageButtons = document.querySelectorAll('[data-cookie-open]');
   const GA_MEASUREMENT_ID = 'G-JWEQYND20F';
 
@@ -187,6 +187,15 @@ const initCookieBanner = () => {
     });
   };
 
+  const loadClarity = () => {
+    if (window.clarity) return;
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, 'clarity', 'script', 'wu351o84oe');
+  };
+
   const loadAnalytics = () => {
     // gtag.js is loaded statically in <head> — just grant consent and init tracking
     window.gtag?.('consent', 'update', {
@@ -196,6 +205,7 @@ const initCookieBanner = () => {
       ad_personalization: 'denied',
     });
 
+    loadClarity();
     initAnalyticsTracking();
   };
 
@@ -215,16 +225,22 @@ const initCookieBanner = () => {
   };
 
   const storedConsent = window.localStorage.getItem(storageKey);
-  applyConsent(storedConsent);
+  if (storedConsent) {
+    applyConsent(storedConsent);
+  } else {
+    setTimeout(() => applyConsent(null), 1500);
+  }
 
   acceptButton?.addEventListener('click', () => {
     window.localStorage.setItem(storageKey, 'accepted');
     applyConsent('accepted');
   });
 
-  declineButton?.addEventListener('click', () => {
-    window.localStorage.setItem(storageKey, 'declined');
-    applyConsent('declined');
+  declineButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      window.localStorage.setItem(storageKey, 'declined');
+      applyConsent('declined');
+    });
   });
 
   manageButtons.forEach((button) => {
