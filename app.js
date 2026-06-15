@@ -209,26 +209,32 @@ const initCookieBanner = () => {
     initAnalyticsTracking();
   };
 
+  const reopenBtn = document.querySelector('[data-cookie-open]');
+
   const applyConsent = (consent) => {
     if (consent === 'accepted') {
       loadAnalytics();
       banner.hidden = true;
+      if (reopenBtn) reopenBtn.hidden = false;
       return;
     }
 
     if (consent === 'declined') {
       banner.hidden = true;
+      if (reopenBtn) reopenBtn.hidden = false;
       return;
     }
 
     banner.hidden = false;
+    if (reopenBtn) reopenBtn.hidden = true;
   };
+
 
   const storedConsent = window.localStorage.getItem(storageKey);
   if (storedConsent) {
     applyConsent(storedConsent);
   } else {
-    setTimeout(() => applyConsent(null), 1500);
+    applyConsent(null);
   }
 
   acceptButton?.addEventListener('click', () => {
