@@ -1315,62 +1315,93 @@ ul {
 }
 
 .diff-orbit-wrap {
-  display: flex;
-  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .diff-orbit {
   position: relative;
-  width: 700px;
-  height: 520px;
+  width: 100%;
+  height: 420px;
 }
 
-.diff-orbit::before {
-  content: "";
+.diff-orbit-arc {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 320px;
-  height: 320px;
-  transform: translate(-50%, -50%);
-  border: 1.5px solid #d0daea;
-  border-radius: 50%;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
 
 .diff-orbit .diff-card {
   position: absolute;
-  width: 205px;
+  width: 190px;
 }
 
+/* Top: centered at x=400, y≈70 (arc apex) */
 .diff-orbit__top {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
 }
 
+/* Left: center at x=140, y=330 (left arc endpoint) */
 .diff-orbit__left {
-  top: 50%;
-  left: 0;
+  top: 330px;
+  left: 45px;
   transform: translateY(-50%);
 }
 
+/* Right: center at x=660, y=330 (right arc endpoint) */
 .diff-orbit__right {
-  top: 50%;
-  right: 0;
+  top: 330px;
+  right: 45px;
   transform: translateY(-50%);
 }
 
-.diff-orbit__bottom {
-  bottom: 0;
+/* Center text: inside the arc */
+.diff-orbit-center {
+  position: absolute;
+  top: 200px;
   left: 50%;
   transform: translateX(-50%);
+  width: 220px;
+  text-align: center;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+/* Featured card: below the arc, highlighted */
+.diff-orbit__featured {
+  margin: 28px auto 0;
+  max-width: 480px;
+  width: 100%;
+  border: 2px solid var(--primary);
 }
 
 @media (max-width: 860px) {
   .diff-collage { height: 320px; }
   .diff-collage__main { width: 65%; }
   .diff-collage__secondary { width: 46%; }
-  .diff-orbit { width: 100%; }
+}
+
+@media (max-width: 700px) {
+  .diff-orbit {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 0;
+  }
+  .diff-orbit-arc { display: none; }
+  .diff-orbit .diff-card {
+    position: static;
+    width: 100%;
+    transform: none;
+  }
+  .diff-orbit-center { display: none; }
+  .diff-orbit__featured { max-width: 100%; }
 }
 
 @media (max-width: 640px) {
@@ -1386,19 +1417,6 @@ ul {
     position: static;
     width: 100%;
     aspect-ratio: 4 / 3;
-  }
-  .diff-orbit {
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-  }
-  .diff-orbit::before { display: none; }
-  .diff-orbit .diff-card {
-    position: static;
-    width: 100%;
-    transform: none;
   }
 }
 
