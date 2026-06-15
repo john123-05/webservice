@@ -1586,7 +1586,7 @@ ul {
 }
 
 .hero-shot-portrait {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 0.72 / 1;
 }
 
 .hero-shot-featured {
