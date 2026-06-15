@@ -1574,7 +1574,7 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top center;
+  object-position: top left;
 }
 
 .hero-shot-landscape {
@@ -1582,7 +1582,7 @@ ul {
 }
 
 .hero-shot-portrait {
-  aspect-ratio: 0.72 / 1;
+  aspect-ratio: 4 / 3;
 }
 
 .hero-shot-featured {
