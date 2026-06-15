@@ -229,7 +229,6 @@ const initCookieBanner = () => {
     if (reopenBtn) reopenBtn.hidden = true;
   };
 
-
   const storedConsent = window.localStorage.getItem(storageKey);
   if (storedConsent) {
     applyConsent(storedConsent);
