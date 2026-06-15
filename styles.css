@@ -1289,10 +1289,14 @@ ul {
 
 .diff-image-main {
   aspect-ratio: 4 / 3;
+  max-height: 380px;
+  contain: layout;
 }
 
 .diff-image-office {
   aspect-ratio: 4 / 3;
+  max-height: 280px;
+  contain: layout;
 }
 
 @media (max-width: 860px) {
