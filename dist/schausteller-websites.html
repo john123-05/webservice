@@ -53,9 +53,46 @@
     background-size: cover;
     background-position: center;
   }
-  #schausteller-text strong {
-    font-weight: 800;
+  /* Stacked scroll cards */
+  .sc-wrap { height: 200vh; position: relative; }
+  .sc-wrap:last-of-type { height: 150vh; }
+  .sc-card {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+  .sc-card--elevated {
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 -24px 60px rgba(14,34,56,0.13);
+  }
+  .sc-heading {
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  .sc-body {
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+    justify-content: center;
+    width: 100%;
+  }
+  .sc-laptop { flex: 0 0 480px; max-width: 480px; }
+  .sc-text {
+    flex: 0 0 280px;
+    max-width: 280px;
+    margin-top: 56px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.55;
+    color: #1a2a3a;
+  }
+  .sc-text strong { font-weight: 800; }
 
   /* ===== MOBILE ===== */
   @media (max-width: 768px) {
@@ -65,56 +102,33 @@
       background-position: 65% center !important;
     }
 
-    /* Section height: auto so no whitespace, sticky stays */
-    #schausteller-scroll-wrapper > section {
-      height: auto !important;
+    /* Stacked cards: mobile layout */
+    .sc-card {
+      justify-content: flex-start !important;
+      padding-top: 80px !important;
+      box-sizing: border-box !important;
     }
-    /* Scroll section: keep sticky/500vh, only fix inner layout */
-    #schausteller-scroll-wrapper .container {
-      flex: 1 !important;
-      height: auto !important;
-      padding-top: 16px !important;
-      padding-bottom: 0 !important;
-      display: flex !important;
+    .sc-heading {
+      font-size: 1.15rem !important;
+      margin-bottom: 18px !important;
+      padding: 0 12px !important;
+    }
+    .sc-body {
       flex-direction: column !important;
+      align-items: center !important;
+      gap: 18px !important;
     }
-    #schausteller-scroll-wrapper .home-problem-question {
-      font-size: 1.25rem !important;
-      margin-bottom: 0 !important;
-      text-align: center !important;
-    }
-    /* Inner flex row → column */
-    #schausteller-scroll-wrapper .container > div {
-      flex-direction: column !important;
-      gap: 96px !important;
-      margin-top: 72px !important;
-      align-items: stretch !important;
-      flex: 1 !important;
-    }
-    /* Laptop on top */
-    #schausteller-scroll-wrapper .about-video-card {
-      flex: 0 0 auto !important;
-      max-width: 100% !important;
-      width: 100% !important;
-      order: -1 !important;
-    }
-    /* Text below — centered */
-    #schausteller-text {
+    .sc-laptop {
       flex: none !important;
-      max-width: 100% !important;
-      font-size: 1.1rem !important;
+      width: 88vw !important;
+      max-width: 360px !important;
+    }
+    .sc-text {
+      flex: none !important;
+      max-width: 88vw !important;
       margin-top: 0 !important;
-      order: 1 !important;
+      font-size: 1.1rem !important;
       text-align: center !important;
-    }
-    /* "Wie machst du das also?" bottom strip */
-    #schausteller-scroll-wrapper > section > div:last-child {
-      flex: none !important;
-      padding: 100px 0 20px !important;
-    }
-    #schausteller-scroll-wrapper > section > div:last-child .home-problem-question {
-      font-size: 1.4rem !important;
-      margin: 0 !important;
     }
 
     /* iPad mockups: vertical stack */
@@ -160,12 +174,6 @@
     .prozess-zz { max-width: 100% !important; }
     .prozess-step, .prozess-step--right {
       padding-left: 68px !important;
-    }
-
-    /* Remove negative margin overlap on options section */
-    section[style*="margin-top:-60px"] {
-      margin-top: 0 !important;
-      padding-top: 40px !important;
     }
 
     /* General section padding reduction */
@@ -339,84 +347,79 @@
 <div class="container">
 <div class="hero-divider"></div>
 </div>
-<div id="schausteller-scroll-wrapper" style="height:500vh; position:relative;">
-  <section style="position:sticky; top:0; height:100vh; overflow:hidden; background:#fff; display:flex; flex-direction:column;">
-    <div class="container" style="flex:0 0 72vh; height:72vh; overflow:hidden; padding-top:60px; padding-bottom:0; box-sizing:border-box;">
-      <h2 class="home-problem-question" style="text-align:center; margin-bottom:40px;">Was muss passieren, damit ein Veranstalter sich <em>für dich entscheidet?</em></h2>
-      <div style="display:flex; align-items:flex-start; gap:64px; margin-top:120px; justify-content:center;">
-        <p id="schausteller-text" style="flex:0 0 300px; max-width:300px; margin-top:68px; font-size:1.45rem; font-weight:300; line-height:1.55; color:#1a2a3a;">Die Plätze auf den Festplätzen sind heiß umkämpft, <strong>wie überzeugst</strong> du also bei deiner <strong>Bewerbung?</strong></p>
-        <div class="about-video-card" style="flex:0 0 520px; max-width:520px;">
+<!-- STACKED SCROLL CARDS -->
+<!-- Card 1 -->
+<div class="sc-wrap" style="z-index:1; position:relative;">
+  <section class="sc-card" style="z-index:1;">
+    <div class="container">
+      <h2 class="home-problem-question sc-heading">Was muss passieren, damit ein Veranstalter sich <em>für dich entscheidet?</em></h2>
+      <div class="sc-body">
+        <div class="about-video-card sc-laptop">
           <div class="about-video-screen">
-            <img id="schausteller-laptop-img" src="assets/webp.webp" alt="" class="about-video" decoding="async" style="transform:translateY(0);" />
-            <img id="schausteller-laptop-img-next" src="" alt="" class="about-video" decoding="async" style="transform:translateY(100%);" />
+            <img src="assets/webp.webp" alt="" class="about-video" decoding="async" />
           </div>
           <img class="about-video-frame" src="assets/laptop-frame.webp" alt="" aria-hidden="true" />
         </div>
+        <p class="sc-text">Die Plätze auf den Festplätzen sind heiß umkämpft, <strong>wie überzeugst</strong> du also bei deiner <strong>Bewerbung?</strong></p>
       </div>
-    </div>
-    <div style="flex:1; display:flex; align-items:center; justify-content:center;">
-      <h2 class="home-problem-question" style="margin:0;">Wie machst du das also?</h2>
     </div>
   </section>
 </div>
-<script>
-(function() {
-  var wrapper = document.getElementById('schausteller-scroll-wrapper');
-  var textEl = document.getElementById('schausteller-text');
-  var imgCur = document.getElementById('schausteller-laptop-img');
-  var imgNext = document.getElementById('schausteller-laptop-img-next');
-  var scenes = [
-    { text: 'Die Plätze auf den Festplätzen sind heiß umkämpft, <strong>wie überzeugst</strong> du also bei deiner <strong>Bewerbung?</strong>', img: 'assets/webp.webp' },
-    { text: 'Entscheider <strong>werden</strong> neben dem persönlichen Gespräch oder der E-Mail <strong>nach deinem Fahrgeschäft googeln.</strong>', img: 'assets/pirates-4.webp' },
-    { text: 'Die <strong>Website von 2010</strong> oder der Zeitungsbericht von vor 5 Jahren <strong>überzeugen dort nicht.</strong>', img: 'assets/schausteller-website-alt.webp' },
-    { text: 'Du brauchst eine Website, die dein <strong>Fahrgeschäft online</strong> <span style="white-space:nowrap">genauso <strong>liebevoll präsentiert,</strong></span><br>wie auf den <strong>Festplätzen.</strong>', img: 'assets/schausteller-website-beispiel-2.webp' },
-  ];
-  var current = -1;
-  var busy = false;
-  var DUR = 420;
-  var EASE = 'transform ' + DUR + 'ms cubic-bezier(0.4,0,0.2,1)';
-  function slideIn(idx) {
-    imgNext.src = scenes[idx].img;
-    imgNext.style.transition = 'none';
-    imgNext.style.transform = 'translateY(100%)';
-    void imgNext.offsetWidth;
-    imgCur.style.transition = EASE;
-    imgCur.style.transform = 'translateY(-100%)';
-    imgNext.style.transition = EASE;
-    imgNext.style.transform = 'translateY(0)';
-    textEl.style.transition = 'opacity 0.2s ease';
-    textEl.style.opacity = '0';
-    setTimeout(function() {
-      imgCur.style.transition = 'none';
-      imgCur.src = scenes[idx].img;
-      imgCur.style.transform = 'translateY(0)';
-      imgNext.style.transition = 'none';
-      imgNext.style.transform = 'translateY(100%)';
-      textEl.innerHTML = scenes[idx].text;
-      textEl.style.transition = 'opacity 0.35s ease';
-      textEl.style.opacity = '1';
-      busy = false;
-    }, DUR + 40);
-  }
-  function update() {
-    var rect = wrapper.getBoundingClientRect();
-    var scrolled = -rect.top;
-    var total = rect.height - window.innerHeight;
-    var progress = Math.max(0, Math.min(0.9999, scrolled / total));
-    var idx = Math.min(scenes.length - 1, Math.floor(progress * scenes.length));
-    if (idx !== current && !busy) {
-      busy = true;
-      current = idx;
-      slideIn(idx);
-    }
-  }
-  slideIn(0);
-  window.addEventListener('scroll', update, { passive: true });
-})();
-</script>
+<!-- Card 2 -->
+<div class="sc-wrap" style="z-index:2; position:relative;">
+  <section class="sc-card sc-card--elevated" style="z-index:2;">
+    <div class="container">
+      <h2 class="home-problem-question sc-heading">Was muss passieren, damit ein Veranstalter sich <em>für dich entscheidet?</em></h2>
+      <div class="sc-body">
+        <div class="about-video-card sc-laptop">
+          <div class="about-video-screen">
+            <img src="assets/pirates-4.webp" alt="" class="about-video" decoding="async" loading="lazy" />
+          </div>
+          <img class="about-video-frame" src="assets/laptop-frame.webp" alt="" aria-hidden="true" />
+        </div>
+        <p class="sc-text">Entscheider <strong>werden</strong> neben dem persönlichen Gespräch oder der E-Mail <strong>nach deinem Fahrgeschäft googeln.</strong></p>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- Card 3 -->
+<div class="sc-wrap" style="z-index:3; position:relative;">
+  <section class="sc-card sc-card--elevated" style="z-index:3;">
+    <div class="container">
+      <h2 class="home-problem-question sc-heading">Was muss passieren, damit ein Veranstalter sich <em>für dich entscheidet?</em></h2>
+      <div class="sc-body">
+        <div class="about-video-card sc-laptop">
+          <div class="about-video-screen">
+            <img src="assets/schausteller-website-alt.webp" alt="" class="about-video" decoding="async" loading="lazy" />
+          </div>
+          <img class="about-video-frame" src="assets/laptop-frame.webp" alt="" aria-hidden="true" />
+        </div>
+        <p class="sc-text">Die <strong>Website von 2010</strong> oder der Zeitungsbericht von vor 5 Jahren <strong>überzeugen dort nicht.</strong></p>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- Card 4 -->
+<div class="sc-wrap" style="z-index:4; position:relative; height:150vh;">
+  <section class="sc-card sc-card--elevated" style="z-index:4;">
+    <div class="container">
+      <h2 class="home-problem-question sc-heading">Was muss passieren, damit ein Veranstalter sich <em>für dich entscheidet?</em></h2>
+      <div class="sc-body">
+        <div class="about-video-card sc-laptop">
+          <div class="about-video-screen">
+            <img src="assets/schausteller-website-beispiel-2.webp" alt="" class="about-video" decoding="async" loading="lazy" />
+          </div>
+          <img class="about-video-frame" src="assets/laptop-frame.webp" alt="" aria-hidden="true" />
+        </div>
+        <p class="sc-text">Du brauchst eine Website, die dein <strong>Fahrgeschäft online</strong> genauso <strong>liebevoll präsentiert,</strong> wie auf den <strong>Festplätzen.</strong></p>
+      </div>
+    </div>
+  </section>
+</div>
 <!-- OPTIONS SECTION -->
-<section style="position:relative; z-index:5; background:#fff; padding:0 0 80px; margin-top:-60px;">
+<section style="position:relative; z-index:5; background:#fff; padding:60px 0 80px;">
   <div class="container">
+    <h2 class="home-problem-question" style="text-align:center; margin-bottom:48px;">Wie machst du das also?</h2>
     <div class="options-grid">
       <div class="option-card option-card--bad">
         <h3>Alles selbst machen?</h3>
