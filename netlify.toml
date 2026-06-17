@@ -1,7 +1,16 @@
 [build]
   publish = "dist"
 
+# Serve .html files at clean URLs (pretty URLs)
 [[redirects]]
-  from = "/schausteller-websites"
-  to = "/schausteller-websites.html"
+  from = "/*.html"
+  to = "/:splat"
+  status = 301
+  force = false
+
+# Rewrite clean URLs to actual .html files
+[[redirects]]
+  from = "/:page"
+  to = "/:page.html"
   status = 200
+  force = false

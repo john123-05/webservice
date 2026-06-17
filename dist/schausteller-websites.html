@@ -37,11 +37,11 @@
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="Webdesign Bielefeld | Websites für mehr Anfragen | ImpressRank" name="twitter:title"/>
 <meta content="Webdesign in Bielefeld für Unternehmen, die online professioneller wirken, bei Google klarer verstanden werden und mehr qualifizierte Anfragen gewinnen möchten." name="twitter:description"/>
-<link as="image" fetchpriority="high" href="assets/Kirmes-Cranger-2022.jpeg" rel="preload"/>
+<link as="image" fetchpriority="high" href="assets/istockphoto-145725806-640x640.jpg" rel="preload"/>
 <link as="image" fetchpriority="high" href="assets/webp.webp" rel="preload"/>
-<link as="image" fetchpriority="low" href="assets/pirates-4.png" rel="preload"/>
-<link as="image" fetchpriority="low" href="assets/schausteller-website-alt.jpeg" rel="preload"/>
-<link as="image" fetchpriority="low" href="assets/schausteller-website-beispiel-2.png" rel="preload"/>
+<link as="image" fetchpriority="low" href="assets/pirates-4.webp" rel="preload"/>
+<link as="image" fetchpriority="low" href="assets/schausteller-website-alt.webp" rel="preload"/>
+<link as="image" fetchpriority="low" href="assets/schausteller-website-beispiel-2.webp" rel="preload"/>
 <link as="image" fetchpriority="low" href="assets/laptop-frame.webp" rel="preload"/>
 <link as="font" crossorigin="" href="assets/fonts/manrope-latin.woff2" rel="preload" type="font/woff2"/>
 <link href="styles.css" rel="stylesheet"/>
@@ -49,7 +49,7 @@
   .hero-area::before {
     background:
       linear-gradient(90deg, rgba(238,242,248,0.12) 0%, rgba(238,242,248,0.04) 36%, rgba(238,242,248,0.0) 100%),
-      url("assets/Kirmes-Cranger-2022.jpeg");
+      url("assets/istockphoto-145725806-640x640.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -86,8 +86,8 @@
     /* Inner flex row → column */
     #schausteller-scroll-wrapper .container > div {
       flex-direction: column !important;
-      gap: 20px !important;
-      margin-top: 28px !important;
+      gap: 96px !important;
+      margin-top: 72px !important;
       align-items: stretch !important;
       flex: 1 !important;
     }
@@ -110,31 +110,27 @@
     /* "Wie machst du das also?" bottom strip */
     #schausteller-scroll-wrapper > section > div:last-child {
       flex: none !important;
-      padding: 36px 0 20px !important;
+      padding: 100px 0 20px !important;
     }
     #schausteller-scroll-wrapper > section > div:last-child .home-problem-question {
       font-size: 1.4rem !important;
       margin: 0 !important;
     }
 
-    /* iPad mockups: horizontal scroll */
+    /* iPad mockups: vertical stack */
     #projekte .container > div {
-      overflow-x: auto !important;
-      justify-content: flex-start !important;
-      gap: 16px !important;
-      padding-bottom: 12px !important;
-      -webkit-overflow-scrolling: touch !important;
-      scroll-snap-type: x mandatory !important;
+      overflow-x: visible !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      gap: 24px !important;
+      scroll-snap-type: none !important;
     }
     .schausteller-preview-img {
-      width: 72vw !important;
-      max-width: 280px !important;
+      width: 88vw !important;
+      max-width: 420px !important;
       flex: 0 0 auto !important;
-      scroll-snap-align: center !important;
     }
 
-    /* Options section: already 1-col at 900px, just reduce padding */
-    .option-card-img { height: 160px !important; }
 
     /* Checkliste: reduce section padding */
     .cl-card { min-height: 220px !important; }
@@ -151,7 +147,15 @@
     /* Prozess: hide side images, use full-width layout */
     .prozess-box { padding: 24px 18px !important; }
     .prozess-step > div:last-child {
-      display: none !important;
+      display: block !important;
+      width: 90% !important;
+      max-width: 90% !important;
+      flex: unset !important;
+      margin-top: 20px !important;
+    }
+    .prozess-step > div:last-child > div {
+      max-width: 100% !important;
+      width: 100% !important;
     }
     .prozess-zz { max-width: 100% !important; }
     .prozess-step, .prozess-step--right {
@@ -180,7 +184,7 @@
 <body>
 <div class="site-wrap">
       <nav class="nav">
-<a class="brand" href="/"><img alt="ImpressRank" class="brand-logo" src="assets/logo-cropped.png"/></a>
+<a class="brand" href="/" style="display:flex;align-items:center;gap:10px;"><img alt="ImpressRank" class="brand-logo" src="assets/logo-cropped.png"/><span style="font-size:0.78rem;font-weight:600;color:#4a5e72;letter-spacing:0.04em;text-transform:uppercase;line-height:1.2;border-left:1px solid #d0d8e4;padding-left:10px;">Marketing<br>Büro</span></a>
 <button aria-expanded="false" aria-label="Navigation öffnen" class="menu-toggle" type="button">
 <span></span><span></span><span></span>
 </button>
@@ -189,14 +193,15 @@
 <li class="nav-dropdown">
 <a class="active" href="#">Services</a>
 <div class="nav-dropdown-wrap"><ul class="nav-dropdown-menu">
-<li><a href="webdesign.html">Websites / Webdesign</a></li>
-<li><a href="seo.html">SEO</a></li>
-<li><a href="anzeigen.html">Google &amp; Meta Ads</a></li>
+<li><a href="webdesign">Websites / Webdesign</a></li>
+<li><a href="seo">SEO</a></li>
+<li><a href="anzeigen">Google &amp; Meta Ads</a></li>
+<li><a href="schausteller-websites">Schausteller Marketing</a></li>
 </ul></div>
 </li>
-<li><a href="projekte.html">Projekte</a></li>
-<li><a href="ressourcen.html">Ressourcen</a></li>
-<li><a class="nav-cta" href="anfrage.html">Kontakt</a></li>
+<li><a href="projekte">Projekte</a></li>
+<li><a href="ressourcen">Ressourcen</a></li>
+<li><a class="nav-cta" href="anfrage">Kontakt</a></li>
 </ul>
 </nav>
       
@@ -239,15 +244,51 @@
 </figure>
 </div>
 </div>
+<div class="hero-showcase-column column-c">
+<div class="hero-showcase-stack">
+<figure class="hero-shot hero-shot-portrait">
+<img alt="" decoding="async" fetchpriority="low" loading="lazy" src="assets/liftpicturespdf.webp"/>
+</figure>
+<figure class="hero-shot hero-shot-portrait">
+<img alt="" decoding="async" fetchpriority="low" loading="lazy" src="assets/aloha2.webp"/>
+</figure>
+<figure class="hero-shot hero-shot-portrait">
+<img alt="" decoding="async" fetchpriority="low" loading="lazy" src="assets/Untitled design.webp"/>
+</figure>
+<figure class="hero-shot hero-shot-portrait">
+<img alt="" decoding="async" fetchpriority="low" loading="lazy" src="assets/liftpicturesenglisch.webp"/>
+</figure>
+<figure class="hero-shot hero-shot-portrait">
+<img alt="" decoding="async" fetchpriority="low" loading="lazy" src="assets/liftpictures2.webp"/>
+</figure>
+</div>
+<div class="hero-showcase-stack">
+<figure class="hero-shot hero-shot-portrait">
+<img alt="" decoding="async" fetchpriority="low" loading="lazy" src="assets/liftpicturesenglisch.webp"/>
+</figure>
+<figure class="hero-shot hero-shot-portrait">
+<img alt="" decoding="async" fetchpriority="low" loading="lazy" src="assets/liftpicturespdf.webp"/>
+</figure>
+<figure class="hero-shot hero-shot-portrait">
+<img alt="" decoding="async" fetchpriority="low" loading="lazy" src="assets/liftpictures2.webp"/>
+</figure>
+<figure class="hero-shot hero-shot-portrait">
+<img alt="" decoding="async" fetchpriority="low" loading="lazy" src="assets/Untitled design.webp"/>
+</figure>
+<figure class="hero-shot hero-shot-portrait">
+<img alt="" decoding="async" fetchpriority="low" loading="lazy" src="assets/aloha2.webp"/>
+</figure>
+</div>
+</div>
 </div>
 </div>
 <div class="container">
 
 <section class="hero-grid">
 <div class="hero-copy">
-<h1 class="eyebrow">Webdesign Bielefeld</h1>
+<h1 class="eyebrow">Marketing Büro Bad Salzuflen</h1>
 <h2 class="hero-main-heading">
-                <span class="hero-highlight">Websites</span>, die Veranstalter von deiner <span class="hero-highlight">Attraktion</span> <span class="hero-highlight">überzeugen</span>
+                <span class="hero-highlight">Websites</span>, die Veranstalter von deiner <span class="hero-highlight">Attraktion</span> <span class="hero-underline-wrap"><span class="hero-highlight">überzeugen</span><div style="overflow:hidden;height:28px;margin-top:2px;"><img src="assets/ueberzeugen-underline.png" style="display:block;width:100%;height:auto;transform:translateY(-25%);" alt="" aria-hidden="true" /></div></span>
               </h2>
 <p style="font-size:1.35rem; font-weight:400; margin-top:32px; margin-bottom:28px;">Dein Fahrgeschäft <strong>online</strong> präsentiert.</p>
 <div class="hero-actions">
@@ -326,9 +367,9 @@
   var imgNext = document.getElementById('schausteller-laptop-img-next');
   var scenes = [
     { text: 'Die Plätze auf den Festplätzen sind heiß umkämpft, <strong>wie überzeugst</strong> du also bei deiner <strong>Bewerbung?</strong>', img: 'assets/webp.webp' },
-    { text: 'Entscheider <strong>werden</strong> neben dem persönlichen Gespräch oder der E-Mail <strong>nach deinem Fahrgeschäft googeln.</strong>', img: 'assets/pirates-4.png' },
-    { text: 'Die <strong>Website von 2010</strong> oder der Zeitungsbericht von vor 5 Jahren <strong>überzeugen dort nicht.</strong>', img: 'assets/schausteller-website-alt.jpeg' },
-    { text: 'Du brauchst eine Website, die dein <strong>Fahrgeschäft online</strong> <span style="white-space:nowrap">genauso <strong>liebevoll präsentiert,</strong></span><br>wie auf den <strong>Festplätzen.</strong>', img: 'assets/schausteller-website-beispiel-2.png' },
+    { text: 'Entscheider <strong>werden</strong> neben dem persönlichen Gespräch oder der E-Mail <strong>nach deinem Fahrgeschäft googeln.</strong>', img: 'assets/pirates-4.webp' },
+    { text: 'Die <strong>Website von 2010</strong> oder der Zeitungsbericht von vor 5 Jahren <strong>überzeugen dort nicht.</strong>', img: 'assets/schausteller-website-alt.webp' },
+    { text: 'Du brauchst eine Website, die dein <strong>Fahrgeschäft online</strong> <span style="white-space:nowrap">genauso <strong>liebevoll präsentiert,</strong></span><br>wie auf den <strong>Festplätzen.</strong>', img: 'assets/schausteller-website-beispiel-2.webp' },
   ];
   var current = -1;
   var busy = false;
@@ -437,7 +478,7 @@
         </div>
         <div class="diff-split__office-wrap">
           <figure class="diff-image-wrap diff-image-office">
-            <img src="assets/buero-bad-salzuflen.jpg" alt="ImpressRank Büro in Bad Salzuflen – lokal verwurzelt" loading="lazy" decoding="async" />
+            <img src="assets/buero-bad-salzuflen.webp" alt="ImpressRank Büro in Bad Salzuflen – lokal verwurzelt" loading="lazy" decoding="async" />
           </figure>
         </div>
       </div>
@@ -449,9 +490,8 @@
   <div class="container">
     <h2 class="home-problem-question" style="text-align:center; margin-bottom:48px;">Beispiele von erfolgreichem Attraktionsmarketing</h2>
     <div style="display:flex; gap:48px; justify-content:center; align-items:flex-start;">
-      <img src="assets/schausteller-beispiel-1.png" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
-      <img src="assets/piratesbeispiel.png" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
-      <img src="assets/schausteller-beispiel-2.png" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
+      <img src="assets/schausteller-beispiel-1.webp" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
+      <img src="assets/schausteller-beispiel-2.webp" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
     </div>
     <style>
       .schausteller-preview-img { width:28%; border-radius:0; box-shadow:0 12px 40px rgba(14,34,56,0.13); transition:transform 0.2s ease, box-shadow 0.2s ease; }
@@ -471,7 +511,7 @@
       }
     </style>
     <div style="text-align:center; margin-top:56px;">
-      <a href="anfrage.html" class="btn btn-primary schausteller-cta-btn">Jetzt in Kontakt treten</a>
+      <a href="anfrage" class="btn btn-primary schausteller-cta-btn">Jetzt in Kontakt treten</a>
     </div>
   </div>
 </section>
@@ -635,7 +675,7 @@
       </div>
     </div>
 
-    <p style="text-align:center; margin-top:56px; font-size:2rem; font-weight:800; color:#0e2238;">Keine Zeit? <a href="anfrage.html" style="color:#145af3; text-decoration:underline; text-underline-offset:4px;">Wir übernehmen das!</a></p>
+    <p style="text-align:center; margin-top:56px; font-size:2rem; font-weight:800; color:#0e2238;">Keine Zeit? <a href="anfrage" style="color:#145af3; text-decoration:underline; text-underline-offset:4px;">Wir übernehmen das!</a></p>
 
   </div>
 </section>
@@ -709,7 +749,7 @@
         <div class="prozess-num">1</div>
         <div style="flex:0 0 calc(50% - 40px); max-width:calc(50% - 40px); display:flex; justify-content:flex-end;">
           <div style="width:100%; max-width:260px; aspect-ratio:4/3; border-radius:10px; overflow:hidden; position:relative;">
-            <img src="assets/prozess-kickoff.png" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
+            <img src="assets/prozess-kickoff.webp" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
             <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(20,90,243,0.30) 0%, rgba(20,90,243,0.12) 100%); mix-blend-mode:screen; border-radius:10px;"></div>
             <div style="position:absolute; inset:0; border:1.5px solid rgba(80,160,255,0.4); border-radius:10px; box-shadow:0 0 10px rgba(20,90,243,0.35); pointer-events:none;"></div>
           </div>
@@ -721,12 +761,12 @@
         <div class="prozess-box">
           <h3>Dein Website-Konzept</h3>
           <p>Im Anschluss schreiben wir die Texte für deine Website. Von dir brauchen wir lediglich Feedback.</p>
-          <span class="prozess-badge">⏱ Dein Zeitaufwand: 30 min</span>
+          <span class="prozess-badge">⏱ Dein Zeitaufwand: 15 min</span>
         </div>
         <div class="prozess-num">2</div>
         <div style="flex:0 0 calc(50% - 40px); max-width:calc(50% - 40px); display:flex; justify-content:flex-start;">
           <div style="width:100%; max-width:260px; aspect-ratio:4/3; border-radius:10px; overflow:hidden; position:relative;">
-            <img src="assets/pirates-5.png" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
+            <img src="assets/pirates-5.webp" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
             <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(20,90,243,0.30) 0%, rgba(20,90,243,0.12) 100%); mix-blend-mode:screen; border-radius:10px;"></div>
             <div style="position:absolute; inset:0; border:1.5px solid rgba(80,160,255,0.4); border-radius:10px; box-shadow:0 0 10px rgba(20,90,243,0.35); pointer-events:none;"></div>
           </div>
@@ -743,7 +783,7 @@
         <div class="prozess-num">3</div>
         <div style="flex:0 0 calc(50% - 40px); max-width:calc(50% - 40px); display:flex; justify-content:flex-end;">
           <div style="width:100%; max-width:260px; aspect-ratio:4/3; border-radius:10px; overflow:hidden; position:relative;">
-            <img src="assets/prozess-design.png" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
+            <img src="assets/prozess-design.webp" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
             <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(20,90,243,0.30) 0%, rgba(20,90,243,0.12) 100%); mix-blend-mode:screen; border-radius:10px;"></div>
             <div style="position:absolute; inset:0; border:1.5px solid rgba(80,160,255,0.4); border-radius:10px; box-shadow:0 0 10px rgba(20,90,243,0.35); pointer-events:none;"></div>
           </div>
@@ -760,7 +800,7 @@
         <div class="prozess-num">4</div>
         <div style="flex:0 0 calc(50% - 40px); max-width:calc(50% - 40px); display:flex; justify-content:flex-start;">
           <div style="width:100%; max-width:260px; aspect-ratio:4/3; border-radius:10px; overflow:hidden; position:relative;">
-            <img src="assets/pirates-6.png" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
+            <img src="assets/pirates-6.webp" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
             <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(20,90,243,0.30) 0%, rgba(20,90,243,0.12) 100%); mix-blend-mode:screen; border-radius:10px;"></div>
             <div style="position:absolute; inset:0; border:1.5px solid rgba(80,160,255,0.4); border-radius:10px; box-shadow:0 0 10px rgba(20,90,243,0.35); pointer-events:none;"></div>
           </div>
@@ -769,7 +809,7 @@
 
     </div>
     <div style="text-align:center; margin-top:64px;">
-      <a href="anfrage.html" class="btn btn-primary" style="font-size:1.1rem; padding:18px 40px;">Jetzt kostenlos anfragen</a>
+      <a href="anfrage" class="btn btn-primary" style="font-size:1.1rem; padding:18px 40px;">Jetzt kostenlos anfragen</a>
     </div>
   </div>
 </section>
@@ -1007,13 +1047,13 @@
 <h4>Seiten</h4>
 <ul>
 <li><a href="/">Home</a></li>
-<li><a href="leistungen.html">Leistungen</a></li>
-<li><a href="standorte.html">Standorte</a></li>
-<li><a href="projekte.html">Projekte / Case Studies</a></li>
-<li><a href="ressourcen.html">Ressourcen</a></li>
-<li><a href="anfrage.html">Kontakt</a></li>
-<li><a href="impressum.html">Impressum</a></li>
-<li><a href="datenschutz.html">Datenschutz</a></li>
+<li><a href="leistungen">Leistungen</a></li>
+<li><a href="standorte">Standorte</a></li>
+<li><a href="projekte">Projekte / Case Studies</a></li>
+<li><a href="ressourcen">Ressourcen</a></li>
+<li><a href="anfrage">Kontakt</a></li>
+<li><a href="impressum">Impressum</a></li>
+<li><a href="datenschutz">Datenschutz</a></li>
 </ul>
 </div>
 <div>
@@ -1040,7 +1080,7 @@
       <button class="cookie-btn cookie-btn--primary" type="button" data-cookie-accept>Zustimmen</button>
     </div>
     <div class="cookie-banner__more">
-      <a class="cookie-btn cookie-btn--secondary" href="datenschutz.html">Mehr erfahren und anpassen</a>
+      <a class="cookie-btn cookie-btn--secondary" href="datenschutz">Mehr erfahren und anpassen</a>
     </div>
   </div>
 </div>
