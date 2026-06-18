@@ -357,15 +357,16 @@
   var track = document.getElementById('wdTrack');
   if (!track) return;
   var pos = 0;
-  var speed = 0.7;
+  var speed = 0.35;
   var dragging = false;
   var startX = 0;
   var startPos = 0;
+  var pauseUntil = 0;
 
   function half() { return track.scrollWidth / 2; }
 
   function tick() {
-    if (!dragging) {
+    if (!dragging && Date.now() > pauseUntil) {
       pos += speed;
       if (pos >= half()) pos -= half();
       track.style.transform = 'translateX(-' + pos + 'px)';
@@ -393,7 +394,8 @@
     track.style.transform = 'translateX(-' + pos + 'px)';
   });
   document.addEventListener('mouseup', function() {
-    dragging = false; track.style.cursor = 'grab';
+    if (dragging) { dragging = false; pauseUntil = Date.now() + 800; }
+    track.style.cursor = 'grab';
   });
 
   track.addEventListener('touchstart', function(e) {
@@ -404,7 +406,16 @@
     pos = clamp(startPos + (startX - e.touches[0].clientX));
     track.style.transform = 'translateX(-' + pos + 'px)';
   }, { passive: true });
-  track.addEventListener('touchend', function() { dragging = false; });
+  track.addEventListener('touchend', function() {
+    dragging = false; pauseUntil = Date.now() + 800;
+  });
+
+  track.addEventListener('wheel', function(e) {
+    e.preventDefault();
+    pos = clamp(pos + e.deltaX + e.deltaY * 0.5);
+    track.style.transform = 'translateX(-' + pos + 'px)';
+    pauseUntil = Date.now() + 1200;
+  }, { passive: false });
 
   requestAnimationFrame(tick);
 })();

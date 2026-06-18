@@ -700,7 +700,7 @@ figure {
   user-select: none;
 }
 .wd-projekt-card {
-  flex: 0 0 clamp(240px, 36vw, 420px);
+  flex: 0 0 clamp(180px, 24vw, 300px);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 8px 32px rgba(14,34,56,0.13);
