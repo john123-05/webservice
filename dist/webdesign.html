@@ -334,29 +334,80 @@
 </article>
 </div>
 </section>
-<section class="section section-soft" id="projekte-webdesign">
-<div class="container">
-<div class="wd-projekte-grid">
-<div class="wd-projekt-card">
-<img src="assets/Alohabeachclubwebsitebeispielimpressrankmarketingbüro.png" alt="Aloha Beach Club Website" loading="lazy" decoding="async" />
+<section class="section section-soft" id="projekte-webdesign" style="overflow:hidden; padding-left:0; padding-right:0;">
+<div class="wd-carousel-outer">
+  <div class="wd-carousel-track" id="wdTrack">
+    <div class="wd-projekt-card"><img src="assets/Alohabeachclubwebsitebeispielimpressrankmarketingbüro.png" alt="Aloha Beach Club Website" loading="lazy" decoding="async" /></div>
+    <div class="wd-projekt-card"><img src="assets/websiteliftpicturesbeispielimpressrankmarketingbürobadsalzuflen.png" alt="Liftpictures Website" loading="lazy" decoding="async" /></div>
+    <div class="wd-projekt-card"><img src="assets/piratesadventurebeispielmarketingwebsiteschaustellerimpressrank.png" alt="Pirates Adventure Website" loading="lazy" decoding="async" /></div>
+    <div class="wd-projekt-card"><img src="assets/villacarpediemwebsiteimpressrank.png" alt="Villa Carpe Diem Website" loading="lazy" decoding="async" /></div>
+    <div class="wd-projekt-card"><img src="assets/websitegeisterexpressimpressrankschaustellermarketing.png" alt="Geisterexpress Website" loading="lazy" decoding="async" /></div>
+    <div class="wd-projekt-card"><img src="assets/websiteliftpicturesfotosystemeenglischimpressrank.png" alt="Liftpictures Fotosysteme Website" loading="lazy" decoding="async" /></div>
+    <div class="wd-projekt-card" aria-hidden="true"><img src="assets/Alohabeachclubwebsitebeispielimpressrankmarketingbüro.png" alt="" loading="lazy" decoding="async" /></div>
+    <div class="wd-projekt-card" aria-hidden="true"><img src="assets/websiteliftpicturesbeispielimpressrankmarketingbürobadsalzuflen.png" alt="" loading="lazy" decoding="async" /></div>
+    <div class="wd-projekt-card" aria-hidden="true"><img src="assets/piratesadventurebeispielmarketingwebsiteschaustellerimpressrank.png" alt="" loading="lazy" decoding="async" /></div>
+    <div class="wd-projekt-card" aria-hidden="true"><img src="assets/villacarpediemwebsiteimpressrank.png" alt="" loading="lazy" decoding="async" /></div>
+    <div class="wd-projekt-card" aria-hidden="true"><img src="assets/websitegeisterexpressimpressrankschaustellermarketing.png" alt="" loading="lazy" decoding="async" /></div>
+    <div class="wd-projekt-card" aria-hidden="true"><img src="assets/websiteliftpicturesfotosystemeenglischimpressrank.png" alt="" loading="lazy" decoding="async" /></div>
+  </div>
 </div>
-<div class="wd-projekt-card">
-<img src="assets/websiteliftpicturesbeispielimpressrankmarketingbürobadsalzuflen.png" alt="Liftpictures Website" loading="lazy" decoding="async" />
-</div>
-<div class="wd-projekt-card">
-<img src="assets/piratesadventurebeispielmarketingwebsiteschaustellerimpressrank.png" alt="Pirates Adventure Website" loading="lazy" decoding="async" />
-</div>
-<div class="wd-projekt-card">
-<img src="assets/villacarpediemwebsiteimpressrank.png" alt="Villa Carpe Diem Website" loading="lazy" decoding="async" />
-</div>
-<div class="wd-projekt-card">
-<img src="assets/websitegeisterexpressimpressrankschaustellermarketing.png" alt="Geisterexpress Website" loading="lazy" decoding="async" />
-</div>
-<div class="wd-projekt-card">
-<img src="assets/websiteliftpicturesfotosystemeenglischimpressrank.png" alt="Liftpictures Fotosysteme Website" loading="lazy" decoding="async" />
-</div>
-</div>
-</div>
+<script>
+(function() {
+  var track = document.getElementById('wdTrack');
+  if (!track) return;
+  var pos = 0;
+  var speed = 0.7;
+  var dragging = false;
+  var startX = 0;
+  var startPos = 0;
+
+  function half() { return track.scrollWidth / 2; }
+
+  function tick() {
+    if (!dragging) {
+      pos += speed;
+      if (pos >= half()) pos -= half();
+      track.style.transform = 'translateX(-' + pos + 'px)';
+    }
+    requestAnimationFrame(tick);
+  }
+
+  function clamp(p) {
+    var h = half();
+    p = p % h;
+    if (p < 0) p += h;
+    return p;
+  }
+
+  track.style.cursor = 'grab';
+
+  track.addEventListener('mousedown', function(e) {
+    dragging = true; startX = e.clientX; startPos = pos;
+    track.style.cursor = 'grabbing';
+    e.preventDefault();
+  });
+  document.addEventListener('mousemove', function(e) {
+    if (!dragging) return;
+    pos = clamp(startPos + (startX - e.clientX));
+    track.style.transform = 'translateX(-' + pos + 'px)';
+  });
+  document.addEventListener('mouseup', function() {
+    dragging = false; track.style.cursor = 'grab';
+  });
+
+  track.addEventListener('touchstart', function(e) {
+    dragging = true; startX = e.touches[0].clientX; startPos = pos;
+  }, { passive: true });
+  track.addEventListener('touchmove', function(e) {
+    if (!dragging) return;
+    pos = clamp(startPos + (startX - e.touches[0].clientX));
+    track.style.transform = 'translateX(-' + pos + 'px)';
+  }, { passive: true });
+  track.addEventListener('touchend', function() { dragging = false; });
+
+  requestAnimationFrame(tick);
+})();
+</script>
 </section>
 <section class="section" id="prozess">
 <div class="container narrow">

@@ -687,32 +687,34 @@ figure {
   color: var(--text);
 }
 
-.wd-projekte-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+.wd-carousel-outer {
+  overflow: hidden;
+  width: 100%;
+  padding: 16px 0 24px;
+}
+.wd-carousel-track {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  will-change: transform;
+  user-select: none;
 }
 .wd-projekt-card {
+  flex: 0 0 clamp(240px, 36vw, 420px);
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 8px 32px rgba(14,34,56,0.12);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  cursor: default;
+  box-shadow: 0 8px 32px rgba(14,34,56,0.13);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
 .wd-projekt-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 56px rgba(14,34,56,0.18);
+  transform: translateY(-5px);
+  box-shadow: 0 20px 52px rgba(14,34,56,0.20);
 }
 .wd-projekt-card img {
   width: 100%;
   height: auto;
   display: block;
-}
-@media (max-width: 860px) {
-  .wd-projekte-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
-}
-@media (max-width: 480px) {
-  .wd-projekte-grid { grid-template-columns: 1fr; }
+  pointer-events: none;
 }
 
 .diff-grid {
