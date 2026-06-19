@@ -1,6 +1,6 @@
 node_modules/
 dist/
+.git/
 .DS_Store
 assets/copy_8CFABB7F-FE02-47D9-8733-8B9B9EEA93AC.MOV
-.env
-scripts/.translation-cache-en.json
+assets/piratesadventure.png
