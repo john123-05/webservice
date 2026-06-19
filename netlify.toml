@@ -1,16 +1,15 @@
 [build]
-  publish = "dist"
+publish = "dist"
+command = "npm run build"
 
-# Serve .html files at clean URLs (pretty URLs)
 [[redirects]]
-  from = "/*.html"
-  to = "/:splat"
-  status = 301
-  force = false
+from = "/*.html"
+to = "/:splat"
+status = 301
+force = false
 
-# Rewrite clean URLs to actual .html files
 [[redirects]]
-  from = "/:page"
-  to = "/:page.html"
-  status = 200
-  force = false
+from = "/:page"
+to = "/:page.html"
+status = 200
+force = false
