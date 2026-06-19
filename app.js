@@ -126,17 +126,106 @@ const initMenu = () => {
   syncViewportState();
 };
 
+const getCookieBannerConfig = () => {
+  const locale = getLocale();
+
+  if (locale === 'en') {
+    return {
+      acceptLabel: 'Accept all',
+      declineLabel: 'Necessary only',
+      manageLabel: 'Learn more and adjust',
+      privacyHref: '/datenschutz-en.html',
+      reopenLabel: 'Open cookie settings',
+      message:
+        'We use necessary cookies and optional analytics to improve this website. You can accept all cookies or stay with the necessary ones only.',
+    };
+  }
+
+  return {
+    acceptLabel: 'Zustimmen',
+    declineLabel: 'Ablehnen',
+    manageLabel: 'Mehr erfahren und anpassen',
+    privacyHref: '/datenschutz.html',
+    reopenLabel: 'Cookie-Einstellungen öffnen',
+    message:
+      'Wir nutzen notwendige Cookies und optionale Analysen, um diese Website zu verbessern. Sie können alle Cookies akzeptieren oder nur bei den notwendigen bleiben.',
+  };
+};
+
+const createCookieReopenButton = (label) => {
+  const reopenButton = document.createElement('button');
+  reopenButton.className = 'cookie-reopen';
+  reopenButton.hidden = true;
+  reopenButton.type = 'button';
+  reopenButton.setAttribute('data-cookie-open', '');
+  reopenButton.setAttribute('aria-label', label);
+  reopenButton.innerHTML =
+    '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#3db87a"><path d="M12 1C8.69 1 6 3.69 6 7c0 2.05 1.05 3.86 2.66 4.94L7 22h10l-1.66-10.06C16.95 10.86 18 9.05 18 7c0-3.31-2.69-6-6-6z"/></svg>';
+  return reopenButton;
+};
+
+const createCookieBannerMarkup = ({
+  acceptLabel,
+  declineLabel,
+  manageLabel,
+  message,
+  privacyHref,
+}) => `
+  <div class="cookie-banner__modal">
+    <div class="cookie-banner__copy">
+      <p>${message}</p>
+    </div>
+    <div class="cookie-banner__actions">
+      <button class="cookie-btn cookie-btn--primary" type="button" data-cookie-decline>${declineLabel}</button>
+      <button class="cookie-btn cookie-btn--primary" type="button" data-cookie-accept>${acceptLabel}</button>
+    </div>
+    <div class="cookie-banner__more">
+      <a class="cookie-btn cookie-btn--secondary" href="${privacyHref}">${manageLabel}</a>
+    </div>
+  </div>
+`;
+
+const ensureCookieBanner = () => {
+  const config = getCookieBannerConfig();
+  let banner = document.querySelector('[data-cookie-banner]');
+
+  if (!banner) {
+    banner = document.createElement('div');
+    banner.className = 'cookie-banner';
+    banner.hidden = true;
+    banner.setAttribute('data-cookie-banner', '');
+    document.body.appendChild(banner);
+  } else {
+    banner.className = 'cookie-banner';
+    banner.hidden = true;
+  }
+
+  banner.innerHTML = createCookieBannerMarkup(config);
+
+  let reopenButton = document.querySelector('[data-cookie-open]');
+  if (!reopenButton) {
+    reopenButton = createCookieReopenButton(config.reopenLabel);
+    document.body.appendChild(reopenButton);
+  } else {
+    reopenButton.setAttribute('aria-label', config.reopenLabel);
+  }
+
+  return { banner, reopenButton };
+};
+
 const initCookieBanner = () => {
-  const banner = document.querySelector('[data-cookie-banner]');
-  if (!banner) return;
+  const { banner, reopenButton } = ensureCookieBanner();
 
   const storageKey = 'webservice_cookie_consent';
   const acceptButton = banner.querySelector('[data-cookie-accept]');
   const declineButtons = banner.querySelectorAll('[data-cookie-decline]');
   const manageButtons = document.querySelectorAll('[data-cookie-open]');
-  const GA_MEASUREMENT_ID = 'G-JWEQYND20F';
+  let analyticsTrackingInitialized = false;
 
   const initAnalyticsTracking = () => {
+    if (analyticsTrackingInitialized) return;
+    analyticsTrackingInitialized = true;
+
     // Contact click tracking — nav CTA, hero button, section CTAs
     document.querySelectorAll(
       'a[href="anfrage.html"], a[href$="/anfrage.html"], a[href="#contact"], .nav-cta'
@@ -209,24 +298,22 @@ const initCookieBanner = () => {
     initAnalyticsTracking();
   };
 
-  const reopenBtn = document.querySelector('[data-cookie-open]');
-
   const applyConsent = (consent) => {
     if (consent === 'accepted') {
       loadAnalytics();
       banner.hidden = true;
-      if (reopenBtn) reopenBtn.hidden = false;
+      if (reopenButton) reopenButton.hidden = false;
       return;
     }
 
     if (consent === 'declined') {
       banner.hidden = true;
-      if (reopenBtn) reopenBtn.hidden = false;
+      if (reopenButton) reopenButton.hidden = false;
       return;
     }
 
     banner.hidden = false;
-    if (reopenBtn) reopenBtn.hidden = true;
+    if (reopenButton) reopenButton.hidden = true;
   };
 
 
