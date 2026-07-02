@@ -300,9 +300,9 @@
 <div class="hero-copy">
 <h1 class="eyebrow">Marketing Büro Bad Salzuflen</h1>
 <h2 class="hero-main-heading">
-                <span class="hero-highlight">Websites</span>, die Veranstalter von deiner <span class="hero-highlight">Attraktion</span> <span class="hero-underline-wrap"><span class="hero-highlight">überzeugen</span><div style="overflow:hidden;height:28px;margin-top:2px;"><img src="assets/ueberzeugen-underline.png" style="display:block;width:100%;height:auto;transform:translateY(-25%);" alt="" aria-hidden="true" /></div></span>
+                Eine <span class="hero-highlight">Webseite</span>, die Veranstalter von deinem Geschäft <span class="hero-underline-wrap"><span class="hero-highlight">überzeugt<img src="assets/underline.png" class="hero-underline" alt="" aria-hidden="true" style="filter:brightness(0);" /></span></span>
               </h2>
-<p style="font-size:1.35rem; font-weight:400; margin-top:32px; margin-bottom:28px;">Dein Fahrgeschäft <strong>online</strong> präsentiert.</p>
+<p style="font-size:1.35rem; font-weight:400; margin-top:32px; margin-bottom:28px;">Online Marketing für dein Fahrgeschäft</p>
 <div class="hero-actions">
 <a class="btn btn-primary" href="#angebot">Ja, das will ich</a>
 </div>
@@ -354,108 +354,56 @@
 <div class="container">
 <div class="hero-divider"></div>
 </div>
-<div id="schausteller-scroll-wrapper" style="height:500vh; position:relative;">
-  <section style="position:sticky; top:0; height:100vh; overflow:hidden; background:#fff; display:flex; flex-direction:column;">
-    <div class="container" style="flex:0 0 72vh; height:72vh; overflow:hidden; padding-top:60px; padding-bottom:0; box-sizing:border-box;">
-      <h2 class="home-problem-question" style="text-align:center; margin-bottom:40px;">Was muss passieren, damit ein Veranstalter sich <em>für dich entscheidet?</em></h2>
-      <div style="display:flex; align-items:flex-start; gap:64px; margin-top:120px; justify-content:center;">
-        <p id="schausteller-text" style="flex:0 0 300px; max-width:300px; margin-top:68px; font-size:1.45rem; font-weight:300; line-height:1.55; color:#1a2a3a;">Die Plätze auf den Festplätzen sind heiß umkämpft, <strong>wie überzeugst</strong> du also bei deiner <strong>Bewerbung?</strong></p>
-        <div class="about-video-card" style="flex:0 0 520px; max-width:520px;">
-          <div class="about-video-screen">
-            <img id="schausteller-laptop-img" src="assets/webp.webp" alt="" class="about-video" decoding="async" style="transform:translateY(0);" />
-            <img id="schausteller-laptop-img-next" src="" alt="" class="about-video" decoding="async" style="transform:translateY(100%);" />
-          </div>
-          <img class="about-video-frame" src="assets/laptop-frame.webp" alt="" aria-hidden="true" />
-        </div>
-      </div>
-    </div>
-    <div style="flex:1; display:flex; align-items:center; justify-content:center;">
-      <h2 class="home-problem-question" style="margin:0;">Wie machst du das also?</h2>
-    </div>
-  </section>
-</div>
-<script>
-(function() {
-  var wrapper = document.getElementById('schausteller-scroll-wrapper');
-  var textEl = document.getElementById('schausteller-text');
-  var imgCur = document.getElementById('schausteller-laptop-img');
-  var imgNext = document.getElementById('schausteller-laptop-img-next');
-  var scenes = [
-    { text: 'Die Plätze auf den Festplätzen sind heiß umkämpft, <strong>wie überzeugst</strong> du also bei deiner <strong>Bewerbung?</strong>', img: 'assets/webp.webp' },
-    { text: 'Entscheider <strong>werden</strong> neben dem persönlichen Gespräch oder der E-Mail <strong>nach deinem Fahrgeschäft googeln.</strong>', img: 'assets/pirates-4.webp' },
-    { text: 'Die <strong>Website von 2010</strong> oder der Zeitungsbericht von vor 5 Jahren <strong>überzeugen dort nicht.</strong>', img: 'assets/schausteller-website-alt.webp' },
-    { text: 'Du brauchst eine Website, die dein <strong>Fahrgeschäft online</strong> <span style="white-space:nowrap">genauso <strong>liebevoll präsentiert,</strong></span><br>wie auf den <strong>Festplätzen.</strong>', img: 'assets/schausteller-website-beispiel-2.webp' },
-  ];
-  var current = -1;
-  var busy = false;
-  var DUR = 420;
-  var EASE = 'transform ' + DUR + 'ms cubic-bezier(0.4,0,0.2,1)';
-  function slideIn(idx) {
-    imgNext.src = scenes[idx].img;
-    imgNext.style.transition = 'none';
-    imgNext.style.transform = 'translateY(100%)';
-    void imgNext.offsetWidth;
-    imgCur.style.transition = EASE;
-    imgCur.style.transform = 'translateY(-100%)';
-    imgNext.style.transition = EASE;
-    imgNext.style.transform = 'translateY(0)';
-    textEl.style.transition = 'opacity 0.2s ease';
-    textEl.style.opacity = '0';
-    setTimeout(function() {
-      imgCur.style.transition = 'none';
-      imgCur.src = scenes[idx].img;
-      imgCur.style.transform = 'translateY(0)';
-      imgNext.style.transition = 'none';
-      imgNext.style.transform = 'translateY(100%)';
-      textEl.innerHTML = scenes[idx].text;
-      textEl.style.transition = 'opacity 0.35s ease';
-      textEl.style.opacity = '1';
-      busy = false;
-    }, DUR + 40);
-  }
-  function update() {
-    var rect = wrapper.getBoundingClientRect();
-    var scrolled = -rect.top;
-    var total = rect.height - window.innerHeight;
-    var progress = Math.max(0, Math.min(0.9999, scrolled / total));
-    var idx = Math.min(scenes.length - 1, Math.floor(progress * scenes.length));
-    if (idx !== current && !busy) {
-      busy = true;
-      current = idx;
-      slideIn(idx);
-    }
-  }
-  slideIn(0);
-  window.addEventListener('scroll', update, { passive: true });
-})();
-</script>
-<!-- OPTIONS SECTION -->
-<section style="position:relative; z-index:5; background:#fff; padding:0 0 80px; margin-top:-60px;">
+<section class="section" style="background:#fff; padding-bottom:120px;">
   <div class="container">
-    <div class="options-grid">
-      <div class="option-card option-card--bad">
-        <h3>Alles selbst machen?</h3>
-        <img src="assets/3.png" alt="" class="option-card-img" aria-hidden="true" />
-        <p><strong>Kein Problem, wenn du wenig auf dem Tisch hast.</strong></p>
-        <p>Aber wenn du ohnehin schon ausgelastet bist... ist das keine wirkliche Option.</p>
+    <div style="display:flex; gap:64px; align-items:center;">
+      <div style="flex:1; min-width:0;">
+        <h2 style="font-size:clamp(1.6rem,3vw,2.4rem); font-weight:800; line-height:1.25; margin-bottom:28px;">
+          Der Kampf um Standplätze ist ziemlich hart,<br>
+          <em>Professionalität entscheidet.</em>
+        </h2>
+        <p style="font-size:1.1rem; color:#4a5568; line-height:1.7; margin-bottom:20px;">
+          Neben dem persönlichen Gespräch und der E-Mail werden Veranstalter nach deiner Attraktion googeln.
+        </p>
+        <p style="font-size:1.1rem; color:#4a5568; line-height:1.7; margin-bottom:20px;">
+          Dein Online-Auftritt sollte genauso viel Liebe bekommen wie dein Fahrgeschäft selbst.
+        </p>
+        <p style="font-size:1.1rem; color:#1a2a3a; font-weight:700; line-height:1.7;">
+          Kleine Fehler katapultieren Bewerbungen ins Aus.
+        </p>
       </div>
-      <div class="option-card option-card--bad">
-        <h3>Neue Mitarbeiter einstellen?</h3>
-        <img src="assets/4.png" alt="" class="option-card-img" aria-hidden="true" />
-        <p><strong>Gute Leute zu finden ist nicht einfach.</strong></p>
-        <p>Einarbeitung kostet Zeit und Geld.</p>
-        <p>Und selbst wenn du die perfekte Person findest — du bist von einer einzigen Person abhängig.</p>
-      </div>
-      <div class="option-card option-card--bad">
-        <h3>Eine Agentur beauftragen?</h3>
-        <img src="assets/5.png" alt="" class="option-card-img" aria-hidden="true" />
-        <p><strong>Kein fünfstelliges Marketingbudget?</strong> Dann wird dein Account womöglich vom Praktikanten des Assistenten der Assistentin betreut.</p>
-        <p>Nicht gerade optimal.</p>
+      <div style="flex:0 0 520px;">
+        <img src="assets/Pirates (2).png" alt="" style="display:block; width:100%; border-radius:16px; box-shadow:0 20px 60px rgba(14,34,56,0.22), 0 6px 20px rgba(14,34,56,0.12);" loading="lazy" decoding="async" />
       </div>
     </div>
   </div>
 </section>
-<section class="section section-soft--calendly-flow" id="contact" style="background:transparent; border:none;">
+<!-- Logo Ticker -->
+<div class="logo-ticker-section">
+  <p class="logo-ticker-heading">Wir arbeiten mit</p>
+  <div class="logo-ticker-outer">
+    <div class="logo-ticker-track">
+      <img src="assets/Logo-Beachclub.svg" alt="Aloha Beach Club" />
+      <img src="assets/liftpictures-logo.webp" alt="Liftpictures" />
+      <img src="assets/logopiratesadventure.jpg" alt="Pirates Adventure" />
+      <img src="assets/logoschneiderschaustellerbetrieb.webp" alt="Schneider Schaustellerbetrieb" />
+      <img src="assets/Logo-Beachclub.svg" alt="" aria-hidden="true" />
+      <img src="assets/liftpictures-logo.webp" alt="" aria-hidden="true" />
+      <img src="assets/logopiratesadventure.jpg" alt="" aria-hidden="true" />
+      <img src="assets/logoschneiderschaustellerbetrieb.webp" alt="" aria-hidden="true" />
+      <img src="assets/Logo-Beachclub.svg" alt="" aria-hidden="true" />
+      <img src="assets/liftpictures-logo.webp" alt="" aria-hidden="true" />
+      <img src="assets/logopiratesadventure.jpg" alt="" aria-hidden="true" />
+      <img src="assets/logoschneiderschaustellerbetrieb.webp" alt="" aria-hidden="true" />
+      <img src="assets/Logo-Beachclub.svg" alt="" aria-hidden="true" />
+      <img src="assets/liftpictures-logo.webp" alt="" aria-hidden="true" />
+      <img src="assets/logopiratesadventure.jpg" alt="" aria-hidden="true" />
+      <img src="assets/logoschneiderschaustellerbetrieb.webp" alt="" aria-hidden="true" />
+    </div>
+  </div>
+</div>
+
+<section class="section section-soft--flow" id="contact" style="background:transparent; border:none;">
   <div class="container">
     <h2 class="section-question">„OK... Und was macht euch so <em>anders?</em>"</h2>
     <div class="diff-split">
@@ -503,10 +451,12 @@
 <!-- IPAD MOCKUPS -->
 <section class="section" id="projekte">
   <div class="container">
+    <p style="text-align:center; font-size:clamp(1.3rem,2.5vw,1.8rem); font-weight:600; color:#1a2a3a; line-height:1.5; max-width:700px; margin:0 auto 32px;">Viele Volksfeste bekommen durchschnittlich 900 Bewerbungen pro Jahr. Wie überzeugst du also bei deiner?</p>
     <h2 class="home-problem-question" style="text-align:center; margin-bottom:48px;">Beispiele von erfolgreichem Attraktionsmarketing</h2>
-    <div style="display:flex; gap:48px; justify-content:center; align-items:flex-start;">
-      <img src="assets/schausteller-beispiel-1.webp" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
-      <img src="assets/schausteller-beispiel-2.webp" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
+    <div style="display:flex; gap:32px; justify-content:center; align-items:flex-start;">
+      <img src="assets/piratesbeispiel.png" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
+      <img src="assets/Untitled design (2).png" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
+      <img src="assets/Untitled design (3).png" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
     </div>
     <style>
       .schausteller-preview-img { width:28%; border-radius:0; box-shadow:0 12px 40px rgba(14,34,56,0.13); transition:transform 0.2s ease, box-shadow 0.2s ease; }

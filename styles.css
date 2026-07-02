@@ -268,7 +268,7 @@ figure {
   border-bottom: 1px solid var(--line);
 }
 
-.section-soft--calendly-flow {
+.section-soft--flow {
   border-bottom: 0;
   padding-bottom: 28px;
 }
@@ -810,7 +810,7 @@ figure {
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--primary);
+  color: #16a34a;
   margin-bottom: 12px;
 }
 
@@ -1227,10 +1227,56 @@ figure {
 }
 
 /* Services Grid */
+.services-with-logo {
+  position: relative;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(-50%) translateY(0px); }
+  50%       { transform: translateY(-50%) translateY(-14px); }
+}
+
+@keyframes float-2 {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-10px); }
+}
+
+.services-bg-logo {
+  position: absolute;
+  left: -280px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 580px;
+  height: auto;
+  opacity: 1;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  animation: float 5s ease-in-out infinite;
+}
+
+.services-bg-logo-2 {
+  position: absolute;
+  left: -160px;
+  top: calc(50% + 80px);
+  width: 320px;
+  height: auto;
+  opacity: 1;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  animation: float-2 4s ease-in-out infinite 0.8s;
+}
+
 .services-grid {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px;
+  position: relative;
+  z-index: 1;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: -7vw;
 }
 
 .services-grid .service-card {
@@ -1305,6 +1351,7 @@ figure {
   .services-grid {
     flex-direction: column;
     align-items: stretch;
+    margin-right: 0;
   }
 
   .services-grid .service-card {
@@ -1312,6 +1359,23 @@ figure {
     max-width: none;
   }
 }
+
+/* Growing heading */
+.growing-heading {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.3em;
+}
+.growing-heading span:nth-child(1) { font-size: 1.00em; }
+.growing-heading span:nth-child(2) { font-size: 1.07em; }
+.growing-heading span:nth-child(3) { font-size: 1.14em; }
+.growing-heading span:nth-child(4) { font-size: 1.22em; }
+.growing-heading span:nth-child(5) { font-size: 1.30em; }
+.growing-heading span:nth-child(6) { font-size: 1.39em; }
+.growing-heading span:nth-child(7) { font-size: 1.48em; }
+.growing-heading em                { font-size: 1.60em; }
 
 /* Diff with image */
 .diff-with-image {
@@ -1492,6 +1556,152 @@ figure {
 @media (max-width: 760px) {
   .ads-split {
     grid-template-columns: 1fr;
+  }
+}
+
+.funnel-image-caption {
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 28px;
+}
+
+.funnel-visual {
+  position: relative;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.funnel-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.funnel-callout {
+  position: absolute;
+  z-index: 2;
+  width: 270px;
+  background: var(--surface);
+  border: 1px solid #e4ebf5;
+  border-radius: 14px;
+  padding: 16px 20px;
+  box-shadow: 0 10px 28px rgba(17, 35, 67, 0.12);
+  font-size: 0.92rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.funnel-callout p {
+  margin: 0;
+}
+
+.funnel-callout strong {
+  color: var(--text);
+}
+
+.funnel-callout::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--primary);
+  transform: translateY(-50%);
+  box-shadow: 0 0 0 4px rgba(20, 90, 243, 0.16);
+}
+
+.funnel-callout--1 {
+  top: 4%;
+  right: 3%;
+}
+
+.funnel-callout--1::before {
+  left: -6px;
+}
+
+.funnel-callout--2 {
+  top: 28%;
+  left: 3%;
+}
+
+.funnel-callout--2::before {
+  right: -6px;
+}
+
+.funnel-callout--3 {
+  top: 54%;
+  right: 14%;
+}
+
+.funnel-callout--3::before {
+  left: -6px;
+}
+
+.funnel-callout--4 {
+  top: 84%;
+  left: 14%;
+}
+
+.funnel-callout--4::before {
+  right: -6px;
+}
+
+.funnel-arc-note {
+  position: absolute;
+  z-index: 2;
+  width: 220px;
+  right: -150px;
+  margin: 0;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--primary-deep);
+}
+
+.funnel-arc-note--invest {
+  top: 27%;
+}
+
+.funnel-arc-note--revenue {
+  top: 81%;
+}
+
+.funnel-result {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.funnel-result p {
+  font-size: 1.1rem;
+}
+
+.funnel-result p.funnel-result-highlight {
+  margin-top: 20px;
+  color: var(--primary-deep);
+  font-weight: 700;
+  font-size: 1.35rem;
+}
+
+@media (max-width: 900px) {
+  .funnel-visual {
+    max-width: 480px;
+  }
+
+  .funnel-callout,
+  .funnel-arc-note {
+    position: static;
+    width: 100%;
+    margin-top: 14px;
+  }
+
+  .funnel-callout::before {
+    display: none;
   }
 }
 
@@ -1827,85 +2037,6 @@ figure {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-}
-
-.modal[hidden] {
-  display: none;
-}
-
-.modal {
-  position: fixed;
-  inset: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding: 24px 16px;
-}
-
-.modal-backdrop {
-  position: absolute;
-  inset: 0;
-  background: rgba(15, 23, 42, 0.72);
-}
-
-.modal-dialog {
-  position: relative;
-  z-index: 1;
-  width: min(960px, 100%);
-  max-height: min(90vh, 900px);
-  overflow: auto;
-  border-radius: 8px;
-  background: #ffffff;
-  box-shadow: 0 32px 80px rgba(15, 23, 42, 0.28);
-}
-
-.modal-close {
-  position: absolute;
-  top: 14px;
-  right: 14px;
-  width: 40px;
-  height: 40px;
-  border: 0;
-  border-radius: 8px;
-  background: #f3f4f6;
-  color: var(--text);
-  font-size: 1.7rem;
-  line-height: 1;
-  cursor: pointer;
-}
-
-.calendly-modal {
-  padding: 28px 20px 20px;
-}
-
-.calendly-modal-head {
-  margin-bottom: 12px;
-  padding-right: 48px;
-}
-
-.calendly-modal-head h2 {
-  margin-top: 8px;
-}
-
-.calendly-showcase-section {
-  padding-top: 0;
-  padding-bottom: 0;
-  border-top: 0;
-  background: transparent;
-  overflow: hidden;
-}
-
-.calendly-showcase {
-  width: min(1120px, 100%);
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.calendly-inline-widget--surface {
-  min-width: 320px;
-  height: 980px;
-  overflow: hidden;
 }
 
 .btn {
@@ -3691,15 +3822,6 @@ h2 {
     flex-direction: column;
   }
 
-  .calendly-showcase-section {
-    padding-top: 0;
-    padding-bottom: 28px;
-  }
-
-  .calendly-inline-widget--surface {
-    height: 860px;
-  }
-
   .hero-underline {
     transform: translateX(-22px);
   }
@@ -3760,17 +3882,6 @@ h2 {
 @media (max-width: 480px) {
   .section {
     padding: 52px 0;
-  }
-}
-
-@media (min-width: 781px) {
-  .modal {
-    align-items: center;
-    padding: 32px;
-  }
-
-  .calendly-modal {
-    padding: 32px 28px 28px;
   }
 }
 
@@ -4658,4 +4769,58 @@ h2 {
   .hero-trust {
     margin-top: 12px;
   }
+}
+
+/* Unified background wrapper — borders + base color only */
+.diff-bg-wrapper {
+  background: #eef1f6;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+/* Grainy blue-white gradient — right side of the differentiator section only */
+.diff-section-accent {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background: #eef1f6;
+}
+
+.contact-frame {
+  position: absolute;
+  inset: 20px;
+  border: 1.5px solid rgba(255, 255, 255, 0.75);
+  border-radius: 16px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.diff-section-gray::before {
+  background: linear-gradient(102deg, transparent 44%, rgba(100, 110, 125, 0.15) 51%, rgba(100, 110, 125, 0.12) 100%) !important;
+}
+
+.diff-section-gray::after {
+  opacity: 0.3 !important;
+}
+
+.diff-section-accent::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(102deg, transparent 44%, rgba(20, 90, 243, 0.22) 51%, rgba(20, 90, 243, 0.20) 100%);
+  pointer-events: none;
+}
+
+.diff-section-accent::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+  -webkit-mask-image: linear-gradient(102deg, transparent 44%, black 51%);
+  mask-image: linear-gradient(102deg, transparent 44%, black 51%);
+  opacity: 0.65;
+  pointer-events: none;
 }

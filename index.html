@@ -43,7 +43,7 @@
     <meta name="twitter:title" content="Marketing Agentur Bielefeld | SEO, Webdesign & mehr Anfragen" />
     <meta name="twitter:description" content="ImpressRank ist Ihre Marketing Agentur für Bielefeld und OWL. SEO, Webdesign und digitale Strategie für mehr Sichtbarkeit, Vertrauen und qualifizierte Anfragen." />
     <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=3" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -293,7 +293,7 @@
                 </div>
               </div>
               <div class="hero-actions">
-                <a class="btn btn-primary" href="#calendly-modal" data-calendly-open>JA, DAS WILL ICH</a>
+                <a class="btn btn-primary" href="anfrage">JA, DAS WILL ICH</a>
               </div>
               <div class="hero-showcase-mobile" aria-hidden="true">
                 <div class="hero-showcase-mobile-track">
@@ -345,7 +345,7 @@
         </section>
 
         <!-- Three Options Section -->
-        <section class="section">
+        <section class="section" style="background:#ffffff;">
           <div class="container">
             <h2 class="home-problem-question" style="text-align:center; margin-bottom:40px;">Wie optimierst du also dein <em>Marketing?</em></h2>
             <div class="options-grid">
@@ -372,11 +372,12 @@
           </div>
         </section>
 
-        <!-- Differentiator + Calendly + Services unified background -->
-        <div style="background:#eef1f6; border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+        <!-- Differentiator + Services unified background -->
+        <div class="diff-bg-wrapper">
 
         <!-- Differentiator Section -->
-        <section class="section section-soft--calendly-flow" id="contact" style="background:transparent; border:none;">
+        <section class="section section-soft--flow diff-section-accent" id="contact" style="border:none;">
+          <div class="contact-frame" aria-hidden="true"></div>
           <div class="container">
             <h2 class="section-question">„OK... Und was macht euch so <em>anders?</em>"</h2>
             <div class="diff-split">
@@ -424,7 +425,7 @@
 
         <!-- Logo Ticker -->
         <div class="logo-ticker-section">
-          <p class="logo-ticker-heading">Wir arbeiten mit</p>
+          <p class="logo-ticker-heading">Wir arbeiten mit lokalen Unternehmen</p>
           <div class="logo-ticker-outer">
             <div class="logo-ticker-track">
               <img src="assets/Logo-Beachclub.svg" alt="Aloha Beach Club" />
@@ -447,25 +448,15 @@
           </div>
         </div>
 
-        <section class="section calendly-showcase-section" aria-label="Termin buchen" style="background:transparent;">
-          <div class="container">
-            <div class="calendly-showcase">
-              <div
-                class="calendly-inline-widget calendly-inline-widget--surface"
-                data-calendly-inline-container
-                data-url="https://calendly.com/kontakt-impress-rank/30min?hide_gdpr_banner=1"
-              ></div>
-            </div>
-          </div>
-        </section>
-
         <!-- Services Section -->
         <section class="section" style="padding-top:0px; background:transparent;">
           <div class="container narrow" style="text-align:center; margin-bottom:48px;">
             <p class="eyebrow">Unsere Leistungen</p>
-            <h2>Und wie wollen wir dir helfen zu <em>wachsen?</em></h2>
+            <h2 class="growing-heading"><span>und</span><span>wie</span><span>bringen</span><span>wir</span><span>dich</span><span>in</span><span>die</span><em>Sichtbarkeit?</em></h2>
           </div>
-          <div class="container">
+          <div class="container services-with-logo">
+            <img src="assets/Pirates.png" alt="" class="services-bg-logo" aria-hidden="true" />
+            <img src="assets/Pirates (1).png" alt="" class="services-bg-logo-2" aria-hidden="true" />
             <div class="services-grid">
               <a class="service-card" href="webdesign">
                 <span class="service-number">01</span>
@@ -495,10 +486,11 @@
         </div><!-- end unified background -->
 
         <!-- How it works -->
-        <section class="section section-soft">
+        <section class="section section-soft diff-section-accent diff-section-gray">
+          <div class="contact-frame" aria-hidden="true"></div>
           <div class="container narrow" style="text-align:center; margin-bottom:48px;">
             <p class="eyebrow">So funktioniert es</p>
-            <h2>Ganz einfach.</h2>
+            <h2>Ganz <em>einfach.</em></h2>
           </div>
           <div class="container">
             <div class="seo-steps">
@@ -578,33 +570,10 @@
                 Wenn das genau das ist, was dein Unternehmen braucht – lass uns reden.<br />
                 Buche einen kurzen Call mit uns und wir zeigen dir genau, wie wir dein Marketing verbessern würden.
               </p>
-              <a class="btn btn-primary" href="#calendly-modal" data-calendly-open>Jetzt kostenlosen Call buchen</a>
+              <a class="btn btn-primary" href="anfrage">Jetzt kostenlosen Call buchen</a>
             </div>
           </div>
         </section>
-        <div class="modal" data-calendly-modal hidden>
-          <div class="modal-backdrop" data-calendly-close></div>
-          <div
-            class="modal-dialog calendly-modal"
-            role="dialog"
-            aria-modal="true"
-            aria-labelledby="calendly-modal-title"
-          >
-            <button class="modal-close" type="button" aria-label="Popup schließen" data-calendly-close>
-              ×
-            </button>
-            <div class="calendly-modal-head">
-              <p class="eyebrow">Kostenloser Call</p>
-              <h2 id="calendly-modal-title">Buche deinen Termin direkt hier</h2>
-            </div>
-            <div
-              class="calendly-inline-widget"
-              data-calendly-container
-              data-url="https://calendly.com/kontakt-impress-rank/30min?hide_gdpr_banner=1"
-              style="min-width:320px;height:700px;"
-            ></div>
-          </div>
-        </div>
       </main>
 
       <footer class="footer">

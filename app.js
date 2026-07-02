@@ -687,102 +687,6 @@ const initAboutVideo = () => {
   updateVideoUi();
 };
 
-let calendlyScriptPromise;
-
-const loadCalendlyScript = () => {
-  if (window.Calendly) return Promise.resolve(window.Calendly);
-  if (calendlyScriptPromise) return calendlyScriptPromise;
-
-  calendlyScriptPromise = new Promise((resolve, reject) => {
-    const existing = document.querySelector('script[data-calendly-script]');
-    if (existing) {
-      existing.addEventListener('load', () => resolve(window.Calendly), { once: true });
-      existing.addEventListener('error', reject, { once: true });
-      return;
-    }
-
-    const script = document.createElement('script');
-    script.src = 'https://assets.calendly.com/assets/external/widget.js';
-    script.async = true;
-    script.dataset.calendlyScript = 'true';
-    script.addEventListener('load', () => resolve(window.Calendly), { once: true });
-    script.addEventListener('error', reject, { once: true });
-    document.head.appendChild(script);
-  });
-
-  return calendlyScriptPromise;
-};
-
-const initInlineCalendlyWidgets = async () => {
-  const widgets = document.querySelectorAll('[data-calendly-inline-container]');
-  if (!widgets.length) return;
-
-  try {
-    await loadCalendlyScript();
-    widgets.forEach((widget) => {
-      if (widget.dataset.calendlyInitialized === 'true' || widget.querySelector('iframe')) return;
-      widget.replaceChildren();
-      window.Calendly?.initInlineWidget({
-        url: widget.dataset.url,
-        parentElement: widget,
-      });
-      widget.dataset.calendlyInitialized = 'true';
-    });
-  } catch (error) {
-    console.error('Calendly konnte nicht geladen werden.', error);
-  }
-};
-
-const initCalendlyModal = () => {
-  const modal = document.querySelector('[data-calendly-modal]');
-  const openButtons = document.querySelectorAll('[data-calendly-open]');
-  if (!modal || !openButtons.length) return;
-
-  const widgetContainer = modal.querySelector('[data-calendly-container]');
-  const closeButtons = modal.querySelectorAll('[data-calendly-close]');
-  let widgetLoaded = false;
-
-  const openModal = async () => {
-    modal.hidden = false;
-    document.body.style.overflow = 'hidden';
-
-    try {
-      await loadCalendlyScript();
-      if (!widgetLoaded && widgetContainer && window.Calendly) {
-        window.Calendly.initInlineWidget({
-          url: widgetContainer.dataset.url,
-          parentElement: widgetContainer,
-        });
-        widgetLoaded = true;
-      }
-    } catch (error) {
-      console.error('Calendly konnte nicht geladen werden.', error);
-    }
-  };
-
-  const closeModal = () => {
-    modal.hidden = true;
-    document.body.style.overflow = '';
-  };
-
-  openButtons.forEach((button) => {
-    button.addEventListener('click', (event) => {
-      event.preventDefault();
-      openModal();
-    });
-  });
-
-  closeButtons.forEach((button) => {
-    button.addEventListener('click', closeModal);
-  });
-
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && !modal.hidden) {
-      closeModal();
-    }
-  });
-};
-
 initMenu();
 initLanguageSwitch();
 initCookieBanner();
@@ -790,8 +694,6 @@ initLeadForms();
 initSeoSwitcher();
 initDeferredInteractions();
 initAboutVideo();
-initInlineCalendlyWidgets();
-initCalendlyModal();
 
 // Scroll animations
 const initScrollAnimations = () => {
