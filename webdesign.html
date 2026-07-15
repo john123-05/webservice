@@ -253,7 +253,7 @@
 <div class="hero-divider"></div>
 </div>
 <section class="section" id="intro-about">
-<div class="container intro-grid">
+<div class="container">
 <div class="intro-copy">
 <h2>Warum viele Websites keine Anfragen bringen</h2>
 <p class="section-copy left">
@@ -273,13 +273,6 @@
 <div class="intro-actions">
 <a class="btn btn-primary" href="#angebot">Kostenlos Starten</a>
 </div>
-</div>
-<div class="about-video-card" data-about-video="">
-<div class="about-video-screen">
-<video aria-label="Vorstellungsvideo zu Struktur, Sichtbarkeit und Anfragen" autoplay="" class="about-video" loop="" muted="" playsinline="" poster="assets/about-intro-poster.jpg" preload="metadata" src="assets/about-intro-compressed.mp4"></video>
-</div>
-<img alt="" aria-hidden="true" class="about-video-frame" src="assets/Untitled design (4).webp"/>
-<button aria-label="Video mit Ton abspielen" class="about-video-play" data-about-video-play="" type="button">▶</button>
 </div>
 </div>
 </section>
@@ -364,92 +357,61 @@
 </article>
 </div>
 </section>
-<section class="section section-soft" id="projekte-webdesign" style="overflow:hidden; padding-left:0; padding-right:0;">
-<div class="wd-carousel-outer">
-  <div class="wd-carousel-track" id="wdTrack">
-    <div class="wd-projekt-card"><img src="assets/Alohabeachclubwebsitebeispielimpressrankmarketingbüro.webp" alt="Aloha Beach Club Website" loading="lazy" decoding="async" /></div>
-    <div class="wd-projekt-card"><img src="assets/websiteliftpicturesbeispielimpressrankmarketingbürobadsalzuflen.webp" alt="Liftpictures Website" loading="lazy" decoding="async" /></div>
-    <div class="wd-projekt-card"><img src="assets/piratesadventurebeispielmarketingwebsiteschaustellerimpressrank.webp" alt="Pirates Adventure Website" loading="lazy" decoding="async" /></div>
-    <div class="wd-projekt-card"><img src="assets/villacarpediemwebsiteimpressrank.webp" alt="Villa Carpe Diem Website" loading="lazy" decoding="async" /></div>
-    <div class="wd-projekt-card"><img src="assets/websitegeisterexpressimpressrankschaustellermarketing.webp" alt="Geisterexpress Website" loading="lazy" decoding="async" /></div>
-    <div class="wd-projekt-card"><img src="assets/websiteliftpicturesfotosystemeenglischimpressrank.webp" alt="Liftpictures Fotosysteme Website" loading="lazy" decoding="async" /></div>
-    <!-- Duplicate for seamless loop -->
-    <div class="wd-projekt-card" aria-hidden="true"><img src="assets/Alohabeachclubwebsitebeispielimpressrankmarketingbüro.webp" alt="" loading="lazy" decoding="async" /></div>
-    <div class="wd-projekt-card" aria-hidden="true"><img src="assets/websiteliftpicturesbeispielimpressrankmarketingbürobadsalzuflen.webp" alt="" loading="lazy" decoding="async" /></div>
-    <div class="wd-projekt-card" aria-hidden="true"><img src="assets/piratesadventurebeispielmarketingwebsiteschaustellerimpressrank.webp" alt="" loading="lazy" decoding="async" /></div>
-    <div class="wd-projekt-card" aria-hidden="true"><img src="assets/villacarpediemwebsiteimpressrank.webp" alt="" loading="lazy" decoding="async" /></div>
-    <div class="wd-projekt-card" aria-hidden="true"><img src="assets/websitegeisterexpressimpressrankschaustellermarketing.webp" alt="" loading="lazy" decoding="async" /></div>
-    <div class="wd-projekt-card" aria-hidden="true"><img src="assets/websiteliftpicturesfotosystemeenglischimpressrank.webp" alt="" loading="lazy" decoding="async" /></div>
-  </div>
+<section class="section section-soft--flow diff-section-accent" id="contact" style="border:none;">
+<div class="contact-frame" aria-hidden="true"></div>
+<div class="container">
+<h2 class="section-question">„OK... Und was macht euch so <em>anders?</em>"</h2>
+<div class="diff-split">
+<div class="diff-split__left">
+<figure class="diff-image-wrap diff-image-main">
+<img src="assets/IMG_6725.webp" alt="Münchener Marketing Kongress – Networking und fachlicher Austausch" loading="lazy" decoding="async" />
+</figure>
+<div class="diff-grid-2">
+<div class="diff-card">
+<p class="diff-label">Lokal</p>
+<p>Wir sind ein <strong>lokales Unternehmen</strong> — du erreichst uns, wenn du uns brauchst.</p>
 </div>
-<script>
-(function() {
-  var track = document.getElementById('wdTrack');
-  if (!track) return;
-  var pos = 0;
-  var speed = 0.35;
-  var dragging = false;
-  var startX = 0;
-  var startPos = 0;
-  var pauseUntil = 0;
-
-  function half() { return track.scrollWidth / 2; }
-
-  function tick() {
-    if (!dragging && Date.now() > pauseUntil) {
-      pos += speed;
-      if (pos >= half()) pos -= half();
-      track.style.transform = 'translateX(-' + pos + 'px)';
-    }
-    requestAnimationFrame(tick);
-  }
-
-  function clamp(p) {
-    var h = half();
-    p = p % h;
-    if (p < 0) p += h;
-    return p;
-  }
-
-  track.style.cursor = 'grab';
-
-  track.addEventListener('mousedown', function(e) {
-    dragging = true; startX = e.clientX; startPos = pos;
-    track.style.cursor = 'grabbing';
-    e.preventDefault();
-  });
-  document.addEventListener('mousemove', function(e) {
-    if (!dragging) return;
-    pos = clamp(startPos + (startX - e.clientX));
-    track.style.transform = 'translateX(-' + pos + 'px)';
-  });
-  document.addEventListener('mouseup', function() {
-    if (dragging) { dragging = false; pauseUntil = Date.now() + 800; }
-    track.style.cursor = 'grab';
-  });
-
-  track.addEventListener('touchstart', function(e) {
-    dragging = true; startX = e.touches[0].clientX; startPos = pos;
-  }, { passive: true });
-  track.addEventListener('touchmove', function(e) {
-    if (!dragging) return;
-    pos = clamp(startPos + (startX - e.touches[0].clientX));
-    track.style.transform = 'translateX(-' + pos + 'px)';
-  }, { passive: true });
-  track.addEventListener('touchend', function() {
-    dragging = false; pauseUntil = Date.now() + 800;
-  });
-
-  track.addEventListener('wheel', function(e) {
-    e.preventDefault();
-    pos = clamp(pos + e.deltaX + e.deltaY * 0.5);
-    track.style.transform = 'translateX(-' + pos + 'px)';
-    pauseUntil = Date.now() + 1200;
-  }, { passive: false });
-
-  requestAnimationFrame(tick);
-})();
-</script>
+<div class="diff-card">
+<p class="diff-label">Spezialisiert</p>
+<p>Wir <strong>arbeiten mit Branchen, die wir kennen</strong> — damit wir schnell liefern können, ohne lange Einarbeitung.</p>
+</div>
+</div>
+</div>
+<div class="diff-split__right">
+<div class="diff-grid-2">
+<div class="diff-card">
+<p class="diff-label">Verbindlich</p>
+<p>Sie erhalten <strong>klare Empfehlungen</strong>, eine nachvollziehbare Priorisierung und eine <strong>Umsetzung, die auf echte Anfragen</strong> statt auf leere Agenturphrasen ausgerichtet ist.</p>
+<div class="diff-card-img-wrap">
+<img src="assets/Add a heading-cropped.png" alt="" class="diff-card-img diff-card-img--verbindlich" aria-hidden="true" />
+</div>
+</div>
+<div class="diff-card">
+<p class="diff-label">Ergebnisse</p>
+<p>Unser oberstes Ziel sind <strong>messbare Ergebnisse</strong> für dich. Weniger reden, mehr liefern.</p>
+<div class="diff-card-img-wrap">
+<img src="assets/6-cropped.png" alt="" class="diff-card-img" aria-hidden="true" />
+</div>
+</div>
+</div>
+<div class="diff-split__office-wrap">
+<figure class="diff-image-wrap diff-image-office">
+<img src="assets/buero-bad-salzuflen.webp" alt="ImpressRank Büro in Bad Salzuflen – lokal verwurzelt" loading="lazy" decoding="async" />
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section section-soft" id="projekte-webdesign">
+<div class="container">
+<h2 class="home-problem-question" style="text-align:center; margin-bottom:48px;">Weitere Projekte im Überblick</h2>
+<div style="display:flex; flex-wrap:wrap; gap:24px; justify-content:center;">
+<div class="wd-projekt-card"><img src="assets/websiteliftpicturesbeispielimpressrankmarketingbürobadsalzuflen.webp" alt="Liftpictures Website" loading="lazy" decoding="async" /></div>
+<div class="wd-projekt-card"><img src="assets/Alohabeachclubwebsitebeispielimpressrankmarketingbüro.webp" alt="Aloha Beach Club Website" loading="lazy" decoding="async" /></div>
+<div class="wd-projekt-card"><img src="assets/piratesadventurebeispielmarketingwebsiteschaustellerimpressrank.webp" alt="Pirates Adventure Website" loading="lazy" decoding="async" /></div>
+</div>
+</div>
 </section>
 <section style="background:#fff; padding:100px 0 80px;" id="prozess">
   <div class="container">

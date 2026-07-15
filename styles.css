@@ -178,6 +178,8 @@ body {
   background: radial-gradient(circle at 8% 0%, #ffffff 0, var(--bg) 44%, #f0f4f8 100%);
   line-height: 1.55;
   overflow-x: hidden;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 a {
@@ -211,8 +213,6 @@ figure {
 
 .section {
   padding: 82px 0;
-  content-visibility: auto;
-  contain-intrinsic-size: 760px;
 }
 
 /* Logo ticker */
@@ -1243,10 +1243,10 @@ figure {
 
 .services-bg-logo {
   position: absolute;
-  left: -280px;
+  left: -100px;
   top: 50%;
   transform: translateY(-50%);
-  width: 580px;
+  width: 400px;
   height: auto;
   opacity: 1;
   pointer-events: none;
@@ -1257,9 +1257,9 @@ figure {
 
 .services-bg-logo-2 {
   position: absolute;
-  left: -160px;
+  left: -60px;
   top: calc(50% + 80px);
-  width: 320px;
+  width: 220px;
   height: auto;
   opacity: 1;
   pointer-events: none;
@@ -4891,4 +4891,21 @@ h2 {
   mask-image: linear-gradient(102deg, transparent 44%, black 51%);
   opacity: 0.65;
   pointer-events: none;
+}
+
+/* Fixed-width decorative hero images (Ads/Schausteller pages) — must not force horizontal overflow on mobile */
+@media (max-width: 760px) {
+  .hero-media-fixed {
+    flex: 1 1 260px !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+  .hero-media-shift {
+    right: 0 !important;
+  }
+  .hero-media-decal {
+    right: 0 !important;
+    bottom: -16px !important;
+    width: 130px !important;
+  }
 }
