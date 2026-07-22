@@ -764,6 +764,12 @@ figure {
   pointer-events: none;
 }
 
+@media (max-width: 700px) {
+  .wd-projekt-card {
+    flex: 0 0 min(360px, 82vw);
+  }
+}
+
 .diff-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -2478,6 +2484,12 @@ h2 {
   .case-split {
     grid-template-columns: 1fr;
     gap: 24px;
+  }
+}
+
+@media (max-width: 700px) {
+  .device-frame {
+    height: clamp(430px, 100vw, 500px);
   }
 }
 
