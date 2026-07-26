@@ -46,12 +46,16 @@
 <link as="font" crossorigin="" href="assets/fonts/manrope-latin.woff2" rel="preload" type="font/woff2"/>
 <link href="styles.css" rel="stylesheet"/>
 <style>
+  .hero-area {
+    background: none;
+  }
   .hero-area::before {
-    background:
-      linear-gradient(90deg, rgba(238,242,248,0.12) 0%, rgba(238,242,248,0.04) 36%, rgba(238,242,248,0.0) 100%),
-      url("assets/istockphoto-145725806-640x640.jpg");
+    background: url("assets/schausteller-marketing-hero.webp");
     background-size: cover;
     background-position: center;
+    filter: none;
+    transform: none;
+    opacity: 1;
   }
   #schausteller-text strong {
     font-weight: 800;
@@ -296,14 +300,6 @@
 
 <section class="hero-grid">
 <div class="hero-copy">
-<h1 class="eyebrow">Marketingbüro Bad Salzuflen</h1>
-<h2 class="hero-main-heading">
-                Eine <span class="hero-highlight">Webseite</span>, die Veranstalter von deinem Geschäft <span class="hero-underline-wrap"><span class="hero-highlight">überzeugt<img src="assets/underline.png" class="hero-underline" alt="" aria-hidden="true" style="filter:brightness(0);" /></span></span>
-              </h2>
-<p style="font-size:1.35rem; font-weight:400; margin-top:32px; margin-bottom:28px;">Online-Marketing für dein Fahrgeschäft</p>
-<div class="hero-actions">
-<a class="btn btn-primary" href="#angebot">Ja, das will ich</a>
-</div>
 <div aria-hidden="true" class="hero-showcase-mobile">
 <div class="hero-showcase-mobile-track">
 <figure class="hero-shot hero-shot-mobile">
@@ -378,6 +374,37 @@
       </div>
     </div>
   </div>
+</section>
+<section class="section" id="erfahrungen">
+<div class="container narrow" style="text-align:center; margin-bottom:32px;">
+<h2>Erfahrungen mit ImpressRank</h2>
+</div>
+<div class="container testimonials-grid">
+<a class="testimonial-card" href="https://www.aloha-beachclub-herford.de/" target="_blank" rel="noopener">
+<div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+<p class="testimonial-quote">„Sehr kompetentes Büro aus Bad Salzuflen! Herr Nolting geht auf individuelle Wünsche ein und setzt sie kreativ um! Die Website wird immer auf dem neuesten Stand gehalten und ist einfach und übersichtlich …"</p>
+<div class="testimonial-author">
+<span class="testimonial-author-name">Louis Schneider</span>
+<span class="testimonial-author-business">Aloha Beachclub Herford</span>
+</div>
+</a>
+<a class="testimonial-card" href="https://www.liftpictures.com/" target="_blank" rel="noopener">
+<div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+<p class="testimonial-quote">„Dank der Zusammenarbeit mit ImpressRank tauchen wir jetzt branchenweit bei Google auf Platz 1 auf und erhalten über unsere beiden neuen Websites regelmäßig neue Anfragen. Wir sind sehr zufrieden mit den empfohlenen Marketingmaßnahmen …"</p>
+<div class="testimonial-author">
+<span class="testimonial-author-name">Liftpictures Fotosysteme</span>
+<span class="testimonial-author-business">liftpictures.com</span>
+</div>
+</a>
+<a class="testimonial-card" href="https://pirates-adventure.de/" target="_blank" rel="noopener">
+<div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+<p class="testimonial-quote">„Wirklich kompetente Zusammenarbeit, Vorschläge und Wünsche wurden sofort umgesetzt. Bin wirklich zufrieden und gebe gern eine Empfehlung weiter!"</p>
+<div class="testimonial-author">
+<span class="testimonial-author-name">Pirates Adventure</span>
+<span class="testimonial-author-business">pirates-adventure.de</span>
+</div>
+</a>
+</div>
 </section>
 <!-- Logo Ticker -->
 <div class="logo-ticker-section">
@@ -482,168 +509,197 @@
 </section>
 
 <!-- CHECKLISTE SECTION -->
-<section style="background:#f3f5f8; padding:100px 0 100px;">
-  <div class="container">
-    <img src="assets/ads1.webp" alt="" aria-hidden="true" style="display:block; width:110px; height:auto; margin:0 auto 20px;" loading="lazy" decoding="async" />
-    <h2 style="text-align:center; font-size:clamp(1.6rem,3.5vw,2.4rem); font-weight:800; color:#0e2238; margin:0 0 16px;">Sowas kannst du auch haben.</h2>
-    <p style="text-align:center; color:#2d4a63; font-size:1.05rem; max-width:620px; margin:0 auto 56px; line-height:1.6;"><strong>5 Dinge</strong>, die idealerweise auf deiner <strong>Website</strong> sind, um deine Attraktion besonders <strong>für Veranstalter ansprechend</strong> zu machen.</p>
+<section style="background:#f3f5f8; padding:100px 0 100px; overflow:hidden;">
+  <div class="container" style="width:min(1800px,94vw);">
     <style>
-      .cl-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
-      .cl-grid-row2 { display:grid; grid-template-columns:repeat(2,1fr); gap:24px; max-width:66.6%; margin:24px auto 0; }
-      .cl-card {
-        background:#fff;
-        border-radius:16px;
-        min-height:280px;
-        display:flex;
-        flex-direction:column;
+      .fw {
+        display:grid;
+        grid-template-columns:minmax(320px, 0.76fr) minmax(600px, 1fr);
+        gap:clamp(10px, 1.8vw, 24px);
         align-items:center;
-        text-align:center;
-        cursor:pointer;
-        position:relative;
-        overflow:hidden;
-        box-shadow:0 2px 12px rgba(14,34,56,0.07);
+        max-width:1520px;
+        margin:0 auto;
       }
-      .cl-front {
-        position:relative;
-        z-index:1;
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        padding:40px 28px 0;
-        flex:1;
-        transition:opacity 0.35s ease;
+      .fw-panel {
+        display:grid;
+        gap:16px;
+        max-width:500px;
+        justify-self:end;
       }
-      .cl-card:hover .cl-front { opacity:0; }
-      .cl-icon {
-        width:64px; height:64px;
-        display:flex; align-items:center; justify-content:center;
-        margin-bottom:20px;
-        color:#145af3;
-      }
-      .cl-title {
-        font-size:0.88rem;
-        font-weight:800;
-        text-transform:uppercase;
-        letter-spacing:0.03em;
-        color:#0e2238;
-        line-height:1.4;
-        margin:0 0 auto;
-        padding-bottom:20px;
-      }
-      /* The expanding circle — sits at bottom, grows to fill card */
-      .cl-fill {
-        position:absolute;
-        bottom:-40px;
-        left:calc(50% - 40px);
-        width:80px;
-        height:80px;
-        border-radius:50%;
-        background:#145af3;
-        transform:scale(1);
-        transform-origin:center center;
-        transition:transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
-        z-index:0;
-      }
-      .cl-card:hover .cl-fill { transform:scale(16); }
-      /* Back text fades in on top of the fill */
-      .cl-back {
-        position:absolute;
-        inset:0;
-        z-index:2;
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        justify-content:center;
-        padding:32px 28px;
-        opacity:0;
-        transition:opacity 0.2s ease 0.2s;
-        pointer-events:none;
-      }
-      .cl-card:hover .cl-back { opacity:1; pointer-events:auto; }
-      .cl-back-title {
-        font-size:0.88rem;
-        font-weight:800;
-        text-transform:uppercase;
-        letter-spacing:0.03em;
-        color:#fff;
-        margin:0 0 16px;
-        line-height:1.4;
-      }
-      .cl-back-text {
-        font-size:0.93rem;
-        font-weight:400;
-        color:rgba(255,255,255,0.9);
-        line-height:1.65;
+      .fw-panel-heading {
         margin:0;
+        font-size:clamp(1.7rem,3.2vw,2.4rem);
+        font-weight:800;
+        color:#0e2238;
+        line-height:1.15;
       }
-      @media(max-width:700px){
-        .cl-grid { grid-template-columns:1fr; }
-        .cl-grid-row2 { grid-template-columns:1fr; max-width:100%; }
+      .fw-panel-badge {
+        display:inline-flex;
+        align-items:center;
+        gap:16px;
+        width:fit-content;
+      }
+      .fw-panel-text {
+        margin:0;
+        color:#2d4a63;
+        font-size:1.05rem;
+        line-height:1.7;
+        max-width:40ch;
+      }
+      .fw-panel-icon {
+        display:block;
+        width:82px;
+        height:auto;
+      }
+      .fw-panel-kicker {
+        margin:0;
+        font-size:clamp(1.7rem,3.2vw,2.4rem);
+        font-weight:800;
+        color:#0e2238;
+        line-height:1.15;
+      }
+      .fw--ready .fw-data { display:none; }
+      .fw-data {
+        list-style:none;
+        margin:24px 0 0;
+        padding:0;
+        display:grid;
+        gap:14px;
+        text-align:left;
+      }
+      .fw-data li::before {
+        content: attr(data-fw-title) ": ";
+        font-weight:800;
+        color:#0e2238;
+      }
+      .fw-stage {
+        width:100%;
+        max-width:760px;
+        margin:0;
+        justify-self:start;
+      }
+      .fw-canvas {
+        position:relative;
+        margin:48px 0 42px;
+      }
+      .fw-svg { width:100%; height:auto; display:block; overflow:visible; }
+      .fw-segment { cursor:pointer; }
+      .fw-segment:focus { outline:none; }
+      .fw-segment:focus-visible .fw-wedge { outline:3px solid #0e2238; outline-offset:-3px; }
+      .fw-wedge {
+        fill:#dde9fb;
+        stroke:#f3f5f8;
+        stroke-width:4;
+        transition:fill 0.4s ease;
+      }
+      .fw-segment.is-active .fw-wedge { fill:#f3f5f8; }
+      .fw-spoke { stroke:#c9d8f1; stroke-width:2; transition:opacity 0.25s ease; }
+      .fw-segment.is-active .fw-spoke { opacity:0; }
+      .fw-gondola { fill:#ffffff; stroke:#145af3; stroke-width:3; transition:opacity 0.25s ease; }
+      .fw-segment.is-active .fw-gondola { opacity:0; }
+      .fw-gondola-num {
+        font-size:13px; font-weight:800; fill:#145af3;
+        pointer-events:none; transition:opacity 0.25s ease;
+      }
+      .fw-segment.is-active .fw-gondola-num { opacity:0; }
+      .fw-label {
+        font-size:14px; font-weight:800; letter-spacing:0.02em; fill:#1d3a63;
+        pointer-events:none; transition:opacity 0.25s ease;
+      }
+      .fw-segment.is-active .fw-label { opacity:0; }
+      .fw-hub { fill:#0e2238; pointer-events:none; }
+      .fw-hub-hit {
+        fill:transparent;
+        cursor:pointer;
+      }
+      .fw-hub-num { font-size:29px; font-weight:800; fill:#ffffff; pointer-events:none; }
+      .fw-hub-label { font-size:13px; font-weight:700; letter-spacing:0.04em; fill:#9fb4d8; pointer-events:none; }
+      .fw-hub-arc { fill:#145af3; pointer-events:none; }
+      .fw-stand line { stroke:#c9d8f1; stroke-width:3; stroke-linecap:round; }
+
+      /* Text that emerges directly out of the active wedge as it fades away */
+      .fw-popout {
+        position:absolute;
+        left:50%; top:50%;
+        width:252px;
+        --tx:-50%; --ty:-50%; --fw-scale:0.9;
+        transform:translate(var(--tx),var(--ty)) scale(var(--fw-scale));
+        opacity:0;
+        pointer-events:none;
+        transition:opacity 0.35s ease, transform 0.4s cubic-bezier(0.2,0.8,0.2,1), left 0.4s ease, top 0.4s ease;
+        z-index:5;
+      }
+      .fw-popout.is-visible { opacity:1; --fw-scale:1; }
+      .fw-popout::before {
+        content:'';
+        position:absolute;
+        inset:-12px;
+        background:radial-gradient(circle, rgba(20,90,243,0.13) 0%, rgba(20,90,243,0) 60%);
+        z-index:-1;
+      }
+      .fw-popout-title {
+        margin:0 0 7px;
+        font-size:1.18rem;
+        font-weight:800;
+        color:#0e2238;
+        line-height:1.2;
+      }
+      .fw-popout-text {
+        margin:0;
+        font-size:0.98rem;
+        color:#3a4f68;
+        line-height:1.55;
+        white-space:pre-line;
+      }
+
+      @media(max-width:860px){
+        .fw { grid-template-columns:1fr; gap:32px; text-align:center; }
+        .fw-panel { max-width:none; }
+        .fw-panel-badge { justify-self:center; }
+        .fw-panel-text { margin-left:auto; margin-right:auto; }
+        .fw-data { text-align:center; }
+        .fw-stage { max-width:500px; justify-self:center; }
+        .fw-canvas { margin:24px 12px 12px; }
+        .fw-popout {
+          position:static !important;
+          transform:none !important;
+          width:auto;
+          max-width:340px;
+          margin:20px auto 0;
+          opacity:1 !important;
+        }
+        .fw-popout::before { display:none; }
       }
     </style>
 
-    <div class="cl-grid">
-      <div class="cl-card">
-        <div class="cl-front">
-          <div class="cl-icon"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect x="8" y="14" width="32" height="22" rx="3" stroke="currentColor" stroke-width="2.2"/><path d="M8 20h32M16 14v-4M32 14v-4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M14 27h8M14 32h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
-          <p class="cl-title">Nenne deine Eckdaten</p>
+    <div class="fw" data-ferris-wheel>
+      <div class="fw-panel">
+        <h2 class="fw-panel-heading">Sowas kannst du auch haben.</h2>
+        <div class="fw-panel-badge">
+          <p class="fw-panel-kicker">5 Dinge</p>
+          <img src="assets/ads1.webp" alt="" aria-hidden="true" class="fw-panel-icon" loading="lazy" decoding="async" />
         </div>
-        <div class="cl-fill"></div>
-        <div class="cl-back">
-          <p class="cl-back-title">Nenne deine Eckdaten</p>
-          <p class="cl-back-text">Zeige, wie viel Platz deine Attraktion braucht, welche Anschlüsse sie benötigt und was Veranstalter organisatorisch wissen müssen. Je einfacher, desto besser.</p>
-        </div>
+        <p class="fw-panel-text">die idealerweise auf deiner <strong>Website</strong> sind, um deine Attraktion besonders <strong>für Veranstalter ansprechend</strong> zu machen.</p>
       </div>
-      <div class="cl-card">
-        <div class="cl-front">
-          <div class="cl-icon"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="20" r="10" stroke="currentColor" stroke-width="2.2"/><path d="M10 40c0-7.732 6.268-14 14-14s14 6.268 14 14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></div>
-          <p class="cl-title">Überzeuge menschlich</p>
+      <div class="fw-stage">
+        <div class="fw-canvas">
+          <svg class="fw-svg" viewBox="0 0 470 430" role="img" aria-label="Fünf Dinge für deine Website, dargestellt als Riesenrad"></svg>
+          <div class="fw-popout">
+            <p class="fw-popout-title"></p>
+            <p class="fw-popout-text"></p>
+          </div>
         </div>
-        <div class="cl-fill"></div>
-        <div class="cl-back">
-          <p class="cl-back-title">Überzeuge menschlich</p>
-          <p class="cl-back-text">Veranstalter entscheiden nicht nur nach dem Geschäft, sondern auch nach den Personen dahinter. Zeige, wer du bist — ein Foto und ein paar Sätze reichen oft.</p>
-        </div>
-      </div>
-      <div class="cl-card">
-        <div class="cl-front">
-          <div class="cl-icon"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M24 8l4 8 9 1.3-6.5 6.3 1.5 9L24 28l-8 4.6 1.5-9L11 17.3l9-1.3z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg></div>
-          <p class="cl-title">Zeige, was dich besonders macht</p>
-        </div>
-        <div class="cl-fill"></div>
-        <div class="cl-back">
-          <p class="cl-back-title">Zeige, was dich besonders macht</p>
-          <p class="cl-back-text">Gibt es etwas, was dein Fahr- oder Laufgeschäft einzigartig macht? Besondere Technik, ein auffälliges Design, eine Geschichte dahinter? Das interessiert Veranstalter.</p>
-        </div>
+        <ul class="fw-data">
+          <li data-fw-label="Eckdaten" data-fw-title="Nenne deine Eckdaten" data-fw-points="Schaffe Klarheit&#10;Nenne Platzbedarf&#10;Zeige Anschlüsse">Zeige Platzbedarf, Anschlüsse und organisatorische Eckdaten auf einen Blick.</li>
+          <li data-fw-label="Menschlich" data-fw-title="Überzeuge menschlich" data-fw-points="Schaffe Vertrauen&#10;Zeige ein Foto&#10;Stelle dich kurz vor">Zeige kurz, wer hinter der Attraktion steht, damit Vertrauen entsteht.</li>
+          <li data-fw-label="Besonderheit" data-fw-title="Zeige, was dich besonders macht" data-fw-points="Zeige dein Highlight&#10;Mach dich besonders&#10;Erkläre den Unterschied">Mach sichtbar, was dein Geschäft von anderen unterscheidet.</li>
+          <li data-fw-label="Referenzen" data-fw-title="Zeige, wo du schon warst" data-fw-points="Belege Erfahrung&#10;Nenne frühere Feste&#10;Zeige Bilder vor Ort">Belege Erfahrung mit starken Referenzen und echten Einsätzen.</li>
+          <li data-fw-label="Kontakt" data-fw-title="Mache Kontakt einfach" data-fw-points="Mach Anfragen leicht&#10;Zeige klare Kontaktdaten&#10;Vermeide jeden Umweg">Sorge dafür, dass Veranstalter dich sofort und einfach erreichen können.</li>
+        </ul>
       </div>
     </div>
 
-    <div class="cl-grid-row2">
-      <div class="cl-card">
-        <div class="cl-front">
-          <div class="cl-icon"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M12 36l6-6 5 5 7-10 6 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><rect x="8" y="10" width="32" height="28" rx="3" stroke="currentColor" stroke-width="2.2"/></svg></div>
-          <p class="cl-title">Zeige, wo du schon warst</p>
-        </div>
-        <div class="cl-fill"></div>
-        <div class="cl-back">
-          <p class="cl-back-title">Zeige, wo du schon warst</p>
-          <p class="cl-back-text">Referenzen schaffen Vertrauen. Welche Volksfeste, Märkte oder Festivals hast du schon bespielt? Eine kurze Liste oder Fotos vor Ort sprechen für sich.</p>
-        </div>
-      </div>
-      <div class="cl-card">
-        <div class="cl-front">
-          <div class="cl-icon"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M8 12h32v22a2 2 0 01-2 2H10a2 2 0 01-2-2V12z" stroke="currentColor" stroke-width="2.2"/><path d="M8 12l16 14L40 12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></div>
-          <p class="cl-title">Mache Kontakt einfach</p>
-        </div>
-        <div class="cl-fill"></div>
-        <div class="cl-back">
-          <p class="cl-back-title">Mache Kontakt einfach</p>
-          <p class="cl-back-text">Veranstalter, die überzeugt sind, sollen sofort handeln können. Ein klares Kontaktformular oder direkte Anfragemöglichkeit — kein langer Weg, kein Suchen.</p>
-        </div>
-      </div>
-    </div>
-
-    <p style="text-align:center; margin-top:56px; font-size:2rem; font-weight:800; color:#0e2238;">Keine Zeit? <a href="anfrage" style="color:#145af3; text-decoration:underline; text-underline-offset:4px;">Wir übernehmen das!</a></p>
+    <p style="text-align:center; margin-top:16px; font-size:2rem; font-weight:800; color:#0e2238;">Keine Zeit? <a href="anfrage" style="color:#145af3; text-decoration:underline; text-underline-offset:4px;">Wir übernehmen das!</a></p>
 
   </div>
 </section>

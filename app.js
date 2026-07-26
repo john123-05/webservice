@@ -630,11 +630,307 @@ const initCaseCarousel = () => {
   renderCaseCarousel();
 };
 
+const initFerrisWheel = () => {
+  const wrap = document.querySelector('[data-ferris-wheel]');
+  if (!wrap || wrap.dataset.fwReady === 'true') return;
+
+  const svg = wrap.querySelector('.fw-svg');
+  const listItems = Array.from(wrap.querySelectorAll('.fw-data > li'));
+  const popout = wrap.querySelector('.fw-popout');
+  const popoutTitle = wrap.querySelector('.fw-popout-title');
+  const popoutText = wrap.querySelector('.fw-popout-text');
+  if (!svg || !listItems.length || !popout || !popoutTitle || !popoutText) return;
+
+  wrap.dataset.fwReady = 'true';
+
+  const svgNS = 'http://www.w3.org/2000/svg';
+  const svgWidth = 470;
+  const svgHeight = 430;
+  const cx = 235;
+  const cy = 196;
+  const rOuter = 162;
+  const rInner = 64;
+  const rGondola = rOuter + 26;
+  const rLabel = (rOuter + rInner) / 2 + 4;
+  const count = listItems.length;
+  const segAngle = 360 / count;
+  const startOffset = -90;
+
+  const toXY = (r, angleDeg) => {
+    const rad = (angleDeg * Math.PI) / 180;
+    return { x: cx + r * Math.cos(rad), y: cy + r * Math.sin(rad) };
+  };
+
+  const ringPath = (r1, r2, start, end) => {
+    const p1 = toXY(r1, start);
+    const p2 = toXY(r2, start);
+    const p3 = toXY(r2, end);
+    const p4 = toXY(r1, end);
+    return `M ${p1.x} ${p1.y} L ${p2.x} ${p2.y} A ${r2} ${r2} 0 0 1 ${p3.x} ${p3.y} L ${p4.x} ${p4.y} A ${r1} ${r1} 0 0 0 ${p1.x} ${p1.y} Z`;
+  };
+  const wedgePath = (start, end) => ringPath(rInner, rOuter, start, end);
+
+  const stand = document.createElementNS(svgNS, 'g');
+  stand.setAttribute('class', 'fw-stand');
+  stand.setAttribute('aria-hidden', 'true');
+  const standBottom = cy + rOuter + 55;
+  [-1, 1].forEach((side) => {
+    const leg = document.createElementNS(svgNS, 'line');
+    leg.setAttribute('x1', cx + side * 26);
+    leg.setAttribute('y1', cy + rInner - 6);
+    leg.setAttribute('x2', cx + side * 88);
+    leg.setAttribute('y2', standBottom);
+    stand.appendChild(leg);
+  });
+  const ground = document.createElementNS(svgNS, 'line');
+  ground.setAttribute('x1', cx - 118);
+  ground.setAttribute('y1', standBottom);
+  ground.setAttribute('x2', cx + 118);
+  ground.setAttribute('y2', standBottom);
+  stand.appendChild(ground);
+  svg.appendChild(stand);
+
+  const segments = [];
+  const midAngles = [];
+  const angleRanges = [];
+
+  listItems.forEach((li, i) => {
+    const start = startOffset + i * segAngle;
+    const end = start + segAngle;
+    const mid = start + segAngle / 2;
+    midAngles.push(mid);
+    angleRanges.push({ start, end });
+
+    const g = document.createElementNS(svgNS, 'g');
+    g.setAttribute('class', 'fw-segment');
+    g.setAttribute('tabindex', '0');
+    g.setAttribute('role', 'button');
+    g.setAttribute('aria-label', li.dataset.fwTitle || li.dataset.fwLabel || '');
+
+    const path = document.createElementNS(svgNS, 'path');
+    path.setAttribute('d', wedgePath(start, end));
+    path.setAttribute('class', 'fw-wedge');
+    g.appendChild(path);
+
+    const spokeEnd = toXY(rGondola - 14, mid);
+    const spoke = document.createElementNS(svgNS, 'line');
+    spoke.setAttribute('x1', String(cx));
+    spoke.setAttribute('y1', String(cy));
+    spoke.setAttribute('x2', String(spokeEnd.x));
+    spoke.setAttribute('y2', String(spokeEnd.y));
+    spoke.setAttribute('class', 'fw-spoke');
+    g.appendChild(spoke);
+
+    const gondolaPos = toXY(rGondola, mid);
+    const gondola = document.createElementNS(svgNS, 'circle');
+    gondola.setAttribute('cx', String(gondolaPos.x));
+    gondola.setAttribute('cy', String(gondolaPos.y));
+    gondola.setAttribute('r', '14');
+    gondola.setAttribute('class', 'fw-gondola');
+    g.appendChild(gondola);
+
+    const gondolaNum = document.createElementNS(svgNS, 'text');
+    gondolaNum.setAttribute('x', String(gondolaPos.x));
+    gondolaNum.setAttribute('y', String(gondolaPos.y));
+    gondolaNum.setAttribute('class', 'fw-gondola-num');
+    gondolaNum.setAttribute('text-anchor', 'middle');
+    gondolaNum.setAttribute('dominant-baseline', 'central');
+    gondolaNum.textContent = String(i + 1);
+    g.appendChild(gondolaNum);
+
+    const labelPos = toXY(rLabel, mid);
+    const label = document.createElementNS(svgNS, 'text');
+    label.setAttribute('x', String(labelPos.x));
+    label.setAttribute('y', String(labelPos.y));
+    label.setAttribute('class', 'fw-label');
+    label.setAttribute('text-anchor', 'middle');
+    label.setAttribute('dominant-baseline', 'central');
+    label.textContent = (li.dataset.fwLabel || '').toUpperCase();
+    g.appendChild(label);
+
+    svg.appendChild(g);
+    segments.push(g);
+
+    const activate = () => setActive(i);
+    g.addEventListener('pointerenter', activate);
+    g.addEventListener('focus', activate);
+    g.addEventListener('click', activate);
+    g.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        activate();
+      }
+    });
+  });
+
+  const hub = document.createElementNS(svgNS, 'circle');
+  hub.setAttribute('cx', String(cx));
+  hub.setAttribute('cy', String(cy));
+  hub.setAttribute('r', String(rInner));
+  hub.setAttribute('class', 'fw-hub');
+  svg.appendChild(hub);
+
+  const hubHit = document.createElementNS(svgNS, 'circle');
+  hubHit.setAttribute('cx', String(cx));
+  hubHit.setAttribute('cy', String(cy));
+  hubHit.setAttribute('r', String(rInner + 6));
+  hubHit.setAttribute('class', 'fw-hub-hit');
+  hubHit.setAttribute('aria-hidden', 'true');
+  svg.appendChild(hubHit);
+
+  const hubArc = document.createElementNS(svgNS, 'path');
+  hubArc.setAttribute('class', 'fw-hub-arc');
+  svg.appendChild(hubArc);
+
+  const hubNum = document.createElementNS(svgNS, 'text');
+  hubNum.setAttribute('x', String(cx));
+  hubNum.setAttribute('y', String(cy - 10));
+  hubNum.setAttribute('class', 'fw-hub-num');
+  hubNum.setAttribute('text-anchor', 'middle');
+  svg.appendChild(hubNum);
+
+  const hubLabel = document.createElementNS(svgNS, 'text');
+  hubLabel.setAttribute('x', String(cx));
+  hubLabel.setAttribute('y', String(cy + 16));
+  hubLabel.setAttribute('class', 'fw-hub-label');
+  hubLabel.setAttribute('text-anchor', 'middle');
+  svg.appendChild(hubLabel);
+
+  let activeIndex = -1;
+  let autoAdvanceTimer = null;
+  let startDelayTimer = null;
+  let isInView = false;
+  let isPointerInside = false;
+  const restartDelay = 1500;
+
+  function clearActive() {
+    segments.forEach((seg) => seg.classList.remove('is-active'));
+    activeIndex = -1;
+    hubNum.textContent = '5';
+    hubLabel.textContent = 'DINGE';
+    hubArc.setAttribute('d', '');
+    popoutTitle.textContent = '';
+    popoutText.textContent = '';
+    popout.classList.remove('is-visible');
+  }
+
+  function setActive(i) {
+    activeIndex = i;
+    segments.forEach((seg, idx) => seg.classList.toggle('is-active', idx === i));
+    const li = listItems[i];
+    hubNum.textContent = String(i + 1).padStart(2, '0');
+    hubLabel.textContent = (li.dataset.fwLabel || '').toUpperCase();
+    const { start, end } = angleRanges[i];
+    hubArc.setAttribute('d', ringPath(rInner, rInner + 10, start, end));
+
+    const angle = midAngles[i];
+    const rad = (angle * Math.PI) / 180;
+    const cosA = Math.cos(rad);
+    const sinA = Math.sin(rad);
+    const dampX = 0.3;
+    const dampY = 0.28;
+    const anchor = toXY(rOuter - 12, angle);
+    popout.style.left = `${(anchor.x / svgWidth) * 100}%`;
+    popout.style.top = `${(anchor.y / svgHeight) * 100}%`;
+    popout.style.setProperty('--tx', `${-50 + 50 * dampX * cosA}%`);
+    popout.style.setProperty('--ty', `${-50 + 50 * dampY * sinA}%`);
+    popoutTitle.textContent = li.dataset.fwTitle || li.dataset.fwLabel || '';
+    popoutText.textContent = li.dataset.fwPoints || li.textContent.trim();
+    popout.classList.add('is-visible');
+  }
+
+  const stopAutoAdvance = () => {
+    if (startDelayTimer) {
+      window.clearTimeout(startDelayTimer);
+      startDelayTimer = null;
+    }
+    if (autoAdvanceTimer) {
+      window.clearInterval(autoAdvanceTimer);
+      autoAdvanceTimer = null;
+    }
+  };
+
+  const scheduleSequenceStep = (index, delay) => {
+    autoAdvanceTimer = window.setTimeout(() => {
+      if (!isInView || isPointerInside) return;
+
+      setActive(index);
+
+      if (index === count - 1) {
+        startDelayTimer = window.setTimeout(() => {
+          if (!isInView || isPointerInside) return;
+          clearActive();
+          startAutoAdvance(true, restartDelay);
+        }, 2500);
+        return;
+      }
+
+      scheduleSequenceStep(index + 1, 2500);
+    }, delay);
+  };
+
+  const startAutoAdvance = (reset = false, delay = 0) => {
+    stopAutoAdvance();
+    if (reset) clearActive();
+
+    startDelayTimer = window.setTimeout(() => {
+      if (!isInView || isPointerInside) return;
+      scheduleSequenceStep(0, 0);
+    }, delay);
+  };
+
+  clearActive();
+  wrap.classList.add('fw--ready');
+
+  wrap.addEventListener('pointerenter', () => {
+    isPointerInside = true;
+    stopAutoAdvance();
+  });
+
+  wrap.addEventListener('pointerleave', () => {
+    isPointerInside = false;
+    clearActive();
+    if (isInView) startAutoAdvance(true, restartDelay);
+  });
+
+  hubHit.addEventListener('pointerenter', () => {
+    stopAutoAdvance();
+    clearActive();
+  });
+
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.target !== wrap) return;
+
+          if (entry.isIntersecting) {
+            isInView = true;
+            if (!isPointerInside) startAutoAdvance(true, restartDelay);
+          } else {
+            isInView = false;
+            stopAutoAdvance();
+            clearActive();
+          }
+        });
+      },
+      {
+        threshold: 0.45,
+      }
+    );
+
+    observer.observe(wrap);
+  } else {
+    startAutoAdvance(true);
+  }
+};
+
 const initDeferredInteractions = () => {
   const boot = () => {
     initCompareBlocks();
     initProcessTimeline();
     initCaseCarousel();
+    initFerrisWheel();
   };
 
   if ('requestIdleCallback' in window) {
