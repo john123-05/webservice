@@ -3763,7 +3763,7 @@ h2 {
   bottom: 24px;
   right: 24px;
   z-index: 9999;
-  max-width: 400px;
+  max-width: 520px;
   width: calc(100% - 48px);
 }
 
@@ -3775,16 +3775,16 @@ h2 {
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.18);
-  padding: 22px 22px 18px;
+  padding: 30px 30px 24px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 18px;
 }
 
 .cookie-banner__copy p {
   color: #1a1a2e;
-  font-size: 0.88rem;
-  line-height: 1.55;
+  font-size: 1rem;
+  line-height: 1.6;
   margin: 0;
 }
 
@@ -3800,9 +3800,9 @@ h2 {
 .cookie-btn {
   border: none;
   cursor: pointer;
-  font-size: 0.88rem;
+  font-size: 0.96rem;
   font-weight: 700;
-  padding: 12px 16px;
+  padding: 14px 18px;
   border-radius: 999px;
   transition: opacity 0.15s;
   line-height: 1;
@@ -4121,8 +4121,8 @@ h2 {
   }
 
   .cookie-banner__modal {
-    padding: 20px 18px;
-    gap: 14px;
+    padding: 24px 22px;
+    gap: 16px;
   }
 
   .cookie-banner__actions {
@@ -5222,22 +5222,34 @@ h2 {
 
 @media (max-width: 980px) {
   .site-location-section {
-    padding: 84px 0 150px;
+    padding: 62px 0 154px;
+    min-height: 860px;
+    background: #0b1118;
+  }
+
+  .site-location-section::before {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.04) 24%, rgba(11, 17, 24, 0.03) 52%, rgba(11, 17, 24, 0.12) 100%),
+      linear-gradient(90deg, rgba(11, 17, 24, 0.04) 0%, rgba(11, 17, 24, 0.02) 100%),
+      url("karte.png") center center / cover no-repeat;
   }
 
   .site-location-layout {
     display: block;
+    padding-top: 0;
   }
 
   .site-location-copy {
     max-width: 100%;
-    margin-top: 0;
+    margin-top: 24px;
+    margin-inline: auto;
   }
 }
 
 @media (max-width: 640px) {
   .site-location-section {
-    padding: 70px 0 118px;
+    padding: 48px 0 124px;
+    min-height: 920px;
   }
 
   .site-location-section::after {
@@ -5245,9 +5257,21 @@ h2 {
     border-radius: 12px;
   }
 
+  .site-location-section::before {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.05) 22%, rgba(11, 17, 24, 0.02) 46%, rgba(11, 17, 24, 0.1) 100%),
+      linear-gradient(90deg, rgba(11, 17, 24, 0.03) 0%, rgba(11, 17, 24, 0.01) 100%),
+      url("karte.png") center center / cover no-repeat;
+  }
+
+  .site-location-layout {
+    padding-top: 0;
+  }
+
   .site-location-copy {
     padding: 24px 20px 26px;
     border-radius: 16px;
+    margin-top: 18px;
   }
 
   .site-location-copy p {
