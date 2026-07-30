@@ -5147,7 +5147,7 @@ h2 {
   background:
     linear-gradient(90deg, rgba(14, 34, 56, 0.82) 0%, rgba(14, 34, 56, 0.58) 28%, rgba(14, 34, 56, 0.18) 58%, rgba(14, 34, 56, 0.42) 100%),
     linear-gradient(180deg, rgba(14, 34, 56, 0.2) 0%, rgba(14, 34, 56, 0.3) 100%),
-    url("schausteller8.png") center center / cover no-repeat;
+    url("assets/site-location-desktop.webp") center center / cover no-repeat;
   pointer-events: none;
   z-index: -1;
 }
@@ -5231,7 +5231,7 @@ h2 {
     background:
       linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.04) 24%, rgba(11, 17, 24, 0.03) 52%, rgba(11, 17, 24, 0.12) 100%),
       linear-gradient(90deg, rgba(11, 17, 24, 0.04) 0%, rgba(11, 17, 24, 0.02) 100%),
-      url("karte.png") center center / cover no-repeat;
+      url("assets/site-location-mobile.webp") center center / cover no-repeat;
   }
 
   .site-location-layout {
@@ -5261,7 +5261,7 @@ h2 {
     background:
       linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.05) 22%, rgba(11, 17, 24, 0.02) 46%, rgba(11, 17, 24, 0.1) 100%),
       linear-gradient(90deg, rgba(11, 17, 24, 0.03) 0%, rgba(11, 17, 24, 0.01) 100%),
-      url("karte.png") center center / cover no-repeat;
+      url("assets/site-location-mobile.webp") center center / cover no-repeat;
   }
 
   .site-location-layout {
