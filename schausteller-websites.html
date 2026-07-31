@@ -96,46 +96,107 @@
   }
 
   .schausteller-services-section {
-    background: linear-gradient(180deg, #f7f9fc 0%, #ffffff 100%);
-    padding: 96px 0;
-    border-top: 1px solid #e4ebf5;
-    border-bottom: 1px solid #e4ebf5;
+    background: transparent;
+    padding: 108px 0 100px;
+    border: none;
+  }
+
+  .schausteller-services-layout {
+    display: grid;
+    grid-template-columns: minmax(320px, 0.78fr) minmax(900px, 1.42fr);
+    gap: clamp(10px, 1.4vw, 24px);
+    align-items: center;
   }
 
   .schausteller-services-head {
-    max-width: 840px;
-    margin: 0 auto 42px;
-    text-align: center;
+    max-width: 500px;
+    justify-self: start;
+    margin-left: -6px;
   }
 
   .schausteller-services-head h2 {
-    font-size: clamp(1.75rem, 3.2vw, 2.5rem);
-    line-height: 1.12;
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    line-height: 1.25;
     font-weight: 800;
     color: #0e2238;
-    margin-bottom: 16px;
+    margin: 0;
+    text-wrap: balance;
   }
 
-  .schausteller-services-head p {
-    font-size: 1.08rem;
-    line-height: 1.7;
-    color: #4a5e72;
+  .schausteller-services-stage {
+    position: relative;
+    display: grid;
+    justify-items: end;
+    justify-self: end;
+    width: min(100%, 1060px);
+    margin-right: -24px;
+    margin-top: -248px;
+  }
+
+  .schausteller-services-roof {
+    width: 100%;
+    margin: 0 0 -42px 0;
+    position: relative;
+    z-index: 2;
+    line-height: 0;
+    filter: drop-shadow(0 16px 30px rgba(14, 34, 56, 0.12));
+  }
+
+  .schausteller-services-roof img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   .schausteller-services-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 22px;
+    gap: 0;
+    width: calc(100% - 44px);
+    position: relative;
+    z-index: 3;
+    align-items: stretch;
+    justify-self: start;
+    margin-top: -127px;
+  }
+
+  .schausteller-services-cta {
+    margin-top: 28px;
+    justify-self: center;
+    position: relative;
+    z-index: 3;
   }
 
   .schausteller-service-card {
     position: relative;
     overflow: hidden;
-    padding: 28px 24px 24px;
-    border-radius: 20px;
+    padding: 24px 24px 24px;
+    border-radius: 0;
     background: linear-gradient(180deg, #ffffff 0%, #f5f9ff 100%);
     border: 1px solid #d8e3f3;
+    border-top: none;
     box-shadow: 0 16px 38px rgba(14, 34, 56, 0.08);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .schausteller-service-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    background: linear-gradient(180deg, #eef5ff 0%, #dfeeff 100%);
+    box-shadow: inset 0 0 0 1px rgba(20, 90, 243, 0.12);
+    color: #145af3;
+  }
+
+  .schausteller-service-icon svg {
+    width: 22px;
+    height: 22px;
+    display: block;
   }
 
   .schausteller-service-card::before {
@@ -148,133 +209,34 @@
     background: linear-gradient(90deg, #145af3 0%, #66a3ff 100%);
   }
 
-  .schausteller-service-card-num {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 42px;
-    border-radius: 999px;
-    background: #eef4ff;
-    color: #145af3;
-    font-size: 0.92rem;
-    font-weight: 800;
-    margin-bottom: 16px;
+  .schausteller-service-card + .schausteller-service-card {
+    border-left: none;
   }
 
-  .schausteller-service-icon {
-    position: relative;
-    display: block;
-    width: 22px;
-    height: 22px;
+  .schausteller-service-card:first-child {
+    border-radius: 18px 0 0 18px;
   }
 
-  .schausteller-service-icon--website::before {
-    content: "";
-    position: absolute;
-    inset: 2px 1px 4px;
-    border: 2px solid currentColor;
-    border-radius: 5px;
-  }
-
-  .schausteller-service-icon--website::after {
-    content: "";
-    position: absolute;
-    left: 4px;
-    right: 4px;
-    top: 7px;
-    height: 2px;
-    background: currentColor;
-    box-shadow: 0 5px 0 currentColor;
-  }
-
-  .schausteller-service-icon--content::before {
-    content: "";
-    position: absolute;
-    left: 2px;
-    top: 4px;
-    width: 10px;
-    height: 12px;
-    border: 2px solid currentColor;
-    border-radius: 3px;
-    transform: rotate(-8deg);
-  }
-
-  .schausteller-service-icon--content::after {
-    content: "";
-    position: absolute;
-    right: 1px;
-    bottom: 3px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    border: 2px solid currentColor;
-    box-shadow: inset 0 0 0 3px rgba(20, 90, 243, 0.12);
-  }
-
-  .schausteller-service-icon--text::before {
-    content: "";
-    position: absolute;
-    left: 2px;
-    right: 2px;
-    top: 4px;
-    height: 2px;
-    background: currentColor;
-    box-shadow:
-      0 5px 0 currentColor,
-      0 10px 0 currentColor,
-      -5px 15px 0 currentColor;
-  }
-
-  .schausteller-service-icon--text::after {
-    content: "";
-    position: absolute;
-    right: 3px;
-    bottom: 2px;
-    width: 5px;
-    height: 5px;
-    background: currentColor;
-    border-radius: 50%;
-  }
-
-  .schausteller-service-icon--design::before {
-    content: "";
-    position: absolute;
-    left: 3px;
-    top: 3px;
-    width: 16px;
-    height: 16px;
-    border: 2px solid currentColor;
-    border-radius: 50% 50% 50% 35%;
-    transform: rotate(-25deg);
-  }
-
-  .schausteller-service-icon--design::after {
-    content: "";
-    position: absolute;
-    right: 2px;
-    top: 7px;
-    width: 4px;
-    height: 4px;
-    background: currentColor;
-    border-radius: 50%;
-    box-shadow:
-      -5px -3px 0 currentColor,
-      -7px 5px 0 currentColor;
+  .schausteller-service-card:last-child {
+    border-radius: 0 18px 18px 0;
   }
 
   .schausteller-service-card h3 {
-    margin: 0 0 12px;
-    font-size: 1.18rem;
-    line-height: 1.3;
+    margin: 0 0 10px;
+    font-size: 1.28rem;
+    line-height: 1.22;
     color: #0e2238;
-    font-weight: 800;
+    font-weight: 400;
+  }
+
+  .schausteller-service-card h3 strong {
+    font-weight: 700;
   }
 
   .schausteller-service-card p {
     margin: 0;
-    font-size: 1rem;
-    line-height: 1.72;
+    font-size: 1.06rem;
+    line-height: 1.82;
     color: #4a5e72;
   }
 
@@ -308,8 +270,45 @@
   }
 
   @media (max-width: 1100px) {
+    .schausteller-services-layout {
+      grid-template-columns: 1fr;
+      gap: 34px;
+    }
+
+    .schausteller-services-head {
+      max-width: 720px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .schausteller-services-stage {
+      justify-items: center;
+      justify-self: center;
+      width: 100%;
+      margin-right: 0;
+      margin-top: 0;
+    }
+
+    .schausteller-services-roof {
+      width: min(100%, 860px);
+      margin: 0 0 -24px;
+    }
+
     .schausteller-services-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      width: min(100%, 860px);
+      margin-top: -135px;
+    }
+
+    .schausteller-service-card,
+    .schausteller-service-card:first-child,
+    .schausteller-service-card:last-child {
+      border-radius: 18px;
+    }
+
+    .schausteller-service-card + .schausteller-service-card {
+      border-left: 1px solid #d8e3f3;
     }
   }
 
@@ -399,12 +398,62 @@
     }
 
     .schausteller-services-section {
-      padding: 68px 0 !important;
+      padding: 52px 0 60px !important;
+    }
+
+    .schausteller-services-layout {
+      gap: 18px !important;
+      align-items: start !important;
+    }
+
+    .schausteller-services-head {
+      text-align: left;
+      margin-left: 0;
+      max-width: none;
+      position: relative;
+      z-index: 3;
+    }
+
+    .schausteller-services-head h2 {
+      font-size: clamp(1.45rem, 9vw, 2.35rem);
+      line-height: 1.08;
+      text-wrap: pretty;
+    }
+
+    .schausteller-services-stage {
+      --services-mobile-overlap: clamp(54px, 13vw, 66px);
+      width: 100%;
+      margin-top: -8px;
+      justify-items: stretch;
+    }
+
+    .schausteller-services-roof {
+      width: calc(100% + 8px);
+      margin: 0 -4px calc(var(--services-mobile-overlap) * -0.26);
     }
 
     .schausteller-services-grid {
       grid-template-columns: 1fr;
       gap: 16px;
+      width: 100%;
+      margin-top: calc(var(--services-mobile-overlap) * -1);
+    }
+
+    .schausteller-services-cta {
+      margin-top: 20px;
+    }
+
+    .schausteller-service-card {
+      padding: 22px 22px 24px;
+    }
+
+    .schausteller-service-card h3 {
+      font-size: 1.14rem;
+      line-height: 1.28;
+    }
+
+    .schausteller-service-card + .schausteller-service-card {
+      border-left: 1px solid #d8e3f3;
     }
 
     .schausteller-standplatz-layout {
@@ -641,7 +690,7 @@ die Veranstalter von deinem Gesch&auml;ft <span class="is-red">&uuml;berzeugt.</
     <div class="schausteller-standplatz-layout">
       <div class="schausteller-standplatz-copy">
         <h2 style="font-size:clamp(1.6rem,3vw,2.4rem); font-weight:800; line-height:1.25; margin-bottom:28px;">
-          Der Kampf um Standplätze ist ziemlich hart, <em>Professionalität entscheidet.</em>
+          Der Kampf um Standplätze ist ziemlich hart, <span style="color:#145af3;">Professionalität entscheidet.</span>
         </h2>
         <p style="font-size:1.1rem; color:#4a5568; line-height:1.7; margin-bottom:20px;">
           Viele Volksfeste bekommen durchschnittlich 900 Bewerbungen pro Jahr. Wie überzeugst du also bei deiner?
@@ -659,32 +708,57 @@ die Veranstalter von deinem Gesch&auml;ft <span class="is-red">&uuml;berzeugt.</
     </div>
   </div>
 </section>
-<section class="schausteller-services-section">
+<section class="schausteller-services-section diff-section-accent diff-section-gray">
+  <div class="contact-frame" aria-hidden="true"></div>
   <div class="container">
-    <div class="schausteller-services-head">
-      <h2>So helfe ich, deine Chancen auf die besten Festpl&auml;tze zu <em>verbessern.</em></h2>
-    </div>
-    <div class="schausteller-services-grid">
-      <article class="schausteller-service-card">
-        <div class="schausteller-service-card-num"><span class="schausteller-service-icon schausteller-service-icon--website" aria-hidden="true"></span></div>
-        <h3>Ich baue eine Website f&uuml;r dein Fahrgesch&auml;ft von Anfang bis Ende.</h3>
-        <p>Struktur, Aufbau, Technik und Umsetzung kommen aus einer Hand, damit dein Auftritt nicht wie ein halbfertiger Kompromiss wirkt.</p>
-      </article>
-      <article class="schausteller-service-card">
-        <div class="schausteller-service-card-num"><span class="schausteller-service-icon schausteller-service-icon--content" aria-hidden="true"></span></div>
-        <h3>Ich pflege deine Website mit regelm&auml;&szlig;igen Inhalten.</h3>
-        <p>Auf Wunsch erstelle ich auch Bilder und Videos, damit dein Fahrgesch&auml;ft lebendig bleibt und Veranstalter immer einen aktuellen Eindruck bekommen.</p>
-      </article>
-      <article class="schausteller-service-card">
-        <div class="schausteller-service-card-num"><span class="schausteller-service-icon schausteller-service-icon--text" aria-hidden="true"></span></div>
-        <h3>Ich schreibe professionelle Texte, die Veranstalter &uuml;berzeugen.</h3>
-        <p>Die Inhalte sollen nicht nur informieren, sondern Vertrauen schaffen und klar machen, warum dein Gesch&auml;ft auf ein gutes Fest geh&ouml;rt.</p>
-      </article>
-      <article class="schausteller-service-card">
-        <div class="schausteller-service-card-num"><span class="schausteller-service-icon schausteller-service-icon--design" aria-hidden="true"></span></div>
-        <h3>Ich erstelle ein Design, das zu deinem Gesch&auml;ft passt.</h3>
-        <p>Dein Auftritt soll die Stimmung, Qualit&auml;t und Eigenart deiner Attraktion sichtbar machen und professionell nach au&szlig;en transportieren.</p>
-      </article>
+    <div class="schausteller-services-layout">
+      <div class="schausteller-services-head">
+        <h2>So helfe ich, deine <span style="color:#145af3;">Chancen</span> auf die besten <span style="color:#145af3;">Festpl&auml;tze</span> zu <span style="color:#145af3;">verbessern.</span></h2>
+      </div>
+      <div class="schausteller-services-stage">
+        <div class="schausteller-services-roof" aria-hidden="true">
+          <img src="schaustlellerneu1.png" alt="" loading="lazy" decoding="async" />
+        </div>
+        <div class="schausteller-services-grid">
+          <article class="schausteller-service-card">
+            <div class="schausteller-service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M4 6.75A2.75 2.75 0 0 1 6.75 4h10.5A2.75 2.75 0 0 1 20 6.75v7.5A2.75 2.75 0 0 1 17.25 17H12l-4 3v-3H6.75A2.75 2.75 0 0 1 4 14.25v-7.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M8 8.5h8M8 12h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3><strong>Ich baue eine Website</strong> f&uuml;r dein Fahrgesch&auml;ft <strong>von Anfang bis Ende.</strong></h3>
+          </article>
+          <article class="schausteller-service-card">
+            <div class="schausteller-service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M7 4.75v3.5M17 4.75v3.5M5.75 8h12.5A1.75 1.75 0 0 1 20 9.75v8.5A1.75 1.75 0 0 1 18.25 20H5.75A1.75 1.75 0 0 1 4 18.25v-8.5A1.75 1.75 0 0 1 5.75 8Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 11.5h16M8 15h3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Ich <strong>pflege deine Website</strong> mit regelm&auml;&szlig;igen Inhalten.</h3>
+          </article>
+          <article class="schausteller-service-card">
+            <div class="schausteller-service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M6.75 5h10.5A1.75 1.75 0 0 1 19 6.75v10.5A1.75 1.75 0 0 1 17.25 19H6.75A1.75 1.75 0 0 1 5 17.25V6.75A1.75 1.75 0 0 1 6.75 5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M8 9h8M8 12h8M8 15h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Ich <strong>schreibe professionelle Texte</strong>, die Veranstalter &uuml;berzeugen.</h3>
+          </article>
+          <article class="schausteller-service-card">
+            <div class="schausteller-service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 5 19 8.5v7L12 19l-7-3.5v-7L12 5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M12 5v14M5 8.5l7 3.5 7-3.5" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Ich <strong>erstelle ein Design</strong>, das zu deinem Gesch&auml;ft passt.</h3>
+          </article>
+        </div>
+        <a href="anfrage" class="btn btn-primary schausteller-services-cta">Jetzt Website-Projekt starten</a>
+      </div>
     </div>
   </div>
 </section>
@@ -830,6 +904,13 @@ die Veranstalter von deinem Gesch&auml;ft <span class="is-red">&uuml;berzeugt.</
         line-height:1.7;
         max-width:40ch;
       }
+      .fw-panel-hint {
+        margin:2px 0 0;
+        color:#5c7290;
+        font-size:0.92rem;
+        line-height:1.55;
+        max-width:40ch;
+      }
       .fw-panel-icon {
         display:block;
         width:82px;
@@ -964,6 +1045,7 @@ die Veranstalter von deinem Gesch&auml;ft <span class="is-red">&uuml;berzeugt.</
           <img src="assets/ads1.webp" alt="" aria-hidden="true" class="fw-panel-icon" loading="lazy" decoding="async" />
         </div>
         <p class="fw-panel-text">die idealerweise auf deiner <strong>Website</strong> sind, um deine Attraktion besonders <strong>für Veranstalter ansprechend</strong> zu machen.</p>
+        <p class="fw-panel-hint">Sobald du hierher scrollst, startet die Erkl&auml;rung direkt wieder bei Punkt 1.</p>
       </div>
       <div class="fw-stage">
         <div class="fw-canvas">

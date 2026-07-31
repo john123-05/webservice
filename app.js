@@ -800,7 +800,6 @@ const initFerrisWheel = () => {
   let autoAdvanceTimer = null;
   let startDelayTimer = null;
   let isInView = false;
-  let isPointerInside = false;
   const restartDelay = 1500;
 
   function clearActive() {
@@ -852,13 +851,13 @@ const initFerrisWheel = () => {
 
   const scheduleSequenceStep = (index, delay) => {
     autoAdvanceTimer = window.setTimeout(() => {
-      if (!isInView || isPointerInside) return;
+      if (!isInView) return;
 
       setActive(index);
 
       if (index === count - 1) {
         startDelayTimer = window.setTimeout(() => {
-          if (!isInView || isPointerInside) return;
+          if (!isInView) return;
           clearActive();
           startAutoAdvance(true, restartDelay);
         }, 2500);
@@ -874,7 +873,7 @@ const initFerrisWheel = () => {
     if (reset) clearActive();
 
     startDelayTimer = window.setTimeout(() => {
-      if (!isInView || isPointerInside) return;
+      if (!isInView) return;
       scheduleSequenceStep(0, 0);
     }, delay);
   };
@@ -882,20 +881,10 @@ const initFerrisWheel = () => {
   clearActive();
   wrap.classList.add('fw--ready');
 
-  wrap.addEventListener('pointerenter', () => {
-    isPointerInside = true;
-    stopAutoAdvance();
-  });
-
-  wrap.addEventListener('pointerleave', () => {
-    isPointerInside = false;
-    clearActive();
-    if (isInView) startAutoAdvance(true, restartDelay);
-  });
-
   hubHit.addEventListener('pointerenter', () => {
     stopAutoAdvance();
     clearActive();
+    if (isInView) startAutoAdvance(true, restartDelay);
   });
 
   if ('IntersectionObserver' in window) {
@@ -906,7 +895,7 @@ const initFerrisWheel = () => {
 
           if (entry.isIntersecting) {
             isInView = true;
-            if (!isPointerInside) startAutoAdvance(true, restartDelay);
+            startAutoAdvance(true, 0);
           } else {
             isInView = false;
             stopAutoAdvance();
@@ -915,7 +904,7 @@ const initFerrisWheel = () => {
         });
       },
       {
-        threshold: 0.45,
+        threshold: 0.12,
       }
     );
 
