@@ -15,6 +15,8 @@ const copyTargets = [
   '_redirects',
 ];
 
+const rootLevelStaticAssetPattern = /\.(png|jpe?g|webp|svg|mp4)$/i;
+
 const excludedAssetNames = new Set([
   'copy_8CFABB7F-FE02-47D9-8733-8B9B9EEA93AC.MOV',
 ]);
@@ -23,10 +25,10 @@ const ensureDir = (path) => {
   mkdirSync(path, { recursive: true });
 };
 
-const isRootLevelStaticPage = (entry) => {
-  if (!entry.endsWith('.html')) return false;
+const isRootLevelStaticEntry = (entry) => {
   if (entry.startsWith('dist')) return false;
-  return true;
+  if (entry.endsWith('.html')) return true;
+  return rootLevelStaticAssetPattern.test(entry);
 };
 
 const copyRecursive = (sourceRelativePath) => {
@@ -53,7 +55,7 @@ rmSync(distDir, { recursive: true, force: true });
 ensureDir(distDir);
 
 for (const entry of readdirSync(rootDir)) {
-  if (isRootLevelStaticPage(entry)) {
+  if (isRootLevelStaticEntry(entry)) {
     copyRecursive(entry);
   }
 }
