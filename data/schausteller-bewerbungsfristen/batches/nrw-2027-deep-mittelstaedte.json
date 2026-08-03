@@ -21,17 +21,17 @@
   "entries": [
     {
       "id": "telgte-maria-geburts-markt-kirmes-2027-telgte",
-      "event_name": "Mariae-Geburts-Markt Telgte 2027 - Kirmes",
+      "event_name": "Mariä-Geburts-Markt Telgte 2027 - Kirmes",
       "event_type": "Kirmes / Volksfest",
       "city": "Telgte",
       "state": "Nordrhein-Westfalen",
       "country": "DE",
       "venue_or_area": "Telgter Innenstadt",
       "application_deadline_iso": "2026-11-30",
-      "application_deadline_text": "Bewerbungsschluss fuer die Kirmes ist der 30.11. des Veranstaltungsvorjahres, fuer den Mariae-Geburts-Markt 2027 also der 30.11.2026.",
-      "event_date_range_text": "Jeweils am zweiten Septemberwochenende, Freitag bis Dienstag; die genauen Termine 2027 sind noch nicht veroeffentlicht.",
-      "application_mode": "Bewerbungsformular mit Geschaeftsskizze und Produktfotos per Post oder E-Mail an bewerbung-mgm@telgte.de.",
-      "postal_address": "Staedtische Wirtschaftsbetriebe Telgte GmbH, Bassfeld 4-6, 48291 Telgte",
+      "application_deadline_text": "Bewerbungsschluss für die Kirmes ist der 30.11. des Veranstaltungsvorjahres, für den Mariä-Geburts-Markt 2027 also der 30.11.2026.",
+      "event_date_range_text": "Jeweils am zweiten Septemberwochenende, Freitag bis Dienstag; die genauen Termine 2027 sind noch nicht veröffentlicht.",
+      "application_mode": "Bewerbungsformular mit Geschäftsskizze und Produktfotos per Post oder E-Mail an bewerbung-mgm@telgte.de.",
+      "postal_address": "Staedtische Wirtschaftsbetriebe Telgte GmbH, Baßfeld 4-6, 48291 Telgte",
       "contact_name": "Regina Bussmann (02504 13-215) und Stefan Reiser (02504 13-280)",
       "contact_email": "bewerbung-mgm@telgte.de",
       "contact_phone": "02504 13-215",
@@ -41,21 +41,21 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "nrw-2027-deep-mittelstaedte",
       "confidence_status": "partial",
-      "notes": "Die Stadt nennt den Bewerbungsschluss als feste jaehrliche Regel, nicht als Einzeldatum fuer 2027. Genaue Veranstaltungstermine 2027 vor Bewerbung beim Veranstalter erfragen."
+      "notes": "Die Stadt nennt den Bewerbungsschluss als feste jährliche Regel, nicht als Einzeldatum für 2027. Genaue Veranstaltungstermine 2027 vor Bewerbung beim Veranstalter erfragen."
     },
     {
       "id": "telgte-maria-geburts-markt-krammarkt-2027-telgte",
-      "event_name": "Mariae-Geburts-Markt Telgte 2027 - Krammarkt",
+      "event_name": "Mariä-Geburts-Markt Telgte 2027 - Krammarkt",
       "event_type": "Krammarkt",
       "city": "Telgte",
       "state": "Nordrhein-Westfalen",
       "country": "DE",
       "venue_or_area": "Telgter Innenstadt",
       "application_deadline_iso": "2027-02-28",
-      "application_deadline_text": "Bewerbungsschluss fuer den Krammarkt ist der 28.02. des Veranstaltungsjahres, fuer 2027 also der 28.02.2027.",
-      "event_date_range_text": "Jeweils am zweiten Septemberwochenende, Freitag bis Dienstag; die genauen Termine 2027 sind noch nicht veroeffentlicht.",
-      "application_mode": "Bewerbungsformular mit Geschaeftsskizze und Produktfotos per Post oder E-Mail an bewerbung-mgm@telgte.de.",
-      "postal_address": "Staedtische Wirtschaftsbetriebe Telgte GmbH, Bassfeld 4-6, 48291 Telgte",
+      "application_deadline_text": "Bewerbungsschluss für den Krammarkt ist der 28.02. des Veranstaltungsjahres, für 2027 also der 28.02.2027.",
+      "event_date_range_text": "Jeweils am zweiten Septemberwochenende, Freitag bis Dienstag; die genauen Termine 2027 sind noch nicht veröffentlicht.",
+      "application_mode": "Bewerbungsformular mit Geschäftsskizze und Produktfotos per Post oder E-Mail an bewerbung-mgm@telgte.de.",
+      "postal_address": "Staedtische Wirtschaftsbetriebe Telgte GmbH, Baßfeld 4-6, 48291 Telgte",
       "contact_name": "Regina Bussmann (02504 13-215) und Stefan Reiser (02504 13-280)",
       "contact_email": "bewerbung-mgm@telgte.de",
       "contact_phone": "02504 13-215",
@@ -65,7 +65,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "nrw-2027-deep-mittelstaedte",
       "confidence_status": "partial",
-      "notes": "Der Krammarkt hat eine spaetere Frist als die Kirmes desselben Marktes. Die Stadt nennt den Bewerbungsschluss als feste jaehrliche Regel."
+      "notes": "Der Krammarkt hat eine spätere Frist als die Kirmes desselben Marktes. Die Stadt nennt den Bewerbungsschluss als feste jährliche Regel."
     }
   ],
   "rejected_candidates": [

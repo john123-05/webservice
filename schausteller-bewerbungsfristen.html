@@ -4,107 +4,149 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Schausteller-Bewerbungsfristen 2026/2027 | ImpressRank</title>
-  <meta name="description" content="Verpasse keine Bewerbungsfrist mehr: ein gebündelter Fristenkalender für Schausteller mit offiziellen Quellen, Ansprechpartnern und Adressen." />
+  <meta name="description" content="Der Newsletter, der dich vor jeder Bewerbungsfrist erinnert. Deutschlandweite Datenbank aus Bewerbungsfristen für Festtage, mit offiziellen Quellen und Ansprechpartnern." />
   <meta name="robots" content="noindex,nofollow" />
   <link rel="icon" href="assets/digital.png" type="image/png" />
   <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="site-wrap">
+<div class="site-wrap fk">
   <header class="lc-header">
     <div class="container lc-header-inner">
       <a class="brand" href="/">
         <img src="assets/digital.png" alt="ImpressRank" class="brand-logo" />
       </a>
-      <a class="btn btn-primary" href="#fristen-unlock">Kalender freischalten</a>
+      <a class="btn btn-primary" href="#newsletter">Newsletter abonnieren</a>
     </div>
   </header>
 
   <main data-deadline-page data-deadline-data-url="data/schausteller-bewerbungsfristen/web.json">
-    <section class="lc-section deadline-hero-section" id="hero">
+
+    <section class="fk-hero">
       <div class="container">
-        <div class="deadline-hero-grid">
-          <div class="deadline-hero-copy">
-            <h1 class="deadline-hero-title">Verpasse keine <span>Bewerbungsfrist</span> mehr.</h1>
-            <p class="deadline-hero-sub">
-              Wir bündeln offizielle Fristen, Bewerbungswege, Adressen und Ansprechpartner an einem Ort,
-              damit du wichtige Plätze nicht wegen einer verpassten Deadline verlierst.
-            </p>
-            <ul class="deadline-hero-points">
-              <li>Alle Fristen an einem Ort statt verteilt über zehn Websites</li>
-              <li>Mit E-Mail-Erinnerung und optionaler WhatsApp-Benachrichtigung</li>
-              <li>Mit offiziellen Quellenlinks, damit du direkt zur Ausschreibung kommst</li>
+        <div class="fk-hero-grid">
+          <div>
+            <p class="fk-kicker">Fristenkalender für Schausteller</p>
+            <h1 class="fk-title">Verpasse keine Bewerbungsfrist mehr</h1>
+            <p class="fk-lead">Der Newsletter<span class="fk-lead-ink">, der dich</span> <span class="fk-lead-tight"><span class="fk-lead-ink">rechtzeitig</span> erinnert.</span></p>
+            <p class="fk-sub">Deutschlandweite Datenbank aus Bewerbungsfristen für Festtage &ndash; mit offizieller Quelle, Bewerbungsweg und Ansprechpartner zu jedem Eintrag.</p>
+
+            <ul class="fk-hero-facts">
+              <li>16 Bundesländer</li>
+              <li>+1.000 Bewerbungsfristen</li>
+              <li>wöchentlich aktualisiert</li>
             </ul>
-            <div class="deadline-hero-actions">
-              <a class="btn btn-primary" href="#fristen-unlock">Jetzt freischalten</a>
-              <p class="deadline-hero-fineprint">Stand der Recherche: <strong id="deadline-hero-stand">wird geladen</strong>. Maßgeblich bleibt immer die offizielle Ausschreibung.</p>
-            </div>
           </div>
 
-          <aside class="deadline-next-panel">
-            <p class="eyebrow">Nächste offene Frist</p>
-            <div id="deadline-next-hero" aria-live="polite">
-              <div class="deadline-next-card deadline-loading-card">Kalender wird geladen...</div>
-            </div>
-            <div class="deadline-next-meta">
-              <div>
-                <span class="deadline-next-meta-label">Erfasste Fristen</span>
-                <strong id="deadline-count">0</strong>
+          <aside class="fk-signup" id="newsletter-top">
+            <h2>Erinnerung aktivieren</h2>
+            <p class="fk-signup-note">Wir melden uns, bevor eine Frist abläuft. Keine Werbung, nur Termine.</p>
+            <form class="fk-form" data-fk-form data-form-source="schausteller-bewerbungsfristen-hero">
+              <div class="fk-field">
+                <label for="fk-email-top">E-Mail-Adresse</label>
+                <input id="fk-email-top" type="email" name="email" placeholder="name@email.com" required autocomplete="email" />
               </div>
-              <div>
-                <span class="deadline-next-meta-label">Recherche-Stand</span>
-                <strong id="deadline-stand">wird geladen</strong>
+              <div class="fk-field">
+                <label for="fk-phone-top">WhatsApp-Nummer (optional)</label>
+                <input id="fk-phone-top" type="tel" name="phone" placeholder="+49 …" autocomplete="tel" />
               </div>
-            </div>
+              <button type="submit">Erinnerungen erhalten</button>
+            </form>
+            <p class="fk-fineprint">Jederzeit abbestellbar. Maßgeblich bleibt immer die offizielle Ausschreibung.</p>
+            <p class="fk-status" data-fk-status hidden></p>
           </aside>
         </div>
       </div>
     </section>
 
-    <section class="lc-section deadline-calendar-section" id="fristen-unlock">
+    <section class="fk-next" aria-label="Nächste Bewerbungsfrist">
       <div class="container">
-        <div class="deadline-calendar-intro">
-          <p class="eyebrow">Schausteller-Bewerbungsfristen</p>
-          <h2>Alle offenen Fristen auf einen Blick</h2>
-          <p>
-            Trage deine E-Mail ein, um den vollständigen Kalender freizuschalten. Wenn du keine E-Mails liest,
-            kannst du zusätzlich deine WhatsApp-Nummer hinterlegen.
-          </p>
+        <div class="fk-next-inner" id="fk-next">
+          <span class="fk-next-label">Nächste Bewerbungsfrist bei</span>
+          <span class="fk-next-meta">wird geladen …</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="fk-board" id="kalender">
+      <div class="container">
+        <div class="fk-board-head">
+          <h2>Alle Fristen im Überblick</h2>
+          <p class="fk-board-stand">Sortiert nach der nächsten offenen Frist.</p>
         </div>
 
-        <div class="deadline-gate" data-deadline-gate data-locked="true">
-          <div class="deadline-gate-overlay">
-            <div class="deadline-gate-card">
-              <p class="eyebrow">Freischalten</p>
-              <h3>Benachrichtigungen rechtzeitig erhalten</h3>
-              <p>
-                Jetzt Newsletter abonnieren und keine Bewerbungsfrist mehr verpassen.
-                Oder liest du keine E-Mails? Dann schicken wir dir eine WhatsApp.
-              </p>
-              <form class="deadline-unlock-form" action="#" method="post" data-form-source="schausteller-bewerbungsfristen">
-                <input type="email" name="email" placeholder="name@email.com" required autocomplete="email" />
-                <input type="tel" name="phone" placeholder="WhatsApp-Nummer (optional)" autocomplete="tel" />
-                <button class="btn btn-primary" type="submit">Kalender freischalten</button>
-              </form>
-              <p class="deadline-gate-note">
-                Mit dem Freischalten akzeptierst du, dass wir dir Erinnerungen zu Bewerbungsfristen schicken dürfen.
-              </p>
-              <p class="deadline-unlock-status" id="deadline-unlock-status" hidden></p>
+        <div class="fk-panel">
+          <div class="fk-toolbar">
+            <div class="fk-control fk-control--grow">
+              <label for="fk-search">Suche</label>
+              <input id="fk-search" type="search" placeholder="Veranstaltung oder Ort" autocomplete="off" />
             </div>
+            <div class="fk-control">
+              <label for="fk-state">Bundesland</label>
+              <select id="fk-state">
+                <option value="">Alle Bundesländer</option>
+              </select>
+            </div>
+            <div class="fk-control">
+              <label for="fk-period">Zeitraum</label>
+              <select id="fk-period">
+                <option value="all">Alle offenen Fristen</option>
+                <option value="this-month">Diesen Monat</option>
+                <option value="next-month">Nächsten Monat</option>
+                <option value="3">Nächste 3 Monate</option>
+                <option value="6">Nächste 6 Monate</option>
+              </select>
+            </div>
+            <button class="fk-reset" type="button" data-fk-reset>Zurücksetzen</button>
           </div>
 
-          <div class="deadline-calendar-shell">
-            <div class="deadline-calendar-topbar">
-              <div>
-                <span class="deadline-calendar-kicker">Mini-Kalender</span>
-                <h3>Bewerbungsmonate</h3>
-              </div>
-              <p class="deadline-calendar-note">Automatisch sortiert nach der nächsten offenen Frist.</p>
-            </div>
+          <div class="fk-resultbar">
+            <span><strong id="fk-result-count">0</strong> Fristen gefunden</span>
+            <span id="fk-result-hint"></span>
+          </div>
 
-            <div class="deadline-month-grid" id="deadline-months"></div>
-            <div class="deadline-list" id="deadline-list" aria-live="polite"></div>
+          <div class="fk-scroll" id="fk-scroll">
+            <div id="fk-list"></div>
+
+            <div class="fk-gate" data-fk-gate hidden>
+              <p>Du siehst die nächsten Fristen. <strong id="fk-gate-count">0</strong> weitere sind für Newsletter-Abonnenten sichtbar.</p>
+              <button type="button" data-fk-gate-open>Vollständigen Kalender öffnen</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fk-cta" id="newsletter">
+      <div class="container">
+        <div class="fk-cta-grid">
+          <div>
+            <h2>Wir erinnern dich, bevor die Frist abläuft</h2>
+            <p>Die meisten Plätze gehen nicht verloren, weil die Bewerbung schlecht war, sondern weil der Termin unterging. Genau davor warnen wir dich rechtzeitig.</p>
+            <ul class="fk-cta-list">
+              <li>Erinnerung vor jeder Frist, die zu deinem Profil passt</li>
+              <li>Neue Ausschreibungen, sobald sie veröffentlicht werden</li>
+              <li>Auf Wunsch per WhatsApp statt per E-Mail</li>
+            </ul>
+          </div>
+
+          <div class="fk-signup">
+            <h2>Erinnerung aktivieren</h2>
+            <p class="fk-signup-note">Eine E-Mail genügt. Den Rest übernehmen wir.</p>
+            <form class="fk-form" data-fk-form data-form-source="schausteller-bewerbungsfristen-footer">
+              <div class="fk-field">
+                <label for="fk-email-bottom">E-Mail-Adresse</label>
+                <input id="fk-email-bottom" type="email" name="email" placeholder="name@email.com" required autocomplete="email" />
+              </div>
+              <div class="fk-field">
+                <label for="fk-phone-bottom">WhatsApp-Nummer (optional)</label>
+                <input id="fk-phone-bottom" type="tel" name="phone" placeholder="+49 …" autocomplete="tel" />
+              </div>
+              <button type="submit">Erinnerungen erhalten</button>
+            </form>
+            <p class="fk-fineprint">Jederzeit abbestellbar.</p>
+            <p class="fk-status" data-fk-status hidden></p>
           </div>
         </div>
       </div>

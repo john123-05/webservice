@@ -21,7 +21,7 @@
   "entries": [
     {
       "id": "braunschweiger-weihnachtsmarkt-wechselhuette-2026-braunschweig",
-      "event_name": "Braunschweiger Weihnachtsmarkt 2026 - Wechselhuette",
+      "event_name": "Braunschweiger Weihnachtsmarkt 2026 - Wechselhütte",
       "event_type": "Weihnachtsmarkt / Kunsthandwerk",
       "city": "Braunschweig",
       "state": "Niedersachsen",
@@ -29,8 +29,8 @@
       "venue_or_area": "Braunschweiger Weihnachtsmarkt rund um Burgplatz und Dom",
       "application_deadline_iso": "2026-08-31",
       "application_deadline_text": "Bewerbungsschluss ist der 31. August 2026.",
-      "event_date_range_text": "25. November bis 23. Dezember 2026; die Wechselhuette wird wochenweise jeweils von Mittwoch bis Dienstag vergeben.",
-      "application_mode": "Formlose Bewerbung per E-Mail an bewerbung.weihnachtsmarkt@braunschweig.de oder ueber www.braunschweig.de/wm-bewerben.",
+      "event_date_range_text": "25. November bis 23. Dezember 2026; die Wechselhütte wird wochenweise jeweils von Mittwoch bis Dienstag vergeben.",
+      "application_mode": "Formlose Bewerbung per E-Mail an bewerbung.weihnachtsmarkt@braunschweig.de oder über www.braunschweig.de/wm-bewerben.",
       "postal_address": "Braunschweig Stadtmarketing GmbH, Sack 17, 38100 Braunschweig",
       "contact_name": "Kim Zimpel (0531 470-3242) und Angela Schueler (0531 470-2057)",
       "contact_email": "bewerbung.weihnachtsmarkt@braunschweig.de",
@@ -41,7 +41,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "ni-2027-deep-mitte-ost",
       "confidence_status": "verified",
-      "notes": "Einstiegsformat fuer Kunsthandwerkerinnen und Kunsthandwerker, die sich nicht fuer die gesamte Marktdauer binden wollen. Der regulaere Bewerbungszeitraum fuer den Weihnachtsmarkt 2026 ist bereits beendet, die Wechselhuette ist zum Stichtag noch offen. Der Markt zieht rund 900.000 Besucher an."
+      "notes": "Einstiegsformat für Kunsthandwerkerinnen und Kunsthandwerker, die sich nicht für die gesamte Marktdauer binden wollen. Der regulaere Bewerbungszeitraum für den Weihnachtsmarkt 2026 ist bereits beendet, die Wechselhütte ist zum Stichtag noch offen. Der Markt zieht rund 900.000 Besucher an."
     }
   ],
   "rejected_candidates": [

@@ -26,8 +26,8 @@
       "country": "DE",
       "venue_or_area": "Kasseler Innenstadt und Fuldaaue",
       "application_deadline_iso": "2026-12-31",
-      "application_deadline_text": "Bewerbungsschluss ist der 31.12. des Vorjahres, fuer den Zissel 2027 also der 31.12.2026.",
-      "event_date_range_text": "Traditionell im Sommer; die genauen Termine 2027 sind noch nicht veroeffentlicht.",
+      "application_deadline_text": "Bewerbungsschluss ist der 31.12. des Vorjahres, für den Zissel 2027 also der 31.12.2026.",
+      "event_date_range_text": "Traditionell im Sommer; die genauen Termine 2027 sind noch nicht veröffentlicht.",
       "application_mode": "Bewerbung per Post oder eingescannt per E-Mail an events@kassel-marketing.de.",
       "postal_address": "Kassel Marketing GmbH, Kassel",
       "contact_name": "Kassel Marketing GmbH, Bereich Events",
@@ -39,7 +39,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "he-2027-deep-nord-sued",
       "confidence_status": "partial",
-      "notes": "Kassel Marketing nennt den Bewerbungsschluss als feste jaehrliche Regel. Hinweis der Veranstalterin: derzeit sind auf der Website keine Bewerbungsformulare hinterlegt, daher vor Bewerbung Kontakt aufnehmen."
+      "notes": "Kassel Marketing nennt den Bewerbungsschluss als feste jährliche Regel. Hinweis der Veranstalterin: derzeit sind auf der Website keine Bewerbungsformulare hinterlegt, daher vor Bewerbung Kontakt aufnehmen."
     },
     {
       "id": "altstadtfest-kassel-2027-kassel",
@@ -50,8 +50,8 @@
       "country": "DE",
       "venue_or_area": "Kasseler Altstadt",
       "application_deadline_iso": "2026-12-31",
-      "application_deadline_text": "Bewerbungsschluss ist der 31.12. des Vorjahres, fuer das Altstadtfest 2027 also der 31.12.2026.",
-      "event_date_range_text": "Die genauen Termine 2027 sind noch nicht veroeffentlicht.",
+      "application_deadline_text": "Bewerbungsschluss ist der 31.12. des Vorjahres, für das Altstadtfest 2027 also der 31.12.2026.",
+      "event_date_range_text": "Die genauen Termine 2027 sind noch nicht veröffentlicht.",
       "application_mode": "Bewerbung per Post oder eingescannt per E-Mail an events@kassel-marketing.de.",
       "postal_address": "Kassel Marketing GmbH, Kassel",
       "contact_name": "Kassel Marketing GmbH, Bereich Events",
@@ -63,19 +63,19 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "he-2027-deep-nord-sued",
       "confidence_status": "partial",
-      "notes": "Kassel Marketing nennt den Bewerbungsschluss als feste jaehrliche Regel. Derzeit sind auf der Website keine Bewerbungsformulare hinterlegt."
+      "notes": "Kassel Marketing nennt den Bewerbungsschluss als feste jährliche Regel. Derzeit sind auf der Website keine Bewerbungsformulare hinterlegt."
     },
     {
       "id": "casseler-fruehlings-freyheit-2027-kassel",
-      "event_name": "Casseler Fruehlings-Freyheit 2027",
-      "event_type": "Fruehjahrsvolksfest",
+      "event_name": "Casseler Frühlings-Freyheit 2027",
+      "event_type": "Frühjahrsvolksfest",
       "city": "Kassel",
       "state": "Hessen",
       "country": "DE",
       "venue_or_area": "Kassel",
       "application_deadline_iso": "2026-12-31",
-      "application_deadline_text": "Bewerbungsschluss ist der 31.12. des Vorjahres, fuer die Casseler Fruehlings-Freyheit 2027 also der 31.12.2026.",
-      "event_date_range_text": "Die genauen Termine 2027 sind noch nicht veroeffentlicht.",
+      "application_deadline_text": "Bewerbungsschluss ist der 31.12. des Vorjahres, für die Casseler Frühlings-Freyheit 2027 also der 31.12.2026.",
+      "event_date_range_text": "Die genauen Termine 2027 sind noch nicht veröffentlicht.",
       "application_mode": "Bewerbung per Post oder eingescannt per E-Mail an events@kassel-marketing.de.",
       "postal_address": "Kassel Marketing GmbH, Kassel",
       "contact_name": "Kassel Marketing GmbH, Bereich Events",
@@ -87,7 +87,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "he-2027-deep-nord-sued",
       "confidence_status": "partial",
-      "notes": "Kassel Marketing nennt den Bewerbungsschluss als feste jaehrliche Regel. Derzeit sind auf der Website keine Bewerbungsformulare hinterlegt."
+      "notes": "Kassel Marketing nennt den Bewerbungsschluss als feste jährliche Regel. Derzeit sind auf der Website keine Bewerbungsformulare hinterlegt."
     },
     {
       "id": "casseler-herbst-freyheit-2027-kassel",
@@ -98,8 +98,8 @@
       "country": "DE",
       "venue_or_area": "Kassel",
       "application_deadline_iso": "2027-01-31",
-      "application_deadline_text": "Bewerbungsschluss ist der 31.01. des aktuellen Jahres, fuer die Casseler Herbst-Freyheit 2027 also der 31.01.2027.",
-      "event_date_range_text": "Die genauen Termine 2027 sind noch nicht veroeffentlicht.",
+      "application_deadline_text": "Bewerbungsschluss ist der 31.01. des aktuellen Jahres, für die Casseler Herbst-Freyheit 2027 also der 31.01.2027.",
+      "event_date_range_text": "Die genauen Termine 2027 sind noch nicht veröffentlicht.",
       "application_mode": "Bewerbung per Post oder eingescannt per E-Mail an events@kassel-marketing.de.",
       "postal_address": "Kassel Marketing GmbH, Kassel",
       "contact_name": "Kassel Marketing GmbH, Bereich Events",
@@ -115,15 +115,15 @@
     },
     {
       "id": "maerchenweihnachtsmarkt-2027-kassel",
-      "event_name": "Kasseler Maerchenweihnachtsmarkt 2027",
+      "event_name": "Kasseler Märchenweihnachtsmarkt 2027",
       "event_type": "Weihnachtsmarkt",
       "city": "Kassel",
       "state": "Hessen",
       "country": "DE",
       "venue_or_area": "Kasseler Innenstadt",
       "application_deadline_iso": "2027-03-31",
-      "application_deadline_text": "Bewerbungsschluss ist der 31.03. des aktuellen Jahres, fuer den Maerchenweihnachtsmarkt 2027 also der 31.03.2027.",
-      "event_date_range_text": "Advent 2027; die genauen Termine sind noch nicht veroeffentlicht.",
+      "application_deadline_text": "Bewerbungsschluss ist der 31.03. des aktuellen Jahres, für den Märchenweihnachtsmarkt 2027 also der 31.03.2027.",
+      "event_date_range_text": "Advent 2027; die genauen Termine sind noch nicht veröffentlicht.",
       "application_mode": "Bewerbung per Post oder eingescannt per E-Mail an events@kassel-marketing.de.",
       "postal_address": "Kassel Marketing GmbH, Kassel",
       "contact_name": "Kassel Marketing GmbH, Bereich Events",
@@ -135,7 +135,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "he-2027-deep-nord-sued",
       "confidence_status": "partial",
-      "notes": "Kassel Marketing nennt den Bewerbungsschluss als feste jaehrliche Regel. Derzeit sind auf der Website keine Bewerbungsformulare hinterlegt."
+      "notes": "Kassel Marketing nennt den Bewerbungsschluss als feste jährliche Regel. Derzeit sind auf der Website keine Bewerbungsformulare hinterlegt."
     }
   ],
   "rejected_candidates": [

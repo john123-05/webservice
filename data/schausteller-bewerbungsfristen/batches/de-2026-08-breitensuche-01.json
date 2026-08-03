@@ -29,7 +29,7 @@
       "application_deadline_text": "Bewerbungsschluss ist der 17. August 2026.",
       "event_date_range_text": "12. und 13. Dezember 2026",
       "application_mode": "Bewerbung per E-Mail an kultur@stuhr.de oder postalisch, mit Fotos der geplanten Angebote.",
-      "postal_address": "Gemeinde Stuhr, Stabsstelle Oeffentlichkeitsarbeit & Kultur, Blockener Strasse 6, 28816 Stuhr",
+      "postal_address": "Gemeinde Stuhr, Stabsstelle Öffentlichkeitsarbeit & Kultur, Blockener Straße 6, 28816 Stuhr",
       "contact_name": "Frauke Wulf (Rathaus, 0421 5695-246) und Nils Hinternesch (Aussenbereich, 0172 1561064)",
       "contact_email": "kultur@stuhr.de",
       "contact_phone": "0421 5695-246",
@@ -39,12 +39,12 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-01",
       "confidence_status": "verified",
-      "notes": "Standplaetze im Rathaus und im Aussenbereich. Bewerbende erhalten im September Bescheid."
+      "notes": "Standplätze im Rathaus und im Aussenbereich. Bewerbende erhalten im September Bescheid."
     },
     {
       "id": "bad-wurzach-weihnachtsmarkt-2026-bad-wurzach",
       "event_name": "Bad Wurzacher Weihnachtsmarkt 2026",
-      "event_type": "Weihnachtsmarkt / Kuenstlermarkt",
+      "event_type": "Weihnachtsmarkt / Künstlermarkt",
       "city": "Bad Wurzach",
       "state": "Baden-Württemberg",
       "country": "DE",
@@ -52,7 +52,7 @@
       "application_deadline_iso": "2026-08-30",
       "application_deadline_text": "Die Anmeldefrist endet am 30. August 2026.",
       "event_date_range_text": "28. und 29. November 2026",
-      "application_mode": "Online-Bewerbung ueber die Homepage der Stadt Bad Wurzach, fuer Innen- und Aussenbereich getrennt moeglich.",
+      "application_mode": "Online-Bewerbung über die Homepage der Stadt Bad Wurzach, für Innen- und Aussenbereich getrennt möglich.",
       "postal_address": "Bad Wurzach Info, Rosengarten 1, 88410 Bad Wurzach/Allgaeu",
       "contact_name": "Bad Wurzach Info",
       "contact_email": "",
@@ -63,7 +63,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-01",
       "confidence_status": "verified",
-      "notes": "Bewerbung fuer den Kuenstlermarkt in Maria Rosengarten oder fuer Staende im Aussenbereich. Neue Weihnachtsmarktsatzung und Preisstaffelung stehen zum Download bereit."
+      "notes": "Bewerbung für den Künstlermarkt in Maria Rosengarten oder für Stände im Aussenbereich. Neue Weihnachtsmarktsatzung und Preisstaffelung stehen zum Download bereit."
     },
     {
       "id": "sonnefelder-weihnachtsmarkt-2026-sonnefeld",
@@ -72,7 +72,7 @@
       "city": "Sonnefeld",
       "state": "Bayern",
       "country": "DE",
-      "venue_or_area": "Domaenenplatz Sonnefeld, Martin-Luther-Strasse 6",
+      "venue_or_area": "Domaenenplatz Sonnefeld, Martin-Luther-Straße 6",
       "application_deadline_iso": "2026-08-31",
       "application_deadline_text": "Bewerbungsfrist ist der 31. August 2026.",
       "event_date_range_text": "2. Adventswochenende, 5. und 6. Dezember 2026",
@@ -87,7 +87,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-01",
       "confidence_status": "verified",
-      "notes": "Gesucht werden Kunsthandwerkende, Vereine, Haendler und Gastronomiebetriebe."
+      "notes": "Gesucht werden Kunsthandwerkende, Vereine, Händler und Gastronomiebetriebe."
     },
     {
       "id": "itb-berlin-2027-berlin",
@@ -98,9 +98,9 @@
       "country": "DE",
       "venue_or_area": "Messe Berlin",
       "application_deadline_iso": "2026-09-01",
-      "application_deadline_text": "Anmeldeschluss fuer Aussteller ist der 1. September 2026.",
-      "event_date_range_text": "16. bis 18. Maerz 2027",
-      "application_mode": "Standanmeldung online ueber das Exhibitor Portal unter asp.itb.com.",
+      "application_deadline_text": "Anmeldeschluss für Aussteller ist der 1. September 2026.",
+      "event_date_range_text": "16. bis 18. März 2027",
+      "application_mode": "Standanmeldung online über das Exhibitor Portal unter asp.itb.com.",
       "postal_address": "Messe Berlin GmbH, Messedamm 22, 14055 Berlin",
       "contact_name": "ITB Berlin Ausstellerservice",
       "contact_email": "",
@@ -111,7 +111,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-01",
       "confidence_status": "partial",
-      "notes": "Mindeststandgroesse 20 Quadratmeter, Flaechen werden auf volle Quadratmeter gerundet. Standmietenpreise gelten fuer die ersten 100 Quadratmeter, ab 101 Quadratmeter zum Reihenstandspreis. Relevant fuer Haendler und Gastronomie mit touristischem Bezug."
+      "notes": "Mindeststandgroesse 20 Quadratmeter, Flächen werden auf volle Quadratmeter gerundet. Standmietenpreise gelten für die ersten 100 Quadratmeter, ab 101 Quadratmeter zum Reihenstandspreis. Relevant für Händler und Gastronomie mit touristischem Bezug."
     },
     {
       "id": "teublitzer-weihnachtsmarkt-2026-teublitz",
@@ -139,7 +139,7 @@
     },
     {
       "id": "freiburger-fruehjahrsmess-2027-freiburg",
-      "event_name": "Freiburger Fruehjahrsmess' 2027",
+      "event_name": "Freiburger Frühjahrsmess' 2027",
       "event_type": "Volksfest / Mess'",
       "city": "Freiburg im Breisgau",
       "state": "Baden-Württemberg",
@@ -148,7 +148,7 @@
       "application_deadline_iso": "2026-10-31",
       "application_deadline_text": "Das offizielle Bewerbungsformular muss jedes Jahr bis zum 31.10., 23:59 Uhr online eingereicht werden.",
       "event_date_range_text": "14.05. bis 24.05.2027",
-      "application_mode": "Ausschliesslich online ueber das offizielle Formular; Papierbewerbungen werden nicht mehr akzeptiert.",
+      "application_mode": "Ausschließlich online über das offizielle Formular; Papierbewerbungen werden nicht mehr akzeptiert.",
       "postal_address": "Stadt Freiburg, Garten- und Tiefbauamt, Rathaus im Stuehlinger, Fehrenbachallee 12, 79106 Freiburg",
       "contact_name": "Detlef Marx",
       "contact_email": "detlef.marx@stadt.freiburg.de",
@@ -159,7 +159,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-01",
       "confidence_status": "verified",
-      "notes": "Die Stadt Freiburg nennt den Bewerbungsschluss als feste jaehrliche Regel und weist die Termine 2026 und 2027 bereits aus."
+      "notes": "Die Stadt Freiburg nennt den Bewerbungsschluss als feste jährliche Regel und weist die Termine 2026 und 2027 bereits aus."
     },
     {
       "id": "freiburger-herbstmess-2027-freiburg",
@@ -172,7 +172,7 @@
       "application_deadline_iso": "2026-10-31",
       "application_deadline_text": "Das offizielle Bewerbungsformular muss jedes Jahr bis zum 31.10., 23:59 Uhr online eingereicht werden.",
       "event_date_range_text": "15.10. bis 25.10.2027",
-      "application_mode": "Ausschliesslich online ueber das offizielle Formular; Papierbewerbungen werden nicht mehr akzeptiert.",
+      "application_mode": "Ausschließlich online über das offizielle Formular; Papierbewerbungen werden nicht mehr akzeptiert.",
       "postal_address": "Stadt Freiburg, Garten- und Tiefbauamt, Rathaus im Stuehlinger, Fehrenbachallee 12, 79106 Freiburg",
       "contact_name": "Detlef Marx",
       "contact_email": "detlef.marx@stadt.freiburg.de",
@@ -183,21 +183,21 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-01",
       "confidence_status": "verified",
-      "notes": "Gemeinsame Bewerbungsfrist mit der Fruehjahrsmess'; im Formular ist die gewuenschte Veranstaltung anzugeben."
+      "notes": "Gemeinsame Bewerbungsfrist mit der Frühjahrsmess'; im Formular ist die gewuenschte Veranstaltung anzugeben."
     },
     {
       "id": "nienburger-fruehjahrsmarkt-2027-nienburg",
-      "event_name": "Nienburger Fruehjahrsmarkt 2027",
+      "event_name": "Nienburger Frühjahrsmarkt 2027",
       "event_type": "Volksfest / Jahrmarkt",
       "city": "Nienburg/Weser",
       "state": "Niedersachsen",
       "country": "DE",
       "venue_or_area": "Nienburg/Weser",
       "application_deadline_iso": "2026-11-30",
-      "application_deadline_text": "Fahrgeschaefte und Attraktionen bewerben sich bis spaetestens 30.11. des Vorjahres, Imbisswagen, Verzehr-, Getraenke- und Verkaufsstaende bis spaetestens 31.12. des Vorjahres.",
-      "event_date_range_text": "Fruehjahr 2027; die genauen Termine sind noch nicht veroeffentlicht.",
+      "application_deadline_text": "Fahrgeschäfte und Attraktionen bewerben sich bis spätestens 30.11. des Vorjahres, Imbisswagen, Verzehr-, Getraenke- und Verkaufsstaende bis spätestens 31.12. des Vorjahres.",
+      "event_date_range_text": "Frühjahr 2027; die genauen Termine sind noch nicht veröffentlicht.",
       "application_mode": "Digitale Einreichung per E-Mail mit Bewerbungsunterlagen als PDF inklusive Reisegewerbekarte, Versicherungsnachweis und ausgefuelltem Informationsblatt. Schriftliche Bewerbung mit Poststempel wahrt die Frist ebenfalls.",
-      "postal_address": "Stadt Nienburg/Weser, Fachbereich Sicherheit und Ordnung, SG 32 Maerkte und Veranstaltungen, Marktplatz 1, 31582 Nienburg/Weser",
+      "postal_address": "Stadt Nienburg/Weser, Fachbereich Sicherheit und Ordnung, SG 32 Märkte und Veranstaltungen, Marktplatz 1, 31582 Nienburg/Weser",
       "contact_name": "M. Fortmann und J. Glueckhardt",
       "contact_email": "m.fortmann@nienburg.de",
       "contact_phone": "05021 87-357",
@@ -207,19 +207,19 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-01",
       "confidence_status": "partial",
-      "notes": "Zwei gestaffelte Fristen je Geschaeftsart; die fruehere gilt fuer Fahrgeschaefte. Zweite Rufnummer 05021 87-280, zweite E-Mail j.glueckhardt@nienburg.de. Die Stadt nennt die Fristen als feste jaehrliche Regel."
+      "notes": "Zwei gestaffelte Fristen je Geschäftsart; die fruehere gilt für Fahrgeschäfte. Zweite Rufnummer 05021 87-280, zweite E-Mail j.glueckhardt@nienburg.de. Die Stadt nennt die Fristen als feste jährliche Regel."
     },
     {
       "id": "augsburger-fruehjahrsdult-2027-augsburg",
-      "event_name": "Augsburger Fruehjahrsdult 2027",
+      "event_name": "Augsburger Frühjahrsdult 2027",
       "event_type": "Dult / Traditionsmarkt",
       "city": "Augsburg",
       "state": "Bayern",
       "country": "DE",
       "venue_or_area": "Augsburg",
       "application_deadline_iso": "2027-01-05",
-      "application_deadline_text": "Bewerbungsfrist fuer die Fruehjahrsdult ist der 5. Januar.",
-      "event_date_range_text": "Fruehjahr 2027; die genauen Termine sind im Bewerbungsportal nicht ausgewiesen.",
+      "application_deadline_text": "Bewerbungsfrist für die Frühjahrsdult ist der 5. Januar.",
+      "event_date_range_text": "Frühjahr 2027; die genauen Termine sind im Bewerbungsportal nicht ausgewiesen.",
       "application_mode": "Online-Formular oder postalische Bewerbung beim Marktamt.",
       "postal_address": "Stadt Augsburg, Marktamt, Rathausplatz 1, 86150 Augsburg",
       "contact_name": "Marktamt der Stadt Augsburg",
@@ -231,19 +231,19 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-01",
       "confidence_status": "partial",
-      "notes": "Das Augsburger Marktamt veroeffentlicht fuer jede Veranstaltung eine eigene feste Jahresfrist. Genaue Veranstaltungstermine vor Bewerbung erfragen."
+      "notes": "Das Augsburger Marktamt veröffentlicht für jede Veranstaltung eine eigene feste Jahresfrist. Genaue Veranstaltungstermine vor Bewerbung erfragen."
     },
     {
       "id": "goegginger-fruehlingsfest-2027-augsburg",
-      "event_name": "Goegginger Fruehlingsfest 2027",
+      "event_name": "Gögginger Frühlingsfest 2027",
       "event_type": "Volksfest",
       "city": "Augsburg",
       "state": "Bayern",
       "country": "DE",
-      "venue_or_area": "Augsburg-Goeggingen",
+      "venue_or_area": "Augsburg-Göggingen",
       "application_deadline_iso": "2027-01-05",
-      "application_deadline_text": "Bewerbungsfrist fuer das Goegginger Fruehlingsfest ist der 5. Januar.",
-      "event_date_range_text": "Fruehjahr 2027; die genauen Termine sind im Bewerbungsportal nicht ausgewiesen.",
+      "application_deadline_text": "Bewerbungsfrist für das Gögginger Frühlingsfest ist der 5. Januar.",
+      "event_date_range_text": "Frühjahr 2027; die genauen Termine sind im Bewerbungsportal nicht ausgewiesen.",
       "application_mode": "Postalische Bewerbung beim Marktamt.",
       "postal_address": "Stadt Augsburg, Marktamt, Rathausplatz 1, 86150 Augsburg",
       "contact_name": "Marktamt der Stadt Augsburg",
@@ -266,7 +266,7 @@
       "country": "DE",
       "venue_or_area": "Augsburg",
       "application_deadline_iso": "2027-03-31",
-      "application_deadline_text": "Bewerbungsfrist fuer die Herbstdult ist der 31. Maerz.",
+      "application_deadline_text": "Bewerbungsfrist für die Herbstdult ist der 31. März.",
       "event_date_range_text": "Herbst 2027; die genauen Termine sind im Bewerbungsportal nicht ausgewiesen.",
       "application_mode": "Online-Formular oder postalische Bewerbung beim Marktamt.",
       "postal_address": "Stadt Augsburg, Marktamt, Rathausplatz 1, 86150 Augsburg",
@@ -291,7 +291,7 @@
       "venue_or_area": "Innenstadt Dessau-Rosslau",
       "application_deadline_iso": "2027-03-31",
       "application_deadline_text": "Die Bewerbungsfrist endet am 31.03.2027.",
-      "event_date_range_text": "2027; der genaue Termin ist noch nicht veroeffentlicht.",
+      "event_date_range_text": "2027; der genaue Termin ist noch nicht veröffentlicht.",
       "application_mode": "Online-Formular auf stadtfestdessau.de oder schriftliche Einreichung per E-Mail bzw. Post.",
       "postal_address": "Stadtmarketinggesellschaft Dessau-Rosslau mbH, Kavalierstr. 37-39, 06844 Dessau-Rosslau",
       "contact_name": "Stadtmarketinggesellschaft Dessau-Rosslau mbH",
@@ -312,10 +312,10 @@
       "city": "Fulda",
       "state": "Hessen",
       "country": "DE",
-      "venue_or_area": "Universitaetsplatz (Traditioneller Weihnachtsmarkt) und Buttermarkt (regio'markt)",
+      "venue_or_area": "Universitätsplatz (Traditioneller Weihnachtsmarkt) und Buttermarkt (regio'markt)",
       "application_deadline_iso": "2027-03-31",
-      "application_deadline_text": "Eine Bewerbung ist immer nur zwischen dem 01.01. und 31.03. fuer den kommenden Weihnachtsmarkt moeglich, fuer 2027 also bis zum 31.03.2027.",
-      "event_date_range_text": "Advent 2027; die genauen Termine sind noch nicht veroeffentlicht.",
+      "application_deadline_text": "Eine Bewerbung ist immer nur zwischen dem 01.01. und 31.03. für den kommenden Weihnachtsmarkt möglich, für 2027 also bis zum 31.03.2027.",
+      "event_date_range_text": "Advent 2027; die genauen Termine sind noch nicht veröffentlicht.",
       "application_mode": "Bewerbungsformular von der Website herunterladen und einreichen, zusammen mit der Satzung (traditioneller Markt) bzw. den Teilnahmebedingungen (regio'markt).",
       "postal_address": "Magistrat der Stadt Fulda, Fulda",
       "contact_name": "Stadt Fulda",
@@ -327,7 +327,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-01",
       "confidence_status": "partial",
-      "notes": "Zwei getrennte Marktbereiche mit eigenen Formularen. Das Bewerbungsfenster oeffnet erst am 01.01.2027, vorher sind keine Bewerbungen moeglich."
+      "notes": "Zwei getrennte Marktbereiche mit eigenen Formularen. Das Bewerbungsfenster oeffnet erst am 01.01.2027, vorher sind keine Bewerbungen möglich."
     },
     {
       "id": "augsburger-christkindlesmarkt-2027-augsburg",
@@ -338,7 +338,7 @@
       "country": "DE",
       "venue_or_area": "Rathausplatz Augsburg",
       "application_deadline_iso": "2027-04-30",
-      "application_deadline_text": "Bewerbungsfrist ist der 30. April des laufenden Jahres, fuer den Christkindlesmarkt 2027 also der 30.04.2027.",
+      "application_deadline_text": "Bewerbungsfrist ist der 30. April des laufenden Jahres, für den Christkindlesmarkt 2027 also der 30.04.2027.",
       "event_date_range_text": "Advent 2027; die genauen Termine sind im Bewerbungsportal nicht ausgewiesen.",
       "application_mode": "Online-Formular, persoenlich oder postalisch beim Marktamt.",
       "postal_address": "Stadt Augsburg, Marktamt, Rathausplatz 1, 86150 Augsburg",
@@ -351,7 +351,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-01",
       "confidence_status": "partial",
-      "notes": "Einer der bekanntesten Weihnachtsmaerkte Deutschlands. Feste Jahresfrist des Augsburger Marktamts."
+      "notes": "Einer der bekanntesten Weihnachtsmärkte Deutschlands. Feste Jahresfrist des Augsburger Marktamts."
     }
   ],
   "rejected_candidates": [

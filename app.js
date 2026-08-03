@@ -1065,21 +1065,21 @@ const initSchaustellerDeadlinePage = async () => {
   const pageRoot = document.querySelector('[data-deadline-page]');
   if (!pageRoot) return;
 
-  const nextHero = document.getElementById('deadline-next-hero');
-  const monthGrid = document.getElementById('deadline-months');
-  const list = document.getElementById('deadline-list');
-  const countTarget = document.getElementById('deadline-count');
-  const standTarget = document.getElementById('deadline-stand');
-  const heroStandTarget = document.getElementById('deadline-hero-stand');
-  const unlockStatus = document.getElementById('deadline-unlock-status');
-  const gates = [...document.querySelectorAll('[data-deadline-gate]')];
-  const forms = [...document.querySelectorAll('.deadline-unlock-form')];
+  const FREE_ROWS = 25;
   const storageKey = `deadline-unlocked:${window.location.pathname}`;
 
-  const parseIsoDate = (value = '') => {
-    const [year, month, day] = value.split('-').map(Number);
-    return new Date(year, month - 1, day, 12, 0, 0, 0);
-  };
+  const listEl = document.getElementById('fk-list');
+  const scrollEl = document.getElementById('fk-scroll');
+  const nextEl = document.getElementById('fk-next');
+  const resultCountEl = document.getElementById('fk-result-count');
+  const resultHintEl = document.getElementById('fk-result-hint');
+  const searchEl = document.getElementById('fk-search');
+  const stateEl = document.getElementById('fk-state');
+  const periodEl = document.getElementById('fk-period');
+  const resetEl = document.querySelector('[data-fk-reset]');
+  const gateEl = document.querySelector('[data-fk-gate]');
+  const gateCountEl = document.getElementById('fk-gate-count');
+  const forms = [...document.querySelectorAll('[data-fk-form]')];
 
   const escapeHtml = (value = '') => String(value)
     .replace(/&/g, '&amp;')
@@ -1088,9 +1088,14 @@ const initSchaustellerDeadlinePage = async () => {
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
 
-  const displayValue = (value) => escapeHtml(value || 'Nicht angegeben');
+  const show = (value) => escapeHtml(value || 'Nicht angegeben');
 
-  const safeSourceUrl = (value) => {
+  const parseIsoDate = (value = '') => {
+    const [year, month, day] = value.split('-').map(Number);
+    return new Date(year, month - 1, day, 12, 0, 0, 0);
+  };
+
+  const safeUrl = (value) => {
     try {
       const url = new URL(value, window.location.origin);
       return ['http:', 'https:'].includes(url.protocol) ? escapeHtml(url.href) : '#';
@@ -1099,11 +1104,10 @@ const initSchaustellerDeadlinePage = async () => {
     }
   };
 
-  const formatLongDate = (value) => new Intl.DateTimeFormat('de-DE', {
-    day: '2-digit',
-    month: 'long',
-    year: 'numeric',
-  }).format(parseIsoDate(value));
+  const MONTHS_SHORT = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
+  const formatFull = (date) => new Intl.DateTimeFormat('de-DE', {
+    day: '2-digit', month: 'long', year: 'numeric',
+  }).format(date);
 
   const today = new Date();
   today.setHours(12, 0, 0, 0);
@@ -1122,180 +1126,217 @@ const initSchaustellerDeadlinePage = async () => {
 
   const entries = data.entries
     .filter((entry) => ['verified', 'partial'].includes(entry.confidence_status))
-    .map((entry) => ({
-      ...entry,
-      deadlineDate: parseIsoDate(entry.application_deadline_iso),
-    }))
-    .filter((entry) => !Number.isNaN(entry.deadlineDate.getTime()))
-    .sort((a, b) => {
-      const aPast = a.deadlineDate < today;
-      const bPast = b.deadlineDate < today;
-      if (aPast !== bPast) return aPast ? 1 : -1;
-      return a.deadlineDate - b.deadlineDate;
-    });
+    .map((entry) => ({ ...entry, date: parseIsoDate(entry.application_deadline_iso) }))
+    .filter((entry) => !Number.isNaN(entry.date.getTime()) && entry.date >= today)
+    .sort((a, b) => a.date - b.date || a.event_name.localeCompare(b.event_name, 'de'));
 
-  const futureEntries = entries.filter((entry) => entry.deadlineDate >= today);
-  const nextEntry = futureEntries[0] || null;
-  let visibleEntryCount = 50;
+  const daysUntil = (entry) => Math.round((entry.date - today) / 86400000);
 
-  const getDaysLabel = (entry) => {
-    const diff = Math.round((entry.deadlineDate - today) / 86400000);
-    if (diff < 0) return 'Frist vorbei';
-    if (diff === 0) return 'Heute';
-    if (diff === 1) return 'Morgen';
-    return `Noch ${diff} Tage`;
+  const daysLabel = (entry) => {
+    const diff = daysUntil(entry);
+    if (diff === 0) return 'heute';
+    if (diff === 1) return 'morgen';
+    return `${diff} Tage`;
   };
 
-  const renderNextCard = (entry) => {
-    if (!nextHero) return;
+  let unlocked = false;
+  try {
+    unlocked = localStorage.getItem(storageKey) === 'true';
+  } catch (_) {}
+
+  // -- Bundesland-Auswahl -------------------------------------------------
+  const allStates = [...new Set(entries.map((entry) => entry.state).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'de'));
+
+  if (stateEl) {
+    stateEl.insertAdjacentHTML('beforeend', allStates
+      .map((state) => `<option value="${escapeHtml(state)}">${escapeHtml(state)}</option>`)
+      .join(''));
+  }
+
+  // -- Next deadline strip ------------------------------------------------
+  const renderNext = () => {
+    if (!nextEl) return;
+    const entry = entries[0];
 
     if (!entry) {
-      nextHero.innerHTML = `
-        <div class="deadline-next-card">
-          <span class="deadline-next-label">${loadError ? 'Ladefehler' : 'Derzeit kein Termin'}</span>
-          <h3>${loadError ? 'Der Kalender konnte gerade nicht geladen werden.' : 'Aktuell ist keine offene Frist mehr hinterlegt.'}</h3>
-          <p class="deadline-entry-dates">${loadError ? 'Bitte lade die Seite erneut oder versuche es später noch einmal.' : 'Sobald neue Ausschreibungen veröffentlicht werden, wird dieser Kalender erweitert.'}</p>
-        </div>
+      nextEl.innerHTML = `
+        <span class="fk-next-label">Nächste Bewerbungsfrist bei</span>
+        <span class="fk-next-meta">${loadError ? 'Der Kalender konnte nicht geladen werden.' : 'Aktuell ist keine offene Frist hinterlegt.'}</span>
       `;
       return;
     }
 
-    nextHero.innerHTML = `
-      <div class="deadline-next-card">
-        <span class="deadline-next-label">${getDaysLabel(entry)}</span>
-        <h3>${escapeHtml(entry.event_name)}</h3>
-        <p class="deadline-next-date">Frist: ${formatLongDate(entry.application_deadline_iso)}</p>
-        <p class="deadline-entry-dates">${displayValue(entry.event_date_range_text)}</p>
-        <p class="deadline-entry-mode"><strong>Bewerbungsweg:</strong> ${displayValue(entry.application_mode)}</p>
+    nextEl.innerHTML = `
+      <span class="fk-next-label">Nächste Bewerbungsfrist bei</span>
+      <span class="fk-next-name">${escapeHtml(entry.event_name)}</span>
+      <span class="fk-next-meta">${show(entry.city)} · ${formatFull(entry.date)}</span>
+      <span class="fk-next-days">noch ${daysLabel(entry)}</span>
+    `;
+  };
+
+  // -- Filtering ----------------------------------------------------------
+  const inPeriod = (entry, mode) => {
+    if (mode === 'all') return true;
+    const d = entry.date;
+
+    if (mode === 'this-month') {
+      return d.getFullYear() === today.getFullYear() && d.getMonth() === today.getMonth();
+    }
+
+    if (mode === 'next-month') {
+      const next = new Date(today.getFullYear(), today.getMonth() + 1, 1);
+      return d.getFullYear() === next.getFullYear() && d.getMonth() === next.getMonth();
+    }
+
+    const months = Number(mode);
+    if (!Number.isFinite(months)) return true;
+    const limit = new Date(today.getFullYear(), today.getMonth() + months, today.getDate(), 12, 0, 0, 0);
+    return d <= limit;
+  };
+
+  const getFiltered = () => {
+    const term = (searchEl?.value || '').trim().toLowerCase();
+    const state = stateEl?.value || '';
+    const period = periodEl?.value || 'all';
+
+    return entries.filter((entry) => {
+      if (state && entry.state !== state) return false;
+      if (!inPeriod(entry, period)) return false;
+      if (!term) return true;
+      return [entry.event_name, entry.city, entry.state, entry.event_type, entry.venue_or_area]
+        .filter(Boolean)
+        .some((field) => String(field).toLowerCase().includes(term));
+    });
+  };
+
+  // -- Rows ---------------------------------------------------------------
+  const rowMarkup = (entry, index) => {
+    const diff = daysUntil(entry);
+    const contact = [entry.contact_name, entry.contact_email, entry.contact_phone]
+      .filter(Boolean).map(escapeHtml).join('<br>');
+    const quality = entry.confidence_status === 'verified'
+      ? '<span class="fk-tag">Offiziell geprüft</span>'
+      : '<span class="fk-tag fk-tag--partial">Offizielle Quelle</span>';
+
+    return `
+      <button class="fk-row" type="button" aria-expanded="false" aria-controls="fk-detail-${index}" data-fk-row="${index}">
+        <span class="fk-date">
+          <span class="fk-date-day">${String(entry.date.getDate()).padStart(2, '0')}</span>
+          <span class="fk-date-month">${MONTHS_SHORT[entry.date.getMonth()]} ${String(entry.date.getFullYear()).slice(2)}</span>
+        </span>
+        <span>
+          <span class="fk-row-name">${escapeHtml(entry.event_name)}</span>
+          <span class="fk-row-meta">${show(entry.city)}, ${show(entry.state)} · ${show(entry.event_type)}</span>
+        </span>
+        <span class="fk-row-side">
+          <span class="fk-days${diff <= 21 ? ' fk-days--urgent' : ''}">noch ${daysLabel(entry)}</span>
+          <span class="fk-chevron" aria-hidden="true"></span>
+        </span>
+      </button>
+      <div class="fk-detail" id="fk-detail-${index}" hidden>
+        <div class="fk-detail-grid">
+          <div class="fk-detail-item">
+            <span>Frist</span>
+            <p>${show(entry.application_deadline_text)}</p>
+          </div>
+          <div class="fk-detail-item">
+            <span>Veranstaltungszeitraum</span>
+            <p>${show(entry.event_date_range_text)}</p>
+          </div>
+          <div class="fk-detail-item">
+            <span>Bewerbungsweg</span>
+            <p>${show(entry.application_mode)}</p>
+          </div>
+          <div class="fk-detail-item">
+            <span>Ansprechpartner</span>
+            <p>${contact || 'Nicht angegeben'}</p>
+          </div>
+          <div class="fk-detail-item">
+            <span>Anschrift</span>
+            <p>${show(entry.postal_address)}</p>
+          </div>
+          <div class="fk-detail-item">
+            <span>Quelle</span>
+            <p><a href="${safeUrl(entry.source_url)}" target="_blank" rel="noopener noreferrer">${show(entry.source_domain)}</a><br>${quality}</p>
+          </div>
+        </div>
       </div>
     `;
   };
 
-  const renderMonths = () => {
-    if (!monthGrid) return;
+  let currentRows = [];
 
-    const grouped = futureEntries.reduce((map, entry) => {
-      const key = entry.application_deadline_iso.slice(0, 7);
-      map.set(key, [...(map.get(key) || []), entry]);
-      return map;
-    }, new Map());
+  const render = () => {
+    if (!listEl) return;
 
-    const monthMarkup = [...grouped.entries()].map(([key, group]) => {
-      const [year, month] = key.split('-').map(Number);
-      const label = new Intl.DateTimeFormat('de-DE', {
-        month: 'long',
-        year: 'numeric',
-      }).format(new Date(year, month - 1, 1));
+    const filtered = getFiltered();
+    const limited = unlocked ? filtered : filtered.slice(0, FREE_ROWS);
+    const hidden = filtered.length - limited.length;
+    currentRows = limited;
 
-      return `
-        <div class="deadline-month-card">
-          <strong>${label}</strong>
-          <span>${group.length} ${group.length === 1 ? 'offene Frist' : 'offene Fristen'}</span>
-        </div>
-      `;
-    }).join('');
-
-    monthGrid.innerHTML = monthMarkup;
-  };
-
-  const renderEntries = () => {
-    if (!list) return;
-
-    if (!entries.length) {
-      list.innerHTML = '<p class="deadline-empty">Derzeit sind keine veröffentlichbaren Fristen hinterlegt.</p>';
-      return;
+    if (resultCountEl) resultCountEl.textContent = String(filtered.length);
+    if (resultHintEl) {
+      resultHintEl.textContent = filtered.length && !unlocked && hidden > 0
+        ? `${limited.length} von ${filtered.length} sichtbar`
+        : '';
     }
 
-    const visibleEntries = entries.slice(0, visibleEntryCount);
-    const entriesMarkup = visibleEntries.map((entry) => {
-      const isPast = entry.deadlineDate < today;
-      const qualityLabel = entry.confidence_status === 'verified' ? 'Offiziell geprüft' : 'Offizielle Quelle';
-      const contactParts = [entry.contact_name, entry.contact_email, entry.contact_phone]
-        .filter(Boolean)
-        .map(escapeHtml);
+    if (!filtered.length) {
+      listEl.innerHTML = `<p class="fk-empty">${loadError
+        ? 'Der Kalender konnte gerade nicht geladen werden. Bitte lade die Seite neu.'
+        : 'Keine Frist gefunden. Passe Bundesland oder Zeitraum an.'}</p>`;
+    } else {
+      listEl.innerHTML = limited.map(rowMarkup).join('');
+    }
 
-      return `
-      <article class="deadline-entry${isPast ? ' deadline-entry--past' : ''}">
-        <div class="deadline-entry-top">
-          <span class="deadline-entry-badge">${getDaysLabel(entry)}</span>
-          <div class="deadline-entry-statuses">
-            <span class="deadline-entry-quality deadline-entry-quality--${entry.confidence_status}">${qualityLabel}</span>
-            <time class="deadline-entry-time" datetime="${escapeHtml(entry.application_deadline_iso)}">${formatLongDate(entry.application_deadline_iso)}</time>
-          </div>
-        </div>
-        <h3>${escapeHtml(entry.event_name)}</h3>
-        <p class="deadline-entry-location">${displayValue(entry.event_type)} · ${displayValue(entry.city)}, ${displayValue(entry.state)}</p>
-        <p class="deadline-entry-dates"><strong>Veranstaltungszeitraum:</strong> ${displayValue(entry.event_date_range_text)}</p>
-        <p class="deadline-entry-mode"><strong>Bewerbungsweg:</strong> ${displayValue(entry.application_mode)}</p>
-        <div class="deadline-entry-grid">
-          <div class="deadline-entry-field">
-            <span>Adresse</span>
-            <p>${displayValue(entry.postal_address)}</p>
-          </div>
-          <div class="deadline-entry-field">
-            <span>Ansprechpartner</span>
-            <p>${contactParts.length ? contactParts.join('<br>') : 'Nicht angegeben'}</p>
-          </div>
-          <div class="deadline-entry-field">
-            <span>Quelle</span>
-            <p><a href="${safeSourceUrl(entry.source_url)}" target="_blank" rel="noopener noreferrer">${displayValue(entry.source_domain)}</a></p>
-          </div>
-          <div class="deadline-entry-field">
-            <span>Frist</span>
-            <p>${displayValue(entry.application_deadline_text)}</p>
-          </div>
-        </div>
-      </article>
-    `;
-    }).join('');
-    const remaining = entries.length - visibleEntries.length;
-    list.innerHTML = entriesMarkup + (remaining > 0 ? `
-      <button class="btn btn-ghost deadline-load-more" type="button" data-deadline-more>
-        Weitere ${Math.min(remaining, 50)} Fristen anzeigen
-      </button>
-    ` : '');
+    if (gateEl) {
+      gateEl.hidden = unlocked || hidden <= 0;
+      if (gateCountEl) gateCountEl.textContent = String(Math.max(hidden, 0));
+    }
   };
 
-  const setUnlocked = (value) => {
-    gates.forEach((gate) => {
-      gate.dataset.locked = value ? 'false' : 'true';
-    });
-  };
+  listEl?.addEventListener('click', (event) => {
+    const row = event.target.closest('[data-fk-row]');
+    if (!row) return;
+    const detail = document.getElementById(`fk-detail-${row.dataset.fkRow}`);
+    if (!detail) return;
+    const open = row.getAttribute('aria-expanded') === 'true';
+    row.setAttribute('aria-expanded', open ? 'false' : 'true');
+    detail.hidden = open;
+  });
 
-  const unlockCalendar = (showMessage) => {
-    setUnlocked(true);
+  [searchEl, stateEl, periodEl].forEach((control) => {
+    control?.addEventListener('input', render);
+    control?.addEventListener('change', render);
+  });
 
+  resetEl?.addEventListener('click', () => {
+    if (searchEl) searchEl.value = '';
+    if (stateEl) stateEl.value = '';
+    if (periodEl) periodEl.value = 'all';
+    render();
+    scrollEl?.scrollTo({ top: 0 });
+  });
+
+  document.querySelector('[data-fk-gate-open]')?.addEventListener('click', () => {
+    document.getElementById('newsletter')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    window.setTimeout(() => document.getElementById('fk-email-bottom')?.focus(), 500);
+  });
+
+  // -- Newsletter forms ---------------------------------------------------
+  const unlock = (form) => {
+    unlocked = true;
     try {
       localStorage.setItem(storageKey, 'true');
     } catch (_) {}
 
-    if (showMessage && unlockStatus) {
-      unlockStatus.hidden = false;
-      unlockStatus.textContent = 'Freigeschaltet. Der Kalender ist jetzt offen.';
+    const status = form?.parentElement?.querySelector('[data-fk-status]');
+    if (status) {
+      status.hidden = false;
+      status.textContent = 'Eingetragen. Der vollständige Kalender ist jetzt offen.';
     }
+    render();
   };
-
-  const standLabel = data.updated_at
-    ? new Intl.DateTimeFormat('de-DE').format(parseIsoDate(data.updated_at))
-    : 'nicht verfügbar';
-  if (countTarget) countTarget.textContent = String(entries.length);
-  if (standTarget) standTarget.textContent = standLabel;
-  if (heroStandTarget) heroStandTarget.textContent = standLabel;
-  renderNextCard(nextEntry);
-  renderMonths();
-  renderEntries();
-
-  list?.addEventListener('click', (event) => {
-    if (!event.target.closest('[data-deadline-more]')) return;
-    visibleEntryCount += 50;
-    renderEntries();
-  });
-
-  let isUnlocked = false;
-  try {
-    isUnlocked = localStorage.getItem(storageKey) === 'true';
-  } catch (_) {}
-  setUnlocked(isUnlocked);
 
   forms.forEach((form) => {
     form.addEventListener('submit', async (event) => {
@@ -1303,10 +1344,11 @@ const initSchaustellerDeadlinePage = async () => {
       const button = form.querySelector('button[type="submit"]');
       const email = form.querySelector('input[name="email"]')?.value?.trim();
       const phone = form.querySelector('input[name="phone"]')?.value?.trim();
-      const originalLabel = button?.textContent;
+      const label = button?.textContent;
+
       if (button) {
         button.disabled = true;
-        button.textContent = 'Wird freigeschaltet...';
+        button.textContent = 'Wird gesendet …';
       }
 
       await postLeadWebhook({
@@ -1320,16 +1362,21 @@ const initSchaustellerDeadlinePage = async () => {
         timestamp: new Date().toISOString(),
       });
 
-      unlockCalendar(true);
+      unlock(form);
+      form.reset();
 
       if (button) {
         button.disabled = false;
-        button.textContent = originalLabel || 'Kalender freischalten';
+        button.textContent = label || 'Erinnerungen erhalten';
       }
     });
   });
+
+  renderNext();
+  render();
 };
 initSchaustellerDeadlinePage();
+
 
 // LC location pill
 const initLocationPill = () => {

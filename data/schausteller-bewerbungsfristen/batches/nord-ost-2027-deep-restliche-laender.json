@@ -26,11 +26,11 @@
       "country": "DE",
       "venue_or_area": "Rostocker Innenstadt und Neuer Markt",
       "application_deadline_iso": "2026-12-01",
-      "application_deadline_text": "Die Bewerbungsfrist fuer den Rostocker Weihnachtsmarkt 2027 laeuft bis zum 1. Dezember 2026.",
+      "application_deadline_text": "Die Bewerbungsfrist für den Rostocker Weihnachtsmarkt 2027 laeuft bis zum 1. Dezember 2026.",
       "event_date_range_text": "22. November bis 22. Dezember 2027",
-      "application_mode": "Bewerbungsformular 2027 und aktuelle Preislisten aus dem Downloadbereich der Grossmarkt Rostock GmbH. Nur vollstaendige Bewerbungen mit aktuellem Foto des Geschaefts werden beruecksichtigt.",
-      "postal_address": "Grossmarkt Rostock GmbH, Hanseatenstrasse 5, 18146 Rostock",
-      "contact_name": "Grossmarkt Rostock GmbH",
+      "application_mode": "Bewerbungsformular 2027 und aktuelle Preislisten aus dem Downloadbereich der Großmarkt Rostock GmbH. Nur vollständige Bewerbungen mit aktuellem Foto des Geschäfts werden berücksichtigt.",
+      "postal_address": "Großmarkt Rostock GmbH, Hanseatenstraße 5, 18146 Rostock",
+      "contact_name": "Großmarkt Rostock GmbH",
       "contact_email": "kontakt@grossmarkt-rostock.de",
       "contact_phone": "+49 381 609030",
       "source_url": "https://www.rostocker-weihnachtsmarkt.de/de/unser-weihnachtsmarkt/fuer-haendler-und-schausteller/",
@@ -39,7 +39,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "nord-ost-2027-deep-restliche-laender",
       "confidence_status": "verified",
-      "notes": "Groesster Weihnachtsmarkt Norddeutschlands. Gesucht werden Grill-, Crepes- und Pizzabetriebe sowie weitere kulinarische Anbieter und Haendler mit Kunsthandwerk. Die Grossmarkt Rostock GmbH vermietet Mietbuden sowohl fuer den Weihnachtsmarkt als auch fuer den Rostocker Ostermarkt."
+      "notes": "Groesster Weihnachtsmarkt Norddeutschlands. Gesucht werden Grill-, Crepes- und Pizzabetriebe sowie weitere kulinarische Anbieter und Händler mit Kunsthandwerk. Die Großmarkt Rostock GmbH vermietet Mietbuden sowohl für den Weihnachtsmarkt als auch für den Rostocker Ostermarkt."
     },
     {
       "id": "weimarer-zwiebelmarkt-2027-weimar",
@@ -50,11 +50,11 @@
       "country": "DE",
       "venue_or_area": "Weimarer Innenstadt rund um den Markt",
       "application_deadline_iso": "2027-03-31",
-      "application_deadline_text": "Bewerbungsschluss ist der 31. Maerz des jeweiligen Jahres, fuer den Zwiebelmarkt 2027 also der 31.03.2027. Entscheidend ist der Eingang bei der Stadt Weimar. Ausgenommen sind Strassenkuenstler.",
-      "event_date_range_text": "Jeweils am zweiten Oktoberwochenende, fuer 2027 der 8. bis 10. Oktober.",
-      "application_mode": "Online-Bewerbung ueber die Dienstleistung Standplatzgenehmigung oder per Antragsformular mit vollstaendigen Angaben und Bewerbungsfoto.",
-      "postal_address": "Stadtverwaltung Weimar, Amt fuer Wirtschaft und Maerkte, Markt 1, 99423 Weimar",
-      "contact_name": "A. Hessler (Marktmeisterin), K. Hoechst und P. Powelske (Sachbearbeiterinnen Maerkte)",
+      "application_deadline_text": "Bewerbungsschluss ist der 31. März des jeweiligen Jahres, für den Zwiebelmarkt 2027 also der 31.03.2027. Entscheidend ist der Eingang bei der Stadt Weimar. Ausgenommen sind Straßenkuenstler.",
+      "event_date_range_text": "Jeweils am zweiten Oktoberwochenende, für 2027 der 8. bis 10. Oktober.",
+      "application_mode": "Online-Bewerbung über die Dienstleistung Standplatzgenehmigung oder per Antragsformular mit vollständigen Angaben und Bewerbungsfoto.",
+      "postal_address": "Stadtverwaltung Weimar, Amt für Wirtschaft und Märkte, Markt 1, 99423 Weimar",
+      "contact_name": "A. Hessler (Marktmeisterin), K. Hoechst und P. Powelske (Sachbearbeiterinnen Märkte)",
       "contact_email": "",
       "contact_phone": "+49 3643 762-482",
       "source_url": "https://stadt.weimar.de/de/haendlerinformationen-zwiebelmarkt.html",
@@ -63,7 +63,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "nord-ost-2027-deep-restliche-laender",
       "confidence_status": "partial",
-      "notes": "Aeltestes und groesstes Volksfest Thueringens. Die Entscheidung ueber die Zulassung faellt in der Regel zur Jahresmitte nach den Kriterien der Zwiebelmarktsatzung. Kontakt nur ueber das Kontaktformular der Stadt, weitere Rufnummern -485 und -483."
+      "notes": "Aeltestes und groesstes Volksfest Thueringens. Die Entscheidung über die Zulassung faellt in der Regel zur Jahresmitte nach den Kriterien der Zwiebelmarktsatzung. Kontakt nur über das Kontaktformular der Stadt, weitere Rufnummern -485 und -483."
     }
   ],
   "rejected_candidates": [

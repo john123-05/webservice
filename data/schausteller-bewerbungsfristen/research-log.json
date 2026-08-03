@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-03",
+  "updated_at": "2026-08-04",
   "rejected_candidates": [
     {
       "event_name": "Wilhelmstädter Stadtteilfest 2026 und/oder 2027",
@@ -949,6 +949,12 @@
       "candidate_url": "https://tourismus.hilpoltstein.de/veranstaltungen/hilpoltsteiner-maerkte/bewerbungen",
       "reason": "Bewerbungsfrist war der 01. Juli 2026 fuer den Markt am 6. September 2026. Klarstellung zu einer widerspruechlichen Sekundaerquelle: Der Termin 01.07.2026 gehoert zum Michaelimarkt, nicht zum Weihnachtsmarkt, dessen Frist der 8. Oktober 2026 ist.",
       "agent_batch_id": "de-2026-08-breitensuche-05"
+    },
+    {
+      "event_name": "Bad Salzufler Weihnachtstraum 2026",
+      "candidate_url": "https://www.werbegemeinschaft-bad-salzuflen.de/aussteller-werden",
+      "reason": "Beide Fristen fuer den Jahrgang 2026 sind abgelaufen: Gastronomie und Süßwaren zum 30.3.2026, Kunsthandwerk und Verkauf zum 30.6.2026. Die Veranstaltung selbst laeuft vom 23.11. bis 30.12.2026.",
+      "agent_batch_id": "de-2026-08-kleinstaedte-01"
     },
     {
       "event_name": "76. Darmstaedter Heinerfest",
@@ -3225,6 +3231,78 @@
       "candidate_url": "https://www.cannstatter-volksfest.de/fileadmin/stuttgarter-fruehlingsfest/bewerbung/Bewerbung_Fruehlingsfest_2027.pdf",
       "reason": "Eigenes Bewerbungsformular der in.Stuttgart Veranstaltungsgesellschaft mbH & Co. KG fuer das Fruehlingsfest 2027, parallel zum Cannstatter Volksfest. Ob die Frist 14.10.2026 des Volksfests auch fuer das Fruehlingsfest gilt, ist auf der Bewerbungsseite nicht eindeutig ausgewiesen. Beim Veranstalter klaeren: Thomas Heibel, +49 711 9554 3303.",
       "agent_batch_id": "de-2026-08-breitensuche-05"
+    },
+    {
+      "event_name": "Kiliansfest Bad Salzuflen-Schötmar",
+      "candidate_url": "https://www.stadt-bad-salzuflen.de/leben-und-freizeit/auf-einen-blick/veranstaltungen",
+      "reason": "Aeltestes Stadtfest Bad Salzuflens im Stadtteil Schötmar, mit Kirmes und Flohmarkt, jeweils an einem Wochenende im September. Weder Stadt noch Veranstalter veroeffentlichen ein Bewerbungsverfahren mit Frist. Stadt Bad Salzuflen, Rudolph-Brandes-Allee 19, 32105 Bad Salzuflen, 05222 952-0, stadt@bad-salzuflen.de.",
+      "agent_batch_id": "de-2026-08-kleinstaedte-01"
+    },
+    {
+      "event_name": "Weinfest am Salzhof Bad Salzuflen",
+      "candidate_url": "https://www.werbegemeinschaft-bad-salzuflen.de/",
+      "reason": "Jeweils am zweiten Augustwochenende von Donnerstag bis Sonntag am Salzhof, mit 18 Winzern aus sechs Weinregionen und zehn regionalen Gastronomiebetrieben. Veranstalterin ist die Werbegemeinschaft Bad Salzuflen e.V.; ein Bewerbungsverfahren mit Frist ist auf der Seite nicht ausgewiesen. Zweite Veranstaltung derselben Werbegemeinschaft, daher lohnt eine Direktanfrage.",
+      "agent_batch_id": "de-2026-08-kleinstaedte-01"
+    },
+    {
+      "event_name": "Staedtische Maerkte und Feste Bad Salzuflen",
+      "candidate_url": "https://www.stadt-bad-salzuflen.de/leben-und-freizeit/auf-einen-blick/veranstaltungen",
+      "reason": "Die Stadt verweist Standbetreiber, Schausteller und Haendler auf einen Account im staedtischen Serviceportal, nennt aber keine Fristen und keine gesonderte Ansprechperson fuer Marktbewerbungen.",
+      "agent_batch_id": "de-2026-08-kleinstaedte-01"
+    },
+    {
+      "event_name": "Jahrmaerkte, Volksfeste und Spezialmaerkte Koeln",
+      "candidate_url": "https://www.stadt-koeln.de/service/produkte/00292/index.html",
+      "reason": "Die Stadt Koeln nennt 'Der Antrag muss mindestens 4 Wochen vor der Veranstaltung vorliegen'. Das Verfahren richtet sich jedoch an Veranstalter, die einen Markt durchfuehren wollen (Marktfestsetzung), nicht an Schausteller oder Beschicker. Zustaendig: Nutzung oeffentlicher Flaechen, Willy-Brandt-Platz 3, 50679 Koeln, strassennutzungen@stadt-koeln.de.",
+      "agent_batch_id": "de-2026-08-regelfristen-01"
+    },
+    {
+      "event_name": "Kirmessen Hueckelhoven (Baal, Brachelen, Kleingladbach, Millich, Rurich, Schaufenberg)",
+      "candidate_url": "https://www.hueckelhoven.de/dienstleistungen/kimes/",
+      "reason": "Sechs Ortsteil-Kirmessen der Stadt Hueckelhoven. Die Termine stehen in der Anlage zur Kirmessatzung, die Stadt bittet lediglich um 'rechtzeitige' Bewerbung ohne Fristdatum. Ansprechpartnerin Lara Prueter, 02433 82-226, Lara.Prueter@hueckelhoven.de, Rathausplatz 1, 41836 Hueckelhoven. Fuer Hueckelhoven und Ratheim ist die Kolo GmbH, Wiedstrasse 12, zustaendig.",
+      "agent_batch_id": "de-2026-08-regelfristen-01"
+    },
+    {
+      "event_name": "Kirmesveranstaltungen Rheine 2027 - Einzeltermine",
+      "candidate_url": "https://www.rheine.de/rathaus-service/verwaltung/index.html?detID=2299&catID=649",
+      "reason": "Ergaenzung zum bereits erfassten Sammeleintrag: Die Stadt Rheine richtet drei Kirmessen aus (Elte, Familienkirmes Dutum-Dorenkamp, Rheiner Herbstkirmes), 2026 am 23.-25.05., 03.-05.07. und 16.-19.10. Die 2027-Termine sind noch nicht veroeffentlicht; die gemeinsame Frist 15.01.2027 ist bereits erfasst. Ansprechpartnerinnen Nicola Moz und Monika Huebschen.",
+      "agent_batch_id": "de-2026-08-regelfristen-01"
+    },
+    {
+      "event_name": "Maerkte Stadt Osnabrueck",
+      "candidate_url": "https://service.osnabrueck.de/dienstleistungen/-/egov-bis-detail/dienstleistung/5440/show",
+      "reason": "Die Stadt Osnabrueck stellt ein Online-Formular fuer Stand- und Fahrgeschaeftsbewerbungen bereit. Ein kalendarisches Fristdatum ist auf der Serviceseite nicht ausgewiesen. Die Osnabruecker Maiwoche und die beiden Jahrmaerkte sind mit Frist 30.11.2026 bereits erfasst.",
+      "agent_batch_id": "de-2026-08-regelfristen-01"
+    },
+    {
+      "event_name": "Kirchweihen und Weihnachtsmarkt Fuerth",
+      "candidate_url": "https://www.bayernportal.de/dokumente/onlineservice/18221628128",
+      "reason": "Die Stadt Fuerth bietet ueber das BayernPortal Online-Bewerbungen fuer Michaelis-Kirchweih, Weihnachtsmarkt und weitere Kirchweihen an. Marktamt, Bahnhofplatz 9, 90762 Fuerth, marktamt@fuerth.de, 0911 974-1278 und -1277. Die Michaelis-Kirchweih 2027 ist mit Frist 20.10.2026 bereits erfasst; fuer die uebrigen Fuerther Kirchweihen fehlt ein Fristdatum.",
+      "agent_batch_id": "de-2026-08-regelfristen-01"
+    },
+    {
+      "event_name": "Dresdner Striezelmarkt 2027 - abgeleitete Frist",
+      "candidate_url": "https://www.dresden.de/de/leben/sport-und-freizeit/maerkte/informationen-fuer-haendlerbewerbungen.php",
+      "reason": "Die Ausschreibung erfolgt jaehrlich Mitte/Ende Maerz bis Mitte April, der Bewerbungsschluss lag 2026 am 7. Mai. Da die Stadt kein wiederkehrendes Fristdatum nennt, sondern jaehrlich neu ausschreibt, wurde kein Eintrag abgeleitet. Nachfassen ab Maerz 2027. Amt fuer Wirtschaftsfoerderung, Stefan Heilig, 0351 4888741, markt@dresden.de.",
+      "agent_batch_id": "de-2026-08-regelfristen-01"
+    },
+    {
+      "event_name": "Regensburger Dulten 2027 - Fristkonflikt",
+      "candidate_url": "https://www.regensburg.de/aktuelles/dult/bewerbung-dult-volksfest",
+      "reason": "Datenkonflikt zum bereits erfassten Eintrag 'Regensburger Maidult & Herbstdult 2027' mit Frist 01.10.2026: Die Stadt Regensburg nannte fuer den Jahrgang 2026 den 10.10.2025 als Bewerbungsschluss, woraus sich fuer 2027 der 10.10.2026 ergaebe. Die offizielle Seite war zum Pruefzeitpunkt nicht abrufbar (HTTP 503), der Konflikt konnte nicht aufgeloest werden. Bewerbung getrennt je Dult und je Geschaeft an Stadt Regensburg, Amt fuer oeffentliche Ordnung und Strassenverkehr, Postfach 11 06 43, 93019 Regensburg. Vor Nutzerkommunikation klaeren.",
+      "agent_batch_id": "de-2026-08-regelfristen-02"
+    },
+    {
+      "event_name": "Ulmer Volksfest 2027",
+      "candidate_url": "https://ulmer-volksfest.de/bewerbung/",
+      "reason": "Die Stadt Ulm laesst das Verfahren durch die VMV GmbH als externes Marktamt abwickeln. Bewerbung schriftlich mit Standardunterlagen und offiziellem Formular. Ein kalendarisches Fristdatum ist auf der Bewerbungsseite nicht ausgewiesen.",
+      "agent_batch_id": "de-2026-08-regelfristen-02"
+    },
+    {
+      "event_name": "Landshuter Dulten 2027 - Fahr-, Schau- und Verkaufsgeschaefte",
+      "candidate_url": "https://landshut.de/portal/rathaus/referat-3/ordnungsamt/oeffentliche-ordnung/volksfest-jahrmarkt-dult.html",
+      "reason": "Ergaenzung zum erfassten Festzelt-Eintrag: Fuer Fahr-, Schau- und Verkaufsgeschaefte der Landshuter Dulten liess sich keine eigene Frist ermitteln. Zustaendig ist dasselbe Sachgebiet Marktwesen, Luitpoldstrasse 29a, 84034 Landshut.",
+      "agent_batch_id": "de-2026-08-regelfristen-02"
     },
     {
       "event_name": "Hamburger Weihnachtsmarkt auf dem Rathausmarkt",

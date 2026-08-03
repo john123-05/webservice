@@ -16,18 +16,18 @@
   "entries": [
     {
       "id": "neumarkter-fruehlingsfest-2027-neumarkt",
-      "event_name": "Neumarkter Fruehlingsfest 2027",
-      "event_type": "Fruehjahrsvolksfest",
+      "event_name": "Neumarkter Frühlingsfest 2027",
+      "event_type": "Frühjahrsvolksfest",
       "city": "Neumarkt in der Oberpfalz",
       "state": "Bayern",
       "country": "DE",
       "venue_or_area": "Neumarkt in der Oberpfalz",
       "application_deadline_iso": "2026-12-01",
-      "application_deadline_text": "Bewerbungen sind jaehrlich bis spaetestens 01.12. des Vorjahres einzureichen, fuer das Fruehlingsfest 2027 also bis zum 01.12.2026.",
-      "event_date_range_text": "Fruehjahr 2027; der genaue Termin ist auf der Ausschreibungsseite nicht ausgewiesen.",
-      "application_mode": "Schriftliche bzw. formulargestuetzte Bewerbung beim Hauptamt der Stadt Neumarkt; getrennte Verfahren fuer Festwirt, Festbrauerei und Essensgeschaefte. Schau- und Fahrgeschaefte bewerben sich direkt bei Hartmanns Vergnuegungsbetriebe.",
+      "application_deadline_text": "Bewerbungen sind jährlich bis spätestens 01.12. des Vorjahres einzureichen, für das Frühlingsfest 2027 also bis zum 01.12.2026.",
+      "event_date_range_text": "Frühjahr 2027; der genaue Termin ist auf der Ausschreibungsseite nicht ausgewiesen.",
+      "application_mode": "Schriftliche bzw. formulargestuetzte Bewerbung beim Hauptamt der Stadt Neumarkt; getrennte Verfahren für Festwirt, Festbrauerei und Essensgeschaefte. Schau- und Fahrgeschäfte bewerben sich direkt bei Hartmanns Vergnügungsbetriebe.",
       "postal_address": "Stadt Neumarkt in der Oberpfalz, Hauptamt, Neumarkt",
-      "contact_name": "Hauptamt der Stadt Neumarkt; fuer Schau- und Fahrgeschaefte B. Wunderle-Wittmann und J. Wittmann, Hartmanns Vergnuegungsbetriebe, Leutenbachstr. 28, 91217 Hersbruck",
+      "contact_name": "Hauptamt der Stadt Neumarkt; für Schau- und Fahrgeschäfte B. Wunderle-Wittmann und J. Wittmann, Hartmanns Vergnügungsbetriebe, Leutenbachstr. 28, 91217 Hersbruck",
       "contact_email": "Hartmanns-Vergnuegungsbetriebe@web.de",
       "contact_phone": "09181 255-0",
       "source_url": "https://www.neumarkt.de/kultur-stadtinfo/veranstaltungen-und-feste/feste/ausschreibungenbewerbungen-fuer-die-feste/",
@@ -36,7 +36,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-05",
       "confidence_status": "partial",
-      "notes": "Die Stadt Neumarkt trennt vier Bewerbergruppen mit identischer Frist. Schau- und Fahrgeschaefte laufen nicht ueber die Stadt, sondern ueber den beauftragten Vergnuegungsbetrieb."
+      "notes": "Die Stadt Neumarkt trennt vier Bewerbergruppen mit identischer Frist. Schau- und Fahrgeschäfte laufen nicht über die Stadt, sondern über den beauftragten Vergnügungsbetrieb."
     },
     {
       "id": "neumarkter-jura-volksfest-2027-neumarkt",
@@ -47,11 +47,11 @@
       "country": "DE",
       "venue_or_area": "Neumarkt in der Oberpfalz",
       "application_deadline_iso": "2026-12-01",
-      "application_deadline_text": "Bewerbungen sind jaehrlich bis spaetestens 01.12. des Vorjahres einzureichen, fuer das JURA-Volksfest 2027 also bis zum 01.12.2026.",
+      "application_deadline_text": "Bewerbungen sind jährlich bis spätestens 01.12. des Vorjahres einzureichen, für das JURA-Volksfest 2027 also bis zum 01.12.2026.",
       "event_date_range_text": "2027; der genaue Termin ist auf der Ausschreibungsseite nicht ausgewiesen.",
-      "application_mode": "Schriftliche bzw. formulargestuetzte Bewerbung beim Hauptamt der Stadt Neumarkt; getrennte Verfahren fuer Festwirt, Festbrauerei und Essensgeschaefte. Schau- und Fahrgeschaefte bewerben sich direkt bei Hartmanns Vergnuegungsbetriebe.",
+      "application_mode": "Schriftliche bzw. formulargestuetzte Bewerbung beim Hauptamt der Stadt Neumarkt; getrennte Verfahren für Festwirt, Festbrauerei und Essensgeschaefte. Schau- und Fahrgeschäfte bewerben sich direkt bei Hartmanns Vergnügungsbetriebe.",
       "postal_address": "Stadt Neumarkt in der Oberpfalz, Hauptamt, Neumarkt",
-      "contact_name": "Hauptamt der Stadt Neumarkt; fuer Schau- und Fahrgeschaefte B. Wunderle-Wittmann und J. Wittmann, Hartmanns Vergnuegungsbetriebe, Leutenbachstr. 28, 91217 Hersbruck",
+      "contact_name": "Hauptamt der Stadt Neumarkt; für Schau- und Fahrgeschäfte B. Wunderle-Wittmann und J. Wittmann, Hartmanns Vergnügungsbetriebe, Leutenbachstr. 28, 91217 Hersbruck",
       "contact_email": "Hartmanns-Vergnuegungsbetriebe@web.de",
       "contact_phone": "09181 255-0",
       "source_url": "https://www.neumarkt.de/kultur-stadtinfo/veranstaltungen-und-feste/feste/ausschreibungenbewerbungen-fuer-die-feste/",
@@ -60,7 +60,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-05",
       "confidence_status": "partial",
-      "notes": "Zweites Neumarkter Volksfest mit identischem Verfahren und identischer Frist wie das Fruehlingsfest. Die Stadt weist Festwirt-Ausschreibungen mehrjaehrig aus (2025 bis 2027)."
+      "notes": "Zweites Neumarkter Volksfest mit identischem Verfahren und identischer Frist wie das Frühlingsfest. Die Stadt weist Festwirt-Ausschreibungen mehrjaehrig aus (2025 bis 2027)."
     },
     {
       "id": "voerder-weihnachtsmarkt-2026-voerde",
@@ -73,7 +73,7 @@
       "application_deadline_iso": "2026-09-30",
       "application_deadline_text": "Die Bewerbungsfrist laeuft bis zum 30.09.2026.",
       "event_date_range_text": "11. bis 13. Dezember 2026",
-      "application_mode": "Bewerbung ueber die Seite der Stadt Voerde fuer einen Standplatz oder eine Holzhuette.",
+      "application_mode": "Bewerbung über die Seite der Stadt Voerde für einen Standplatz oder eine Holzhuette.",
       "postal_address": "Stadt Voerde, Voerde",
       "contact_name": "Stadt Voerde",
       "contact_email": "",

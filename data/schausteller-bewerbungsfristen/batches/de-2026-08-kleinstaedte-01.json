@@ -1,0 +1,89 @@
+{
+  "batch_id": "de-2026-08-kleinstaedte-01",
+  "region_scope": [
+    "Ostwestfalen-Lippe",
+    "Kleinstadt-Stichprobe"
+  ],
+  "search_terms": [
+    "Bad Salzuflen Weihnachtsmarkt Markt Bewerbung Standbetreiber Haendler Frist Stadt offiziell",
+    "Bad Salzuflen Veranstaltungen Kirmes Stadtfest Kunsthandwerkermarkt Aussteller Bewerbung Anmeldung",
+    "Werbegemeinschaft Bad Salzuflen Aussteller werden Weihnachtstraum Bewerbung Stand Anmeldung"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-04",
+  "entries": [
+    {
+      "id": "bad-salzufler-weihnachtstraum-2027-gastronomie-bad-salzuflen",
+      "event_name": "Bad Salzufler Weihnachtstraum 2027 - Gastronomie und Süßwaren",
+      "event_type": "Weihnachtsmarkt / Gastronomie",
+      "city": "Bad Salzuflen",
+      "state": "Nordrhein-Westfalen",
+      "country": "DE",
+      "venue_or_area": "Historische Altstadt Bad Salzuflen",
+      "application_deadline_iso": "2027-03-30",
+      "application_deadline_text": "Der Veranstalter setzt den Bewerbungsschluss fuer Gastronomie und Süßwaren jeweils auf den 30.03. des Veranstaltungsjahres, fuer 2027 also auf den 30.03.2027.",
+      "event_date_range_text": "Advent 2027; die Ausgabe 2026 laeuft vom 23. November bis 30. Dezember.",
+      "application_mode": "Bewerbung per E-Mail oder telefonisch bei der Werbegemeinschaft. Mietbuden werden drei Tage vor Veranstaltungsbeginn bereitgestellt.",
+      "postal_address": "Werbegemeinschaft Bad Salzuflen e.V., Postfach 1729, 32069 Bad Salzuflen; Citybüro: Dammstr. 16, 32105 Bad Salzuflen",
+      "contact_name": "Michael Welslau, 1. Vorsitzender und Cheforganisator",
+      "contact_email": "info@werbegemeinschaft-bad-salzuflen.de",
+      "contact_phone": "05222 4376",
+      "source_url": "https://www.werbegemeinschaft-bad-salzuflen.de/aussteller-werden",
+      "source_domain": "werbegemeinschaft-bad-salzuflen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-04",
+      "agent_batch_id": "de-2026-08-kleinstaedte-01",
+      "confidence_status": "partial",
+      "notes": "Der Veranstalter staffelt die Fristen nach Branche: Gastronomie und Süßwaren deutlich frueher als Kunsthandwerk und Verkauf. Zweite Rufnummer 0172 5222456. Fristdatum aus dem Jahrgang 2026 abgeleitet."
+    },
+    {
+      "id": "bad-salzufler-weihnachtstraum-2027-kunsthandwerk-bad-salzuflen",
+      "event_name": "Bad Salzufler Weihnachtstraum 2027 - Kunsthandwerk und Verkauf",
+      "event_type": "Weihnachtsmarkt / Kunsthandwerk",
+      "city": "Bad Salzuflen",
+      "state": "Nordrhein-Westfalen",
+      "country": "DE",
+      "venue_or_area": "Historische Altstadt Bad Salzuflen",
+      "application_deadline_iso": "2027-06-30",
+      "application_deadline_text": "Der Veranstalter setzt den Bewerbungsschluss fuer Kunsthandwerk und Verkauf jeweils auf den 30.06. des Veranstaltungsjahres, fuer 2027 also auf den 30.06.2027.",
+      "event_date_range_text": "Advent 2027; die Ausgabe 2026 laeuft vom 23. November bis 30. Dezember.",
+      "application_mode": "Bewerbung per E-Mail oder telefonisch bei der Werbegemeinschaft. Mietbuden werden drei Tage vor Veranstaltungsbeginn bereitgestellt.",
+      "postal_address": "Werbegemeinschaft Bad Salzuflen e.V., Postfach 1729, 32069 Bad Salzuflen; Citybüro: Dammstr. 16, 32105 Bad Salzuflen",
+      "contact_name": "Michael Welslau, 1. Vorsitzender und Cheforganisator",
+      "contact_email": "info@werbegemeinschaft-bad-salzuflen.de",
+      "contact_phone": "05222 4376",
+      "source_url": "https://www.werbegemeinschaft-bad-salzuflen.de/aussteller-werden",
+      "source_domain": "werbegemeinschaft-bad-salzuflen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-04",
+      "agent_batch_id": "de-2026-08-kleinstaedte-01",
+      "confidence_status": "partial",
+      "notes": "Gesucht werden hochwertiges Kunsthandwerk und weihnachtliche Geschenkideen. Spaetere Frist als fuer Gastronomie. Fristdatum aus dem Jahrgang 2026 abgeleitet."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Bad Salzufler Weihnachtstraum 2026",
+      "candidate_url": "https://www.werbegemeinschaft-bad-salzuflen.de/aussteller-werden",
+      "reason": "Beide Fristen fuer den Jahrgang 2026 sind abgelaufen: Gastronomie und Süßwaren zum 30.3.2026, Kunsthandwerk und Verkauf zum 30.6.2026. Die Veranstaltung selbst laeuft vom 23.11. bis 30.12.2026."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Kiliansfest Bad Salzuflen-Schötmar",
+      "candidate_url": "https://www.stadt-bad-salzuflen.de/leben-und-freizeit/auf-einen-blick/veranstaltungen",
+      "reason": "Aeltestes Stadtfest Bad Salzuflens im Stadtteil Schötmar, mit Kirmes und Flohmarkt, jeweils an einem Wochenende im September. Weder Stadt noch Veranstalter veroeffentlichen ein Bewerbungsverfahren mit Frist. Stadt Bad Salzuflen, Rudolph-Brandes-Allee 19, 32105 Bad Salzuflen, 05222 952-0, stadt@bad-salzuflen.de."
+    },
+    {
+      "event_name": "Weinfest am Salzhof Bad Salzuflen",
+      "candidate_url": "https://www.werbegemeinschaft-bad-salzuflen.de/",
+      "reason": "Jeweils am zweiten Augustwochenende von Donnerstag bis Sonntag am Salzhof, mit 18 Winzern aus sechs Weinregionen und zehn regionalen Gastronomiebetrieben. Veranstalterin ist die Werbegemeinschaft Bad Salzuflen e.V.; ein Bewerbungsverfahren mit Frist ist auf der Seite nicht ausgewiesen. Zweite Veranstaltung derselben Werbegemeinschaft, daher lohnt eine Direktanfrage."
+    },
+    {
+      "event_name": "Staedtische Maerkte und Feste Bad Salzuflen",
+      "candidate_url": "https://www.stadt-bad-salzuflen.de/leben-und-freizeit/auf-einen-blick/veranstaltungen",
+      "reason": "Die Stadt verweist Standbetreiber, Schausteller und Haendler auf einen Account im staedtischen Serviceportal, nennt aber keine Fristen und keine gesonderte Ansprechperson fuer Marktbewerbungen."
+    }
+  ]
+}

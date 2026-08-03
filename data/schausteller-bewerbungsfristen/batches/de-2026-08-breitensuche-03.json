@@ -26,10 +26,10 @@
       "country": "DE",
       "venue_or_area": "Cannstatter Wasen",
       "application_deadline_iso": "2026-10-14",
-      "application_deadline_text": "Bewerbungsschluss fuer das Cannstatter Volksfest 2027 ist der 14.10.2026.",
+      "application_deadline_text": "Bewerbungsschluss für das Cannstatter Volksfest 2027 ist der 14.10.2026.",
       "event_date_range_text": "Herbst 2027; der genaue Termin ist auf der Bewerbungsseite nicht ausgewiesen.",
-      "application_mode": "Schriftlich per Post, ausschliesslich mit dem offiziellen Bewerbungsformular (PDF).",
-      "postal_address": "in.Stuttgart Veranstaltungsgesellschaft mbH & Co. KG, z.Hd. Maria Schaefer, Mercedesstrasse 50, 70372 Stuttgart",
+      "application_mode": "Schriftlich per Post, ausschließlich mit dem offiziellen Bewerbungsformular (PDF).",
+      "postal_address": "in.Stuttgart Veranstaltungsgesellschaft mbH & Co. KG, z.Hd. Maria Schaefer, Mercedesstraße 50, 70372 Stuttgart",
       "contact_name": "Thomas Heibel, Projektleiter",
       "contact_email": "",
       "contact_phone": "+49 711 9554 3303",
@@ -39,7 +39,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-03",
       "confidence_status": "verified",
-      "notes": "Zweitgroesstes Volksfest Deutschlands. Dasselbe Bewerbungsverfahren und Formular gilt auch fuer das Stuttgarter Fruehlingsfest; im Formular ist die gewuenschte Veranstaltung anzugeben. E-Mail-Bewerbungen sind nicht vorgesehen."
+      "notes": "Zweitgroesstes Volksfest Deutschlands. Dasselbe Bewerbungsverfahren und Formular gilt auch für das Stuttgarter Frühlingsfest; im Formular ist die gewuenschte Veranstaltung anzugeben. E-Mail-Bewerbungen sind nicht vorgesehen."
     },
     {
       "id": "ilmenauer-altstadtfest-2027-ilmenau",
@@ -53,8 +53,8 @@
       "application_deadline_text": "Bewerbungsfrist ist der 18. April 2027; eine endgueltige Zu- oder Absage erfolgt bis zum 9. Mai 2027.",
       "event_date_range_text": "4. bis 6. Juni 2027",
       "application_mode": "Schriftliche Bewerbung per E-Mail an kultur@ilmenau.de mit Angaben zum Angebot und Bildern.",
-      "postal_address": "Stadtverwaltung Ilmenau, Amt fuer Stadtmarketing, Kultur und Freizeit, Ilmenau",
-      "contact_name": "Amt fuer Stadtmarketing, Kultur und Freizeit",
+      "postal_address": "Stadtverwaltung Ilmenau, Amt für Stadtmarketing, Kultur und Freizeit, Ilmenau",
+      "contact_name": "Amt für Stadtmarketing, Kultur und Freizeit",
       "contact_email": "kultur@ilmenau.de",
       "contact_phone": "03677 600-307",
       "source_url": "https://www.ilmenau.de/de/freizeit/feste-und-maerkte/altstadtfest/",
@@ -63,7 +63,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-03",
       "confidence_status": "verified",
-      "notes": "Gesucht werden Haendler, Versorger und Kunsthandwerker mit attraktiven Produkten. Die Stadt nennt zusaetzlich zur Bewerbungsfrist ein verbindliches Datum fuer die Rueckmeldung."
+      "notes": "Gesucht werden Händler, Versorger und Kunsthandwerker mit attraktiven Produkten. Die Stadt nennt zusaetzlich zur Bewerbungsfrist ein verbindliches Datum für die Rueckmeldung."
     }
   ],
   "rejected_candidates": [

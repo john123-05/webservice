@@ -27,7 +27,7 @@
       "application_deadline_iso": "2026-10-08",
       "application_deadline_text": "Bewerbungsschluss ist der 8. Oktober 2026.",
       "event_date_range_text": "28. und 29. November 2026",
-      "application_mode": "Online-Anmeldung ueber das Formular der Stadt Hilpoltstein.",
+      "application_mode": "Online-Anmeldung über das Formular der Stadt Hilpoltstein.",
       "postal_address": "Stadt Hilpoltstein, Kultur und Tourismus, Kirchenstr. 19, 91161 Hilpoltstein",
       "contact_name": "Kultur und Tourismus, Stadt Hilpoltstein",
       "contact_email": "",
@@ -38,7 +38,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-02",
       "confidence_status": "verified",
-      "notes": "Die Stadt Hilpoltstein buendelt die Bewerbung fuer fuenf Maerkte auf einer Seite mit je eigener Frist."
+      "notes": "Die Stadt Hilpoltstein buendelt die Bewerbung für fuenf Märkte auf einer Seite mit je eigener Frist."
     },
     {
       "id": "hilpoltsteiner-ostermarkt-2027-hilpoltstein",
@@ -50,7 +50,7 @@
       "venue_or_area": "Hilpoltstein",
       "application_deadline_iso": "2027-01-31",
       "application_deadline_text": "Bewerbungsschluss ist der 31. Januar 2027.",
-      "event_date_range_text": "Sonntag, 7. Maerz 2027",
+      "event_date_range_text": "Sonntag, 7. März 2027",
       "application_mode": "Online-Formular der Stadt Hilpoltstein.",
       "postal_address": "Stadt Hilpoltstein, Kultur und Tourismus, Kirchenstr. 19, 91161 Hilpoltstein",
       "contact_name": "Kultur und Tourismus, Stadt Hilpoltstein",
@@ -62,7 +62,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-02",
       "confidence_status": "verified",
-      "notes": "Eintaegiger Markt. Die Stadt veroeffentlicht die Fristen aller fuenf Hilpoltsteiner Maerkte gebuendelt."
+      "notes": "Eintaegiger Markt. Die Stadt veröffentlicht die Fristen aller fuenf Hilpoltsteiner Märkte gebuendelt."
     },
     {
       "id": "norddeutscher-kunsthandwerkermarkt-2027",
@@ -73,9 +73,9 @@
       "country": "DE",
       "venue_or_area": "",
       "application_deadline_iso": "2026-12-15",
-      "application_deadline_text": "Bewerbungen fuer den Markt 2027 muessen bis zum 15. Dezember 2026 eingereicht werden, ausschliesslich per Post.",
-      "event_date_range_text": "2027; die genauen Termine sind noch nicht veroeffentlicht.",
-      "application_mode": "Ausschliesslich postalische Bewerbung; E-Mail-Bewerbungen werden nicht angenommen.",
+      "application_deadline_text": "Bewerbungen für den Markt 2027 müssen bis zum 15. Dezember 2026 eingereicht werden, ausschließlich per Post.",
+      "event_date_range_text": "2027; die genauen Termine sind noch nicht veröffentlicht.",
+      "application_mode": "Ausschließlich postalische Bewerbung; E-Mail-Bewerbungen werden nicht angenommen.",
       "postal_address": "",
       "contact_name": "Norddeutscher Kunsthandwerkermarkt",
       "contact_email": "",
@@ -86,7 +86,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "de-2026-08-breitensuche-02",
       "confidence_status": "partial",
-      "notes": "Achtung: Der direkte Abruf der offiziellen Teilnahmebedingungen scheiterte an einem SSL-Handshake-Fehler. Frist und Postweg stammen aus der Indexierung derselben offiziellen Seite, nicht aus einer eigenen Sichtung. Vor Uebernahme in Nutzerkommunikation gegenpruefen. Veranstaltungsort und Kontaktdaten konnten nicht ermittelt werden."
+      "notes": "Achtung: Der direkte Abruf der offiziellen Teilnahmebedingungen scheiterte an einem SSL-Handshake-Fehler. Frist und Postweg stammen aus der Indexierung derselben offiziellen Seite, nicht aus einer eigenen Sichtung. Vor Übernahme in Nutzerkommunikation gegenpruefen. Veranstaltungsort und Kontaktdaten konnten nicht ermittelt werden."
     }
   ],
   "rejected_candidates": [

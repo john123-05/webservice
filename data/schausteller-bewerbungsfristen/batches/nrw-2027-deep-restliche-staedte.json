@@ -22,17 +22,17 @@
   "entries": [
     {
       "id": "steinert-kirmes-2027-luedenscheid",
-      "event_name": "Steinert Kirmes Luedenscheid 2027",
-      "event_type": "Kirmes / Schuetzenfest",
-      "city": "Luedenscheid",
+      "event_name": "Steinert Kirmes Lüdenscheid 2027",
+      "event_type": "Kirmes / Schützenfest",
+      "city": "Lüdenscheid",
       "state": "Nordrhein-Westfalen",
       "country": "DE",
-      "venue_or_area": "Festplatz Steinert, Heedfelder Strasse, Luedenscheid",
+      "venue_or_area": "Festplatz Steinert, Heedfelder Straße, Lüdenscheid",
       "application_deadline_iso": "2026-11-30",
-      "application_deadline_text": "Bewerbungsunterlagen muessen bis zum 30. November des Vorjahres vorliegen, fuer die Kirmes 2027 also bis zum 30.11.2026. Massgeblich ist der Eingang beim Platzmeister.",
-      "event_date_range_text": "Jaehrlich rund um Fronleichnam im Rahmen des Schuetzenfestes des Buerger-Schuetzen-Vereins Luedenscheid e.V.; die genauen Termine 2027 sind noch nicht veroeffentlicht.",
-      "application_mode": "Schriftliche Bewerbung mit vollstaendigen Unterlagen und Bildmaterial per Post oder persoenliche Abgabe beim Platzmeister.",
-      "postal_address": "Steinert Kirmes, Heedfelder Str. 96, 58509 Luedenscheid",
+      "application_deadline_text": "Bewerbungsunterlagen müssen bis zum 30. November des Vorjahres vorliegen, für die Kirmes 2027 also bis zum 30.11.2026. Massgeblich ist der Eingang beim Platzmeister.",
+      "event_date_range_text": "Jährlich rund um Fronleichnam im Rahmen des Schützenfestes des Bürger-Schützen-Vereins Lüdenscheid e.V.; die genauen Termine 2027 sind noch nicht veröffentlicht.",
+      "application_mode": "Schriftliche Bewerbung mit vollständigen Unterlagen und Bildmaterial per Post oder persoenliche Abgabe beim Platzmeister.",
+      "postal_address": "Steinert Kirmes, Heedfelder Str. 96, 58509 Lüdenscheid",
       "contact_name": "Gzim Ahmeti, Platzmeister",
       "contact_email": "steinert.kirmes@web.de",
       "contact_phone": "",
@@ -42,7 +42,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "nrw-2027-deep-restliche-staedte",
       "confidence_status": "partial",
-      "notes": "Groesste Kirmes im Sauerland, ausgerichtet im Rahmen des Schuetzenfestes des Buerger-Schuetzen-Vereins Luedenscheid e.V. Der Veranstalter nennt den Bewerbungsschluss als feste jaehrliche Regel, nicht als Einzeldatum fuer 2027. Genaue Veranstaltungstermine 2027 vor Bewerbung erfragen."
+      "notes": "Groesste Kirmes im Sauerland, ausgerichtet im Rahmen des Schützenfestes des Bürger-Schützen-Vereins Lüdenscheid e.V. Der Veranstalter nennt den Bewerbungsschluss als feste jährliche Regel, nicht als Einzeldatum für 2027. Genaue Veranstaltungstermine 2027 vor Bewerbung erfragen."
     }
   ],
   "rejected_candidates": [],

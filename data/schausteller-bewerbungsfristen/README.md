@@ -3,6 +3,17 @@
 `master.json` ist die Source of Truth. Recherche-Ergebnisse werden als einzelne
 Batch-Dateien in `batches/` abgelegt und anschließend konsolidiert.
 
+## Deutschlandweiter Ausbau
+
+Der Plan zum Ausbau auf 1.000 Eintraege steht in `coverage/PLAN.md`, die
+Arbeitsschlange in `coverage/queue.json`, das Protokoll in
+`coverage/WORKLOG.md`.
+
+```
+npm run deadlines:coverage   # Fortschritt je Einheit
+npm run deadlines:next       # naechste offene Einheit
+```
+
 ## Manueller Research-Lauf
 
 1. Mit `npm run deadlines:create-wave -- --wave-id de-wave-001` automatisch

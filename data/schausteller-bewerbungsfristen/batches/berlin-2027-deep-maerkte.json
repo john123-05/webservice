@@ -29,16 +29,16 @@
   "entries": [
     {
       "id": "berliner-fruehlingsfest-2027",
-      "event_name": "55. Berliner Fruehlingsfest 2027",
-      "event_type": "Fruehlingsvolksfest / Jahrmarkt",
+      "event_name": "55. Berliner Frühlingsfest 2027",
+      "event_type": "Frühlingsvolksfest / Jahrmarkt",
       "city": "Berlin",
       "state": "Berlin",
       "country": "DE",
       "venue_or_area": "",
       "application_deadline_iso": "2026-10-31",
-      "application_deadline_text": "Die Bewerbungsfrist fuer das Veranstaltungsjahr 2027 endet am 31.10.2026.",
+      "application_deadline_text": "Die Bewerbungsfrist für das Veranstaltungsjahr 2027 endet am 31.10.2026.",
       "event_date_range_text": "Veranstaltungsjahr 2027; genaue Termine sind auf der offiziellen Seite noch mit 'Info folgt' gekennzeichnet.",
-      "application_mode": "Digital ueber das Bewerbungsportal 2027; jedes Geschaeft ist einzeln zu erfassen, eine Bewerbung fuer mehrere Veranstaltungen ist moeglich.",
+      "application_mode": "Digital über das Bewerbungsportal 2027; jedes Geschäft ist einzeln zu erfassen, eine Bewerbung für mehrere Veranstaltungen ist möglich.",
       "postal_address": "Schaustellerverband Berlin e.V., Rosenheimer Str. 5, 10781 Berlin",
       "contact_name": "Schaustellerverband Berlin e.V.",
       "contact_email": "info@svbev.de",
@@ -49,7 +49,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "berlin-2027-deep-maerkte",
       "confidence_status": "partial",
-      "notes": "Offizielle Veranstalterseite bestaetigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veroeffentlicht; keine Vorjahresdaten uebertragen."
+      "notes": "Offizielle Veranstalterseite bestätigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veröffentlicht; keine Vorjahresdaten übertragen."
     },
     {
       "id": "steglitzer-woche-2027",
@@ -60,9 +60,9 @@
       "country": "DE",
       "venue_or_area": "",
       "application_deadline_iso": "2026-10-31",
-      "application_deadline_text": "Die Bewerbungsfrist fuer das Veranstaltungsjahr 2027 endet am 31.10.2026.",
+      "application_deadline_text": "Die Bewerbungsfrist für das Veranstaltungsjahr 2027 endet am 31.10.2026.",
       "event_date_range_text": "Veranstaltungsjahr 2027; genaue Termine sind auf der offiziellen Seite noch mit 'Info folgt' gekennzeichnet.",
-      "application_mode": "Digital ueber das Bewerbungsportal 2027; jedes Geschaeft ist einzeln zu erfassen, eine Bewerbung fuer mehrere Veranstaltungen ist moeglich.",
+      "application_mode": "Digital über das Bewerbungsportal 2027; jedes Geschäft ist einzeln zu erfassen, eine Bewerbung für mehrere Veranstaltungen ist möglich.",
       "postal_address": "Schaustellerverband Berlin e.V., Rosenheimer Str. 5, 10781 Berlin",
       "contact_name": "Schaustellerverband Berlin e.V.",
       "contact_email": "info@svbev.de",
@@ -73,7 +73,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "berlin-2027-deep-maerkte",
       "confidence_status": "partial",
-      "notes": "Offizielle Veranstalterseite bestaetigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veroeffentlicht; keine Vorjahresdaten uebertragen."
+      "notes": "Offizielle Veranstalterseite bestätigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veröffentlicht; keine Vorjahresdaten übertragen."
     },
     {
       "id": "berliner-volksfestsommer-2027",
@@ -84,9 +84,9 @@
       "country": "DE",
       "venue_or_area": "",
       "application_deadline_iso": "2026-10-31",
-      "application_deadline_text": "Die Bewerbungsfrist fuer das Veranstaltungsjahr 2027 endet am 31.10.2026.",
+      "application_deadline_text": "Die Bewerbungsfrist für das Veranstaltungsjahr 2027 endet am 31.10.2026.",
       "event_date_range_text": "Veranstaltungsjahr 2027; genaue Termine sind auf der offiziellen Seite noch mit 'Info folgt' gekennzeichnet.",
-      "application_mode": "Digital ueber das Bewerbungsportal 2027; jedes Geschaeft ist einzeln zu erfassen, eine Bewerbung fuer mehrere Veranstaltungen ist moeglich.",
+      "application_mode": "Digital über das Bewerbungsportal 2027; jedes Geschäft ist einzeln zu erfassen, eine Bewerbung für mehrere Veranstaltungen ist möglich.",
       "postal_address": "Schaustellerverband Berlin e.V., Rosenheimer Str. 5, 10781 Berlin",
       "contact_name": "Schaustellerverband Berlin e.V.",
       "contact_email": "info@svbev.de",
@@ -97,7 +97,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "berlin-2027-deep-maerkte",
       "confidence_status": "partial",
-      "notes": "Offizielle Veranstalterseite bestaetigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veroeffentlicht; keine Vorjahresdaten uebertragen."
+      "notes": "Offizielle Veranstalterseite bestätigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veröffentlicht; keine Vorjahresdaten übertragen."
     },
     {
       "id": "freie-scholle-2027",
@@ -108,9 +108,9 @@
       "country": "DE",
       "venue_or_area": "",
       "application_deadline_iso": "2026-10-31",
-      "application_deadline_text": "Die Bewerbungsfrist fuer das Veranstaltungsjahr 2027 endet am 31.10.2026.",
+      "application_deadline_text": "Die Bewerbungsfrist für das Veranstaltungsjahr 2027 endet am 31.10.2026.",
       "event_date_range_text": "Veranstaltungsjahr 2027; genaue Termine sind auf der offiziellen Seite noch mit 'Info folgt' gekennzeichnet.",
-      "application_mode": "Digital ueber das Bewerbungsportal 2027; jedes Geschaeft ist einzeln zu erfassen, eine Bewerbung fuer mehrere Veranstaltungen ist moeglich.",
+      "application_mode": "Digital über das Bewerbungsportal 2027; jedes Geschäft ist einzeln zu erfassen, eine Bewerbung für mehrere Veranstaltungen ist möglich.",
       "postal_address": "Schaustellerverband Berlin e.V., Rosenheimer Str. 5, 10781 Berlin",
       "contact_name": "Schaustellerverband Berlin e.V.",
       "contact_email": "info@svbev.de",
@@ -121,7 +121,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "berlin-2027-deep-maerkte",
       "confidence_status": "partial",
-      "notes": "Offizielle Veranstalterseite bestaetigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veroeffentlicht; keine Vorjahresdaten uebertragen."
+      "notes": "Offizielle Veranstalterseite bestätigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veröffentlicht; keine Vorjahresdaten übertragen."
     },
     {
       "id": "berliner-herbstrummel-2027",
@@ -132,9 +132,9 @@
       "country": "DE",
       "venue_or_area": "",
       "application_deadline_iso": "2026-10-31",
-      "application_deadline_text": "Die Bewerbungsfrist fuer das Veranstaltungsjahr 2027 endet am 31.10.2026.",
+      "application_deadline_text": "Die Bewerbungsfrist für das Veranstaltungsjahr 2027 endet am 31.10.2026.",
       "event_date_range_text": "Veranstaltungsjahr 2027; genaue Termine sind auf der offiziellen Seite noch mit 'Info folgt' gekennzeichnet.",
-      "application_mode": "Digital ueber das Bewerbungsportal 2027; jedes Geschaeft ist einzeln zu erfassen, eine Bewerbung fuer mehrere Veranstaltungen ist moeglich.",
+      "application_mode": "Digital über das Bewerbungsportal 2027; jedes Geschäft ist einzeln zu erfassen, eine Bewerbung für mehrere Veranstaltungen ist möglich.",
       "postal_address": "Schaustellerverband Berlin e.V., Rosenheimer Str. 5, 10781 Berlin",
       "contact_name": "Schaustellerverband Berlin e.V.",
       "contact_email": "info@svbev.de",
@@ -145,7 +145,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "berlin-2027-deep-maerkte",
       "confidence_status": "partial",
-      "notes": "Offizielle Veranstalterseite bestaetigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veroeffentlicht; keine Vorjahresdaten uebertragen."
+      "notes": "Offizielle Veranstalterseite bestätigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veröffentlicht; keine Vorjahresdaten übertragen."
     },
     {
       "id": "weihnachtsmarkt-city-berlin-2027",
@@ -156,9 +156,9 @@
       "country": "DE",
       "venue_or_area": "",
       "application_deadline_iso": "2026-10-31",
-      "application_deadline_text": "Die Bewerbungsfrist fuer das Veranstaltungsjahr 2027 endet am 31.10.2026.",
+      "application_deadline_text": "Die Bewerbungsfrist für das Veranstaltungsjahr 2027 endet am 31.10.2026.",
       "event_date_range_text": "Veranstaltungsjahr 2027; genaue Termine sind auf der offiziellen Seite noch mit 'Info folgt' gekennzeichnet.",
-      "application_mode": "Digital ueber das Bewerbungsportal 2027; jedes Geschaeft ist einzeln zu erfassen, eine Bewerbung fuer mehrere Veranstaltungen ist moeglich.",
+      "application_mode": "Digital über das Bewerbungsportal 2027; jedes Geschäft ist einzeln zu erfassen, eine Bewerbung für mehrere Veranstaltungen ist möglich.",
       "postal_address": "Schaustellerverband Berlin e.V., Rosenheimer Str. 5, 10781 Berlin",
       "contact_name": "Schaustellerverband Berlin e.V.",
       "contact_email": "info@svbev.de",
@@ -169,7 +169,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "berlin-2027-deep-maerkte",
       "confidence_status": "partial",
-      "notes": "Offizielle Veranstalterseite bestaetigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veroeffentlicht; keine Vorjahresdaten uebertragen."
+      "notes": "Offizielle Veranstalterseite bestätigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veröffentlicht; keine Vorjahresdaten übertragen."
     }
   ],
   "rejected_candidates": [

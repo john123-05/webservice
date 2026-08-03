@@ -27,7 +27,7 @@
       "country": "DE",
       "venue_or_area": "Erfurter Innenstadt",
       "application_deadline_iso": "2026-08-31",
-      "application_deadline_text": "Bewerbungen sind formlos bis zum 31. August moeglich.",
+      "application_deadline_text": "Bewerbungen sind formlos bis zum 31. August möglich.",
       "event_date_range_text": "Herbst 2026; der genaue Zeitraum ist im Bewerbungsaufruf nicht genannt.",
       "application_mode": "Formlose Bewerbung, postalisch an die Kulturdirektion der Stadt Erfurt.",
       "postal_address": "Stadtverwaltung Erfurt, Kulturdirektion, Benediktsplatz 1, 99084 Erfurt",
@@ -40,7 +40,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "nord-ost-2027-deep-vertiefung",
       "confidence_status": "partial",
-      "notes": "Aus dem staedtischen Sammelaufruf 'Erfurt feiert: Jetzt noch fuer die beliebtesten Feste bewerben'. Von den fuenf dort genannten Erfurter Veranstaltungen ist dies die einzige, deren Frist zum Stichtag 03.08.2026 noch offen ist. Gesucht werden Haendler, Gastronomie, Schausteller sowie Kunst- und Kreativschaffende, bevorzugt mit Direktherstellung am Stand und regionalen oder zertifizierten Bio-Produkten."
+      "notes": "Aus dem staedtischen Sammelaufruf 'Erfurt feiert: Jetzt noch für die beliebtesten Feste bewerben'. Von den fuenf dort genannten Erfurter Veranstaltungen ist dies die einzige, deren Frist zum Stichtag 03.08.2026 noch offen ist. Gesucht werden Händler, Gastronomie, Schausteller sowie Kunst- und Kreativschaffende, bevorzugt mit Direktherstellung am Stand und regionalen oder zertifizierten Bio-Produkten."
     },
     {
       "id": "greifswald-kunsthandwerkermarkt-2026-greifswald",
@@ -51,11 +51,11 @@
       "country": "DE",
       "venue_or_area": "Rathauskeller Greifswald",
       "application_deadline_iso": "2026-09-30",
-      "application_deadline_text": "Bewerbungen werden jaehrlich bis zum 30. September entgegengenommen.",
+      "application_deadline_text": "Bewerbungen werden jährlich bis zum 30. September entgegengenommen.",
       "event_date_range_text": "An den Adventwochenenden November bis Dezember, jeweils Freitag bis Sonntag.",
-      "application_mode": "Online-Bewerbung ueber das Bewerbungsformular auf der Seite der Universitaets- und Hansestadt Greifswald.",
-      "postal_address": "Universitaets- und Hansestadt Greifswald, Amt fuer Buergerservice und Brandschutz, Fachbereich Maerkte und Veranstaltungen, Markt, 17489 Greifswald",
-      "contact_name": "Fachbereich Maerkte und Veranstaltungen",
+      "application_mode": "Online-Bewerbung über das Bewerbungsformular auf der Seite der Universitaets- und Hansestadt Greifswald.",
+      "postal_address": "Universitaets- und Hansestadt Greifswald, Amt für Bürgerservice und Brandschutz, Fachbereich Märkte und Veranstaltungen, Markt, 17489 Greifswald",
+      "contact_name": "Fachbereich Märkte und Veranstaltungen",
       "contact_email": "markt@greifswald.de",
       "contact_phone": "+49 3834 8536-4380",
       "source_url": "https://www.greifswald.de/de/urlaub-kultur/veranstaltungen/maerkte/kunsthandwerkermarkt/",
@@ -64,7 +64,7 @@
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "nord-ost-2027-deep-vertiefung",
       "confidence_status": "partial",
-      "notes": "Die Stadt nennt den Bewerbungsschluss als feste jaehrliche Regel. Zweite Rufnummer: +49 3834 8536-2866. Laeuft parallel zum Greifswalder Weihnachtsmarkt (26.11.-21.12.2026), fuer den keine eigene Frist ausgewiesen ist."
+      "notes": "Die Stadt nennt den Bewerbungsschluss als feste jährliche Regel. Zweite Rufnummer: +49 3834 8536-2866. Laeuft parallel zum Greifswalder Weihnachtsmarkt (26.11.-21.12.2026), für den keine eigene Frist ausgewiesen ist."
     }
   ],
   "rejected_candidates": [
