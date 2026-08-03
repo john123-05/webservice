@@ -3629,6 +3629,78 @@
       "agent_batch_id": "nrw-2027-deep-restliche-staedte"
     },
     {
+      "event_name": "Fruehlingsmarkt Attendorn 2026",
+      "candidate_url": "https://www.erlebe-attendorn.de/news/wer-mochte-einen-stand-betreiben",
+      "reason": "Markt am 25. und 26. April 2026. Die Hansestadt Attendorn ruft ueber ihr Stadtmarketing zur Bewerbung auf und stellt ein Online-Formular bereit, nennt aber nur 'Anmeldungen ab sofort moeglich' ohne Fristdatum. Stadtmarketing Attendorn, Koelner Str. 12, 57439 Attendorn, 02722 64-144, stadtmarketing@attendorn.org.",
+      "agent_batch_id": "nrw-duesseldorf-suedwestfalen-2026-08"
+    },
+    {
+      "event_name": "Martini-Markt Attendorn 2026",
+      "candidate_url": "https://www.erlebe-attendorn.de/news/wer-mochte-einen-stand-betreiben",
+      "reason": "Markt am 7. und 8. November 2026, Online-Formular der Hansestadt Attendorn, kein Fristdatum ausgewiesen. Gleiche Kontaktstelle wie Fruehlingsmarkt.",
+      "agent_batch_id": "nrw-duesseldorf-suedwestfalen-2026-08"
+    },
+    {
+      "event_name": "Weihnachtsstadt Attendorn 2026",
+      "candidate_url": "https://www.erlebe-attendorn.de/news/wer-mochte-einen-stand-betreiben",
+      "reason": "Veranstaltung am 12. und 13. Dezember 2026, Online-Formular der Hansestadt Attendorn, kein Fristdatum ausgewiesen.",
+      "agent_batch_id": "nrw-duesseldorf-suedwestfalen-2026-08"
+    },
+    {
+      "event_name": "Stadtfest Attendorn 2026",
+      "candidate_url": "https://www.stadtfest-attendorn.de/",
+      "reason": "Stadtfest am 12. und 13. September 2026. Bewerbungen laufen ausschliesslich ueber stadtfest-attendorn.de, da die Veranstaltungsagentur MS Event organisiert. Kein Fristdatum ausgewiesen.",
+      "agent_batch_id": "nrw-duesseldorf-suedwestfalen-2026-08"
+    },
+    {
+      "event_name": "Hamburger Fischmarkt in Attendorn 2026",
+      "candidate_url": "https://www.erlebe-attendorn.de/news/wer-mochte-einen-stand-betreiben",
+      "reason": "Gastspiel vom 6. bis 8. Maerz 2026. Bewerbung direkt bei der Event-Agentur JOBO, event-agentur-jobo@gmx.de. Kein Fristdatum ausgewiesen. Wandernde Veranstaltungsreihe, die auch in anderen Staedten gastiert und dort ebenfalls geprueft werden sollte.",
+      "agent_batch_id": "nrw-duesseldorf-suedwestfalen-2026-08"
+    },
+    {
+      "event_name": "Stadtfest Olpe 2026",
+      "candidate_url": "https://www.stadtfest-olpe.de/bewerbungen",
+      "reason": "Stadtfest vom 15. bis 17. Mai 2026, Veranstalter olpe aktiv. Ein Bewerbungsformular 2026 steht zum Download bereit, ein Fristdatum ist auf der Bewerbungsseite nicht ausgewiesen.",
+      "agent_batch_id": "nrw-duesseldorf-suedwestfalen-2026-08"
+    },
+    {
+      "event_name": "Siegener Weihnachtsmarkt",
+      "candidate_url": "https://weihnachtsmarkt-in-siegen.de/agb/",
+      "reason": "Die AGB der Veranstalterin regeln: 'Antraege auf Zulassung sind nur fuer den Weihnachtsmarkt des laufenden Jahres zulaessig. Sie sind schriftlich unter Verwendung des vorgesehenen Bewerbungsformular bis zur angegebenen Deadline des jeweiligen Jahres bei der Veranstalterin einzureichen.' Das konkrete Datum wird jaehrlich neu festgelegt und war zum Pruefzeitpunkt nicht veroeffentlicht. Markt laeuft vom Donnerstag oder Freitag vor Totensonntag bis 26./28. Dezember. Veranstalterin: 3e-Maerkte GmbH, Schmiedestr. 6, 57076 Siegen, 0271 38468620, info@3e-maerkte.de.",
+      "agent_batch_id": "nrw-duesseldorf-suedwestfalen-2026-08"
+    },
+    {
+      "event_name": "Siegener Stadtfest 2026",
+      "candidate_url": "https://www.siegen.de/kultur-tourismus/kultursiegen/hier-ist-was-los/siegener-stadtfest-2026",
+      "reason": "Stadtfest vom 28. bis 30. August 2026, Veranstalterin Stadtmarketing Siegen GmbH, Kornmarkt 2, 57072 Siegen, 0176 72014052, kl@visitsiegen.de. Ein Bewerbungsformular 2026 liegt unter stadtfest-siegen.de bereit; die Ausschreibung nennt Zulassungskriterien, auf der staedtischen Seite ist jedoch kein Fristdatum ausgewiesen. Besonderheit: Getraenkestaende nur fuer Bewerber aus Siegen und Gemeinden im Umkreis von 30 Kilometern.",
+      "agent_batch_id": "nrw-duesseldorf-suedwestfalen-2026-08"
+    },
+    {
+      "event_name": "Veranstaltungen der Agentur MS Events (Siegburg, Attendorn, Lennestadt, Olpe, Sankt Augustin, Altenkirchen, Werder)",
+      "candidate_url": "https://www.ms-events.info/",
+      "reason": "Die Agentur betreut Stadtfeste und Festivals in mindestens sieben Orten, darunter Sommer Live Siegburg, Stadtfeste Attendorn und Lennestadt sowie Weihnachtsmarkt und Stadtfest Olpe. Auf der Agenturseite sind weder Termine noch Bewerbungsfristen ausgewiesen. Ein Multiplikator: eine Klaerung mit der Agentur koennte Fristen fuer mehrere Staedte auf einmal liefern.",
+      "agent_batch_id": "nrw-duesseldorf-suedwestfalen-2026-08"
+    },
+    {
+      "event_name": "Kreis Mettmann (Ratingen, Hilden, Langenfeld, Monheim am Rhein, Erkrath, Mettmann)",
+      "candidate_url": "https://www.ratingen-events.de/",
+      "reason": "Sechs Staedte des Kreises Mettmann geprueft. Stadtfeste, Kirmessen und Weihnachtsmaerkte finden statt, teils organisiert durch Stadtmarketing-Gesellschaften wie Stadtmarketing Hilden. Keine der Staedte veroeffentlicht ein Bewerbungsverfahren mit Frist auf einer offiziellen Seite. Erneut zu pruefen, wenn die Ausschreibungen im Herbst erscheinen.",
+      "agent_batch_id": "nrw-duesseldorf-suedwestfalen-2026-08"
+    },
+    {
+      "event_name": "Hochsauerlandkreis und Siegerland (Meschede, Sundern, Brilon, Warstein, Bad Berleburg, Netphen, Kreuztal)",
+      "candidate_url": "https://www.meschede.de/",
+      "reason": "Sieben Staedte geprueft. In der Region dominieren Schuetzenfeste, die von Schuetzenvereinen und nicht von den Staedten ausgerichtet werden; entsprechend gibt es keine staedtischen Bewerbungsverfahren mit Frist. Die Michaeliskirmes Brilon und die Huestener Kirmes Arnsberg sind bereits als Kandidaten erfasst. Naechster Ansatz: die einzelnen Schuetzenvereine direkt, nicht die Stadtseiten.",
+      "agent_batch_id": "nrw-duesseldorf-suedwestfalen-2026-08"
+    },
+    {
+      "event_name": "Rheinkirmes Düsseldorf 2027",
+      "candidate_url": "https://rheinkirmes-duesseldorf.de/informationen-fuer-schausteller/",
+      "reason": "Bereits in frueherer Welle erfasst und weiterhin offen: St. Sebastianus Schuetzenverein Duesseldorf 1316 e.V. betreibt ein Online-Bewerbungsverfahren ueber conferencemanager.de und veroeffentlicht jaehrlich eine Ausschreibung als PDF. Zum Pruefzeitpunkt ist nur die Ausschreibung 2026 online. Nachfassen im Herbst 2026.",
+      "agent_batch_id": "nrw-duesseldorf-suedwestfalen-2026-08"
+    },
+    {
       "event_name": "Münchner Oktoberfest, Oide Wiesn, Auer Dulten und Christkindlmarkt 2027",
       "candidate_url": "https://stadt.muenchen.de/infos/bewerbungmaerkteundfeste.html",
       "reason": "Die offizielle Seite kündigt Bewerbungsunterlagen für 2027 erst ab November an; eine konkrete offene Frist für 2027 ist noch nicht veröffentlicht.",

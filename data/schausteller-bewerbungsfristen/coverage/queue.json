@@ -10,7 +10,28 @@
       "state": "Nordrhein-Westfalen",
       "tier": 2,
       "status": "pending",
-      "cities": ["Bielefeld", "Herford", "Detmold", "Lemgo", "Gütersloh", "Minden", "Lage", "Bad Oeynhausen", "Bünde", "Löhne", "Rheda-Wiedenbrück", "Bad Salzuflen", "Oerlinghausen", "Leopoldshöhe", "Espelkamp", "Vlotho", "Barntrup", "Blomberg", "Horn-Bad Meinberg", "Steinheim"]
+      "cities": [
+        "Bielefeld",
+        "Herford",
+        "Detmold",
+        "Lemgo",
+        "Gütersloh",
+        "Minden",
+        "Lage",
+        "Bad Oeynhausen",
+        "Bünde",
+        "Löhne",
+        "Rheda-Wiedenbrück",
+        "Bad Salzuflen",
+        "Oerlinghausen",
+        "Leopoldshöhe",
+        "Espelkamp",
+        "Vlotho",
+        "Barntrup",
+        "Blomberg",
+        "Horn-Bad Meinberg",
+        "Steinheim"
+      ]
     },
     {
       "id": "nrw-ruhr-west",
@@ -18,7 +39,22 @@
       "state": "Nordrhein-Westfalen",
       "tier": 1,
       "status": "pending",
-      "cities": ["Duisburg", "Oberhausen", "Mülheim an der Ruhr", "Essen", "Bottrop", "Gladbeck", "Gelsenkirchen", "Herne", "Bochum", "Witten", "Hattingen", "Dinslaken", "Voerde", "Wesel"]
+      "cities": [
+        "Duisburg",
+        "Oberhausen",
+        "Mülheim an der Ruhr",
+        "Essen",
+        "Bottrop",
+        "Gladbeck",
+        "Gelsenkirchen",
+        "Herne",
+        "Bochum",
+        "Witten",
+        "Hattingen",
+        "Dinslaken",
+        "Voerde",
+        "Wesel"
+      ]
     },
     {
       "id": "nrw-ruhr-ost",
@@ -26,7 +62,28 @@
       "state": "Nordrhein-Westfalen",
       "tier": 1,
       "status": "pending",
-      "cities": ["Dortmund", "Hagen", "Hamm", "Unna", "Lünen", "Castrop-Rauxel", "Recklinghausen", "Marl", "Datteln", "Waltrop", "Schwerte", "Iserlohn", "Menden", "Hemer", "Lüdenscheid", "Altena", "Werl", "Soest", "Lippstadt", "Arnsberg"]
+      "cities": [
+        "Dortmund",
+        "Hagen",
+        "Hamm",
+        "Unna",
+        "Lünen",
+        "Castrop-Rauxel",
+        "Recklinghausen",
+        "Marl",
+        "Datteln",
+        "Waltrop",
+        "Schwerte",
+        "Iserlohn",
+        "Menden",
+        "Hemer",
+        "Lüdenscheid",
+        "Altena",
+        "Werl",
+        "Soest",
+        "Lippstadt",
+        "Arnsberg"
+      ]
     },
     {
       "id": "nrw-niederrhein",
@@ -34,7 +91,27 @@
       "state": "Nordrhein-Westfalen",
       "tier": 2,
       "status": "pending",
-      "cities": ["Krefeld", "Mönchengladbach", "Viersen", "Nettetal", "Willich", "Neuss", "Grevenbroich", "Dormagen", "Kleve", "Emmerich am Rhein", "Goch", "Geldern", "Kevelaer", "Straelen", "Xanten", "Kamp-Lintfort", "Moers", "Rheinberg", "Dinslaken"]
+      "cities": [
+        "Krefeld",
+        "Mönchengladbach",
+        "Viersen",
+        "Nettetal",
+        "Willich",
+        "Neuss",
+        "Grevenbroich",
+        "Dormagen",
+        "Kleve",
+        "Emmerich am Rhein",
+        "Goch",
+        "Geldern",
+        "Kevelaer",
+        "Straelen",
+        "Xanten",
+        "Kamp-Lintfort",
+        "Moers",
+        "Rheinberg",
+        "Dinslaken"
+      ]
     },
     {
       "id": "nrw-koeln-bonn",
@@ -42,7 +119,27 @@
       "state": "Nordrhein-Westfalen",
       "tier": 1,
       "status": "pending",
-      "cities": ["Köln", "Bonn", "Leverkusen", "Bergisch Gladbach", "Troisdorf", "Siegburg", "Sankt Augustin", "Hennef", "Königswinter", "Bad Honnef", "Lohmar", "Overath", "Rheinbach", "Euskirchen", "Brühl", "Hürth", "Frechen", "Pulheim", "Bergheim"]
+      "cities": [
+        "Köln",
+        "Bonn",
+        "Leverkusen",
+        "Bergisch Gladbach",
+        "Troisdorf",
+        "Siegburg",
+        "Sankt Augustin",
+        "Hennef",
+        "Königswinter",
+        "Bad Honnef",
+        "Lohmar",
+        "Overath",
+        "Rheinbach",
+        "Euskirchen",
+        "Brühl",
+        "Hürth",
+        "Frechen",
+        "Pulheim",
+        "Bergheim"
+      ]
     },
     {
       "id": "nrw-bergisch-aachen",
@@ -50,7 +147,26 @@
       "state": "Nordrhein-Westfalen",
       "tier": 1,
       "status": "pending",
-      "cities": ["Wuppertal", "Solingen", "Remscheid", "Velbert", "Gevelsberg", "Schwelm", "Ennepetal", "Aachen", "Düren", "Eschweiler", "Stolberg", "Alsdorf", "Würselen", "Heinsberg", "Erkelenz", "Hückelhoven", "Jülich", "Geilenkirchen"]
+      "cities": [
+        "Wuppertal",
+        "Solingen",
+        "Remscheid",
+        "Velbert",
+        "Gevelsberg",
+        "Schwelm",
+        "Ennepetal",
+        "Aachen",
+        "Düren",
+        "Eschweiler",
+        "Stolberg",
+        "Alsdorf",
+        "Würselen",
+        "Heinsberg",
+        "Erkelenz",
+        "Hückelhoven",
+        "Jülich",
+        "Geilenkirchen"
+      ]
     },
     {
       "id": "nrw-muensterland",
@@ -58,15 +174,54 @@
       "state": "Nordrhein-Westfalen",
       "tier": 2,
       "status": "pending",
-      "cities": ["Münster", "Rheine", "Ibbenbüren", "Steinfurt", "Emsdetten", "Greven", "Telgte", "Warendorf", "Ahlen", "Beckum", "Coesfeld", "Dülmen", "Lüdinghausen", "Bocholt", "Borken", "Ahaus", "Gronau", "Dorsten", "Haltern am See"]
+      "cities": [
+        "Münster",
+        "Rheine",
+        "Ibbenbüren",
+        "Steinfurt",
+        "Emsdetten",
+        "Greven",
+        "Telgte",
+        "Warendorf",
+        "Ahlen",
+        "Beckum",
+        "Coesfeld",
+        "Dülmen",
+        "Lüdinghausen",
+        "Bocholt",
+        "Borken",
+        "Ahaus",
+        "Gronau",
+        "Dorsten",
+        "Haltern am See"
+      ]
     },
     {
       "id": "nrw-duesseldorf-suedwestfalen",
       "label": "Düsseldorf und Südwestfalen",
       "state": "Nordrhein-Westfalen",
       "tier": 1,
-      "status": "pending",
-      "cities": ["Düsseldorf", "Ratingen", "Hilden", "Langenfeld", "Monheim am Rhein", "Erkrath", "Mettmann", "Siegen", "Olpe", "Attendorn", "Lennestadt", "Meschede", "Sundern", "Brilon", "Warstein", "Bad Berleburg", "Netphen", "Kreuztal"]
+      "status": "done",
+      "cities": [
+        "Düsseldorf",
+        "Ratingen",
+        "Hilden",
+        "Langenfeld",
+        "Monheim am Rhein",
+        "Erkrath",
+        "Mettmann",
+        "Siegen",
+        "Olpe",
+        "Attendorn",
+        "Lennestadt",
+        "Meschede",
+        "Sundern",
+        "Brilon",
+        "Warstein",
+        "Bad Berleburg",
+        "Netphen",
+        "Kreuztal"
+      ]
     },
     {
       "id": "by-oberbayern",
@@ -74,7 +229,26 @@
       "state": "Bayern",
       "tier": 1,
       "status": "pending",
-      "cities": ["München", "Ingolstadt", "Rosenheim", "Landshut", "Freising", "Erding", "Dachau", "Fürstenfeldbruck", "Starnberg", "Bad Tölz", "Garmisch-Partenkirchen", "Weilheim in Oberbayern", "Traunstein", "Mühldorf am Inn", "Altötting", "Pfaffenhofen an der Ilm", "Neuburg an der Donau", "Eichstätt"]
+      "cities": [
+        "München",
+        "Ingolstadt",
+        "Rosenheim",
+        "Landshut",
+        "Freising",
+        "Erding",
+        "Dachau",
+        "Fürstenfeldbruck",
+        "Starnberg",
+        "Bad Tölz",
+        "Garmisch-Partenkirchen",
+        "Weilheim in Oberbayern",
+        "Traunstein",
+        "Mühldorf am Inn",
+        "Altötting",
+        "Pfaffenhofen an der Ilm",
+        "Neuburg an der Donau",
+        "Eichstätt"
+      ]
     },
     {
       "id": "by-franken",
@@ -82,7 +256,28 @@
       "state": "Bayern",
       "tier": 1,
       "status": "pending",
-      "cities": ["Nürnberg", "Fürth", "Erlangen", "Schwabach", "Ansbach", "Bamberg", "Bayreuth", "Coburg", "Hof", "Kulmbach", "Forchheim", "Lichtenfels", "Kronach", "Marktredwitz", "Selb", "Neustadt an der Aisch", "Rothenburg ob der Tauber", "Dinkelsbühl", "Gunzenhausen", "Weißenburg in Bayern"]
+      "cities": [
+        "Nürnberg",
+        "Fürth",
+        "Erlangen",
+        "Schwabach",
+        "Ansbach",
+        "Bamberg",
+        "Bayreuth",
+        "Coburg",
+        "Hof",
+        "Kulmbach",
+        "Forchheim",
+        "Lichtenfels",
+        "Kronach",
+        "Marktredwitz",
+        "Selb",
+        "Neustadt an der Aisch",
+        "Rothenburg ob der Tauber",
+        "Dinkelsbühl",
+        "Gunzenhausen",
+        "Weißenburg in Bayern"
+      ]
     },
     {
       "id": "by-unterfranken-oberpfalz",
@@ -90,7 +285,24 @@
       "state": "Bayern",
       "tier": 2,
       "status": "pending",
-      "cities": ["Würzburg", "Schweinfurt", "Aschaffenburg", "Kitzingen", "Bad Kissingen", "Haßfurt", "Miltenberg", "Regensburg", "Amberg", "Weiden in der Oberpfalz", "Schwandorf", "Neumarkt in der Oberpfalz", "Cham", "Sulzbach-Rosenberg", "Teublitz", "Tirschenreuth"]
+      "cities": [
+        "Würzburg",
+        "Schweinfurt",
+        "Aschaffenburg",
+        "Kitzingen",
+        "Bad Kissingen",
+        "Haßfurt",
+        "Miltenberg",
+        "Regensburg",
+        "Amberg",
+        "Weiden in der Oberpfalz",
+        "Schwandorf",
+        "Neumarkt in der Oberpfalz",
+        "Cham",
+        "Sulzbach-Rosenberg",
+        "Teublitz",
+        "Tirschenreuth"
+      ]
     },
     {
       "id": "by-schwaben-niederbayern",
@@ -98,7 +310,26 @@
       "state": "Bayern",
       "tier": 2,
       "status": "pending",
-      "cities": ["Augsburg", "Kempten", "Neu-Ulm", "Memmingen", "Kaufbeuren", "Nördlingen", "Donauwörth", "Günzburg", "Dillingen an der Donau", "Lindau", "Sonthofen", "Passau", "Straubing", "Deggendorf", "Landau an der Isar", "Dingolfing", "Vilshofen an der Donau", "Freyung"]
+      "cities": [
+        "Augsburg",
+        "Kempten",
+        "Neu-Ulm",
+        "Memmingen",
+        "Kaufbeuren",
+        "Nördlingen",
+        "Donauwörth",
+        "Günzburg",
+        "Dillingen an der Donau",
+        "Lindau",
+        "Sonthofen",
+        "Passau",
+        "Straubing",
+        "Deggendorf",
+        "Landau an der Isar",
+        "Dingolfing",
+        "Vilshofen an der Donau",
+        "Freyung"
+      ]
     },
     {
       "id": "bw-stuttgart",
@@ -106,7 +337,23 @@
       "state": "Baden-Württemberg",
       "tier": 1,
       "status": "pending",
-      "cities": ["Stuttgart", "Esslingen am Neckar", "Ludwigsburg", "Waiblingen", "Böblingen", "Sindelfingen", "Göppingen", "Schorndorf", "Leonberg", "Kirchheim unter Teck", "Nürtingen", "Backnang", "Fellbach", "Bietigheim-Bissingen", "Vaihingen an der Enz"]
+      "cities": [
+        "Stuttgart",
+        "Esslingen am Neckar",
+        "Ludwigsburg",
+        "Waiblingen",
+        "Böblingen",
+        "Sindelfingen",
+        "Göppingen",
+        "Schorndorf",
+        "Leonberg",
+        "Kirchheim unter Teck",
+        "Nürtingen",
+        "Backnang",
+        "Fellbach",
+        "Bietigheim-Bissingen",
+        "Vaihingen an der Enz"
+      ]
     },
     {
       "id": "bw-karlsruhe-nordbaden",
@@ -114,7 +361,24 @@
       "state": "Baden-Württemberg",
       "tier": 1,
       "status": "pending",
-      "cities": ["Karlsruhe", "Mannheim", "Heidelberg", "Pforzheim", "Bruchsal", "Rastatt", "Baden-Baden", "Ettlingen", "Bretten", "Schwetzingen", "Weinheim", "Sinsheim", "Wiesloch", "Mosbach", "Buchen", "Speyer"]
+      "cities": [
+        "Karlsruhe",
+        "Mannheim",
+        "Heidelberg",
+        "Pforzheim",
+        "Bruchsal",
+        "Rastatt",
+        "Baden-Baden",
+        "Ettlingen",
+        "Bretten",
+        "Schwetzingen",
+        "Weinheim",
+        "Sinsheim",
+        "Wiesloch",
+        "Mosbach",
+        "Buchen",
+        "Speyer"
+      ]
     },
     {
       "id": "bw-suedbaden",
@@ -122,7 +386,24 @@
       "state": "Baden-Württemberg",
       "tier": 2,
       "status": "pending",
-      "cities": ["Freiburg im Breisgau", "Offenburg", "Lahr", "Emmendingen", "Lörrach", "Weil am Rhein", "Waldshut-Tiengen", "Villingen-Schwenningen", "Konstanz", "Singen", "Radolfzell", "Friedrichshafen", "Ravensburg", "Weingarten", "Überlingen", "Bad Säckingen"]
+      "cities": [
+        "Freiburg im Breisgau",
+        "Offenburg",
+        "Lahr",
+        "Emmendingen",
+        "Lörrach",
+        "Weil am Rhein",
+        "Waldshut-Tiengen",
+        "Villingen-Schwenningen",
+        "Konstanz",
+        "Singen",
+        "Radolfzell",
+        "Friedrichshafen",
+        "Ravensburg",
+        "Weingarten",
+        "Überlingen",
+        "Bad Säckingen"
+      ]
     },
     {
       "id": "bw-wuerttemberg-sued-ost",
@@ -130,7 +411,26 @@
       "state": "Baden-Württemberg",
       "tier": 2,
       "status": "pending",
-      "cities": ["Ulm", "Reutlingen", "Tübingen", "Heilbronn", "Schwäbisch Gmünd", "Schwäbisch Hall", "Aalen", "Heidenheim an der Brenz", "Crailsheim", "Biberach an der Riß", "Sigmaringen", "Balingen", "Albstadt", "Rottweil", "Tuttlingen", "Bad Mergentheim", "Öhringen", "Bad Wurzach"]
+      "cities": [
+        "Ulm",
+        "Reutlingen",
+        "Tübingen",
+        "Heilbronn",
+        "Schwäbisch Gmünd",
+        "Schwäbisch Hall",
+        "Aalen",
+        "Heidenheim an der Brenz",
+        "Crailsheim",
+        "Biberach an der Riß",
+        "Sigmaringen",
+        "Balingen",
+        "Albstadt",
+        "Rottweil",
+        "Tuttlingen",
+        "Bad Mergentheim",
+        "Öhringen",
+        "Bad Wurzach"
+      ]
     },
     {
       "id": "he-rheinmain",
@@ -138,7 +438,26 @@
       "state": "Hessen",
       "tier": 1,
       "status": "pending",
-      "cities": ["Frankfurt am Main", "Wiesbaden", "Darmstadt", "Offenbach am Main", "Hanau", "Rüsselsheim", "Bad Homburg vor der Höhe", "Oberursel", "Friedberg", "Bad Nauheim", "Dietzenbach", "Dreieich", "Neu-Isenburg", "Langen", "Mörfelden-Walldorf", "Hofheim am Taunus", "Idstein", "Rodgau"]
+      "cities": [
+        "Frankfurt am Main",
+        "Wiesbaden",
+        "Darmstadt",
+        "Offenbach am Main",
+        "Hanau",
+        "Rüsselsheim",
+        "Bad Homburg vor der Höhe",
+        "Oberursel",
+        "Friedberg",
+        "Bad Nauheim",
+        "Dietzenbach",
+        "Dreieich",
+        "Neu-Isenburg",
+        "Langen",
+        "Mörfelden-Walldorf",
+        "Hofheim am Taunus",
+        "Idstein",
+        "Rodgau"
+      ]
     },
     {
       "id": "he-mittel-nordhessen",
@@ -146,7 +465,26 @@
       "state": "Hessen",
       "tier": 2,
       "status": "pending",
-      "cities": ["Kassel", "Gießen", "Marburg", "Fulda", "Wetzlar", "Limburg an der Lahn", "Bad Hersfeld", "Korbach", "Eschwege", "Baunatal", "Hofgeismar", "Alsfeld", "Lauterbach", "Herborn", "Dillenburg", "Michelstadt", "Bensheim", "Heppenheim"]
+      "cities": [
+        "Kassel",
+        "Gießen",
+        "Marburg",
+        "Fulda",
+        "Wetzlar",
+        "Limburg an der Lahn",
+        "Bad Hersfeld",
+        "Korbach",
+        "Eschwege",
+        "Baunatal",
+        "Hofgeismar",
+        "Alsfeld",
+        "Lauterbach",
+        "Herborn",
+        "Dillenburg",
+        "Michelstadt",
+        "Bensheim",
+        "Heppenheim"
+      ]
     },
     {
       "id": "ni-hannover-braunschweig",
@@ -154,7 +492,25 @@
       "state": "Niedersachsen",
       "tier": 1,
       "status": "pending",
-      "cities": ["Hannover", "Braunschweig", "Wolfsburg", "Salzgitter", "Hildesheim", "Celle", "Peine", "Gifhorn", "Wolfenbüttel", "Goslar", "Helmstedt", "Nienburg/Weser", "Langenhagen", "Garbsen", "Laatzen", "Lehrte", "Neustadt am Rübenberge"]
+      "cities": [
+        "Hannover",
+        "Braunschweig",
+        "Wolfsburg",
+        "Salzgitter",
+        "Hildesheim",
+        "Celle",
+        "Peine",
+        "Gifhorn",
+        "Wolfenbüttel",
+        "Goslar",
+        "Helmstedt",
+        "Nienburg/Weser",
+        "Langenhagen",
+        "Garbsen",
+        "Laatzen",
+        "Lehrte",
+        "Neustadt am Rübenberge"
+      ]
     },
     {
       "id": "ni-weser-ems",
@@ -162,7 +518,26 @@
       "state": "Niedersachsen",
       "tier": 2,
       "status": "pending",
-      "cities": ["Oldenburg", "Osnabrück", "Delmenhorst", "Wilhelmshaven", "Emden", "Leer", "Aurich", "Nordhorn", "Lingen", "Meppen", "Cloppenburg", "Vechta", "Westerstede", "Wittmund", "Papenburg", "Quakenbrück", "Georgsmarienhütte", "Melle"]
+      "cities": [
+        "Oldenburg",
+        "Osnabrück",
+        "Delmenhorst",
+        "Wilhelmshaven",
+        "Emden",
+        "Leer",
+        "Aurich",
+        "Nordhorn",
+        "Lingen",
+        "Meppen",
+        "Cloppenburg",
+        "Vechta",
+        "Westerstede",
+        "Wittmund",
+        "Papenburg",
+        "Quakenbrück",
+        "Georgsmarienhütte",
+        "Melle"
+      ]
     },
     {
       "id": "ni-lueneburg-elbe",
@@ -170,7 +545,29 @@
       "state": "Niedersachsen",
       "tier": 2,
       "status": "pending",
-      "cities": ["Lüneburg", "Celle", "Uelzen", "Stade", "Cuxhaven", "Buxtehude", "Winsen (Luhe)", "Soltau", "Walsrode", "Verden", "Rotenburg (Wümme)", "Zeven", "Otterndorf", "Bremervörde", "Hameln", "Hessisch Oldendorf", "Holzminden", "Göttingen", "Northeim", "Einbeck", "Osterode am Harz"]
+      "cities": [
+        "Lüneburg",
+        "Celle",
+        "Uelzen",
+        "Stade",
+        "Cuxhaven",
+        "Buxtehude",
+        "Winsen (Luhe)",
+        "Soltau",
+        "Walsrode",
+        "Verden",
+        "Rotenburg (Wümme)",
+        "Zeven",
+        "Otterndorf",
+        "Bremervörde",
+        "Hameln",
+        "Hessisch Oldendorf",
+        "Holzminden",
+        "Göttingen",
+        "Northeim",
+        "Einbeck",
+        "Osterode am Harz"
+      ]
     },
     {
       "id": "sh-gesamt",
@@ -178,7 +575,32 @@
       "state": "Schleswig-Holstein",
       "tier": 2,
       "status": "pending",
-      "cities": ["Kiel", "Lübeck", "Flensburg", "Neumünster", "Norderstedt", "Elmshorn", "Pinneberg", "Itzehoe", "Rendsburg", "Schleswig", "Husum", "Heide", "Eckernförde", "Bad Segeberg", "Ahrensburg", "Reinbek", "Wedel", "Bad Oldesloe", "Mölln", "Ratzeburg", "Eutin", "Plön", "Niebüll", "Bad Schwartau"]
+      "cities": [
+        "Kiel",
+        "Lübeck",
+        "Flensburg",
+        "Neumünster",
+        "Norderstedt",
+        "Elmshorn",
+        "Pinneberg",
+        "Itzehoe",
+        "Rendsburg",
+        "Schleswig",
+        "Husum",
+        "Heide",
+        "Eckernförde",
+        "Bad Segeberg",
+        "Ahrensburg",
+        "Reinbek",
+        "Wedel",
+        "Bad Oldesloe",
+        "Mölln",
+        "Ratzeburg",
+        "Eutin",
+        "Plön",
+        "Niebüll",
+        "Bad Schwartau"
+      ]
     },
     {
       "id": "mv-gesamt",
@@ -186,7 +608,26 @@
       "state": "Mecklenburg-Vorpommern",
       "tier": 2,
       "status": "pending",
-      "cities": ["Rostock", "Schwerin", "Neubrandenburg", "Stralsund", "Greifswald", "Wismar", "Güstrow", "Waren (Müritz)", "Parchim", "Neustrelitz", "Bergen auf Rügen", "Anklam", "Ludwigslust", "Pasewalk", "Ueckermünde", "Ribnitz-Damgarten", "Grevesmühlen", "Demmin"]
+      "cities": [
+        "Rostock",
+        "Schwerin",
+        "Neubrandenburg",
+        "Stralsund",
+        "Greifswald",
+        "Wismar",
+        "Güstrow",
+        "Waren (Müritz)",
+        "Parchim",
+        "Neustrelitz",
+        "Bergen auf Rügen",
+        "Anklam",
+        "Ludwigslust",
+        "Pasewalk",
+        "Ueckermünde",
+        "Ribnitz-Damgarten",
+        "Grevesmühlen",
+        "Demmin"
+      ]
     },
     {
       "id": "bb-gesamt",
@@ -194,7 +635,28 @@
       "state": "Brandenburg",
       "tier": 3,
       "status": "pending",
-      "cities": ["Potsdam", "Cottbus", "Brandenburg an der Havel", "Frankfurt (Oder)", "Oranienburg", "Falkensee", "Eberswalde", "Bernau bei Berlin", "Königs Wusterhausen", "Fürstenwalde/Spree", "Neuruppin", "Schwedt/Oder", "Rathenow", "Senftenberg", "Strausberg", "Werder (Havel)", "Luckenwalde", "Wittenberge", "Prenzlau", "Lübbenau"]
+      "cities": [
+        "Potsdam",
+        "Cottbus",
+        "Brandenburg an der Havel",
+        "Frankfurt (Oder)",
+        "Oranienburg",
+        "Falkensee",
+        "Eberswalde",
+        "Bernau bei Berlin",
+        "Königs Wusterhausen",
+        "Fürstenwalde/Spree",
+        "Neuruppin",
+        "Schwedt/Oder",
+        "Rathenow",
+        "Senftenberg",
+        "Strausberg",
+        "Werder (Havel)",
+        "Luckenwalde",
+        "Wittenberge",
+        "Prenzlau",
+        "Lübbenau"
+      ]
     },
     {
       "id": "sn-gesamt",
@@ -202,7 +664,28 @@
       "state": "Sachsen",
       "tier": 1,
       "status": "pending",
-      "cities": ["Dresden", "Leipzig", "Chemnitz", "Zwickau", "Plauen", "Görlitz", "Bautzen", "Freiberg", "Pirna", "Meißen", "Freital", "Riesa", "Radebeul", "Hoyerswerda", "Zittau", "Grimma", "Torgau", "Delitzsch", "Glauchau", "Annaberg-Buchholz"]
+      "cities": [
+        "Dresden",
+        "Leipzig",
+        "Chemnitz",
+        "Zwickau",
+        "Plauen",
+        "Görlitz",
+        "Bautzen",
+        "Freiberg",
+        "Pirna",
+        "Meißen",
+        "Freital",
+        "Riesa",
+        "Radebeul",
+        "Hoyerswerda",
+        "Zittau",
+        "Grimma",
+        "Torgau",
+        "Delitzsch",
+        "Glauchau",
+        "Annaberg-Buchholz"
+      ]
     },
     {
       "id": "st-gesamt",
@@ -210,7 +693,26 @@
       "state": "Sachsen-Anhalt",
       "tier": 2,
       "status": "pending",
-      "cities": ["Magdeburg", "Halle (Saale)", "Dessau-Roßlau", "Lutherstadt Wittenberg", "Halberstadt", "Stendal", "Bernburg", "Weißenfels", "Naumburg (Saale)", "Merseburg", "Quedlinburg", "Wernigerode", "Zeitz", "Aschersleben", "Köthen", "Sangerhausen", "Schönebeck", "Salzwedel"]
+      "cities": [
+        "Magdeburg",
+        "Halle (Saale)",
+        "Dessau-Roßlau",
+        "Lutherstadt Wittenberg",
+        "Halberstadt",
+        "Stendal",
+        "Bernburg",
+        "Weißenfels",
+        "Naumburg (Saale)",
+        "Merseburg",
+        "Quedlinburg",
+        "Wernigerode",
+        "Zeitz",
+        "Aschersleben",
+        "Köthen",
+        "Sangerhausen",
+        "Schönebeck",
+        "Salzwedel"
+      ]
     },
     {
       "id": "th-gesamt",
@@ -218,7 +720,26 @@
       "state": "Thüringen",
       "tier": 2,
       "status": "pending",
-      "cities": ["Erfurt", "Jena", "Gera", "Weimar", "Gotha", "Nordhausen", "Eisenach", "Suhl", "Mühlhausen", "Altenburg", "Arnstadt", "Ilmenau", "Rudolstadt", "Saalfeld", "Sonneberg", "Meiningen", "Apolda", "Sömmerda"]
+      "cities": [
+        "Erfurt",
+        "Jena",
+        "Gera",
+        "Weimar",
+        "Gotha",
+        "Nordhausen",
+        "Eisenach",
+        "Suhl",
+        "Mühlhausen",
+        "Altenburg",
+        "Arnstadt",
+        "Ilmenau",
+        "Rudolstadt",
+        "Saalfeld",
+        "Sonneberg",
+        "Meiningen",
+        "Apolda",
+        "Sömmerda"
+      ]
     },
     {
       "id": "rp-gesamt-nord",
@@ -226,7 +747,26 @@
       "state": "Rheinland-Pfalz",
       "tier": 2,
       "status": "pending",
-      "cities": ["Koblenz", "Trier", "Neuwied", "Andernach", "Mayen", "Bad Neuenahr-Ahrweiler", "Bitburg", "Wittlich", "Bernkastel-Kues", "Idar-Oberstein", "Bad Kreuznach", "Simmern", "Boppard", "Lahnstein", "Montabaur", "Westerburg", "Diez", "Cochem"]
+      "cities": [
+        "Koblenz",
+        "Trier",
+        "Neuwied",
+        "Andernach",
+        "Mayen",
+        "Bad Neuenahr-Ahrweiler",
+        "Bitburg",
+        "Wittlich",
+        "Bernkastel-Kues",
+        "Idar-Oberstein",
+        "Bad Kreuznach",
+        "Simmern",
+        "Boppard",
+        "Lahnstein",
+        "Montabaur",
+        "Westerburg",
+        "Diez",
+        "Cochem"
+      ]
     },
     {
       "id": "rp-gesamt-sued",
@@ -234,7 +774,26 @@
       "state": "Rheinland-Pfalz",
       "tier": 2,
       "status": "pending",
-      "cities": ["Mainz", "Ludwigshafen am Rhein", "Worms", "Kaiserslautern", "Pirmasens", "Zweibrücken", "Landau in der Pfalz", "Neustadt an der Weinstraße", "Bad Dürkheim", "Frankenthal", "Speyer", "Germersheim", "Alzey", "Bingen am Rhein", "Ingelheim am Rhein", "Grünstadt", "Haßloch", "Kirchheimbolanden"]
+      "cities": [
+        "Mainz",
+        "Ludwigshafen am Rhein",
+        "Worms",
+        "Kaiserslautern",
+        "Pirmasens",
+        "Zweibrücken",
+        "Landau in der Pfalz",
+        "Neustadt an der Weinstraße",
+        "Bad Dürkheim",
+        "Frankenthal",
+        "Speyer",
+        "Germersheim",
+        "Alzey",
+        "Bingen am Rhein",
+        "Ingelheim am Rhein",
+        "Grünstadt",
+        "Haßloch",
+        "Kirchheimbolanden"
+      ]
     },
     {
       "id": "sl-gesamt",
@@ -242,7 +801,24 @@
       "state": "Saarland",
       "tier": 3,
       "status": "pending",
-      "cities": ["Saarbrücken", "Neunkirchen", "Homburg", "Völklingen", "Saarlouis", "St. Ingbert", "Merzig", "St. Wendel", "Blieskastel", "Dillingen/Saar", "Lebach", "Püttlingen", "Wadgassen", "Schwalbach", "Losheim am See", "Nonnweiler"]
+      "cities": [
+        "Saarbrücken",
+        "Neunkirchen",
+        "Homburg",
+        "Völklingen",
+        "Saarlouis",
+        "St. Ingbert",
+        "Merzig",
+        "St. Wendel",
+        "Blieskastel",
+        "Dillingen/Saar",
+        "Lebach",
+        "Püttlingen",
+        "Wadgassen",
+        "Schwalbach",
+        "Losheim am See",
+        "Nonnweiler"
+      ]
     },
     {
       "id": "stadtstaaten-rest",
@@ -250,7 +826,12 @@
       "state": "mehrere",
       "tier": 3,
       "status": "pending",
-      "cities": ["Berlin", "Hamburg", "Bremen", "Bremerhaven"]
+      "cities": [
+        "Berlin",
+        "Hamburg",
+        "Bremen",
+        "Bremerhaven"
+      ]
     }
   ]
 }

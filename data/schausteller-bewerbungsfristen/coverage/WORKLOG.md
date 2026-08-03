@@ -9,6 +9,7 @@ Format: `Datum | Einheit | neue Einträge | Bemerkung`
 
 | Datum | Einheit | Neu | Bemerkung |
 |---|---|---|---|
+| 2026-08-04 | nrw-duesseldorf-suedwestfalen | +0 | 18 Städte, 12 review-Kandidaten, kein publiziertes Fristdatum. Sauerland/Siegerland wird von Schützenvereinen bespielt, nicht von Städten. Agentur MS Events betreut 7 Orte — Sammelanfrage lohnt |
 | 2026-08-04 | kleinstaedte-01 (Stichprobe Bad Salzuflen) | +2 | Beleg, dass Kleinstädte tragen: Fristen lagen auf einer Unterseite der Werbegemeinschaft, nicht bei der Stadt |
 | 2026-08-04 | regelfristen-02 (Bayern Großvolksfeste) | +7 | Oktoberfest, Auer Dulten, Passau, Landshut über Dauerregeln erschlossen |
 | 2026-08-04 | regelfristen-01 (bundesweit) | +16 | Crange, Schützenfest Hannover, Düren, Braunschweig, Leipzig, Magdeburg u. a. |
