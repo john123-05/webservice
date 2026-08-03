@@ -1,0 +1,334 @@
+{
+  "batch_id": "by-2027-deep-rb-schwaben",
+  "region_scope": [
+    "Bayern",
+    "Regierungsbezirk Schwaben"
+  ],
+  "search_terms": [
+    "Schwaben 2027 Schausteller Bewerbung Bewerbungsfrist",
+    "Schwaben 2027 Beschicker Händler Aussteller Anmeldung",
+    "Augsburg Kaufbeuren Kempten Memmingen 2027 Märkte Bewerbungen",
+    "Aichach-Friedberg Landkreis Augsburg Dillingen 2027 Markt Bewerbung",
+    "Donau-Ries Günzburg Lindau Neu-Ulm 2027 Markt Aussteller",
+    "Oberallgäu Ostallgäu Unterallgäu 2027 Messe Beschicker",
+    "Volksfest Stadtfest Kirchweih Dult Weihnachtsmarkt Schwaben 2027",
+    "site:*.de Schwaben 2027 Bewerbungsfrist Markt Aussteller"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "noerdlinger-mess-2027-schausteller-noerdlingen",
+      "event_name": "Nördlinger Mess' 2027 - Schausteller",
+      "event_type": "Volksfest / Jahrmarkt",
+      "city": "Nördlingen",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Kaiserwiese",
+      "application_deadline_iso": "2026-10-31",
+      "application_deadline_text": "Bewerbungsschluss für Schausteller: 31.10.2026",
+      "event_date_range_text": "29.05.-07.06.2027",
+      "application_mode": "Offizielles Bewerbungsformular der Stadt Nördlingen ausfüllen und bei der Tourist-Information einreichen",
+      "postal_address": "Tourist-Information Nördlingen, Marktplatz 2, 86720 Nördlingen",
+      "contact_name": "Tourist-Information Nördlingen",
+      "contact_email": "tourist-information@noerdlingen.de",
+      "contact_phone": "09081 84-116",
+      "source_url": "https://www.noerdlingen.de/tourismus/veranstaltungen/noerdlinger-mess",
+      "source_domain": "noerdlingen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-schwaben",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Veranstaltungsseite nennt den Termin 2027, den Bewerbungsschluss für Schausteller und verlinkt das Bewerbungsformular 2027."
+    },
+    {
+      "id": "noerdlinger-mess-2027-markthaendler-noerdlingen",
+      "event_name": "Nördlinger Mess' 2027 - Markthändler",
+      "event_type": "Jahrmarkt / Warenmarkt",
+      "city": "Nördlingen",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Kaiserwiese",
+      "application_deadline_iso": "2026-12-31",
+      "application_deadline_text": "Bewerbungsschluss für Markthändler: 31.12.2026",
+      "event_date_range_text": "29.05.-07.06.2027",
+      "application_mode": "Offizielles Bewerbungsformular der Stadt Nördlingen ausfüllen und bei der Tourist-Information einreichen",
+      "postal_address": "Tourist-Information Nördlingen, Marktplatz 2, 86720 Nördlingen",
+      "contact_name": "Tourist-Information Nördlingen",
+      "contact_email": "tourist-information@noerdlingen.de",
+      "contact_phone": "09081 84-116",
+      "source_url": "https://www.noerdlingen.de/tourismus/veranstaltungen/noerdlinger-mess",
+      "source_domain": "noerdlingen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-schwaben",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Veranstaltungsseite nennt den Termin 2027, den Bewerbungsschluss für Markthändler und verlinkt das Bewerbungsformular 2027."
+    },
+    {
+      "id": "oettinger-fruehjahrsmarkt-2027-oettingen",
+      "event_name": "Oettinger Frühjahrsmarkt 2027",
+      "event_type": "Frühjahrsmarkt / Jahrmarkt",
+      "city": "Oettingen i.Bay.",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Oettingen i.Bay.",
+      "application_deadline_iso": "2027-02-18",
+      "application_deadline_text": "Anmeldeschluss: 18.02.2027",
+      "event_date_range_text": "14.03.2027",
+      "application_mode": "Offiziellen Anmeldebogen per E-Mail oder Post bei der Stadt Oettingen i.Bay. einreichen",
+      "postal_address": "Stadt Oettingen i.Bay., Schloßstraße 36, 86732 Oettingen i.Bay.",
+      "contact_name": "Hauptamt, Frau Schramm / Marktmeisterin",
+      "contact_email": "vorzimmer@oettingen.de",
+      "contact_phone": "09082 709-19",
+      "source_url": "https://www.oettingen.de/fileadmin/stadt_oettingen/Dateien/Veranstaltungen/Maerkte/Anmeldebogen_Marktfieranten_2027.pdf",
+      "source_domain": "oettingen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-schwaben",
+      "confidence_status": "verified",
+      "notes": "Der offizielle, veranstaltungsspezifische Anmeldebogen 2027 nennt Markttermin und Anmeldeschluss für Fieranten."
+    },
+    {
+      "id": "oettinger-maimarkt-2027-oettingen",
+      "event_name": "Oettinger Maimarkt 2027",
+      "event_type": "Maimarkt / Jahrmarkt",
+      "city": "Oettingen i.Bay.",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Oettingen i.Bay.",
+      "application_deadline_iso": "2027-04-08",
+      "application_deadline_text": "Anmeldeschluss: 08.04.2027",
+      "event_date_range_text": "02.05.2027",
+      "application_mode": "Offiziellen Anmeldebogen per E-Mail oder Post bei der Stadt Oettingen i.Bay. einreichen",
+      "postal_address": "Stadt Oettingen i.Bay., Schloßstraße 36, 86732 Oettingen i.Bay.",
+      "contact_name": "Hauptamt, Frau Schramm / Marktmeisterin",
+      "contact_email": "vorzimmer@oettingen.de",
+      "contact_phone": "09082 709-19",
+      "source_url": "https://www.oettingen.de/fileadmin/stadt_oettingen/Dateien/Veranstaltungen/Maerkte/Anmeldebogen_Marktfieranten_2027.pdf",
+      "source_domain": "oettingen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-schwaben",
+      "confidence_status": "verified",
+      "notes": "Der offizielle, veranstaltungsspezifische Anmeldebogen 2027 nennt Markttermin und Anmeldeschluss für Fieranten."
+    },
+    {
+      "id": "oettinger-herbstmarkt-2027-oettingen",
+      "event_name": "Oettinger Herbstmarkt 2027",
+      "event_type": "Herbstmarkt / Jahrmarkt",
+      "city": "Oettingen i.Bay.",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Oettingen i.Bay.",
+      "application_deadline_iso": "2027-10-07",
+      "application_deadline_text": "Anmeldeschluss: 07.10.2027",
+      "event_date_range_text": "31.10.2027",
+      "application_mode": "Offiziellen Anmeldebogen per E-Mail oder Post bei der Stadt Oettingen i.Bay. einreichen",
+      "postal_address": "Stadt Oettingen i.Bay., Schloßstraße 36, 86732 Oettingen i.Bay.",
+      "contact_name": "Hauptamt, Frau Schramm / Marktmeisterin",
+      "contact_email": "vorzimmer@oettingen.de",
+      "contact_phone": "09082 709-19",
+      "source_url": "https://www.oettingen.de/fileadmin/stadt_oettingen/Dateien/Veranstaltungen/Maerkte/Anmeldebogen_Marktfieranten_2027.pdf",
+      "source_domain": "oettingen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-schwaben",
+      "confidence_status": "verified",
+      "notes": "Der offizielle, veranstaltungsspezifische Anmeldebogen 2027 nennt Markttermin und Anmeldeschluss für Fieranten."
+    },
+    {
+      "id": "afair-2027-regionalvermarkter-landkreis-augsburg",
+      "event_name": "A\\FAIR 2027 - Gemeinschaftsstand des Landkreises Augsburg",
+      "event_type": "Verbrauchermesse / Gemeinschaftsstand",
+      "city": "Augsburg",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Messe Augsburg, Am Messezentrum 5",
+      "application_deadline_iso": "2026-08-10",
+      "application_deadline_text": "Bewerbung ab sofort bis Montag, 10.08.2026",
+      "event_date_range_text": "29.01.-31.01.2027",
+      "application_mode": "Bewerbung mit Unternehmensprofil und Präsentationskonzept als PDF-Datei bis 10 MB per E-Mail",
+      "postal_address": "",
+      "contact_name": "Team Öffentlichkeitsarbeit des Landkreises Augsburg",
+      "contact_email": "oeffentlichkeitsarbeit@LRA-a.bayern.de",
+      "contact_phone": "0821 3102 2398",
+      "source_url": "https://www.landkreis-augsburg.de/news/detail/detail/News/regionalvermarkter-fuer-messeauftritt-des-landkreises-augsburg-gesucht/",
+      "source_domain": "landkreis-augsburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-schwaben",
+      "confidence_status": "partial",
+      "notes": "Offen für kleine Betriebe und Nebengewerbe mit Firmensitz im Landkreis Augsburg und regionalem Angebot; Teilnahme am Landkreisstand ist kostenfrei und erfordert ein Genuss- oder Mitmach-Angebot."
+    },
+    {
+      "id": "agrarschau-allgaeu-2027-dietmannsried",
+      "event_name": "Agrarschau Allgäu 2027",
+      "event_type": "Agrarmesse / Ausstellung",
+      "city": "Dietmannsried",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Messegelände westlich von Dietmannsried",
+      "application_deadline_iso": "2026-12-30",
+      "application_deadline_text": "Anmeldeschluss für alle Bereiche: 30.12.2026 (30. Dezember des Vorjahres)",
+      "event_date_range_text": "15.04.-19.04.2027",
+      "application_mode": "Aktives Online-Anmeldeformular oder offizielles Anmeldeformular an die Geschäftsstelle",
+      "postal_address": "Agrar Schau Allgäu GmbH, Schochenbühl 2, 87463 Dietmannsried",
+      "contact_name": "Agrar Schau Allgäu GmbH",
+      "contact_email": "info@agrarschau-allgaeu.de",
+      "contact_phone": "08374 5868749",
+      "source_url": "https://www.agrarschau-allgaeu.de/messe-ausstellung/anmeldung",
+      "source_domain": "agrarschau-allgaeu.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-schwaben",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Ausstellerseite nennt Termin, aktives Anmeldeverfahren und den Anmeldeschluss für alle Ausstellungsbereiche; die Ausstellerbedingungen sind ausdrücklich für 2027 veröffentlicht."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Augsburger Plärrer 2027",
+      "candidate_url": "https://www.augsburg.de/freizeit/feste-und-maerkte/plaerrer",
+      "reason": "Die offizielle Bewerbungsfrist für 2027 endete am 15.07.2026 und war am Stichtag 03.08.2026 bereits abgelaufen."
+    },
+    {
+      "event_name": "Gögginger Frühlingsfest 2027",
+      "candidate_url": "https://www.augsburg.de/freizeit/feste-und-maerkte/stadtteilfeste/",
+      "reason": "Die städtische Regelung erlaubt Zulassungsanträge nur für das laufende Jahr; das Verfahren für 2027 war am Stichtag noch nicht geöffnet."
+    },
+    {
+      "event_name": "Augsburger Frühjahrs- und Herbstdult 2027",
+      "candidate_url": "https://www.augsburg.de/freizeit/feste-und-maerkte/dulten",
+      "reason": "Die offizielle Seite veröffentlichte nur Termine und Bewerbungsinformationen für 2026, kein am Stichtag geöffnetes Verfahren für 2027."
+    },
+    {
+      "event_name": "Augsburger Christkindlesmarkt 2027",
+      "candidate_url": "https://www.augsburg.de/freizeit/feste-und-maerkte/christkindlesmarkt",
+      "reason": "Kein offiziell geöffnetes Bewerbungsverfahren für 2027; die veröffentlichten Angaben bezogen sich auf das laufende Veranstaltungsjahr."
+    },
+    {
+      "event_name": "Allgäuer Festwoche 2027 - Gastronomieausschreibung 2026 bis 2028",
+      "candidate_url": "https://www.festwoche.com/fileadmin/user_data/Dokumente_2026/Ausschreibungsunterlagen_Imbisse_Allgaeuer_Festwoche_2026_-_2028.pdf",
+      "reason": "Die mehrjährige Ausschreibung schließt 2027 ein, ihr Bewerbungsschluss 02.01.2026 war am Stichtag jedoch abgelaufen."
+    },
+    {
+      "event_name": "Lindauer Jahrmarkt 2027",
+      "candidate_url": "https://www.lindau.de/addresses/jahrmarkt/",
+      "reason": "Die offizielle Quelle kündigt Bewerbungen für den Jahrmarkt 2027 erst ab Frühjahr 2027 an; am Stichtag war das Verfahren nicht offen."
+    },
+    {
+      "event_name": "Neu-Ulmer Töpfermarkt 2026",
+      "candidate_url": "https://nu.neu-ulm.de/neu-ulm-erleben/veranstaltungen/maerkte/toepfermarkt",
+      "reason": "Die verfügbare offizielle Ausschreibung und das Formular betreffen 2026, nicht das verlangte Veranstaltungsjahr 2027."
+    },
+    {
+      "event_name": "Günzburger Jahrmärkte 2026",
+      "candidate_url": "https://www.guenzburg.de/kultur-feste/feste-maerkte/",
+      "reason": "Die offizielle Stadtseite stellte nur Bewerbungsunterlagen und Termine für 2026 bereit; für 2027 war kein Verfahren veröffentlicht."
+    },
+    {
+      "event_name": "Krumbacher Märkte 2026",
+      "candidate_url": "https://www.krumbach.de/freizeit-kultur/veranstaltungen/maerkte/",
+      "reason": "Die auffindbaren offiziellen Marktunterlagen bezogen sich auf 2026; ein verbindliches offenes 2027-Verfahren fehlte."
+    },
+    {
+      "event_name": "Aichacher Jahrmärkte 2026",
+      "candidate_url": "https://www.aichach.de/Freizeit/Veranstaltungen/Märkte",
+      "reason": "Auf der offiziellen Seite waren nur Termine des Jahres 2026 und keine geöffnete Bewerbung für 2027 belegt."
+    },
+    {
+      "event_name": "Friedberger Jahrmärkte 2026",
+      "candidate_url": "https://www.friedberg.de/kultur-tourismus/veranstaltungen/maerkte/",
+      "reason": "Die offizielle Veröffentlichung betraf die Märkte 2026; ein konkreter Termin und ein offenes Verfahren für 2027 fehlten."
+    },
+    {
+      "event_name": "Ostallgäuer Kunstausstellung 2026/2027",
+      "candidate_url": "https://www.landkreis-ostallgaeu.de/kultur/ostallgaeuer-kunstausstellung",
+      "reason": "Die Ausschreibung gehört zur 2026 beginnenden Ausstellung und ist keine eigenständige Bewerbung für eine Veranstaltung des Kalenderjahres 2027."
+    },
+    {
+      "event_name": "Augsburger Lechhauser Kirchweih 2027",
+      "candidate_url": "https://www.augsburg.de/freizeit/feste-und-maerkte/stadtteilfeste/",
+      "reason": "Die Stadt lässt Anträge nur für das laufende Jahr zu; deshalb war trotz allgemeiner Fristangaben kein 2027-Verfahren am Stichtag offen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Historisches Stadtmauerfest Nördlingen 2027",
+      "candidate_url": "https://www.noerdlingen.de/tourismus/veranstaltungen/historisches-stadtmauerfest",
+      "reason": "Offizielle 2027-Veranstaltungs- und Bewerbungsinformationen sind vorhanden, aber keine konkrete Bewerbungsfrist oder ein verbindliches Zeitfenster."
+    },
+    {
+      "event_name": "Donauwörther Reichsstraßenfest 2027",
+      "candidate_url": "https://www.donauwoerth.de/kultur-freizeit/veranstaltungen/reichsstrassenfest",
+      "reason": "Der offizielle 2027-Termin ist belegt, eine konkrete Frist oder ein verbindliches, am Stichtag offenes Bewerbungsfenster jedoch nicht."
+    },
+    {
+      "event_name": "Marktoberdorfer Urbanimarkt 2027",
+      "candidate_url": "https://www.marktoberdorf.de/allgemein/Markttermine%202027.pdf",
+      "reason": "Termin und satzungsbasierte Sechs-Wochen-Frist sind amtlich belegbar; die Quellen bestätigen jedoch nicht ausdrücklich, dass Bewerbungen für 2027 am Stichtag bereits angenommen wurden."
+    },
+    {
+      "event_name": "Marktoberdorfer Martinimarkt 2027",
+      "candidate_url": "https://www.marktoberdorf.de/allgemein/Markttermine%202027.pdf",
+      "reason": "Termin und satzungsbasierte Sechs-Wochen-Frist sind amtlich belegbar; die Quellen bestätigen jedoch nicht ausdrücklich, dass Bewerbungen für 2027 am Stichtag bereits angenommen wurden."
+    },
+    {
+      "event_name": "Marktoberdorfer Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.marktoberdorf.de/allgemein/Markttermine%202027.pdf",
+      "reason": "Termin und satzungsbasierte Sechs-Wochen-Frist sind amtlich belegbar; die Quellen bestätigen jedoch nicht ausdrücklich, dass Bewerbungen für 2027 am Stichtag bereits angenommen wurden."
+    },
+    {
+      "event_name": "Neu-Ulmer Kunsthandwerkermarkt 2027",
+      "candidate_url": "https://nu.neu-ulm.de/neu-ulm-erleben/veranstaltungen/maerkte/kunsthandwerkermarkt",
+      "reason": "Die offizielle Seite nennt den Termin 2027, verlinkte am Stichtag aber noch ein Formular für 2026 mit alter Frist; kein belastbares offenes 2027-Fenster."
+    },
+    {
+      "event_name": "Neu-Ulmer Stadtfest 2027",
+      "candidate_url": "https://nu.neu-ulm.de/neu-ulm-erleben/veranstaltungen/veranstaltungshoehepunkte/stadtfest",
+      "reason": "Ein offizieller Termin 2027 ist veröffentlicht, eine konkrete Bewerbungsfrist für Beschicker oder Gastronomie jedoch nicht."
+    },
+    {
+      "event_name": "Brobiera 2027 Neu-Ulm",
+      "candidate_url": "https://brobiera.com/kontakt/",
+      "reason": "Der offizielle Veranstalter bietet eine Ausstelleranfrage für 2027 an, nennt aber keine konkrete Bewerbungsfrist und kein verbindliches Zeitfenster."
+    },
+    {
+      "event_name": "Allgäuer Festwoche 2027 - allgemeine Aussteller",
+      "candidate_url": "https://www.festwoche.com/",
+      "reason": "Der 2027-Termin ist offiziell beschlossen, die Veranstalterseite enthielt am Stichtag jedoch nur Ausstellerunterlagen für 2026 und keine offene 2027-Frist."
+    },
+    {
+      "event_name": "Allgäuer Hochschulmesse 2027",
+      "candidate_url": "https://www.allgaeuer-hochschulmesse.de/aussteller/",
+      "reason": "Die offizielle Seite kündigt Informationen für Aussteller 2027 erst für Mitte Oktober 2026 an; eine Frist oder ein bereits offenes verbindliches Fenster fehlt."
+    },
+    {
+      "event_name": "Allgäuer Altbautage 2027",
+      "candidate_url": "https://www.eza-allgaeu.de/altbautage/aussteller",
+      "reason": "Offizielle Ausstellerinformationen sind vorhanden, aber keine konkret belegte Bewerbungsfrist oder ein verbindliches Bewerbungsfenster für 2027."
+    },
+    {
+      "event_name": "Immobilientage Augsburg 2027",
+      "candidate_url": "https://www.immobilientage-augsburg.de/aussteller/",
+      "reason": "Eine offizielle Buchungsmöglichkeit für Aussteller ist vorhanden, jedoch ohne konkret veröffentlichte Bewerbungsfrist oder verbindliches Fenster."
+    },
+    {
+      "event_name": "A\\FAIR 2027 - allgemeine Aussteller",
+      "candidate_url": "https://afair.de/de/ausstellen",
+      "reason": "Die offizielle Messe-Seite bietet Ausstellerkontakt, nennt aber keine konkrete Bewerbungsfrist; verifiziert wurde daher nur das gesondert befristete Landkreis-Verfahren."
+    },
+    {
+      "event_name": "Memminger Ausbildungsmesse 2027",
+      "candidate_url": "https://www.memmmingen.de/wirtschaft/ausbildungsmesse.html",
+      "reason": "Es ließ sich keine konkrete offizielle 2027-Veranstaltungsfrist und kein am Stichtag verbindlich geöffnetes Ausstellerfenster bestätigen."
+    },
+    {
+      "event_name": "Günzburger Volksfest 2027",
+      "candidate_url": "https://www.guenzburg.de/kultur-feste/feste-maerkte/",
+      "reason": "Offizielle Hinweise zur Veranstaltung 2027 lagen vor, aber keine konkrete Bewerbungsfrist oder ein verbindliches offenes Bewerbungsfenster für Beschicker."
+    }
+  ]
+}

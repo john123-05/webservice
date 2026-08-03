@@ -1,0 +1,269 @@
+{
+  "batch_id": "berlin-2027-deep-maerkte",
+  "region_scope": [
+    "Berlin-Mitte",
+    "Friedrichshain-Kreuzberg",
+    "Pankow",
+    "Charlottenburg-Wilmersdorf",
+    "Spandau",
+    "Steglitz-Zehlendorf",
+    "Tempelhof-Schoeneberg",
+    "Neukoelln",
+    "Treptow-Koepenick",
+    "Marzahn-Hellersdorf",
+    "Lichtenberg",
+    "Reinickendorf"
+  ],
+  "search_terms": [
+    "Berlin 2027 Wochenmarkt Marktstand Bewerbung",
+    "Berlin 2027 Jahrmarkt Schausteller Bewerbungsfrist",
+    "Berlin 2027 Saisonmarkt Haendler Bewerbung",
+    "Berlin 2027 Kunsthandwerkermarkt Aussteller Bewerbung",
+    "Berlin 2027 Weihnachtsmarkt Beschicker Bewerbung",
+    "Berliner Bezirksaemter 2027 Markt Interessenbekundung",
+    "offizielle Veranstalter Berlin Volksfesttermine 2027 Bewerbungsportal"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "berliner-fruehlingsfest-2027",
+      "event_name": "55. Berliner Fruehlingsfest 2027",
+      "event_type": "Fruehlingsvolksfest / Jahrmarkt",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "DE",
+      "venue_or_area": "",
+      "application_deadline_iso": "2026-10-31",
+      "application_deadline_text": "Die Bewerbungsfrist fuer das Veranstaltungsjahr 2027 endet am 31.10.2026.",
+      "event_date_range_text": "Veranstaltungsjahr 2027; genaue Termine sind auf der offiziellen Seite noch mit 'Info folgt' gekennzeichnet.",
+      "application_mode": "Digital ueber das Bewerbungsportal 2027; jedes Geschaeft ist einzeln zu erfassen, eine Bewerbung fuer mehrere Veranstaltungen ist moeglich.",
+      "postal_address": "Schaustellerverband Berlin e.V., Rosenheimer Str. 5, 10781 Berlin",
+      "contact_name": "Schaustellerverband Berlin e.V.",
+      "contact_email": "info@svbev.de",
+      "contact_phone": "030 213 32 90",
+      "source_url": "https://volksfest-berlin.de/volksfest-2027/",
+      "source_domain": "volksfest-berlin.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "berlin-2027-deep-maerkte",
+      "confidence_status": "partial",
+      "notes": "Offizielle Veranstalterseite bestaetigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veroeffentlicht; keine Vorjahresdaten uebertragen."
+    },
+    {
+      "id": "steglitzer-woche-2027",
+      "event_name": "73. Steglitzer Woche 2027",
+      "event_type": "Volksfest / Jahrmarkt",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "DE",
+      "venue_or_area": "",
+      "application_deadline_iso": "2026-10-31",
+      "application_deadline_text": "Die Bewerbungsfrist fuer das Veranstaltungsjahr 2027 endet am 31.10.2026.",
+      "event_date_range_text": "Veranstaltungsjahr 2027; genaue Termine sind auf der offiziellen Seite noch mit 'Info folgt' gekennzeichnet.",
+      "application_mode": "Digital ueber das Bewerbungsportal 2027; jedes Geschaeft ist einzeln zu erfassen, eine Bewerbung fuer mehrere Veranstaltungen ist moeglich.",
+      "postal_address": "Schaustellerverband Berlin e.V., Rosenheimer Str. 5, 10781 Berlin",
+      "contact_name": "Schaustellerverband Berlin e.V.",
+      "contact_email": "info@svbev.de",
+      "contact_phone": "030 213 32 90",
+      "source_url": "https://volksfest-berlin.de/volksfest-2027/",
+      "source_domain": "volksfest-berlin.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "berlin-2027-deep-maerkte",
+      "confidence_status": "partial",
+      "notes": "Offizielle Veranstalterseite bestaetigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veroeffentlicht; keine Vorjahresdaten uebertragen."
+    },
+    {
+      "id": "berliner-volksfestsommer-2027",
+      "event_name": "64. Berliner Volksfestsommer 2027",
+      "event_type": "Sommervolksfest / Jahrmarkt",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "DE",
+      "venue_or_area": "",
+      "application_deadline_iso": "2026-10-31",
+      "application_deadline_text": "Die Bewerbungsfrist fuer das Veranstaltungsjahr 2027 endet am 31.10.2026.",
+      "event_date_range_text": "Veranstaltungsjahr 2027; genaue Termine sind auf der offiziellen Seite noch mit 'Info folgt' gekennzeichnet.",
+      "application_mode": "Digital ueber das Bewerbungsportal 2027; jedes Geschaeft ist einzeln zu erfassen, eine Bewerbung fuer mehrere Veranstaltungen ist moeglich.",
+      "postal_address": "Schaustellerverband Berlin e.V., Rosenheimer Str. 5, 10781 Berlin",
+      "contact_name": "Schaustellerverband Berlin e.V.",
+      "contact_email": "info@svbev.de",
+      "contact_phone": "030 213 32 90",
+      "source_url": "https://volksfest-berlin.de/volksfest-2027/",
+      "source_domain": "volksfest-berlin.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "berlin-2027-deep-maerkte",
+      "confidence_status": "partial",
+      "notes": "Offizielle Veranstalterseite bestaetigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veroeffentlicht; keine Vorjahresdaten uebertragen."
+    },
+    {
+      "id": "freie-scholle-2027",
+      "event_name": "124. Freie Scholle 2027",
+      "event_type": "Volksfest / Jahrmarkt",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "DE",
+      "venue_or_area": "",
+      "application_deadline_iso": "2026-10-31",
+      "application_deadline_text": "Die Bewerbungsfrist fuer das Veranstaltungsjahr 2027 endet am 31.10.2026.",
+      "event_date_range_text": "Veranstaltungsjahr 2027; genaue Termine sind auf der offiziellen Seite noch mit 'Info folgt' gekennzeichnet.",
+      "application_mode": "Digital ueber das Bewerbungsportal 2027; jedes Geschaeft ist einzeln zu erfassen, eine Bewerbung fuer mehrere Veranstaltungen ist moeglich.",
+      "postal_address": "Schaustellerverband Berlin e.V., Rosenheimer Str. 5, 10781 Berlin",
+      "contact_name": "Schaustellerverband Berlin e.V.",
+      "contact_email": "info@svbev.de",
+      "contact_phone": "030 213 32 90",
+      "source_url": "https://volksfest-berlin.de/volksfest-2027/",
+      "source_domain": "volksfest-berlin.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "berlin-2027-deep-maerkte",
+      "confidence_status": "partial",
+      "notes": "Offizielle Veranstalterseite bestaetigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veroeffentlicht; keine Vorjahresdaten uebertragen."
+    },
+    {
+      "id": "berliner-herbstrummel-2027",
+      "event_name": "Berliner Herbstrummel 2027",
+      "event_type": "Herbstmarkt / Jahrmarkt",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "DE",
+      "venue_or_area": "",
+      "application_deadline_iso": "2026-10-31",
+      "application_deadline_text": "Die Bewerbungsfrist fuer das Veranstaltungsjahr 2027 endet am 31.10.2026.",
+      "event_date_range_text": "Veranstaltungsjahr 2027; genaue Termine sind auf der offiziellen Seite noch mit 'Info folgt' gekennzeichnet.",
+      "application_mode": "Digital ueber das Bewerbungsportal 2027; jedes Geschaeft ist einzeln zu erfassen, eine Bewerbung fuer mehrere Veranstaltungen ist moeglich.",
+      "postal_address": "Schaustellerverband Berlin e.V., Rosenheimer Str. 5, 10781 Berlin",
+      "contact_name": "Schaustellerverband Berlin e.V.",
+      "contact_email": "info@svbev.de",
+      "contact_phone": "030 213 32 90",
+      "source_url": "https://volksfest-berlin.de/volksfest-2027/",
+      "source_domain": "volksfest-berlin.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "berlin-2027-deep-maerkte",
+      "confidence_status": "partial",
+      "notes": "Offizielle Veranstalterseite bestaetigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veroeffentlicht; keine Vorjahresdaten uebertragen."
+    },
+    {
+      "id": "weihnachtsmarkt-city-berlin-2027",
+      "event_name": "44. Weihnachtsmarkt City 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "DE",
+      "venue_or_area": "",
+      "application_deadline_iso": "2026-10-31",
+      "application_deadline_text": "Die Bewerbungsfrist fuer das Veranstaltungsjahr 2027 endet am 31.10.2026.",
+      "event_date_range_text": "Veranstaltungsjahr 2027; genaue Termine sind auf der offiziellen Seite noch mit 'Info folgt' gekennzeichnet.",
+      "application_mode": "Digital ueber das Bewerbungsportal 2027; jedes Geschaeft ist einzeln zu erfassen, eine Bewerbung fuer mehrere Veranstaltungen ist moeglich.",
+      "postal_address": "Schaustellerverband Berlin e.V., Rosenheimer Str. 5, 10781 Berlin",
+      "contact_name": "Schaustellerverband Berlin e.V.",
+      "contact_email": "info@svbev.de",
+      "contact_phone": "030 213 32 90",
+      "source_url": "https://volksfest-berlin.de/volksfest-2027/",
+      "source_domain": "volksfest-berlin.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "berlin-2027-deep-maerkte",
+      "confidence_status": "partial",
+      "notes": "Offizielle Veranstalterseite bestaetigt Veranstaltung und Frist. Exakte 2027-Termine und Veranstaltungsort wurden noch nicht veroeffentlicht; keine Vorjahresdaten uebertragen."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt Alexanderplatz 2027 - Betreiberverfahren",
+      "candidate_url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/strassenverwaltung/artikel.1681925.php",
+      "reason": "Das offizielle Interessenbekundungsverfahren umfasst 2026 bis 2028, die Einreichungsfrist endete jedoch bereits am 15.07.2026."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Potsdamer Platz 2027 - Betreiberverfahren",
+      "candidate_url": "https://www.berlin.de/ba-mitte/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/strassenverwaltung/artikel.1681925.php",
+      "reason": "Das offizielle Interessenbekundungsverfahren umfasst 2026 bis 2028, die Einreichungsfrist endete jedoch bereits am 15.07.2026."
+    },
+    {
+      "event_name": "Biesdorfer Bluetenfest 2027 - Veranstalteroption",
+      "candidate_url": "https://www.berlin.de/ba-marzahn-hellersdorf/aktuelles/pressemitteilungen/2024/pressemitteilung.1493824.php",
+      "reason": "Die Option fuer 2027 gehoerte zu einem Veranstalterverfahren mit Bewerbungsfrist 15.11.2024 und ist nicht mehr offen."
+    },
+    {
+      "event_name": "2. Kreativmarkt im Hubertusbad 2026",
+      "candidate_url": "https://www.berlin.de/ba-lichtenberg/aktuelles/pressemitteilungen/2026/pressemitteilung.1643495.php",
+      "reason": "Die offizielle Ausschreibung betrifft ausschliesslich den Markt 2026; der Bewerbungsschluss 22.02.2026 ist abgelaufen und es gibt keine bestaetigte 2027-Ausgabe."
+    },
+    {
+      "event_name": "Weddingmarkt und Winter-Weddingmarkt 2026",
+      "candidate_url": "https://wedding-markt.de/2026/05/09/alletermine/",
+      "reason": "Die offizielle Seite veroeffentlicht nur Termine und Bewerbungsphasen fuer 2026; eine Uebertragung auf 2027 ist unzulaessig."
+    },
+    {
+      "event_name": "Kunsthandwerklicher Weihnachtsmarkt Mexikoplatz 2026",
+      "candidate_url": "https://www.kunsthand-berlin.de/termine/alle-termine-2023-auf-einen-blick/item/weihnachtsmarkt-mexikolatz-2-advent.html",
+      "reason": "Die offizielle Veranstalterseite nennt nur die Ausgabe 2026 und deren Bewerbungsstart; keine konkret belegte 2027-Frist."
+    },
+    {
+      "event_name": "Alt-Marzahner Ernte- und Umweltfest 2026",
+      "candidate_url": "https://www.berlin.de/ba-marzahn-hellersdorf/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltschutz/artikel.1528283.php",
+      "reason": "Die offizielle Bezirksseite bestaetigt nur die Ausgabe 2026 und keine Bewerbungsfrist fuer einen Markt im Kalenderjahr 2027."
+    },
+    {
+      "event_name": "Berliner Weihnachtszeit vor dem Roten Rathaus 2026/2027",
+      "candidate_url": "https://www.laubinger.de/event/berliner-weihnachtszeit/",
+      "reason": "Die offizielle Veranstalterseite und das gefundene Formular beziehen sich auf die 2026 beginnende Ausgabe; eine offene, konkret datierte Bewerbung fuer die Ausgabe 2027 wurde nicht belegt."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "71. Britzer Baumbluete 2027",
+      "candidate_url": "https://www.wollenschlaeger-berlin.de/67-britzer-baumbluete/",
+      "reason": "Offizielle Veranstalterseite bestaetigt 19.03.-11.04.2027 und nimmt Schaustellerbewerbungen per E-Mail an, nennt aber keine konkrete Bewerbungsfrist oder kalendarisch begrenzte Bewerbungsphase."
+    },
+    {
+      "event_name": "Oktoberfest Spandau 2027",
+      "candidate_url": "https://www.wollenschlaeger-berlin.de/mitmachen/",
+      "reason": "Offizielle Veranstalterseite bestaetigt 17.09.-23.10.2027 und allgemeine Schaustellerbewerbungen, aber keinen konkreten Bewerbungsschluss fuer diese Veranstaltung."
+    },
+    {
+      "event_name": "93. Siedlerfest Marienfelde 2027",
+      "candidate_url": "https://www.wollenschlaeger-berlin.de/mitmachen/",
+      "reason": "Die offizielle Veranstalterseite fuehrt die 2027-Ausgabe und allgemeine Schaustellerbewerbungen auf, veroeffentlicht jedoch weder den 2027-Termin noch eine konkrete Bewerbungsfrist."
+    },
+    {
+      "event_name": "Wintermarkt Schlossplatz Berlin Mitte 2027/2028",
+      "candidate_url": "https://www.wollenschlaeger-berlin.de/mitmachen/",
+      "reason": "Die offizielle Veranstalterseite bestaetigt 17.11.2027-02.01.2028 und allgemeine Bewerbungsmoeglichkeiten; das verlinkte Haendlerformular ist noch mit der Ausgabe 2026/2027 beschriftet und nennt keine 2027-Frist."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Gendarmenmarkt 2027-2031",
+      "candidate_url": "https://www.berlin.de/ba-mitte/aktuelles/pressemitteilungen/2026/pressemitteilung.1682514.php",
+      "reason": "Das Bezirksamt kuendigt ein gesondertes offizielles Interessenbekundungsverfahren fuer 2027 bis 2031 an, hat am Stichtag aber noch keine konkrete offene Einreichungsfrist veroeffentlicht."
+    },
+    {
+      "event_name": "Spandauer Weihnachtsmarkt 2027 - Standbewerbung",
+      "candidate_url": "https://partner-fuer-spandau.de/haendler/",
+      "reason": "Der offizielle Veranstalter ist fuer 2025 bis 2028 bestaetigt, stellt bei der Pruefung aber nur Bewerbungsunterlagen fuer 2026 bereit; eine konkrete 2027-Frist fehlt."
+    },
+    {
+      "event_name": "Alt-Rixdorfer Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.berlin.de/ba-neukoelln/ueber-den-bezirk/alt-rixdorfer-weihnachtsmarkt/marktteilnehmer/artikel.499863.php",
+      "reason": "Das Bezirksamt veroeffentlicht dauerhafte Teilnahmeinformationen fuer gemeinnuetzige Anbieter und den wiederkehrenden Termin am zweiten Adventswochenende, aber keine konkret datierte Bewerbungsfrist fuer 2027."
+    },
+    {
+      "event_name": "Oeffentliche Wochenmaerkte Tempelhof-Schoeneberg 2027",
+      "candidate_url": "https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte/",
+      "reason": "Die offizielle Seite bietet fortlaufende Marktstandbewerbungen und beruecksichtigt sie ein Jahr, nennt jedoch keinen festen kalendarischen Bewerbungsschluss fuer 2027; eine ISO-Frist waere nur aus dem individuellen Eingangsdatum ableitbar."
+    },
+    {
+      "event_name": "Oeffentliche Wochenmaerkte Steglitz-Zehlendorf 2027",
+      "candidate_url": "https://www.berlin.de/ba-steglitz-zehlendorf/politik-und-verwaltung/service-und-organisationseinheiten/wirtschaftsfoerderung/marktverwaltung/",
+      "reason": "Aktive offizielle Standantraege und eine zwoelfmonatige Wartelistenfrist sind belegt, aber kein fester kalendarischer Bewerbungsschluss fuer 2027; eine ISO-Frist hinge vom individuellen Antragseingang ab."
+    },
+    {
+      "event_name": "Berliner Kunstmarkt an der Museumsinsel 2027",
+      "candidate_url": "https://kunstmarkt-berlin.com/",
+      "reason": "Die offizielle Veranstalterseite bestaetigt einen ganzjaehrigen Wochenendmarkt und Bewerbungen, veroeffentlicht am Stichtag aber nur die Planung bis Dezember 2026 und keine konkrete 2027-Bewerbungsfrist."
+    }
+  ]
+}

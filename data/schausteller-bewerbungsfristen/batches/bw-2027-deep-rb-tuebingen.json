@@ -1,0 +1,424 @@
+{
+  "batch_id": "bw-2027-deep-rb-tuebingen",
+  "region_scope": [
+    "Baden-Württemberg",
+    "Regierungsbezirk Tübingen"
+  ],
+  "search_terms": [
+    "Schausteller Bewerbung 2027 Regierungsbezirk Tübingen",
+    "Beschicker Bewerbungsfrist 2027 Tübingen Ravensburg Biberach Ulm",
+    "Aussteller Anmeldung 2027 Friedrichshafen Ravensburg Biberach Ulm",
+    "Jahrmarkt Volksfest Stadtfest Weihnachtsmarkt Bewerbung 2027 Regierungsbezirk Tübingen",
+    "Kunsthandwerkermarkt Wochenmarkt Standbewerbung 2027 Regierungsbezirk Tübingen",
+    "Messe Aussteller Anmeldeschluss 2027 Friedrichshafen Ravensburg Biberach Ulm"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "motorradwelt-bodensee-2027-friedrichshafen",
+      "event_name": "MOTORRADWELT BODENSEE 2027",
+      "event_type": "Fach- und Publikumsmesse",
+      "city": "Friedrichshafen",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Messe Friedrichshafen",
+      "application_deadline_iso": "2026-08-30",
+      "application_deadline_text": "Anmeldung zur Berücksichtigung des gewünschten Standplatzes bis 30.08.2026 erbeten",
+      "event_date_range_text": "29.01.-31.01.2027",
+      "application_mode": "Online-Standanmeldung über das offizielle Ausstellerportal",
+      "postal_address": "Messe Friedrichshafen GmbH, Neue Messe 1, 88046 Friedrichshafen",
+      "contact_name": "Korinna Rid",
+      "contact_email": "",
+      "contact_phone": "+49 7541 708-352",
+      "source_url": "https://www.motorradwelt-bodensee.de/ausstellen/messevorbereitung",
+      "source_domain": "motorradwelt-bodensee.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-tuebingen",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Aussteller-Zeitplanung bestätigt Veranstaltungstermin und noch offene Anmeldefrist. Der Frühbuchertermin 30.06.2026 war bereits abgelaufen und wurde nicht als Frist verwendet."
+    },
+    {
+      "id": "ibo-2027-friedrichshafen",
+      "event_name": "IBO 2027",
+      "event_type": "Publikumsmesse",
+      "city": "Friedrichshafen",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Messe Friedrichshafen",
+      "application_deadline_iso": "2026-09-30",
+      "application_deadline_text": "Anmeldung erbeten bis 30.09.2026",
+      "event_date_range_text": "17.03.-21.03.2027",
+      "application_mode": "Online-Standanmeldung oder offizielles Anmeldeformular",
+      "postal_address": "Messe Friedrichshafen GmbH, Neue Messe 1, 88046 Friedrichshafen",
+      "contact_name": "IBO-Projektteam",
+      "contact_email": "",
+      "contact_phone": "+49 7541 708-185 / -448 / -422",
+      "source_url": "https://cdn.messe-friedrichshafen.de/assets/ibo/Anmeldeformulare/2027/IBO27_Besondere_Teilnahmebedingungen_DE.pdf?v=1782125770",
+      "source_domain": "cdn.messe-friedrichshafen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-tuebingen",
+      "confidence_status": "verified",
+      "notes": "Die offiziellen Besonderen Teilnahmebedingungen bestätigen Messetermin und Anmeldetermin; Direktverkauf ist im Rahmen der Bedingungen möglich."
+    },
+    {
+      "id": "ewig-dein-hochzeitsmesse-2027-ravensburg",
+      "event_name": "EWIG DEIN Hochzeitsmesse 2027",
+      "event_type": "Hochzeitsmesse",
+      "city": "Ravensburg",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Oberschwabenhalle, Bleicherstraße 20, 88212 Ravensburg",
+      "application_deadline_iso": "2026-10-09",
+      "application_deadline_text": "Anmeldeschluss ist der 09.10.2026",
+      "event_date_range_text": "16.01.-17.01.2027",
+      "application_mode": "Vollständige offizielle Anmeldeunterlagen bei der Veranstalterin einreichen",
+      "postal_address": "Ravensburger Veranstaltungsgesellschaft mbH, Gartenstraße 6, 88212 Ravensburg",
+      "contact_name": "Messebüro der Ravensburger Veranstaltungsgesellschaft mbH",
+      "contact_email": "messebuero@r-vg.de",
+      "contact_phone": "+49 751 999911-0",
+      "source_url": "https://www.r-vg.de/Ausstellerbereich",
+      "source_domain": "r-vg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-tuebingen",
+      "confidence_status": "verified",
+      "notes": "Das auf der offiziellen Ausstellerseite verlinkte Anmeldeformular bestätigt Termin, Veranstaltungsort und Anmeldeschluss. Zielgruppen sind unter anderem Handel, Catering, Floristik, Dekoration und weitere Hochzeitsdienstleister."
+    },
+    {
+      "id": "ravensburger-wochenmarkt-innenstadt-2027",
+      "event_name": "Ravensburger Wochenmarkt Innenstadt 2027",
+      "event_type": "Wochenmarkt",
+      "city": "Ravensburg",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Waaghaus, Marktstraße, Kirchstraße und angrenzende Innenstadtbereiche",
+      "application_deadline_iso": "2026-10-31",
+      "application_deadline_text": "Bewerbung für das Jahr 2027 bis 31.10.2026",
+      "event_date_range_text": "Samstags im Jahr 2027, 07:00-13:00 Uhr",
+      "application_mode": "Bewerbung nach den Vorgaben des städtischen Marktamts",
+      "postal_address": "Stadt Ravensburg, Amt für Tourismus und Stadtmarketing, Marienplatz 35, 88212 Ravensburg",
+      "contact_name": "Marktmeister der Stadt Ravensburg",
+      "contact_email": "",
+      "contact_phone": "0751 82-2894",
+      "source_url": "https://www.ravensburg.de/rv/kultur-freizeit-einkaufen/einkaufen/maerkte.php",
+      "source_domain": "ravensburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-tuebingen",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Stadtseite nennt ausdrücklich das Bewerbungsjahr 2027 und den Bewerbungsschluss."
+    },
+    {
+      "id": "ravensburger-wochenmarkt-weststadt-2027",
+      "event_name": "Ravensburger Wochenmarkt Weststadt 2027",
+      "event_type": "Wochenmarkt",
+      "city": "Ravensburg",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Mittelöschstraße, Ravensburg-Weststadt",
+      "application_deadline_iso": "2026-10-31",
+      "application_deadline_text": "Bewerbung für das Jahr 2027 bis 31.10.2026",
+      "event_date_range_text": "Donnerstags im Jahr 2027, 07:00-13:00 Uhr",
+      "application_mode": "Bewerbung nach den Vorgaben des städtischen Marktamts",
+      "postal_address": "Stadt Ravensburg, Amt für Tourismus und Stadtmarketing, Marienplatz 35, 88212 Ravensburg",
+      "contact_name": "Marktmeister der Stadt Ravensburg",
+      "contact_email": "",
+      "contact_phone": "0751 82-2894",
+      "source_url": "https://www.ravensburg.de/rv/kultur-freizeit-einkaufen/einkaufen/maerkte.php",
+      "source_domain": "ravensburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-tuebingen",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Stadtseite nennt ausdrücklich das Bewerbungsjahr 2027 und den Bewerbungsschluss."
+    },
+    {
+      "id": "aqua-fisch-2027-friedrichshafen",
+      "event_name": "AQUA-FISCH 2027",
+      "event_type": "Fach- und Publikumsmesse",
+      "city": "Friedrichshafen",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Messe Friedrichshafen",
+      "application_deadline_iso": "2026-12-14",
+      "application_deadline_text": "Anmeldung erbeten bis 14.12.2026",
+      "event_date_range_text": "05.03.-07.03.2027",
+      "application_mode": "Online-Standanmeldung oder offizielles Anmeldeformular",
+      "postal_address": "Messe Friedrichshafen GmbH, Neue Messe 1, 88046 Friedrichshafen",
+      "contact_name": "AQUA-FISCH-Projektteam",
+      "contact_email": "",
+      "contact_phone": "+49 7541 708-398 / -406 / -410",
+      "source_url": "https://cdn.messe-friedrichshafen.de/assets/aquafisch/pdf/Teilnahmebedingungen/AQUA27_Besondere_Teilnahmebedingungen_DE.pdf?v=1776173190",
+      "source_domain": "cdn.messe-friedrichshafen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-tuebingen",
+      "confidence_status": "verified",
+      "notes": "Die offiziellen Besonderen Teilnahmebedingungen bestätigen Messetermin und Anmeldetermin."
+    },
+    {
+      "id": "tuning-world-bodensee-2027-friedrichshafen",
+      "event_name": "TUNING WORLD BODENSEE 2027",
+      "event_type": "Fach- und Publikumsmesse",
+      "city": "Friedrichshafen",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Messe Friedrichshafen",
+      "application_deadline_iso": "2026-12-15",
+      "application_deadline_text": "Anmeldung erbeten bis 15.12.2026",
+      "event_date_range_text": "06.05.-09.05.2027",
+      "application_mode": "Online-Standanmeldung oder offizielles Anmeldeformular",
+      "postal_address": "Messe Friedrichshafen GmbH, Neue Messe 1, 88046 Friedrichshafen",
+      "contact_name": "TUNING-WORLD-BODENSEE-Projektteam",
+      "contact_email": "",
+      "contact_phone": "",
+      "source_url": "https://cdn.messe-friedrichshafen.de/assets/tuningworldbodensee/pdf/TWB27_Besondere-Teilnahmebedingungen-_DE.pdf?v=1779780678",
+      "source_domain": "cdn.messe-friedrichshafen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-tuebingen",
+      "confidence_status": "verified",
+      "notes": "Die offiziellen Besonderen Teilnahmebedingungen bestätigen Messetermin und Anmeldetermin."
+    },
+    {
+      "id": "markt-der-moeglichkeiten-2027-tuebingen",
+      "event_name": "30. Markt der Möglichkeiten Tübingen 2027",
+      "event_type": "Kunsthandwerkermarkt",
+      "city": "Tübingen",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Tübinger Altstadt",
+      "application_deadline_iso": "2027-01-10",
+      "application_deadline_text": "Bewerbung bis 10.01.2027",
+      "event_date_range_text": "08.05.-09.05.2027",
+      "application_mode": "Digitale Bewerbung über das ab Oktober bereitgestellte Formular der Universitätsstadt Tübingen",
+      "postal_address": "Universitätsstadt Tübingen, Fachbereich Kommunales, Am Markt 1, 72070 Tübingen",
+      "contact_name": "Fachbereich Kommunales der Universitätsstadt Tübingen",
+      "contact_email": "",
+      "contact_phone": "",
+      "source_url": "https://marktdermoeglichkeiten.de/info/",
+      "source_domain": "marktdermoeglichkeiten.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-tuebingen",
+      "confidence_status": "verified",
+      "notes": "Offizieller Internetauftritt des von der Universitätsstadt Tübingen veranstalteten Markts; zugelassen sind professionell arbeitende Kunsthandwerkerinnen und Kunsthandwerker."
+    },
+    {
+      "id": "americana-2027-friedrichshafen",
+      "event_name": "AMERICANA 2027",
+      "event_type": "Fach- und Publikumsmesse",
+      "city": "Friedrichshafen",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Messe Friedrichshafen",
+      "application_deadline_iso": "2027-01-31",
+      "application_deadline_text": "Anmeldung erbeten bis 31.01.2027",
+      "event_date_range_text": "01.09.-05.09.2027",
+      "application_mode": "Online-Anmeldung über den offiziellen Ausstellerbereich",
+      "postal_address": "Messe Friedrichshafen GmbH, Neue Messe 1, 88046 Friedrichshafen",
+      "contact_name": "AMERICANA-Ausstellerteam",
+      "contact_email": "",
+      "contact_phone": "",
+      "source_url": "https://www.americana.de/ausstellen/ihr-messeauftritt/faq-fuer-ausstellende",
+      "source_domain": "americana.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-tuebingen",
+      "confidence_status": "partial",
+      "notes": "Offizielle Veranstalterseite bestätigt Termin, Anmeldeweg und Anmeldetermin; individuelle Kontaktdaten waren in der geprüften Quelle nicht ausgewiesen."
+    },
+    {
+      "id": "heimatfest-laupheim-2027-standbewerbung",
+      "event_name": "Heimatfest Laupheim 2027",
+      "event_type": "Heimat- und Volksfest",
+      "city": "Laupheim",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Festgelände Laupheim",
+      "application_deadline_iso": "2027-02-28",
+      "application_deadline_text": "Gewerbetreibende können sich bis 28.02.2027 für das Fest 2027 bewerben",
+      "event_date_range_text": "Heimatfest Laupheim 2027; konkreter Veranstaltungstag auf der geprüften Bewerbungsseite nicht ausgewiesen",
+      "application_mode": "Ausschließlich über das offizielle Online-Bewerbungsformular",
+      "postal_address": "",
+      "contact_name": "Verein Heimatfest Laupheim e.V.",
+      "contact_email": "",
+      "contact_phone": "",
+      "source_url": "https://heimatfest-laupheim.de/informationen/",
+      "source_domain": "heimatfest-laupheim.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-tuebingen",
+      "confidence_status": "partial",
+      "notes": "Die offizielle Veranstalterseite bestätigt Festjahr, Zielgruppe, Frist und Online-Bewerbung; der konkrete Festzeitraum und persönliche Kontaktdaten fehlen dort."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "AERO Friedrichshafen 2027",
+      "candidate_url": "https://cdn.messe-friedrichshafen.de/assets/aero/downloads/2027/AERO27_Besondere_Teilnahmebedingungen.pdf?v=1776598280",
+      "reason": "Der einzige konkret ausgewiesene 2027-Termin für die Wahrung des bisherigen Standplatzes endete am 30.06.2026; eine andere noch offene konkrete Bewerbungsfrist war offiziell nicht bestätigt."
+    },
+    {
+      "event_name": "Ulmer Bildungsmesse 2027",
+      "candidate_url": "https://www.ihk.de/ulm/online-magazin/themen/bildung/ulmer-bildungsmesse-2027-jetzt-als-aussteller-anmelden-7054418",
+      "reason": "Die offizielle IHK-Seite nennt als Anmeldeschluss Mitte Juli 2026; die Frist war am Recherchetag 03.08.2026 bereits abgelaufen."
+    },
+    {
+      "event_name": "Kulturufer Friedrichshafen 2026/2027 - Gastronomiestände",
+      "candidate_url": "https://www.friedrichshafen.de/fileadmin/BENUTZERDATEN/friedrichshafen.de/Ausschreibungen_Vergabe/2025_09_12_Ausschreibung_Standplatz_Kulturufer_%C3%BCberarbeitet_110.pdf",
+      "reason": "Die offizielle zweijährige Standplatzvergabe umfasst zwar 2027, ihr verbindlicher Bewerbungsschluss lag jedoch bereits 2025 und war am Recherchetag abgelaufen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Seehasenfest Friedrichshafen 2027 - Standplätze",
+      "candidate_url": "https://www.seehasenfest.de/rund-ums-seehasenfest/standplaetze/",
+      "reason": "Die offizielle Seite bestätigt das Fest vom 15. bis 19.07.2027 und kündigt das Bewerbungsformular an, veröffentlicht aber noch keinen konkreten Bewerbungsschluss für 2027."
+    },
+    {
+      "event_name": "Rosenmarkt Laupheim 2027",
+      "candidate_url": "https://www.laupheim.de/freizeit-kultur/maerkte/rosenmarkt",
+      "reason": "Die offizielle Stadtseite bestätigt den Veranstaltungstermin 12.06.2027 und eine Bewerbungsmöglichkeit, nennt aber keinen konkreten Bewerbungsschluss."
+    },
+    {
+      "event_name": "Gesundheitstage Friedrichshafen 2027",
+      "candidate_url": "https://www.gesundheitstage-friedrichshafen.de/ausstellerinfo",
+      "reason": "Die offizielle Veranstalterseite bestätigt den Termin 23. bis 24.10.2027 und stellt Anmeldeunterlagen bereit, jedoch ohne konkrete Bewerbungsfrist."
+    },
+    {
+      "event_name": "Bad Uracher Schäferlauf 2027",
+      "candidate_url": "https://www.badurach-schaeferlauf.de/",
+      "reason": "Der offizielle Veranstaltungsauftritt bestätigt den Termin 23. bis 26.07.2027, aber keine konkrete Bewerbungsfrist für Schausteller oder Beschicker."
+    },
+    {
+      "event_name": "Ignitions Gründungsmesse Neckar-Alb 2027",
+      "candidate_url": "https://www.tuebingen.de/wit/37157.html",
+      "reason": "Die offizielle Wirtschaftsförderungsseite kündigt die nächste Messe 2027 und Standbewerbungen an, nennt aber weder einen konkreten 2027-Termin noch eine Bewerbungsfrist."
+    },
+    {
+      "event_name": "Jahrmarkt Rottenburg am Neckar am 01.03.2027",
+      "candidate_url": "https://www.rottenburg.de/maerkte.56.htm?lnav=9515",
+      "reason": "Die offizielle Stadtseite bestätigt den Markttermin 2027, veröffentlicht aber keine konkrete Bewerbungsfrist."
+    },
+    {
+      "event_name": "Frühjahrsmarkt Ergenzingen 2027",
+      "candidate_url": "https://www.rottenburg.de/maerkte.56.htm?lnav=9515",
+      "reason": "Die offizielle Stadtseite bestätigt den Markttermin 03.05.2027, veröffentlicht aber keine konkrete Bewerbungsfrist."
+    },
+    {
+      "event_name": "Jahrmarkt Rottenburg am Neckar am 31.05.2027",
+      "candidate_url": "https://www.rottenburg.de/maerkte.56.htm?lnav=9515",
+      "reason": "Die offizielle Stadtseite bestätigt den Markttermin 2027, veröffentlicht aber keine konkrete Bewerbungsfrist."
+    },
+    {
+      "event_name": "Krämermarkt Ergenzingen 2027",
+      "candidate_url": "https://www.rottenburg.de/maerkte.56.htm?lnav=9515",
+      "reason": "Die offizielle Stadtseite bestätigt den Markttermin 22.10.2027, veröffentlicht aber keine konkrete Bewerbungsfrist."
+    },
+    {
+      "event_name": "Martinimarkt Rottenburg am Neckar 2027",
+      "candidate_url": "https://www.rottenburg.de/maerkte.56.htm?lnav=9515",
+      "reason": "Die offizielle Stadtseite bestätigt den Markttermin 08.11.2027, veröffentlicht aber keine konkrete Bewerbungsfrist."
+    },
+    {
+      "event_name": "Bähnlesfest Tettnang 2027",
+      "candidate_url": "https://www.tettnang.de/de/geniessen/veranstaltungen/highlights/baehnlesfest/",
+      "reason": "Die offizielle Stadtseite bestätigt den Termin 12.09.2027 und Bewerbungsbereiche für Vereine, Unternehmen und Handel, aber keinen konkreten Bewerbungsschluss."
+    },
+    {
+      "event_name": "Ostereiermarkt Wangen im Allgäu 2027",
+      "candidate_url": "https://www.wangen.de/wirtschaft/wirtschaftsfoerderung/stadt-und-standortmarketing/ostereiermarkt",
+      "reason": "Die offizielle Stadtseite bestätigt die Veranstaltung am 27. und 28.02.2027, aber keinen verbindlichen Bewerbungszeitraum für Ausstellende."
+    },
+    {
+      "event_name": "Handgemacht Ulm 2027",
+      "candidate_url": "https://www.hwk-ulm.de/handgemacht-verkaufsausstellung-gestaltender-handwerker-bewerbung-2/",
+      "reason": "Die offizielle Handwerkskammerseite stellt Bewerbungen ab 2027 in Aussicht, bestätigt jedoch noch keinen konkreten 2027-Veranstaltungstermin und keine Bewerbungsfrist."
+    },
+    {
+      "event_name": "KLASSIKWELT BODENSEE 2027",
+      "candidate_url": "https://www.klassikwelt-bodensee.de/ausstellen",
+      "reason": "Offizielle Ausstellerinformationen und der Veranstaltungstermin 04. bis 06.06.2027 sind vorhanden, aber keine konkrete Bewerbungsfrist."
+    },
+    {
+      "event_name": "HAM RADIO 2027",
+      "candidate_url": "https://www.hamradio-friedrichshafen.de/ausstellen",
+      "reason": "Die offizielle Messeplanung bestätigt die Veranstaltung vom 25. bis 27.06.2027, jedoch keine konkrete Bewerbungsfrist."
+    },
+    {
+      "event_name": "Adventure Southside 2027",
+      "candidate_url": "https://www.adventuresouthside.de/aussteller",
+      "reason": "Der offizielle Veranstaltungsauftritt bestätigt die Ausgabe vom 16. bis 18.07.2027, aber keinen verbindlichen Bewerbungsschluss."
+    },
+    {
+      "event_name": "INTERBOOT 2027",
+      "candidate_url": "https://www.interboot.de/ausstellen",
+      "reason": "Der offizielle Messeauftritt bestätigt die Veranstaltung vom 22. bis 26.09.2027, aber keine konkrete Bewerbungsfrist."
+    },
+    {
+      "event_name": "Hausplus Ravensburg 2027",
+      "candidate_url": "https://www.r-vg.de/hausplus_ausstellerinfos",
+      "reason": "Die offizielle Veranstalterseite bestätigt die Messe vom 30. bis 31.01.2027 und stellt Anmeldeunterlagen bereit; ein konkreter Anmeldeschluss wurde in der geprüften Seite nicht bestätigt."
+    },
+    {
+      "event_name": "Bauplus Biberach 2027",
+      "candidate_url": "https://www.r-vg.de/bauplus-ausstellerinfos",
+      "reason": "Die offizielle Veranstalterseite bestätigt die Messe vom 27. bis 28.02.2027 und stellt Anmeldeunterlagen bereit; ein konkreter Anmeldeschluss wurde in der geprüften Seite nicht bestätigt."
+    },
+    {
+      "event_name": "Hausplus Friedrichshafen und Umgebung 2027",
+      "candidate_url": "https://www.r-vg.de/Ausstellerbereich",
+      "reason": "Die offizielle Ausstellerseite stellt ein Anmeldeformular für 2027 bereit, aber der konkrete Veranstaltungstermin und Anmeldeschluss wurden bis zum Rechercheabbruch nicht belastbar bestätigt."
+    },
+    {
+      "event_name": "Leben Wohnen Freizeit Ulm 2027",
+      "candidate_url": "https://www.r-vg.de/Ausstellerbereich",
+      "reason": "Die offizielle Ausstellerübersicht nennt eine Ausgabe vom 08. bis 11.04.2027, verlinkte Unterlagen waren jedoch nicht eindeutig als 2027-Unterlagen mit konkreter offener Frist bestätigt."
+    },
+    {
+      "event_name": "Tübinger Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.tuebingen.de/weihnachtsmarkt",
+      "reason": "Für 2027 war auf der offiziellen Stadtseite noch keine konkrete Bewerbungsfrist veröffentlicht; Vorjahresfristen wurden nicht übertragen."
+    },
+    {
+      "event_name": "Ravensburger Kunsthandwerkermarkt 2027",
+      "candidate_url": "https://www.ravensburg.de/rv/kultur-freizeit-einkaufen/einkaufen/maerkte.php",
+      "reason": "Die offizielle Marktseite enthielt noch keine konkrete Bewerbungsfrist für die Ausgabe 2027; Angaben für 2026 wurden nicht hochgerechnet."
+    },
+    {
+      "event_name": "Ravensburger Martinimarkt 2027",
+      "candidate_url": "https://www.ravensburg.de/rv/kultur-freizeit-einkaufen/einkaufen/maerkte.php",
+      "reason": "Die offizielle Marktseite enthielt noch keine konkrete Bewerbungsfrist für die Ausgabe 2027; Angaben für 2026 wurden nicht hochgerechnet."
+    },
+    {
+      "event_name": "Ravensburger Christkindlesmarkt 2027",
+      "candidate_url": "https://www.ravensburg.de/rv/kultur-freizeit-einkaufen/einkaufen/maerkte.php",
+      "reason": "Die offizielle Marktseite enthielt noch keine konkrete Bewerbungsfrist für die Ausgabe 2027; Angaben für 2026 wurden nicht hochgerechnet."
+    },
+    {
+      "event_name": "Biberacher Jahrmärkte 2027",
+      "candidate_url": "https://www.biberach-riss.de/Tourismus-Kultur-Freizeit/Veranstaltungen/M%C3%A4rkte/",
+      "reason": "Auf der offiziellen Stadtseite war noch keine konkrete Bewerbungsfrist für Jahrmärkte im Jahr 2027 bestätigt; vorhandene Vorjahresangaben wurden nicht übertragen."
+    },
+    {
+      "event_name": "Biberacher Christkindles-Markt 2027",
+      "candidate_url": "https://pages.biberach-riss.de/Christkindles-Markt/%C3%9Cber-den-Markt/",
+      "reason": "Die offizielle Seite veröffentlichte noch keine konkrete Bewerbungsfrist für die Ausgabe 2027; die Fristen der Ausgabe 2026 wurden nicht übertragen."
+    },
+    {
+      "event_name": "Stadtfest Weingarten 2027",
+      "candidate_url": "https://www.weingarten-online.de/stadtfest",
+      "reason": "Eine konkrete Standbewerbungsfrist für eine bestätigte Ausgabe 2027 war auf der offiziellen Stadtseite noch nicht veröffentlicht; Vorjahresdaten wurden nicht hochgerechnet."
+    },
+    {
+      "event_name": "Bodensee-Weihnacht Friedrichshafen 2027",
+      "candidate_url": "https://www.bodensee-weihnacht.de/service/beschicker-infos/",
+      "reason": "Die offizielle Beschickerseite nennt eine Bewerbungsfrist, ordnet sie jedoch nicht belastbar einer Veranstaltung im Jahr 2027 zu."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Schausteller-Bewerbungsfristen 2026/2027 | ImpressRank</title>
+  <meta name="description" content="Verpasse keine Bewerbungsfrist mehr: ein gebündelter Fristenkalender für Schausteller mit offiziellen Quellen, Ansprechpartnern und Adressen." />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="icon" href="assets/digital.png" type="image/png" />
+  <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="site-wrap">
+  <header class="lc-header">
+    <div class="container lc-header-inner">
+      <a class="brand" href="/">
+        <img src="assets/digital.png" alt="ImpressRank" class="brand-logo" />
+      </a>
+      <a class="btn btn-primary" href="#fristen-unlock">Kalender freischalten</a>
+    </div>
+  </header>
+
+  <main data-deadline-page data-deadline-data-url="data/schausteller-bewerbungsfristen/web.json">
+    <section class="lc-section deadline-hero-section" id="hero">
+      <div class="container">
+        <div class="deadline-hero-grid">
+          <div class="deadline-hero-copy">
+            <h1 class="deadline-hero-title">Verpasse keine <span>Bewerbungsfrist</span> mehr.</h1>
+            <p class="deadline-hero-sub">
+              Wir bündeln offizielle Fristen, Bewerbungswege, Adressen und Ansprechpartner an einem Ort,
+              damit du wichtige Plätze nicht wegen einer verpassten Deadline verlierst.
+            </p>
+            <ul class="deadline-hero-points">
+              <li>Alle Fristen an einem Ort statt verteilt über zehn Websites</li>
+              <li>Mit E-Mail-Erinnerung und optionaler WhatsApp-Benachrichtigung</li>
+              <li>Mit offiziellen Quellenlinks, damit du direkt zur Ausschreibung kommst</li>
+            </ul>
+            <div class="deadline-hero-actions">
+              <a class="btn btn-primary" href="#fristen-unlock">Jetzt freischalten</a>
+              <p class="deadline-hero-fineprint">Stand der Recherche: <strong id="deadline-hero-stand">wird geladen</strong>. Maßgeblich bleibt immer die offizielle Ausschreibung.</p>
+            </div>
+          </div>
+
+          <aside class="deadline-next-panel">
+            <p class="eyebrow">Nächste offene Frist</p>
+            <div id="deadline-next-hero" aria-live="polite">
+              <div class="deadline-next-card deadline-loading-card">Kalender wird geladen...</div>
+            </div>
+            <div class="deadline-next-meta">
+              <div>
+                <span class="deadline-next-meta-label">Erfasste Fristen</span>
+                <strong id="deadline-count">0</strong>
+              </div>
+              <div>
+                <span class="deadline-next-meta-label">Recherche-Stand</span>
+                <strong id="deadline-stand">wird geladen</strong>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="lc-section deadline-calendar-section" id="fristen-unlock">
+      <div class="container">
+        <div class="deadline-calendar-intro">
+          <p class="eyebrow">Schausteller-Bewerbungsfristen</p>
+          <h2>Alle offenen Fristen auf einen Blick</h2>
+          <p>
+            Trage deine E-Mail ein, um den vollständigen Kalender freizuschalten. Wenn du keine E-Mails liest,
+            kannst du zusätzlich deine WhatsApp-Nummer hinterlegen.
+          </p>
+        </div>
+
+        <div class="deadline-gate" data-deadline-gate data-locked="true">
+          <div class="deadline-gate-overlay">
+            <div class="deadline-gate-card">
+              <p class="eyebrow">Freischalten</p>
+              <h3>Benachrichtigungen rechtzeitig erhalten</h3>
+              <p>
+                Jetzt Newsletter abonnieren und keine Bewerbungsfrist mehr verpassen.
+                Oder liest du keine E-Mails? Dann schicken wir dir eine WhatsApp.
+              </p>
+              <form class="deadline-unlock-form" action="#" method="post" data-form-source="schausteller-bewerbungsfristen">
+                <input type="email" name="email" placeholder="name@email.com" required autocomplete="email" />
+                <input type="tel" name="phone" placeholder="WhatsApp-Nummer (optional)" autocomplete="tel" />
+                <button class="btn btn-primary" type="submit">Kalender freischalten</button>
+              </form>
+              <p class="deadline-gate-note">
+                Mit dem Freischalten akzeptierst du, dass wir dir Erinnerungen zu Bewerbungsfristen schicken dürfen.
+              </p>
+              <p class="deadline-unlock-status" id="deadline-unlock-status" hidden></p>
+            </div>
+          </div>
+
+          <div class="deadline-calendar-shell">
+            <div class="deadline-calendar-topbar">
+              <div>
+                <span class="deadline-calendar-kicker">Mini-Kalender</span>
+                <h3>Bewerbungsmonate</h3>
+              </div>
+              <p class="deadline-calendar-note">Automatisch sortiert nach der nächsten offenen Frist.</p>
+            </div>
+
+            <div class="deadline-month-grid" id="deadline-months"></div>
+            <div class="deadline-list" id="deadline-list" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="lc-footer">
+    <div class="container">
+      <p>&copy; ImpressRank</p>
+      <div class="lc-footer-links">
+        <a href="impressum">Impressum</a>
+        <a href="datenschutz">Datenschutz</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cookie-banner" data-cookie-banner hidden>
+    <div class="cookie-banner__modal">
+      <button class="cookie-banner__close" type="button" data-cookie-decline aria-label="Schließen">&#x2715;</button>
+      <div class="cookie-banner__copy">
+        <strong>Cookies &amp; Statistik</strong>
+        <p>Diese Website nutzt notwendige Cookies und optional Google Analytics. Mehr dazu in der <a href="datenschutz">Datenschutzerklärung</a>.</p>
+      </div>
+      <div class="cookie-banner__actions">
+        <button class="btn btn-ghost" type="button" data-cookie-decline>Nur notwendige</button>
+        <button class="btn btn-primary" type="button" data-cookie-accept>Alle akzeptieren</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

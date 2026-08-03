@@ -1,0 +1,48 @@
+{
+  "batch_id": "brandenburg-2027-deep-nordwest",
+  "region_scope": [
+    "Prignitz",
+    "Ostprignitz-Ruppin",
+    "Oberhavel",
+    "Havelland"
+  ],
+  "search_terms": [
+    "Wittenberge Perleberg Pritzwalk Wittstock Neuruppin Stadtfest 2027 Haendler Schausteller Bewerbung Frist",
+    "Landesgartenschau Wittenberge 2027 Aussteller Haendler Gastronomie Bewerbung Marktbeschicker Frist",
+    "Oranienburg Hennigsdorf Velten Zehdenick Hohen Neuendorf Stadtfest Weihnachtsmarkt 2026 Bewerbung Haendler Frist",
+    "Falkensee Rathenow Nauen Weihnachtsmarkt 2026 Bewerbung Aussteller Haendler Frist"
+  ],
+  "max_expected_results": 60,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "32. Stadt- und Hafenfest Wittenberge 2026",
+      "candidate_url": "https://www.stadt-hafenfest-wittenberge.de/aussteller/",
+      "reason": "Offizielle Veranstalterseite (Kulturverein Wittenberge 1997 e. V.) nennt die verbindliche Anmeldung bis zum 30. Juni 2026 fuer das Fest vom 21.-23. August 2026. Die Frist ist zum Stichtag 03.08.2026 abgelaufen."
+    },
+    {
+      "event_name": "Weihnachtsmarkt auf dem Maerkischen Platz Rathenow - Interessenbekundungsverfahren",
+      "candidate_url": "https://www.rathenow.de/verwaltung-politik/detail/interessenbekundungsverfahren-fuer-den-weihnachtsmarkt-auf-dem-maerkischen-platz/",
+      "reason": "Das offizielle Interessenbekundungsverfahren der Stadt Rathenow betraf den Zeitraum 2023 bis 2026 und wurde im Januar 2023 ausgeschrieben. Die Einreichungsfrist ist laengst abgelaufen, ein Folgeverfahren ist nicht veroeffentlicht."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Gartenmarkt der Landesgartenschau Wittenberge 2027",
+      "candidate_url": "https://www.laga-wittenberge.de/anbieter-fuer-den-gartenmarkt-der-landesgartenschau-wittenberge-2027-gesucht/",
+      "reason": "Offizieller Aufruf der Landesgartenschau Wittenberge 2027 gGmbH sucht Anbieter fuer den Gartenmarkt (Garten, Pflanzen, Floristik, Kunsthandwerk, regionale Handwerkserzeugnisse) waehrend der LAGA vom 21.04.-24.10.2027, Bewerbung ueber Online-Anfrageformular. Es wird ausdruecklich kein Bewerbungsschluss genannt ('bereits jetzt' moeglich), damit fehlt die fuer eine Veroeffentlichung noetige Frist. Kontakt: Perleberger Strasse 165, 19322 Wittenberge, +49 3877 5639300, info@laga-wittenberge.de."
+    },
+    {
+      "event_name": "33. Stadt- und Hafenfest Wittenberge 2027",
+      "candidate_url": "https://www.stadt-hafenfest-wittenberge.de/aussteller/",
+      "reason": "Der Veranstalter arbeitet mit einer festen jaehrlichen Anmeldefrist (2026: 30. Juni; 2025: 14. Juni). Fuer die Ausgabe 2027, die mit der Landesgartenschau zusammenfaellt, ist zum Pruefzeitpunkt noch keine Frist veroeffentlicht."
+    },
+    {
+      "event_name": "Adventsmarkt Hohen Neuendorf 2027",
+      "candidate_url": "https://hohen-neuendorf.de/de/node/12709",
+      "reason": "Die Stadt schreibt den Adventsmarkt jaehrlich mit fester Frist aus (2026: 11.09.2026, bereits als Eintrag erfasst). Fuer 2027 liegt noch keine offizielle Ausschreibung vor."
+    }
+  ]
+}

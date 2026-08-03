@@ -1,0 +1,265 @@
+{
+  "batch_id": "by-2027-deep-rb-niederbayern",
+  "region_scope": [
+    "Bayern",
+    "Regierungsbezirk Niederbayern"
+  ],
+  "search_terms": [
+    "Schausteller Bewerbung 2027 Niederbayern",
+    "Beschicker Bewerbungsfrist 2027 Niederbayern",
+    "Aussteller Anmeldung 2027 Landshut Passau Straubing Deggendorf",
+    "Volksfest Dult Stadtfest Markt Weihnachtsmarkt Bewerbung 2027 Niederbayern",
+    "Kunsthandwerkermarkt Messe Aussteller 2027 Niederbayern",
+    "Gemeinden Landkreise Niederbayern Veranstaltungen Bewerbungsfrist 2027"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "gaeubodenvolksfest-2027-straubing",
+      "event_name": "Gäubodenvolksfest Straubing 2027",
+      "event_type": "Volksfest",
+      "city": "Straubing",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Festgelände Am Hagen",
+      "application_deadline_iso": "2026-09-17",
+      "application_deadline_text": "Bewerbung bis 17.09.2026",
+      "event_date_range_text": "13.08.-23.08.2027",
+      "application_mode": "Online-Formular oder offizielles Bewerbungsformular per Post, Fax oder persönlich; Bewerbung per E-Mail ist nicht zulässig",
+      "postal_address": "Straubinger Ausstellungs- und Veranstaltungs GmbH, Am Hagen 75, 94315 Straubing",
+      "contact_name": "Straubinger Ausstellungs- und Veranstaltungs GmbH",
+      "contact_email": "",
+      "contact_phone": "09421 8433-0",
+      "source_url": "https://www.ausstellungs-gmbh.de/gaeubodenvolksfest/fuer-schausteller/bewerbung-2027/",
+      "source_domain": "ausstellungs-gmbh.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-niederbayern",
+      "confidence_status": "verified",
+      "notes": "Die offizielle 2027-Bewerbungsseite der städtischen Tochtergesellschaft bestätigt Veranstaltungstermin, Ausschlussfrist, Bewerbungswege und Anschrift."
+    },
+    {
+      "id": "li-trieb-kunstpreis-ausstellung-2027-neustadt-donau",
+      "event_name": "Li Trieb-Preis für Regionale Kunst 2027",
+      "event_type": "Kunstausstellung und Kunstpreis",
+      "city": "Neustadt a.d.Donau",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Neustadt a.d.Donau",
+      "application_deadline_iso": "2026-10-06",
+      "application_deadline_text": "Bewerbungsunterlagen bis 06.10.2026 per E-Mail einreichen",
+      "event_date_range_text": "Preisverleihung und Ausstellungen im April 2027",
+      "application_mode": "Bewerbung mit Wettbewerbsbeitrag, Arbeitsbeispielen, Kurztext und Bewerbungsformular als PDF per E-Mail",
+      "postal_address": "",
+      "contact_name": "Monika Weber / Matthias Pöppel",
+      "contact_email": "kunstpreis@neustadt-donau.de",
+      "contact_phone": "0152 0148 7905 / 09445 75249 17",
+      "source_url": "https://www.neustadt-donau.de/freizeit/veranstaltungen-kultur/kunstpreis",
+      "source_domain": "neustadt-donau.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-niederbayern",
+      "confidence_status": "partial",
+      "notes": "Die offizielle Stadtseite und das dort verlinkte Bewerbungsformular bestätigen Zielgruppe, Frist, Bewerbungsweg und den Ausstellungsmonat 2027."
+    },
+    {
+      "id": "papier-global-7-ausstellung-2027-deggendorf",
+      "event_name": "Papier Global 7 - Internationale Papierkunst Triennale 2027",
+      "event_type": "Jurierte Kunstausstellung",
+      "city": "Deggendorf",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Stadtgalerie im Stadtmuseum und Handwerksmuseum Deggendorf",
+      "application_deadline_iso": "2026-11-29",
+      "application_deadline_text": "Bewerbung ab sofort bis einschließlich 29.11.2026",
+      "event_date_range_text": "09.05.-10.10.2027; Eröffnung am 08.05.2027",
+      "application_mode": "Online-Bewerbung über die von den Museen Deggendorf bereitgestellte Upload-Plattform",
+      "postal_address": "Museen der Stadt Deggendorf, Östlicher Stadtgraben 28, 94469 Deggendorf",
+      "contact_name": "Museen der Stadt Deggendorf",
+      "contact_email": "museen@deggendorf.de",
+      "contact_phone": "0991 2960-5299",
+      "source_url": "https://stadtmuseum.deggendorf.de/papier-global",
+      "source_domain": "stadtmuseum.deggendorf.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-niederbayern",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Museumsseite und ihre Teilnahmebedingungen bestätigen Ausstellung, Bewerbungsfrist und Online-Verfahren."
+    },
+    {
+      "id": "papiermarkt-papier-global-7-2027-deggendorf",
+      "event_name": "Papiermarkt zur Papier Global 7 2027",
+      "event_type": "Kunsthandwerkermarkt",
+      "city": "Deggendorf",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Stadtmuseum, Östlicher Stadtgraben 28, und Handwerksmuseum, Maria-Ward-Platz 1, 94469 Deggendorf",
+      "application_deadline_iso": "2026-11-29",
+      "application_deadline_text": "Bewerbung ab sofort bis einschließlich 29.11.2026 für Ausstellung und/oder Papiermarkt",
+      "event_date_range_text": "08.05.-09.05.2027",
+      "application_mode": "Bewerbungsformular und Produktfotos über die offizielle Upload-Plattform einreichen",
+      "postal_address": "Museen der Stadt Deggendorf, Östlicher Stadtgraben 28, 94469 Deggendorf",
+      "contact_name": "Museen der Stadt Deggendorf",
+      "contact_email": "museen@deggendorf.de",
+      "contact_phone": "0991 2960-5299",
+      "source_url": "https://stadtmuseum.deggendorf.de/papier-global",
+      "source_domain": "stadtmuseum.deggendorf.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-niederbayern",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Museumsseite nennt die gemeinsame Bewerbungsfrist für Ausstellung und/oder Papiermarkt; die verlinkten Marktbedingungen bestätigen Markttermine, Orte und Bewerbungsweg."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Deggendorfer Donaufest 2027",
+      "candidate_url": "https://www.deggendorf.de/media/Ausschreibung-und-Anmeldeblatt-zum-Deggendorfer-Donaufest-2027.pdf",
+      "reason": "Die offizielle 2027-Ausschreibung nennt den 30.04.2026 als Bewerbungsfrist; sie war am Stichtag bereits abgelaufen."
+    },
+    {
+      "event_name": "17. Passauer Ausbildungsmesse 2027",
+      "candidate_url": "https://ausbildungsmesse.passau.de/aussteller",
+      "reason": "Die offizielle Veranstaltungsseite nennt den 24.07. als Anmeldeschluss für die Messe am 12. und 13.03.2027; die Frist war am Stichtag 03.08.2026 bereits abgelaufen."
+    },
+    {
+      "event_name": "Straubinger Christkindlmarkt 2027",
+      "candidate_url": "https://www.straubing.de/media/www.straubing.de/org/med_3782/7126_2._advent_in_2025-2027_bewerbungsformular_beschicker_170325.pdf",
+      "reason": "Die mehrjährige offizielle Ausschreibung umfasst 2025 bis 2027, hatte aber bereits am 22.04.2025 um 10:00 Uhr Bewerbungsschluss."
+    },
+    {
+      "event_name": "Landshuter Frühjahrsdult und Bartlmädult 2026",
+      "candidate_url": "https://landshut.de/kultur-sport/dulten-maerkte-messen",
+      "reason": "Die offizielle Seite enthielt nur Ausschreibungen für 2026; diese dürfen nicht auf 2027 übertragen werden."
+    },
+    {
+      "event_name": "Landshuter Christkindlmarkt 2026",
+      "candidate_url": "https://landshut.de/kultur-sport/dulten-maerkte-messen",
+      "reason": "Die offizielle Ausschreibung betrifft 2026 und endete am 01.06.2026; kein zulässiger 2027-Treffer."
+    },
+    {
+      "event_name": "Bad Füssinger Winterzauber 2026",
+      "candidate_url": "https://www.badfuessing.com/de/service/presse/aktuelle-pressemeldungen/pm-7-2026---ausschreibungsstart-fuer-den-bad-fuessinger-winterzauber-2026",
+      "reason": "Die offizielle Ausschreibung betrifft ausschließlich 2026 und endete am 09.03.2026; eine Übertragung auf 2027 ist unzulässig."
+    },
+    {
+      "event_name": "Volksfest Landau a.d.Isar 2026",
+      "candidate_url": "https://www.landau-isar.de/aktuelles/ausschreibung-volksfest-2026-essensstaende/",
+      "reason": "Die offizielle Ausschreibung betrifft ausschließlich 2026 und endete am 16.01.2026."
+    },
+    {
+      "event_name": "Mainburger Gallimarkt und Gewerbeschau 2026",
+      "candidate_url": "https://gallimarkt-mainburg.com/",
+      "reason": "Die offizielle Veranstalterseite bot nur 2026-Unterlagen; der dort genannte Anmeldeschluss 01.04.2026 darf nicht für 2027 übernommen werden."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Passauer Wochenmärkte 2027",
+      "candidate_url": "https://www.passau.de/stadtleben/sport-freizeit/regionales-vom-wochenmarkt/",
+      "reason": "Die offizielle Stadtseite bestätigt die jährliche Platzvergabe und das Fristfenster Oktober/November des Vorjahres. Da kein exakter Kalendertag genannt wird und veröffentlichbare Einträge einen ISO-Tag benötigen, ist der Kandidat zu prüfen."
+    },
+    {
+      "event_name": "Landshuter Frühjahrsdult und Bartlmädult 2027",
+      "candidate_url": "https://landshut.de/kultur-sport/dulten-maerkte-messen",
+      "reason": "Offizieller Veranstaltungsbereich vorhanden, am Stichtag aber nur mit Bewerbungsunterlagen für 2026 und ohne belegte 2027-Frist."
+    },
+    {
+      "event_name": "Passauer Maidult und Herbstdult 2027",
+      "candidate_url": "https://www.passau.de/fileadmin/user_upload/Verordnung_fuer_die_Dulten_auf_dem_Messepark_Lesefassung_24.04.2024.pdf",
+      "reason": "Die offizielle Dultverordnung bestätigt Schausteller- und Beschickerbetriebe, aber keine konkrete Ausschreibung oder Bewerbungsfrist für 2027."
+    },
+    {
+      "event_name": "Ostbayernschau Straubing 2027",
+      "candidate_url": "https://www.ausstellungs-gmbh.de/ostbayernschau/haeufige-fragen-faq/",
+      "reason": "Die offizielle Veranstalterin nennt den Anmeldestart im November/Dezember des Vorjahres, hatte aber noch keine 2027-Anmeldung mit verbindlichem Enddatum veröffentlicht."
+    },
+    {
+      "event_name": "Landshuter Umweltmesse 2027",
+      "candidate_url": "https://umweltmesse.la/images/pdf/Anmeldeformular%202027.pdf",
+      "reason": "Offizielle 2027-Anmeldeunterlagen und Messetermin 05.-07.03.2027 sind vorhanden, jedoch ohne konkret belegten Anmeldeschluss."
+    },
+    {
+      "event_name": "9. Süd- und Ostbayerische Wassertagung 2027",
+      "candidate_url": "https://www.umweltcluster.net/de/?catid=110&id=1656%3Asow-2027-anmeldung-f%C3%BCr-fachaussteller-ge%C3%B6ffnet&view=article",
+      "reason": "Die offizielle Veranstalterseite bestätigt Fachaussteller-Anmeldung und Termin 28.-29.04.2027 in Landshut, nennt aber keine Frist."
+    },
+    {
+      "event_name": "Gesundheitsmesse Niederbayern 2027",
+      "candidate_url": "https://gesundheitsmesse-niederbayern.de/s/gesundheitsmesse-niederbayern/aussteller",
+      "reason": "Die offizielle Veranstalterseite bestätigt geöffnete Standbuchung und Termin 06.-07.03.2027 in Deggendorf, aber keinen verbindlichen Bewerbungsschluss."
+    },
+    {
+      "event_name": "Camping Caravan Outdoor und Sport Straubing 2027",
+      "candidate_url": "https://campingcos.de/",
+      "reason": "Die offizielle Veranstalterseite bestätigt Termin 17.-18.04.2027 und verfügbare Anmeldeformulare, nennt aber keine Bewerbungsfrist."
+    },
+    {
+      "event_name": "Fertighaus & Energie Straubing 2027",
+      "candidate_url": "https://www.fertighausmesse.de/aussteller-info.php?ort=straubing",
+      "reason": "Offizielle Ausstellerseite mit Termin 06.-07.03.2027 und Anmeldeformular, jedoch ohne Anmeldeschluss."
+    },
+    {
+      "event_name": "Fertighaus & Energie Passau 2027",
+      "candidate_url": "https://www.fertighausmesse.de/aussteller-info.php?ort=passau",
+      "reason": "Offizieller Veranstalter nennt den Termin 16.-17.01.2027, aber keine verbindliche Anmeldefrist."
+    },
+    {
+      "event_name": "Fertighaus & Energie Deggendorf 2027",
+      "candidate_url": "https://www.fertighausmesse.de/aussteller-info.php?ort=deggendorf",
+      "reason": "Offizieller Veranstalter nennt den Termin 30.-31.01.2027, aber keine verbindliche Anmeldefrist."
+    },
+    {
+      "event_name": "Fertighaus & Energie Eggenfelden 2027",
+      "candidate_url": "https://www.fertighausmesse.de/aussteller-info.php?ort=eggenfelden",
+      "reason": "Offizieller Veranstalter nennt den Termin 20.-21.02.2027, aber keine verbindliche Anmeldefrist."
+    },
+    {
+      "event_name": "Fertighaus & Energie Landshut 2027",
+      "candidate_url": "https://www.fertighausmesse.de/aussteller-info.php?ort=landshut",
+      "reason": "Offizieller Veranstalter nennt den Termin 27.-28.02.2027, aber keine verbindliche Anmeldefrist."
+    },
+    {
+      "event_name": "Hochzeitsschau Deggendorf 2027",
+      "candidate_url": "https://www.hochzeitsschau-deggendorf.de/infos-aussteller.html",
+      "reason": "Die offizielle Veranstalterseite nennt den Termin 07.11.2027 und nimmt Standanfragen an, veröffentlicht aber keinen Bewerbungsschluss."
+    },
+    {
+      "event_name": "Mainburger Hopfenfest 2027",
+      "candidate_url": "https://www.mainburg.de/seite/390266/volksfeste.html",
+      "reason": "Die offizielle Stadtseite bestätigt den Termin 09.-12.07.2027 und verweist auf Schaustellerformulare, dort waren aber nur 2026-Unterlagen beziehungsweise keine 2027-Frist belegt."
+    },
+    {
+      "event_name": "Mainburger Gallimarkt 2027",
+      "candidate_url": "https://www.mainburg.de/seite/390266/volksfeste.html",
+      "reason": "Die offizielle Stadtseite bestätigt den Termin 08.-11.10.2027, auf der Veranstalterseite waren aber nur 2026-Anmeldungen und keine 2027-Frist veröffentlicht."
+    },
+    {
+      "event_name": "Mainburger Jahrmärkte 2027",
+      "candidate_url": "https://www.mainburg.de/seite/452588/jahrm",
+      "reason": "Die offizielle Stadtseite nennt 2027-Termine und ein allgemeines Standplatzformular, aber keinen verbindlichen Bewerbungsschluss für die 2027-Märkte."
+    },
+    {
+      "event_name": "Plattlinger Kastanienblütenfest 2027",
+      "candidate_url": "https://www.plattling.de/freizeit-kultur-tourismus/veranstaltungen-und-events/plattlinger-mega-events/kastanienbluetenfest/",
+      "reason": "Die offizielle Stadtseite bestätigt Streetfood und Aussteller am 07.-08.05.2027, nennt jedoch weder Bewerbungsweg noch Frist."
+    },
+    {
+      "event_name": "Zwieseler Jahrmärkte 2027",
+      "candidate_url": "https://www.zwiesel.de/stadt-und-buerger/leben-arbeiten-wohnen/maerkte.html",
+      "reason": "Die offizielle Stadtseite nennt fünf konkrete Jahrmarkttermine 2027, aber keine Bewerbungsfrist für Fieranten."
+    },
+    {
+      "event_name": "Regener Altstadtfest 2027",
+      "candidate_url": "https://regen.de/startseite/veranstaltungen/altstadtfest.html",
+      "reason": "Die offizielle Stadtseite kündigt das Altstadtfest 2027 mit Vereinsbeteiligung und Gastronomie an, nennt aber noch keinen konkreten Termin oder Bewerbungszeitraum."
+    },
+    {
+      "event_name": "Plattlinger Volksfest 2027",
+      "candidate_url": "https://www.plattling.de/freizeit-kultur-tourismus/veranstaltungen-und-events/plattlinger-mega-events/plattlinger-volksfest/",
+      "reason": "Offizielle Veranstaltungsseite vorhanden, am Stichtag jedoch nur mit Rückblick auf 2026 und ohne 2027-Ausschreibung oder Frist."
+    }
+  ]
+}

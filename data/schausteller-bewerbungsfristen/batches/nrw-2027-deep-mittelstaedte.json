@@ -1,0 +1,125 @@
+{
+  "batch_id": "nrw-2027-deep-mittelstaedte",
+  "region_scope": [
+    "Muensterland",
+    "Ostwestfalen-Lippe",
+    "Niederrhein",
+    "Rheinland",
+    "Ruhrgebiet",
+    "Suedwestfalen"
+  ],
+  "search_terms": [
+    "Ahlen Telgte Beckum Emsdetten Greven Kirmes 2027 Schausteller Bewerbung Bewerbungsfrist Stadt",
+    "Lippstadt Bocholt Coesfeld Dorsten Kirmes Volksfest 2027 Schausteller Bewerbung Frist",
+    "Kevelaer Wesel Xanten Kleve Neuss Kirmes 2027 Schausteller Bewerbung Bewerbungsschluss",
+    "Hamm Unna Witten Siegen Arnsberg Lippstadt Kirmes 2027 Schausteller Bewerbung Bewerbungsfrist",
+    "Siegburg Dueren Erkelenz Viersen Solingen Remscheid Kirmes Jahrmarkt 2027 Schausteller Bewerbung Frist"
+  ],
+  "max_expected_results": 60,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "telgte-maria-geburts-markt-kirmes-2027-telgte",
+      "event_name": "Mariae-Geburts-Markt Telgte 2027 - Kirmes",
+      "event_type": "Kirmes / Volksfest",
+      "city": "Telgte",
+      "state": "Nordrhein-Westfalen",
+      "country": "DE",
+      "venue_or_area": "Telgter Innenstadt",
+      "application_deadline_iso": "2026-11-30",
+      "application_deadline_text": "Bewerbungsschluss fuer die Kirmes ist der 30.11. des Veranstaltungsvorjahres, fuer den Mariae-Geburts-Markt 2027 also der 30.11.2026.",
+      "event_date_range_text": "Jeweils am zweiten Septemberwochenende, Freitag bis Dienstag; die genauen Termine 2027 sind noch nicht veroeffentlicht.",
+      "application_mode": "Bewerbungsformular mit Geschaeftsskizze und Produktfotos per Post oder E-Mail an bewerbung-mgm@telgte.de.",
+      "postal_address": "Staedtische Wirtschaftsbetriebe Telgte GmbH, Bassfeld 4-6, 48291 Telgte",
+      "contact_name": "Regina Bussmann (02504 13-215) und Stefan Reiser (02504 13-280)",
+      "contact_email": "bewerbung-mgm@telgte.de",
+      "contact_phone": "02504 13-215",
+      "source_url": "https://serviceportal.telgte.de/detail/-/vr-bis-detail/dienstleistung/1104/show",
+      "source_domain": "serviceportal.telgte.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "nrw-2027-deep-mittelstaedte",
+      "confidence_status": "partial",
+      "notes": "Die Stadt nennt den Bewerbungsschluss als feste jaehrliche Regel, nicht als Einzeldatum fuer 2027. Genaue Veranstaltungstermine 2027 vor Bewerbung beim Veranstalter erfragen."
+    },
+    {
+      "id": "telgte-maria-geburts-markt-krammarkt-2027-telgte",
+      "event_name": "Mariae-Geburts-Markt Telgte 2027 - Krammarkt",
+      "event_type": "Krammarkt",
+      "city": "Telgte",
+      "state": "Nordrhein-Westfalen",
+      "country": "DE",
+      "venue_or_area": "Telgter Innenstadt",
+      "application_deadline_iso": "2027-02-28",
+      "application_deadline_text": "Bewerbungsschluss fuer den Krammarkt ist der 28.02. des Veranstaltungsjahres, fuer 2027 also der 28.02.2027.",
+      "event_date_range_text": "Jeweils am zweiten Septemberwochenende, Freitag bis Dienstag; die genauen Termine 2027 sind noch nicht veroeffentlicht.",
+      "application_mode": "Bewerbungsformular mit Geschaeftsskizze und Produktfotos per Post oder E-Mail an bewerbung-mgm@telgte.de.",
+      "postal_address": "Staedtische Wirtschaftsbetriebe Telgte GmbH, Bassfeld 4-6, 48291 Telgte",
+      "contact_name": "Regina Bussmann (02504 13-215) und Stefan Reiser (02504 13-280)",
+      "contact_email": "bewerbung-mgm@telgte.de",
+      "contact_phone": "02504 13-215",
+      "source_url": "https://serviceportal.telgte.de/detail/-/vr-bis-detail/dienstleistung/1104/show",
+      "source_domain": "serviceportal.telgte.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "nrw-2027-deep-mittelstaedte",
+      "confidence_status": "partial",
+      "notes": "Der Krammarkt hat eine spaetere Frist als die Kirmes desselben Marktes. Die Stadt nennt den Bewerbungsschluss als feste jaehrliche Regel."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Annakirmes Dueren 2026",
+      "candidate_url": "https://www.dueren.de/kultur-tourismus/veranstaltungen/annakirmes/schausteller",
+      "reason": "Stadt Dueren nennt als Bewerbungsschluss 'bis spaetestens 30.09.2025 (Posteingangsstempel der Stadt Dueren)' fuer die Annakirmes 2026. Frist zum Stichtag 03.08.2026 abgelaufen."
+    },
+    {
+      "event_name": "Grosskirmes Kleve 2026",
+      "candidate_url": "https://www.kleve.de/stadt-kleve/rathaus-informieren/aktuelles/kirmesausschreibung-grosskirmes-kleve-vom-1107-bis-zum",
+      "reason": "Offizielle Kirmesausschreibung der Stadt Kleve fuer die Grosskirmes vom 11.07. bis 19.07.2026. Veranstaltung und Bewerbungszeitraum liegen zum Stichtag 03.08.2026 in der Vergangenheit."
+    },
+    {
+      "event_name": "Ahlener Kirmes 2026",
+      "candidate_url": "https://www.ahlen.de/freizeit-und-touristik/ahlener-kirmes/infos-fuer-schaustellende",
+      "reason": "Bewerbungsschluss fuer die Ahlener Kirmesveranstaltungen 2026 war der 31. Oktober 2025. Frist abgelaufen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Ahlener Maikirmes und Herbstkirmes 2027",
+      "candidate_url": "https://www.ahlen.de/freizeit-und-touristik/ahlener-kirmes/infos-fuer-schaustellende",
+      "reason": "Die Stadt Ahlen vergibt Standplaetze auf dem Dr.-Paul-Rosenbaum-Platz ueber eigene Bewerbungsformulare fuer Mai- und Herbstkirmes. Fuer 2026 lag der Bewerbungsschluss am 31. Oktober 2025. Ob es sich um eine feste jaehrliche Regel oder ein Einzeldatum handelt, liess sich auf der offiziellen Seite nicht zweifelsfrei bestaetigen; die 2027-Ausschreibung war zum Pruefzeitpunkt nicht veroeffentlicht. Kontakt: Stadt Ahlen, Amt 1.2 Recht, Ordnung und Zentrale Vergabe, Marktwesen, Westenmauer 10, 59227 Ahlen, 02382 59453, marktwesen@stadt.ahlen.de."
+    },
+    {
+      "event_name": "Annakirmes Dueren 2027",
+      "candidate_url": "https://www.dueren.de/kultur-tourismus/veranstaltungen/annakirmes/schausteller",
+      "reason": "Groesstes Volksfest im Rheinland nach Duesseldorf und Koeln. Die Stadt Dueren (Amt fuer Stadtentwicklung, Abt. 61.2, 52348 Dueren) schreibt jaehrlich schriftlich aus, nennt den Bewerbungsschluss aber als konkretes Einzeldatum je Jahrgang und nicht als Dauerregel. Fuer 2027 lag zum Pruefzeitpunkt keine Ausschreibung vor."
+    },
+    {
+      "event_name": "Grosskirmes Kleve 2027",
+      "candidate_url": "https://www.kleve.de/stadt-kleve/freizeit-und-kultur/veranstaltungen/kirmes",
+      "reason": "Die Stadt Kleve schreibt die Grosskirmes jaehrlich aus und nimmt Platzbewerbungen ueber den Fachbereich Oeffentliche Sicherheit und Ordnung, Minoritenplatz 1, 47533 Kleve entgegen. Fuer 2027 war zum Pruefzeitpunkt keine Ausschreibung mit Frist veroeffentlicht."
+    },
+    {
+      "event_name": "Maikirmes Remscheid 2027",
+      "candidate_url": "https://www.remscheider-kirmes.de/maikirmes-schausteller/",
+      "reason": "Veranstalter ist der Remscheider Schuetzenverein von 1816 Korporation. Die Schausteller-Seite nennt fuer 2026 den Termin 30.04.-10.05., aber keine Bewerbungsfrist, keinen Bewerbungsweg und keine direkten Kontaktdaten ausser einem Kontaktformular."
+    },
+    {
+      "event_name": "Kirmes und Jahrmarkt Viersen 2027",
+      "candidate_url": "https://www.viersen.de/kirmes-und-jahrmarkt",
+      "reason": "Kirmesaussteller und Schausteller richten ihre Bewerbungen an das Ordnungsamt der Stadt Viersen. Die offizielle Seite war zum Pruefzeitpunkt nicht abrufbar (HTTP 403), eine Frist konnte daher nicht bestaetigt werden."
+    },
+    {
+      "event_name": "Bocholter Kirmes 2027",
+      "candidate_url": "https://www.muensterland.com/en/tourism/orte-muensterland/places-in-munsterland/bocholt/bocholt-funfair/",
+      "reason": "Groesste Kirmes im westlichen Muensterland mit rund 285 Schaustellern und 500.000 Besuchern, jeweils am dritten Oktoberwochenende. Eine offizielle Bewerbungsseite der Stadt Bocholt mit Frist konnte nicht gefunden werden."
+    },
+    {
+      "event_name": "Stunikenmarkt Hamm 2027",
+      "candidate_url": "https://www.hamm.de/veranstaltungen/stunikenmarkt",
+      "reason": "Offizielle Stadtseite bestaetigt die Veranstaltung, nennt aber kein Bewerbungsverfahren fuer Schausteller und keine Frist."
+    }
+  ]
+}

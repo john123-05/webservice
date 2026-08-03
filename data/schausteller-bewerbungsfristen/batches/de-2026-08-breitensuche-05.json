@@ -1,0 +1,144 @@
+{
+  "batch_id": "de-2026-08-breitensuche-05",
+  "region_scope": [
+    "Deutschland bundesweit",
+    "Fruehlingsfeste",
+    "Weihnachtsmaerkte mit offener Bewerbung"
+  ],
+  "search_terms": [
+    "Fruehlingsfest Volksfest 2027 Bewerbungsfrist Schausteller Stadt Bayern Baden-Wuerttemberg Ausschreibung",
+    "Weihnachtsmarkt 2026 Bewerbung Huette Standplatz Frist Stadt Gemeinde Kunsthandwerk Gastronomie",
+    "Stadt Marktsatzung Bewerbungsfrist Jahrmarkt Krammarkt 2027 Beschicker Zulassung Antrag"
+  ],
+  "max_expected_results": 60,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "neumarkter-fruehlingsfest-2027-neumarkt",
+      "event_name": "Neumarkter Fruehlingsfest 2027",
+      "event_type": "Fruehjahrsvolksfest",
+      "city": "Neumarkt in der Oberpfalz",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Neumarkt in der Oberpfalz",
+      "application_deadline_iso": "2026-12-01",
+      "application_deadline_text": "Bewerbungen sind jaehrlich bis spaetestens 01.12. des Vorjahres einzureichen, fuer das Fruehlingsfest 2027 also bis zum 01.12.2026.",
+      "event_date_range_text": "Fruehjahr 2027; der genaue Termin ist auf der Ausschreibungsseite nicht ausgewiesen.",
+      "application_mode": "Schriftliche bzw. formulargestuetzte Bewerbung beim Hauptamt der Stadt Neumarkt; getrennte Verfahren fuer Festwirt, Festbrauerei und Essensgeschaefte. Schau- und Fahrgeschaefte bewerben sich direkt bei Hartmanns Vergnuegungsbetriebe.",
+      "postal_address": "Stadt Neumarkt in der Oberpfalz, Hauptamt, Neumarkt",
+      "contact_name": "Hauptamt der Stadt Neumarkt; fuer Schau- und Fahrgeschaefte B. Wunderle-Wittmann und J. Wittmann, Hartmanns Vergnuegungsbetriebe, Leutenbachstr. 28, 91217 Hersbruck",
+      "contact_email": "Hartmanns-Vergnuegungsbetriebe@web.de",
+      "contact_phone": "09181 255-0",
+      "source_url": "https://www.neumarkt.de/kultur-stadtinfo/veranstaltungen-und-feste/feste/ausschreibungenbewerbungen-fuer-die-feste/",
+      "source_domain": "neumarkt.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "de-2026-08-breitensuche-05",
+      "confidence_status": "partial",
+      "notes": "Die Stadt Neumarkt trennt vier Bewerbergruppen mit identischer Frist. Schau- und Fahrgeschaefte laufen nicht ueber die Stadt, sondern ueber den beauftragten Vergnuegungsbetrieb."
+    },
+    {
+      "id": "neumarkter-jura-volksfest-2027-neumarkt",
+      "event_name": "Neumarkter JURA-Volksfest 2027",
+      "event_type": "Volksfest",
+      "city": "Neumarkt in der Oberpfalz",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Neumarkt in der Oberpfalz",
+      "application_deadline_iso": "2026-12-01",
+      "application_deadline_text": "Bewerbungen sind jaehrlich bis spaetestens 01.12. des Vorjahres einzureichen, fuer das JURA-Volksfest 2027 also bis zum 01.12.2026.",
+      "event_date_range_text": "2027; der genaue Termin ist auf der Ausschreibungsseite nicht ausgewiesen.",
+      "application_mode": "Schriftliche bzw. formulargestuetzte Bewerbung beim Hauptamt der Stadt Neumarkt; getrennte Verfahren fuer Festwirt, Festbrauerei und Essensgeschaefte. Schau- und Fahrgeschaefte bewerben sich direkt bei Hartmanns Vergnuegungsbetriebe.",
+      "postal_address": "Stadt Neumarkt in der Oberpfalz, Hauptamt, Neumarkt",
+      "contact_name": "Hauptamt der Stadt Neumarkt; fuer Schau- und Fahrgeschaefte B. Wunderle-Wittmann und J. Wittmann, Hartmanns Vergnuegungsbetriebe, Leutenbachstr. 28, 91217 Hersbruck",
+      "contact_email": "Hartmanns-Vergnuegungsbetriebe@web.de",
+      "contact_phone": "09181 255-0",
+      "source_url": "https://www.neumarkt.de/kultur-stadtinfo/veranstaltungen-und-feste/feste/ausschreibungenbewerbungen-fuer-die-feste/",
+      "source_domain": "neumarkt.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "de-2026-08-breitensuche-05",
+      "confidence_status": "partial",
+      "notes": "Zweites Neumarkter Volksfest mit identischem Verfahren und identischer Frist wie das Fruehlingsfest. Die Stadt weist Festwirt-Ausschreibungen mehrjaehrig aus (2025 bis 2027)."
+    },
+    {
+      "id": "voerder-weihnachtsmarkt-2026-voerde",
+      "event_name": "Voerder Weihnachtsmarkt 2026",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Voerde",
+      "state": "Nordrhein-Westfalen",
+      "country": "DE",
+      "venue_or_area": "Voerde",
+      "application_deadline_iso": "2026-09-30",
+      "application_deadline_text": "Die Bewerbungsfrist laeuft bis zum 30.09.2026.",
+      "event_date_range_text": "11. bis 13. Dezember 2026",
+      "application_mode": "Bewerbung ueber die Seite der Stadt Voerde fuer einen Standplatz oder eine Holzhuette.",
+      "postal_address": "Stadt Voerde, Voerde",
+      "contact_name": "Stadt Voerde",
+      "contact_email": "",
+      "contact_phone": "",
+      "source_url": "https://www.voerde.de/bewerbung-stand-weihnachtsmarkt",
+      "source_domain": "voerde.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "de-2026-08-breitensuche-05",
+      "confidence_status": "partial",
+      "notes": "Achtung: voerde.de blockiert automatisierte Abrufe (HTTP 403). Frist und Termin stammen aus der Indexierung derselben offiziellen Stadtseite, nicht aus einer eigenen Sichtung. Kontaktdaten konnten nicht ermittelt werden; vor Nutzerkommunikation gegenpruefen."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt Herrenberg 2026",
+      "candidate_url": "https://www.herrenberg.de/de/Rathaus/Aktuelles-Presse/Stadtnachrichten/Nachricht?view=publish&item=article&id=6905",
+      "reason": "Bewerbungsfrist war der 31. Mai 2026; die Stadt stellt Huetten zur Verfuegung. Frist zum Stichtag 03.08.2026 abgelaufen."
+    },
+    {
+      "event_name": "Bielefelder Weihnachtsmarkt 2026 - Weihnachtshuette",
+      "candidate_url": "https://www.bielefeld.jetzt/vergabe-weihnachtsmarkt",
+      "reason": "Anbieter von Kunsthandwerk und Geschenkartikeln konnten sich bis zum 01.06.2026 fuer eine zeitlich befristete Weihnachtshuette bewerben. Frist abgelaufen. Der Leineweber-Markt 2027 desselben Veranstalters ist mit Frist 31.12.2026 bereits erfasst."
+    },
+    {
+      "event_name": "Hildesheimer Weihnachtsmarkt 2026 - gemeinnuetzige Projekte und Kunsthandwerk",
+      "candidate_url": "https://www.hildesheim-tourismus.de/b2b/presse/gemeinnuetzige-projekte-und-kreatives-kunsthandwerk-auf-dem-hildesheimer-weihnachtsmarkt-2026-jetzt-bewerben",
+      "reason": "Bewerbungsfrist war der 30. Juni 2026. Bestaetigt das zuvor vermutete Fristmuster 30.06. des Veranstaltungsjahres fuer Hildesheim."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Eitorf 2026",
+      "candidate_url": "https://www.eitorf.de/aktuelles/jjjj-2/",
+      "reason": "Die Gemeinde Eitorf bat um Bewerbungen bis zum 30.04.2026. Frist abgelaufen."
+    },
+    {
+      "event_name": "Michaelimarkt Hilpoltstein 2026",
+      "candidate_url": "https://tourismus.hilpoltstein.de/veranstaltungen/hilpoltsteiner-maerkte/bewerbungen",
+      "reason": "Bewerbungsfrist war der 01. Juli 2026 fuer den Markt am 6. September 2026. Klarstellung zu einer widerspruechlichen Sekundaerquelle: Der Termin 01.07.2026 gehoert zum Michaelimarkt, nicht zum Weihnachtsmarkt, dessen Frist der 8. Oktober 2026 ist."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Weihnachtsstadt Bad Homburg",
+      "candidate_url": "https://www.bad-homburg.de/de/stadt/aktuelles/bewerbungsverfahren-fuer-die-weihnachtsstadt-bad-homburg-startet-bja3lnv8o4",
+      "reason": "Die Stadt Bad Homburg meldet den Start des Bewerbungsverfahrens fuer die Weihnachtsstadt. Der Artikelinhalt liess sich nicht auslesen, Frist und Kontakt konnten nicht ermittelt werden. Das Laternenfest Bad Homburg 2027 desselben Veranstalters ist mit Frist 31.10.2026 bereits erfasst. Zeitnah nachfassen, da das Verfahren laut Meldung gerade laeuft."
+    },
+    {
+      "event_name": "Hilpoltsteiner Maerkte - Restplatzvergabe ueber Warteliste",
+      "candidate_url": "https://tourismus.hilpoltstein.de/veranstaltungen/hilpoltsteiner-maerkte/bewerbungen",
+      "reason": "Ergaenzender Hinweis zu den bereits erfassten Hilpoltsteiner Eintraegen: Die Stadt akzeptiert Bewerbungen auch nach Ablauf der genannten Fristen und vergibt freie Plaetze ueber Wartelisten bis zum jeweiligen Markttag. Relevant fuer Nutzer, die eine Frist verpasst haben."
+    },
+    {
+      "event_name": "Muenchner Fruehlingsfest 2027",
+      "candidate_url": "https://www.munich.travel/pois/maerkte-feste/fruehlingsfest-muenchen",
+      "reason": "Termin 16. April bis 2. Mai 2027 auf der Theresienwiese. Die Vergabe laeuft ueber das zentrale Muenchener Bewerbungsverfahren, dessen Unterlagen fuer 2027 erst ab November 2026 bereitstehen."
+    },
+    {
+      "event_name": "Wuerzburger Volksfeste 2027 - Aufruf",
+      "candidate_url": "https://www.wuerzburg.de/events-termine/fruehjahrsvolksfest",
+      "reason": "Das Wuerzburger Fruehjahrsvolksfest 2027 findet vom 6. bis 21. Maerz 2027 statt; die Stadt laedt zur Bewerbung fuer die Wuerzburger Volksfeste 2027 ein. Fruehjahrsvolksfest und Kiliani-Volksfest 2027 sind mit Frist 30.09.2026 bereits erfasst; dieser Aufruf bestaetigt sie."
+    },
+    {
+      "event_name": "Stuttgarter Fruehlingsfest 2027",
+      "candidate_url": "https://www.cannstatter-volksfest.de/fileadmin/stuttgarter-fruehlingsfest/bewerbung/Bewerbung_Fruehlingsfest_2027.pdf",
+      "reason": "Eigenes Bewerbungsformular der in.Stuttgart Veranstaltungsgesellschaft mbH & Co. KG fuer das Fruehlingsfest 2027, parallel zum Cannstatter Volksfest. Ob die Frist 14.10.2026 des Volksfests auch fuer das Fruehlingsfest gilt, ist auf der Bewerbungsseite nicht eindeutig ausgewiesen. Beim Veranstalter klaeren: Thomas Heibel, +49 711 9554 3303."
+    }
+  ]
+}
