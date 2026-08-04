@@ -61,7 +61,7 @@
       "label": "Ruhrgebiet Ost und Südwestfalen Nord",
       "state": "Nordrhein-Westfalen",
       "tier": 1,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Dortmund",
         "Hagen",
@@ -82,7 +82,9 @@
         "Werl",
         "Soest",
         "Lippstadt",
-        "Arnsberg"
+        "Arnsberg",
+        "Kamen",
+        "Bergkamen"
       ]
     },
     {
@@ -118,7 +120,7 @@
       "label": "Köln, Bonn und Rhein-Sieg",
       "state": "Nordrhein-Westfalen",
       "tier": 1,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Köln",
         "Bonn",

@@ -1,0 +1,62 @@
+{
+  "batch_id": "nrw-koeln-bonn-2026-08",
+  "region_scope": [
+    "Köln",
+    "Bonn",
+    "Rhein-Sieg-Kreis",
+    "Rhein-Erft-Kreis",
+    "Kreis Euskirchen"
+  ],
+  "search_terms": [
+    "Siegburg Troisdorf Sankt Augustin Hennef Lohmar Kirmes Stadtfest Weihnachtsmarkt Bewerbung Frist",
+    "Bruehl Huerth Frechen Pulheim Bergheim Euskirchen Kirmes Bewerbung Schausteller Ordnungsamt Frist",
+    "Siegburg Sommer Live Weihnachtsmarkt Bewerbung Standbetreiber Frist Kirmes offiziell"
+  ],
+  "max_expected_results": 50,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-04",
+  "entries": [],
+  "rejected_candidates": [],
+  "review_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt auf Burg Wissem Troisdorf 2027",
+      "candidate_url": "https://www.troisdorf.de/de/freizeit-familie/innenstadtfeste/weihnachtsmarkt/bewerbung-standplatz-weihnachtsmarkt-fuer-aussteller-innen/",
+      "reason": "Die Stadt Troisdorf betreibt ein Online-Bewerbungsformular mit umfangreichen Downloads (Standspezifikationen, Satzungen, Gebuehrenordnung, Gaststaettenantrag). Fuer 2026 gilt die Frist 16. November 2026 bei Markt vom 11. bis 13. Dezember; sie ist bereits als Eintrag erfasst. Die Stadt weist die Frist jedoch nicht als Dauerregel aus, daher wurde fuer 2027 nichts abgeleitet. Stadt Troisdorf, Koelner Strasse 176, 53840 Troisdorf, 02241 900-0, rathaus@troisdorf.de."
+    },
+    {
+      "event_name": "Mittelalterlicher Weihnachtsmarkt Siegburg",
+      "candidate_url": "https://events.siegburg.de/",
+      "reason": "Markt vom 21. November bis 22. Dezember 2026. Anfragen laufen ueber die Stadtbetriebe Siegburg, weihnachtsmarkt@stadtbetriebe-siegburg.de, 02241 10275-33. Ein Bewerbungsverfahren mit kalendarischer Frist ist nicht veroeffentlicht."
+    },
+    {
+      "event_name": "Siegburg Sommer Live",
+      "candidate_url": "https://tourismus-siegburg.de/events/",
+      "reason": "Konzertreihe mittwochs auf dem Siegburger Marktplatz von Juni bis August, organisiert von der Agentur MS Events. Standplatzrelevant fuer Gastronomie. Keine Frist veroeffentlicht. Teil des MS-Events-Verbunds, der auch Attendorn, Lennestadt, Olpe, Sankt Augustin, Altenkirchen und Werder betreut."
+    },
+    {
+      "event_name": "Margaretenkirmes Brühl",
+      "candidate_url": "https://wepag.de/margaretenkirmes-in-bruehl/",
+      "reason": "Traditionskirmes in Bruehl, organisiert unter Beteiligung der WEPAG Bruehl (Werbe- und Parkhausgesellschaft). Ein Bewerbungsverfahren mit Frist ist nicht veroeffentlicht. Beispiel fuer den Fall, dass eine stadtnahe Gesellschaft und nicht das Ordnungsamt zustaendig ist."
+    },
+    {
+      "event_name": "Herbstkirmes Frechen",
+      "candidate_url": "https://www.frechen.de/",
+      "reason": "Dreitaegige Herbstkirmes in Frechen. Weder Stadt noch Veranstalter veroeffentlichen ein Bewerbungsverfahren mit Frist."
+    },
+    {
+      "event_name": "Kirmessen und Maerkte Rhein-Erft-Kreis (Huerth, Pulheim, Bergheim, Kerpen, Wesseling, Erftstadt, Bedburg)",
+      "candidate_url": "https://rhein-erft-kreis.city-map.de/",
+      "reason": "Sieben Staedte des Rhein-Erft-Kreises geprueft. Kirmessen finden statt, aber keine der Staedte veroeffentlicht ein Bewerbungsverfahren mit kalendarischer Frist auf einer offiziellen Seite. Erneut zu pruefen, wenn die Ausschreibungen im Herbst 2026 erscheinen."
+    },
+    {
+      "event_name": "Veranstaltungen Rhein-Sieg-Kreis (Sankt Augustin, Hennef, Lohmar, Overath, Koenigswinter, Bad Honnef)",
+      "candidate_url": "https://www.rheinische-anzeigenblaetter.de/rhein-sieg/c-nachrichten/veranstaltungen-in-der-region-im-ueberblick_a252905",
+      "reason": "Sechs Staedte des Rhein-Sieg-Kreises geprueft. Stadtfeste und Kirmessen sind belegt, aber ohne veroeffentlichtes Bewerbungsverfahren mit Frist. Sankt Augustin wird teilweise von MS Events betreut."
+    },
+    {
+      "event_name": "Koelner Jahrmaerkte, Volksfeste und Spezialmaerkte",
+      "candidate_url": "https://www.stadt-koeln.de/service/produkte/00292/index.html",
+      "reason": "Bereits in frueherer Welle geprueft, Status unveraendert: Die Stadt Koeln nennt 'Der Antrag muss mindestens 4 Wochen vor der Veranstaltung vorliegen', das Verfahren richtet sich aber an Veranstalter (Marktfestsetzung), nicht an Beschicker. Der Weihnachtsmarkt am Dom laeuft ueber die Koelner Weihnachtsgesellschaft ohne Frist."
+    }
+  ]
+}

@@ -9,6 +9,8 @@ Format: `Datum | Einheit | neue Einträge | Bemerkung`
 
 | Datum | Einheit | Neu | Bemerkung |
 |---|---|---|---|
+| 2026-08-04 | nrw-koeln-bonn | +0 | 19 Städte. Troisdorf 2026 war schon erfasst, ohne Dauerregel keine Ableitung für 2027. Rhein-Erft und Rhein-Sieg publizieren keine Fristen |
+| 2026-08-04 | nrw-ruhr-ost | +5 | Kamen ist eine Sammelstadt: vier Kirmessen, Dauerregel 15.12. Recklinghausen Palmkirmes 2027 aus Muster abgeleitet. Lünen hat fünf Veranstaltungen mit Formularen, aber ohne Frist |
 | 2026-08-04 | nrw-duesseldorf-suedwestfalen | +0 | 18 Städte, 12 review-Kandidaten, kein publiziertes Fristdatum. Sauerland/Siegerland wird von Schützenvereinen bespielt, nicht von Städten. Agentur MS Events betreut 7 Orte — Sammelanfrage lohnt |
 | 2026-08-04 | kleinstaedte-01 (Stichprobe Bad Salzuflen) | +2 | Beleg, dass Kleinstädte tragen: Fristen lagen auf einer Unterseite der Werbegemeinschaft, nicht bei der Stadt |
 | 2026-08-04 | regelfristen-02 (Bayern Großvolksfeste) | +7 | Oktoberfest, Auer Dulten, Passau, Landshut über Dauerregeln erschlossen |

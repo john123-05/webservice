@@ -3701,6 +3701,102 @@
       "agent_batch_id": "nrw-duesseldorf-suedwestfalen-2026-08"
     },
     {
+      "event_name": "Weihnachtsmarkt auf Burg Wissem Troisdorf 2027",
+      "candidate_url": "https://www.troisdorf.de/de/freizeit-familie/innenstadtfeste/weihnachtsmarkt/bewerbung-standplatz-weihnachtsmarkt-fuer-aussteller-innen/",
+      "reason": "Die Stadt Troisdorf betreibt ein Online-Bewerbungsformular mit umfangreichen Downloads (Standspezifikationen, Satzungen, Gebuehrenordnung, Gaststaettenantrag). Fuer 2026 gilt die Frist 16. November 2026 bei Markt vom 11. bis 13. Dezember; sie ist bereits als Eintrag erfasst. Die Stadt weist die Frist jedoch nicht als Dauerregel aus, daher wurde fuer 2027 nichts abgeleitet. Stadt Troisdorf, Koelner Strasse 176, 53840 Troisdorf, 02241 900-0, rathaus@troisdorf.de.",
+      "agent_batch_id": "nrw-koeln-bonn-2026-08"
+    },
+    {
+      "event_name": "Mittelalterlicher Weihnachtsmarkt Siegburg",
+      "candidate_url": "https://events.siegburg.de/",
+      "reason": "Markt vom 21. November bis 22. Dezember 2026. Anfragen laufen ueber die Stadtbetriebe Siegburg, weihnachtsmarkt@stadtbetriebe-siegburg.de, 02241 10275-33. Ein Bewerbungsverfahren mit kalendarischer Frist ist nicht veroeffentlicht.",
+      "agent_batch_id": "nrw-koeln-bonn-2026-08"
+    },
+    {
+      "event_name": "Siegburg Sommer Live",
+      "candidate_url": "https://tourismus-siegburg.de/events/",
+      "reason": "Konzertreihe mittwochs auf dem Siegburger Marktplatz von Juni bis August, organisiert von der Agentur MS Events. Standplatzrelevant fuer Gastronomie. Keine Frist veroeffentlicht. Teil des MS-Events-Verbunds, der auch Attendorn, Lennestadt, Olpe, Sankt Augustin, Altenkirchen und Werder betreut.",
+      "agent_batch_id": "nrw-koeln-bonn-2026-08"
+    },
+    {
+      "event_name": "Margaretenkirmes Brühl",
+      "candidate_url": "https://wepag.de/margaretenkirmes-in-bruehl/",
+      "reason": "Traditionskirmes in Bruehl, organisiert unter Beteiligung der WEPAG Bruehl (Werbe- und Parkhausgesellschaft). Ein Bewerbungsverfahren mit Frist ist nicht veroeffentlicht. Beispiel fuer den Fall, dass eine stadtnahe Gesellschaft und nicht das Ordnungsamt zustaendig ist.",
+      "agent_batch_id": "nrw-koeln-bonn-2026-08"
+    },
+    {
+      "event_name": "Herbstkirmes Frechen",
+      "candidate_url": "https://www.frechen.de/",
+      "reason": "Dreitaegige Herbstkirmes in Frechen. Weder Stadt noch Veranstalter veroeffentlichen ein Bewerbungsverfahren mit Frist.",
+      "agent_batch_id": "nrw-koeln-bonn-2026-08"
+    },
+    {
+      "event_name": "Kirmessen und Maerkte Rhein-Erft-Kreis (Huerth, Pulheim, Bergheim, Kerpen, Wesseling, Erftstadt, Bedburg)",
+      "candidate_url": "https://rhein-erft-kreis.city-map.de/",
+      "reason": "Sieben Staedte des Rhein-Erft-Kreises geprueft. Kirmessen finden statt, aber keine der Staedte veroeffentlicht ein Bewerbungsverfahren mit kalendarischer Frist auf einer offiziellen Seite. Erneut zu pruefen, wenn die Ausschreibungen im Herbst 2026 erscheinen.",
+      "agent_batch_id": "nrw-koeln-bonn-2026-08"
+    },
+    {
+      "event_name": "Veranstaltungen Rhein-Sieg-Kreis (Sankt Augustin, Hennef, Lohmar, Overath, Koenigswinter, Bad Honnef)",
+      "candidate_url": "https://www.rheinische-anzeigenblaetter.de/rhein-sieg/c-nachrichten/veranstaltungen-in-der-region-im-ueberblick_a252905",
+      "reason": "Sechs Staedte des Rhein-Sieg-Kreises geprueft. Stadtfeste und Kirmessen sind belegt, aber ohne veroeffentlichtes Bewerbungsverfahren mit Frist. Sankt Augustin wird teilweise von MS Events betreut.",
+      "agent_batch_id": "nrw-koeln-bonn-2026-08"
+    },
+    {
+      "event_name": "Koelner Jahrmaerkte, Volksfeste und Spezialmaerkte",
+      "candidate_url": "https://www.stadt-koeln.de/service/produkte/00292/index.html",
+      "reason": "Bereits in frueherer Welle geprueft, Status unveraendert: Die Stadt Koeln nennt 'Der Antrag muss mindestens 4 Wochen vor der Veranstaltung vorliegen', das Verfahren richtet sich aber an Veranstalter (Marktfestsetzung), nicht an Beschicker. Der Weihnachtsmarkt am Dom laeuft ueber die Koelner Weihnachtsgesellschaft ohne Frist.",
+      "agent_batch_id": "nrw-koeln-bonn-2026-08"
+    },
+    {
+      "event_name": "Kirmessen Bergkamen 2027",
+      "candidate_url": "https://www.bergkamen.de/kultur-tourismus-sport-events/veranstaltungen/maerkte-und-messen/kirmessen/",
+      "reason": "Die Stadt Bergkamen stellt eine Online-Standplatzanfrage bereit, nennt aber keine Frist. Fruehjahrskirmes 2026 vom 27. bis 30.03., die Herbstkirmes faellt aus. Zustaendig: Abteilung Sicherheit und Ordnung, Rathausplatz 1, 59192 Bergkamen, 02307 965-364, ordnungsamt@bergkamen.de.",
+      "agent_batch_id": "nrw-ruhr-ost-2026-08"
+    },
+    {
+      "event_name": "Veranstaltungen der Stadt Luenen (Fruehlingsbasar, Himmelfahrtskirmes, Luensche Mess, Weihnachtsbasar, Weihnachtsmarkt)",
+      "candidate_url": "https://www.luenen.de/de/tourismus/veranstaltungen/",
+      "reason": "Die Stadt Luenen fuehrt mindestens fuenf standplatzrelevante Veranstaltungen im Jahreslauf und stellt fuer Fruehlingsbasar 2027 und Weihnachtsbasar bereits Anmeldeformulare bereit (Standkosten 10 Euro pro Meter). Ein Fristdatum ist nicht ausgewiesen. Kulturbuero Luenen, 02306 104-1781, stadtmarketing@luenen.de. Sammelseite mit Multiplikatorpotenzial, daher zeitnah nachfassen.",
+      "agent_batch_id": "nrw-ruhr-ost-2026-08"
+    },
+    {
+      "event_name": "Stunikenmarkt Hamm",
+      "candidate_url": "https://www.hamm.de/veranstaltungen/stunikenmarkt",
+      "reason": "Offizielle Stadtseite bestaetigt die Veranstaltung, nennt aber kein Bewerbungsverfahren fuer Schausteller und keine Frist. Bereits in frueherer Welle erfasst, Status unveraendert.",
+      "agent_batch_id": "nrw-ruhr-ost-2026-08"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Recklinghausen",
+      "candidate_url": "https://www.recklinghausen.de/",
+      "reason": "Ueber ein Schausteller-Portal als Platzangebot fuer Getraenke und Speisen entdeckt. Vollstaendige Bewerbungen mit Bildern und exakten Massen inklusive Dachueberstand, Deichsel und Strombedarf sind gefordert. Eine offizielle Seite mit Frist konnte nicht gefunden werden.",
+      "agent_batch_id": "nrw-ruhr-ost-2026-08"
+    },
+    {
+      "event_name": "Kirmessen Kreis Unna (Maikirmes und Katharinenkirmes Unna, Maikirmes Schwerte)",
+      "candidate_url": "https://www.unna.de/",
+      "reason": "Unna richtet Fruehjahrs- und Katharinenkirmes aus (Fruehjahrskirmes 2026 vom 08. bis 11.05.), Schwerte die Maikirmes (2026 vom 01. bis 04.05.). Keine der beiden Staedte veroeffentlicht ein Bewerbungsverfahren mit Frist auf einer offiziellen Seite.",
+      "agent_batch_id": "nrw-ruhr-ost-2026-08"
+    },
+    {
+      "event_name": "Lippstaedter Herbstwoche 2027",
+      "candidate_url": "https://www.lippstadt.de/",
+      "reason": "Groesstes Volksfest Lippstadts, 2026 vom 16. bis 25.10. Der Schaustellerverein Lippstadt e.V. ist Mitveranstalter und richtet zusaetzlich die Osterkirmes aus. Ein staedtisches Bewerbungsverfahren mit Frist ist nicht veroeffentlicht; naechster Ansatz ist der Schaustellerverein.",
+      "agent_batch_id": "nrw-ruhr-ost-2026-08"
+    },
+    {
+      "event_name": "Huestener Kirmes Arnsberg 2027",
+      "candidate_url": "https://www.arnsberg.de/",
+      "reason": "Termin 2026 vom 11. bis 15.09. Bereits in frueherer Welle als Kandidat erfasst. Aktives Neheim / Citybuero stellt ein eigenes Schausteller-Bewerbungsformular fuer den Neheimer Markt bereit, ebenfalls ohne Frist.",
+      "agent_batch_id": "nrw-ruhr-ost-2026-08"
+    },
+    {
+      "event_name": "Kirmessen und Weihnachtsmaerkte Hagen, Castrop-Rauxel, Marl, Datteln, Waltrop, Werl, Hemer, Altena",
+      "candidate_url": "https://www.hagen.de/",
+      "reason": "Acht Staedte der Einheit geprueft. Veranstaltungen finden statt, aber keine der Staedte veroeffentlicht ein Bewerbungsverfahren mit kalendarischer Frist auf einer offiziellen Seite. Erneut zu pruefen, wenn die Ausschreibungen im Herbst 2026 erscheinen.",
+      "agent_batch_id": "nrw-ruhr-ost-2026-08"
+    },
+    {
       "event_name": "Münchner Oktoberfest, Oide Wiesn, Auer Dulten und Christkindlmarkt 2027",
       "candidate_url": "https://stadt.muenchen.de/infos/bewerbungmaerkteundfeste.html",
       "reason": "Die offizielle Seite kündigt Bewerbungsunterlagen für 2027 erst ab November an; eine konkrete offene Frist für 2027 ist noch nicht veröffentlicht.",
