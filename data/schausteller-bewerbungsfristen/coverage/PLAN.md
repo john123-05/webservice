@@ -12,6 +12,7 @@ Aktuellen Stand immer per Skript abfragen, nie aus diesem Dokument ablesen:
 ```
 npm run deadlines:coverage    # Fortschritt je Einheit
 npm run deadlines:next        # nur die nächste offene Einheit
+npm run deadlines:audit       # Datenqualität prüfen
 ```
 
 ## Arbeitsprinzip: eine Einheit pro Durchgang
@@ -125,6 +126,22 @@ Eintrag existiert:
 ```
 node -e "const l=require('./data/schausteller-bewerbungsfristen/research-log.json'),m=require('./data/schausteller-bewerbungsfristen/master.json');const n=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();const names=new Set(m.entries.map(e=>n(e.event_name)));console.log(l.review_candidates.filter(c=>names.has(n(c.event_name))).map(c=>c.event_name));"
 ```
+
+## Qualitätsprüfung
+
+`npm run deadlines:audit` prüft abgelaufene Fristen, doppelte IDs,
+unbekannte Bundesländer, ASCII-Umschriften in nutzersichtbaren Feldern,
+fehlende Kontaktwege und ob Fristtext und ISO-Datum übereinstimmen.
+
+Die Linkprüfung läuft separat, weil sie einige Minuten dauert:
+
+```
+node scripts/deadlines/audit.mjs --links
+```
+
+Statuscodes 403 und 429 sind Blockaden der Betreiber, keine toten Links.
+Nach jeder Welle einmal ohne `--links` laufen lassen, vor größeren
+Releases einmal mit.
 
 ## Bekannte Stolpersteine
 

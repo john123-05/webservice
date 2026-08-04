@@ -9,6 +9,7 @@
     "deadlines:create-wave": "node scripts/deadlines/create-wave.mjs",
     "deadlines:build": "node scripts/deadlines/consolidate.mjs",
     "deadlines:check": "node scripts/deadlines/consolidate.mjs --check",
+    "deadlines:audit": "node scripts/deadlines/audit.mjs",
     "deadlines:coverage": "node scripts/deadlines/coverage.mjs",
     "deadlines:next": "node scripts/deadlines/coverage.mjs --next",
     "build": "npm run deadlines:build && npm run seo:generate && node scripts/build-static.mjs",
