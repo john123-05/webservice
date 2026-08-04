@@ -125,17 +125,17 @@
       "application_deadline_text": "30.11.2026",
       "event_date_range_text": "01.05.-09.05.2027",
       "application_mode": "Onlineformular der Minden Marketing GmbH",
-      "postal_address": "",
+      "postal_address": "Minden Marketing GmbH, Kleiner Domhof 17, 32423 Minden",
       "contact_name": "Minden Marketing GmbH",
-      "contact_email": "",
-      "contact_phone": "",
+      "contact_email": "info@mindenmarketing.de",
+      "contact_phone": "0571 8290659",
       "source_url": "https://www.minden-erleben.de/tourismus/index.php/de/standplatz-mindener-maimesse",
       "source_domain": "minden-erleben.de",
       "source_kind": "official",
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "research-2026-08-03-main-web",
       "confidence_status": "partial",
-      "notes": "Bewerbungszeitraum laut Veranstalter 01.08.-30.11.2026."
+      "notes": "Bewerbungszeitraum laut Veranstalter 01.08.-30.11.2026. Kontaktdaten im August 2026 aus der offiziellen Quelle ergaenzt."
     },
     {
       "id": "bobinger-volksfest-2027-bobingen",

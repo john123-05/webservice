@@ -245,15 +245,15 @@
       "application_mode": "Schriftliche Bewerbung bei der Stadt Naumburg (Saale)",
       "postal_address": "",
       "contact_name": "Marktverwaltung der Stadt Naumburg (Saale)",
-      "contact_email": "",
-      "contact_phone": "",
+      "contact_email": "ordnungsamt@naumburg-stadt.de",
+      "contact_phone": "+49 3445 273-340",
       "source_url": "https://www.naumburg.de/de/1597%2C1164/103945%2C1164%2Cde%2C1.html",
       "source_domain": "naumburg.de",
       "source_kind": "official",
       "last_verified_at": "2026-08-03",
       "agent_batch_id": "research-2026-08-03-sn-st-th",
       "confidence_status": "partial",
-      "notes": "Die städtische Marktordnung bestätigt die jährlich geltende Frist und den wiederkehrenden Veranstaltungszeitraum. Direkte Kontaktdaten stehen auf der geprüften Regelungsseite nicht bei der Frist."
+      "notes": "Die städtische Marktordnung bestätigt die jährlich geltende Frist und den wiederkehrenden Veranstaltungszeitraum. Direkte Kontaktdaten stehen auf der geprüften Regelungsseite nicht bei der Frist. Kontaktdaten im August 2026 aus der offiziellen Quelle ergaenzt."
     },
     {
       "id": "rudolstadt-festival-2027-rudolstadt",
