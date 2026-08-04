@@ -1061,11 +1061,67 @@ const initSubscribeForm = () => {
 };
 initSubscribeForm();
 
+// Fristenkalender-Anmeldung, eingebettet auf anderen Seiten (z.B. schausteller-websites.html).
+// Wer sich hier eintraegt, soll den Kalender dort sofort offen sehen, statt
+// erneut gegen das Overlay zu laufen - deshalb wird der Freischalt-Status
+// fuer die Kalenderseite direkt mitgesetzt.
+const initInlineFristenkalenderForm = () => {
+  const form = document.querySelector('[data-fristen-form]');
+  if (!form) return;
+
+  const status = document.querySelector('[data-fristen-status]');
+  const calendarPage = 'schausteller-bewerbungsfristen.html';
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const button = form.querySelector('button[type="submit"]');
+    const email = form.querySelector('input[name="email"]')?.value?.trim();
+    const label = button?.textContent;
+
+    if (button) {
+      button.disabled = true;
+      button.textContent = 'Wird gesendet …';
+    }
+
+    await postLeadWebhook({
+      email,
+      source: form.dataset.formSource || 'fristenkalender-inline',
+      page: window.location.pathname,
+      leadmagnet: 'bewerbungsfristen-kalender',
+      angemeldet: 'ja',
+      timestamp: new Date().toISOString(),
+    });
+
+    try {
+      localStorage.setItem(`deadline-unlocked:/${calendarPage}`, 'true');
+    } catch (_) {}
+
+    if (status) {
+      status.hidden = false;
+      status.textContent = 'Eingetragen. Du wirst zum Fristenkalender weitergeleitet …';
+    }
+
+    form.reset();
+    window.setTimeout(() => {
+      window.location.href = calendarPage;
+    }, 900);
+
+    if (button) {
+      button.disabled = false;
+      button.textContent = label || 'Abonnieren';
+    }
+  });
+};
+initInlineFristenkalenderForm();
+
 const initSchaustellerDeadlinePage = async () => {
   const pageRoot = document.querySelector('[data-deadline-page]');
   if (!pageRoot) return;
 
-  const FREE_ROWS = 25;
+  // Frei sichtbar sind die naechsten drei Fristen. Danach folgt die Sperrzone:
+  // ein paar weitere Zeilen werden nur noch unscharf als Vorschau gerendert.
+  const FREE_ROWS = 3;
+  const TEASER_ROWS = 6;
   const storageKey = `deadline-unlocked:${window.location.pathname}`;
 
   const listEl = document.getElementById('fk-list');
@@ -1077,7 +1133,8 @@ const initSchaustellerDeadlinePage = async () => {
   const stateEl = document.getElementById('fk-state');
   const periodEl = document.getElementById('fk-period');
   const resetEl = document.querySelector('[data-fk-reset]');
-  const gateEl = document.querySelector('[data-fk-gate]');
+  const lockZoneEl = document.querySelector('[data-fk-lockzone]');
+  const lockedListEl = document.getElementById('fk-locked');
   const gateCountEl = document.getElementById('fk-gate-count');
   const forms = [...document.querySelectorAll('[data-fk-form]')];
 
@@ -1210,7 +1267,10 @@ const initSchaustellerDeadlinePage = async () => {
   };
 
   // -- Rows ---------------------------------------------------------------
-  const rowMarkup = (entry, index) => {
+  // Das Praefix trennt die IDs der freien Zeilen von denen der unscharfen
+  // Vorschauzeilen - sonst gaebe es jedes fk-detail-N zweimal im Dokument.
+  const rowMarkup = (entry, index, prefix = 'f') => {
+    const domId = `fk-detail-${prefix}${index}`;
     const diff = daysUntil(entry);
     const contact = [entry.contact_name, entry.contact_email, entry.contact_phone]
       .filter(Boolean).map(escapeHtml).join('<br>');
@@ -1219,7 +1279,7 @@ const initSchaustellerDeadlinePage = async () => {
       : '<span class="fk-tag fk-tag--partial">Offizielle Quelle</span>';
 
     return `
-      <button class="fk-row" type="button" aria-expanded="false" aria-controls="fk-detail-${index}" data-fk-row="${index}">
+      <button class="fk-row" type="button" aria-expanded="false" aria-controls="${domId}" data-fk-row="${domId}">
         <span class="fk-date">
           <span class="fk-date-day">${String(entry.date.getDate()).padStart(2, '0')}</span>
           <span class="fk-date-month">${MONTHS_SHORT[entry.date.getMonth()]} ${String(entry.date.getFullYear()).slice(2)}</span>
@@ -1233,7 +1293,7 @@ const initSchaustellerDeadlinePage = async () => {
           <span class="fk-chevron" aria-hidden="true"></span>
         </span>
       </button>
-      <div class="fk-detail" id="fk-detail-${index}" hidden>
+      <div class="fk-detail" id="${domId}" hidden>
         <div class="fk-detail-grid">
           <div class="fk-detail-item">
             <span>Frist</span>
@@ -1272,13 +1332,12 @@ const initSchaustellerDeadlinePage = async () => {
     const filtered = getFiltered();
     const limited = unlocked ? filtered : filtered.slice(0, FREE_ROWS);
     const hidden = filtered.length - limited.length;
+    const locked = !unlocked && hidden > 0;
     currentRows = limited;
 
     if (resultCountEl) resultCountEl.textContent = String(filtered.length);
     if (resultHintEl) {
-      resultHintEl.textContent = filtered.length && !unlocked && hidden > 0
-        ? `${limited.length} von ${filtered.length} sichtbar`
-        : '';
+      resultHintEl.textContent = locked ? `${limited.length} von ${filtered.length} sichtbar` : '';
     }
 
     if (!filtered.length) {
@@ -1286,19 +1345,27 @@ const initSchaustellerDeadlinePage = async () => {
         ? 'Der Kalender konnte gerade nicht geladen werden. Bitte lade die Seite neu.'
         : 'Keine Frist gefunden. Passe Bundesland oder Zeitraum an.'}</p>`;
     } else {
-      listEl.innerHTML = limited.map(rowMarkup).join('');
+      listEl.innerHTML = limited.map((entry, index) => rowMarkup(entry, index, 'f')).join('');
     }
 
-    if (gateEl) {
-      gateEl.hidden = unlocked || hidden <= 0;
-      if (gateCountEl) gateCountEl.textContent = String(Math.max(hidden, 0));
+    // Hinter der Glasflaeche stehen nur so viele Zeilen, wie man durch den
+    // Blur hindurch ahnen kann - der Rest waere unsichtbares DOM-Gewicht.
+    if (lockedListEl) {
+      lockedListEl.innerHTML = locked
+        ? filtered.slice(FREE_ROWS, FREE_ROWS + TEASER_ROWS)
+          .map((entry, index) => rowMarkup(entry, index, 'l')).join('')
+        : '';
     }
+
+    if (lockZoneEl) lockZoneEl.hidden = !locked;
+    if (scrollEl) scrollEl.dataset.locked = locked ? 'true' : 'false';
+    if (gateCountEl) gateCountEl.textContent = String(Math.max(hidden, 0));
   };
 
   listEl?.addEventListener('click', (event) => {
     const row = event.target.closest('[data-fk-row]');
     if (!row) return;
-    const detail = document.getElementById(`fk-detail-${row.dataset.fkRow}`);
+    const detail = document.getElementById(row.dataset.fkRow);
     if (!detail) return;
     const open = row.getAttribute('aria-expanded') === 'true';
     row.setAttribute('aria-expanded', open ? 'false' : 'true');
@@ -1318,11 +1385,6 @@ const initSchaustellerDeadlinePage = async () => {
     scrollEl?.scrollTo({ top: 0 });
   });
 
-  document.querySelector('[data-fk-gate-open]')?.addEventListener('click', () => {
-    document.getElementById('newsletter')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    window.setTimeout(() => document.getElementById('fk-email-bottom')?.focus(), 500);
-  });
-
   // -- Newsletter forms ---------------------------------------------------
   const unlock = (form) => {
     unlocked = true;
@@ -1330,7 +1392,14 @@ const initSchaustellerDeadlinePage = async () => {
       localStorage.setItem(storageKey, 'true');
     } catch (_) {}
 
-    const status = form?.parentElement?.querySelector('[data-fk-status]');
+    // Wird im Overlay abgeschickt, verschwindet gleich das ganze Overlay -
+    // die Bestaetigung muss dann in einer Box stehen, die sichtbar bleibt.
+    const ownStatus = form?.parentElement?.querySelector('[data-fk-status]');
+    const inLockZone = lockZoneEl?.contains(form);
+    const status = inLockZone
+      ? document.querySelector('#newsletter-top [data-fk-status]') || ownStatus
+      : ownStatus;
+
     if (status) {
       status.hidden = false;
       status.textContent = 'Eingetragen. Der vollständige Kalender ist jetzt offen.';

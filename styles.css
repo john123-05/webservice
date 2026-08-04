@@ -4902,7 +4902,8 @@ h2 {
 
 .fk-lead-ink { color: var(--ink); }
 
-/* haelt "rechtzeitig erinnert." zusammen */
+/* haelt Wortgruppen zusammen, die nicht umbrechen duerfen:
+   "Bewerbungsfrist mehr" und "rechtzeitig erinnert." */
 .fk-lead-tight { white-space: nowrap; }
 
 .fk-sub {
@@ -4953,21 +4954,12 @@ h2 {
 
 .fk-signup h2,
 .fk-cta .fk-signup h2 {
-  margin: 0 0 6px;
+  margin: 0 0 18px;
   font-size: 1.12rem;
   font-weight: 700;
   line-height: 1.3;
   color: var(--ink);
   letter-spacing: -0.01em;
-  max-width: none;
-}
-
-.fk-signup-note,
-.fk-cta .fk-signup-note {
-  margin: 0 0 20px;
-  font-size: 0.9rem;
-  line-height: 1.55;
-  color: var(--fk-ink-soft);
   max-width: none;
 }
 
@@ -4982,6 +4974,21 @@ h2 {
   font-weight: 600;
   color: var(--fk-ink-soft);
   margin-bottom: 5px;
+}
+
+/* Das Formular kommt ohne sichtbare Beschriftung aus - der Platzhalter reicht.
+   Das Label bleibt fuer Screenreader erhalten, statt es zu loeschen. */
+.fk-label-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }
 
 .fk-form input {
@@ -5020,13 +5027,6 @@ h2 {
 
 .fk-form button:hover { background: var(--primary-deep); }
 .fk-form button:disabled { opacity: 0.6; cursor: default; }
-
-.fk-fineprint {
-  margin: 14px 0 0;
-  font-size: 0.78rem;
-  line-height: 1.5;
-  color: #8493a5;
-}
 
 .fk-status {
   margin: 14px 0 0;
@@ -5366,34 +5366,76 @@ h2 {
 }
 
 /* Gate */
-.fk-gate {
-  padding: 30px 20px 34px;
-  border-top: 1px solid var(--fk-line);
-  background: #f8fafc;
-  text-align: center;
+/* Sperrzone ------------------------------------------------------------
+   Ab der vierten Frist bleiben die Zeilen im DOM, werden aber unscharf
+   hinter einer Glasflaeche gezeigt. Der Blur liegt auf dem Inhalt selbst,
+   damit die Daten auch dann unlesbar sind, wenn der Browser kein
+   backdrop-filter kann; das backdrop-filter darueber macht den Glaseffekt. */
+/* Feste Bandhoehe, damit die Glasflaeche ueberall gleich wirkt. Ohne den
+   Deckel wuerde sie auf dem Handy mit den hoeheren Zeilen auf ueber 800px
+   wachsen und das Formular in einem leeren Nebelfeld schwimmen lassen. */
+.fk-lockzone {
+  position: relative;
+  height: 430px;
+  overflow: hidden;
 }
 
-.fk-gate p {
-  margin: 0 0 14px;
-  font-size: 0.95rem;
+.fk-locked {
+  filter: blur(5px);
+  opacity: 0.5;
+  pointer-events: none;
+  user-select: none;
+}
+
+.fk-gate {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 26px 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.34) 0%,
+    rgba(255, 255, 255, 0.72) 40%,
+    rgba(255, 255, 255, 0.9) 100%
+  );
+  -webkit-backdrop-filter: blur(8px) saturate(150%);
+  backdrop-filter: blur(8px) saturate(150%);
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .fk-gate {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.97));
+  }
+}
+
+.fk-signup--gate {
+  width: min(430px, 100%);
+  background: rgba(255, 255, 255, 0.78);
+  border-color: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  box-shadow:
+    0 20px 52px rgba(17, 35, 67, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+.fk-signup--gate h2 { margin-bottom: 4px; }
+
+.fk-gate-count {
+  margin: 0 0 18px;
+  font-size: 0.88rem;
   color: var(--fk-ink-soft);
 }
 
-.fk-gate strong { color: var(--ink); }
+.fk-gate-count strong { color: var(--ink); }
 
-.fk-gate button {
-  padding: 11px 22px;
-  font: inherit;
-  font-size: 0.92rem;
-  font-weight: 600;
-  color: #fff;
-  background: var(--primary);
-  border: 0;
-  border-radius: 8px;
-  cursor: pointer;
+/* Solange gesperrt ist, gibt es unterhalb der Glasflaeche nichts zu holen -
+   das Scrollen im Kasten waere dann nur irrefuehrend. */
+.fk-scroll[data-locked='true'] {
+  max-height: none;
+  overflow: hidden;
 }
-
-.fk-gate button:hover { background: var(--primary-deep); }
 
 /* Bottom CTA */
 .fk-cta {
@@ -5487,6 +5529,14 @@ h2 {
   .fk-date-day { font-size: 1.25rem; }
   .fk-detail { padding: 0 16px 20px 16px; }
   .fk-scroll { max-height: 70vh; }
+}
+
+/* Auf sehr schmalen Geraeten passt "Bewerbungsfrist mehr" nicht mehr in eine
+   Zeile. Statt den Umbruch zuzulassen, wird die Schrift so weit verkleinert,
+   dass die Wortgruppe zusammenbleibt und die Seite nicht seitlich scrollt. */
+@media (max-width: 380px) {
+  .fk-title,
+  .fk-lead { font-size: 1.72rem; }
 }
 
 /* ---- SEO Before/After Card ---- */

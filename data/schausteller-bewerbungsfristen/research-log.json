@@ -957,6 +957,54 @@
       "agent_batch_id": "de-2026-08-kleinstaedte-01"
     },
     {
+      "event_name": "643. Bautzener Wenzelsmarkt 2026",
+      "candidate_url": "https://www.wenzelsmarkt-bautzen.de/anmeldung",
+      "reason": "Bewerbungsfrist war der 27. Mai 2026 und ist abgelaufen. Veranstaltung 27.11. bis 22.12.2026. Der Jahrgang 2027 wird voraussichtlich im Frühjahr 2027 ausgeschrieben; siehe review_candidates.",
+      "agent_batch_id": "de-2026-08-luecken-ost-sued-01"
+    },
+    {
+      "event_name": "Bergstadtfest Freiberg",
+      "candidate_url": "https://www.freiberg.de/stadt-und-buerger/aktuelles/neuigkeiten/haendler-fuer-bergstadtfest-gesucht-bewerben-bis-30-maerz",
+      "reason": "Die Stadt Freiberg sucht ausdrücklich Händler sowie Speisen- und Süßwarenanbieter, aber keine Schausteller und Getränkeanbieter - diese Plätze sind vergeben. Die gefundene Ausschreibung stammt zudem aus 2022.",
+      "agent_batch_id": "de-2026-08-luecken-ost-sued-01"
+    },
+    {
+      "event_name": "Marktfestsetzung Frankfurt (Oder)",
+      "candidate_url": "https://www.frankfurt-oder.de/Verwaltung-Stadtpolitik/Verwaltung/B%C3%BCrger-und-Unternehmensservice-A-Z/Volksfest.php",
+      "reason": "Die genannte Frist „vier Wochen vor Beginn\" betrifft die Festsetzung eines Volksfests durch den Veranstalter gegenüber der Gewerbebehörde, nicht die Bewerbung von Schaustellern um einen Platz. Gebühr 50 bis 2.000 Euro. Für den Fristenkalender nicht verwertbar.",
+      "agent_batch_id": "de-2026-08-luecken-ost-sued-01"
+    },
+    {
+      "event_name": "Ludwigsburger Barock-Weihnachtsmarkt 2026",
+      "candidate_url": "https://visit.ludwigsburg.de/start/presse+_+b2b/bewerbungsunterlagen+barock-weihnachtsmarkt.html",
+      "reason": "„Die Bewerbungsfrist für den Barock-Weihnachtsmarkt 2026 ist abgelaufen.\" Veranstaltung 24.11. bis 22.12.2026. Kontakt für den Jahrgang 2027: Tabea Zupic, t.zupic@ludwigsburg.de, 07141 910-3903.",
+      "agent_batch_id": "de-2026-08-mittelstaedte-02"
+    },
+    {
+      "event_name": "Venezianische Messe Ludwigsburg 2026",
+      "candidate_url": "https://visit.ludwigsburg.de/start/presse+_+b2b/bewerbungsunterlagen+venezianische+messe.html",
+      "reason": "„Die Bewerbungsfrist für die Venezianische Messe ist abgelaufen.\" Veranstaltung 4. bis 6.9.2026. Die Messe findet nur alle zwei Jahre statt. Kontakt: Noelle Claaßen, n.claassen@ludwigsburg.de, 07141 910-4138.",
+      "agent_batch_id": "de-2026-08-mittelstaedte-02"
+    },
+    {
+      "event_name": "76. Darmstädter Heinerfest 2026",
+      "candidate_url": "https://www.heinerfest.de/schausteller-bewerbung/",
+      "reason": "„Die Bewerbungsfrist für das 76. Darmstädter Heinerfest hat bereits geendet.\" Veranstaltung 2. bis 6.7.2026. Kontakt für 2027: info@heinerfest.de, 06151 296688, Schuchardstraße 7, 64283 Darmstadt.",
+      "agent_batch_id": "de-2026-08-mittelstaedte-02"
+    },
+    {
+      "event_name": "Magdeburger Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.weihnachtsmarkt-magdeburg.de/ausschreibung",
+      "reason": "„Der Bewerbungsschluss ist der 08. Mai 2026 - 12 Uhr\" und damit abgelaufen. Veranstaltung 19. November bis 29. Dezember 2026. Der Jahrgang 2027 ist bereits als Eintrag erfasst.",
+      "agent_batch_id": "de-2026-08-mittelstaedte-02"
+    },
+    {
+      "event_name": "Leipziger Weihnachtsmarkt 2026",
+      "candidate_url": "https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.4_Dez4_Kultur/72_Marktamt/Spezialmaerkte/Dokumente/Leipziger_Weihnachtsmarkt_2026_-_Ausschreibungstext.pdf",
+      "reason": "Bewerbungsfrist endete am 30.04.2026. Verspätet eingehende Bewerbungen können laut Ausschreibung nicht berücksichtigt werden. Bevorzugt werden Händler mit traditionellem Sortiment und handwerklichen Tätigkeiten (Holzschnitzen, Glasblasen, Töpfern, Klöppeln, Kerzenziehen, Gravieren, Schleifen).",
+      "agent_batch_id": "de-2026-08-mittelstaedte-02"
+    },
+    {
       "event_name": "76. Darmstaedter Heinerfest",
       "candidate_url": "https://www.heinerfest.de/schausteller/keine-laufende-bewerbungsfrist/",
       "reason": "Die offizielle Veranstalterseite vermerkt ausdruecklich: 'Die Bewerbungsfrist fuer das 76. Darmstaedter Heinerfest hat bereits geendet.' Kontakt: Schuchardstrasse 7, 64283 Darmstadt, 06151 296688, info@heinerfest.de.",
@@ -3345,6 +3393,108 @@
       "candidate_url": "https://www.stadt-bad-salzuflen.de/leben-und-freizeit/auf-einen-blick/veranstaltungen",
       "reason": "Die Stadt verweist Standbetreiber, Schausteller und Haendler auf einen Account im staedtischen Serviceportal, nennt aber keine Fristen und keine gesonderte Ansprechperson fuer Marktbewerbungen.",
       "agent_batch_id": "de-2026-08-kleinstaedte-01"
+    },
+    {
+      "event_name": "Wallensteintage Stralsund",
+      "candidate_url": "https://www.wallensteintage.de/haendlerinformationen/",
+      "reason": "Bewerbung „ab sofort\" möglich, aber ohne Stichtag. Zuständig: Hansestadt Stralsund, Amt für Kultur, Welterbe und Medien, Abteilung Kultur und Öffentlichkeitsarbeit, Claudia Erdmann, cerdmann@stralsund.de. Gesucht werden Schausteller, Gastronomen, Händler, Kunsthandwerker und Künstler. Nachfassen, sobald ein Termin für 2027 steht.",
+      "agent_batch_id": "de-2026-08-luecken-ost-sued-01"
+    },
+    {
+      "event_name": "Backfischfest und Märkte Worms",
+      "candidate_url": "https://www.worms.de/",
+      "reason": "Keine Bewerbungsfrist veröffentlicht. Zuständig: Stadt Worms, Abteilung 3.22 Gewerbe- und Gaststättenrecht, Messen und Märkte, Patricia Seelig, 06241 853-3212, Bürgerrathaus, Folzstraße 5, 67547 Worms. Direkt anfragen.",
+      "agent_batch_id": "de-2026-08-luecken-ost-sued-01"
+    },
+    {
+      "event_name": "Frühlingsvolksfest und Herbstvolksfest Gera",
+      "candidate_url": "https://www.gera.de/tourismus-freizeit-kultur/maerkte-und-feste/stadtfeste/herbstvolksfest",
+      "reason": "Beide Volksfeste sind terminiert (Herbstvolksfest 17.-31.10.2026, Frühlingsvolksfest ab 18. April), eine Bewerbungsfrist nennt die Stadt aber nicht. Zuständig: Stadt Gera, Kulturamt, Steffen Kühn, kuehn.steffen@gera.de, 0365 619-0, Schloßstraße 1, 07545 Gera. Voraussetzung ist eine Reisegewerbekarte nach § 55 Abs. 2 GewO und eine Versicherung nach Schaustellerhaftpflichtverordnung.",
+      "agent_batch_id": "de-2026-08-luecken-ost-sued-01"
+    },
+    {
+      "event_name": "Bautzener Wenzelsmarkt 2027",
+      "candidate_url": "https://www.bautzen.de/buerger-rathaus-politik/stadtverwaltung/ausschreibungen/marktausschreibungen",
+      "reason": "Die Stadt Bautzen schreibt jährlich neu aus, der Stichtag wandert: 2025 war es der 30. April 2025, 2026 der 27. Mai 2026. Ein festes Datum für 2027 lässt sich daraus nicht ableiten. Zuständig: Stadtverwaltung Bautzen, Ordnungsamt/Marktwesen, ordnungsamt@bautzen.de, Fleischmarkt 1, 02625 Bautzen. Ab April 2027 nachfassen.",
+      "agent_batch_id": "de-2026-08-luecken-ost-sued-01"
+    },
+    {
+      "event_name": "Stadtfest Zwickau",
+      "candidate_url": "https://www.zwickau.de/de/politik/verwaltung/aemter/dezernat1/kulturamt/dienstleistungen/41_02_Stadtfesthaendler.php",
+      "reason": "Die Stadt bündelt Händler- und Schaustelleranmeldungen auf einer Dienstleistungsseite, veröffentlicht die Fristen aber nur in den jeweiligen Ausschreibungen. Für 2025 lag der Stichtag beim 31. März 2025. Zuständig: Kulturamt, Dr. Bianca Dommes, 0375 834101, Kolpingstraße 8, 08058 Zwickau. Ab Januar 2027 nachfassen.",
+      "agent_batch_id": "de-2026-08-luecken-ost-sued-01"
+    },
+    {
+      "event_name": "Chemnitzer Weihnachtsmarkt",
+      "candidate_url": "https://www.chemnitz.de/chemnitz/de/rathaus/ausschreibungen/marktausschreibungen/chemnitzer-weihnachtsmarkt/index.html",
+      "reason": "Chemnitz führt eine eigene Sammelseite „Marktausschreibungen\" mit mehreren Veranstaltungen, blockt aber automatisierte Abrufe (HTTP 403). Bewerbung mit Formular an Stadt Chemnitz, Ordnungsamt, Abteilung Gewerbe, Veranstaltungen, Märkte, Sachgebiet Märkte, 09106 Chemnitz. Rund 160 Zulassungen je Jahrgang. Seite manuell öffnen und alle Ausschreibungen auswerten - hohe Ausbeute zu erwarten.",
+      "agent_batch_id": "de-2026-08-luecken-ost-sued-01"
+    },
+    {
+      "event_name": "Cottbuser Märkte und Weihnachtsmarkt der tausend Sterne",
+      "candidate_url": "https://cottbus.de/verwaltung/gb-3/dz-3-1/fb-32-ordnung-und-sicherheit/cottbuser-wochenmaerkte/",
+      "reason": "Antragsformular Marktzulassung vorhanden, aber ohne Stichtag. Zuständig: Marktmeister Karsten Herbst, karsten.herbst@cottbus.de, 0355 612-3716; Sondernutzung und Marktorganisation Niels Löwenberg, niels.loewenberg@cottbus.de, 0355 612-2327. Stadtverwaltung Cottbus, Karl-Marx-Straße 67, 03044 Cottbus.",
+      "agent_batch_id": "de-2026-08-luecken-ost-sued-01"
+    },
+    {
+      "event_name": "Schwedenfest Wismar",
+      "candidate_url": "https://schwedenfest-wismar.de/",
+      "reason": "Größtes historisches Stadtfest der Region, 2026 vom 20. bis 23. August, mit Fahrgeschäften am Alten Hafen. Seit dem Interessenbekundungsverfahren organisiert msi (Michael Sonnenberg Industrievermarktung e.K.) das Fest, nicht die Stadt. Bewerbungsfrist nicht veröffentlicht - direkt bei msi anfragen.",
+      "agent_batch_id": "de-2026-08-luecken-ost-sued-01"
+    },
+    {
+      "event_name": "Maikirmes und Oktoberfest Saarbrücken",
+      "candidate_url": "https://www.saarbruecken.de/kultur/kirmes",
+      "reason": "Die Landeshauptstadt veranstaltet zwei Kirmessen jährlich auf den Saarterrassen, nennt aber weder Bewerbungsverfahren noch Frist. Auch das Dudweiler Frühlingsfest und die Kirmes Altenkessel laufen ohne veröffentlichte Ausschreibung. Über die Stadtverwaltung oder den Saarländischen Schaustellerverband anfragen.",
+      "agent_batch_id": "de-2026-08-luecken-ost-sued-01"
+    },
+    {
+      "event_name": "Lörracher Weihnachtsmarkt",
+      "candidate_url": "https://www.loerrach.de/de/Loerrach-Erleben/Wirtschaft-Einkaufen/Maerkte/Maerkte/Weihnachtsmarkt",
+      "reason": "Bewerbungsformular vorhanden, aber ohne Stichtag; nur vollständige Formulare werden berücksichtigt. Veranstaltung 3. bis 13. Dezember 2026 auf dem Alten Marktplatz. Zuständig: Stadt Lörrach, Abteilung Märkte, maerkte@loerrach.de, 07621 415-132, Haus Sonne, Basler Straße 170, 79539 Lörrach. Fachbereich Kultur und Tourismus: kultur@loerrach.de, 07621 415-130.",
+      "agent_batch_id": "de-2026-08-mittelstaedte-02"
+    },
+    {
+      "event_name": "Detmolder Andreasmesse",
+      "candidate_url": "https://www.detmold.de/kultur/maerkte-und-feste/andreasmesse",
+      "reason": "Große Innenstadtkirmes auf rund 18.000 m², 25. bis 29. November 2026. Die Stadt nennt keine Bewerbungsfrist. Zuständig: Marktmeister Jens Berghahn, 05231 977631, Marktplatz 5, 32756 Detmold. Direkt anfragen.",
+      "agent_batch_id": "de-2026-08-mittelstaedte-02"
+    },
+    {
+      "event_name": "Ludwigsburger Pferdemarkt 2027",
+      "candidate_url": "https://visit.ludwigsburg.de/start/presse+_+b2b/bewerbungsunterlagen+pferdemarkt.html",
+      "reason": "„Aktuell können Sie sich noch nicht für den Ludwigsburger Pferdemarkt 2027 bewerben.\" Veranstaltung im Mai 2027. Getrennte Zuständigkeiten: Krämer-, Kunst- und Handwerkermarkt Noelle Claaßen (n.claassen@ludwigsburg.de, 07141 910-4138), Pferdeprämierungen und Dackelrennen David Frommer, Festumzug und Showprogramm Beate Schweickhardt. Tourismus & Events Ludwigsburg, Mathildenstraße 21, 71638 Ludwigsburg. Ab Winter 2026 nachfassen - Ludwigsburg schreibt sieben Veranstaltungen getrennt aus (Wochenmarkt, Barock-Weihnachtsmarkt, Pferdemarkt, Antikmeile, Kinderfest, Venezianische Messe, Märzklopfen/Kastanienbeutelfest).",
+      "agent_batch_id": "de-2026-08-mittelstaedte-02"
+    },
+    {
+      "event_name": "Kemptener Jahrmarkt",
+      "candidate_url": "https://www.kempten.de/jahrmarkt-5313.html",
+      "reason": "Bewerbungen von Schaustellern gehen an Kempten Messe- und Veranstaltungs-Betrieb, Herr Sven Wegmann, Großer Kornhausplatz 1, 87439 Kempten. Eine Frist nennt die Seite nicht.",
+      "agent_batch_id": "de-2026-08-mittelstaedte-02"
+    },
+    {
+      "event_name": "Annentag Brakel",
+      "candidate_url": "https://www.brakel.de/Freizeit-G%C3%A4ste/M%C3%A4rkte-Events/Annentag/F%C3%BCr-Beschicker/Standgeld-Annentag/",
+      "reason": "Die Stadt schreibt: „Der jährlich in der Ausschreibung für den folgenden Annentag genannte Abgabetermin für Bewerbungen ist ein Ausschlusstermin\" - nennt den Termin selbst aber nicht. Der Annentag liegt um den ersten Augustsonntag (Freitag bis Montag) in der Innenstadt. Zuständig: Stadt Brakel, Fachbereich Bürgerservice, Benedikt Gönnewicht, annentag@brakel.de, 05272 360-1200, Postfach 1461, 33034 Brakel. Nach der nächsten Ausschreibung nachfassen.",
+      "agent_batch_id": "de-2026-08-mittelstaedte-02"
+    },
+    {
+      "event_name": "Volksfest Ebersberg",
+      "candidate_url": "https://volksfest-ebersberg.de/schausteller/",
+      "reason": "Die Schaustellerseite führt das Feld „Bewerbungsschluss\" ohne Datum. Veranstaltung 7. bis 17. August 2026. Veranstalter sind die Ebenkofler Festbetrieb GmbH und der Volksfestverein Ebersberg, Festwirt@volksfest-ebersberg.de, Gasteig 20a, 85567 Grafing bei München.",
+      "agent_batch_id": "de-2026-08-mittelstaedte-02"
+    },
+    {
+      "event_name": "Celler Schützen- und Volksfest",
+      "candidate_url": "https://portal.celle.de/dienstleistungen/-/egov-bis-detail/dienstleistung/8321/show",
+      "reason": "Die Stadt Celle verweist für Markt- und Schaustellertätigkeit auf die Marktsatzung und darauf, dass „bestimmte Fristen zu beachten\" sind, nennt sie aber nicht. Zuständig: Stadt Celle, stadt@celle.de, 05141 12-0.",
+      "agent_batch_id": "de-2026-08-mittelstaedte-02"
+    },
+    {
+      "event_name": "Kirmes und Märkte Saarbrücken sowie Wallensteintage-Nachfass",
+      "candidate_url": "https://www.saarbruecken.de/kultur/kirmes",
+      "reason": "Sammelhinweis: In Saarbrücken, Wismar, Stralsund, Zwickau, Cottbus, Gera und Bautzen liegen Veranstalter und Kontakt vor, aber kein Stichtag. Details stehen im Batch de-2026-08-luecken-ost-sued-01.",
+      "agent_batch_id": "de-2026-08-mittelstaedte-02"
     },
     {
       "event_name": "Jahrmaerkte, Volksfeste und Spezialmaerkte Koeln",

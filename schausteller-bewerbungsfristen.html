@@ -14,7 +14,7 @@
 <div class="site-wrap fk">
   <header class="lc-header">
     <div class="container lc-header-inner">
-      <a class="brand" href="/">
+      <a class="brand" href="schausteller-websites.html">
         <img src="assets/digital.png" alt="ImpressRank" class="brand-logo" />
       </a>
       <a class="btn btn-primary" href="#newsletter">Newsletter abonnieren</a>
@@ -28,9 +28,9 @@
         <div class="fk-hero-grid">
           <div>
             <p class="fk-kicker">Fristenkalender für Schausteller</p>
-            <h1 class="fk-title">Verpasse keine Bewerbungsfrist mehr</h1>
+            <h1 class="fk-title">Verpasse keine <span class="fk-lead-tight">Bewerbungsfrist mehr</span></h1>
             <p class="fk-lead">Der Newsletter<span class="fk-lead-ink">, der dich</span> <span class="fk-lead-tight"><span class="fk-lead-ink">rechtzeitig</span> erinnert.</span></p>
-            <p class="fk-sub">Deutschlandweite Datenbank aus Bewerbungsfristen für Festtage &ndash; mit offizieller Quelle, Bewerbungsweg und Ansprechpartner zu jedem Eintrag.</p>
+            <p class="fk-sub">Deutschlandweite Datenbank aus Bewerbungsfristen für Festtage &ndash; wöchentlich aktualisiert.</p>
 
             <ul class="fk-hero-facts">
               <li>16 Bundesländer</li>
@@ -40,20 +40,14 @@
           </div>
 
           <aside class="fk-signup" id="newsletter-top">
-            <h2>Erinnerung aktivieren</h2>
-            <p class="fk-signup-note">Wir melden uns, bevor eine Frist abläuft. Keine Werbung, nur Termine.</p>
+            <h2>Newsletter abonnieren und rechtzeitig Erinnerungen bekommen</h2>
             <form class="fk-form" data-fk-form data-form-source="schausteller-bewerbungsfristen-hero">
               <div class="fk-field">
-                <label for="fk-email-top">E-Mail-Adresse</label>
+                <label class="fk-label-hidden" for="fk-email-top">E-Mail-Adresse</label>
                 <input id="fk-email-top" type="email" name="email" placeholder="name@email.com" required autocomplete="email" />
               </div>
-              <div class="fk-field">
-                <label for="fk-phone-top">WhatsApp-Nummer (optional)</label>
-                <input id="fk-phone-top" type="tel" name="phone" placeholder="+49 …" autocomplete="tel" />
-              </div>
-              <button type="submit">Erinnerungen erhalten</button>
+              <button type="submit">Abonnieren</button>
             </form>
-            <p class="fk-fineprint">Jederzeit abbestellbar. Maßgeblich bleibt immer die offizielle Ausschreibung.</p>
             <p class="fk-status" data-fk-status hidden></p>
           </aside>
         </div>
@@ -109,9 +103,23 @@
           <div class="fk-scroll" id="fk-scroll">
             <div id="fk-list"></div>
 
-            <div class="fk-gate" data-fk-gate hidden>
-              <p>Du siehst die nächsten Fristen. <strong id="fk-gate-count">0</strong> weitere sind für Newsletter-Abonnenten sichtbar.</p>
-              <button type="button" data-fk-gate-open>Vollständigen Kalender öffnen</button>
+            <div class="fk-lockzone" data-fk-lockzone hidden>
+              <div class="fk-locked" id="fk-locked" aria-hidden="true"></div>
+
+              <div class="fk-gate" data-fk-gate>
+                <div class="fk-signup fk-signup--gate">
+                  <h2>Sieh alles und abonniere unseren Newsletter</h2>
+                  <p class="fk-gate-count">Noch <strong id="fk-gate-count">0</strong> weitere Fristen</p>
+                  <form class="fk-form" data-fk-form data-form-source="schausteller-bewerbungsfristen-gate">
+                    <div class="fk-field">
+                      <label class="fk-label-hidden" for="fk-email-gate">E-Mail-Adresse</label>
+                      <input id="fk-email-gate" type="email" name="email" placeholder="name@email.com" required autocomplete="email" />
+                    </div>
+                    <button type="submit">Abonnieren</button>
+                  </form>
+                  <p class="fk-status" data-fk-status hidden></p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -127,27 +135,32 @@
             <ul class="fk-cta-list">
               <li>Erinnerung vor jeder Frist, die zu deinem Profil passt</li>
               <li>Neue Ausschreibungen, sobald sie veröffentlicht werden</li>
-              <li>Auf Wunsch per WhatsApp statt per E-Mail</li>
+              <li>Jederzeit abbestellbar, keine Werbung</li>
             </ul>
           </div>
 
           <div class="fk-signup">
-            <h2>Erinnerung aktivieren</h2>
-            <p class="fk-signup-note">Eine E-Mail genügt. Den Rest übernehmen wir.</p>
+            <h2>Newsletter abonnieren und rechtzeitig Erinnerungen bekommen</h2>
             <form class="fk-form" data-fk-form data-form-source="schausteller-bewerbungsfristen-footer">
               <div class="fk-field">
-                <label for="fk-email-bottom">E-Mail-Adresse</label>
+                <label class="fk-label-hidden" for="fk-email-bottom">E-Mail-Adresse</label>
                 <input id="fk-email-bottom" type="email" name="email" placeholder="name@email.com" required autocomplete="email" />
               </div>
-              <div class="fk-field">
-                <label for="fk-phone-bottom">WhatsApp-Nummer (optional)</label>
-                <input id="fk-phone-bottom" type="tel" name="phone" placeholder="+49 …" autocomplete="tel" />
-              </div>
-              <button type="submit">Erinnerungen erhalten</button>
+              <button type="submit">Abonnieren</button>
             </form>
-            <p class="fk-fineprint">Jederzeit abbestellbar.</p>
             <p class="fk-status" data-fk-status hidden></p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container narrow">
+        <div class="cta-card">
+          <p class="eyebrow">Für Schausteller</p>
+          <h2>Erhöhe deine Chance auf die besten Festplätze</h2>
+          <p>Wir erstellen deinem Fahrgeschäft eine professionelle Website von Anfang bis Ende.</p>
+          <a class="btn btn-primary" href="schausteller-websites.html">Professionelle Website anfragen</a>
         </div>
       </div>
     </section>
