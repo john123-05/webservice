@@ -3311,6 +3311,24 @@
       "agent_batch_id": "de-2026-08-breitensuche-05"
     },
     {
+      "event_name": "Kirmessen Steinfurt 2027 (Fruehjahrskirmes Burgsteinfurt, Sommerkirmes und Herbstkirmes Borghorst)",
+      "candidate_url": "https://www.steinfurt.de/Buerger.htm/Dienstleistungen/Volksfest-Kirmes.html",
+      "reason": "Drei Kirmessen mit fest wiederkehrenden Terminen: Fruehjahrskirmes am 2. Sonntag im Mai in Burgsteinfurt, Sommerkirmes am 1. Sonntag im August und Herbstkirmes am 4. Sonntag im Oktober in Borghorst. Fuer 2027 ergibt das den 09.05., 01.08. und 24.10.2027. Die Stadt nennt keine schriftliche Bewerbungsfrist, sondern: 'Die Platzverteilung erfolgt immer am vorhergehenden Mittwoch um 15:00 Uhr', also am 05.05., 28.07. und 20.10.2027. Bewusst nicht als Eintrag angelegt, weil unklar ist, ob der Platzverteilung eine schriftliche Bewerbung vorausgeht; eine Vor-Ort-Verteilung ist etwas anderes als eine Bewerbungsfrist. Bei Frau Scheipers klaeren: 02552 925-356, scheipers@stadt-steinfurt.de, Fachdienst Sicherheit und Ordnung, Emsdettener Strasse 40, 48565 Steinfurt. Bei Bestaetigung sind drei Eintraege sofort ableitbar.",
+      "agent_batch_id": "de-2026-08-dauerregeln-suche"
+    },
+    {
+      "event_name": "Jahrmaerkte Brakel (Fruehlingskirmes, Annentag, Nikolausmarkt)",
+      "candidate_url": "https://www.brakel.de/index.php?NavID=3467.368",
+      "reason": "Drei Jahrmaerkte mit wiederkehrenden Terminen: Fruehlingskirmes von Christi Himmelfahrt bis zum folgenden Sonntag, Annentag um den ersten Augustsonntag (Freitag bis Montag), Nikolausmarkt am zweiten Adventswochenende (Donnerstag bis Sonntag). Die Stadt arbeitet mit einem Ausschlusstermin, setzt ihn aber jaehrlich neu: 'Der jaehrlich in der Ausschreibung fuer den folgenden Annentag genannte Abgabetermin fuer Bewerbungen ist ein Ausschlusstermin.' Daher keine Ableitung moeglich. Zulassungskriterien sind Attraktivitaet des Geschaefts und Bewaehrung des Betreibers; bei Gleichwertigkeit entscheidet ein oeffentliches Losverfahren. Benedikt Goennewicht, Fachbereichsleiter Buergerservice, 05272 360-1200, b.goennewicht@brakel.de, annentag@brakel.de, Postfach 1461, 33034 Brakel. Nachfassen, sobald die Ausschreibung fuer 2027 erscheint.",
+      "agent_batch_id": "de-2026-08-dauerregeln-suche"
+    },
+    {
+      "event_name": "Kirmesstandgebuehrensatzung Bergisch Gladbach",
+      "candidate_url": "https://www.bergischgladbach.de/72-2-2.pdfx",
+      "reason": "Die Stadt Bergisch Gladbach hat eine eigene Kirmesstandgebuehrensatzung fuer Pfingstkirmes und Laurentiuskirmes. Die Satzung regelt Gebuehren, nicht Bewerbungsfristen. Ergaenzt den bereits erfassten Kandidaten zu den beiden Bergisch Gladbacher Kirmessen.",
+      "agent_batch_id": "de-2026-08-dauerregeln-suche"
+    },
+    {
       "event_name": "Kiliansfest Bad Salzuflen-Schötmar",
       "candidate_url": "https://www.stadt-bad-salzuflen.de/leben-und-freizeit/auf-einen-blick/veranstaltungen",
       "reason": "Aeltestes Stadtfest Bad Salzuflens im Stadtteil Schötmar, mit Kirmes und Flohmarkt, jeweils an einem Wochenende im September. Weder Stadt noch Veranstalter veroeffentlichen ein Bewerbungsverfahren mit Frist. Stadt Bad Salzuflen, Rudolph-Brandes-Allee 19, 32105 Bad Salzuflen, 05222 952-0, stadt@bad-salzuflen.de.",
