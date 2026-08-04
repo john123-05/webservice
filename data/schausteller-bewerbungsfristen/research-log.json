@@ -2993,6 +2993,42 @@
       "agent_batch_id": "by-2027-deep-rb-unterfranken"
     },
     {
+      "event_name": "Herbstfest Rosenheim 2027",
+      "candidate_url": "https://www.wirtschaftlicher-verband.de/herbstfest/ausschreibung.html",
+      "reason": "SEHR HOHE PRIORITAET, ZEITNAH NACHFASSEN: Der Wirtschaftliche Verband der Stadt und des Landkreises Rosenheim e.V. betreibt eine eigene Seite 'Ausschreibung zum Herbstfest 2027' und kuendigt dort an: 'Alle Infos koennen Sie ab ca. Mitte August 2026 hier finden!' Die Ausschreibung erscheint also innerhalb von rund zwei Wochen nach dem Pruefdatum. Zweitgroesstes Volksfest Oberbayerns. Kontakt: Kaiserstr. 27, 83022 Rosenheim, 08031 900 61-0, info@wirtschaftlicher-verband.de.",
+      "agent_batch_id": "by-oberbayern-2026-08"
+    },
+    {
+      "event_name": "Christkindlmarkt Rosenheim",
+      "candidate_url": "https://wirtschaftlicher-verband.de/herbstfest.html",
+      "reason": "Derselbe Wirtschaftliche Verband richtet auch den Rosenheimer Christkindlmarkt mit eigener Ausschreibung und eigenem Bewerbungsverfahren aus. Sammelveranstalter mit Multiplikatorpotenzial; Fristen waren zum Pruefzeitpunkt nicht veroeffentlicht.",
+      "agent_batch_id": "by-oberbayern-2026-08"
+    },
+    {
+      "event_name": "Pfingstvolksfest und Herbstvolksfest Ingolstadt 2027",
+      "candidate_url": "https://www.ingolstadt.de/Service/Leitfaden-f%C3%BCr-Veranstalter/St%C3%A4dtische-Veranstaltungen/",
+      "reason": "Die Stadt Ingolstadt richtet zwei Volksfeste aus, das Pfingstvolksfest (2026 die 78. Auflage) und das Herbstvolksfest mit rund 60 Ausstellern ueber zehn Tage. Zulassungsgesuche sind schriftlich beim Kulturamt einzureichen; das entsprechende PDF nutzt eine eigene Zeichenkodierung und liess sich nicht auslesen. Sekundaerquellen nennen fuer das Herbstvolksfest eine Frist um Ende April. Vor Uebernahme beim Kulturamt klaeren.",
+      "agent_batch_id": "by-oberbayern-2026-08"
+    },
+    {
+      "event_name": "Volksfeste Inn-Salzach (Muehldorf am Inn, Altoetting Hofdult, Burghausen Mai-Wiesn, Trostberg)",
+      "candidate_url": "https://www.inn-salzach.com/volksfeste-dulten",
+      "reason": "Die Region Inn-Salzach fuehrt von Fruehjahr bis Herbst zahlreiche Volksfeste und Dulten mit Schaustellerbeteiligung. Keine der Staedte veroeffentlicht ein Bewerbungsverfahren mit kalendarischer Frist auf einer offiziellen Seite.",
+      "agent_batch_id": "by-oberbayern-2026-08"
+    },
+    {
+      "event_name": "Volksfeste Traunstein, Fuerstenfeldbruck, Starnberg, Freising, Weilheim, Garmisch-Partenkirchen, Bad Toelz, Eichstaett, Pfaffenhofen",
+      "candidate_url": "https://www.traunstein.de/",
+      "reason": "Neun oberbayerische Staedte geprueft. Volksfeste und Fruehlingsfeste sind belegt, aber keine der Staedte veroeffentlicht ein Bewerbungsverfahren mit Frist auf einer offiziellen Seite. Der Bad Toelzer Ostermarkt 2027 und das Neuburger Volksfest 2027 sind bereits als Eintraege erfasst.",
+      "agent_batch_id": "by-oberbayern-2026-08"
+    },
+    {
+      "event_name": "Dachauer Volksfest 2028",
+      "candidate_url": "https://www.dachau.de/",
+      "reason": "Der Jahrgang 2027 ist mit Frist 30.10.2026 bereits als Eintrag erfasst. Das Fest laeuft zehn Tage rund um Mariae Himmelfahrt und zieht ueber 300.000 Besucher. Fuer 2028 waere nach demselben Muster der 30.10.2027 anzusetzen, sofern die Stadt die Frist als Dauerregel bestaetigt.",
+      "agent_batch_id": "by-oberbayern-2026-08"
+    },
+    {
       "event_name": "Cannstatter Volksfest 2027 und Stuttgarter Fruehlingsfest 2027",
       "candidate_url": "https://www.cannstatter-volksfest.de/fileadmin/cannstatter-volksfest/bewerbung/Bewerbung_Volksfest_2027.pdf",
       "reason": "Zweitgroesstes Volksfest Deutschlands. Veranstalterin ist die in.Stuttgart Veranstaltungsgesellschaft mbH & Co. KG, Mercedesstrasse 50, 70372 Stuttgart; ein gemeinsames Bewerbungsformular gilt fuer Fruehlingsfest und Volksfest. Sekundaerquellen nennen den 15.10.2026 als Bewerbungsschluss fuer 2027, im offiziellen PDF liess sich das Datum jedoch nicht bestaetigen, da es nur Formular und Datenschutzhinweise enthaelt. Vor Uebernahme telefonisch verifizieren. Sehr hohe Prioritaet.",
@@ -3627,6 +3663,48 @@
       "candidate_url": "https://hagener-kirmes.de/informationen-fuer-schausteller",
       "reason": "Abgrenzungshinweis: Diese Kirmes liegt nicht in Hagen (NRW), sondern in der Gemeinde Hagen am Teutoburger Wald in Niedersachsen. Die Seite verweist Bewerbungen an Ansprechpartner Stefan Bartling bei der Gemeinde, nennt aber weder Termin noch Frist. Fuer die Niedersachsen-Welle vormerken.",
       "agent_batch_id": "nrw-2027-deep-restliche-staedte"
+    },
+    {
+      "event_name": "Weihnachtsmaerkte Wuppertal-Elberfeld und Wuppertal-Barmen 2027",
+      "candidate_url": "https://sv-wuppertal.de/",
+      "reason": "Die Stadt Wuppertal hat den Betrieb der grossen Weihnachtsmaerkte fuer die Jahre 2025 bis 2029 an den Schausteller-Verein Wuppertal uebertragen. Vierter dokumentierter Fall einer Mehrjahresvergabe nach Maschseefest Hannover, Kieler Woche und Wackersdorf. Bewerbungen laufen damit ueber den Verein, nicht ueber die Stadt; ein Verfahren mit Frist ist auf der Vereinsseite nicht veroeffentlicht.",
+      "agent_batch_id": "nrw-bergisch-aachen-2026-08"
+    },
+    {
+      "event_name": "Osterkirmes und Megakirmes Wuppertal 2027",
+      "candidate_url": "https://sv-wuppertal.de/",
+      "reason": "Die Osterkirmes eroeffnet die Wuppertaler Kirmessaison, 2026 vom 20. bis 23. Maerz auf dem Berliner Platz; dazu kommt die zehntaegige Megakirmes am Zoo/Stadion. Traeger ist der Schausteller-Verein Wuppertal. Kein Bewerbungsverfahren mit Frist veroeffentlicht.",
+      "agent_batch_id": "nrw-bergisch-aachen-2026-08"
+    },
+    {
+      "event_name": "Kirmessen der Staedteregion Aachen (Eschweiler, Stolberg, Alsdorf, Wuerselen, Aachen)",
+      "candidate_url": "https://www.schausteller.de/verbaende/49/",
+      "reason": "Strukturhinweis: In der Staedteregion Aachen haben Schausteller die Organisation selbst uebernommen. Gegruendet wurde dafuer die Schaustellerdienste der Staedteregion Aachen (SDSA); die Eschweiler Sommerkirmes kehrte so nach rund 30 Jahren in die Innenstadt zurueck. Ansprechpartner ist der Schausteller-Verband Aachen e. V., nicht das jeweilige Ordnungsamt. Kein Verfahren mit Frist veroeffentlicht.",
+      "agent_batch_id": "nrw-bergisch-aachen-2026-08"
+    },
+    {
+      "event_name": "Sommerkirmes Juelich",
+      "candidate_url": "https://aachenerkinder.de/veranstaltung/sommerkirmes-in-der-stadt-juelich/",
+      "reason": "Kirmes auf dem Schlossplatz im Stadtzentrum mit Fahrgeschaeften, Spiel- und Imbissstaenden. Eine offizielle Stadtseite mit Bewerbungsverfahren und Frist konnte nicht gefunden werden.",
+      "agent_batch_id": "nrw-bergisch-aachen-2026-08"
+    },
+    {
+      "event_name": "Kirmessen Solingen, Remscheid, Velbert, Schwelm, Ennepetal",
+      "candidate_url": "https://www.solingen.de/",
+      "reason": "Fuenf Staedte des Bergischen Landes geprueft. Die Remscheider Maikirmes wird vom Remscheider Schuetzenverein von 1816 ausgerichtet und ist bereits als Kandidat erfasst; die Gevelsberger Kirmes ist als Eintrag vorhanden. Fuer die uebrigen Staedte liess sich kein Bewerbungsverfahren mit Frist finden.",
+      "agent_batch_id": "nrw-bergisch-aachen-2026-08"
+    },
+    {
+      "event_name": "Kirmessen Kreis Heinsberg (Heinsberg, Erkelenz, Geilenkirchen)",
+      "candidate_url": "https://www.heinsberg.de/",
+      "reason": "Drei Staedte geprueft. Der Erkelenzer Lambertusmarkt ist terminlich belegt, ein Bewerbungsverfahren mit Frist ist nicht veroeffentlicht. Hueckelhoven im selben Kreis ist bereits als Kandidat erfasst (sechs Ortsteil-Kirmessen, Bewerbung 'rechtzeitig' ohne Datum).",
+      "agent_batch_id": "nrw-bergisch-aachen-2026-08"
+    },
+    {
+      "event_name": "Annakirmes Dueren 2028",
+      "candidate_url": "https://www.dueren.de/kultur-tourismus/veranstaltungen/annakirmes/schausteller",
+      "reason": "Der Jahrgang 2027 ist mit Frist 30.09.2026 bereits als Eintrag erfasst. Fuer 2028 waere nach demselben Muster der 30.09.2027 anzusetzen; die Stadt weist die Frist jedoch nicht ausdruecklich als Dauerregel aus, daher zunaechst nur vorgemerkt.",
+      "agent_batch_id": "nrw-bergisch-aachen-2026-08"
     },
     {
       "event_name": "Fruehlingsmarkt Attendorn 2026",

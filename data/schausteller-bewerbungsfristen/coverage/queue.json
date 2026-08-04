@@ -148,7 +148,7 @@
       "label": "Bergisches Land und Aachen",
       "state": "Nordrhein-Westfalen",
       "tier": 1,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Wuppertal",
         "Solingen",
@@ -230,7 +230,7 @@
       "label": "Oberbayern",
       "state": "Bayern",
       "tier": 1,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "München",
         "Ingolstadt",
