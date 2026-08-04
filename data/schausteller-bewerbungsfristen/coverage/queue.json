@@ -338,7 +338,7 @@
       "label": "Region Stuttgart",
       "state": "Baden-Württemberg",
       "tier": 1,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Stuttgart",
         "Esslingen am Neckar",
@@ -835,5 +835,6 @@
         "Bremerhaven"
       ]
     }
-  ]
+  ],
+  "priority_note": "Ertrag haengt stark von der Verwaltungskultur ab. Bayern und Baden-Wuerttemberg haben Marktaemter mit veroeffentlichten Satzungen und Fristen und liefern ein Vielfaches. NRW ueberlaesst die Feste Vereinen und Agenturen, die kaum publizieren: 75 gepruefte NRW-Staedte ergaben 5 Eintraege. Daher BY- und BW-Einheiten vorziehen und NRW erst in der Nachfasswelle im Herbst erneut anfassen."
 }

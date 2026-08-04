@@ -9,6 +9,7 @@ Format: `Datum | Einheit | neue Einträge | Bemerkung`
 
 | Datum | Einheit | Neu | Bemerkung |
 |---|---|---|---|
+| 2026-08-04 | bw-stuttgart | +0 | 15 Städte. Esslingen (200+ Stände), Backnang, Fellbach, Ludwigsburg haben Verfahren, aber kein publiziertes Enddatum. Backnang nennt nur den Start (15.12.) |
 | 2026-08-04 | by-oberbayern | +1 | Erding über Dauerregel 31.10. Vorjahr. Rosenheim veröffentlicht seine 2027-Ausschreibung Mitte August 2026 — dringendster Nachfassfall |
 | 2026-08-04 | nrw-bergisch-aachen | +0 | Strukturmuster: Wuppertal hat Weihnachtsmärkte 2025–2029 an den Schaustellerverein übertragen, in der StädteRegion Aachen organisieren Schausteller selbst (SDSA). Ansprechpartner sind Verbände, nicht Ordnungsämter |
 | 2026-08-04 | nrw-koeln-bonn | +0 | 19 Städte. Troisdorf 2026 war schon erfasst, ohne Dauerregel keine Ableitung für 2027. Rhein-Erft und Rhein-Sieg publizieren keine Fristen |

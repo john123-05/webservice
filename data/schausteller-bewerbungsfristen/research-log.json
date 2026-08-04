@@ -2315,6 +2315,48 @@
       "agent_batch_id": "bw-2027-deep-rb-tuebingen"
     },
     {
+      "event_name": "Esslinger Mittelaltermarkt und Weihnachtsmarkt",
+      "candidate_url": "https://www.esslingen-info.com/veranstaltungen/mittelaltermarkt-weihnachtsmarkt/ausstellerinformationen",
+      "reason": "Einer der groessten und bekanntesten Maerkte der Region mit ueber 200 Staenden, jaehrlich im November und Dezember. Die Esslingen Markt und Event GmbH stellt Bewerbungsunterlagen bereit, nennt auf der Ausstellerseite aber weder Frist noch Veranstaltungszeitraum. Marktplatz 16, 73728 Esslingen, 0711 396939-69, office@esslingen-marketing.de. Hohe Prioritaet wegen der Groesse.",
+      "agent_batch_id": "bw-stuttgart-2026-08"
+    },
+    {
+      "event_name": "Backnanger Strassenfest 2027",
+      "candidate_url": "https://www.backnanger-strassenfest.de/mitmachen/verkaufsstand",
+      "reason": "Viertaegiges Strassenfest, 2026 vom 26. bis 29. Juni. Die Stadt nennt den Beginn der Bewerbungsphase ('beginnt am 15. Dezember'), aber kein Enddatum. Anmeldung elektronisch oder ueber ein Formular des Kultur- und Sportamts. Festivalbuero, Bahnhofstrasse 7, 71522 Backnang, 07191 894-616, strassenfest@backnang.de. Nachfassen ab Mitte Dezember 2026.",
+      "agent_batch_id": "bw-stuttgart-2026-08"
+    },
+    {
+      "event_name": "Wochenmaerkte Fellbach",
+      "candidate_url": "https://www.fellbach.de/markt",
+      "reason": "Zwei Wochenmaerkte (Fellbacher Wochenmarkt samstags am Marktplatz, Schmidener Wochenmarkt freitags am Otilia-Frech-Platz). Bewerbung ueber ein Online-Formular, Entgeltverzeichnis steht bereit, aber keine Frist. Leitung Max Seeger, Guntram-Palm-Platz 1, 70734 Fellbach, 0711 57561-350.",
+      "agent_batch_id": "bw-stuttgart-2026-08"
+    },
+    {
+      "event_name": "Wochenmarkt Ludwigsburg",
+      "candidate_url": "https://visit.ludwigsburg.de/start/presse+_+b2b/bewerbungsunterlagen+wochenmarkt.html",
+      "reason": "Wochenmarkt dienstags, donnerstags und samstags auf dem Marktplatz. Bewerbungsunterlagen stehen bereit, ein Fristdatum ist nicht ausgewiesen. Ludwigsburg richtet zusaetzlich einen bekannten Barock-Weihnachtsmarkt aus, fuer den ebenfalls keine Frist gefunden wurde.",
+      "agent_batch_id": "bw-stuttgart-2026-08"
+    },
+    {
+      "event_name": "Bietigheimer Pferdemarkt",
+      "candidate_url": "https://www.bietigheim-bissingen.de/",
+      "reason": "Ueberregional bekanntes Traditionsfest, das am Freitag vor dem ersten Montag im September beginnt und am folgenden Dienstag endet. Ein Bewerbungsverfahren mit Frist ist auf der Stadtseite nicht veroeffentlicht.",
+      "agent_batch_id": "bw-stuttgart-2026-08"
+    },
+    {
+      "event_name": "Floh- und Kraemermaerkte Schorndorf",
+      "candidate_url": "https://www.schorndorf.de/de/stadt-buerger/die-daimlerstadt/stadtbild-natur/maerkte/flohmarkt/auflagen-und-bedingungen",
+      "reason": "Die Stadt Schorndorf veroeffentlicht Auflagen und Bedingungen fuer Flohmarktstaende; erworbene Standplaetze sind nur nach Antrag bei der Abteilung Stadtmarketing und Tourismus uebertragbar. Ein Fristdatum ist nicht genannt.",
+      "agent_batch_id": "bw-stuttgart-2026-08"
+    },
+    {
+      "event_name": "Volksfeste und Maerkte Waiblingen, Boeblingen, Goeppingen, Leonberg, Kirchheim unter Teck, Nuertingen",
+      "candidate_url": "https://www.waiblingen.de/",
+      "reason": "Sechs Staedte der Region Stuttgart geprueft. Der Goeppinger Maientag 2027 ist mit Frist 01.10.2026 bereits als Eintrag erfasst. Fuer die uebrigen Staedte liess sich kein Bewerbungsverfahren mit kalendarischer Frist finden. Hinweis aus der Recherche: Sindelfingen hat sein Volksfest aufgegeben.",
+      "agent_batch_id": "bw-stuttgart-2026-08"
+    },
+    {
       "event_name": "Ausbildungs- und Studienmesse Bad Windsheim 2027",
       "candidate_url": "https://www.bad-windsheim.de/ausbildungsmesse",
       "reason": "Offizielle Stadtseite bestätigt den Messetermin 13.03.2027 und eine offene Ausstelleranmeldung, veröffentlicht aber keinen verbindlichen Anmeldeschluss.",
