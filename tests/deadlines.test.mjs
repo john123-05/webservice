@@ -196,3 +196,29 @@ test('leerer und großer Datensatz werden ohne Sonderfall konsolidiert', () => {
   assert.equal(result.errors.length, 0);
   assert.equal(result.entries.length, 1000);
 });
+
+test('bei sonst gleichwertigen Duplikaten gewinnt der ausführlichere Eintrag', () => {
+  const sparse = makeEntry({
+    contact_name: '',
+    contact_phone: '',
+    venue_or_area: '',
+    notes: '',
+  });
+  const detailed = makeEntry({
+    id: 'testfest-2027-teststadt-zweitquelle',
+    contact_name: 'Marktamt Teststadt',
+    contact_phone: '01234 5678',
+    venue_or_area: 'Marktplatz und Rathausvorplatz',
+    notes: 'Zweite Quelle mit vollständigen Angaben.',
+  });
+
+  // Beide Reihenfolgen müssen dasselbe Ergebnis liefern, sonst haengt der
+  // Datenbestand an der Lade-Reihenfolge der Batch-Dateien.
+  for (const entries of [[sparse, detailed], [detailed, sparse]]) {
+    const { entries: result } = consolidateData({ batches: [makeBatch(entries)] });
+    assert.equal(result.length, 1);
+    assert.equal(result[0].contact_name, 'Marktamt Teststadt');
+    assert.equal(result[0].contact_phone, '01234 5678');
+    assert.equal(result[0].venue_or_area, 'Marktplatz und Rathausvorplatz');
+  }
+});

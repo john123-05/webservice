@@ -145,9 +145,18 @@ Releases einmal mit.
 
 ## Bekannte Stolpersteine
 
-- **Master gewinnt beim Merge.** Korrekturen an bereits konsolidierten
-  Feldern greifen *nicht* über Batch-Dateien. Wer einen Tippfehler in einem
-  alten Eintrag beheben will, muss `master.json` direkt ändern.
+- **Master gewinnt beim normalen Lauf.** `npm run deadlines:build` mischt den
+  bestehenden Master mit den Batches; Korrekturen an bereits konsolidierten
+  Feldern schlagen dort nicht durch. Für solche Korrekturen gibt es
+
+  ```
+  node scripts/deadlines/consolidate.mjs --rebuild
+  ```
+
+  Das baut den Master ausschließlich aus den Batch-Dateien neu auf. Danach
+  ist die Batch-Datei die Wahrheit — was nur im Master stand, ist weg.
+  Vor einem Rebuild deshalb `master.json` sichern und hinterher die
+  Eintragszahl vergleichen.
 - **Bundesland exakt schreiben**, mit Umlaut: `Thüringen`, nicht
   `Thueringen`. Sonst entsteht ein zweiter Bundesland-Eimer auf der Website.
   Kanonische Liste: `GERMAN_STATES` in `scripts/deadlines/lib.mjs`.

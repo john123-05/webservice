@@ -19,11 +19,17 @@ const csvPath = join(dataDir, 'export.csv');
 const researchLogPath = join(dataDir, 'research-log.json');
 const exclusionsPath = join(dataDir, 'excluded-entries.json');
 const checkOnly = process.argv.includes('--check');
+// Standardmaessig wird der bestehende Master mitgemischt. Bei gleichem Status
+// und gleichem Verifizierungsdatum gewinnt dabei der Master, weshalb
+// Korrekturen an bereits konsolidierten Feldern ueber Batch-Dateien nicht
+// durchschlagen. --rebuild baut den Master ausschliesslich aus den Batches
+// neu auf und macht solche Korrekturen wieder moeglich.
+const rebuild = process.argv.includes('--rebuild');
 
 const readJson = (path) => JSON.parse(readFileSync(path, 'utf8'));
 const writeJson = (path, value) => writeFileSync(path, `${JSON.stringify(value, null, 2)}\n`);
 
-const master = existsSync(masterPath) ? readJson(masterPath) : { entries: [] };
+const master = !rebuild && existsSync(masterPath) ? readJson(masterPath) : { entries: [] };
 const excludedIds = new Set(
   existsSync(exclusionsPath) ? (readJson(exclusionsPath).ids || []) : [],
 );
@@ -82,9 +88,10 @@ if (errors.length) {
     });
   }
 
+  const mode = checkOnly ? ' (nur geprueft)' : rebuild ? ' (aus Batches neu aufgebaut)' : ' (Exporte aktualisiert)';
   console.log(
     `${entries.length} Master-Eintraege, ${publishableEntries.length} veroeffentlichbar, `
-    + `${warnings.length} Warnungen${checkOnly ? ' (nur geprueft)' : ' (Exporte aktualisiert)'}.`,
+    + `${warnings.length} Warnungen${mode}.`,
   );
   for (const warning of warnings) console.warn(`- ${warning}`);
 }

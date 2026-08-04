@@ -182,13 +182,25 @@ export const createDedupeKey = (entry) => [
   normalizeText(entry.application_deadline_iso),
 ].join('|');
 
+// Wie viele der inhaltlichen Felder sind gefuellt? Dient als Stichentscheid,
+// damit bei sonst gleichwertigen Duplikaten der ausfuehrlichere Eintrag
+// gewinnt - unabhaengig davon, in welcher Reihenfolge die Quellen geladen
+// wurden. Ohne diesen Vergleich haengt das Ergebnis an der Dateireihenfolge.
+const DETAIL_FIELDS = FRIST_ENTRY_FIELDS.filter((field) => ![
+  'id', 'country', 'source_kind', 'agent_batch_id', 'confidence_status',
+].includes(field));
+
+const countFilledFields = (entry) => DETAIL_FIELDS
+  .reduce((count, field) => count + (normalizeText(entry[field]) ? 1 : 0), 0);
+
 const pickPreferredEntry = (left, right) => {
   const priorityDifference = (STATUS_PRIORITY[right.confidence_status] ?? -1)
     - (STATUS_PRIORITY[left.confidence_status] ?? -1);
   if (priorityDifference > 0) return [right, left];
   if (priorityDifference < 0) return [left, right];
   if (right.last_verified_at > left.last_verified_at) return [right, left];
-  return [left, right];
+  if (left.last_verified_at > right.last_verified_at) return [left, right];
+  return countFilledFields(right) > countFilledFields(left) ? [right, left] : [left, right];
 };
 
 const joinUniqueNotes = (...values) => [...new Set(values.flatMap((value) => (
