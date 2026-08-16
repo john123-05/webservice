@@ -1,0 +1,121 @@
+{
+  "batch_id": "ni-2027-deep-mitte-ost",
+  "region_scope": [
+    "Region Hannover",
+    "Braunschweig und Ostniedersachsen",
+    "Suedniedersachsen",
+    "Lueneburger Heide",
+    "Ostfriesland und Kueste"
+  ],
+  "search_terms": [
+    "Schuetzenfest Hannover 2027 Bewerbung Schausteller Bewerbungsfrist Stadt Hannover",
+    "Hannover Fruehlingsfest Maschseefest Weihnachtsmarkt 2027 Bewerbung Schausteller Beschicker Frist",
+    "Braunschweig Weihnachtsmarkt Schoduvel Magnifest 2027 Bewerbung Schausteller Aussteller Frist",
+    "Hildesheim Celle Lueneburg Goettingen Kirmes Jahrmarkt Weihnachtsmarkt 2027 Bewerbung Schausteller Frist",
+    "Emden Leer Aurich Wilhelmshaven Cuxhaven Stade Jahrmarkt 2027 Bewerbung Schausteller Frist",
+    "Lingen Nordhorn Hameln Wolfsburg Salzgitter Goslar Kirmes Schuetzenfest 2027 Bewerbung Schausteller Frist"
+  ],
+  "max_expected_results": 70,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "braunschweiger-weihnachtsmarkt-wechselhuette-2026-braunschweig",
+      "event_name": "Braunschweiger Weihnachtsmarkt 2026 - Wechselhütte",
+      "event_type": "Weihnachtsmarkt / Kunsthandwerk",
+      "city": "Braunschweig",
+      "state": "Niedersachsen",
+      "country": "DE",
+      "venue_or_area": "Braunschweiger Weihnachtsmarkt rund um Burgplatz und Dom",
+      "application_deadline_iso": "2026-08-31",
+      "application_deadline_text": "Bewerbungsschluss ist der 31. August 2026.",
+      "event_date_range_text": "25. November bis 23. Dezember 2026; die Wechselhütte wird wochenweise jeweils von Mittwoch bis Dienstag vergeben.",
+      "application_mode": "Formlose Bewerbung per E-Mail an bewerbung.weihnachtsmarkt@braunschweig.de oder über www.braunschweig.de/wm-bewerben.",
+      "postal_address": "Braunschweig Stadtmarketing GmbH, Sack 17, 38100 Braunschweig",
+      "contact_name": "Kim Zimpel (0531 470-3242) und Angela Schueler (0531 470-2057)",
+      "contact_email": "bewerbung.weihnachtsmarkt@braunschweig.de",
+      "contact_phone": "0531 470-3242",
+      "source_url": "https://www.braunschweig.de/politik_verwaltung/nachrichten/bsm/WM-Wechselhuette.php",
+      "source_domain": "braunschweig.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "ni-2027-deep-mitte-ost",
+      "confidence_status": "verified",
+      "notes": "Einstiegsformat für Kunsthandwerkerinnen und Kunsthandwerker, die sich nicht für die gesamte Marktdauer binden wollen. Der regulaere Bewerbungszeitraum für den Weihnachtsmarkt 2026 ist bereits beendet, die Wechselhütte ist zum Stichtag noch offen. Der Markt zieht rund 900.000 Besucher an."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Schuetzenfest Hannover 2026",
+      "candidate_url": "https://schuetzenfest-hannover.de/beschicker/ausschreibung/",
+      "reason": "Offizielle Ausschreibung des Hannoverschen Schuetzenfest e. V.: 'Die Bewerbungen sind bis zum 31. Oktober 2025 beim Veranstalter einzureichen' fuer das Fest vom 3. bis 12. Juli 2026. Frist zum Stichtag 03.08.2026 abgelaufen."
+    },
+    {
+      "event_name": "Braunschweiger Weihnachtsmarkt 2026 - regulaere Standplaetze",
+      "candidate_url": "https://www.braunschweig.de/weihnachtsmarkt/ausstellerinfo.php",
+      "reason": "Die Braunschweig Stadtmarketing GmbH vermerkt: 'Der Bewerbungszeitraum fuer den Weihnachtsmarkt 2026 ist beendet.' Nur die Wechselhuette ist noch offen."
+    },
+    {
+      "event_name": "Goslarer Veranstaltungen 2026 (Walpurgis, Gartenmarkt, Kunsthandwerkermarkt, Vienenburger Seefest, Altstadtfest, Weihnachtsmarkt und Weihnachtswald)",
+      "candidate_url": "https://www.meingoslar.de/veranstaltungen/infos-fuer-aussteller",
+      "reason": "Die GOSLAR marketing gmbh veroeffentlicht fuer alle sechs Veranstaltungen konkrete Bewerbungsfristen, saemtlich fuer das Jahr 2026: Walpurgis 15.02.2026, Gartenmarkt 22.02.2026, Kunsthandwerkermarkt 28.02.2026, Vienenburger Seefest 28.02.2026, Altstadtfest 15.03.2026, Weihnachtsmarkt und Weihnachtswald 28.02.2026. Alle Fristen sind zum Stichtag 03.08.2026 abgelaufen."
+    },
+    {
+      "event_name": "Maschseefest Hannover - Gastronomiekonzessionen 2025-2027",
+      "candidate_url": "https://www.visit-hannover.com/Event-Highlights,-Kultur-Freizeit/Top-Events-und-Veranstaltungen/Maschseefest/Ausschreibung-Maschseefest",
+      "reason": "Ausschreibung von 18 bis 20 Standbetreibervertraegen als Dienstleistungskonzession ueber drei Jahre (2025 bis 2027). Die Einreichungsfrist ueber den Vergabemarktplatz endete am 9. Januar 2025, 12:00 Uhr. Damit sind die Plaetze bis einschliesslich 2027 vergeben."
+    },
+    {
+      "event_name": "Schuetzenfest Wolfsburg 2026",
+      "candidate_url": "https://www.schuetzenfest-wolfsburg.de/schausteller_informationen.html",
+      "reason": "Die Veranstalterseite vermerkt: 'Das Bewerbungsverfahren fuer 2026 ist abgeschlossen.' Ein Verfahren fuer 2027 ist noch nicht eroeffnet."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Schuetzenfest Hannover 2027",
+      "candidate_url": "https://schuetzenfest-hannover.de/beschicker/ausschreibung/",
+      "reason": "Groesstes Schuetzenfest der Welt; der Termin 02.07.-11.07.2027 ist bestaetigt. Der Veranstalter Hannoversches Schuetzenfest e. V. schreibt jaehrlich mit Frist 31. Oktober des Vorjahres aus (2024: 31.10.2023, 2026: 31.10.2025), formuliert dies aber als Einzeldatum je Jahrgang und nicht als Dauerregel. Die 2027-Ausschreibung war zum Pruefzeitpunkt weder unter Ausschreibung noch unter Aktuelles veroeffentlicht. Aus rund 500 Bewerbungen werden etwa 200 Beschickerinnen und Beschicker ausgewaehlt. Nur textliche Bewerbungen per Post oder E-Mail werden beruecksichtigt."
+    },
+    {
+      "event_name": "Goslarer Veranstaltungen 2027 (sechs Maerkte und Feste)",
+      "candidate_url": "https://www.meingoslar.de/veranstaltungen/infos-fuer-aussteller",
+      "reason": "Die GOSLAR marketing gmbh (Historisches Rathaus, Markt 1, 38640 Goslar) betreibt ein durchstrukturiertes Bewerbungsverfahren mit je eigener Frist und benannter Ansprechperson pro Veranstaltung (Jan-Patrick Simon 05321 7806-90, Stefanie Dressler 05321 7806-51, Janette Ben Mrad 05321 7806-50). Die Fristen fuer 2027 werden erfahrungsgemaess erst im Januar/Februar 2027 veroeffentlicht. Hohe Prioritaet fuer die Nachfasswelle."
+    },
+    {
+      "event_name": "Hildesheimer Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.hildesheim-tourismus.de/bewerbung-weihnachtsmarkt",
+      "reason": "Die Hildesheim Marketing GmbH betreibt ein Online-Bewerbungsformular fuer rund 60 Staende auf dem Historischen Marktplatz und dem Platz An der Lilie. Fuer 2025 endete die Frist am 30.06.2025, was auf das Muster 30.06. des Veranstaltungsjahres hindeutet. Auf dem Formular selbst ist kein Fristdatum ausgewiesen. Tourist-Information Hildesheim, 05121 1798-0."
+    },
+    {
+      "event_name": "Schuetzenfest Hildesheim 2027",
+      "candidate_url": "https://sfhi.de/schaustellerinfo/",
+      "reason": "Verein Hildesheimer Volksfest e. V., Johannes-Stelzer-Weg 15, 31137 Hildesheim. Der Termin 24.-27. Juni 2027 ist auf der Schaustellerinfo bestaetigt. Eine Bewerbungsfrist wird nicht genannt, nur der Hinweis, dass Bewerber ohne Vertrag bis 31.01.2026 nicht beruecksichtigt wurden. Bewerbungen per E-Mail oder SMS werden nicht bearbeitet."
+    },
+    {
+      "event_name": "Volksfest Goslar 2027",
+      "candidate_url": "https://www.volksfest-goslar.de/schausteller-2/",
+      "reason": "Volksfest Goslar e.V., Postfach 3447, 38634 Goslar. Rund 900 Bewerbungen jaehrlich, Auswertung nach einem Kriterienkatalog, Ausschreibung erfolgt ueber die Fachzeitschrift Der Komet. Auf der Webseite ist keine Bewerbungsfrist ausgewiesen, Bewerbung nur schriftlich per Post."
+    },
+    {
+      "event_name": "Schuetzenfest Wolfsburg 2027",
+      "candidate_url": "https://www.schuetzenfest-wolfsburg.de/schausteller_informationen.html",
+      "reason": "Schuetzengesellschaft Wolfsburg e.V. mit Events38 OHG als Kooperationspartner fuer den Festplatz. Ansprechpartner Stefan Franz 0171 2012044 und Thomas Bronswyk 0171 4147479, kontakt@events38.de, Wiesenweg 11, 38122 Braunschweig. Fuer 2027 ist noch kein Verfahren mit Frist eroeffnet."
+    },
+    {
+      "event_name": "Fruehlingsfest Hannover 2027",
+      "candidate_url": "https://www.fruehlingsfest-hannover.de/",
+      "reason": "Offizielle Veranstalterseite nennt fuer 2026 den Termin 04.-26. April, enthaelt aber keinerlei Bewerbungsinformationen fuer Schausteller. Einziger Kontakt: Burkhard Henze, 0172 142 89 42."
+    },
+    {
+      "event_name": "Magnifest Braunschweig 2027",
+      "candidate_url": "https://www.braunschweig.de/rss/stadtmarketing.php",
+      "reason": "Stadtteilfest jeweils am ersten Septemberwochenende mit Aufruf zur Teilnahme mit rustikalen Staenden und ungewoehnlichen Produkten. Eine offizielle Seite mit kalendarischer Bewerbungsfrist konnte nicht gefunden werden."
+    },
+    {
+      "event_name": "Ostfriesische Maerkte (Emder Ostermarkt, Auricher Ostermarkt, Wilhelmshavener Fruehlingsfest)",
+      "candidate_url": "https://www.schaustellerverein.de/marktkalender.html",
+      "reason": "Der Verein reisender Schausteller Ostfriesland e.V. fuehrt einen Marktkalender fuer die ostfriesischen Maerkte. Die einzelnen Staedte veroeffentlichen jedoch keine zentralen Bewerbungsverfahren mit Fristen auf ihren offiziellen Seiten."
+    }
+  ]
+}

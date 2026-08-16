@@ -1,0 +1,512 @@
+{
+  "batch_id": "by-2027-deep-rb-oberbayern",
+  "region_scope": [
+    "Bayern",
+    "Regierungsbezirk Oberbayern"
+  ],
+  "search_terms": [
+    "Schausteller Bewerbung 2027 Oberbayern",
+    "Beschicker Bewerbungsfrist 2027 Oberbayern",
+    "Volksfest Dult Kirchweih Stadtfest Markt Bewerbung 2027 Oberbayern",
+    "Weihnachtsmarkt Kunsthandwerk Foodtruck Aussteller 2027 Oberbayern",
+    "Messe München Aussteller Anmeldung Frist 2027",
+    "Städte Gemeinden Landkreise Oberbayern Veranstaltungen Bewerbungsfrist 2027"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "dachauer-volksfest-2027-dachau",
+      "event_name": "Dachauer Volksfest 2027",
+      "event_type": "Volksfest",
+      "city": "Dachau",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Volksfestplatz Dachau",
+      "application_deadline_iso": "2026-10-30",
+      "application_deadline_text": "Bewerbungsschluss für das Dachauer Volksfest 2027 ist der 30.10.2026",
+      "event_date_range_text": "07.08.-16.08.2027",
+      "application_mode": "Schriftliche Bewerbung mit detaillierten Angaben zum Geschäft",
+      "postal_address": "Stadt Dachau, Amt für Kultur, Tourismus und Zeitgeschichte, Konrad-Adenauer-Straße 1, 85221 Dachau",
+      "contact_name": "Amt für Kultur, Tourismus und Zeitgeschichte, Abteilung Kultur & Zeitgeschichte",
+      "contact_email": "volksfest@dachau.de",
+      "contact_phone": "08131 75-253",
+      "source_url": "https://www.dachau.de/dachauer-volksfest/",
+      "source_domain": "dachau.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberbayern",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Stadtseite nennt Veranstaltungstermin, Bewerbungsschluss und Kontakt ausdrücklich."
+    },
+    {
+      "id": "laser-world-of-photonics-2027-hauptaussteller-muenchen",
+      "event_name": "LASER World of PHOTONICS 2027 - Hauptaussteller",
+      "event_type": "Fachmesse",
+      "city": "München",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Trade Fair Center Messe München, Am Messesee 2, 81829 München",
+      "application_deadline_iso": "2026-08-31",
+      "application_deadline_text": "Anmeldeschluss für die erste Hallenaufplanung: Montag, 31.08.2026",
+      "event_date_range_text": "22.06.-25.06.2027",
+      "application_mode": "Online-Ausstelleranmeldung",
+      "postal_address": "Messe München GmbH, Messegelände, 81823 München",
+      "contact_name": "LASER World of PHOTONICS Ausstellerservice",
+      "contact_email": "",
+      "contact_phone": "+49 89 949-11518",
+      "source_url": "https://world-of-photonics.com/de/messe/aussteller/anmeldung/",
+      "source_domain": "world-of-photonics.com",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberbayern",
+      "confidence_status": "partial",
+      "notes": "Die offizielle Messeseite bezeichnet den 31.08.2026 als Anmeldeschluss für die erste Hallenaufplanung; spätere Anmeldemöglichkeiten werden dadurch nicht ausgeschlossen."
+    },
+    {
+      "id": "transport-logistic-2027-hauptaussteller-muenchen",
+      "event_name": "transport logistic 2027 - Hauptaussteller",
+      "event_type": "Fachmesse",
+      "city": "München",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Trade Fair Center Messe München, Am Messesee 2, 81829 München",
+      "application_deadline_iso": "2026-09-15",
+      "application_deadline_text": "15.09.2026: Anmeldeschluss für Hauptaussteller zur Sicherung des Kontingents von 100 kostenfreien Besuchergutscheinen",
+      "event_date_range_text": "26.04.-29.04.2027",
+      "application_mode": "Online-Ausstelleranmeldung",
+      "postal_address": "Messe München GmbH, Messegelände, 81823 München",
+      "contact_name": "Projektteam transport logistic",
+      "contact_email": "exhibitor@transportlogistic.de",
+      "contact_phone": "+49 89 949-20271",
+      "source_url": "https://transportlogistic.de/de/messe/aussteller/tipps-termine-fristen/",
+      "source_domain": "transportlogistic.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberbayern",
+      "confidence_status": "partial",
+      "notes": "Die Frist ist offiziell als Anmeldeschluss ausgewiesen, bezieht sich laut Veranstalter aber ausdrücklich auf die Sicherung des Gutscheinkontingents."
+    },
+    {
+      "id": "transport-logistic-2027-mitaussteller-muenchen",
+      "event_name": "transport logistic 2027 - Mitaussteller",
+      "event_type": "Fachmesse",
+      "city": "München",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Trade Fair Center Messe München, Am Messesee 2, 81829 München",
+      "application_deadline_iso": "2027-01-31",
+      "application_deadline_text": "31.01.2027: Deadline Mitaussteller-Anmeldung; später eingegangene Mitaussteller werden nur noch in Online-Verzeichnissen veröffentlicht",
+      "event_date_range_text": "26.04.-29.04.2027",
+      "application_mode": "Online-Anmeldung durch den Hauptaussteller",
+      "postal_address": "Messe München GmbH, Messegelände, 81823 München",
+      "contact_name": "Projektteam transport logistic",
+      "contact_email": "exhibitor@transportlogistic.de",
+      "contact_phone": "+49 89 949-20271",
+      "source_url": "https://transportlogistic.de/de/messe/aussteller/tipps-termine-fristen/",
+      "source_domain": "transportlogistic.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberbayern",
+      "confidence_status": "partial",
+      "notes": "Die offizielle Frist gilt für die vollständige Veröffentlichung; spätere Mitaussteller-Anmeldungen bleiben mit eingeschränkter Online-Veröffentlichung möglich."
+    },
+    {
+      "id": "transport-logistic-2027-standpaket-easy-muenchen",
+      "event_name": "transport logistic 2027 - Standpaket Easy",
+      "event_type": "Fachmesse / Gemeinschaftsstand",
+      "city": "München",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Trade Fair Center Messe München, Am Messesee 2, 81829 München",
+      "application_deadline_iso": "2027-03-05",
+      "application_deadline_text": "Anmeldeschluss: Freitag, 05.03.2027; Vergabe nach dem Prinzip first come, first serve",
+      "event_date_range_text": "26.04.-29.04.2027",
+      "application_mode": "Online-Anmeldung für das Standpaket Easy",
+      "postal_address": "Messe München GmbH, Messegelände, 81823 München",
+      "contact_name": "Birgit Mittelmeier, Deputy Exhibition Director",
+      "contact_email": "",
+      "contact_phone": "+49 89 949-20276",
+      "source_url": "https://transportlogistic.de/de/messe/aussteller/anmeldung-preise/standpaket-easy/",
+      "source_domain": "transportlogistic.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberbayern",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Angebotsseite nennt Anmeldeschluss, Kapazitätsgrenze von 14 Unternehmen und Vergabereihenfolge."
+    },
+    {
+      "id": "neuburger-schlossfest-2027-markt-neuburg-donau",
+      "event_name": "Neuburger Schloßfest 2027 - Markt",
+      "event_type": "Historischer Markt / Stadtfest",
+      "city": "Neuburg an der Donau",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Obere Altstadt Neuburg an der Donau",
+      "application_deadline_iso": "2026-08-31",
+      "application_deadline_text": "Bewerbung mit Bewerbungsbogen und Fotos bis 31.08.2026",
+      "event_date_range_text": "25.06.-27.06.2027 und 02.07.-04.07.2027",
+      "application_mode": "Offiziellen Bewerbungsbogen mit Fotos einreichen",
+      "postal_address": "Verkehrsverein Freunde der Stadt Neuburg e.V., In der Münz A 36, 86633 Neuburg an der Donau",
+      "contact_name": "Verkehrsverein Freunde der Stadt Neuburg e.V.",
+      "contact_email": "info@verkehrsverein-neuburg.de",
+      "contact_phone": "+49 8431 47016",
+      "source_url": "https://www.schlossfest.de/aktuelles/bewerbung-fuer-den-markt-2027_id4485",
+      "source_domain": "schlossfest.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberbayern",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Veranstalterseite bestätigt beide Festwochenenden, die laufende Markt-Bewerbung und den Bewerbungsschluss."
+    },
+    {
+      "id": "neuburger-volksfest-2027-neuburg-donau",
+      "event_name": "Neuburger Volksfest 2027",
+      "event_type": "Volksfest",
+      "city": "Neuburg an der Donau",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Volksfestplatz Neuburg an der Donau",
+      "application_deadline_iso": "2026-09-30",
+      "application_deadline_text": "Bewerbungsschluss für alle Bewerber ist jeweils der 30. September des Vorjahres",
+      "event_date_range_text": "30.07.-08.08.2027 gemäß der offiziellen Regel: Beginn am Freitag des letzten Juliwochenendes, Dauer zehn Tage",
+      "application_mode": "Schriftliche Bewerbung mit vollständigen Angaben und aktuellem Bildmaterial",
+      "postal_address": "Stadt Neuburg an der Donau, Ordnungsamt, Amalienstraße A 54, 86633 Neuburg an der Donau",
+      "contact_name": "Frau Morina, Öffentliche Sicherheit und Ordnung",
+      "contact_email": "",
+      "contact_phone": "08431 55-423",
+      "source_url": "https://www.neuburg-donau.de/rathaus/aufgaben-und-dienstleistungen/Volksfest_id2794",
+      "source_domain": "neuburg-donau.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberbayern",
+      "confidence_status": "partial",
+      "notes": "Die Stadt veröffentlicht eine dauerhaft verbindliche Termin- und Fristenregel. ISO-Frist und 2027-Termin sind unmittelbar aus dieser offiziellen Regel berechnet, nicht aus einer Vorjahresausschreibung übertragen."
+    },
+    {
+      "id": "bad-toelzer-ostermarkt-2027",
+      "event_name": "Bad Tölzer Ostermarkt 2027",
+      "event_type": "Ostermarkt",
+      "city": "Bad Tölz",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Marktstraße Bad Tölz",
+      "application_deadline_iso": "2026-09-30",
+      "application_deadline_text": "Abgabetermin: 30.09.2026",
+      "event_date_range_text": "19.03.-29.03.2027",
+      "application_mode": "Offizielles Formular mit Standbeschreibung und Foto per E-Mail einreichen",
+      "postal_address": "Stadt Bad Tölz, Referat für Tourismus und Kultur, Max-Höfler-Platz 1, 83646 Bad Tölz",
+      "contact_name": "Nadine Stadler",
+      "contact_email": "ostermarkt@bad-toelz.de",
+      "contact_phone": "08041 7867-20",
+      "source_url": "https://www.bad-toelz.de/_Resources/Persistent/4/d/1/c/4d1c3b2a0fd59895745799b08488567a9dd0b578/Formular%20Bewerbung%202027.pdf",
+      "source_domain": "bad-toelz.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberbayern",
+      "confidence_status": "verified",
+      "notes": "Das offizielle Bewerbungsformular 2027 bestätigt Veranstaltungszeitraum, Warengruppen, Bewerbungsweg und Abgabetermin."
+    },
+    {
+      "id": "bad-toelzer-christkindlmarkt-2027",
+      "event_name": "Bad Tölzer Christkindlmarkt 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Bad Tölz",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Marktstraße Bad Tölz",
+      "application_deadline_iso": "2027-01-31",
+      "application_deadline_text": "Bewerbungsschluss: 31.01.2027",
+      "event_date_range_text": "26.11.-24.12.2027",
+      "application_mode": "Offiziellen Bewerbungsbogen mit Stand- und Warenfotos per E-Mail einreichen",
+      "postal_address": "Stadt Bad Tölz, Referat für Tourismus und Kultur, Max-Höfler-Platz 1, 83646 Bad Tölz",
+      "contact_name": "Nadine Stadler",
+      "contact_email": "christkindlmarkt@bad-toelz.de",
+      "contact_phone": "08041 7867-14",
+      "source_url": "https://www.bad-toelz.de/_Resources/Persistent/a/6/e/9/a6e99f2c420e40dc51bd77645132fdf7db32c64f/Bewerbungsbogen%20CKM%202027.pdf",
+      "source_domain": "bad-toelz.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberbayern",
+      "confidence_status": "verified",
+      "notes": "Das offizielle Bewerbungsformular 2027 nennt Veranstaltungszeitraum, Bewerbungsschluss und Ansprechpartnerin ausdrücklich."
+    },
+    {
+      "id": "tollwood-sommerfestival-2027-markt-der-ideen-muenchen",
+      "event_name": "Tollwood Sommerfestival 2027 - Markt der Ideen",
+      "event_type": "Festivalmarkt / Kunsthandwerk / Bio-Gastronomie",
+      "city": "München",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Olympiapark Süd",
+      "application_deadline_iso": "2026-11-30",
+      "application_deadline_text": "Bewerbungsschluss für das Sommerfestival 2027 ist der 30.11.2026",
+      "event_date_range_text": "18.06.-18.07.2027",
+      "application_mode": "Online-Marktbewerbung für Kunsthandwerk oder Bio-Gastronomie",
+      "postal_address": "",
+      "contact_name": "Tollwood Marktteam",
+      "contact_email": "",
+      "contact_phone": "",
+      "source_url": "https://www.tollwood.de/kontakt/marktbewerbung/formular-marktbewerbung/",
+      "source_domain": "tollwood.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberbayern",
+      "confidence_status": "partial",
+      "notes": "Die offizielle Veranstalterseite bestätigt Bewerbungsende, Festivalzeitraum und die Zielgruppen Kunsthandwerk und Bio-Gastronomie; eine postalische Kontaktadresse wurde aus der geprüften Quelle nicht übernommen."
+    },
+    {
+      "id": "inklusive-jobmesse-2027-aussteller-muenchen",
+      "event_name": "2. Inklusive Jobmesse 2027 - Ausstelleranmeldung",
+      "event_type": "Jobmesse",
+      "city": "München",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Berufsinformationszentrum, Kapuzinerstraße 30, 80337 München",
+      "application_deadline_iso": "2027-03-31",
+      "application_deadline_text": "Anmeldezeitraum vom 15.07.2026 bis 31.03.2027",
+      "event_date_range_text": "07.07.2027, 07:00-16:00 Uhr",
+      "application_mode": "Online-Ausstelleranmeldung über das offizielle Veranstaltungsformular",
+      "postal_address": "Landeshauptstadt München, Referat für Arbeit und Wirtschaft, Herzog-Wilhelm-Straße 15, 80331 München",
+      "contact_name": "Aussteller-Beratung EAA Bayern",
+      "contact_email": "events-muc@eaa-bayern.de",
+      "contact_phone": "",
+      "source_url": "https://veranstaltungen.muenchen.de/raw/veranstaltungen/inklusive-jobmesse-2027-ausstelleranmeldung/",
+      "source_domain": "veranstaltungen.muenchen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberbayern",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Veranstaltungsseite der Landeshauptstadt nennt den vollständigen Anmeldezeitraum, Veranstaltungstermin und die begrenzte Ausstellerzahl."
+    },
+    {
+      "id": "e-bike-days-2027-aussteller-muenchen",
+      "event_name": "E BIKE DAYS München 2027 - Aussteller",
+      "event_type": "Publikumsmesse / Outdoor-Event",
+      "city": "München",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Olympiapark München, Hans-Jochen-Vogel-Platz",
+      "application_deadline_iso": "2027-03-05",
+      "application_deadline_text": "Anmeldeschluss: 05.03.2027 oder sobald alle Standplätze vergeben sind; spätere Buchungen nur in Einzelfällen",
+      "event_date_range_text": "23.04.-25.04.2027",
+      "application_mode": "Ausstelleranmeldung beim offiziellen Veranstalter; Standplätze nach Verfügbarkeit",
+      "postal_address": "COMMUNICO GmbH, Prof.-Max-Lange-Platz 15, 83646 Bad Tölz",
+      "contact_name": "Jan Bruns",
+      "contact_email": "email@ebikedays.de",
+      "contact_phone": "+49 8041 799 75 16",
+      "source_url": "https://ebikedays.de/ausstellerinfos/",
+      "source_domain": "ebikedays.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberbayern",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Veranstalterseite nennt Termin, Tarifphasen, endgültigen Anmeldeschluss und den Vorbehalt einer früheren Schließung bei Vollbelegung."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Grüne Märkte Fürstenfeldbruck 2026/2027",
+      "candidate_url": "https://www.fuerstenfeldbruck.de/ffb/web.nsf/id/pa_gruenemaerkte.html",
+      "reason": "Die offizielle mehrjährige Vergabe umfasste 2027, hatte aber bereits am 23.11.2025 Bewerbungsschluss und war am Stichtag abgelaufen."
+    },
+    {
+      "event_name": "Traunsteiner Frühlingsfest - historische Schaustellersuche",
+      "candidate_url": "https://www.traunstein.de/media/11189/anzeige-fruehlingsfest-schaustellersuche.pdf",
+      "reason": "Die offizielle Ausschreibung betrifft ein Vorjahr und enthält keine für 2027 gültige Frist; eine Übertragung ist ausgeschlossen."
+    },
+    {
+      "event_name": "Ingolstädter Kunsthandwerkermarkt im Christkindlmarkt 2026",
+      "candidate_url": "https://formularcenter.ingolstadt.de/formcycle/form/provide/5252/",
+      "reason": "Die offizielle Bewerbung betrifft ausschließlich die Veranstaltung 2026 und ist deshalb kein zulässiger 2027-Treffer."
+    },
+    {
+      "event_name": "Ingolstädter Christkindlmarkt 2026",
+      "candidate_url": "https://www.ingolstadt.de/Service/Leitfaden-f%C3%BCr-Veranstalter/St%C3%A4dtische-Veranstaltungen/",
+      "reason": "Die veröffentlichte Bewerbungsfrist gehört zur Ausgabe 2026; für 2027 durfte sie nicht übernommen werden."
+    },
+    {
+      "event_name": "The Munich Show 2026 - Aussteller",
+      "candidate_url": "https://munichshow.com/aussteller/",
+      "reason": "Die auffindbare offizielle Ausstellerfrist und Veranstaltungsangaben betreffen 2026, nicht 2027."
+    },
+    {
+      "event_name": "Starnberger Christkindlmarkt 2026",
+      "candidate_url": "https://www.starnberg.de/kultur-freizeit/maerkte-feste/christkindlmarkt",
+      "reason": "Die offizielle Ausschreibung betrifft den Markt 2026; eine noch offene 2026-Frist ist für den auf 2027 begrenzten Auftrag unbrauchbar."
+    },
+    {
+      "event_name": "Altöttinger Christkindlmarkt - ältere Bewerbungsunterlagen",
+      "candidate_url": "https://www.altoetting.de/veranstaltungen/themen/christkindlmarkt/",
+      "reason": "Es lag keine konkrete offizielle Bewerbungsfrist für die Ausgabe 2027 vor; ältere Fristen dürfen nicht fortgeschrieben werden."
+    },
+    {
+      "event_name": "Moosburger Volksfeste - Festwirt-Ausschreibung 2026/2027",
+      "candidate_url": "https://www.moosburg.de/ausschreibung-moosburg-2026-2027",
+      "reason": "Die Ausschreibung betrifft die Festwirtleistung eines mehrjährigen Vergabeverfahrens und liefert keine am Stichtag offene Schausteller- oder Beschickerfrist für eine konkret terminierte Veranstaltung 2027."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Münchner Oktoberfest, Oide Wiesn, Auer Dult, Christkindlmarkt und Stadtgeburtstag 2027",
+      "candidate_url": "https://stadt.muenchen.de/infos/bewerbungmaerkteundfeste.html",
+      "reason": "Die offizielle Stadtseite kündigt 2027-Bewerbungsunterlagen erst ab November 2026 an; am Stichtag war noch keine konkrete 2027-Frist veröffentlicht."
+    },
+    {
+      "event_name": "Puchheimer Volksfest AUFTAKT 2027",
+      "candidate_url": "https://www.puchheim.de/stadtleben/kunst-und-kultur/volksfest",
+      "reason": "Der offizielle Veranstaltungstermin 09.-18.04.2027 ist bestätigt, eine Schausteller- oder Beschickerfrist aber nicht veröffentlicht."
+    },
+    {
+      "event_name": "Rosenheimer Herbstfest 2027",
+      "candidate_url": "https://www.wirtschaftlicher-verband.de/herbstfest/ausschreibung.html",
+      "reason": "Der offizielle Veranstalter kündigt Ausschreibungsinformationen erst ungefähr ab Mitte August 2026 an; am Stichtag fehlte eine konkrete Frist."
+    },
+    {
+      "event_name": "Altöttinger Hofdult 2027",
+      "candidate_url": "https://www.altoetting.de/veranstaltungen/themen/hofdult/",
+      "reason": "Die offizielle Seite bestätigt den Termin 21.-30.05.2027, nennt aber keine Bewerbungsfrist für Schausteller oder Beschicker."
+    },
+    {
+      "event_name": "Traunsteiner Frühlingsfest 2027",
+      "candidate_url": "https://www.traunstein.de/kultur-brauchtum/kultur/konzertreihen-veranstaltungen/traunsteiner-fruehlingsfest/",
+      "reason": "Der offizielle Termin 30.04.-09.05.2027 ist vorhanden, jedoch keine konkrete 2027-Bewerbungsfrist; ältere Ausschreibungen sind nicht übertragbar."
+    },
+    {
+      "event_name": "Volksmusiktage MITTENDRIN und Mittendrin-Markt Eichstätt 2027",
+      "candidate_url": "https://www.eichstaett.de/veranstaltungen/volksmusik_mittendrin_in_eichs-798055/",
+      "reason": "Die offizielle Seite bestätigt Termin und bereits laufende erste Marktanmeldungen, nennt aber keinen verbindlichen Bewerbungsschluss."
+    },
+    {
+      "event_name": "iloga Wolfratshausen 2027",
+      "candidate_url": "https://www.wolfratshausen.de/wirtschaft-einkaufen/standortfoerderung/begegnen-vernetzen",
+      "reason": "Die offizielle Stadtseite bestätigt die Gewerbeschau 2027 und Ausstellerbeteiligung, aber noch keinen konkreten Termin oder Bewerbungsschluss."
+    },
+    {
+      "event_name": "Fürstenfeldbrucker Altstadtfest 2027",
+      "candidate_url": "https://www.fuerstenfeldbruck.de/ffb/web.nsf/id/pa_altstadtfest.html",
+      "reason": "Die offizielle Stadtseite kündigt künftige Bewerbungen lediglich als demnächst wieder möglich an und nennt keine 2027-Frist."
+    },
+    {
+      "event_name": "Brucker Volksfest 2027",
+      "candidate_url": "https://www.fuerstenfeldbruck.de/ffb/web.nsf/id/pa_bruckervolksfest.html?Open=&vcmsTemplate=ffb-text",
+      "reason": "Die Stadt nennt eine wiederkehrende Bewerbungsregel bis 31. Oktober für das kommende Jahr, veröffentlicht auf der Seite aber nur den Veranstaltungstermin 2026; die konkrete 2027-Ausgabe ist daher nachzuprüfen."
+    },
+    {
+      "event_name": "Fürstenfeldbrucker Christkindlmarkt 2027",
+      "candidate_url": "https://www.fuerstenfeldbruck.de/ffb/web.nsf/id/pa_christkindlmarkt.html",
+      "reason": "Mehrjährige Rahmenbedingungen sind vorhanden, die am Stichtag verfügbaren Bewerbungsunterlagen und Fristen bezogen sich jedoch nicht konkret auf 2027."
+    },
+    {
+      "event_name": "Ingolstädter Bürgerfest und Fest zum Reinen Bier 2027",
+      "candidate_url": "https://www.ingolstadt.de/Service/Leitfaden-f%C3%BCr-Veranstalter/St%C3%A4dtische-Veranstaltungen/",
+      "reason": "Die offizielle Stadtseite nennt 2027-Veranstaltungen, veröffentlichte dafür aber noch keine konkrete Bewerbungsfrist."
+    },
+    {
+      "event_name": "Erdinger Herbstfest, Altstadtfest und Christkindlmarkt 2027",
+      "candidate_url": "https://www.erding.de/rathaus-buerger-service/stadtverwaltung/formulare-und-onlinedienste/feste-und-maerkte",
+      "reason": "Offizielle Formulare und wiederkehrende Fristangaben sind vorhanden, aber keine eindeutig auf konkret terminierte 2027-Ausgaben bezogenen Bewerbungsunterlagen."
+    },
+    {
+      "event_name": "Dachauer Jahrmärkte 2027",
+      "candidate_url": "https://www.dachau.de/kultur-tourismus/maerkte-feste/jahrmaerkte.html",
+      "reason": "Die offizielle Stadtseite enthielt Termine für 2026 und eine Vorlauffrist, jedoch keine konkret bestätigten Markttage 2027."
+    },
+    {
+      "event_name": "Landsberger Veitsmarkt, Kreuzmarkt und Töpfermarkt 2027",
+      "candidate_url": "https://www.landsberg.de/fileadmin/user_upload/download/Rathaus-Stadtrecht/231001_Marktgebuehrensatzung_Marktsatzung_Gebuehrenverzeichnis.pdf",
+      "reason": "Die amtliche Satzung nennt dauerhaft verbindliche Bewerbungstage und Gebühren bis 2029, aber keine konkret veröffentlichten 2027-Veranstaltungstage für diese Märkte."
+    },
+    {
+      "event_name": "Landsberger Christkindlmarkt 2027",
+      "candidate_url": "https://www.landsberg.de/fileadmin/user_upload/download/Rathaus-Stadtrecht/231001_Marktgebuehrensatzung_Marktsatzung_Gebuehrenverzeichnis.pdf",
+      "reason": "Die Satzung regelt die jährliche Bewerbung bis Ende Februar und den saisonalen Zeitraum, eine konkrete Ausschreibung oder exakte Terminspanne 2027 war jedoch nicht veröffentlicht."
+    },
+    {
+      "event_name": "automatica 2027 - Aussteller",
+      "candidate_url": "https://automatica-munich.com/de/messe/aussteller/tipps-termine-fristen/",
+      "reason": "Die offizielle Messe-Seite nennt nur einen voraussichtlichen Zeitraum Ende Mai 2027 und erklärt zugleich, es gebe keinen offiziellen Anmeldeschluss."
+    },
+    {
+      "event_name": "productronica 2027 - Aussteller",
+      "candidate_url": "https://productronica.com/de/messe/aussteller/tipps-termine-fristen/",
+      "reason": "Die offizielle Messeseite bestätigt die Ausstelleranmeldung, nennt aber keinen konkreten verbindlichen Hauptaussteller-Anmeldeschluss."
+    },
+    {
+      "event_name": "LOPEC 2027 - Aussteller",
+      "candidate_url": "https://www.lopec.com/de/messe/aussteller/anmeldung/",
+      "reason": "Die offizielle Anmeldung ist verfügbar, ein konkreter Bewerbungs- oder Anmeldeschluss wurde jedoch nicht genannt."
+    },
+    {
+      "event_name": "f.re.e 2027 - Aussteller",
+      "candidate_url": "https://free-muenchen.de/de/messe/aussteller/anmeldung-preise/",
+      "reason": "Die offizielle Messe-Seite nimmt Anmeldungen an, nennt für Hauptaussteller aber keinen verbindlichen Bewerbungsschluss; die Mitausstellerangabe möglichst bis 18.01.2027 ist nicht bindend."
+    },
+    {
+      "event_name": "The smarter E Europe 2027 - Aussteller",
+      "candidate_url": "https://www.thesmartere.de/ausstellerinformationen",
+      "reason": "Die offizielle Seite nennt einen Tarifstichtag für Bestandsaussteller, aber keinen allgemeinen verbindlichen Anmeldeschluss."
+    },
+    {
+      "event_name": "BAU 2027 - Aussteller",
+      "candidate_url": "https://bau-muenchen.com/de/messe/aussteller/anmeldung-preise/",
+      "reason": "Offizielle Ausstellerinformationen sind vorhanden, aber keine konkret belegte noch offene allgemeine Bewerbungsfrist."
+    },
+    {
+      "event_name": "opti 2027 - Aussteller",
+      "candidate_url": "https://www.opti.de/aussteller-werden/",
+      "reason": "Die offizielle Veranstalterseite bietet Ausstellerinformationen, nennt aber keinen konkret belegten Bewerbungsschluss für 2027."
+    },
+    {
+      "event_name": "Internationale Handwerksmesse 2027 - Aussteller",
+      "candidate_url": "https://www.ihm.de/aussteller/",
+      "reason": "Der offizielle Veranstalter informiert über die Teilnahme, ohne einen verbindlichen 2027-Anmeldeschluss auszuweisen."
+    },
+    {
+      "event_name": "INHORGENTA 2027 - Aussteller",
+      "candidate_url": "https://inhorgenta.com/de/messe/aussteller/anmeldung-preise/",
+      "reason": "Offizielle Anmeldeinformationen sind vorhanden, jedoch keine konkret belegte verbindliche Bewerbungsfrist für die Ausgabe 2027."
+    },
+    {
+      "event_name": "IMOT 2027 - Aussteller",
+      "candidate_url": "https://www.imot.de/aussteller/",
+      "reason": "Die offizielle Ausstellerseite enthält Teilnahmeinformationen, aber keinen konkret belegten Anmeldeschluss für 2027."
+    },
+    {
+      "event_name": "IAA MOBILITY 2027 - Aussteller",
+      "candidate_url": "https://www.iaa-mobility.com/de/aussteller",
+      "reason": "Offizielle Teilnahmeinformationen für 2027 sind verfügbar, eine verbindliche Bewerbungsfrist war nicht konkret ausgewiesen."
+    },
+    {
+      "event_name": "Münchner Immobilien Messe 2027 - Aussteller",
+      "candidate_url": "https://www.mim.de/aussteller/",
+      "reason": "Die offizielle Veranstalterseite nimmt Ausstelleranfragen an, veröffentlicht aber keinen konkret belegten Bewerbungsschluss."
+    },
+    {
+      "event_name": "Munich Design Days 2027 - Aussteller",
+      "candidate_url": "https://www.munichdesigndays.de/",
+      "reason": "Die offiziellen Bedingungen nennen einen Zahlungstermin für Teilnahmegebühren, aber keinen eindeutigen Bewerbungsschluss; der Zahlungstermin wurde nicht als Bewerbungsfrist interpretiert."
+    },
+    {
+      "event_name": "Münchner Stoff Frühling 2027 - Aussteller",
+      "candidate_url": "https://www.muenchner-stoff-fruehling.de/",
+      "reason": "Die offizielle Veranstalterseite bestätigt das Format, nennt aber keinen konkret belegten verbindlichen Bewerbungsschluss für 2027."
+    },
+    {
+      "event_name": "TrendSet München 2027 - Aussteller",
+      "candidate_url": "https://trendset.de/aussteller/",
+      "reason": "Offizielle Ausstellerinformationen liegen vor, ein verbindlicher Anmeldeschluss für eine konkrete 2027-Ausgabe wurde jedoch nicht belegt."
+    },
+    {
+      "event_name": "Munich Fabric Start 2027 - Aussteller",
+      "candidate_url": "https://www.munichfabricstart.com/aussteller/",
+      "reason": "Die offizielle Veranstalterseite enthält Ausstellerinformationen, aber keinen konkret belegten Bewerbungsschluss für 2027."
+    },
+    {
+      "event_name": "LASER World of PHOTONICS 2027 - Mitaussteller",
+      "candidate_url": "https://world-of-photonics.com/de/messe/aussteller/anmeldung/",
+      "reason": "Die offizielle Angabe spätestens Ende März 2027 ist kein exakter Kalendertag und betrifft vor allem die Aufnahme in gedruckte Verzeichnisse."
+    }
+  ]
+}

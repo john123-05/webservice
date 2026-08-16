@@ -12,6 +12,7 @@ const copyTargets = [
   'app.js',
   'blog',
   'assets',
+  'data/schausteller-bewerbungsfristen/web.json',
   '_redirects',
 ];
 

@@ -1,0 +1,166 @@
+{
+  "batch_id": "de-2026-08-breitensuche-02",
+  "region_scope": [
+    "Deutschland bundesweit",
+    "Kunsthandwerkermaerkte",
+    "Traditionsmaerkte",
+    "Ostermaerkte und Fruehjahrsfeste"
+  ],
+  "search_terms": [
+    "Kunsthandwerkermarkt 2026 2027 Aussteller Bewerbung Bewerbungsschluss Stadt Gemeinde Standplatz",
+    "Ostermarkt Fruehlingsfest Pfingstmarkt 2027 Bewerbung Schausteller Beschicker Bewerbungsfrist",
+    "Mittelaltermarkt Bauernmarkt Herbstmarkt 2026 2027 Aussteller Bewerbung Anmeldeschluss",
+    "Stadt Marktamt Bewerbung Volksfest Jahrmarkt Weihnachtsmarkt Frist Uebersicht 2027 Beschicker"
+  ],
+  "max_expected_results": 80,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "hilpoltsteiner-weihnachtsmarkt-2026-hilpoltstein",
+      "event_name": "Hilpoltsteiner Weihnachtsmarkt 2026",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Hilpoltstein",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Hilpoltstein",
+      "application_deadline_iso": "2026-10-08",
+      "application_deadline_text": "Bewerbungsschluss ist der 8. Oktober 2026.",
+      "event_date_range_text": "28. und 29. November 2026",
+      "application_mode": "Online-Anmeldung über das Formular der Stadt Hilpoltstein.",
+      "postal_address": "Stadt Hilpoltstein, Kultur und Tourismus, Kirchenstr. 19, 91161 Hilpoltstein",
+      "contact_name": "Kultur und Tourismus, Stadt Hilpoltstein",
+      "contact_email": "",
+      "contact_phone": "09174 978-505",
+      "source_url": "https://tourismus.hilpoltstein.de/veranstaltungen/hilpoltsteiner-maerkte/bewerbungen",
+      "source_domain": "tourismus.hilpoltstein.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "de-2026-08-breitensuche-02",
+      "confidence_status": "verified",
+      "notes": "Die Stadt Hilpoltstein buendelt die Bewerbung für fuenf Märkte auf einer Seite mit je eigener Frist."
+    },
+    {
+      "id": "hilpoltsteiner-ostermarkt-2027-hilpoltstein",
+      "event_name": "Hilpoltsteiner Ostermarkt 2027",
+      "event_type": "Ostermarkt / Traditionsmarkt",
+      "city": "Hilpoltstein",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Hilpoltstein",
+      "application_deadline_iso": "2027-01-31",
+      "application_deadline_text": "Bewerbungsschluss ist der 31. Januar 2027.",
+      "event_date_range_text": "Sonntag, 7. März 2027",
+      "application_mode": "Online-Formular der Stadt Hilpoltstein.",
+      "postal_address": "Stadt Hilpoltstein, Kultur und Tourismus, Kirchenstr. 19, 91161 Hilpoltstein",
+      "contact_name": "Kultur und Tourismus, Stadt Hilpoltstein",
+      "contact_email": "",
+      "contact_phone": "09174 978-505",
+      "source_url": "https://tourismus.hilpoltstein.de/veranstaltungen/hilpoltsteiner-maerkte/bewerbungen",
+      "source_domain": "tourismus.hilpoltstein.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "de-2026-08-breitensuche-02",
+      "confidence_status": "verified",
+      "notes": "Eintaegiger Markt. Die Stadt veröffentlicht die Fristen aller fuenf Hilpoltsteiner Märkte gebuendelt."
+    },
+    {
+      "id": "norddeutscher-kunsthandwerkermarkt-2027",
+      "event_name": "Norddeutscher Kunsthandwerkermarkt 2027",
+      "event_type": "Kunsthandwerkermarkt",
+      "city": "Norddeutschland",
+      "state": "Schleswig-Holstein",
+      "country": "DE",
+      "venue_or_area": "",
+      "application_deadline_iso": "2026-12-15",
+      "application_deadline_text": "Bewerbungen für den Markt 2027 müssen bis zum 15. Dezember 2026 eingereicht werden, ausschließlich per Post.",
+      "event_date_range_text": "2027; die genauen Termine sind noch nicht veröffentlicht.",
+      "application_mode": "Ausschließlich postalische Bewerbung; E-Mail-Bewerbungen werden nicht angenommen.",
+      "postal_address": "",
+      "contact_name": "Norddeutscher Kunsthandwerkermarkt",
+      "contact_email": "",
+      "contact_phone": "",
+      "source_url": "http://www.norddeutscherkunsthandwerkermarkt.de/teilnahmebedingungen/",
+      "source_domain": "norddeutscherkunsthandwerkermarkt.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "de-2026-08-breitensuche-02",
+      "confidence_status": "partial",
+      "notes": "Achtung: Der direkte Abruf der offiziellen Teilnahmebedingungen scheiterte an einem SSL-Handshake-Fehler. Frist und Postweg stammen aus der Indexierung derselben offiziellen Seite, nicht aus einer eigenen Sichtung. Vor Übernahme in Nutzerkommunikation gegenpruefen. Veranstaltungsort und Kontaktdaten konnten nicht ermittelt werden."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Hilpoltsteiner Pfingstmarkt 2026, Burgfestmarkt 2026 und Michaelimarkt 2026",
+      "candidate_url": "https://tourismus.hilpoltstein.de/veranstaltungen/hilpoltsteiner-maerkte/bewerbungen",
+      "reason": "Fristen laut Stadt Hilpoltstein: Pfingstmarkt 5. Maerz 2026 (Markt 17.05.2026), Burgfestmarkt 19. Juni 2025 (Markt 02.08.2026), Michaelimarkt 1. Juli 2026 (Markt 06.09.2026). Alle zum Stichtag 03.08.2026 abgelaufen."
+    },
+    {
+      "event_name": "Kunsthandwerkermarkt Nuernberg 2026",
+      "candidate_url": "https://www.nuernberg.de/internet/marktamt/kunsthandwerkermarkt.html",
+      "reason": "Die Nuernberger Maerkte vermerken: 'Fuer 2026 koennen Sie sich nicht mehr anmelden.' Weitere Anmeldungen werden nur noch fuer 2027 beruecksichtigt."
+    },
+    {
+      "event_name": "Kunsthandwerkermarkt Schifferstadt 2026",
+      "candidate_url": "https://www.schifferstadt.de/wirtschaft-bauen-und-umwelt/stadtmarketing/veranstaltungen-und-feste/kunsthandwerkermarkt/",
+      "reason": "Die Bewerbungsfrist fuer den Markt am 29. und 30. August 2026 ist abgelaufen, eine Anmeldung ist nicht mehr moeglich."
+    },
+    {
+      "event_name": "Kunsthandwerkermarkt Straubing 2026",
+      "candidate_url": "http://www.kunsthandwerkermarkt-straubing.de/info-fuer-aussteller.html",
+      "reason": "Bewerbungsschluss war der 14. Februar 2026; zudem stehen laut Veranstalter keine Galerie-Standplaetze mehr zur Verfuegung."
+    },
+    {
+      "event_name": "Webenheimer Bauernmarkt 2026",
+      "candidate_url": "https://bauernfest.de/bewerbung-bauernmarkt/",
+      "reason": "Bewerbungsphase endete am 31.03.2026 fuer den Bauernmarkt am 11.07.2026."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Nuernberger Ostermarkt 2027",
+      "candidate_url": "https://www.nuernberg.de/internet/marktamt/ostermarkt.html",
+      "reason": "Markt vom 12.03. bis 29.03.2027 auf dem Nuernberger Hauptmarkt. Die Nuernberger Maerkte geben an: 'Die Bewerbungsfrist fuer den Ostermarkt 2027 beginnt ca. Ende September 2026.' Das ist der Beginn, nicht das Ende der Frist; ein Fristende ist nicht genannt. Ansprechpartner Hr. Probst, 0911 231-5342, Leyher Strasse 107c, 90431 Nuernberg. Nachfassen ab Ende September 2026."
+    },
+    {
+      "event_name": "Nuernberger Kunsthandwerkermaerkte 2027",
+      "candidate_url": "https://www.nuernberg.de/internet/marktamt/kunsthandwerkermarkt.html",
+      "reason": "Drei Markttage 2027 am Hauptmarkt: 15.05., 17.07. und 09.10.2027. Anmeldungen fuer 2027 werden entgegengenommen, ein kalendarisches Fristdatum wird nicht genannt. Bewerbung ueber Kontaktformular mit Interessensbekundung und Fotos der Werke, offizieller Antrag folgt per Schreiben. Ansprechpartner Herr Haendl und Frau Hoffmann, 0911 231-2649 und 0911 231-8474."
+    },
+    {
+      "event_name": "Augsburger Volksfeste - abweichende Fristangaben",
+      "candidate_url": "https://www.augsburg.de/freizeit/feste-und-maerkte/plaerrer",
+      "reason": "Datenkonflikt: Die Beschickerseite des Marktamts nennt fuer Fruehjahrs- und Herbstplaerrer einheitlich den 15. Juli des Vorjahres, eine zweite staedtische Seite deutet fuer den Herbstplaerrer eine abweichende Frist im November an. Vor Nutzerkommunikation beim Marktamt klaeren: marktamt.stadt@augsburg.de, 0821 324-3905."
+    },
+    {
+      "event_name": "Kunsthandwerkermarkt Bonn",
+      "candidate_url": "https://www.bonn.de/veranstaltungskalender/veranstaltungen/hauptkalender/maerkte/Kunsthandwerkermarkt-2026.php",
+      "reason": "Die Bundesstadt Bonn nennt als Bewerbungsfrist den 31. Mai, ohne Jahresangabe und ohne Zuordnung zu einem konkreten Marktjahrgang. Fuer 2026 waere die Frist abgelaufen, fuer 2027 nicht bestaetigt."
+    },
+    {
+      "event_name": "Fruehjahrsmarkt Hof Oelkers 2027",
+      "candidate_url": "https://hof-oelkers.de/kunsthandwerkermaerkte/",
+      "reason": "Private Veranstalterin von Kunsthandwerkermaerkten. Bewerbungen fuer den Fruehjahrsmarkt 2027 werden bis Ende Dezember 2026 angenommen; ein exaktes Fristdatum wird nicht genannt."
+    },
+    {
+      "event_name": "Bauernmarkt und Kunsthandwerkermarkt Speyer",
+      "candidate_url": "https://www.speyer.de/de/veranstaltungen/downloadbereich/",
+      "reason": "Die Stadt Speyer stellt Bewerbungsformulare fuer Bauernmarkt und Kunsthandwerkermarkt im Downloadbereich bereit, nennt auf der Uebersichtsseite aber keine Fristen."
+    },
+    {
+      "event_name": "Mittelaltermarkt Kirkel",
+      "candidate_url": "https://www.kirkel.de/burgsommer/mittelaltermarkt/informationen-fuer-aussteller",
+      "reason": "Markt auf der Kirkeler Burg. Die Gemeinde bittet um Einreichung des Anmeldeformulars bis spaetestens Mitte Februar; das ist eine Zeitraumangabe ohne konkretes Datum."
+    },
+    {
+      "event_name": "Standbetreiberverfahren STADE Marketing und Tourismus",
+      "candidate_url": "https://stade-tourismus.de/de/veranstaltungen-stade/informationen-fuer-standbetreiber/",
+      "reason": "Eigene Informationsseite fuer Standbetreiber der Stader Veranstaltungen. Der Seiteninhalt liess sich nicht vollstaendig abrufen, Fristen konnten nicht ermittelt werden. Das Stader Altstadtfest 2027 ist bereits als Eintrag erfasst."
+    },
+    {
+      "event_name": "Leipziger Weihnachtsmarkt 2026 - Bewerbungsformular",
+      "candidate_url": "https://www.leipzig.de/service-portal/formulare/formular/weihnachtsmarkt/download",
+      "reason": "Die Stadt Leipzig stellt ein Bewerbungsformular fuer den Weihnachtsmarkt 2026 im Serviceportal bereit. Ein Fristdatum ist weder auf der Haendlerseite noch beim Formular ausgewiesen."
+    }
+  ]
+}

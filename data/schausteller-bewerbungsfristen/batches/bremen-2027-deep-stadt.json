@@ -1,0 +1,51 @@
+{
+  "batch_id": "bremen-2027-deep-stadt",
+  "region_scope": [
+    "Stadtgemeinde Bremen"
+  ],
+  "search_terms": [
+    "Bremer Osterwiese 2027 Bewerbung Schausteller Frist Marktangelegenheiten",
+    "Bremen Schlachte-Zauber Weihnachtsmarkt 2026 Bewerbung Haendler Standbetreiber Frist offiziell",
+    "service.bremen.de Standplatz beantragen Freimarkt Osterwiese Weihnachtsmarkt Bewerbungsfrist",
+    "marktwelt-bremen.de Bewerbung Aussteller Standplatz Spezialmaerkte M3B Bewerbungsrichtlinien Frist",
+    "Bremen Vegesacker Hafenfest Stadtteilfest 2026 2027 Bewerbung Haendler Frist offiziell"
+  ],
+  "max_expected_results": 60,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Bremer Osterwiese 2027",
+      "candidate_url": "https://www.wirtschaft.bremen.de/wirtschaft/marktangelegenheiten-61879",
+      "reason": "Die Senatorin fuer Wirtschaft, Haefen und Transformation nennt fuer die Osterwiese 2027 (19.03.-04.04.2027) die Bewerbungsfrist 30.06.2026. Die Frist ist zum Stichtag 03.08.2026 abgelaufen; verspaetete Bewerbungen nehmen laut Behoerde auch nicht an der Restplatzvergabe teil."
+    },
+    {
+      "event_name": "Schlachte-Zauber Bremen 2025",
+      "candidate_url": "https://www.marktwelt-bremen.de/wp-content/uploads/Formblatt-Bewerbungsrichtlinien-Schlachte-Zauber.pdf",
+      "reason": "Die offiziellen Bewerbungsrichtlinien der M3B GmbH nennen als Bewerbungsschluss den 31. Maerz 2025 (Dokumentenstand 15.06.2024). Frist abgelaufen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Bremer Osterwiese 2028",
+      "candidate_url": "https://www.service.bremen.de/dienstleistungen/osterwiese-standplatz-beantragen-11205",
+      "reason": "Das Serviceportal nennt als Dauerregel 'Die Bewerbungsfrist endet jeweils am 30. Juni des Vorjahres', Bewerbung ueber marktbewerbung-bremen.de oder per Post (E-Mail ausgeschlossen), Referat 5.04 Marktangelegenheiten, Katharinenklosterhof 3, 28195 Bremen, 0421 361-2385, marktangelegenheiten@wht.bremen.de. Fuer die Ausgabe 2028 ist jedoch weder die Veranstaltung noch ein konkretes Fristdatum offiziell ausgeschrieben; die Ableitung 30.06.2027 waere eine Fortschreibung der Regel und keine bestaetigte Frist."
+    },
+    {
+      "event_name": "Schlachte-Zauber Bremen 2027",
+      "candidate_url": "https://www.marktwelt-bremen.de/markt/schlachte-zauber/",
+      "reason": "Offizielle Veranstalterseite der M3B GmbH bestaetigt den Markt an der Schlachte (2026: 23.11.-23.12.). Das dort als 'Bewerbungsrichtlinien Schlachte-Zauber 2026' verlinkte PDF enthaelt inhaltlich noch den Stand 2025 mit Frist 31. Maerz 2025. Fuer 2027 liegt keine bestaetigte Frist vor. Bewerbung an M3B GmbH, Abt. Spezialmaerkte, Am Waller Freihafen 1, 28217 Bremen, kontakt@grossmarkt-bremen.de."
+    },
+    {
+      "event_name": "Spezialmaerkte der M3B GmbH Bremen (Weserflohmarkt, Herbstmarkt, Historischer Markt, TAUSENDSCHOEN, Lenzmarkt, Speichermarkt)",
+      "candidate_url": "https://www.marktwelt-bremen.de/",
+      "reason": "Offizielle Veranstalteruebersicht listet Termine bis Speichermarkt 11.07.2027, nennt aber fuer keinen der Spezialmaerkte ein Bewerbungsverfahren mit Frist. Bewerbungen laufen formlos ueber M3B GmbH, Abt. Spezialmaerkte, kontakt@grossmarkt-bremen.de."
+    },
+    {
+      "event_name": "Vegesacker Hafenfest 2027",
+      "candidate_url": "https://vegesack.de/freizeit/festivitaeten/hafenfest/",
+      "reason": "Veranstalter ist der Verein Vegesacker Hafenfest e.V. (info@vegesacker-hafenfest.de). Die offizielle Seite ist nicht aktuell gepflegt und nennt kein Bewerbungsverfahren und keine Frist fuer 2027."
+    }
+  ]
+}

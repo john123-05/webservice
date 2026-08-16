@@ -1,0 +1,150 @@
+{
+  "batch_id": "berlin-2027-deep-bezirke",
+  "region_scope": [
+    "Berlin: bezirkliche und kleinere lokale Veranstaltungen in allen 12 Bezirken"
+  ],
+  "search_terms": [
+    "Berlin 2027 Standbewerbung Bezirk",
+    "Berlin 2027 Händler Kunsthandwerk Gastronomie Foodtruck Bewerbung",
+    "Berlin 2027 Stadtteilfest Markt Aussteller Bewerbungsfrist",
+    "Berlin Bezirksamt 2027 Interessenbekundung Veranstaltung"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Wilhelmstädter Stadtteilfest 2026 und/oder 2027",
+      "candidate_url": "https://www.berlin.de/ba-spandau/aktuelles/pressemitteilungen/2026/pressemitteilung.1652922.php",
+      "reason": "Offizielle Interessenbekundung zur Veranstalterauswahl, keine Standbewerbung; die Frist 02.04.2026 war am Stichtag 03.08.2026 zudem abgelaufen."
+    },
+    {
+      "event_name": "Sommergarten am THF Tower 2026/2027",
+      "candidate_url": "https://www.thf-berlin.de/aktuelles/neuigkeiten/detail/gastronomie-ausschreibung-berlin-sommergarten-am-thf-tower",
+      "reason": "Die offizielle mehrjährige Gastronomieausschreibung umfasste zwar 2027, endete aber bereits am 15.03.2026 und war am Stichtag abgelaufen."
+    },
+    {
+      "event_name": "Biesdorfer Blütenfest 2025 mit Optionen 2026/2027",
+      "candidate_url": "https://www.berlin.de/ba-marzahn-hellersdorf/aktuelles/pressemitteilungen/2024/pressemitteilung.1493824.php",
+      "reason": "Nur Veranstalter-Interessenbekundung mit unverbindlichen Folgejahren, keine Beschickerbewerbung; Frist 15.11.2024 abgelaufen."
+    },
+    {
+      "event_name": "Gazino und Türkischer Basar 2026",
+      "candidate_url": "https://www.berlin.de/ba-tempelhof-schoeneberg/aktuelles/veranstaltungen/gazino-und-tuerkischer-basar/",
+      "reason": "Der offizielle Aufruf betrifft ausschließlich die Veranstaltung 2026; die Bewerbungsfrist 30.06.2026 war abgelaufen und darf nicht auf 2027 übertragen werden."
+    },
+    {
+      "event_name": "48 Stunden Neukölln 2026",
+      "candidate_url": "https://anmeldung.48-stunden-neukoelln.de/en/anmeldung",
+      "reason": "Das offizielle Anmeldeportal dokumentiert nur Bewerbungsphasen für 2026; eine Bewerbungsfrist für die Ausgabe 2027 ist nicht veröffentlicht."
+    },
+    {
+      "event_name": "Kreativmarkt im Stadtbad Lichtenberg 2026",
+      "candidate_url": "https://www.berlin.de/ba-lichtenberg/aktuelles/pressemitteilungen/2026/pressemitteilung.1643495.php",
+      "reason": "Der offizielle Kunsthandwerksaufruf gilt nur für 2026; die Frist 22.02.2026 ist abgelaufen und nicht auf 2027 übertragbar."
+    },
+    {
+      "event_name": "Weddingmarkt 2026",
+      "candidate_url": "https://wedding-markt.de/bewerbung-2026/",
+      "reason": "Die offizielle Bewerbungsseite enthält ausschließlich Bewerbungsfenster für 2026; beide Phasen waren am Stichtag beendet und es gibt dort keine Frist für 2027."
+    },
+    {
+      "event_name": "Family & Friends Märkte und Feste 2026",
+      "candidate_url": "https://www.family-and-friends-ev.de/Anmeldung",
+      "reason": "Die offizielle Anmeldeseite führt nur Veranstaltungen und Anmeldungen für 2026; daraus kann keine Bewerbungsfrist für 2027 abgeleitet werden."
+    },
+    {
+      "event_name": "Veranstaltungen auf dem Alexanderplatz 2026",
+      "candidate_url": "https://www.berlin.de/ba-mitte/aktuelles/amtliche-bekanntmachungen/",
+      "reason": "Die offizielle Bekanntmachung bezeichnet den Vergabezeitraum als 2026, nennt aber widersprüchlich den 19.12.2026 als Frist; sie belegt kein eindeutig zuordenbares 2027-Verfahren."
+    },
+    {
+      "event_name": "EMOP Berlin 2027 Open Call",
+      "candidate_url": "https://emop-berlin.eu/open-call/",
+      "reason": "Die offene Frist 16.08.2026 betrifft institutionelle Partner und Fotoausstellungen des stadtweiten Festivals, nicht Schausteller, Beschicker, Händler, Kunsthandwerk oder Gastronomie im abgegrenzten lokalen Veranstaltungsbereich."
+    },
+    {
+      "event_name": "Kommunale Galerie Berlin Ausstellungsbewerbung 2027",
+      "candidate_url": "https://www.kommunalegalerie-berlin.de/ueber-die-galerie/",
+      "reason": "Das Bewerbungsfenster richtet sich an Künstlerinnen, Künstler und Kuratierende für Galerieausstellungen, nicht an die vorgegebenen Stand-, Markt- oder Gastronomiebewerber."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Nachbarschaftsfest am Rathaus Schöneberg 2027",
+      "candidate_url": "https://www.berlin.de/ba-tempelhof-schoeneberg/aktuelles/veranstaltungen/nachbarschaftsfest/artikel.777132.php",
+      "reason": "Die offizielle Bezirksseite bestätigt den 05.06.2027 und relevante Stände einschließlich Gastronomie und Foodtrucks. Bewerbungen sollen erst ab Januar 2027 möglich sein; ein verbindliches Fristende ist nicht veröffentlicht."
+    },
+    {
+      "event_name": "Seifenkistenrennen und Badstraßenfest 2027",
+      "candidate_url": "https://badpank-mitte.de/neuigkeiten/das-seifenkistenrennen-kehrt-zurueck/",
+      "reason": "Das offizielle Geschäftsstraßenmanagement plant für Sommer 2027 Markt-, Informations- und Gastronomiestände, nennt bislang aber weder Bewerbungszeitraum noch Frist."
+    },
+    {
+      "event_name": "Artminius21 Kreativmarkt Moabit 2027",
+      "candidate_url": "https://www.berlin.de/special/shopping/designmaerkte/2936747-1741634-artminius21-kreativmarkt-moabit.html",
+      "reason": "Das offizielle Berliner Veranstaltungsportal führt eine Ausgabe 2027, jedoch ohne feststehenden Termin und ohne Bewerbungsfrist für Ausstellende."
+    },
+    {
+      "event_name": "Kreuzberg Festival 2027",
+      "candidate_url": "https://www.berlin.de/events/1934675-2229501-bergmannstrassenfest.html",
+      "reason": "Die offizielle Veranstaltungsseite bestätigt für 2027 zahlreiche Markt- und Gastronomiestände, veröffentlicht aber weder Veranstaltungstermin noch Bewerbungsfrist."
+    },
+    {
+      "event_name": "Kunstfest Pankow 2027",
+      "candidate_url": "https://www.berlin.de/events/5983574-2229501-kunstfest-pankow.html",
+      "reason": "Die offizielle Veranstaltungsseite bestätigt die Ausgabe 2027 mit Kunst- und Kunsthandwerksangeboten, aber noch keinen Termin und keine Bewerbungsfrist."
+    },
+    {
+      "event_name": "Choriner Kiez- und Straßenfest 2027",
+      "candidate_url": "https://www.berlin.de/events/5984720-2229501-choriner-kiez-und-strassenfest.html",
+      "reason": "Die offizielle Veranstaltungsseite bestätigt die 28. Ausgabe 2027 mit Flohmarkt und Essensständen, nennt aber keinen Termin und kein Bewerbungsverfahren."
+    },
+    {
+      "event_name": "Berliner Staudenmarkt 2027",
+      "candidate_url": "https://berliner-staudenmarkt.de/presse",
+      "reason": "Der offizielle Veranstalter bestätigt den Frühjahrsmarkt am 03.-04.04.2027 und einen Herbstmarkt 2027; eine Bewerbungsfrist für Ausstellende ist nicht veröffentlicht."
+    },
+    {
+      "event_name": "Europäische Tage des Kunsthandwerks Berlin 2027",
+      "candidate_url": "https://kunsthandwerkstage.de/berlin",
+      "reason": "Die offizielle Berliner Plattform bestätigt den 09.-11.04.2027. Die vorhandenen Markt- und Bewerbungsangaben betreffen noch 2026; eine konkrete Bewerbungsfrist für 2027 fehlt."
+    },
+    {
+      "event_name": "Köpenicker Sommer 2027",
+      "candidate_url": "https://www.berlin.de/en/events/3415964-2842498-koepenick-summer-festival.en.html",
+      "reason": "Das offizielle Berliner Veranstaltungsportal bestätigt 2027 und Angebote von Kunsthandwerk und Handel, nennt aber weder konkreten Termin noch Bewerbungsfrist."
+    },
+    {
+      "event_name": "Späth'er Frühling 2027",
+      "candidate_url": "https://www.berlin.de/events/3045821-2229501-fruehlingsfest-spaether-fruehling.html",
+      "reason": "Das offizielle Berliner Veranstaltungsportal bestätigt die Ausgabe 2027 mit mehr als 100 Ausstellenden, jedoch ohne Termin und ohne Bewerbungsfrist."
+    },
+    {
+      "event_name": "Marzahner Nachbarschaftsfest 2027",
+      "candidate_url": "https://www.berlin.de/events/7482957-2229501-marzahner-nachbarschaftsfest.html",
+      "reason": "Die offizielle Veranstaltungsseite bestätigt eine Ausgabe 2027, veröffentlicht aber noch keinen Termin und keine Standbewerbungsfrist; die bekannte Frist für 2026 wurde nicht übertragen."
+    },
+    {
+      "event_name": "Viva Victoria Stadtteilfest 2027",
+      "candidate_url": "https://www.berlin.de/events/7467849-2229501-viva-victoria-stadtteilfest-in-lichtenbe.html",
+      "reason": "Die offizielle Veranstaltungsseite bestätigt die 27. Ausgabe 2027 mit Flohmarkt- und Essensständen, aber weder Termin noch Bewerbungsfrist."
+    },
+    {
+      "event_name": "Nachbarschaftsfest in Reinickendorf 2027",
+      "candidate_url": "https://www.berlin.de/events/7495101-2229501-nachbarschaftsfest-in-reinickendorf.html",
+      "reason": "Die offizielle Veranstaltungsseite führt das Fest 2027 und lädt zu Beiträgen ein, nennt jedoch weder einen konkreten Termin noch eine verbindliche Bewerbungsfrist."
+    },
+    {
+      "event_name": "Pokishi Berlin 2027",
+      "candidate_url": "https://pokishi.com/anmeldung/",
+      "reason": "Der offizielle Veranstalter bestätigt Berlin am 25.04.2027 und nimmt Anmeldungen für Ausstellende sowie Food-Angebote entgegen, veröffentlicht aber kein verbindliches Ende des Bewerbungszeitraums."
+    },
+    {
+      "event_name": "Kunstmarkt Berlin am Zeughaus 2027",
+      "candidate_url": "https://kunstmarkt-berlin.com/faq/",
+      "reason": "Der offizielle Veranstalter beschreibt Bewerbungen für Kunst- und Designstände grundsätzlich nur rund acht Wochen vor einem Markttermin; konkrete 2027-Termine und eine verbindliche 2027-Frist fehlen."
+    }
+  ]
+}

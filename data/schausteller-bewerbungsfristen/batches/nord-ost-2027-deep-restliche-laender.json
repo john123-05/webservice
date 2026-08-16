@@ -1,0 +1,123 @@
+{
+  "batch_id": "nord-ost-2027-deep-restliche-laender",
+  "region_scope": [
+    "Schleswig-Holstein",
+    "Mecklenburg-Vorpommern",
+    "Sachsen-Anhalt",
+    "Thueringen",
+    "Saarland"
+  ],
+  "search_terms": [
+    "Kieler Woche Luebeck Weihnachtsmarkt Neumuenster Holstenkoeste 2027 Bewerbung Schausteller Frist",
+    "Rostock Weihnachtsmarkt Hanse Sail Schwerin Stralsund 2027 Bewerbung Schausteller Haendler Frist",
+    "Magdeburg Halle Quedlinburg Erfurt Weimar Zwiebelmarkt 2027 Bewerbung Haendler Schausteller Frist",
+    "Saarbruecken St. Wendel Neunkirchen Homburg Christkindlmarkt Saarspektakel 2027 Bewerbung Haendler Frist"
+  ],
+  "max_expected_results": 70,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "rostocker-weihnachtsmarkt-2027-rostock",
+      "event_name": "Rostocker Weihnachtsmarkt 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Rostock",
+      "state": "Mecklenburg-Vorpommern",
+      "country": "DE",
+      "venue_or_area": "Rostocker Innenstadt und Neuer Markt",
+      "application_deadline_iso": "2026-12-01",
+      "application_deadline_text": "Die Bewerbungsfrist für den Rostocker Weihnachtsmarkt 2027 laeuft bis zum 1. Dezember 2026.",
+      "event_date_range_text": "22. November bis 22. Dezember 2027",
+      "application_mode": "Bewerbungsformular 2027 und aktuelle Preislisten aus dem Downloadbereich der Großmarkt Rostock GmbH. Nur vollständige Bewerbungen mit aktuellem Foto des Geschäfts werden berücksichtigt.",
+      "postal_address": "Großmarkt Rostock GmbH, Hanseatenstraße 5, 18146 Rostock",
+      "contact_name": "Großmarkt Rostock GmbH",
+      "contact_email": "kontakt@grossmarkt-rostock.de",
+      "contact_phone": "+49 381 609030",
+      "source_url": "https://www.rostocker-weihnachtsmarkt.de/de/unser-weihnachtsmarkt/fuer-haendler-und-schausteller/",
+      "source_domain": "rostocker-weihnachtsmarkt.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "nord-ost-2027-deep-restliche-laender",
+      "confidence_status": "verified",
+      "notes": "Groesster Weihnachtsmarkt Norddeutschlands. Gesucht werden Grill-, Crepes- und Pizzabetriebe sowie weitere kulinarische Anbieter und Händler mit Kunsthandwerk. Die Großmarkt Rostock GmbH vermietet Mietbuden sowohl für den Weihnachtsmarkt als auch für den Rostocker Ostermarkt."
+    },
+    {
+      "id": "weimarer-zwiebelmarkt-2027-weimar",
+      "event_name": "374. Weimarer Zwiebelmarkt 2027",
+      "event_type": "Traditionsmarkt / Volksfest",
+      "city": "Weimar",
+      "state": "Thüringen",
+      "country": "DE",
+      "venue_or_area": "Weimarer Innenstadt rund um den Markt",
+      "application_deadline_iso": "2027-03-31",
+      "application_deadline_text": "Bewerbungsschluss ist der 31. März des jeweiligen Jahres, für den Zwiebelmarkt 2027 also der 31.03.2027. Entscheidend ist der Eingang bei der Stadt Weimar. Ausgenommen sind Straßenkuenstler.",
+      "event_date_range_text": "Jeweils am zweiten Oktoberwochenende, für 2027 der 8. bis 10. Oktober.",
+      "application_mode": "Online-Bewerbung über die Dienstleistung Standplatzgenehmigung oder per Antragsformular mit vollständigen Angaben und Bewerbungsfoto.",
+      "postal_address": "Stadtverwaltung Weimar, Amt für Wirtschaft und Märkte, Markt 1, 99423 Weimar",
+      "contact_name": "A. Hessler (Marktmeisterin), K. Hoechst und P. Powelske (Sachbearbeiterinnen Märkte)",
+      "contact_email": "",
+      "contact_phone": "+49 3643 762-482",
+      "source_url": "https://stadt.weimar.de/de/haendlerinformationen-zwiebelmarkt.html",
+      "source_domain": "stadt.weimar.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "nord-ost-2027-deep-restliche-laender",
+      "confidence_status": "partial",
+      "notes": "Aeltestes und groesstes Volksfest Thueringens. Die Entscheidung über die Zulassung faellt in der Regel zur Jahresmitte nach den Kriterien der Zwiebelmarktsatzung. Kontakt nur über das Kontaktformular der Stadt, weitere Rufnummern -485 und -483."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Magdeburger Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.weihnachtsmarkt-magdeburg.de/ausschreibung",
+      "reason": "Die Gesellschaft zur Durchfuehrung der Magdeburger Weihnachtsmaerkte mbH nennt als Bewerbungsschluss den 8. Mai 2026, 12 Uhr, fuer den Markt vom 19.11. bis 29.12.2026. Verspaetete Einreichungen werden nicht beruecksichtigt. Frist zum Stichtag 03.08.2026 abgelaufen."
+    },
+    {
+      "event_name": "Internationaler Markt Kieler Woche 2026",
+      "candidate_url": "https://www.kieler-woche.de/de/organisation/index.php",
+      "reason": "Die Landeshauptstadt Kiel weist das Bewerbungsverfahren fuer den Internationalen Markt als 'abgelaufen' aus, die Entscheidung fiel im Dezember 2025. Ansprechpartner: Silas Ketels, Projektleitung Internationaler Markt, 0431 901-4829, Silas.Ketels@kiel.de."
+    },
+    {
+      "event_name": "Eventflaechen Kieler Woche 2026 und 2027",
+      "candidate_url": "https://www.kieler-woche.de/de/organisation/_dokumente_grossflaechen/eventareale_ausschreibung.pdf",
+      "reason": "Aufgeloest durch Pruefung der Ausschreibungs-PDF: 'Bewerbungsschluss ist der 11. Januar 2026 um 23:59 Uhr.' Die Nutzungsvereinbarung wird fuer zwei Jahre geschlossen und deckt die Kieler Wochen 2026 und 2027 ab, die Flaechen sind damit bis einschliesslich 2027 vergeben. Bewerbung war postalisch an Landeshauptstadt Kiel, Referat Kieler Woche, Postfach 1152, 24099 Kiel oder per verschluesseltem ZIP an vergabeamtobk@kiel.de moeglich. Kieler Woche 2027: 19.-27. Juni. Ansprechpartner: Philipp Dornberger (Referatsleiter, philipp.dornberger@kiel.de, 0431 901-1105) und Daniel Lorenzen (Stellv., daniel.lorenzen@kiel.de, 0431 901-2562)."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Luebecker Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.dubistmirnemarke.de/zusammenarbeit/veranstalterinnen/standbetreiberinnen/luebecker-weihnachtsmarkt",
+      "reason": "Die Luebeck und Travemuende Marketing GmbH organisiert die Maerkte auf der Altstadtinsel, Markt, Breite Strasse und Koberg und arbeitet mit Ausstellern, Marktbeschickern, Gastronomen, Haendlern und Kunsthandwerkern zusammen. Ein Bewerbungsverfahren mit kalendarischer Frist ist nicht veroeffentlicht."
+    },
+    {
+      "event_name": "Magdeburger Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.weihnachtsmarkt-magdeburg.de/ausschreibung",
+      "reason": "Formalisiertes Ausschreibungsverfahren mit fester Frist im Mai des Veranstaltungsjahres (2026: 8. Mai, 12 Uhr). Gesucht wird ein ausgewogener Branchenmix mit Schwerpunkt Kunsthandwerk und Einzelhandel. Bewerbung an Gesellschaft zur Durchfuehrung der Magdeburger Weihnachtsmaerkte mbH, Breiter Weg 22, 39104 Magdeburg. Die 2027-Ausschreibung erscheint erfahrungsgemaess im Fruehjahr 2027."
+    },
+    {
+      "event_name": "Weihnachtsmarkt und Laternenfest Halle (Saale) 2027",
+      "candidate_url": "https://halle.de/verwaltung-stadtrat/stadtpolitik-und-ortsrecht/ausschreibungen-und-vergaben/ausschreibungen",
+      "reason": "Die Stadt Halle veroeffentlicht Haendlerausschreibungen fuer Weihnachtsmarkt und Laternenfest ueber ihr Ausschreibungsportal und ruft Haendler jaehrlich per Pressemitteilung auf. Die 2026er Ausschreibungsseite war zum Pruefzeitpunkt nicht mehr abrufbar (HTTP 404), ein 2027-Aufruf ist noch nicht veroeffentlicht."
+    },
+    {
+      "event_name": "Wallensteintage Stralsund 2027",
+      "candidate_url": "https://www.wallensteintage.de/haendlerinformationen/",
+      "reason": "Groesstes historisches Stadtfest Mecklenburg-Vorpommerns. Bewerbungsunterlagen sind per E-Mail an die Hansestadt Stralsund, Amt fuer Kultur, Welterbe und Medien, Abteilung Kultur und Oeffentlichkeitsarbeit zu senden, Ansprechpartnerin Claudia Erdmann, cerdmann@stralsund.de. Es besteht kein Rechtsanspruch auf Teilnahme. Ein kalendarischer Anmeldeschluss wird nicht genannt."
+    },
+    {
+      "event_name": "Hanse Sail Rostock 2027",
+      "candidate_url": "https://www.grossmarkt-rostock.de/de/was-wir-tun/spezialmaerkte/",
+      "reason": "Die Grossmarkt Rostock GmbH betreut den Spezialmarkt im Rostocker Stadthafen waehrend der Hanse Sail. Auf der Spezialmarktuebersicht ist kein Bewerbungsverfahren mit Frist ausgewiesen. Kontakt: Hanseatenstrasse 5, 18146 Rostock, +49 381 609030."
+    },
+    {
+      "event_name": "Saarbruecker Christkindl-Markt 2027",
+      "candidate_url": "https://christkindlmarkt-sb.de/",
+      "reason": "Ueber 80 Verkaufsstaende in der Fussgaengerzone Bahnhofstrasse und auf dem St. Johanner Markt, Veranstalter Verkehrsverein Saarbruecken e.V., Bahnhofstr. 31, 66111 Saarbruecken, +49 681 9380913, veranstaltungen@verkehrsverein-sb.de. Die offizielle Marktseite enthaelt keinen Bewerberbereich und keine Frist; das Saarland bleibt mit vier Eintraegen das am duennsten erfasste Bundesland."
+    },
+    {
+      "event_name": "Rostocker Ostermarkt 2027",
+      "candidate_url": "https://www.rostocker-weihnachtsmarkt.de/de/unser-weihnachtsmarkt/fuer-haendler-und-schausteller/",
+      "reason": "Die Grossmarkt Rostock GmbH vermietet Mietbuden auch fuer den Rostocker Ostermarkt. Eine eigene Bewerbungsfrist fuer den Ostermarkt ist nicht ausgewiesen; vermutlich laeuft die Vergabe ueber dieselbe Stelle wie beim Weihnachtsmarkt. Nachfassen."
+    }
+  ]
+}

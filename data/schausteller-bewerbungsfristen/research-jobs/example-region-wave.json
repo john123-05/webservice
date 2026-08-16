@@ -1,0 +1,11 @@
+{
+  "batch_id": "de-nordrhein-westfalen-wave-001",
+  "region_scope": ["Nordrhein-Westfalen"],
+  "search_terms": [
+    "site:.de Schausteller Bewerbung Volksfest 2027 Nordrhein-Westfalen",
+    "site:*.de Kirmes Bewerbungsschluss 2027 NRW",
+    "site:*.de Stadtfest Standplatz Bewerbung 2027 Nordrhein-Westfalen"
+  ],
+  "max_expected_results": 50,
+  "source_policy": "official_only"
+}

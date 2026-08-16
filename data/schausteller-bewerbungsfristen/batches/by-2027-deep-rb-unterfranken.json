@@ -1,0 +1,375 @@
+{
+  "batch_id": "by-2027-deep-rb-unterfranken",
+  "region_scope": [
+    "Bayern",
+    "Regierungsbezirk Unterfranken",
+    "Kreisfreie Städte Aschaffenburg, Schweinfurt und Würzburg",
+    "Landkreise Aschaffenburg, Bad Kissingen, Haßberge, Kitzingen, Main-Spessart, Miltenberg, Rhön-Grabfeld, Schweinfurt und Würzburg"
+  ],
+  "search_terms": [
+    "Unterfranken 2027 Schausteller Bewerbung Volksfest",
+    "Unterfranken 2027 Beschicker Bewerbungsfrist Markt Weihnachtsmarkt",
+    "Unterfranken 2027 Händler Kunsthandwerker Gastronomie Foodtruck Aussteller",
+    "Aschaffenburg Schweinfurt Würzburg 2027 Veranstaltung Bewerbung",
+    "Landkreise Unterfranken Städte Gemeinden 2027 Markt Fest Messe Bewerbung"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "wuerzburger-fruehjahrsmesse-2027-wuerzburg",
+      "event_name": "Würzburger Frühjahrsmesse 2027",
+      "event_type": "Verkaufsmesse / Jahrmarkt",
+      "city": "Würzburg",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Marktplatz",
+      "application_deadline_iso": "2026-11-30",
+      "application_deadline_text": "Bewerbungsschluss ist nach der städtischen Marktsatzung der 30. November des Vorjahres; für 2027 somit der 30.11.2026.",
+      "event_date_range_text": "06.03.-21.03.2027",
+      "application_mode": "Schriftlicher Antrag auf Zulassung bei der Stadt Würzburg; nur Markthandel",
+      "postal_address": "Stadt Würzburg, Rückermainstraße 2, 97070 Würzburg",
+      "contact_name": "Fachabteilung Ordnungsaufgaben - Marktwesen",
+      "contact_email": "info@stadt.wuerzburg.de",
+      "contact_phone": "0931 37-2695 oder 0931 37-2692",
+      "source_url": "https://www.wuerzburg.de/events-termine/volksfeste/gruenermarkt-spezialitaetenmarkt/maerkte",
+      "source_domain": "wuerzburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-unterfranken",
+      "confidence_status": "verified",
+      "notes": "Die geltende städtische Marktsatzung legt Beginn, Dauer, Warenangebot, schriftliche Bewerbung und jährliche Frist verbindlich fest. Der Termin 2027 folgt unmittelbar aus der Satzungsregel vierter Samstag vor Ostern bei 16 Tagen Dauer. Quelllink im August 2026 aktualisiert, die zuvor hinterlegte Seite war nicht mehr erreichbar."
+    },
+    {
+      "id": "wuerzburger-kilianimesse-2027-wuerzburg",
+      "event_name": "Würzburger Kilianimesse 2027",
+      "event_type": "Verkaufsmesse / Jahrmarkt",
+      "city": "Würzburg",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Marktplatz",
+      "application_deadline_iso": "2026-11-30",
+      "application_deadline_text": "Bewerbungsschluss ist nach der städtischen Marktsatzung der 30. November des Vorjahres; für 2027 somit der 30.11.2026.",
+      "event_date_range_text": "02.07.-18.07.2027",
+      "application_mode": "Schriftlicher Antrag auf Zulassung bei der Stadt Würzburg; nur Markthandel",
+      "postal_address": "Stadt Würzburg, Rückermainstraße 2, 97070 Würzburg",
+      "contact_name": "Fachabteilung Ordnungsaufgaben - Marktwesen",
+      "contact_email": "info@stadt.wuerzburg.de",
+      "contact_phone": "0931 37-2695 oder 0931 37-2692",
+      "source_url": "https://www.wuerzburg.de/events-termine/volksfeste/gruenermarkt-spezialitaetenmarkt/maerkte",
+      "source_domain": "wuerzburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-unterfranken",
+      "confidence_status": "verified",
+      "notes": "Die geltende städtische Marktsatzung legt Beginn, Dauer, Warenangebot, schriftliche Bewerbung und jährliche Frist verbindlich fest. Der Termin folgt aus Freitag vor dem 8. Juli bei 17 Tagen Dauer. Quelllink im August 2026 aktualisiert, die zuvor hinterlegte Seite war nicht mehr erreichbar."
+    },
+    {
+      "id": "wuerzburger-herbstmesse-2027-wuerzburg",
+      "event_name": "Würzburger Herbstmesse 2027",
+      "event_type": "Verkaufsmesse / Jahrmarkt",
+      "city": "Würzburg",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Marktplatz",
+      "application_deadline_iso": "2026-11-30",
+      "application_deadline_text": "Bewerbungsschluss ist nach der städtischen Marktsatzung der 30. November des Vorjahres; für 2027 somit der 30.11.2026.",
+      "event_date_range_text": "30.10.-14.11.2027",
+      "application_mode": "Schriftlicher Antrag auf Zulassung bei der Stadt Würzburg; nur Markthandel",
+      "postal_address": "Stadt Würzburg, Rückermainstraße 2, 97070 Würzburg",
+      "contact_name": "Fachabteilung Ordnungsaufgaben - Marktwesen",
+      "contact_email": "info@stadt.wuerzburg.de",
+      "contact_phone": "0931 37-2695 oder 0931 37-2692",
+      "source_url": "https://www.wuerzburg.de/events-termine/volksfeste/gruenermarkt-spezialitaetenmarkt/maerkte",
+      "source_domain": "wuerzburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-unterfranken",
+      "confidence_status": "verified",
+      "notes": "Die geltende städtische Marktsatzung legt Beginn, Dauer, Warenangebot, schriftliche Bewerbung und jährliche Frist verbindlich fest. Der Termin folgt aus Samstag vor dem 1. November bei 16 Tagen Dauer. Quelllink im August 2026 aktualisiert, die zuvor hinterlegte Seite war nicht mehr erreichbar."
+    },
+    {
+      "id": "wuerzburger-weihnachtsmarkt-2027-wuerzburg",
+      "event_name": "Würzburger Weihnachtsmarkt 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Würzburg",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Oberer und Unterer Marktplatz, Eichhornstraße und Grafeneckart",
+      "application_deadline_iso": "2027-03-30",
+      "application_deadline_text": "Aussagekräftige Bewerbungsunterlagen für einen Standplatz 2027 sind bis zum 30.03.2027 einzureichen.",
+      "event_date_range_text": "26.11.-23.12.2027",
+      "application_mode": "Per E-Mail an die Marktmeisterin",
+      "postal_address": "Stadt Würzburg, Rückermainstraße 2, 97070 Würzburg",
+      "contact_name": "Hannah Becker, Marktmeisterin",
+      "contact_email": "hannah.becker@stadt.wuerzburg.de",
+      "contact_phone": "0931 37-2693",
+      "source_url": "https://www.wuerzburg.de/events-termine/wuerzburger-weihnacht",
+      "source_domain": "wuerzburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-unterfranken",
+      "confidence_status": "verified",
+      "notes": "Die aktuelle offizielle Veranstaltungsseite nennt Veranstaltung 2027, Zeitraum, Bewerbungsfrist, Bewerbungsweg und Kontakt ausdrücklich."
+    },
+    {
+      "id": "wuerzburger-kuenstlerweihnachtsmarkt-2027-wuerzburg",
+      "event_name": "Würzburger Künstlerweihnachtsmarkt 2027",
+      "event_type": "Kunsthandwerkermarkt / Weihnachtsmarkt",
+      "city": "Würzburg",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Rathausinnenhof mit Efeuhof",
+      "application_deadline_iso": "2027-08-30",
+      "application_deadline_text": "Bewerbungsschluss ist nach der städtischen Marktsatzung der 30. August des Veranstaltungsjahres; für 2027 somit der 30.08.2027.",
+      "event_date_range_text": "27.11.-28.11., 04.12.-05.12., 11.12.-12.12. und 18.12.-19.12.2027",
+      "application_mode": "Schriftlicher Antrag auf Zulassung bei der Stadt Würzburg",
+      "postal_address": "Stadt Würzburg, Rückermainstraße 2, 97070 Würzburg",
+      "contact_name": "Fachabteilung Ordnungsaufgaben - Marktwesen",
+      "contact_email": "info@stadt.wuerzburg.de",
+      "contact_phone": "0931 37-2695 oder 0931 37-2692",
+      "source_url": "https://www.wuerzburg.de/events-termine/volksfeste/gruenermarkt-spezialitaetenmarkt/maerkte",
+      "source_domain": "wuerzburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-unterfranken",
+      "confidence_status": "verified",
+      "notes": "Die Satzung bestimmt die vier Adventswochenenden, kunsthandwerkliche Geschenkartikel, schriftliche Bewerbung und den jährlichen Stichtag verbindlich. Quelllink im August 2026 aktualisiert, die zuvor hinterlegte Seite war nicht mehr erreichbar."
+    },
+    {
+      "id": "wuerzburger-rochusfest-2027-wuerzburg",
+      "event_name": "Würzburger Rochusfest 2027",
+      "event_type": "Kirchweih / Stadtteilfest mit möglichem Jahrmarkt",
+      "city": "Würzburg",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Pleichachtalhalle im Stadtbezirk Versbach",
+      "application_deadline_iso": "2027-07-23",
+      "application_deadline_text": "Die Marktsatzung bestimmt vier Wochen vor Veranstaltungsbeginn als Bewerbungsfrist; für den Beginn am 20.08.2027 somit der 23.07.2027.",
+      "event_date_range_text": "20.08.-23.08.2027",
+      "application_mode": "Schriftlicher Antrag auf Zulassung bei der Stadt Würzburg",
+      "postal_address": "Stadt Würzburg, Rückermainstraße 2, 97070 Würzburg",
+      "contact_name": "Fachabteilung Ordnungsaufgaben - Marktwesen",
+      "contact_email": "info@stadt.wuerzburg.de",
+      "contact_phone": "0931 37-2695 oder 0931 37-2692",
+      "source_url": "https://www.wuerzburg.de/events-termine/volksfeste/gruenermarkt-spezialitaetenmarkt/maerkte",
+      "source_domain": "wuerzburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-unterfranken",
+      "confidence_status": "verified",
+      "notes": "Die Satzung legt den Beginn abhängig vom Rochustag, vier Tage Dauer und die Vier-Wochen-Frist fest; dem Fest kann ein Jahrmarkt angegliedert werden. Quelllink im August 2026 aktualisiert, die zuvor hinterlegte Seite war nicht mehr erreichbar."
+    },
+    {
+      "id": "wuerzburger-zwiebelkirchweih-2027-wuerzburg",
+      "event_name": "Würzburger Zwiebelkirchweih 2027",
+      "event_type": "Kirchweih / Spezialmarkt",
+      "city": "Würzburg",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Semmelstraße",
+      "application_deadline_iso": "2027-07-27",
+      "application_deadline_text": "Die Marktsatzung bestimmt vier Wochen vor der Veranstaltung als Bewerbungsfrist; für den 24.08.2027 somit der 27.07.2027.",
+      "event_date_range_text": "24.08.2027",
+      "application_mode": "Schriftlicher Antrag auf Zulassung bei der Stadt Würzburg",
+      "postal_address": "Stadt Würzburg, Rückermainstraße 2, 97070 Würzburg",
+      "contact_name": "Fachabteilung Ordnungsaufgaben - Marktwesen",
+      "contact_email": "info@stadt.wuerzburg.de",
+      "contact_phone": "0931 37-2695 oder 0931 37-2692",
+      "source_url": "https://www.wuerzburg.de/events-termine/volksfeste/gruenermarkt-spezialitaetenmarkt/maerkte",
+      "source_domain": "wuerzburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-unterfranken",
+      "confidence_status": "verified",
+      "notes": "Die Satzung legt den 24. August, das Angebot von Speisen und Getränken, schriftliche Bewerbung und die Vier-Wochen-Frist verbindlich fest. Quelllink im August 2026 aktualisiert, die zuvor hinterlegte Seite war nicht mehr erreichbar."
+    },
+    {
+      "id": "wuerzburger-allerheiligenmarkt-2027-wuerzburg",
+      "event_name": "Würzburger Allerheiligenmarkt 2027",
+      "event_type": "Spezialmarkt",
+      "city": "Würzburg",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Vor den Friedhöfen im Stadtgebiet",
+      "application_deadline_iso": "2027-10-02",
+      "application_deadline_text": "Die Marktsatzung bestimmt vier Wochen vor Veranstaltungsbeginn als Bewerbungsfrist; für den Beginn am 30.10.2027 somit der 02.10.2027.",
+      "event_date_range_text": "30.10.-02.11.2027",
+      "application_mode": "Schriftlicher Antrag auf Zulassung bei der Stadt Würzburg",
+      "postal_address": "Stadt Würzburg, Rückermainstraße 2, 97070 Würzburg",
+      "contact_name": "Fachabteilung Ordnungsaufgaben - Marktwesen",
+      "contact_email": "info@stadt.wuerzburg.de",
+      "contact_phone": "0931 37-2695 oder 0931 37-2692",
+      "source_url": "https://www.wuerzburg.de/events-termine/volksfeste/gruenermarkt-spezialitaetenmarkt/maerkte",
+      "source_domain": "wuerzburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-unterfranken",
+      "confidence_status": "verified",
+      "notes": "Die Satzung legt Zeitraum, Sortiment aus Blumen, Gebinden, Tannenreisig und Wachswaren sowie die Vier-Wochen-Frist verbindlich fest. Quelllink im August 2026 aktualisiert, die zuvor hinterlegte Seite war nicht mehr erreichbar."
+    },
+    {
+      "id": "wuerzburger-christbaummarkt-2027-wuerzburg",
+      "event_name": "Würzburger Christbaummarkt 2027",
+      "event_type": "Weihnachtsbaummarkt",
+      "city": "Würzburg",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Balthasar-Neumann-Promenade",
+      "application_deadline_iso": "2027-11-13",
+      "application_deadline_text": "Die Marktsatzung bestimmt vier Wochen vor Veranstaltungsbeginn als Bewerbungsfrist; wegen des Sonntagsbeginns am 12.12. startet der Markt 2027 am 11.12., somit endet die Frist am 13.11.2027.",
+      "event_date_range_text": "11.12.-24.12.2027",
+      "application_mode": "Schriftlicher Antrag auf Zulassung bei der Stadt Würzburg",
+      "postal_address": "Stadt Würzburg, Rückermainstraße 2, 97070 Würzburg",
+      "contact_name": "Fachabteilung Ordnungsaufgaben - Marktwesen",
+      "contact_email": "info@stadt.wuerzburg.de",
+      "contact_phone": "0931 37-2695 oder 0931 37-2692",
+      "source_url": "https://www.wuerzburg.de/events-termine/volksfeste/gruenermarkt-spezialitaetenmarkt/maerkte",
+      "source_domain": "wuerzburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-unterfranken",
+      "confidence_status": "verified",
+      "notes": "Die Satzung legt Zeitraum, Sortiment aus natürlichen Weihnachtsbäumen, Zweigen und Tannenzapfen sowie die Vier-Wochen-Frist verbindlich fest. Quelllink im August 2026 aktualisiert, die zuvor hinterlegte Seite war nicht mehr erreichbar."
+    },
+    {
+      "id": "aschaffenburger-jahrmaerkte-2027-aschaffenburg",
+      "event_name": "Aschaffenburger Jahrmärkte 2027",
+      "event_type": "Jahrmärkte / Warenmärkte",
+      "city": "Aschaffenburg",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Schloßplatz vor der Stadthalle am Schloß",
+      "application_deadline_iso": "2026-11-30",
+      "application_deadline_text": "Verbindlicher satzungsmäßiger Bewerbungszeitraum für Jahrmärkte 2027: 01.09. bis spätestens 30.11.2026.",
+      "event_date_range_text": "Drei jeweils viertägige Jahrmärkte im Kalenderjahr 2027; die Einzeltermine werden am letzten Jahrmarkttermin 2026 offiziell bekannt gegeben.",
+      "application_mode": "Schriftlich unter Angabe von Platzgröße und Warenangebot",
+      "postal_address": "Kongress- und Touristikbetriebe der Stadt Aschaffenburg, Schloßplatz 1, 63739 Aschaffenburg",
+      "contact_name": "Veranstaltungsmanagement - städtische Märkte und Feste",
+      "contact_email": "info@events-ab.de",
+      "contact_phone": "+49 6021 395720",
+      "source_url": "https://www.aschaffenburg.de/loadDocument.phtml?Ext=PDF&FID=4173.101.1",
+      "source_domain": "aschaffenburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-unterfranken",
+      "confidence_status": "partial",
+      "notes": "Die geltende Marktsatzung bestätigt drei Jahrmärkte pro Jahr, schriftliche Standbewerbungen und das feste Fenster 01.09.-30.11. des Vorjahres. Die konkreten Termine 2027 waren am Stichtag satzungsgemäß noch nicht bekannt gegeben."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Aschaffenburger Volksfest 2027",
+      "candidate_url": "https://mein.aschaffenburg.de/event/aschaffenburger-volksfest/",
+      "reason": "Offiziell bestätigter 2027-Treffer mit Frist 30.09.2026, aber bereits als aschaffenburger-volksfest-2027-aschaffenburg-research-bayern im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "Würzburger Frühjahrsvolksfest 2027",
+      "candidate_url": "https://www.wuerzburg.de/events-termine/kilianivolksfest/bewerbungfuervolksfeste",
+      "reason": "Offiziell bestätigter 2027-Treffer mit Frist 30.09.2026, aber bereits als wuerzburger-fruehjahrsvolksfest-2027-wuerzburg im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "Würzburger Kiliani-Volksfest 2027",
+      "candidate_url": "https://www.wuerzburg.de/events-termine/kilianivolksfest/bewerbungfuervolksfeste",
+      "reason": "Offiziell bestätigter 2027-Treffer mit Frist 30.09.2026, aber bereits als wuerzburger-kiliani-volksfest-2027-wuerzburg im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "Aschaffenburger Wochenmarkt 2026-2028",
+      "candidate_url": "https://mein.aschaffenburg.de/wochenmarkt/",
+      "reason": "Die mehrjährige offizielle Ausschreibung umfasst 2027, ihre Bewerbungsfrist endete jedoch bereits am 30.09.2025."
+    },
+    {
+      "event_name": "Aschaffenburger Weihnachtsmarkt 2026",
+      "candidate_url": "https://mein.aschaffenburg.de/event/weihnachtsmarkt/",
+      "reason": "Die offizielle Standplatzausschreibung und Frist 31.03.2026 betreffen ausschließlich 2026; die Vorjahresfrist wird nicht auf 2027 übertragen."
+    },
+    {
+      "event_name": "Schweinfurter Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.schweinfurt.de/media/www.schweinfurt.de/org/med_6644/57337_bewerbungsformular_gastro_und_fahrgeschaeft_2026.pdf",
+      "reason": "Das offizielle Formular betrifft ausschließlich 2026; die Frist 31.05.2026 war zudem am Stichtag abgelaufen und wird nicht auf 2027 übertragen."
+    },
+    {
+      "event_name": "Schweinfurter Erntedankmarkt 2026",
+      "candidate_url": "https://www.schweinfurt.de/media/www.schweinfurt.de/org/med_6643/57332_bewerbungsformular_erntedankmarkt_2026_gastro.pdf",
+      "reason": "Die offizielle Quelle betrifft ausschließlich 2026; die Frist 31.07.2026 war am Stichtag abgelaufen."
+    },
+    {
+      "event_name": "Haßfurter Märkte und Veranstaltungen 2026",
+      "candidate_url": "https://hassfurt.de/fileadmin/user_upload/Stefan_Goeb/Anmeldebogen_Maerkte_2026_ausfuellbar_V3.pdf",
+      "reason": "Der offizielle Bewerbungsbogen gilt ausschließlich für Veranstaltungen 2026 und belegt keine Frist für 2027."
+    },
+    {
+      "event_name": "Genuss- und Regionalmarkt Bad Neustadt 2026",
+      "candidate_url": "https://www.bad-neustadt.de/fileadmin/user_upload/bad-neustadt/aktuelles/stadtmagazin/2025/2025-12-16_Stadtmagazin_0126.pdf",
+      "reason": "Der offizielle Händler- und Ausstelleraufruf betrifft den Markt am 22.03.2026 und enthält keine übertragbare Frist für 2027."
+    },
+    {
+      "event_name": "Mömbriser Straßenfest Heimat shoppen 2026",
+      "candidate_url": "https://www.moembris.de/fileadmin/Website/Dateien/Rathaus_Service/Buergerblatt/2026/B%C3%BCrgerblatt_Nr._10-2026.pdf",
+      "reason": "Der offizielle Beteiligungsaufruf mit Frist 31.08.2026 betrifft ausschließlich die Veranstaltung 2026."
+    },
+    {
+      "event_name": "Iphöfer Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.iphofen.de/veranstaltungen/highlights/weihnachtsmarkt.html",
+      "reason": "Die offizielle Seite nennt nur den konkreten Markt 2026 und keine Bewerbungsfrist für eine Ausgabe 2027."
+    },
+    {
+      "event_name": "Bachgaufest Großostheim 2026",
+      "candidate_url": "https://www.grossostheim.de/bachgaufest.html",
+      "reason": "Der offizielle Aufruf und die Frist 31.10.2025 betreffen ausschließlich das Bachgaufest 2026."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Mainfranken-Messe Würzburg 2027",
+      "candidate_url": "https://www.rwmessen.de/",
+      "reason": "Die offizielle Veranstalterseite bestätigt die Messe vom 25.09.-03.10.2027 und nimmt Interessentenmeldungen von Ausstellern an, nennt aber keinen verbindlichen Anmeldeschluss."
+    },
+    {
+      "event_name": "1250 Jahre Weinbau Hammelburg 2027",
+      "candidate_url": "https://touristik.hammelburg.de/nachrichten/artikel/jubilaeum-1250-jahre-weinbau-in-hammelburg",
+      "reason": "Die offizielle Stadtseite sucht Vereine, Geschäftswelt und Privatpersonen zur Mitgestaltung der Veranstaltungsreihe 2027, veröffentlicht aber keine konkrete Teilnahmefrist."
+    },
+    {
+      "event_name": "Hammelburger Frühjahrsmarkt 2027",
+      "candidate_url": "https://touristik.hammelburg.de/fileadmin/Tourismus_Hammelburg/Jubil%C3%A4umsjahr_2027/Veranstaltungskalender_2027.pdf",
+      "reason": "Der offizielle Kalender bestätigt den Frühjahrsmarkt am 13.-14.03.2027, enthält jedoch keinen Beschickeraufruf mit Frist."
+    },
+    {
+      "event_name": "Ochsenfurter Pfingstritt 2027",
+      "candidate_url": "https://www.ochsenfurt.de/de/tourismus-kultur/veranstaltungen/ochsenfurter-pfingstritt",
+      "reason": "Die offizielle Stadtseite bestätigt die Veranstaltung am 17.05.2027 und ihre Tradition mit Verkaufsständen, veröffentlicht aber keine Standbewerbungsfrist."
+    },
+    {
+      "event_name": "Bad Brückenauer Jahrmärkte und Stadtfest 2027",
+      "candidate_url": "https://www.bad-brueckenau.de/tools/downloads/?archiv=168",
+      "reason": "Die offizielle Marktsatzung bestätigt jährlich Frühlingsmarkt, Stadtfest, Herbstmarkt und Allerheiligenmarkt sowie schriftliche Standgesuche, nennt aber keinen verbindlichen Bewerbungsschluss."
+    },
+    {
+      "event_name": "Lohrer Frühlingsfest und Rambourfest 2027",
+      "candidate_url": "https://www.lohr.de/stadtfeste",
+      "reason": "Die offizielle Stadtseite bestätigt jährlich wiederkehrende Stadtfeste und Standbewerbungen für Aussteller, Dienstleister und Hobbykünstler, nennt aber keine konkrete Frist für 2027."
+    },
+    {
+      "event_name": "Nacht der Ausbildung Gerolzhofen 2027",
+      "candidate_url": "https://unternehmerstadt.gerolzhofen.de/nacht-der-ausbildung/",
+      "reason": "Die offizielle Stadtmarketingseite nimmt bereits Interessenmeldungen von Unternehmen für 2027 an, veröffentlicht aber keinen verbindlichen Anmeldeschluss."
+    },
+    {
+      "event_name": "Schweinfurter Volksfest 2027",
+      "candidate_url": "https://volksfest-schweinfurt.de/highlights/schweinfurt-sucht-das-volksfestgesicht/",
+      "reason": "Die offizielle Veranstaltungsseite belegt eine Ausgabe 2027, enthält jedoch keine öffentliche Schausteller- oder Beschickerbewerbung mit Frist."
+    },
+    {
+      "event_name": "Miltenberger Märkte 2027",
+      "candidate_url": "https://www.miltenberg.de/leben-in-der-stadt/shopping/",
+      "reason": "Die offizielle Stadtseite wirbt um Beschicker für Wochenmarkt und Marktveranstaltungen, nennt aber weder konkrete 2027-Termine noch einen Bewerbungsschluss."
+    },
+    {
+      "event_name": "Bad Neustädter Märkte 2027",
+      "candidate_url": "https://www.bad-neustadt.de/rathaus/buergerservice/online-services/veranstaltungen/",
+      "reason": "Die offizielle Stadtseite bietet eine Online-Standplatzzuweisung für städtische Märkte, ordnet sie aber keiner konkreten Veranstaltung 2027 mit verbindlicher Frist zu."
+    }
+  ]
+}

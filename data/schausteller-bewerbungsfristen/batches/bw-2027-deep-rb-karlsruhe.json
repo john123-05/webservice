@@ -1,0 +1,378 @@
+{
+  "batch_id": "bw-2027-deep-rb-karlsruhe",
+  "region_scope": [
+    "Baden-Wuerttemberg",
+    "Regierungsbezirk Karlsruhe"
+  ],
+  "search_terms": [
+    "Schausteller Bewerbung 2027 Regierungsbezirk Karlsruhe",
+    "Beschicker Bewerbung 2027 Karlsruhe Mannheim Heidelberg Pforzheim Baden-Baden",
+    "Jahrmarkt Volksfest Messe Weihnachtsmarkt 2027 Bewerbungsfrist",
+    "Aussteller Haendler Kunsthandwerker Gastronomie Foodtruck Standbewerbung 2027"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "art-karlsruhe-2027-galerien-rheinstetten",
+      "event_name": "art karlsruhe 2027 - Galerien",
+      "event_type": "Kunstmesse / Galerienmesse",
+      "city": "Rheinstetten",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Messe Karlsruhe",
+      "application_deadline_iso": "2026-09-18",
+      "application_deadline_text": "Bewerbungsschluss: 18. September 2026",
+      "event_date_range_text": "18. bis 21. Februar 2027",
+      "application_mode": "Online-Bewerbungsplattform; Zugang per E-Mail anfordern",
+      "postal_address": "Karlsruher Messe- und Kongress GmbH, Postfach 1208, 76002 Karlsruhe",
+      "contact_name": "Olga Blaß",
+      "contact_email": "olga.blass@messe-karlsruhe.de",
+      "contact_phone": "+49 721 3720 5120",
+      "source_url": "https://www.art-karlsruhe.de/de/ausstellen/index.html",
+      "source_domain": "art-karlsruhe.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-karlsruhe",
+      "confidence_status": "verified",
+      "notes": "Bewerbung richtet sich an professionelle Galerien."
+    },
+    {
+      "id": "art-karlsruhe-2027-museumsmeile-rheinstetten",
+      "event_name": "art karlsruhe 2027 - Museumsmeile",
+      "event_type": "Kunstmesse / Museums- und Kulturinstitutionen",
+      "city": "Rheinstetten",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Messe Karlsruhe",
+      "application_deadline_iso": "2026-10-02",
+      "application_deadline_text": "Bewerbungsschluss: 2. Oktober 2026",
+      "event_date_range_text": "18. bis 21. Februar 2027",
+      "application_mode": "Online-Bewerbungsplattform; Zugang per E-Mail anfordern",
+      "postal_address": "Karlsruher Messe- und Kongress GmbH, Postfach 1208, 76002 Karlsruhe",
+      "contact_name": "Barbara Fleck",
+      "contact_email": "barbara.fleck@messe-karlsruhe.de",
+      "contact_phone": "+49 721 3720 5083",
+      "source_url": "https://www.art-karlsruhe.de/de/ausstellen/index.html",
+      "source_domain": "art-karlsruhe.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-karlsruhe",
+      "confidence_status": "verified",
+      "notes": "Eigenständiges Bewerbungsverfahren für Museen, Kunstvereine und Kulturinstitutionen."
+    },
+    {
+      "id": "learntec-2027-rheinstetten",
+      "event_name": "LEARNTEC 2027",
+      "event_type": "Fachmesse / Digitale Bildung",
+      "city": "Rheinstetten",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Messe Karlsruhe, Halle 3 und dm-arena",
+      "application_deadline_iso": "2027-02-01",
+      "application_deadline_text": "Anmeldeschluss: 1. Februar 2027",
+      "event_date_range_text": "2. bis 4. Februar 2027",
+      "application_mode": "Online-Ausstelleranmeldung",
+      "postal_address": "Karlsruher Messe- und Kongress GmbH, Postfach 1208, 76002 Karlsruhe",
+      "contact_name": "LEARNTEC-Projektteam",
+      "contact_email": "info@messe-karlsruhe.de",
+      "contact_phone": "+49 721 3720 0",
+      "source_url": "https://www.learntec.de/messe-files/downloads/dokumente-2026/legal-documents/lt_27_tnb_idfa_ho_de_final_neu.pdf",
+      "source_domain": "learntec.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-karlsruhe",
+      "confidence_status": "verified",
+      "notes": "Die offiziellen Teilnahmebedingungen bestätigen Termin, Veranstaltungsort und Anmeldeschluss."
+    },
+    {
+      "id": "nufam-2027-rheinstetten",
+      "event_name": "NUFAM 2027",
+      "event_type": "Nutzfahrzeug-Fachmesse",
+      "city": "Rheinstetten",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Messe Karlsruhe",
+      "application_deadline_iso": "2027-05-21",
+      "application_deadline_text": "Anmeldeschluss: 21. Mai 2027",
+      "event_date_range_text": "22. bis 25. September 2027",
+      "application_mode": "Aussteller- beziehungsweise Standanmeldung beim Veranstalter",
+      "postal_address": "Karlsruher Messe- und Kongress GmbH, Postfach 1208, 76002 Karlsruhe",
+      "contact_name": "NUFAM-Projektteam",
+      "contact_email": "info@messe-karlsruhe.de",
+      "contact_phone": "+49 721 3720 0",
+      "source_url": "https://www.nufam.de/messe-files/downloads/nufam_2027_besondereteilnahmebedingungen.pdf",
+      "source_domain": "nufam.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-karlsruhe",
+      "confidence_status": "verified",
+      "notes": "Die offiziellen besonderen Teilnahmebedingungen bestätigen Termin und Anmeldeschluss."
+    },
+    {
+      "id": "einstieg-beruf-2027-rheinstetten",
+      "event_name": "Einstieg Beruf 2027",
+      "event_type": "Ausbildungs- und Karrieremesse",
+      "city": "Rheinstetten",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Messe Karlsruhe",
+      "application_deadline_iso": "2026-11-30",
+      "application_deadline_text": "Reguläre Anmeldung bis 30. November 2026; danach nur Warteliste nach Verfügbarkeit",
+      "event_date_range_text": "16. Januar 2027, 10:00 bis 15:30 Uhr",
+      "application_mode": "Online-Ausstelleranmeldung",
+      "postal_address": "Messeallee 1, 76287 Rheinstetten",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "source_url": "https://einstiegberuf.de/aussteller/",
+      "source_domain": "einstiegberuf.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-karlsruhe",
+      "confidence_status": "partial",
+      "notes": "Frühbucher bis 30. September 2026, Normaltarif bis 15. Oktober 2026 und Spätbuchertarif bis 30. November 2026."
+    },
+    {
+      "id": "lounges-2027-rheinstetten",
+      "event_name": "LOUNGES 2027 - Cleanroom and Processes",
+      "event_type": "Fachmesse / Reinraum- und Pharmaprozesse",
+      "city": "Rheinstetten",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Messe Karlsruhe",
+      "application_deadline_iso": "2027-02-28",
+      "application_deadline_text": "Anmeldeschluss für Aussteller: 28. Februar 2027",
+      "event_date_range_text": "16. bis 18. März 2027",
+      "application_mode": "Ausstelleranmeldung beim offiziellen Veranstalter",
+      "postal_address": "Messeallee 1, 76287 Rheinstetten",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "source_url": "https://cleanroom-processes.de/en/lounges-karlsruhe-2027/",
+      "source_domain": "cleanroom-processes.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-karlsruhe",
+      "confidence_status": "partial",
+      "notes": "Termin, Ort und Anmeldeschluss sind in den offiziellen Veranstaltungsbedingungen genannt. Quelllink im August 2026 aktualisiert, die zuvor hinterlegte Seite war nicht mehr erreichbar."
+    },
+    {
+      "id": "faszination-modellbahn-mannheim-2027",
+      "event_name": "Faszination Modellbahn Mannheim 2027",
+      "event_type": "Publikums- und Fachmesse / Modelleisenbahn",
+      "city": "Mannheim",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Maimarktgelände Mannheim",
+      "application_deadline_iso": "2026-12-01",
+      "application_deadline_text": "Anmeldeschluss: 1. Dezember 2026 oder früher bei vollständiger Belegung",
+      "event_date_range_text": "12. bis 14. März 2027",
+      "application_mode": "Offizielle Ausstelleranmeldung beziehungsweise Bewerbungsformular",
+      "postal_address": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "source_url": "https://www.faszination-modellbahn.com/teilnahmebedingungen/",
+      "source_domain": "faszination-modellbahn.com",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-karlsruhe",
+      "confidence_status": "partial",
+      "notes": "Die offizielle Veranstalterseite nennt die Bewerbungsfrist; eine frühere Schließung bei Vollbelegung ist möglich."
+    },
+    {
+      "id": "rastatter-fruehjahrsjahrmarkt-2027-rastatt",
+      "event_name": "Rastatter Frühjahrsjahrmarkt 2027",
+      "event_type": "Jahrmarkt / Volksfest",
+      "city": "Rastatt",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Festplatz Zur Friedrichsfeste",
+      "application_deadline_iso": "2026-11-30",
+      "application_deadline_text": "Bewerbungsschluss: 30. November 2026",
+      "event_date_range_text": "23. bis 27. April 2027",
+      "application_mode": "Schriftliche Bewerbung; für jeden Jahrmarkt ist eine separate Bewerbung erforderlich",
+      "postal_address": "Wirtschaft & Veranstaltungen, Eigenbetrieb Stadt Rastatt, Herrn Christian Römmich, Kapellenstraße 20-22, 76437 Rastatt",
+      "contact_name": "Christian Römmich",
+      "contact_email": "stadtmarketing@rastatt.de",
+      "contact_phone": "07222 972-1280",
+      "source_url": "https://www.rastatt.de/site/Rastatt-Stadt/get/documents_E1829081980/rastatt/Dateien/PDFs/5.%20Kultur%20und%20Freizeit/Freizeit%20und%20Einkaufen/Jahrm%C3%A4rkte/Ausschreibung%20Jahrm%C3%A4rkte%202027.pdf",
+      "source_domain": "rastatt.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-karlsruhe",
+      "confidence_status": "verified",
+      "notes": "Gesucht werden unter anderem Fahr-, Schau-, Lauf- und Belustigungsgeschäfte sowie Imbiss-, Spiel-, Gewinn- und Verkaufsgeschäfte."
+    },
+    {
+      "id": "rastatter-herbstjahrmarkt-2027-rastatt",
+      "event_name": "Rastatter Herbstjahrmarkt 2027",
+      "event_type": "Jahrmarkt / Volksfest",
+      "city": "Rastatt",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Festplatz Zur Friedrichsfeste",
+      "application_deadline_iso": "2026-11-30",
+      "application_deadline_text": "Bewerbungsschluss: 30. November 2026",
+      "event_date_range_text": "3. bis 7. September 2027",
+      "application_mode": "Schriftliche Bewerbung; für jeden Jahrmarkt ist eine separate Bewerbung erforderlich",
+      "postal_address": "Wirtschaft & Veranstaltungen, Eigenbetrieb Stadt Rastatt, Herrn Christian Römmich, Kapellenstraße 20-22, 76437 Rastatt",
+      "contact_name": "Christian Römmich",
+      "contact_email": "stadtmarketing@rastatt.de",
+      "contact_phone": "07222 972-1280",
+      "source_url": "https://www.rastatt.de/site/Rastatt-Stadt/get/documents_E1829081980/rastatt/Dateien/PDFs/5.%20Kultur%20und%20Freizeit/Freizeit%20und%20Einkaufen/Jahrm%C3%A4rkte/Ausschreibung%20Jahrm%C3%A4rkte%202027.pdf",
+      "source_domain": "rastatt.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "bw-2027-deep-rb-karlsruhe",
+      "confidence_status": "verified",
+      "notes": "Gesucht werden unter anderem Fahr-, Schau-, Lauf- und Belustigungsgeschäfte sowie Imbiss-, Spiel-, Gewinn- und Verkaufsgeschäfte."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Baden-Badener Christkindelsmarkt 2026/2027",
+      "candidate_url": "https://www.baden-baden.com/veranstaltungen/christkindelsmarkt",
+      "reason": "Die veröffentlichte Ausgabe beginnt 2026; die Bewerbungsfrist 30. April 2026 war am Recherchestichtag bereits abgelaufen. Keine bestätigte Ausgabe 2027/2028 mit offener Frist gefunden."
+    },
+    {
+      "event_name": "Ausstellungen Kulturzentrum Orgelfabrik 2027",
+      "candidate_url": "https://kulturbuero.karlsruhe.de/schwerpunkte/kulturzentrum-orgelfabrik-durlach",
+      "reason": "Die offizielle Bewerbungsfrist 14. Juni 2026 war am Recherchestichtag bereits abgelaufen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Karlsruher Jahrmärkte 2027",
+      "candidate_url": "https://www.karlsruhe.de/kultur-freizeit/maerkte/bewerbungsverfahren",
+      "reason": "Die offizielle Seite enthielt am Recherchestichtag nur Bewerbungsunterlagen beziehungsweise Fristen für 2026, nicht für 2027."
+    },
+    {
+      "event_name": "Karlsruher Christkindlesmarkt 2027",
+      "candidate_url": "https://www.karlsruhe.de/kultur-freizeit/maerkte/bewerbungsverfahren",
+      "reason": "Für die Ausgabe 2027 war noch keine konkrete offizielle Bewerbungsfrist veröffentlicht."
+    },
+    {
+      "event_name": "Karlsruher Kunsthandwerkermärkte 2027",
+      "candidate_url": "https://www.karlsruhe.de/kultur-freizeit/maerkte/bewerbungsverfahren",
+      "reason": "Für 2027 waren noch keine konkreten offiziellen Bewerbungsfristen veröffentlicht."
+    },
+    {
+      "event_name": "KUNST HANDWERK DESIGN Weihnachtsmesse Karlsruhe 2027",
+      "candidate_url": "https://www.weihnachtsmesse-karlsruhe.de/bewerbung",
+      "reason": "Der Veranstaltungszeitraum 9. bis 12. Dezember 2027 ist angekündigt; die Ausschreibung soll jedoch erst ab Februar 2027 verfügbar sein und eine Bewerbungsfrist fehlt noch."
+    },
+    {
+      "event_name": "NEW HOUSING 2027",
+      "candidate_url": "https://www.new-housing.de/de/ausstellen/",
+      "reason": "Termin und Ausstellerregistrierung sind offiziell veröffentlicht, aber es wurde keine konkrete Anmeldefrist gefunden."
+    },
+    {
+      "event_name": "EUROVINO 2027",
+      "candidate_url": "https://www.eurovino.info/de/",
+      "reason": "Termin und Anmeldung sind offiziell; die Frühbucherfrist 31. Juli 2026 ist abgelaufen und eine konkrete offene Schlussfrist wurde nicht veröffentlicht."
+    },
+    {
+      "event_name": "REHAB 2027",
+      "candidate_url": "https://www.rehab-karlsruhe.com/de/ausstellen/",
+      "reason": "Termin und Ausstelleranmeldung sind offiziell; die Frühbucherfrist 30. Juni 2026 ist abgelaufen und eine konkrete offene Schlussfrist wurde nicht gefunden."
+    },
+    {
+      "event_name": "Maimarkt Mannheim 2027",
+      "candidate_url": "https://www.maimarkt.de/fuer-aussteller/aussteller-werden",
+      "reason": "Der Termin 24. April bis 4. Mai 2027 und die Bewerbemöglichkeit sind offiziell, aber eine verbindliche Bewerbungsfrist fehlt."
+    },
+    {
+      "event_name": "Jobs for Future Mannheim 2027",
+      "candidate_url": "https://www.jobsforfuture-mannheim.de/fuer-aussteller/aussteller-werden",
+      "reason": "Der Termin 18. bis 20. Februar 2027 ist offiziell, aber eine konkrete Aussteller-Anmeldefrist wurde nicht gefunden."
+    },
+    {
+      "event_name": "Mannheimer Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.weihnachtsmarkt-mannheim.de/fuer-aussteller",
+      "reason": "Die offizielle Ausstellerseite enthielt am Recherchestichtag noch keine bestätigte Bewerbungsfrist für 2027."
+    },
+    {
+      "event_name": "AnimagiC Mannheim 2027",
+      "candidate_url": "https://animotion-festival.de/",
+      "reason": "Kontakte beziehungsweise Bewerbungsstarts ab Herbst 2026 werden angekündigt, aber konkrete 2027-Veranstaltungs- und Bewerbungsfristen fehlen."
+    },
+    {
+      "event_name": "Heidelberger Märkte und Feste 2027",
+      "candidate_url": "https://www.heidelberg-marketing.de/veranstaltungen/partner-werden",
+      "reason": "Die offizielle Partnerseite enthielt nur Beteiligungsinformationen für 2026 und keine konkrete Frist für 2027."
+    },
+    {
+      "event_name": "Mosbacher Kunsthandwerkermarkt und Französischer Markt 2027",
+      "candidate_url": "https://mosbach.de/site/Mosbach/node/767686/index.html",
+      "reason": "Der Termin 3. bis 4. April 2027 ist offiziell veröffentlicht, aber keine konkrete Bewerbungsfrist für 2027."
+    },
+    {
+      "event_name": "Mosbacher Blumenmarkt 2027",
+      "candidate_url": "https://mosbach.de/site/Mosbach/node/767686/index.html",
+      "reason": "Der Termin 24. April 2027 ist offiziell veröffentlicht, aber keine konkrete Bewerbungsfrist für 2027."
+    },
+    {
+      "event_name": "Mosbacher Frühlingsfest 2027",
+      "candidate_url": "https://mosbach.de/site/Mosbach/node/767686/index.html",
+      "reason": "Der Termin 7. bis 10. Mai 2027 ist offiziell veröffentlicht, aber keine konkrete Bewerbungsfrist für 2027."
+    },
+    {
+      "event_name": "Mosbacher Kräutermarkt 2027",
+      "candidate_url": "https://mosbach.de/site/Mosbach/node/767686/index.html",
+      "reason": "Der Termin 3. Juli 2027 ist offiziell veröffentlicht, aber keine konkrete Bewerbungsfrist für 2027."
+    },
+    {
+      "event_name": "Mosbacher Brot- und Genussmarkt 2027",
+      "candidate_url": "https://mosbach.de/site/Mosbach/node/767686/index.html",
+      "reason": "Der Termin 4. September 2027 ist offiziell veröffentlicht, aber keine konkrete Bewerbungsfrist für 2027."
+    },
+    {
+      "event_name": "Mosbacher Erntedankfest 2027",
+      "candidate_url": "https://mosbach.de/site/Mosbach/node/767686/index.html",
+      "reason": "Der Termin 10. Oktober 2027 ist offiziell veröffentlicht, aber keine konkrete Bewerbungsfrist für 2027."
+    },
+    {
+      "event_name": "Mosbacher Mittelalter- und Kunsthandwerkermarkt 2027",
+      "candidate_url": "https://mosbach.de/site/Mosbach/node/767686/index.html",
+      "reason": "Der Termin 6. bis 7. November 2027 ist offiziell veröffentlicht, aber keine konkrete Bewerbungsfrist für 2027."
+    },
+    {
+      "event_name": "Mosbacher Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.mosbach.de/mosbacher%2Bweihnachtsmarkt",
+      "reason": "Der Veranstaltungszeitraum 26. November bis 19. Dezember 2027 ist angekündigt, aber es lag keine konkrete Bewerbungsfrist für 2027 vor."
+    },
+    {
+      "event_name": "Rastatter Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.rastatt.de/site/Rastatt-Stadt/get/documents_E404138385/rastatt/Dateien/PDFs/2.%20Rathaus%20und%20Politik/Verwaltung/Ver%C3%B6ffentlichungen/Ortsrecht/M%C3%A4rkte/Satzung%20der%20Stadt%20Rastatt%20%C3%BCber%20die%20Durchf%C3%BChrung%20des%20Weihnachtsmarktes.pdf",
+      "reason": "Die Satzung nennt den 31. Mai des Veranstaltungsjahres als allgemeine Frist, aber eine konkrete Ausgabe mit Veranstaltungsdaten für 2027 war noch nicht offiziell bestätigt."
+    },
+    {
+      "event_name": "Ettlinger Sternlesmarkt 2027",
+      "candidate_url": "https://www.ettlingen.de/weihnachtsmarkt",
+      "reason": "Für 2027 waren noch keine offiziellen Bewerbungsunterlagen mit konkreter Frist veröffentlicht."
+    },
+    {
+      "event_name": "Peter-und-Paul-Fest Bretten 2027",
+      "candidate_url": "https://www.bretten.de/tourismus-kultur-freizeit/veranstaltungen/24320",
+      "reason": "Der jährliche Veranstaltungszeitraum ist offiziell beschrieben, eine konkrete Bewerbungsfrist für Beschicker 2027 fehlt jedoch."
+    },
+    {
+      "event_name": "Regionale Ausbildungsbörse Bruchsal 2027",
+      "candidate_url": "https://www.bruchsal.de/site/Bruchsal-Internet-2023/get/documents_E1782421342/bruchsal-internet/StadtBruchsal-Dateien/PDF-Sammlungen/Amtsblatt/2025/Amtsblatt%20KW49%202025.pdf",
+      "reason": "Der Veranstaltungstermin 10. April 2027 ist offiziell genannt, aber keine konkrete Aussteller-Anmeldefrist."
+    },
+    {
+      "event_name": "Jobmesse Pforzheim 2027",
+      "candidate_url": "https://www.jobmesse-pf.de/fuer-ausstellende/",
+      "reason": "Der Termin 11. März 2027 und der Anmeldestart ab September 2026 sind offiziell, ein verbindliches Ende des Bewerbungszeitraums fehlt."
+    },
+    {
+      "event_name": "CE-Praxistage Pforzheim 2027",
+      "candidate_url": "https://www.congresscentrum-pforzheim.de/das-ccp/aktuelles/news/details/20-jahre-ce-praxistage-im-ccp/",
+      "reason": "Der Termin 27. bis 29. April 2027 ist offiziell, aber eine konkrete Aussteller-Anmeldefrist wurde nicht gefunden."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "batch_id": "bremen-2027-deep-bremerhaven",
+  "region_scope": [
+    "Stadtgemeinde Bremerhaven"
+  ],
+  "search_terms": [
+    "Bremerhaven Weihnachtsmarkt 2026 Bewerbung Haendler Standbetreiber Frist offiziell",
+    "Bremerhaven Festwoche Seestadtfest Hafenfest 2027 Bewerbung Haendler Schausteller Frist",
+    "jahrmarkt-bremerhaven.de Freimarkt Fruehjahrsmarkt Bewerbung Frist Arbeitsgemeinschaft Bremerhavener Maerkte",
+    "Bremerhaven 200 Jahre Stadtjubilaeum 2027 Haendler Schausteller Bewerbung"
+  ],
+  "max_expected_results": 40,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [],
+  "rejected_candidates": [],
+  "review_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt und Lichterglanz Bremerhaven 2026",
+      "candidate_url": "https://www.bremerhaven-erleben.de/weihnachtsmarkt",
+      "reason": "Offizielle Seite der Erlebnis Bremerhaven GmbH bestaetigt den Zeitraum 23. November bis 30. Dezember 2026, nennt aber weder ein Bewerbungsverfahren fuer Standbetreiber noch eine Frist. Kontakt: Erlebnis Bremerhaven GmbH, H.-H.-Meier-Strasse 6, 27568 Bremerhaven, 0471 809 36 430."
+    },
+    {
+      "event_name": "Maritime Tage Bremerhaven",
+      "candidate_url": "https://www.bremerhaven-erleben.de/maritimetage",
+      "reason": "Offizielle Seite der Erlebnis Bremerhaven GmbH bestaetigt das Hafenfest, nennt jedoch kein Bewerbungsverfahren fuer Haendler oder Schausteller und keine Frist."
+    },
+    {
+      "event_name": "Bremerhavener Stadtjubilaeum 2027 (200 Jahre)",
+      "candidate_url": "https://www.bremerhaven-erleben.de/events",
+      "reason": "Bremerhaven begeht 2027 sein 200-jaehriges Stadtjubilaeum mit einem erweiterten Veranstaltungsprogramm. Zum Pruefzeitpunkt ist auf den offiziellen Seiten kein Bewerbungsverfahren mit Frist fuer Haendler, Gastronomen oder Schausteller veroeffentlicht."
+    }
+  ]
+}

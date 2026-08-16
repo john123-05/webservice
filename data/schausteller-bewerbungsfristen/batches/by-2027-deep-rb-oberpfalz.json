@@ -1,0 +1,202 @@
+{
+  "batch_id": "by-2027-deep-rb-oberpfalz",
+  "region_scope": [
+    "Bayern",
+    "Regierungsbezirk Oberpfalz"
+  ],
+  "search_terms": [
+    "Oberpfalz 2027 Schausteller Bewerbung",
+    "Oberpfalz 2027 Beschicker Bewerbungsfrist",
+    "Oberpfalz 2027 Händler Aussteller Anmeldung",
+    "Oberpfalz 2027 Volksfest Markt Dult Kirchweih",
+    "Regensburg Amberg Weiden 2027 Veranstaltung Bewerbung",
+    "Landkreise Amberg-Sulzbach Cham Neumarkt Neustadt Schwandorf Tirschenreuth 2027"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "pfingstvolksfest-bad-koetzting-2027-bad-koetzting",
+      "event_name": "Pfingstvolksfest Bad Kötzting 2027",
+      "event_type": "Volksfest",
+      "city": "Bad Kötzting",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Pfingstfestplatz",
+      "application_deadline_iso": "2026-11-06",
+      "application_deadline_text": "Bewerbungen können bis spätestens 06.11.2026 eingereicht werden.",
+      "event_date_range_text": "15.05.-24.05.2027",
+      "application_mode": "Schriftlich mit dem offiziellen Bewerbungsformular; für jedes Geschäft ist eine gesonderte Bewerbung einzureichen.",
+      "postal_address": "Stadt Bad Kötzting, Herrenstraße 5, 93444 Bad Kötzting",
+      "contact_name": "Sepp Barth",
+      "contact_email": "sepp.barth@bad-koetzting.de",
+      "contact_phone": "+49 9941 40032-152",
+      "source_url": "https://bad-koetzting.de/fileadmin/user_upload/ausschreibungs-unterlagen/Anschreiben_fuer_Ausschreibung_2027.pdf",
+      "source_domain": "bad-koetzting.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberpfalz",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Ausschreibung vom 16.07.2026 nennt ausdrücklich das Pfingstvolksfest 2027, Veranstaltungszeitraum und Bewerbungsschluss. Zugelassen sind Bewerbungen unter anderem für Fahrgeschäfte, Spiel- und Geschicklichkeitsgeschäfte, Imbiss und Warenverkauf."
+    },
+    {
+      "id": "oberpfaelzer-kulturtage-2027-kemnath",
+      "event_name": "Oberpfälzer Kulturtage 2027",
+      "event_type": "Kulturfest / Veranstaltungsreihe",
+      "city": "Kemnath",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Kemnath und Kemnather Land",
+      "application_deadline_iso": "2026-10-31",
+      "application_deadline_text": "Ideen und Angebote können bis zum 31. Oktober 2026 gemeldet werden.",
+      "event_date_range_text": "04.06.-06.06.2027",
+      "application_mode": "Erfassungsbogen per E-Mail an das Stadtmarketing Kemnath",
+      "postal_address": "Stadt Kemnath, Stadtplatz 38, 95478 Kemnath",
+      "contact_name": "Nina Lang",
+      "contact_email": "nina.lang@kemnath.de",
+      "contact_phone": "+49 9642 707-717",
+      "source_url": "https://www.kemnath.de/aktuelles/details?cHash=2c3c08818b37f72b6e7312cbc5ea6a2a&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1489",
+      "source_domain": "kemnath.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-oberpfalz",
+      "confidence_status": "verified",
+      "notes": "Der offizielle Aufruf der Stadt Kemnath vom 23.07.2026 richtet sich unter anderem an Unternehmen, Gastronomie und Kulturschaffende. Als mögliche Beiträge werden ausdrücklich Ausstellungen sowie kulinarische und gastronomische Angebote genannt."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Berufsinformationsmesse Regensburg 2027",
+      "candidate_url": "https://www.stadtmarketing-regensburg.de/projekte/berufsinformationsmesse",
+      "reason": "Offizielle Veranstalterseite bestätigt den Termin 05.05.2027 und einen Anmeldestart im September 2026, nennt aber keinen verbindlichen Anmeldeschluss."
+    },
+    {
+      "event_name": "Ausbildungsmesse Nordoberpfalz 2027",
+      "candidate_url": "https://www.arbeitsagentur.de/vor-ort/weiden/ausbildungsmesse-weiden",
+      "reason": "Offizielle Seite der Bundesagentur für Arbeit bestätigt den Messetermin 17.04.2027, enthält jedoch keine konkrete Aussteller-Bewerbungsfrist."
+    },
+    {
+      "event_name": "Oberpfälzer Baumesse Amberg 2027",
+      "candidate_url": "https://www.messe-amberg.de/infos-aussteller",
+      "reason": "Offizielle Veranstalterseite bietet Ausstellerinformationen und Anmeldung für die Messe am 06.-07.03.2027, veröffentlicht aber keinen verbindlichen Bewerbungsschluss."
+    },
+    {
+      "event_name": "ChamlandBau 2027",
+      "candidate_url": "https://www.chamlandbau.de/messeplan-chamlandbau.html",
+      "reason": "Offizielle Veranstalterseite und Anmeldeunterlagen bestätigen die Messe am 13.-14.02.2027, jedoch ohne konkrete Anmeldefrist."
+    },
+    {
+      "event_name": "ChamLandleben Frühjahr 2027",
+      "candidate_url": "https://www.chamland-messen.de/home.html",
+      "reason": "Offizielle Veranstalterseite kündigt die Veranstaltung für Frühjahr 2027 an, nennt aber weder einen genauen Termin noch eine verbindliche Ausstellerfrist."
+    },
+    {
+      "event_name": "Neumarkter Jahrmärkte 2027",
+      "candidate_url": "https://www.neumarkt.de/rathaus-buergerservice/aemter-und-dienstleistungen/wo-erledige-ich-was/marktwesen/",
+      "reason": "Offizielle Stadtseite nennt die vier Jahrmarkttermine 2027 und die Bewerbungsmöglichkeit für Fieranten, aber keinen Bewerbungsschluss für Standplätze."
+    },
+    {
+      "event_name": "Freystädter Jahrmärkte 2027",
+      "candidate_url": "https://buergerservice.freystadt.de/download/aon6qo364vafdbkd7ollpaa7531/2027%20Stadt%20Freystadt%20-%20Bewerbungsformular%20Markt.pdf",
+      "reason": "Offizielles Bewerbungsformular und Marktkalender bestätigen die Märkte 2027; die Aufforderung zur frühzeitigen Bewerbung ist keine konkrete Frist."
+    },
+    {
+      "event_name": "Berchinger Rossmarkt 2027",
+      "candidate_url": "https://www.berching.de/rossmarkt/",
+      "reason": "Offizielle Stadtseite bestätigt den Rossmarkt am 03.02.2027 und Standkontakte, veröffentlicht jedoch keine Bewerbungsfrist für Fieranten."
+    },
+    {
+      "event_name": "Berchinger Ostermarkt Ei-Zeit 2027",
+      "candidate_url": "https://www.berching.de/veranstaltungen/ostermarkt-ei-zeit_2027-821595/",
+      "reason": "Offizielle Stadtseite bestätigt den Markt am 07.03.2027; die Bitte, sich möglichst bald anzumelden, ist keine verbindliche Bewerbungsfrist."
+    },
+    {
+      "event_name": "7-Täler-Volksfest Dietfurt 2027",
+      "candidate_url": "https://www.dietfurt.de/veranstaltungen/7-taeler-volksfest_2027_vom_22-859351-12702943/",
+      "reason": "Offizielle Stadtseite bestätigt das Volksfest vom 22.-26.07.2027 mit Vergnügungspark, nennt aber keine öffentliche Bewerbungsfrist für Schausteller oder Beschicker."
+    },
+    {
+      "event_name": "Erbendorfer Jahrmärkte 2027",
+      "candidate_url": "https://www.erbendorf.de/markttage",
+      "reason": "Offizielle Stadtseite bestätigt vier Markttermine 2027 und Bewerbungen von Fieranten 'jeder Zeit', jedoch keinen konkreten Annahmeschluss."
+    },
+    {
+      "event_name": "Waldsassener Bürgerfest 2027",
+      "candidate_url": "https://www.tourismus.waldsassen.de/aktivitaeten/empfehlungen/buergerfest-am-4-juli-2027",
+      "reason": "Offizielle Tourismusseite bestätigt das Bürgerfest am 04.07.2027 mit Vereins-, Speise- und Getränkeangeboten, aber keinen offenen Aufruf mit Frist."
+    },
+    {
+      "event_name": "Kummt's eina - Volksmusikfest und Markt Hirschau 2027",
+      "candidate_url": "https://www.hirschau.de/freizeit/kummts-eina",
+      "reason": "Offizielle Stadtseite bestätigt Veranstaltung und Markt am 06.06.2027; veröffentlicht ist nur ein Kontakt für Musikgruppen, keine Ausstellerfrist."
+    },
+    {
+      "event_name": "Parsberger Ausbildungsmesse 2027",
+      "candidate_url": "https://www.parsberg.de/fileadmin/user_upload/Stadt_Parsberg/Aktuelles/Parsberger_Stadtblatt/Ausgaben/2026/STADT_PARSBERG_Stadtblatt_2026_02_web.pdf",
+      "reason": "Offizielles Stadtblatt erwähnt bereits eingehende Firmenanmeldungen für 2027, belegt aber weder einen konkreten Messetermin noch einen verbindlichen Anmeldeschluss."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Regensburger Maidult und Herbstdult 2027",
+      "candidate_url": "https://www.regensburg.de/aktuelles/dult/bewerbung-dult-volksfest",
+      "reason": "Offiziell bestätigter 2027-Treffer mit Frist 01.10.2026, aber bereits als regensburger-dulten-2027-regensburg im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "Weidener Frühlingsfest 2027",
+      "candidate_url": "https://www.weiden.de/fileadmin/user_upload/A_Stadt-Rathaus-Buerger/A04_Presse-Medien/Amtsblatt/2026_07_15_nr_13.pdf",
+      "reason": "Offiziell bestätigter 2027-Treffer mit Frist 30.10.2026, aber bereits als weidener-fruehlingsfest-2027-weiden im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "Weidener Volksfest 2027",
+      "candidate_url": "https://www.weiden.de/fileadmin/user_upload/A_Stadt-Rathaus-Buerger/A04_Presse-Medien/Amtsblatt/2026_07_15_nr_13.pdf",
+      "reason": "Offiziell bestätigter 2027-Treffer mit Frist 30.10.2026, aber bereits als weidener-volksfest-2027-weiden im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "Neumarkter Frühlingsfest 2027",
+      "candidate_url": "https://www.neumarkt.de/kultur-stadtinfo/veranstaltungen-und-feste/feste/ausschreibungenbewerbungen-fuer-die-feste/",
+      "reason": "Offiziell bestätigter 2027-Treffer mit Frist 01.12.2026, aber bereits als neumarkter-fruehlingsfest-2027-neumarkt im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "JURA-Volksfest Neumarkt 2027",
+      "candidate_url": "https://www.neumarkt.de/kultur-stadtinfo/veranstaltungen-und-feste/feste/ausschreibungenbewerbungen-fuer-die-feste/",
+      "reason": "Offiziell bestätigter 2027-Treffer mit Frist 01.12.2026, aber bereits als jura-volksfest-2027-neumarkt im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "Maidult Burglengenfeld 2027-2030",
+      "candidate_url": "https://www.burglengenfeld.de/nachrichten/artikel/ausschreibung-der-maidult-auf-dem-volksfestplatz-fuer-die-jahre-2027-bis-2030",
+      "reason": "Die offizielle Ausschreibung umfasst 2027, ihre Angebotsfrist endete jedoch bereits am 18.07.2025."
+    },
+    {
+      "event_name": "Schwandorfer Volksfest 2027 - Festleitung",
+      "candidate_url": "https://www.schwandorf.de/media/custom/3655_4030_1.PDF?1730284065=",
+      "reason": "Die offizielle Vergabe für die Volksfeste 2026 und 2027 ist abgeschlossen und bereits vergeben; keine am Stichtag offene Bewerbung."
+    },
+    {
+      "event_name": "Regensburger Christkindlmarkt 2026",
+      "candidate_url": "https://www.regensburg.de/aktuelles/christkindlmarkt/bewerbung",
+      "reason": "Die offizielle Quelle betrifft ausschließlich die Veranstaltung 2026; daraus darf keine Frist für 2027 abgeleitet werden."
+    },
+    {
+      "event_name": "Weidener Christkindlmarkt 2026",
+      "candidate_url": "https://www.weiden.de/fileadmin/user_upload/A_Stadt-Rathaus-Buerger/A04_Presse-Medien/Amtsblatt/2026_03_16_nr_05.pdf",
+      "reason": "Die offizielle Ausschreibung betrifft 2026 und die Frist 30.06.2026 war am Stichtag abgelaufen; keine Übertragung auf 2027."
+    },
+    {
+      "event_name": "Weidener Bürgerfest 2026",
+      "candidate_url": "https://www.weiden.de/fileadmin/user_upload/A_Stadt-Rathaus-Buerger/A04_Presse-Medien/Amtsblatt/2026_02_02_nr_02.pdf",
+      "reason": "Die offizielle Ausschreibung betrifft 2026 und die Frist 01.04.2026 war am Stichtag abgelaufen; keine Übertragung auf 2027."
+    },
+    {
+      "event_name": "Festwirt Neumarkter Frühlingsfest und JURA-Volksfest 2025-2027",
+      "candidate_url": "https://www.neumarkt.de/media/9861/bewerbungsbedingungen-festwirt-fruehlings-und-volksfest-2025-2027.pdf",
+      "reason": "Die mehrjährige offizielle Ausschreibung umfasst 2027, die Bewerbungsfrist endete aber bereits am 14.11.2024."
+    },
+    {
+      "event_name": "Kreative Arbeitsräume Regensburg 2027/2028",
+      "candidate_url": "https://www.air-regensburg.de/news-events/news/detail/8/6/2026/open-call-kreative-arbeitsraeume-2027-28",
+      "reason": "Die Frist endete am 30.06.2026; zudem handelt es sich nicht um eine Veranstaltung mit Schausteller-, Beschicker- oder Ausstellerplätzen."
+    }
+  ]
+}

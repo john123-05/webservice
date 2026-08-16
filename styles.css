@@ -4849,21 +4849,694 @@ h2 {
   margin-top: 8px;
 }
 
-/* ---- Responsive ---- */
-@media (max-width: 780px) {
-  .lc-hero-grid,
-  .lc-form-grid {
-    grid-template-columns: 1fr;
-    gap: 32px;
+/* ---- Schausteller-Bewerbungsfristen ---- */
+.fk {
+  --fk-line: #dfe5ec;
+  --fk-line-soft: #ecf0f5;
+  --fk-ink-soft: #63748a;
+  --fk-urgent: #b4471a;
+  --fk-radius: 10px;
+}
+
+/* Hero */
+.fk-hero {
+  padding: 190px 0 56px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--fk-line);
+}
+
+.fk-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(340px, 0.7fr);
+  gap: 56px;
+  align-items: start;
+}
+
+.fk-kicker {
+  display: inline-block;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--fk-ink-soft);
+  margin: 0 0 20px;
+}
+
+.fk-title,
+.fk-lead {
+  margin: 0;
+  font-size: clamp(2.1rem, 4.6vw, 3.5rem);
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  font-weight: 800;
+  max-width: 17ch;
+}
+
+.fk-title { color: var(--ink); }
+
+.fk-lead {
+  margin: 14px 0 24px;
+  color: var(--primary);
+  max-width: 25ch;
+}
+
+.fk-lead-ink { color: var(--ink); }
+
+/* haelt Wortgruppen zusammen, die nicht umbrechen duerfen:
+   "Bewerbungsfrist mehr" und "rechtzeitig erinnert." */
+.fk-lead-tight { white-space: nowrap; }
+
+.fk-sub {
+  margin: 0;
+  font-size: clamp(1.05rem, 1.6vw, 1.28rem);
+  line-height: 1.5;
+  color: var(--fk-ink-soft);
+  max-width: 44ch;
+}
+
+.fk-hero-facts {
+  display: flex;
+  gap: 10px 26px;
+  margin: 30px 0 0;
+  padding: 22px 0 0;
+  border-top: 1px solid var(--fk-line-soft);
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.fk-hero-facts li {
+  position: relative;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.fk-hero-facts li + li::before {
+  content: '';
+  position: absolute;
+  left: -14px;
+  top: 50%;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #b6c1cf;
+  transform: translateY(-50%);
+}
+
+/* Signup */
+.fk-signup {
+  border: 1px solid var(--fk-line);
+  border-radius: var(--fk-radius);
+  padding: 28px;
+  background: var(--surface);
+}
+
+.fk-signup h2,
+.fk-cta .fk-signup h2 {
+  margin: 0 0 18px;
+  font-size: 1.12rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+  max-width: none;
+}
+
+.fk-form {
+  display: grid;
+  gap: 10px;
+}
+
+.fk-field label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--fk-ink-soft);
+  margin-bottom: 5px;
+}
+
+/* Das Formular kommt ohne sichtbare Beschriftung aus - der Platzhalter reicht.
+   Das Label bleibt fuer Screenreader erhalten, statt es zu loeschen. */
+.fk-label-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.fk-form input {
+  width: 100%;
+  padding: 12px 14px;
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--fk-line);
+  border-radius: 8px;
+  transition: border-color 0.15s ease;
+}
+
+.fk-form input::placeholder { color: #9aa8b8; }
+
+.fk-form input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.fk-form button {
+  width: 100%;
+  margin-top: 4px;
+  padding: 13px 18px;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--primary);
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.fk-form button:hover { background: var(--primary-deep); }
+.fk-form button:disabled { opacity: 0.6; cursor: default; }
+
+.fk-status {
+  margin: 14px 0 0;
+  padding: 11px 14px;
+  font-size: 0.88rem;
+  border-radius: 8px;
+  background: #eaf6f0;
+  color: var(--ok);
+}
+
+/* Next deadline strip */
+.fk-next {
+  background: var(--ink);
+  color: #fff;
+  padding: 22px 0;
+}
+
+.fk-next-inner {
+  display: flex;
+  align-items: baseline;
+  gap: 10px 22px;
+  flex-wrap: wrap;
+}
+
+.fk-next-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  white-space: nowrap;
+}
+
+.fk-next-name {
+  font-size: 1.12rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.fk-next-meta {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.62);
+  font-variant-numeric: tabular-nums;
+}
+
+.fk-next-days {
+  margin-left: auto;
+  padding: 5px 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  white-space: nowrap;
+}
+
+/* Board */
+.fk-board {
+  padding: 56px 0 72px;
+  background: var(--bg);
+}
+
+.fk-board,
+.fk-cta {
+  scroll-margin-top: 92px;
+}
+
+.fk-board-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.fk-board-head h2 {
+  margin: 0;
+  font-size: clamp(1.5rem, 2.4vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+}
+
+.fk-board-stand {
+  margin: 0;
+  font-size: 0.86rem;
+  color: var(--fk-ink-soft);
+}
+
+.fk-panel {
+  border: 1px solid var(--fk-line);
+  border-radius: var(--fk-radius);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+/* Toolbar */
+.fk-toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--fk-line);
+  background: var(--surface);
+}
+
+.fk-control {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 165px;
+}
+
+.fk-control--grow { flex: 1 1 220px; }
+
+.fk-control label {
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--fk-ink-soft);
+}
+
+.fk-control select,
+.fk-control input {
+  padding: 9px 12px;
+  font: inherit;
+  font-size: 0.92rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--fk-line);
+  border-radius: 7px;
+  transition: border-color 0.15s ease;
+}
+
+.fk-control select:focus,
+.fk-control input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.fk-reset {
+  padding: 9px 14px;
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--fk-ink-soft);
+  background: none;
+  border: 1px solid var(--fk-line);
+  border-radius: 7px;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.fk-reset:hover {
+  color: var(--ink);
+  border-color: #c4cedb;
+}
+
+.fk-resultbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 11px 20px;
+  border-bottom: 1px solid var(--fk-line-soft);
+  background: #f8fafc;
+  font-size: 0.85rem;
+  color: var(--fk-ink-soft);
+}
+
+.fk-resultbar strong {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Scroll area */
+.fk-scroll {
+  max-height: 62vh;
+  min-height: 340px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+/* Row */
+.fk-row {
+  display: grid;
+  grid-template-columns: 74px minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: start;
+  width: 100%;
+  padding: 16px 20px;
+  text-align: left;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--fk-line-soft);
+  font: inherit;
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+
+.fk-row:hover { background: #f8fafc; }
+.fk-row[aria-expanded='true'] { background: #f5f8fc; }
+
+.fk-date {
+  text-align: center;
+  padding-top: 2px;
+  font-variant-numeric: tabular-nums;
+}
+
+.fk-date-day {
+  display: block;
+  font-size: 1.42rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+
+.fk-date-month {
+  display: block;
+  margin-top: 3px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--fk-ink-soft);
+}
+
+.fk-row-name {
+  display: block;
+  margin: 0 0 3px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+.fk-row-meta {
+  display: block;
+  margin: 0;
+  font-size: 0.87rem;
+  line-height: 1.45;
+  color: var(--fk-ink-soft);
+}
+
+.fk-row-side {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 3px;
+  white-space: nowrap;
+}
+
+.fk-days {
+  font-size: 0.83rem;
+  font-weight: 600;
+  color: var(--fk-ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.fk-days--urgent { color: var(--fk-urgent); }
+
+.fk-chevron {
+  width: 9px;
+  height: 9px;
+  border-right: 1.8px solid #a8b4c2;
+  border-bottom: 1.8px solid #a8b4c2;
+  transform: rotate(45deg) translate(-2px, -2px);
+  transition: transform 0.18s ease;
+}
+
+.fk-row[aria-expanded='true'] .fk-chevron {
+  transform: rotate(225deg) translate(-2px, -2px);
+}
+
+/* Detail */
+.fk-detail {
+  padding: 0 20px 22px 112px;
+  border-bottom: 1px solid var(--fk-line-soft);
+  background: #f5f8fc;
+}
+
+.fk-detail[hidden] { display: none; }
+
+.fk-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 18px 28px;
+  padding-top: 4px;
+}
+
+.fk-detail-item span {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #8493a5;
+}
+
+.fk-detail-item p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.fk-detail-item a { color: var(--primary); }
+
+.fk-tag {
+  display: inline-block;
+  padding: 2px 9px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  border-radius: 999px;
+  background: var(--soft-blue);
+  color: var(--primary-deep);
+}
+
+.fk-tag--partial {
+  background: #f2f5f9;
+  color: var(--fk-ink-soft);
+}
+
+/* Empty / loading */
+.fk-empty {
+  padding: 64px 24px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--fk-ink-soft);
+}
+
+/* Gate */
+/* Sperrzone ------------------------------------------------------------
+   Ab der vierten Frist bleiben die Zeilen im DOM, werden aber unscharf
+   hinter einer Glasflaeche gezeigt. Der Blur liegt auf dem Inhalt selbst,
+   damit die Daten auch dann unlesbar sind, wenn der Browser kein
+   backdrop-filter kann; das backdrop-filter darueber macht den Glaseffekt. */
+/* Feste Bandhoehe, damit die Glasflaeche ueberall gleich wirkt. Ohne den
+   Deckel wuerde sie auf dem Handy mit den hoeheren Zeilen auf ueber 800px
+   wachsen und das Formular in einem leeren Nebelfeld schwimmen lassen. */
+.fk-lockzone {
+  position: relative;
+  height: 430px;
+  overflow: hidden;
+}
+
+.fk-locked {
+  filter: blur(5px);
+  opacity: 0.5;
+  pointer-events: none;
+  user-select: none;
+}
+
+.fk-gate {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 26px 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.34) 0%,
+    rgba(255, 255, 255, 0.72) 40%,
+    rgba(255, 255, 255, 0.9) 100%
+  );
+  -webkit-backdrop-filter: blur(8px) saturate(150%);
+  backdrop-filter: blur(8px) saturate(150%);
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .fk-gate {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.97));
+  }
+}
+
+.fk-signup--gate {
+  width: min(430px, 100%);
+  background: rgba(255, 255, 255, 0.78);
+  border-color: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  box-shadow:
+    0 20px 52px rgba(17, 35, 67, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+.fk-signup--gate h2 { margin-bottom: 4px; }
+
+.fk-gate-count {
+  margin: 0 0 18px;
+  font-size: 0.88rem;
+  color: var(--fk-ink-soft);
+}
+
+.fk-gate-count strong { color: var(--ink); }
+
+/* Solange gesperrt ist, gibt es unterhalb der Glasflaeche nichts zu holen -
+   das Scrollen im Kasten waere dann nur irrefuehrend. */
+.fk-scroll[data-locked='true'] {
+  max-height: none;
+  overflow: hidden;
+}
+
+/* Bottom CTA */
+.fk-cta {
+  padding: 72px 0 88px;
+  background: var(--surface);
+  border-top: 1px solid var(--fk-line);
+}
+
+.fk-cta-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
+  gap: 56px;
+  align-items: center;
+}
+
+.fk-cta h2 {
+  margin: 0 0 12px;
+  font-size: clamp(1.6rem, 2.8vw, 2.3rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: var(--ink);
+  max-width: 18ch;
+}
+
+.fk-cta p {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: var(--fk-ink-soft);
+  max-width: 46ch;
+}
+
+.fk-cta-list {
+  margin: 22px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 9px;
+}
+
+.fk-cta-list li {
+  position: relative;
+  padding-left: 22px;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+.fk-cta-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--primary);
+}
+
+@media (max-width: 980px) {
+  .fk-hero-grid,
+  .fk-cta-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 36px;
   }
 
-  .lc-tips-card {
-    padding: 40px 24px;
+  .fk-hero { padding-top: 150px; }
+  .fk-title { max-width: none; }
+  .fk-next-days { margin-left: 0; }
+}
+
+@media (max-width: 640px) {
+  .fk-hero { padding: 130px 0 40px; }
+  .fk-signup { padding: 22px; }
+  .fk-board { padding: 40px 0 56px; }
+
+  .fk-control,
+  .fk-control--grow { min-width: 100%; flex: 1 1 100%; }
+
+  .fk-row {
+    grid-template-columns: 58px minmax(0, 1fr);
+    gap: 14px;
+    padding: 14px 16px;
   }
 
-  .lc-field-row-2 {
-    grid-template-columns: 1fr;
+  .fk-row-side {
+    grid-column: 2;
+    padding-top: 6px;
   }
+
+  .fk-date-day { font-size: 1.25rem; }
+  .fk-detail { padding: 0 16px 20px 16px; }
+  .fk-scroll { max-height: 70vh; }
+}
+
+/* Auf sehr schmalen Geraeten passt "Bewerbungsfrist mehr" nicht mehr in eine
+   Zeile. Statt den Umbruch zuzulassen, wird die Schrift so weit verkleinert,
+   dass die Wortgruppe zusammenbleibt und die Seite nicht seitlich scrollt. */
+@media (max-width: 380px) {
+  .fk-title,
+  .fk-lead { font-size: 1.72rem; }
 }
 
 /* ---- SEO Before/After Card ---- */

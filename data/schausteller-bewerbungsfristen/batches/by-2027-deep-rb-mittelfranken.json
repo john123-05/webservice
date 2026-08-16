@@ -1,0 +1,280 @@
+{
+  "batch_id": "by-2027-deep-rb-mittelfranken",
+  "region_scope": [
+    "Bayern",
+    "Regierungsbezirk Mittelfranken"
+  ],
+  "search_terms": [
+    "Mittelfranken 2027 Schausteller Bewerbung",
+    "Mittelfranken 2027 Beschicker Bewerbungsfrist",
+    "Mittelfranken 2027 Händler Kunsthandwerker Gastronomie Aussteller Anmeldung",
+    "Mittelfranken 2027 Volksfest Stadtfest Dorffest Kirchweih Markt Dult Weihnachtsmarkt Messe",
+    "Ansbach Erlangen Fürth Nürnberg Schwabach 2027 Veranstaltung Bewerbung",
+    "Landkreise Ansbach Erlangen-Höchstadt Fürth Nürnberger Land Neustadt a.d. Aisch-Bad Windsheim Roth Weißenburg-Gunzenhausen 2027"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [
+    {
+      "id": "treuchtlinger-volksfest-2027-treuchtlingen",
+      "event_name": "Treuchtlinger Volksfest 2027",
+      "event_type": "Volksfest",
+      "city": "Treuchtlingen",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Festplatz, Jahnstraße 14, 91757 Treuchtlingen",
+      "application_deadline_iso": "2026-11-06",
+      "application_deadline_text": "Schausteller können sich bis zum 06. November 2026 bewerben.",
+      "event_date_range_text": "Volksfest 2027; genauer Veranstaltungszeitraum noch nicht veröffentlicht",
+      "application_mode": "Schriftliche Bewerbung bei der Kur- und Touristinformation Treuchtlingen, postalisch oder per E-Mail.",
+      "postal_address": "Kur- und Touristinformation Treuchtlingen, Heinrich-Aurnhammer-Straße 3, 91757 Treuchtlingen",
+      "contact_name": "Kur- und Touristinformation Treuchtlingen",
+      "contact_email": "tourismus@treuchtlingen.de",
+      "contact_phone": "+49 9142 9600-60",
+      "source_url": "https://www.tourismus-treuchtlingen.de/volksfest/",
+      "source_domain": "tourismus-treuchtlingen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-mittelfranken",
+      "confidence_status": "partial",
+      "notes": "Die offizielle Tourismusseite der Stadt nennt ausdrücklich die Schaustellerbewerbung für das Volksfest 2027 und den Bewerbungsschluss. Ein genauer Veranstaltungstermin 2027 war noch nicht veröffentlicht; der angezeigte Zeitraum 10.-19.07.2026 wurde nicht übertragen."
+    },
+    {
+      "id": "rothenburger-reiterlesmarkt-2027-rothenburg-ob-der-tauber",
+      "event_name": "Rothenburger Reiterlesmarkt 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Rothenburg ob der Tauber",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Marktplatz, Grüner Markt, Kirchplatz und Lichthof am Rathaus",
+      "application_deadline_iso": "2027-04-01",
+      "application_deadline_text": "Bewerbungsstichtag für den Reiterlesmarkt 2027 ist der 01.04.2027.",
+      "event_date_range_text": "Reiterlesmarkt 2027; genauer Veranstaltungszeitraum noch nicht eindeutig veröffentlicht",
+      "application_mode": "Bewerbung beim Amt für Messen und Märkte unter Beachtung der veröffentlichten Gestaltungs- und Vergaberichtlinien.",
+      "postal_address": "Amt für Messen und Märkte, Grüner Markt 1, 91541 Rothenburg ob der Tauber",
+      "contact_name": "Amt für Messen und Märkte",
+      "contact_email": "messen-maerkte@rothenburg.de",
+      "contact_phone": "+49 9861 404-230",
+      "source_url": "https://stadt.rothenburg.de/wohnort/sport-und-freizeit/messen-und-maerkte",
+      "source_domain": "stadt.rothenburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-mittelfranken",
+      "confidence_status": "partial",
+      "notes": "Die Stadtseite fordert ausdrücklich zur Bewerbung für 2027 auf und nennt den Stichtag. Die auf derselben Seite angezeigten Marktdaten wurden nicht als 2027-Zeitraum übernommen, weil die Jahreszuordnung nicht eindeutig ist."
+    },
+    {
+      "id": "kinderzeche-2027-schiesswasen-dinkelsbuehl",
+      "event_name": "Kinderzeche 2027 - Schießwasen",
+      "event_type": "Heimatfest / Volksfest",
+      "city": "Dinkelsbühl",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Schießwasen",
+      "application_deadline_iso": "2026-09-30",
+      "application_deadline_text": "Bewerbungen bis 30. September 2026.",
+      "event_date_range_text": "16.07.-21.07.2027",
+      "application_mode": "Schriftliche Bewerbung mit aktuellem Lichtbild, Stromanschlusswerten, maßstabsgetreuem Grundriss sowie Anzahl und Größe der mitgeführten Fahrzeuge.",
+      "postal_address": "Stadt Dinkelsbühl, Amt für öffentliche Ordnung, Postfach 350, 91544 Dinkelsbühl",
+      "contact_name": "Amt für öffentliche Ordnung",
+      "contact_email": "info@dinkelsbuehl.de",
+      "contact_phone": "+49 9851 902-0",
+      "source_url": "https://www.dinkelsbuehl.de/deutsch/alle/stadt-dinkelsbuehl/aktuelles/1380/bewerbung-zur-kinderzeche-2027",
+      "source_domain": "dinkelsbuehl.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-mittelfranken",
+      "confidence_status": "verified",
+      "notes": "Die offizielle Stadtmeldung bestätigt Veranstaltung, Schießwasen-Bewerbung, Unterlagen und Frist. Die Quelle bezeichnet den Zeitraum wörtlich als 'Freitag, 16. bis Sonntag, 21.07.2027'; übernommen wurden nur die ausdrücklich genannten Kalenderdaten."
+    },
+    {
+      "id": "fuerther-weihnachtsmarkt-2027-fuerth",
+      "event_name": "Fürther Weihnachtsmarkt 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Fürth",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Fürther Freiheit",
+      "application_deadline_iso": "2027-04-30",
+      "application_deadline_text": "Bewerbungsschluss Weihnachtsmarkt: 30.4.",
+      "event_date_range_text": "Weihnachtsmarkt 2027; genauer Veranstaltungszeitraum noch nicht veröffentlicht",
+      "application_mode": "Ausschließlich mit dem offiziellen Bewerbungsformular schriftlich beim Marktamt; für jedes Geschäft gesondert, E-Mail und Fax sind ausgeschlossen.",
+      "postal_address": "Stadt Fürth, Marktamt, Bahnhofplatz 9, 90762 Fürth",
+      "contact_name": "Marktamt der Stadt Fürth",
+      "contact_email": "",
+      "contact_phone": "+49 911 974-1277",
+      "source_url": "https://service-on.fuerth.de/form/alias/fuerth/bewerbung-kirchweih-maerkte/",
+      "source_domain": "service-on.fuerth.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-08-03",
+      "agent_batch_id": "by-2027-deep-rb-mittelfranken",
+      "confidence_status": "partial",
+      "notes": "Das offizielle Formular verlangt das Bewerbungsjahr und nennt den festen Bewerbungsschluss für den Weihnachtsmarkt. Der konkrete Veranstaltungstermin 2027 war noch nicht veröffentlicht; Daten des Weihnachtsmarkts 2026 wurden nicht übertragen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Ausbildungs- und Studienmesse Bad Windsheim 2027",
+      "candidate_url": "https://www.bad-windsheim.de/ausbildungsmesse",
+      "reason": "Offizielle Stadtseite bestätigt den Messetermin 13.03.2027 und eine offene Ausstelleranmeldung, veröffentlicht aber keinen verbindlichen Anmeldeschluss."
+    },
+    {
+      "event_name": "Altstadtfest Bad Windsheim 2027",
+      "candidate_url": "https://www.bad-windsheim.de/altstadtfest",
+      "reason": "Offizielle Stadtseite sucht für das Altstadtfest 2027 Aussteller, Partner und Mitwirkende und stellt ein Formular bereit, nennt jedoch keine konkrete Bewerbungsfrist."
+    },
+    {
+      "event_name": "Landesgartenschau Bad Windsheim 2027 - Aussteller",
+      "candidate_url": "https://www.bad-windsheim2027.de/gartenschau/ausstellung/",
+      "reason": "Offizielle Veranstalterseite bestätigt die Landesgartenschau vom 29.04.-03.10.2027 und Ausstellermöglichkeiten, aber keinen verbindlichen Bewerbungsschluss."
+    },
+    {
+      "event_name": "Weißenburger Fototage 2027",
+      "candidate_url": "https://www.weissenburg.de/veranstaltungen/weissenburger_fototage_2027-846203-12696987/",
+      "reason": "Offizielle Stadtseite bestätigt die Fototage vom 25.03.-04.04.2027; für den ausstellungsbezogenen Fotowettbewerb wurde keine belastbare Einreichungsfrist 2027 veröffentlicht."
+    },
+    {
+      "event_name": "Weinfest am Bleimer Schloss mit Kunst.Hand.Markt 2027",
+      "candidate_url": "https://www.greding.de/veranstaltungen/weinfest_am_bleimer_schloss-843083/",
+      "reason": "Offizieller Veranstaltungskalender bestätigt das Weinfest vom 03.-06.06.2027 einschließlich Kunst.Hand.Markt, enthält aber keinen öffentlichen Bewerbungsaufruf mit Frist."
+    },
+    {
+      "event_name": "Gredinger Jahrmärkte 2027",
+      "candidate_url": "https://www.greding.de/stadtverwaltung/aufgaben/jahrmaerkte/",
+      "reason": "Offizielle Stadtseite ermöglicht schriftliche Bewerbungen für die Jahrmärkte, weist jedoch keine konkrete 2027-Bewerbungsfrist aus."
+    },
+    {
+      "event_name": "Dinkelsbühler Märkte 2027",
+      "candidate_url": "https://www.dinkelsbuehl.de/deutsch/alle/stadt-dinkelsbuehl/maerkte/",
+      "reason": "Offizielle Stadtseite veröffentlicht Markttermine 2027, jedoch keine konkrete Bewerbungsfrist für Händler oder Fieranten."
+    },
+    {
+      "event_name": "Nürnberger Frühlingsvolksfest 2027",
+      "candidate_url": "https://tourismus.nuernberg.de/buchen/nuernberg-card/location/nuernberger-volksfest/",
+      "reason": "Offizielle Tourismusseite bestätigt das Volksfest vom 27.03.-11.04.2027, nennt aber keine öffentliche Bewerbungsfrist für Schausteller oder Beschicker."
+    },
+    {
+      "event_name": "LaufWERK 2027",
+      "candidate_url": "https://www.messe-laufwerk.de/",
+      "reason": "Offizielle Veranstalterseite kündigt die ausstellerorientierte Veranstaltung für Juni 2027 an, veröffentlicht aber keinen verbindlichen Anmeldeschluss."
+    },
+    {
+      "event_name": "Hilpoltsteiner Lehrstellenbörse 2027",
+      "candidate_url": "https://ausbildung-roth.de/event/22-hilpoltsteiner-lehrstellenboerse-2026/",
+      "reason": "Offizielle Veranstalterseite nennt den Folgetermin 13.03.2027, aber noch keine Ausstelleranmeldung mit konkreter Frist."
+    },
+    {
+      "event_name": "care:xpo 2027",
+      "candidate_url": "https://shops.nuernbergmesse.de/nuem/angularapp/CAREXP27_SA_V2020_OL/GB/2WEyH/osc-standanmeldungen",
+      "reason": "Offizielle NürnbergMesse-Anmeldung für die Messe vom 20.-22.04.2027 ist verfügbar; ein endgültiger Anmeldeschluss ist nicht veröffentlicht und das gefundene Prebooking-Fenster lag bereits im April 2026."
+    },
+    {
+      "event_name": "Perimeter Protection 2027",
+      "candidate_url": "https://shops.nuernbergmesse.de/nuem/download/pp27/de/bes_Tb.pdf",
+      "reason": "Offizielle Teilnahmebedingungen bestätigen die Messe vom 19.-21.01.2027 und die Ausstelleranmeldung, nennen aber keinen konkreten Anmeldeschluss."
+    },
+    {
+      "event_name": "embedded world 2027",
+      "candidate_url": "https://shops.nuernbergmesse.de/nuem/download/embwld27/de/bes_Tb.pdf",
+      "reason": "Offizielle Teilnahmebedingungen bestätigen die Messe vom 16.-18.03.2027 und einen regulären Preis bis 15.01.2027; dieser Tarifstichtag ist kein eindeutig ausgewiesener endgültiger Anmeldeschluss."
+    },
+    {
+      "event_name": "KOMMUNALE 2027",
+      "candidate_url": "https://shops.nuernbergmesse.de/nuem/angularapp/KOMMUN27_SA_V2020_OL/D/uNxBb/osc-standanmeldungen",
+      "reason": "Offizielle NürnbergMesse-Anmeldung für die Messe vom 20.-21.10.2027 ist verfügbar, veröffentlicht jedoch keinen verbindlichen Anmeldeschluss."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Erlanger Bergkirchweih 2027",
+      "candidate_url": "https://erlangen.de/aktuelles/ausschreibungen-volksfeste-maerkte",
+      "reason": "Offiziell bestätigter 2027-Treffer mit Frist 15.10.2026, aber bereits als erlangener-bergkirchweih-2027-erlangen im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "Fürther Michaelis-Kirchweih 2027",
+      "candidate_url": "https://service-on.fuerth.de/form/alias/fuerth/bewerbung-kirchweih-maerkte/",
+      "reason": "Offiziell bestätigter 2027-Treffer mit Frist 20.10.2026, aber bereits im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "Fürther Vorortkirchweihen 2027",
+      "candidate_url": "https://service-on.fuerth.de/form/alias/fuerth/bewerbung-kirchweih-maerkte/",
+      "reason": "Die offiziell bestätigten Vorortkirchweihen Hardhöhe, Eigenes Heim, Burgfarrnbach, Vach, Unterfarrnbach, Stadeln, Fürberg, Poppenreuth und Atzenhof mit Frist 31.12.2026 sind bereits einzeln im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "Städtisch organisierte Nürnberger Stadtteilkirchweihen 2027",
+      "candidate_url": "https://www.nuernberg.de/internet/liegenschaftsamt/kirchweihen.html",
+      "reason": "Die offiziell bestätigten Kirchweihen Schweinau, Laufamholz, Nordostbahnhof, Eibach, St. Johannis, Kleinreuth h.d.V., Gartenstadt, Buch, Langwasser, Wöhrd und St. Leonhard mit Frist 01.10.2026 sind bereits einzeln im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "Schwabacher Märkte und Feste 2027",
+      "candidate_url": "https://www.schwabach.de/de/politik/aktuelles-bekanntmachungen/104-buergeranliegen/ordnungsamt/maerkte-und-feste.html",
+      "reason": "Die zwölf offiziell bestätigten 2027-Termine mit gemeinsamer Bewerbungsfrist 30.10.2026, darunter Jahrmärkte, Kirchweihen, Bürgerfest und Weihnachtsmarkt, sind bereits einzeln im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "Hilpoltsteiner Ostermarkt 2027",
+      "candidate_url": "https://www.hilpoltstein.de/maerkte/",
+      "reason": "Offiziell bestätigter 2027-Treffer mit Frist 31.01.2027, aber bereits als hilpoltsteiner-ostermarkt-2027-hilpoltstein im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "Bad Windsheimer Kirchweih 2027",
+      "candidate_url": "https://www.bad-windsheim.de/kirchweih",
+      "reason": "Offiziell bestätigter 2027-Treffer mit Frist 26.02.2027, aber bereits als bad-windsheimer-kirchweih-2027-bad-windsheim im bestehenden Datensatz vorhanden."
+    },
+    {
+      "event_name": "BIOFACH 2027",
+      "candidate_url": "https://shops.nuernbergmesse.de/nuem/download/bio27/de/bes_Tb.pdf",
+      "reason": "Die offizielle Ausstellerfrist für die Messe vom 16.-19.02.2027 endete bereits am 03.07.2026 und war am Recherchestichtag nicht mehr offen."
+    },
+    {
+      "event_name": "European Coatings Show 2027",
+      "candidate_url": "https://shops.nuernbergmesse.de/nuem/download/ecs27/de/bes_Tb.pdf",
+      "reason": "Die offizielle Ausstellerfrist für 2027 endete bereits am 15.07.2026 und war am Recherchestichtag nicht mehr offen."
+    },
+    {
+      "event_name": "FACHPACK 2027",
+      "candidate_url": "https://shops.nuernbergmesse.de/nuem/download/fachpa27/de/bes_Tb.pdf",
+      "reason": "Die offiziellen Teilnahmebedingungen bestätigen den Termin 21.-23.09.2027, nennen aber nur einen bereits am 02.12.2025 abgelaufenen Preisstichtag und keinen offenen verbindlichen Anmeldeschluss."
+    },
+    {
+      "event_name": "Landesgartenschau Bad Windsheim 2027 - Gartenmarkt, Blumenschau und Floristik",
+      "candidate_url": "https://www.bad-windsheim2027.de/service/ausschreibungen/",
+      "reason": "Die offizielle Ausschreibungsseite meldete am Recherchestichtag keine offenen Ausschreibungen; damit lag kein offenes Bewerbungsfenster vor."
+    },
+    {
+      "event_name": "Rothenburger Sommermesse, Weindorf und Herbstmesse 2026",
+      "candidate_url": "https://stadt.rothenburg.de/wohnort/sport-und-freizeit/messen-und-maerkte",
+      "reason": "Die offizielle Seite nennt nur Bewerbungsstichtage und Veranstaltungstermine für 2026; diese wurden nicht auf 2027 übertragen."
+    },
+    {
+      "event_name": "Pleinfelder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.pleinfeld.de/weihnachtsmarkt/",
+      "reason": "Die offizielle Ausschreibung betrifft ausschließlich 2026 und ihre Frist 31.07.2026 war am Stichtag abgelaufen; keine Übertragung auf 2027."
+    },
+    {
+      "event_name": "Treuchtlinger Schlossweihnacht 2026",
+      "candidate_url": "https://www.tourismus-treuchtlingen.de/schlossweihnacht/",
+      "reason": "Die offizielle Seite wirbt zwar um neue Aussteller, betrifft aber den Markt 2026 und nennt keine belastbare Bewerbungsfrist für 2027."
+    },
+    {
+      "event_name": "Nürnberger Christkindlesmarkt 2026",
+      "candidate_url": "https://www.nuernberg.de/imperia/md/maerkte/dokumente/spezialmaerkte/bekanntmachung_ckm_2026.pdf",
+      "reason": "Die offizielle Bekanntmachung betrifft ausschließlich 2026; eine dort genannte Frist wurde nicht auf den Christkindlesmarkt 2027 übertragen."
+    },
+    {
+      "event_name": "Langenzenn Altstadtfest 2026",
+      "candidate_url": "https://www.langenzenn.de/freizeit-tourismus/maerkte-feste-veranstaltungen/altstadtfest/",
+      "reason": "Der offizielle Aufruf betrifft ausschließlich das Altstadtfest 2026; daraus wurde keine Bewerbungsmöglichkeit für 2027 abgeleitet."
+    },
+    {
+      "event_name": "Cadolzburger Herbstmarkt 2026",
+      "candidate_url": "https://www.cadolzburg.de/rathaus-service/buergerservice/ratstermine-und-buergerveranstaltungen/73/herbstmarkt-2026",
+      "reason": "Die offizielle Quelle betrifft ausschließlich den Herbstmarkt 2026 und ist für eine 2027-Frist unbrauchbar."
+    },
+    {
+      "event_name": "Feuchter Azubimesse JOBivation 2026",
+      "candidate_url": "https://www.feucht.de/markt-feucht/aktuelles/aktuelles-aus-dem-markt-feucht/1346/anmeldung-fuer-unternehmen-zur-feuchter-azubimesse-jobivation",
+      "reason": "Die offizielle Anmeldung betrifft 2026 und die Unternehmensfrist 15.07.2026 war am Stichtag abgelaufen; keine Übertragung auf 2027."
+    }
+  ]
+}

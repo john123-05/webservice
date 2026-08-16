@@ -1,0 +1,64 @@
+{
+  "batch_id": "brandenburg-2027-deep-suedwest",
+  "region_scope": [
+    "Potsdam",
+    "Brandenburg an der Havel",
+    "Potsdam-Mittelmark",
+    "Teltow-Flaeming"
+  ],
+  "search_terms": [
+    "Baumbluetenfest Werder 2027 Schausteller Bewerbung Bewerbungsschluss",
+    "Potsdam Blauer Lichterglanz Weihnachtszauber 2026 Bewerbung Beschicker Frist",
+    "Brandenburg an der Havel Havelfest Weihnachtsmarkt 2027 Bewerbung Haendler Schausteller Frist",
+    "Luckenwalde Turmfest 2027 Jueterbog Zossen Ludwigsfelde Haendler Schausteller Bewerbung Anmeldung Frist",
+    "Beelitzer Lichterzauber 2026 2027 Bewerbung Haendler Schausteller Beelitz offiziell"
+  ],
+  "max_expected_results": 80,
+  "source_policy": "official_only",
+  "researched_at": "2026-08-03",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "147. Baumbluetenfest Werder (Havel) 2026",
+      "candidate_url": "https://www.baumbluetenfest.de/bewerbungsstart-fuer-rummel-und-volksfest/",
+      "reason": "Offizielle Veranstalterseite nennt fuer die Ausgabe 2026 (25.04.-03.05.2026) den Bewerbungsschluss 29. November 2025 fuer den Rummel und 15. Dezember 2025 fuer das Volksfest zwischen Plantagenplatz und Marktplatz. Beide Fristen sind zum Stichtag 03.08.2026 abgelaufen."
+    },
+    {
+      "event_name": "Potsdamer Weihnachtsmarkt - Dienstleistungskonzession Veranstalterbetrieb",
+      "candidate_url": "https://www.potsdam.de/de/weihnachtsmarkt-ausschreibung-veroeffentlicht",
+      "reason": "Ausschreibung einer Dienstleistungskonzession fuer den Veranstalterbetrieb 2025-2027 (Verlaengerungsoption). Die Bewerbungsfrist endete im April 2025 und richtete sich an Veranstalter, nicht an einzelne Beschicker."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "148. Baumbluetenfest Werder (Havel) 2027",
+      "candidate_url": "https://www.baumbluetenfest.de/bewerbungsstart-fuer-rummel-und-volksfest/",
+      "reason": "Groesstes Volksfest Brandenburgs mit jaehrlich festem Bewerbungsverfahren ueber MS Events als Partner der Events Company Werder (Havel) mbH. Die Ausschreibung fuer 2027 wird erfahrungsgemaess erst im Spaetherbst 2026 veroeffentlicht; zum Pruefzeitpunkt liegt keine offizielle 2027-Frist vor. Vorjahresfristen wurden bewusst nicht uebertragen."
+    },
+    {
+      "event_name": "Potsdamer Weihnachtszauber 2026 - kostenfreie Vereinshuetten",
+      "candidate_url": "https://www.potsdam.de/de/285-beteiligungsmoeglichkeiten-beim-potsdamer-weihnachtszauber-2026",
+      "reason": "Offizielle Seite der Landeshauptstadt bestaetigt 8 kostenfreie Vereinshuetten fuer lokale Vereine, soziale Traeger und gemeinnuetzige Initiativen vom 23.11.-23.12.2026 mit Bewerbung ueber ein Online-Formular, nennt dafuer aber kein Fristdatum. Die auf derselben Seite genannte Frist 15. August 2026 gilt nur fuer Sternenschmiede und offene Marktstaende und ist bereits als Eintrag erfasst."
+    },
+    {
+      "event_name": "34. Luckenwalder Turmfest",
+      "candidate_url": "https://www.luckenwalde.de/Stadt/Entdecken-und-er-leben/Kultur/Turmfest/",
+      "reason": "Offizielle Stadtseite stellt ein Anmeldeformular fuer Haendler als PDF bereit und nennt Kontakt (Valeria Pense, 03371 672-216, kultur@luckenwalde.de, Trebbiner Strasse 15, 14943 Luckenwalde). Weder Seite noch Formular enthalten einen Anmeldeschluss."
+    },
+    {
+      "event_name": "61. Havelfest Brandenburg an der Havel",
+      "candidate_url": "https://kulturbuero.stadt-brandenburg.de/kultur/stadtfeste/havelfest-1-1/havelfest",
+      "reason": "Groesstes Volksfest der Havelstadt, organisiert von ShowService Brandenburg (Moetzower Landstr. 101c, 14776 Brandenburg an der Havel). Weder die staedtische Kulturbuero-Seite noch die Veranstalterseite nennen eine kalendarische Bewerbungsfrist fuer Haendler oder Schausteller."
+    },
+    {
+      "event_name": "Beelitzer Lichterzauber 2026/27",
+      "candidate_url": "https://beelitz.de/events/lichterzauber/",
+      "reason": "Ueber ein Schausteller-Portal als Platzangebot fuer 18.12.2026-10.01.2027 im Stadtpark Beelitz entdeckt. Die offizielle Stadt- und Veranstalterseite bestaetigt die Veranstaltung, nennt aber weder ein Bewerbungsverfahren fuer Standbetreiber noch eine Frist."
+    },
+    {
+      "event_name": "Tulpenfest Potsdam",
+      "candidate_url": "https://coex-gmbh.de/index.php/stadtfeste-und-maerkte-2026/",
+      "reason": "Veranstalter COEX Veranstaltungs GmbH & Co. KG (Madlower Hauptstr. 10, 03050 Cottbus, 0171 3762430, coex-gmbh@t-online.de) stellt Anmeldeformulare als PDF bereit, nennt aber auf Uebersichts- und Kontaktseite keine Anmeldefrist."
+    }
+  ]
+}
