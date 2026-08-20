@@ -1070,7 +1070,7 @@ const initInlineFristenkalenderForm = () => {
   if (!form) return;
 
   const status = document.querySelector('[data-fristen-status]');
-  const calendarPage = 'schausteller-bewerbungsfristen.html';
+  const calendarPage = '/fristenkalender';
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
@@ -1093,7 +1093,7 @@ const initInlineFristenkalenderForm = () => {
     });
 
     try {
-      localStorage.setItem(`deadline-unlocked:/${calendarPage}`, 'true');
+      localStorage.setItem(`deadline-unlocked:${calendarPage}`, 'true');
     } catch (_) {}
 
     if (status) {
