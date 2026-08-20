@@ -1141,7 +1141,7 @@ const initSchaustellerDeadlinePage = async () => {
 
   // Frei sichtbar sind die naechsten drei Fristen. Danach folgt die Sperrzone:
   // ein paar weitere Zeilen werden nur noch unscharf als Vorschau gerendert.
-  const FREE_ROWS = 3;
+  const FREE_ROWS = 2;
   const TEASER_ROWS = 6;
   const storageKey = `deadline-unlocked:${window.location.pathname}`;
 
