@@ -1314,7 +1314,7 @@ figure {
   border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-.pricing-card-features-guarantee::before {
+.pricing-card-features li.pricing-card-features-guarantee::before {
   content: none;
 }
 
@@ -5097,6 +5097,17 @@ h2 {
   border-radius: 50%;
   background: #b6c1cf;
   transform: translateY(-50%);
+}
+
+@media (max-width: 480px) {
+  .fk-hero-facts {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .fk-hero-facts li + li::before {
+    content: none;
+  }
 }
 
 /* Signup */
