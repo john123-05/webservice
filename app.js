@@ -287,7 +287,7 @@ const initCookieBanner = () => {
 
   // Meta Pixel laeuft nur auf den Fristenkalender/Newsletter-Seiten, die fuer
   // Instagram-Ads beworben werden - nicht sitewide.
-  const metaPixelPages = ['schausteller-newsletter', 'schausteller-bewerbungsfristen', 'fristenkalender', 'schausteller-websites'];
+  const metaPixelPages = ['schausteller-bewerbungsfristen', 'fristenkalender', 'schausteller-websites'];
   const isMetaPixelPage = metaPixelPages.some((slug) => window.location.pathname.includes(slug));
 
   const loadMetaPixel = () => {
@@ -1441,6 +1441,19 @@ const initSchaustellerDeadlinePage = async () => {
     });
   }
 
+  // Wer bis zur Sperrzone scrollt, hat echtes Interesse gezeigt - das ist ein
+  // gutes Meta-Signal, auch wenn die Person (noch) nicht abonniert.
+  if (lockZoneEl && 'IntersectionObserver' in window) {
+    const lockZoneObserver = new IntersectionObserver((observerEntries) => {
+      observerEntries.forEach((observerEntry) => {
+        if (!observerEntry.isIntersecting || lockZoneEl.hidden) return;
+        window.fbq?.('track', 'ViewContent', { content_name: 'fristenkalender-lockzone' });
+        lockZoneObserver.disconnect();
+      });
+    }, { threshold: 0.3 });
+    lockZoneObserver.observe(lockZoneEl);
+  }
+
   // -- Newsletter forms ---------------------------------------------------
   const unlock = (form) => {
     unlocked = true;
@@ -1471,6 +1484,7 @@ const initSchaustellerDeadlinePage = async () => {
       const button = form.querySelector('button[type="submit"]');
       const email = form.querySelector('input[name="email"]')?.value?.trim();
       const phone = form.querySelector('input[name="phone"]')?.value?.trim();
+      const tipsOptIn = form.querySelector('input[name="tips_opt_in"]')?.checked;
       const label = button?.textContent;
 
       if (button) {
@@ -1482,6 +1496,7 @@ const initSchaustellerDeadlinePage = async () => {
         email,
         telefon_whatsapp: phone || '',
         whatsapp_opt_in: phone ? 'ja' : 'nein',
+        tipps_opt_in: tipsOptIn ? 'ja' : 'nein',
         source: form.dataset.formSource || 'schausteller-bewerbungsfristen',
         page: window.location.pathname,
         leadmagnet: 'bewerbungsfristen-kalender',

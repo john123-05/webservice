@@ -4472,6 +4472,13 @@ h2 {
   align-items: center;
 }
 
+@media (max-width: 900px) {
+  .lc-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
 .lc-location-pill {
   display: flex;
   align-items: center;
@@ -5210,6 +5217,36 @@ h2 {
 
 .fk-form button:hover { background: var(--primary-deep); }
 .fk-form button:disabled { opacity: 0.6; cursor: default; }
+
+.fk-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.fk-consent input {
+  margin-top: 3px;
+  flex: 0 0 auto;
+  width: 15px;
+  height: 15px;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+.fk-consent span {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--fk-ink-soft);
+  text-align: left;
+}
+
+.fk-form-note {
+  margin: 8px 0 0;
+  font-size: 0.78rem;
+  color: var(--fk-ink-soft);
+  text-align: center;
+}
 
 .fk-status {
   margin: 14px 0 0;
