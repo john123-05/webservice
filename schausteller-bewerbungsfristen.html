@@ -25,28 +25,15 @@
 
     <section class="fk-hero">
       <div class="container">
-        <div class="fk-hero-grid">
+        <div class="fk-hero-grid fk-hero-grid--single">
           <div>
-            <p class="fk-kicker">Fristenkalender für Schausteller</p>
             <h1 class="fk-title">Verpasse keine <span class="fk-lead-tight">Bewerbungsfrist mehr</span></h1>
-            <p class="fk-lead">Der Newsletter<span class="fk-lead-ink">, der dich</span> <span class="fk-lead-tight"><span class="fk-lead-ink">rechtzeitig</span> erinnert.</span></p>
+            <p class="fk-lead">Kostenloser Fristenkalender <span class="fk-lead-ink">für Schausteller</span></p>
             <ul class="fk-hero-facts">
               <li>Deutschlandweite Datenbank</li>
               <li>wöchentlich aktualisiert</li>
             </ul>
           </div>
-
-          <aside class="fk-signup" id="newsletter-top">
-            <h2>Kostenlos abonnieren</h2>
-            <form class="fk-form" data-fk-form data-form-source="schausteller-bewerbungsfristen-hero">
-              <div class="fk-field">
-                <label class="fk-label-hidden" for="fk-email-top">E-Mail-Adresse</label>
-                <input id="fk-email-top" type="email" name="email" placeholder="name@email.com" required autocomplete="email" />
-              </div>
-              <button type="submit">Abonnieren</button>
-            </form>
-            <p class="fk-status" data-fk-status hidden></p>
-          </aside>
         </div>
       </div>
     </section>
@@ -64,7 +51,6 @@
       <div class="container">
         <div class="fk-board-head">
           <h2>Alle Fristen im Überblick</h2>
-          <p class="fk-board-stand">Sortiert nach der nächsten offenen Frist.</p>
         </div>
 
         <div class="fk-panel">
@@ -202,12 +188,29 @@
       <button class="cookie-banner__close" type="button" data-cookie-decline aria-label="Schließen">&#x2715;</button>
       <div class="cookie-banner__copy">
         <strong>Cookies &amp; Statistik</strong>
-        <p>Diese Website nutzt notwendige Cookies und optional Google Analytics. Mehr dazu in der <a href="datenschutz">Datenschutzerklärung</a>.</p>
+        <p>Diese Website nutzt notwendige Cookies und optional Google Analytics sowie den Meta-Pixel zur Anzeigenmessung. Mehr dazu in der <a href="datenschutz">Datenschutzerklärung</a>.</p>
       </div>
       <div class="cookie-banner__actions">
         <button class="btn btn-ghost" type="button" data-cookie-decline>Nur notwendige</button>
         <button class="btn btn-primary" type="button" data-cookie-accept>Alle akzeptieren</button>
       </div>
+    </div>
+  </div>
+
+  <div class="fk-popup" data-fk-popup hidden>
+    <div class="fk-popup__backdrop" data-fk-popup-dismiss></div>
+    <div class="fk-popup__modal">
+      <button class="fk-popup__close" type="button" data-fk-popup-dismiss aria-label="Schließen">&#x2715;</button>
+      <h2>Mach dir keinen Kopf, dir alles zu merken</h2>
+      <p>Abonniere unseren Newsletter und werde rechtzeitig vor Ablauf einer Bewerbungsfrist benachrichtigt.</p>
+      <form class="fk-form" data-fk-form data-form-source="schausteller-bewerbungsfristen-popup">
+        <div class="fk-field">
+          <label class="fk-label-hidden" for="fk-email-popup">E-Mail-Adresse</label>
+          <input id="fk-email-popup" type="email" name="email" placeholder="name@email.com" required autocomplete="email" />
+        </div>
+        <button type="submit">Abonnieren</button>
+      </form>
+      <p class="fk-status" data-fk-status hidden></p>
     </div>
   </div>
 </div>

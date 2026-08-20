@@ -285,6 +285,24 @@ const initCookieBanner = () => {
     })(window, document, 'clarity', 'script', 'wu351o84oe');
   };
 
+  // Meta Pixel laeuft nur auf den Fristenkalender/Newsletter-Seiten, die fuer
+  // Instagram-Ads beworben werden - nicht sitewide.
+  const metaPixelPages = ['schausteller-newsletter', 'schausteller-bewerbungsfristen', 'fristenkalender', 'schausteller-websites'];
+  const isMetaPixelPage = metaPixelPages.some((slug) => window.location.pathname.includes(slug));
+
+  const loadMetaPixel = () => {
+    if (!isMetaPixelPage || window.fbq) return;
+    /* eslint-disable */
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    /* eslint-enable */
+    window.fbq('init', '1075333795454491');
+    window.fbq('track', 'PageView');
+  };
+
   const loadAnalytics = () => {
     // gtag.js is loaded statically in <head> — just grant consent and init tracking
     window.gtag?.('consent', 'update', {
@@ -295,6 +313,7 @@ const initCookieBanner = () => {
     });
 
     loadClarity();
+    loadMetaPixel();
     initAnalyticsTracking();
   };
 
@@ -1044,6 +1063,7 @@ const initSubscribeForm = () => {
     };
 
     await postLeadWebhook(payload);
+    window.fbq?.('track', 'Lead');
 
     // Show confirmation regardless of network result
     const thanks = document.getElementById('lc-thanks');
@@ -1091,6 +1111,7 @@ const initInlineFristenkalenderForm = () => {
       angemeldet: 'ja',
       timestamp: new Date().toISOString(),
     });
+    window.fbq?.('track', 'Lead');
 
     try {
       localStorage.setItem(`deadline-unlocked:${calendarPage}`, 'true');
@@ -1218,7 +1239,7 @@ const initSchaustellerDeadlinePage = async () => {
     if (!entry) {
       nextEl.innerHTML = `
         <span class="fk-next-label">Nächste Bewerbungsfrist bei</span>
-        <span class="fk-next-meta">${loadError ? 'Der Kalender konnte nicht geladen werden.' : 'Aktuell ist keine offene Frist hinterlegt.'}</span>
+        <span class="fk-next-details">${loadError ? 'Der Kalender konnte nicht geladen werden.' : 'Aktuell ist keine offene Frist hinterlegt.'}</span>
       `;
       return;
     }
@@ -1226,8 +1247,7 @@ const initSchaustellerDeadlinePage = async () => {
     nextEl.innerHTML = `
       <span class="fk-next-label">Nächste Bewerbungsfrist bei</span>
       <span class="fk-next-name">${escapeHtml(entry.event_name)}</span>
-      <span class="fk-next-meta">${show(entry.city)} · ${formatFull(entry.date)}</span>
-      <span class="fk-next-days">noch ${daysLabel(entry)}</span>
+      <span class="fk-next-details">${show(entry.city)} · ${formatFull(entry.date)} · <span class="fk-next-days">noch ${daysLabel(entry)}</span></span>
     `;
   };
 
@@ -1385,6 +1405,42 @@ const initSchaustellerDeadlinePage = async () => {
     scrollEl?.scrollTo({ top: 0 });
   });
 
+  // -- Newsletter-Popup -----------------------------------------------------
+  // Erscheint ein paar Sekunden nach dem Laden, aber nicht fuer Leute, die
+  // schon abonniert oder das Popup schonmal weggeklickt haben.
+  const popupEl = document.querySelector('[data-fk-popup]');
+  const popupDismissKey = `fristenkalender-popup-dismissed:${window.location.pathname}`;
+
+  const hidePopup = ({ remember = true } = {}) => {
+    if (!popupEl) return;
+    popupEl.classList.remove('is-visible');
+    window.setTimeout(() => { popupEl.hidden = true; }, 200);
+    if (remember) {
+      try { localStorage.setItem(popupDismissKey, 'true'); } catch (_) {}
+    }
+  };
+
+  if (popupEl && !unlocked) {
+    let popupDismissed = false;
+    try { popupDismissed = localStorage.getItem(popupDismissKey) === 'true'; } catch (_) {}
+
+    if (!popupDismissed) {
+      window.setTimeout(() => {
+        if (unlocked) return;
+        popupEl.hidden = false;
+        requestAnimationFrame(() => popupEl.classList.add('is-visible'));
+      }, 7000);
+    }
+
+    popupEl.querySelectorAll('[data-fk-popup-dismiss]').forEach((el) => {
+      el.addEventListener('click', () => hidePopup());
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && !popupEl.hidden) hidePopup();
+    });
+  }
+
   // -- Newsletter forms ---------------------------------------------------
   const unlock = (form) => {
     unlocked = true;
@@ -1392,12 +1448,14 @@ const initSchaustellerDeadlinePage = async () => {
       localStorage.setItem(storageKey, 'true');
     } catch (_) {}
 
+    hidePopup();
+
     // Wird im Overlay abgeschickt, verschwindet gleich das ganze Overlay -
     // die Bestaetigung muss dann in einer Box stehen, die sichtbar bleibt.
     const ownStatus = form?.parentElement?.querySelector('[data-fk-status]');
     const inLockZone = lockZoneEl?.contains(form);
     const status = inLockZone
-      ? document.querySelector('#newsletter-top [data-fk-status]') || ownStatus
+      ? document.querySelector('#newsletter [data-fk-status]') || ownStatus
       : ownStatus;
 
     if (status) {
@@ -1430,6 +1488,7 @@ const initSchaustellerDeadlinePage = async () => {
         angemeldet: 'ja',
         timestamp: new Date().toISOString(),
       });
+      window.fbq?.('track', 'Lead');
 
       unlock(form);
       form.reset();
