@@ -4404,6 +4404,18 @@ h2 {
   margin-top: 0;
 }
 
+@media (max-width: 640px) {
+  .lc-header .brand-logo {
+    height: 34px;
+    transform: scale(1.3) translateY(3px);
+  }
+
+  .lc-header--scrolled .brand-logo {
+    height: 30px;
+    transform: scale(1.15) translateY(2px);
+  }
+}
+
 /* ---- Confirmation / thanks screen ---- */
 .lc-thanks-section {
   padding: 160px 0 100px;
