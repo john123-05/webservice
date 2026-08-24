@@ -1405,6 +1405,42 @@ const initSchaustellerDeadlinePage = async () => {
     scrollEl?.scrollTo({ top: 0 });
   });
 
+  // -- Newsletter-Popup -----------------------------------------------------
+  // Erscheint ein paar Sekunden nach dem Laden, aber nicht fuer Leute, die
+  // schon abonniert oder das Popup schonmal weggeklickt haben.
+  const popupEl = document.querySelector('[data-fk-popup]');
+  const popupDismissKey = `fristenkalender-popup-dismissed:${window.location.pathname}`;
+
+  const hidePopup = ({ remember = true } = {}) => {
+    if (!popupEl) return;
+    popupEl.classList.remove('is-visible');
+    window.setTimeout(() => { popupEl.hidden = true; }, 200);
+    if (remember) {
+      try { localStorage.setItem(popupDismissKey, 'true'); } catch (_) {}
+    }
+  };
+
+  if (popupEl && !unlocked) {
+    let popupDismissed = false;
+    try { popupDismissed = localStorage.getItem(popupDismissKey) === 'true'; } catch (_) {}
+
+    if (!popupDismissed) {
+      window.setTimeout(() => {
+        if (unlocked) return;
+        popupEl.hidden = false;
+        requestAnimationFrame(() => popupEl.classList.add('is-visible'));
+      }, 7000);
+    }
+
+    popupEl.querySelectorAll('[data-fk-popup-dismiss]').forEach((el) => {
+      el.addEventListener('click', () => hidePopup());
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && !popupEl.hidden) hidePopup();
+    });
+  }
+
   // Wer bis zur Sperrzone scrollt, hat echtes Interesse gezeigt - das ist ein
   // gutes Meta-Signal, auch wenn die Person (noch) nicht abonniert.
   if (lockZoneEl && 'IntersectionObserver' in window) {
@@ -1424,6 +1460,8 @@ const initSchaustellerDeadlinePage = async () => {
     try {
       localStorage.setItem(storageKey, 'true');
     } catch (_) {}
+
+    hidePopup();
 
     // Wird im Overlay abgeschickt, verschwindet gleich das ganze Overlay -
     // die Bestaetigung muss dann in einer Box stehen, die sichtbar bleibt.
