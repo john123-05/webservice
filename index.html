@@ -43,7 +43,7 @@
     <meta name="twitter:title" content="Marketing Agentur Bielefeld | SEO, Webdesign & mehr Anfragen" />
     <meta name="twitter:description" content="ImpressRank ist Ihre Marketing Agentur für Bielefeld und OWL. SEO, Webdesign und digitale Strategie für mehr Sichtbarkeit, Vertrauen und qualifizierte Anfragen." />
     <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="styles.css?v=3" />
+    <link rel="stylesheet" href="styles.css?v=30" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -121,7 +121,9 @@
         <ul class="nav-links">
           <li><a class="active" href="/">Home</a></li>
           <li class="nav-dropdown">
-            <a href="#">Lösungen</a>
+            <button class="nav-dropdown-trigger nav-submenu-toggle" type="button" aria-label="Lösungen öffnen" aria-expanded="false">
+              Lösungen <span aria-hidden="true"></span>
+            </button>
             <div class="nav-dropdown-wrap"><ul class="nav-dropdown-menu">
                 <li><a href="webdesign">Websites</a></li>
                 <li><a href="seo">an der Spitze von Google</a></li>
@@ -269,7 +271,7 @@
               <h1 class="eyebrow">Marketingbüro Bad Salzuflen &amp; Bielefeld</h1>
               <h2 class="hero-main-heading">
                 Mehr Wachstum.<br />
-                Mehr <span class="hero-underline-wrap">Neukunden.<img src="assets/underline.png" class="hero-underline" alt="" aria-hidden="true" /></span><br />
+                <span class="hero-new-customers">Mehr <span class="hero-underline-wrap">Neukunden.<img src="assets/underline.png" class="hero-underline" alt="" aria-hidden="true" /></span></span><br />
                 <span class="hero-bielefeld">Für Bielefeld. <em><span class="hero-highlight">Garantiert.</span></em></span>
               </h2>
               <p class="lead">
@@ -543,6 +545,9 @@
                 </div>
               </div>
             </div>
+            <div class="network-reputation-cta-wrap">
+              <a class="network-reputation-cta" href="anfrage">Kostenloses Erstgespräch sichern</a>
+            </div>
           </div>
         </section>
 
@@ -667,7 +672,7 @@
         </div>
       </div>
     </div>
-    <script type="module" src="app.js"></script>
+    <script type="module" src="app.js?v=6"></script>
     <script>
       const months = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
       document.getElementById('current-month').textContent = months[new Date().getMonth()];

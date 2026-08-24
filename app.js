@@ -80,13 +80,37 @@ const initMenu = () => {
   if (!toggle || !nav) return;
 
   const mobileMedia = window.matchMedia('(max-width: 780px)');
+  const submenu = nav.querySelector('.nav-dropdown');
+  const submenuToggle = nav.querySelector('.nav-submenu-toggle');
   if (!nav.id) nav.id = 'site-navigation';
   toggle.setAttribute('aria-controls', nav.id);
+
+  const syncSubmenuState = (open) => {
+    if (!submenu || !submenuToggle) return;
+    submenu.classList.toggle('is-open', open);
+    submenuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    submenuToggle.setAttribute('aria-label', open ? 'Lösungen schließen' : 'Lösungen öffnen');
+
+    // Inline values keep the mobile disclosure reliable even if a cached stylesheet wins the cascade.
+    const submenuWrap = submenu.querySelector('.nav-dropdown-wrap');
+    const submenuMenu = submenu.querySelector('.nav-dropdown-menu');
+    if (submenuWrap) {
+      submenuWrap.style.maxHeight = open ? '160px' : '0';
+      submenuWrap.style.pointerEvents = open ? 'auto' : 'none';
+    }
+    if (submenuMenu) {
+      submenuMenu.style.opacity = open ? '1' : '0';
+      submenuMenu.style.padding = open ? '2px 0 8px' : '0';
+      submenuMenu.style.transform = open ? 'none' : 'translateY(-6px)';
+    }
+  };
 
   const syncMenuState = (open) => {
     nav.classList.toggle('open', open);
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    nav.hidden = mobileMedia.matches ? !open : false;
+    toggle.setAttribute('aria-label', open ? 'Navigation schließen' : 'Navigation öffnen');
+    nav.hidden = false;
+    if (!open) syncSubmenuState(false);
   };
 
   const syncViewportState = () => {
@@ -100,8 +124,15 @@ const initMenu = () => {
     syncMenuState(!nav.classList.contains('open'));
   });
 
+  submenuToggle?.addEventListener('click', () => {
+    if (!mobileMedia.matches || !submenu) return;
+    syncSubmenuState(!submenu.classList.contains('is-open'));
+  });
+
   nav.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => syncMenuState(false));
+    link.addEventListener('click', () => {
+      syncMenuState(false);
+    });
   });
 
   document.addEventListener('click', (event) => {
