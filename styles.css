@@ -443,6 +443,18 @@ figure {
   display: none;
 }
 
+.nav-dropdown-trigger {
+  padding: 8px 2px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #28425f;
+  font: inherit;
+  font-size: 0.94rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 .nav-dropdown::after {
   content: "";
   position: absolute;
@@ -956,6 +968,10 @@ figure {
 }
 
 @media (max-width: 780px) {
+  .hero-trust {
+    display: none;
+  }
+
   .seo-advantage-grid {
     grid-template-columns: 1fr;
   }
@@ -4502,8 +4518,11 @@ h2 {
     height: 200px;
   }
 
-  .nav-links li.nav-dropdown > a {
+  .nav-links li.nav-dropdown > .nav-dropdown-trigger {
     grid-column: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
     min-height: 52px;
     padding: 12px 0;
     color: #0e2238;
@@ -4515,35 +4534,31 @@ h2 {
     cursor: pointer;
     border-radius: 0;
     background: transparent;
-  }
-
-  .nav-links li.nav-dropdown > a::after {
-    display: none;
+    text-align: left;
   }
 
   .nav-links li.nav-dropdown {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 40px;
-    align-items: center;
+    display: block;
   }
 
   .nav-submenu-toggle {
-    display: inline-flex;
-    grid-column: 2;
+    display: flex;
     align-items: center;
-    justify-content: center;
-    width: 40px;
+    justify-content: space-between;
+    width: 100%;
     height: 52px;
-    padding: 0;
+    padding: 12px 0;
     border: 0;
     background: transparent;
     color: var(--primary-deep);
     cursor: pointer;
+    text-align: left;
   }
 
   .nav-submenu-toggle span {
     width: 9px;
     height: 9px;
+    margin-right: 12px;
     border-right: 1.8px solid currentColor;
     border-bottom: 1.8px solid currentColor;
     transform: rotate(45deg) translate(-2px, -2px);
@@ -6685,5 +6700,22 @@ h2 {
   .network-reputation-title {
     max-width: 15ch;
     margin-inline: auto;
+  }
+
+  /* These benefits are desktop-only; the compact hero needs this space on phones. */
+  .hero-trust {
+    display: none;
+  }
+
+  /* Keep the solution links reachable when a touch browser retains button focus. */
+  .nav-dropdown:focus-within .nav-dropdown-wrap {
+    max-height: 160px;
+    pointer-events: auto;
+  }
+
+  .nav-dropdown:focus-within .nav-dropdown-menu {
+    padding: 2px 0 8px;
+    opacity: 1;
+    transform: none;
   }
 }
