@@ -5,6 +5,21 @@ command = "npm run build"
 [build.environment]
 NODE_VERSION = "20"
 
+# schausteller-marketing.de ist eine dedizierte Landing-Domain fuer den
+# Fristenkalender-Funnel und soll ausschliesslich auf die
+# Schausteller-Websites-Unterseite zeigen, nie auf die normale Startseite.
+[[redirects]]
+from = "https://schausteller-marketing.de/*"
+to = "https://impress-rank.de/schausteller-websites"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.schausteller-marketing.de/*"
+to = "https://impress-rank.de/schausteller-websites"
+status = 301
+force = true
+
 [[redirects]]
 from = "/*.html"
 to = "/:splat"
