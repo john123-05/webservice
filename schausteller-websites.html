@@ -92,95 +92,6 @@
     box-shadow: 0 14px 34px rgba(20, 90, 243, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.22);
   }
 
-  .schausteller-popup {
-    position: fixed;
-    inset: 0;
-    z-index: 99999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-  }
-
-  .schausteller-popup[hidden] {
-    display: none;
-  }
-
-  .schausteller-popup__backdrop {
-    position: absolute;
-    inset: 0;
-    background: rgba(14, 34, 56, 0.6);
-    opacity: 0;
-    transition: opacity 0.25s ease;
-  }
-
-  .schausteller-popup.is-visible .schausteller-popup__backdrop {
-    opacity: 1;
-  }
-
-  .schausteller-popup__modal {
-    position: relative;
-    max-width: 460px;
-    width: 100%;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
-    opacity: 0;
-    transform: translateY(14px) scale(0.98);
-    transition: opacity 0.25s ease, transform 0.25s ease;
-  }
-
-  .schausteller-popup.is-visible .schausteller-popup__modal {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-
-  .schausteller-popup__close {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    z-index: 2;
-    width: 32px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.92);
-    color: #0e2238;
-    font-size: 0.85rem;
-    cursor: pointer;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  }
-
-  .schausteller-popup__image-wrap {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 4 / 5;
-  }
-
-  .schausteller-popup__image-wrap img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .schausteller-popup__overlay {
-    position: absolute;
-    bottom: 5%;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  .schausteller-popup__cta.btn {
-    padding: 14px 30px;
-    font-size: 1rem;
-    min-height: 0;
-  }
   .hero-area {
     background:
       radial-gradient(circle at 18% 28%, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0.82) 20%, rgba(255, 255, 255, 0.5) 38%, rgba(255, 255, 255, 0.16) 54%, rgba(255, 255, 255, 0) 68%),
@@ -465,10 +376,6 @@
 
     .diff-split__right .diff-grid-2 {
       display: none;
-    }
-
-    .schausteller-popup__modal {
-      max-width: 420px;
     }
 
     /* Hero background position */
@@ -798,7 +705,7 @@
 
 <section class="hero-grid">
 <div class="hero-copy">
-<p class="schausteller-hero-kicker">Online-Marketing f&uuml;r Schausteller</p>
+<p class="schausteller-hero-kicker schausteller-mobile-hide">Online-Marketing f&uuml;r Schausteller</p>
 <h1 class="schausteller-hero-title">
 Eine Webseite, die <span style="color:#145af3;">Veranstalter</span> von deinem Gesch&auml;ft <span style="color:#145af3;">&uuml;berzeugt.</span>
 </h1>
@@ -1633,58 +1540,6 @@ Eine Webseite, die <span style="color:#145af3;">Veranstalter</span> von deinem G
   </div>
 </div>
 </div>
-<div class="schausteller-popup" id="schausteller-newsletter-popup" hidden>
-  <div class="schausteller-popup__backdrop" data-schausteller-popup-dismiss></div>
-  <div class="schausteller-popup__modal">
-    <button class="schausteller-popup__close" type="button" data-schausteller-popup-dismiss aria-label="Schließen">&#x2715;</button>
-    <div class="schausteller-popup__image-wrap">
-      <img src="assets/Pirates (5).jpg" alt="Verpasse keine Bewerbungsfrist mehr" loading="lazy" decoding="async" />
-      <div class="schausteller-popup__overlay">
-        <a href="#fristenkalender" class="btn btn-cta-blue schausteller-popup__cta" data-schausteller-popup-cta>Newsletter abonnieren</a>
-      </div>
-    </div>
-  </div>
-</div>
-<script>
-  (() => {
-    const popup = document.getElementById('schausteller-newsletter-popup');
-    if (!popup) return;
-    const dismissKey = 'schausteller-websites-popup-dismissed';
-
-    const hide = () => {
-      popup.classList.remove('is-visible');
-      window.setTimeout(() => { popup.hidden = true; }, 250);
-      try { localStorage.setItem(dismissKey, 'true'); } catch (_) {}
-    };
-
-    let dismissed = false;
-    try { dismissed = localStorage.getItem(dismissKey) === 'true'; } catch (_) {}
-
-    if (!dismissed) {
-      window.setTimeout(() => {
-        popup.hidden = false;
-        requestAnimationFrame(() => popup.classList.add('is-visible'));
-      }, 4000);
-    }
-
-    popup.querySelectorAll('[data-schausteller-popup-dismiss]').forEach((el) => {
-      el.addEventListener('click', hide);
-    });
-
-    document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape' && !popup.hidden) hide();
-    });
-
-    const cta = popup.querySelector('[data-schausteller-popup-cta]');
-    if (cta) {
-      cta.addEventListener('click', (event) => {
-        event.preventDefault();
-        hide();
-        document.getElementById('fristenkalender')?.scrollIntoView({ behavior: 'smooth' });
-      });
-    }
-  })();
-</script>
 <script src="app.js" type="module"></script>
 </body>
 </html>
