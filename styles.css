@@ -444,6 +444,9 @@ figure {
 }
 
 .nav-dropdown-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   padding: 8px 2px;
   border: 0;
   border-radius: 0;
@@ -453,6 +456,15 @@ figure {
   font-size: 0.94rem;
   font-weight: 600;
   cursor: pointer;
+}
+
+.nav-dropdown-trigger span {
+  width: 6px;
+  height: 6px;
+  margin-top: -2px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
 }
 
 .nav-dropdown::after {
