@@ -47,6 +47,50 @@
 <link as="font" crossorigin="" href="assets/fonts/manrope-latin.woff2" rel="preload" type="font/woff2"/>
 <link href="styles.css" rel="stylesheet"/>
 <style>
+  .btn-whatsapp {
+    background: linear-gradient(135deg, #0b3d24 0%, #128c4a 48%, #34d399 100%);
+    border: 1px solid rgba(6, 41, 24, 0.35);
+    box-shadow: 0 10px 26px rgba(11, 61, 36, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+    transition: background 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
+  }
+  .btn-whatsapp:hover {
+    background: linear-gradient(135deg, #0f4a2c 0%, #159f56 48%, #4ade80 100%);
+    box-shadow: 0 14px 34px rgba(11, 61, 36, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+    transform: translateY(-1px);
+  }
+  .nav-links .nav-cta.btn-whatsapp {
+    background: linear-gradient(135deg, #0b3d24 0%, #128c4a 48%, #34d399 100%);
+    box-shadow: 0 10px 22px rgba(11, 61, 36, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+  }
+  .nav-links .nav-cta.btn-whatsapp:hover {
+    background: linear-gradient(135deg, #0f4a2c 0%, #159f56 48%, #4ade80 100%);
+    box-shadow: 0 14px 28px rgba(11, 61, 36, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  }
+  .btn-cta-blue {
+    background: linear-gradient(135deg, #0e44bb 0%, #145af3 48%, #22bce5 100%);
+    color: #ffffff;
+    border: 1px solid rgba(10, 40, 110, 0.35);
+    box-shadow: 0 10px 26px rgba(20, 90, 243, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+    transition: background 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .btn-cta-blue:hover {
+    background: linear-gradient(135deg, #123c9e 0%, #1d6bff 48%, #3fd0f5 100%);
+    box-shadow: 0 14px 34px rgba(20, 90, 243, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+    transform: translateY(-1px);
+  }
+  .btn-cta-blue svg { width: 18px; height: 18px; flex: 0 0 auto; fill: currentColor; }
+  #fristenkalender .fk-form button {
+    background: linear-gradient(135deg, #0e44bb 0%, #145af3 48%, #22bce5 100%);
+    border: 1px solid rgba(10, 40, 110, 0.35);
+    box-shadow: 0 10px 26px rgba(20, 90, 243, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+  }
+  #fristenkalender .fk-form button:hover {
+    background: linear-gradient(135deg, #123c9e 0%, #1d6bff 48%, #3fd0f5 100%);
+    box-shadow: 0 14px 34px rgba(20, 90, 243, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  }
   .hero-area {
     background:
       radial-gradient(circle at 18% 28%, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0.82) 20%, rgba(255, 255, 255, 0.5) 38%, rgba(255, 255, 255, 0.16) 54%, rgba(255, 255, 255, 0) 68%),
@@ -89,7 +133,8 @@
     right: -56px;
   }
 
-  .schausteller-standplatz-media img {
+  .schausteller-standplatz-media img,
+  .schausteller-standplatz-media wistia-player {
     display: block;
     width: 100%;
     height: auto;
@@ -535,7 +580,7 @@
 </li>
 <li><a href="#angebote">Angebote</a></li>
 <li><a href="fachartikel">Blog</a></li>
-<li><a class="nav-cta" href="anfrage">Kostenloses Erstgespräch sichern</a></li>
+<li><a class="nav-cta btn-whatsapp" style="display:inline-flex; align-items:center; padding:10px 16px;" href="https://wa.me/4915229274863?text=Hallo%2C%20ich%20bin%20interessiert%20an%20einer%20Website%20f%C3%BCr%20mein%20Fahrgesch%C3%A4ft%2C%20schicke%20mir%20mehr%20Infos." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" style="width:16px;height:16px;margin-right:6px;"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>WhatsApp</a></li>
 </ul>
 </nav>
       
@@ -634,11 +679,10 @@
 <div class="hero-copy">
 <p class="schausteller-hero-kicker">Online-Marketing f&uuml;r Schausteller</p>
 <h1 class="schausteller-hero-title">
-Ich baue eine Webseite.<br/>
-die Veranstalter von deinem Gesch&auml;ft <span class="is-red">&uuml;berzeugt.</span>
+Eine Webseite, die <span style="color:#145af3;">Veranstalter</span> von deinem Gesch&auml;ft <span style="color:#145af3;">&uuml;berzeugt.</span>
 </h1>
 <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:22px;">
-<a href="anfrage" class="btn btn-primary schausteller-hero-cta" style="margin-top:0;">Jetzt Kontakt aufnehmen</a>
+<a href="anfrage" class="btn btn-cta-blue schausteller-hero-cta" style="margin-top:0;"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3C6.48 3 2 6.94 2 11.8c0 2.63 1.36 4.98 3.5 6.57V22l3.68-2.02c.9.25 1.86.38 2.82.38 5.52 0 10-3.94 10-8.8S17.52 3 12 3Z"/></svg>Jetzt Kontakt aufnehmen</a>
 <a href="/fristenkalender" class="btn btn-ghost schausteller-hero-cta" style="margin-top:0; background:#fff;">Kostenloser Fristenkalender</a>
 </div>
 <div aria-hidden="true" class="hero-showcase-mobile">
@@ -694,7 +738,7 @@ die Veranstalter von deinem Gesch&auml;ft <span class="is-red">&uuml;berzeugt.</
     <div class="schausteller-standplatz-layout">
       <div class="schausteller-standplatz-copy">
         <h2 style="font-size:clamp(1.6rem,3vw,2.4rem); font-weight:800; line-height:1.25; margin-bottom:28px;">
-          Der Kampf um Standplätze ist ziemlich hart, <span style="color:#145af3;">Professionalität entscheidet.</span>
+          Der Kampf um Standplätze ist ziemlich hart. <span style="color:#145af3;">Zwei Dinge, die Sie wissen müssen.</span>
         </h2>
         <p style="font-size:1.1rem; color:#4a5568; line-height:1.7; margin-bottom:20px;">
           Viele Volksfeste bekommen durchschnittlich 900 Bewerbungen pro Jahr. Wie überzeugst du also bei deiner?
@@ -707,7 +751,13 @@ die Veranstalter von deinem Gesch&auml;ft <span class="is-red">&uuml;berzeugt.</
         </p>
       </div>
       <div class="hero-media-fixed hero-media-shift schausteller-standplatz-media">
-        <img src="assets/schausteller.webp" alt="Laptop mit Volksfest bei Nacht, Anfragen kommen per E-Mail rein" loading="lazy" decoding="async" />
+        <script src="https://fast.wistia.com/player.js" async></script>
+        <script src="https://fast.wistia.com/embed/ezdr8orons.js" async type="module"></script>
+        <style>wistia-player[media-id='ezdr8orons']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/ezdr8orons/swatch'); display: block; filter: blur(5px); padding-top:56.04%; }</style>
+        <wistia-player media-id="ezdr8orons" aspect="1.7843866171003717"></wistia-player>
+        <div style="text-align:center; margin-top:20px;">
+          <a href="anfrage" class="btn btn-whatsapp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>Jetzt kostenlos in Kontakt treten</a>
+        </div>
       </div>
     </div>
   </div>
@@ -762,7 +812,7 @@ die Veranstalter von deinem Gesch&auml;ft <span class="is-red">&uuml;berzeugt.</
           </article>
         </div>
         <div class="schausteller-services-cta" style="display:flex; gap:14px; flex-wrap:wrap; justify-content:center;">
-          <a href="anfrage" class="btn btn-primary">Jetzt Website-Projekt starten</a>
+          <a href="anfrage" class="btn btn-cta-blue"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3C6.48 3 2 6.94 2 11.8c0 2.63 1.36 4.98 3.5 6.57V22l3.68-2.02c.9.25 1.86.38 2.82.38 5.52 0 10-3.94 10-8.8S17.52 3 12 3Z"/></svg>Jetzt Website-Projekt starten</a>
           <a href="/fristenkalender" class="btn btn-ghost" style="background:#fff;">Kostenloser Fristenkalender</a>
         </div>
       </div>
@@ -1073,6 +1123,9 @@ die Veranstalter von deinem Gesch&auml;ft <span class="is-red">&uuml;berzeugt.</
     </div>
 
     <p style="text-align:center; margin-top:16px; font-size:2rem; font-weight:800; color:#0e2238;">Keine Zeit? <a href="anfrage" style="color:#145af3; text-decoration:underline; text-underline-offset:4px;">Wir übernehmen das!</a></p>
+    <div style="text-align:center; margin-top:20px;">
+      <a href="https://wa.me/4915229274863?text=Hallo%2C%20ich%20m%C3%B6chte%20mein%20Projekt%20kostenlos%20anfragen." class="btn btn-whatsapp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>Projekt kostenlos anfragen</a>
+    </div>
 
   </div>
 </section>
@@ -1094,172 +1147,52 @@ die Veranstalter von deinem Gesch&auml;ft <span class="is-red">&uuml;berzeugt.</
 </div>
 
 <!-- IPAD MOCKUPS -->
-<section class="section" id="projekte">
-  <div class="container">
-    <h2 class="home-problem-question" style="text-align:center; margin-bottom:48px;">Beispiele von erfolgreichem Attraktionsmarketing</h2>
-    <div style="display:flex; gap:32px; justify-content:center; align-items:flex-start;">
-      <img src="assets/piratesbeispiel.png" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
-      <img src="assets/Untitled design (2).png" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
-      <img src="assets/Untitled design (3).png" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
-    </div>
-    <style>
-      .schausteller-preview-img { width:28%; border-radius:0; box-shadow:0 12px 40px rgba(14,34,56,0.13); transition:transform 0.2s ease, box-shadow 0.2s ease; }
-      .schausteller-preview-img:hover { transform:translateY(-4px); box-shadow:0 20px 50px rgba(14,34,56,0.19); }
-      @keyframes schausteller-wiggle {
-        0%, 100% { transform: rotate(0deg); }
-        15% { transform: rotate(-3deg); }
-        30% { transform: rotate(3deg); }
-        45% { transform: rotate(-2deg); }
-        60% { transform: rotate(2deg); }
-        75% { transform: rotate(-1deg); }
-        90% { transform: rotate(1deg); }
-      }
-      .schausteller-cta-btn {
-        animation: schausteller-wiggle 1.8s ease-in-out infinite;
-        display: inline-block;
-      }
-    </style>
-    <div style="text-align:center; margin-top:56px;">
-      <a href="anfrage" class="btn btn-primary schausteller-cta-btn">Jetzt in Kontakt treten</a>
-    </div>
+
+<section class="section" id="angebote">
+<div class="container">
+<h2 style="text-align:center;">Erhöhe deine Chance auf die besten Festplätze</h2>
+<div class="pricing-grid">
+
+  <div class="pricing-card">
+    <h3>Websites, die Veranstalter überzeugen</h3>
+    <p class="pricing-card-price">ab 900&nbsp;€ <span class="pricing-card-price-note">1. Jahr Pflege kostenlos, ab 2. Jahr 35&nbsp;€/Monat</span></p>
+    <ul class="pricing-card-features">
+      <li>Professionelle Texte, die Veranstalter überzeugen</li>
+      <li>Ein Design, das deinem Fahrgeschäft entspricht</li>
+      <li>Optimiert für Handy und Desktop</li>
+      <li class="pricing-card-features-guarantee">Garantie: Wir überarbeiten die Website so lange, bis dir das Design gefällt</li>
+    </ul>
+    <a href="https://wa.me/4915229274863?text=Hallo%2C%20ich%20bin%20interessiert%20an%20einer%20Website%20f%C3%BCr%20mein%20Fahrgesch%C3%A4ft%2C%20schicke%20mir%20mehr%20Infos." class="btn btn-whatsapp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>Website anfragen</a>
   </div>
-</section>
 
-
-<!-- PROZESS SECTION -->
-<section style="background:#fff; padding:100px 0 80px;">
-  <div class="container">
-    <h2 class="home-problem-question" style="text-align:center; margin-bottom:80px;">Wie wir dich zu deiner <em>perfekten Website</em> bringen</h2>
-    <style>
-      .prozess-zz { position:relative; max-width:860px; margin:0 auto; }
-      .prozess-zz::before {
-        content:'';
-        position:absolute;
-        left:50%; top:0; bottom:0;
-        width:2px;
-        background: linear-gradient(to bottom, #2563eb 0%, #1240a0 100%);
-        transform:translateX(-50%);
-        z-index:0;
-      }
-      .prozess-step { display:flex; align-items:center; gap:0; position:relative; z-index:1; margin-bottom:64px; }
-      .prozess-step:last-child { margin-bottom:0; }
-      .prozess-step--right { flex-direction:row-reverse; }
-      .prozess-box {
-        flex:0 0 calc(50% - 40px);
-        max-width:calc(50% - 40px);
-        background:#f7f9fc;
-        border-radius:12px;
-        padding:32px 28px;
-        box-shadow:0 4px 20px rgba(14,34,56,0.07);
-      }
-      .prozess-step--right .prozess-box { background:#eff4ff; }
-      .prozess-num {
-        flex:0 0 80px;
-        width:80px;
-        height:80px;
-        border-radius:50%;
-        background:#2563eb;
-        color:#fff;
-        font-size:1.5rem;
-        font-weight:800;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        box-shadow:0 4px 16px rgba(37,99,235,0.35);
-        z-index:2;
-      }
-      .prozess-box h3 { font-size:1.15rem; font-weight:700; color:#0e2238; margin:0 0 10px; }
-      .prozess-box p { font-size:0.97rem; font-weight:400; color:#2d4a63; line-height:1.6; margin:0 0 12px; }
-      .prozess-badge {
-        display:inline-flex; align-items:center; gap:6px;
-        background:#fff; border:1.5px solid #2563eb;
-        border-radius:20px; padding:4px 14px;
-        font-size:0.82rem; font-weight:600; color:#1240a0;
-      }
-      @media(max-width:680px){
-        .prozess-zz::before { left:28px; }
-        .prozess-step, .prozess-step--right { flex-direction:column; align-items:flex-start; padding-left:60px; }
-        .prozess-num { position:absolute; left:0; top:0; width:56px; height:56px; font-size:1.1rem; }
-        .prozess-box { max-width:100%; flex:unset; width:100%; }
-      }
-    </style>
-    <div class="prozess-zz">
-
-      <!-- STEP 1 -->
-      <div class="prozess-step">
-        <div class="prozess-box">
-          <h3>Kickoff</h3>
-          <p>In einem gemeinsamen Telefonat besprechen wir den konkreten Inhalt deiner Website, deine Zielsetzung und die Möglichkeiten für eine erfolgreiche Umsetzung. Im Anschluss erhältst du einen Link, wo du Bilder und Medien hochladen kannst.</p>
-          <span class="prozess-badge">⏱ Dein Zeitaufwand: 1h</span>
-        </div>
-        <div class="prozess-num">1</div>
-        <div style="flex:0 0 calc(50% - 40px); max-width:calc(50% - 40px); display:flex; justify-content:flex-end;">
-          <div style="width:100%; max-width:260px; aspect-ratio:4/3; border-radius:10px; overflow:hidden; position:relative;">
-            <img src="assets/prozess-kickoff.webp" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
-            <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(20,90,243,0.30) 0%, rgba(20,90,243,0.12) 100%); mix-blend-mode:screen; border-radius:10px;"></div>
-            <div style="position:absolute; inset:0; border:1.5px solid rgba(80,160,255,0.4); border-radius:10px; box-shadow:0 0 10px rgba(20,90,243,0.35); pointer-events:none;"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- STEP 2 -->
-      <div class="prozess-step prozess-step--right">
-        <div class="prozess-box">
-          <h3>Dein Website-Konzept</h3>
-          <p>Im Anschluss schreiben wir die Texte für deine Website. Von dir brauchen wir lediglich Feedback.</p>
-          <span class="prozess-badge">⏱ Dein Zeitaufwand: 15 min</span>
-        </div>
-        <div class="prozess-num">2</div>
-        <div style="flex:0 0 calc(50% - 40px); max-width:calc(50% - 40px); display:flex; justify-content:flex-start;">
-          <div style="width:100%; max-width:260px; aspect-ratio:4/3; border-radius:10px; overflow:hidden; position:relative;">
-            <img src="assets/pirates-5.webp" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
-            <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(20,90,243,0.30) 0%, rgba(20,90,243,0.12) 100%); mix-blend-mode:screen; border-radius:10px;"></div>
-            <div style="position:absolute; inset:0; border:1.5px solid rgba(80,160,255,0.4); border-radius:10px; box-shadow:0 0 10px rgba(20,90,243,0.35); pointer-events:none;"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- STEP 3 -->
-      <div class="prozess-step">
-        <div class="prozess-box">
-          <h3>Dein Design</h3>
-          <p>Sobald du mit dem Text glücklich bist, erstellen wir einen Look, der zu deiner Attraktion passt, und integrieren ihn in die Website.</p>
-          <span class="prozess-badge">⏱ Dein Zeitaufwand: 15 min</span>
-        </div>
-        <div class="prozess-num">3</div>
-        <div style="flex:0 0 calc(50% - 40px); max-width:calc(50% - 40px); display:flex; justify-content:flex-end;">
-          <div style="width:100%; max-width:260px; aspect-ratio:4/3; border-radius:10px; overflow:hidden; position:relative;">
-            <img src="assets/prozess-design.webp" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
-            <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(20,90,243,0.30) 0%, rgba(20,90,243,0.12) 100%); mix-blend-mode:screen; border-radius:10px;"></div>
-            <div style="position:absolute; inset:0; border:1.5px solid rgba(80,160,255,0.4); border-radius:10px; box-shadow:0 0 10px rgba(20,90,243,0.35); pointer-events:none;"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- STEP 4 -->
-      <div class="prozess-step prozess-step--right">
-        <div class="prozess-box">
-          <h3>Fertigstellung &amp; Launch</h3>
-          <p>Deine Website geht live. Auf Wunsch kümmern wir uns auch nach dem Live-Gang um Pflege und weitere Anpassungen.</p>
-          <span class="prozess-badge">🚀 Deine Website ist online</span>
-        </div>
-        <div class="prozess-num">4</div>
-        <div style="flex:0 0 calc(50% - 40px); max-width:calc(50% - 40px); display:flex; justify-content:flex-start;">
-          <div style="width:100%; max-width:260px; aspect-ratio:4/3; border-radius:10px; overflow:hidden; position:relative;">
-            <img src="assets/pirates-6.webp" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
-            <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(20,90,243,0.30) 0%, rgba(20,90,243,0.12) 100%); mix-blend-mode:screen; border-radius:10px;"></div>
-            <div style="position:absolute; inset:0; border:1.5px solid rgba(80,160,255,0.4); border-radius:10px; box-shadow:0 0 10px rgba(20,90,243,0.35); pointer-events:none;"></div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div style="text-align:center; margin-top:64px;">
-      <a href="anfrage" class="btn btn-primary" style="font-size:1.1rem; padding:18px 40px;">Jetzt kostenlos anfragen</a>
-    </div>
+  <div class="pricing-card">
+    <h3>Digitale Bewerbungsmappe</h3>
+    <p class="pricing-card-price">600&nbsp;€ <span>einmalig</span></p>
+    <ul class="pricing-card-features">
+      <li>Digitale Bewerbungsmappe als PDF</li>
+      <li>Professionelle Texte, die Veranstalter überzeugen</li>
+      <li>Gestaltet, sodass du sie bei jeder Bewerbung hinzufügen kannst</li>
+      <li>Design, das zu deinem Fahrgeschäft passt</li>
+      <li class="pricing-card-features-guarantee">Garantie: Wir passen die Mappe an, bis du zufrieden bist</li>
+      <li class="pricing-card-features-guarantee">Nimmst du im 1. Jahr einen Rückgang an angenommenen Bewerbungen wahr, passen wir die Mappe weiterhin an</li>
+    </ul>
+    <a href="https://wa.me/4915229274863?text=Hallo%2C%20ich%20bin%20interessiert%20an%20der%20digitalen%20Bewerbungsmappe%2C%20schicke%20mir%20mehr%20Infos." class="btn btn-whatsapp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>Bewerbungsmappe anfragen</a>
   </div>
-</section>
 
+  <div class="pricing-card">
+    <h3>Digitale Lösungen für Schausteller</h3>
+    <p class="pricing-card-price">Preis auf Anfrage</p>
+    <ul class="pricing-card-features">
+      <li>Videotafel, Beschilderung oder andere digitale Inhalte für dein Geschäft</li>
+      <li>Individuell nach deinem Bedarf umgesetzt</li>
+      <li>Auf Wunsch übernehmen wir auch deine Bewerbungen komplett für dich</li>
+    </ul>
+    <a href="https://wa.me/4915229274863?text=Hallo%2C%20ich%20interessiere%20mich%20f%C3%BCr%20individuelle%20digitale%20L%C3%B6sungen%20f%C3%BCr%20mein%20Gesch%C3%A4ft%2C%20schicke%20mir%20mehr%20Infos." class="btn btn-whatsapp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>Unverbindlich anfragen</a>
+  </div>
+
+</div>
+</div>
+</section>
 <section class="section" id="faq">
 <div class="container">
 <div class="insights-head">
@@ -1480,51 +1413,6 @@ die Veranstalter von deinem Gesch&auml;ft <span class="is-red">&uuml;berzeugt.</
                 ]
               }
 </script>
-</div>
-</section>
-<section class="section" id="angebote">
-<div class="container">
-<h2 style="text-align:center;">Erhöhe deine Chance auf die besten Festplätze</h2>
-<div class="pricing-grid">
-
-  <div class="pricing-card">
-    <h3>Websites, die Veranstalter überzeugen</h3>
-    <p class="pricing-card-price">ab 800&nbsp;€ <span class="pricing-card-price-note">1. Jahr Pflege kostenlos, ab 2. Jahr 35&nbsp;€/Monat</span></p>
-    <ul class="pricing-card-features">
-      <li>Professionelle Texte, die Veranstalter überzeugen</li>
-      <li>Ein Design, das deinem Fahrgeschäft entspricht</li>
-      <li>Optimiert für Handy und Desktop</li>
-      <li class="pricing-card-features-guarantee">Garantie: Wir überarbeiten die Website so lange, bis dir das Design gefällt</li>
-    </ul>
-    <a href="https://wa.me/4915229274863?text=Hallo%2C%20ich%20bin%20interessiert%20an%20einer%20Website%20f%C3%BCr%20mein%20Fahrgesch%C3%A4ft%2C%20schicke%20mir%20mehr%20Infos." class="btn btn-whatsapp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>Website anfragen</a>
-  </div>
-
-  <div class="pricing-card">
-    <h3>Digitale Bewerbungsmappe</h3>
-    <p class="pricing-card-price">600&nbsp;€ <span>einmalig</span></p>
-    <ul class="pricing-card-features">
-      <li>Digitale Bewerbungsmappe als PDF</li>
-      <li>Professionelle Texte, die Veranstalter überzeugen</li>
-      <li>Gestaltet, sodass du sie bei jeder Bewerbung hinzufügen kannst</li>
-      <li>Design, das zu deinem Fahrgeschäft passt</li>
-      <li class="pricing-card-features-guarantee">Garantie: Wir passen die Mappe an, bis du zufrieden bist</li>
-      <li class="pricing-card-features-guarantee">Nimmst du im 1. Jahr einen Rückgang an angenommenen Bewerbungen wahr, passen wir die Mappe weiterhin an</li>
-    </ul>
-    <a href="https://wa.me/4915229274863?text=Hallo%2C%20ich%20bin%20interessiert%20an%20der%20digitalen%20Bewerbungsmappe%2C%20schicke%20mir%20mehr%20Infos." class="btn btn-whatsapp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>Bewerbungsmappe anfragen</a>
-  </div>
-
-  <div class="pricing-card">
-    <h3>Digitale Lösungen für Schausteller</h3>
-    <p class="pricing-card-price">Preis auf Anfrage</p>
-    <ul class="pricing-card-features">
-      <li>Videotafel, Beschilderung oder andere digitale Inhalte für dein Geschäft</li>
-      <li>Individuell nach deinem Bedarf umgesetzt</li>
-      <li>Auf Wunsch übernehmen wir auch deine Bewerbungen komplett für dich</li>
-    </ul>
-    <a href="https://wa.me/4915229274863?text=Hallo%2C%20ich%20interessiere%20mich%20f%C3%BCr%20individuelle%20digitale%20L%C3%B6sungen%20f%C3%BCr%20mein%20Gesch%C3%A4ft%2C%20schicke%20mir%20mehr%20Infos." class="btn btn-whatsapp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>Unverbindlich anfragen</a>
-  </div>
-
-</div>
 </div>
 </section>
 <section class="section section-soft" id="fristenkalender">
