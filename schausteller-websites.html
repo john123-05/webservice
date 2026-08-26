@@ -91,6 +91,96 @@
     background: linear-gradient(135deg, #123c9e 0%, #1d6bff 48%, #3fd0f5 100%);
     box-shadow: 0 14px 34px rgba(20, 90, 243, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.22);
   }
+
+  .schausteller-popup {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .schausteller-popup[hidden] {
+    display: none;
+  }
+
+  .schausteller-popup__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(14, 34, 56, 0.6);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+
+  .schausteller-popup.is-visible .schausteller-popup__backdrop {
+    opacity: 1;
+  }
+
+  .schausteller-popup__modal {
+    position: relative;
+    max-width: 460px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+    opacity: 0;
+    transform: translateY(14px) scale(0.98);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+
+  .schausteller-popup.is-visible .schausteller-popup__modal {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  .schausteller-popup__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 2;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.92);
+    color: #0e2238;
+    font-size: 0.85rem;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .schausteller-popup__image-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+  }
+
+  .schausteller-popup__image-wrap img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .schausteller-popup__overlay {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .schausteller-popup__cta.btn {
+    padding: 14px 30px;
+    font-size: 1rem;
+    min-height: 0;
+  }
   .hero-area {
     background:
       radial-gradient(circle at 18% 28%, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0.82) 20%, rgba(255, 255, 255, 0.5) 38%, rgba(255, 255, 255, 0.16) 54%, rgba(255, 255, 255, 0) 68%),
@@ -310,8 +400,9 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-height: 52px;
-    padding: 14px 26px;
+    min-height: 44px;
+    padding: 11px 22px;
+    font-size: 0.88rem;
   }
 
   @media (max-width: 1100px) {
@@ -359,6 +450,26 @@
 
   /* ===== MOBILE ===== */
   @media (max-width: 768px) {
+
+    .fw-panel-hint {
+      display: none;
+    }
+
+    .schausteller-mobile-hide {
+      display: none;
+    }
+
+    .diff-card-img-wrap {
+      display: none;
+    }
+
+    .diff-split__right .diff-grid-2 {
+      display: none;
+    }
+
+    .schausteller-popup__modal {
+      max-width: 420px;
+    }
 
     /* Hero background position */
     .hero-area::before {
@@ -475,11 +586,24 @@
     .schausteller-services-roof {
       width: calc(100% + 8px);
       margin: 0 -4px calc(var(--services-mobile-overlap) * -0.26);
+      position: relative;
+      overflow: hidden;
+      aspect-ratio: 1536 / 589;
+    }
+
+    /* Die PNG-Grafik hat oben viel transparenten Leerraum - auf Mobil
+       schneiden wir den weg, statt ihn als Luecke zur Headline anzuzeigen. */
+    .schausteller-services-roof img {
+      position: absolute;
+      top: -73.85%;
+      left: 0;
+      width: 100%;
+      max-width: none;
     }
 
     .schausteller-services-grid {
       grid-template-columns: 1fr;
-      gap: 16px;
+      gap: 10px;
       width: 100%;
       margin-top: calc(var(--services-mobile-overlap) * -1);
     }
@@ -489,12 +613,17 @@
     }
 
     .schausteller-service-card {
-      padding: 22px 22px 24px;
+      padding: 14px 18px;
+    }
+
+    .schausteller-service-icon {
+      display: none;
     }
 
     .schausteller-service-card h3 {
-      font-size: 1.14rem;
-      line-height: 1.28;
+      font-size: 1.04rem;
+      line-height: 1.3;
+      margin: 0;
     }
 
     .schausteller-service-card + .schausteller-service-card {
@@ -674,7 +803,7 @@
 Eine Webseite, die <span style="color:#145af3;">Veranstalter</span> von deinem Gesch&auml;ft <span style="color:#145af3;">&uuml;berzeugt.</span>
 </h1>
 <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:22px;">
-<a href="anfrage" class="btn btn-cta-blue schausteller-hero-cta" style="margin-top:0;"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3C6.48 3 2 6.94 2 11.8c0 2.63 1.36 4.98 3.5 6.57V22l3.68-2.02c.9.25 1.86.38 2.82.38 5.52 0 10-3.94 10-8.8S17.52 3 12 3Z"/></svg>Jetzt Kontakt aufnehmen</a>
+<a href="https://wa.me/4915229274863?text=Hallo%2C%20ich%20bin%20interessiert%20an%20einer%20Website%20f%C3%BCr%20mein%20Fahrgesch%C3%A4ft%2C%20schicke%20mir%20mehr%20Infos." class="btn btn-cta-blue schausteller-hero-cta" target="_blank" rel="noopener" style="margin-top:0;"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3C6.48 3 2 6.94 2 11.8c0 2.63 1.36 4.98 3.5 6.57V22l3.68-2.02c.9.25 1.86.38 2.82.38 5.52 0 10-3.94 10-8.8S17.52 3 12 3Z"/></svg>Jetzt Kontakt aufnehmen</a>
 <a href="/fristenkalender" class="btn btn-ghost schausteller-hero-cta" style="margin-top:0; background:#fff;">Kostenloser Fristenkalender</a>
 </div>
 <div aria-hidden="true" class="hero-showcase-mobile">
@@ -735,7 +864,7 @@ Eine Webseite, die <span style="color:#145af3;">Veranstalter</span> von deinem G
         <p style="font-size:1.1rem; color:#4a5568; line-height:1.7; margin-bottom:20px;">
           Viele Volksfeste bekommen durchschnittlich 900 Bewerbungen pro Jahr. Wie überzeugst du also bei deiner?
         </p>
-        <p style="font-size:1.1rem; color:#4a5568; line-height:1.7; margin-bottom:20px;">
+        <p class="schausteller-mobile-hide" style="font-size:1.1rem; color:#4a5568; line-height:1.7; margin-bottom:20px;">
           Neben dem persönlichen Gespräch und der E-Mail werden Veranstalter nach deiner Attraktion googeln.
         </p>
         <p style="font-size:1.1rem; color:#1a2a3a; font-weight:700; line-height:1.7;">
@@ -748,7 +877,7 @@ Eine Webseite, die <span style="color:#145af3;">Veranstalter</span> von deinem G
         <style>wistia-player[media-id='ezdr8orons']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/ezdr8orons/swatch'); display: block; filter: blur(5px); padding-top:56.04%; }</style>
         <wistia-player media-id="ezdr8orons" aspect="1.7843866171003717"></wistia-player>
         <div style="text-align:center; margin-top:20px;">
-          <a href="anfrage" class="btn btn-whatsapp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>Jetzt kostenlos in Kontakt treten</a>
+          <a href="https://wa.me/4915229274863?text=Hallo%2C%20ich%20bin%20interessiert%20an%20einer%20Website%20f%C3%BCr%20mein%20Fahrgesch%C3%A4ft%2C%20schicke%20mir%20mehr%20Infos." class="btn btn-whatsapp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>Jetzt kostenlos in Kontakt treten</a>
         </div>
       </div>
     </div>
@@ -884,7 +1013,7 @@ Eine Webseite, die <span style="color:#145af3;">Veranstalter</span> von deinem G
           </div>
           <div class="diff-card">
             <p class="diff-label">Spezialisiert</p>
-            <p>Wir <strong>arbeiten mit Branchen, die wir kennen</strong> — damit wir schnell liefern können, ohne lange Einarbeitung.</p>
+            <p>Wir <strong>arbeiten mit Schaustellern</strong>, einer Branche, die wir kennen — damit wir schnell liefern können, ohne lange Einarbeitung.</p>
           </div>
         </div>
       </div>
@@ -1066,11 +1195,15 @@ Eine Webseite, die <span style="color:#145af3;">Veranstalter</span> von deinem G
         white-space:pre-line;
       }
 
+      .fw-mobile-only { display: none; }
+
       @media(max-width:860px){
         .fw { grid-template-columns:1fr; gap:32px; text-align:center; }
         .fw-panel { max-width:none; }
         .fw-panel-badge { justify-self:center; }
         .fw-panel-text { margin-left:auto; margin-right:auto; }
+        .fw-desktop-only { display: none; }
+        .fw-mobile-only { display: block; }
         .fw-data { text-align:center; }
         .fw-stage { max-width:500px; justify-self:center; }
         .fw-canvas { margin:24px 12px 12px; }
@@ -1088,12 +1221,14 @@ Eine Webseite, die <span style="color:#145af3;">Veranstalter</span> von deinem G
 
     <div class="fw" data-ferris-wheel>
       <div class="fw-panel">
-        <h2 class="fw-panel-heading">Sowas kannst du auch haben.</h2>
+        <h2 class="fw-panel-heading fw-desktop-only">Sowas kannst du auch haben.</h2>
+        <h2 class="fw-panel-heading fw-mobile-only"><span style="color:#145af3;">5 Dinge</span>, die idealerweise in deiner Bewerbung sind.</h2>
         <div class="fw-panel-badge">
-          <p class="fw-panel-kicker">5 Dinge</p>
+          <p class="fw-panel-kicker fw-desktop-only">5 Dinge</p>
           <img src="assets/ads1.webp" alt="" aria-hidden="true" class="fw-panel-icon" loading="lazy" decoding="async" />
         </div>
-        <p class="fw-panel-text">die idealerweise auf deiner <strong>Website</strong> sind, um deine Attraktion besonders <strong>für Veranstalter ansprechend</strong> zu machen.</p>
+        <p class="fw-panel-text fw-desktop-only">die idealerweise auf deiner <strong>Website</strong> sind, um deine Attraktion besonders <strong>für Veranstalter ansprechend</strong> zu machen.</p>
+        <p class="fw-panel-text fw-mobile-only">Um dein Geschäft besonders <strong>für Veranstalter ansprechend</strong> zu machen</p>
         <p class="fw-panel-hint">Sobald du hierher scrollst, startet die Erkl&auml;rung direkt wieder bei Punkt 1.</p>
       </div>
       <div class="fw-stage">
@@ -1114,7 +1249,7 @@ Eine Webseite, die <span style="color:#145af3;">Veranstalter</span> von deinem G
       </div>
     </div>
 
-    <p style="text-align:center; margin-top:16px; font-size:2rem; font-weight:800; color:#0e2238;">Keine Zeit? <a href="anfrage" style="color:#145af3; text-decoration:underline; text-underline-offset:4px;">Wir übernehmen das!</a></p>
+    <p style="text-align:center; margin-top:16px; font-size:2rem; font-weight:800; color:#0e2238;">Keine Zeit? <a href="anfrage" style="color:#145af3; text-decoration:underline; text-underline-offset:4px;">Ich übernehme das!</a></p>
     <div style="text-align:center; margin-top:20px;">
       <a href="https://wa.me/4915229274863?text=Hallo%2C%20ich%20m%C3%B6chte%20mein%20Projekt%20kostenlos%20anfragen." class="btn btn-whatsapp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>Projekt kostenlos anfragen</a>
     </div>
@@ -1122,23 +1257,22 @@ Eine Webseite, die <span style="color:#145af3;">Veranstalter</span> von deinem G
   </div>
 </section>
 
-<!-- NETWORK VS ONLINE REPUTATION SECTION -->
-<section class="section diff-section-accent diff-section-gray" style="border:none;">
-  <div class="contact-frame" aria-hidden="true"></div>
-  <div class="container">
-    <div style="display:flex; gap:64px; align-items:center; flex-wrap:wrap;">
-      <div style="flex:1 1 420px; min-width:280px;">
-        <h2 style="font-size:clamp(1.6rem,3.5vw,2.4rem); font-weight:800; color:#0e2238; line-height:1.25; margin:0;">Verlasse dich nicht auf dein <span style="color:#145af3;">Netzwerk</span>,<br/>stärke deine Online Reputation.</h2>
-      </div>
-      <div style="flex:1 1 420px; min-width:280px;">
-        <img src="assets/ag1-4168-networking.webp" alt="Münchener Marketing Kongress – Networking" style="display:block; width:100%; height:auto; border-radius:16px; box-shadow:0 20px 60px rgba(14,34,56,0.22), 0 6px 20px rgba(14,34,56,0.12);" loading="lazy" decoding="async" />
-      </div>
-    </div>
-  </div>
-</section>
 </div>
 
-<!-- IPAD MOCKUPS -->
+<section class="section" id="projekte">
+  <div class="container">
+    <h2 class="home-problem-question" style="text-align:center; margin-bottom:48px;">Beispiele von erfolgreichem Schausteller Marketing</h2>
+    <div style="display:flex; gap:32px; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
+      <img src="assets/piratesbeispiel.png" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
+      <img src="assets/Untitled design (2).png" alt="" class="schausteller-preview-img" loading="lazy" decoding="async" />
+      <img src="assets/Untitled design (3).png" alt="" class="schausteller-preview-img schausteller-mobile-hide" loading="lazy" decoding="async" />
+    </div>
+    <style>
+      .schausteller-preview-img { width:28%; min-width:220px; border-radius:0; box-shadow:0 12px 40px rgba(14,34,56,0.13); transition:transform 0.2s ease, box-shadow 0.2s ease; }
+      .schausteller-preview-img:hover { transform:translateY(-4px); box-shadow:0 20px 50px rgba(14,34,56,0.19); }
+    </style>
+  </div>
+</section>
 
 <section class="section" id="angebote">
 <div class="container">
@@ -1185,12 +1319,28 @@ Eine Webseite, die <span style="color:#145af3;">Veranstalter</span> von deinem G
 </div>
 </div>
 </section>
+
+<!-- NETWORK VS ONLINE REPUTATION SECTION -->
+<section class="section diff-section-accent diff-section-gray" style="border:none;">
+  <div class="contact-frame" aria-hidden="true"></div>
+  <div class="container">
+    <div style="display:flex; gap:64px; align-items:center; flex-wrap:wrap;">
+      <div style="flex:1 1 420px; min-width:280px;">
+        <h2 style="font-size:clamp(1.6rem,3.5vw,2.4rem); font-weight:800; color:#0e2238; line-height:1.25; margin:0;">Verlasse dich nicht auf dein <span style="color:#145af3;">Netzwerk</span>,<br/>stärke deine Online Reputation.</h2>
+      </div>
+      <div style="flex:1 1 420px; min-width:280px;">
+        <img src="assets/ag1-4168-networking.webp" alt="Münchener Marketing Kongress – Networking" style="display:block; width:100%; height:auto; border-radius:16px; box-shadow:0 20px 60px rgba(14,34,56,0.22), 0 6px 20px rgba(14,34,56,0.12);" loading="lazy" decoding="async" />
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="faq">
 <div class="container">
 <div class="insights-head">
 <div class="narrow">
-<h2>Häufige Fragen rund um Websites für Unternehmen</h2>
-<p class="section-copy">
+<h2>Häufige Fragen rund um Websites für Schausteller</h2>
+<p class="section-copy schausteller-mobile-hide">
                   Viele Unternehmen stellen ähnliche Fragen, wenn es um eine neue Website oder eine
                   Überarbeitung geht. Hier finden Sie Antworten auf einige der häufigsten Fragen rund um
                   Planung, Umsetzung und Ergebnisse.
@@ -1483,6 +1633,58 @@ Eine Webseite, die <span style="color:#145af3;">Veranstalter</span> von deinem G
   </div>
 </div>
 </div>
+<div class="schausteller-popup" id="schausteller-newsletter-popup" hidden>
+  <div class="schausteller-popup__backdrop" data-schausteller-popup-dismiss></div>
+  <div class="schausteller-popup__modal">
+    <button class="schausteller-popup__close" type="button" data-schausteller-popup-dismiss aria-label="Schließen">&#x2715;</button>
+    <div class="schausteller-popup__image-wrap">
+      <img src="assets/Pirates (5).jpg" alt="Verpasse keine Bewerbungsfrist mehr" loading="lazy" decoding="async" />
+      <div class="schausteller-popup__overlay">
+        <a href="#fristenkalender" class="btn btn-cta-blue schausteller-popup__cta" data-schausteller-popup-cta>Newsletter abonnieren</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  (() => {
+    const popup = document.getElementById('schausteller-newsletter-popup');
+    if (!popup) return;
+    const dismissKey = 'schausteller-websites-popup-dismissed';
+
+    const hide = () => {
+      popup.classList.remove('is-visible');
+      window.setTimeout(() => { popup.hidden = true; }, 250);
+      try { localStorage.setItem(dismissKey, 'true'); } catch (_) {}
+    };
+
+    let dismissed = false;
+    try { dismissed = localStorage.getItem(dismissKey) === 'true'; } catch (_) {}
+
+    if (!dismissed) {
+      window.setTimeout(() => {
+        popup.hidden = false;
+        requestAnimationFrame(() => popup.classList.add('is-visible'));
+      }, 4000);
+    }
+
+    popup.querySelectorAll('[data-schausteller-popup-dismiss]').forEach((el) => {
+      el.addEventListener('click', hide);
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && !popup.hidden) hide();
+    });
+
+    const cta = popup.querySelector('[data-schausteller-popup-cta]');
+    if (cta) {
+      cta.addEventListener('click', (event) => {
+        event.preventDefault();
+        hide();
+        document.getElementById('fristenkalender')?.scrollIntoView({ behavior: 'smooth' });
+      });
+    }
+  })();
+</script>
 <script src="app.js" type="module"></script>
 </body>
 </html>
