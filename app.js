@@ -92,8 +92,22 @@ const initMenu = () => {
     submenuToggle.setAttribute('aria-label', open ? 'Lösungen schließen' : 'Lösungen öffnen');
 
     // Inline values keep the mobile disclosure reliable even if a cached stylesheet wins the cascade.
+    // On desktop the dropdown opens via CSS :hover/:focus-within, so leftover inline styles here
+    // would permanently override that and block it from ever opening — clear them instead.
     const submenuWrap = submenu.querySelector('.nav-dropdown-wrap');
     const submenuMenu = submenu.querySelector('.nav-dropdown-menu');
+    if (!mobileMedia.matches) {
+      if (submenuWrap) {
+        submenuWrap.style.maxHeight = '';
+        submenuWrap.style.pointerEvents = '';
+      }
+      if (submenuMenu) {
+        submenuMenu.style.opacity = '';
+        submenuMenu.style.padding = '';
+        submenuMenu.style.transform = '';
+      }
+      return;
+    }
     if (submenuWrap) {
       submenuWrap.style.maxHeight = open ? '160px' : '0';
       submenuWrap.style.pointerEvents = open ? 'auto' : 'none';
@@ -1448,41 +1462,7 @@ const initSchaustellerDeadlinePage = async () => {
     scrollEl?.scrollTo({ top: 0 });
   });
 
-  // -- Newsletter-Popup -----------------------------------------------------
-  // Erscheint ein paar Sekunden nach dem Laden, aber nicht fuer Leute, die
-  // schon abonniert oder das Popup schonmal weggeklickt haben.
-  const popupEl = document.querySelector('[data-fk-popup]');
-  const popupDismissKey = `fristenkalender-popup-dismissed:${window.location.pathname}`;
-
-  const hidePopup = ({ remember = true } = {}) => {
-    if (!popupEl) return;
-    popupEl.classList.remove('is-visible');
-    window.setTimeout(() => { popupEl.hidden = true; }, 200);
-    if (remember) {
-      try { localStorage.setItem(popupDismissKey, 'true'); } catch (_) {}
-    }
-  };
-
-  if (popupEl && !unlocked) {
-    let popupDismissed = false;
-    try { popupDismissed = localStorage.getItem(popupDismissKey) === 'true'; } catch (_) {}
-
-    if (!popupDismissed) {
-      window.setTimeout(() => {
-        if (unlocked) return;
-        popupEl.hidden = false;
-        requestAnimationFrame(() => popupEl.classList.add('is-visible'));
-      }, 7000);
-    }
-
-    popupEl.querySelectorAll('[data-fk-popup-dismiss]').forEach((el) => {
-      el.addEventListener('click', () => hidePopup());
-    });
-
-    document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape' && !popupEl.hidden) hidePopup();
-    });
-  }
+  const hidePopup = () => {};
 
   // Wer bis zur Sperrzone scrollt, hat echtes Interesse gezeigt - das ist ein
   // gutes Meta-Signal, auch wenn die Person (noch) nicht abonniert.
