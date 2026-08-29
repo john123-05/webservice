@@ -1530,11 +1530,16 @@ const initSchaustellerDeadlinePage = async () => {
   // ?doi=confirmed-Behandlung weiter oben) und damit den echten Unlock in Gang. Bis dahin
   // bleibt das Gate-Formular sichtbar, die Meldung muss deshalb direkt darin erscheinen.
   const showPendingConfirmation = (form) => {
-    const status = form?.parentElement?.querySelector('[data-fk-status]');
-    if (status) {
-      status.hidden = false;
-      status.textContent = 'Fast geschafft — bitte bestätige deine E-Mail-Adresse. Wir haben dir einen Link geschickt.';
-    }
+    const card = form?.parentElement;
+    const status = card?.querySelector('[data-fk-status]');
+    if (!status) return;
+
+    // Formular verschwindet komplett - keine kleine gruene Box neben dem Eingabefeld,
+    // sondern eine grosse, eindeutige Meldung an seiner Stelle auf einer schlicht weissen
+    // Karte (statt der durchsichtigen Glasflaeche, die nur fuer den gesperrten Zustand ist).
+    card?.classList.add('fk-signup--pending');
+    status.hidden = false;
+    status.innerHTML = 'Fast geschafft!<br><span class="fk-status-sub">Bitte prüfe deine E-Mails, um deine Anmeldung zu bestätigen.</span>';
   };
 
   forms.forEach((form) => {

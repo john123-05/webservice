@@ -5542,6 +5542,37 @@ h2 {
   color: var(--ok);
 }
 
+/* Double-Opt-In: Formular verschwindet, die Karte wird schlicht weiss (statt der
+   durchsichtigen Glasflaeche, die den noch-gesperrten Zustand markiert) und zeigt nur
+   noch eine grosse, unuebersehbare Bestaetigung statt einer kleinen gruenen Box. */
+.fk-signup--pending {
+  background: var(--surface);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+.fk-signup--pending h2,
+.fk-signup--pending .fk-gate-count,
+.fk-signup--pending .fk-form {
+  display: none;
+}
+.fk-signup--pending .fk-status {
+  margin: 0;
+  padding: 20px 4px;
+  background: transparent;
+  color: var(--ink);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+}
+.fk-signup--pending .fk-status-sub {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--fk-ink-soft);
+}
+
 /* Next deadline strip */
 .fk-next {
   background: var(--ink);
