@@ -1553,13 +1553,11 @@ const initSchaustellerDeadlinePage = async () => {
   // Double-Opt-In: nach dem Absenden wird noch NICHT freigeschaltet (kein unlock()) -
   // erst der Klick auf den Bestaetigungslink in der Mail setzt das localStorage-Flag
   // (siehe die ?doi=confirmed-Behandlung weiter oben) und damit den echten Unlock in Gang.
+  // Anders als unlock() bleibt das Formular/Popup hier sichtbar (es wird ja nichts entsperrt),
+  // deshalb muss die Meldung IMMER direkt im Formular selbst erscheinen, nie im entfernten
+  // #newsletter-Footer-Bereich - die Person sieht sonst gar keine Reaktion auf ihre Eingabe.
   const showPendingConfirmation = (form) => {
-    const ownStatus = form?.parentElement?.querySelector('[data-fk-status]');
-    const inLockZone = lockZoneEl?.contains(form);
-    const status = inLockZone
-      ? document.querySelector('#newsletter [data-fk-status]') || ownStatus
-      : ownStatus;
-
+    const status = form?.parentElement?.querySelector('[data-fk-status]');
     if (status) {
       status.hidden = false;
       status.textContent = 'Fast geschafft — bitte bestätige deine E-Mail-Adresse. Wir haben dir einen Link geschickt.';
