@@ -1,3 +1,22 @@
+// Spiegelt jede Lead-Anfrage zusaetzlich ins ImpressRank CRM (parallel zum bestehenden
+// Make.com -> HubSpot-Weg, der davon unberuehrt bleibt). Feuert-und-vergisst bewusst:
+// Fehler hier duerfen niemals die eigentliche Formular-UX oder den Make.com-Versand
+// beeinflussen, deshalb der eigene try/catch und kein await an den Aufrufstellen.
+const CRM_LEAD_INTAKE_URL = 'https://toxzuwassizohrndtbqr.supabase.co/functions/v1/public-lead-intake';
+const CRM_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRveHp1d2Fzc2l6b2hybmR0YnFyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc5MDY2ODIsImV4cCI6MjEwMzQ4MjY4Mn0._midQqtA3UYcCF36BiLjSu30mguHOU1oxDPu50x7WjU';
+
+const postToCrm = (payload) => {
+  fetch(CRM_LEAD_INTAKE_URL, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      apikey: CRM_ANON_KEY,
+      Authorization: `Bearer ${CRM_ANON_KEY}`,
+    },
+    body: JSON.stringify(payload),
+  }).catch(() => {});
+};
+
 const getLocale = () => (document.documentElement.lang || '').toLowerCase().startsWith('en') ? 'en' : 'de';
 
 const getLanguageTargets = () => {
@@ -476,6 +495,8 @@ const initLeadForms = () => {
       const target = (form.dataset.formSource || '').startsWith('3-tipps')
         ? analysisWebhookUrl
         : webhookUrl;
+
+      postToCrm(payload);
 
       status.textContent = messages.sending;
       status.dataset.state = 'loading';
@@ -1091,6 +1112,10 @@ initScrollAnimations();
 // LC newsletter subscribe form
 const postLeadWebhook = async (payload) => {
   const webhookUrl = 'https://hook.eu2.make.com/py853sy75xwacg5chb32gtk0i3cyt48a';
+
+  // Deckt alle drei Aufrufer dieses Helpers ab (Newsletter, Fristenkalender inline + Gate),
+  // parallel zum Make.com-Versand darunter, der unveraendert bleibt.
+  postToCrm(payload);
 
   try {
     await fetch(webhookUrl, {
