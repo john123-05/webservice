@@ -17,6 +17,20 @@ const postToCrm = (payload) => {
   }).catch(() => {});
 };
 
+// Fristenkalender-Freischaltung laeuft als echtes Double-Opt-In: dieser Webhook (Make.com)
+// verschickt nur die Bestaetigungsmail, entsperrt aber noch nichts. Erst ein Klick auf den
+// Link darin (siehe initSchaustellerDeadlinePage weiter unten, ?doi=confirmed) schaltet den
+// Kalender im Browser frei.
+const DOI_CONFIRMATION_MAIL_URL = 'https://hook.eu2.make.com/6mzp0a3cc9lvsvyygq15k9b0zj4fp1r3';
+
+const postDoiConfirmationMail = (payload) => {
+  fetch(DOI_CONFIRMATION_MAIL_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  }).catch(() => {});
+};
+
 const getLocale = () => (document.documentElement.lang || '').toLowerCase().startsWith('en') ? 'en' : 'de';
 
 const getLanguageTargets = () => {
@@ -1172,13 +1186,14 @@ const initInlineFristenkalenderForm = () => {
   if (!form) return;
 
   const status = document.querySelector('[data-fristen-status]');
-  const calendarPage = '/fristenkalender';
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
     const button = form.querySelector('button[type="submit"]');
     const email = form.querySelector('input[name="email"]')?.value?.trim();
     const label = button?.textContent;
+    const source = form.dataset.formSource || 'fristenkalender-inline';
+    const page = window.location.pathname;
 
     if (button) {
       button.disabled = true;
@@ -1187,27 +1202,24 @@ const initInlineFristenkalenderForm = () => {
 
     await postLeadWebhook({
       email,
-      source: form.dataset.formSource || 'fristenkalender-inline',
-      page: window.location.pathname,
+      source,
+      page,
       leadmagnet: 'bewerbungsfristen-kalender',
       angemeldet: 'ja',
       timestamp: new Date().toISOString(),
     });
+    // Double-Opt-In: der Kalender wird NICHT sofort freigeschaltet, sondern erst nach
+    // Bestaetigung der E-Mail-Adresse (rechtlich noetig fuer die automatischen
+    // Erinnerungsmails, siehe initSchaustellerDeadlinePage / ?doi=confirmed).
+    postDoiConfirmationMail({ email, page, source });
     window.fbq?.('track', 'Lead');
-
-    try {
-      localStorage.setItem(`deadline-unlocked:${calendarPage}`, 'true');
-    } catch (_) {}
 
     if (status) {
       status.hidden = false;
-      status.textContent = 'Eingetragen. Du wirst zum Fristenkalender weitergeleitet …';
+      status.textContent = 'Fast geschafft — bitte bestätige deine E-Mail-Adresse. Wir haben dir einen Link geschickt.';
     }
 
     form.reset();
-    window.setTimeout(() => {
-      window.location.href = calendarPage;
-    }, 900);
 
     if (button) {
       button.disabled = false;
@@ -1298,6 +1310,18 @@ const initSchaustellerDeadlinePage = async () => {
     if (diff === 1) return 'morgen';
     return `${diff} Tage`;
   };
+
+  // Double-Opt-In-Bestaetigung: der Klick auf den Link in der Bestaetigungsmail landet hier
+  // mit ?doi=confirmed (siehe Make.com-Szenario "Newsletter Schausteller Opt in."). Erst
+  // jetzt wird tatsaechlich freigeschaltet - vorher war der Kalender trotz Formular-Absenden
+  // noch gesperrt.
+  try {
+    if (new URLSearchParams(window.location.search).get('doi') === 'confirmed') {
+      localStorage.setItem(storageKey, 'true');
+      const cleanUrl = window.location.pathname + window.location.hash;
+      window.history.replaceState({}, '', cleanUrl);
+    }
+  } catch (_) {}
 
   let unlocked = false;
   try {
@@ -1526,6 +1550,22 @@ const initSchaustellerDeadlinePage = async () => {
     render();
   };
 
+  // Double-Opt-In: nach dem Absenden wird noch NICHT freigeschaltet (kein unlock()) -
+  // erst der Klick auf den Bestaetigungslink in der Mail setzt das localStorage-Flag
+  // (siehe die ?doi=confirmed-Behandlung weiter oben) und damit den echten Unlock in Gang.
+  const showPendingConfirmation = (form) => {
+    const ownStatus = form?.parentElement?.querySelector('[data-fk-status]');
+    const inLockZone = lockZoneEl?.contains(form);
+    const status = inLockZone
+      ? document.querySelector('#newsletter [data-fk-status]') || ownStatus
+      : ownStatus;
+
+    if (status) {
+      status.hidden = false;
+      status.textContent = 'Fast geschafft — bitte bestätige deine E-Mail-Adresse. Wir haben dir einen Link geschickt.';
+    }
+  };
+
   forms.forEach((form) => {
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
@@ -1540,20 +1580,24 @@ const initSchaustellerDeadlinePage = async () => {
         button.textContent = 'Wird gesendet …';
       }
 
+      const source = form.dataset.formSource || 'schausteller-bewerbungsfristen';
+      const page = window.location.pathname;
+
       await postLeadWebhook({
         email,
         telefon_whatsapp: phone || '',
         whatsapp_opt_in: phone ? 'ja' : 'nein',
         tipps_opt_in: tipsOptIn ? 'ja' : 'nein',
-        source: form.dataset.formSource || 'schausteller-bewerbungsfristen',
-        page: window.location.pathname,
+        source,
+        page,
         leadmagnet: 'bewerbungsfristen-kalender',
         angemeldet: 'ja',
         timestamp: new Date().toISOString(),
       });
+      postDoiConfirmationMail({ email, page, source });
       window.fbq?.('track', 'Lead');
 
-      unlock(form);
+      showPendingConfirmation(form);
       form.reset();
 
       if (button) {
