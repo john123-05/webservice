@@ -1539,7 +1539,7 @@ const initSchaustellerDeadlinePage = async () => {
     // Karte (statt der durchsichtigen Glasflaeche, die nur fuer den gesperrten Zustand ist).
     card?.classList.add('fk-signup--pending');
     status.hidden = false;
-    status.innerHTML = 'Danke, schaue in deinen <strong>E-Mails</strong> nach und <strong>bestätige</strong> kurz deine Anmeldung.';
+    status.innerHTML = '<strong>Danke</strong>, schaue in deinen <strong>E-Mails</strong> nach und <strong>bestätige</strong> kurz deine Anmeldung.';
   };
 
   forms.forEach((form) => {
