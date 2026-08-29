@@ -1511,8 +1511,6 @@ const initSchaustellerDeadlinePage = async () => {
     scrollEl?.scrollTo({ top: 0 });
   });
 
-  const hidePopup = () => {};
-
   // Wer bis zur Sperrzone scrollt, hat echtes Interesse gezeigt - das ist ein
   // gutes Meta-Signal, auch wenn die Person (noch) nicht abonniert.
   if (lockZoneEl && 'IntersectionObserver' in window) {
@@ -1527,35 +1525,10 @@ const initSchaustellerDeadlinePage = async () => {
   }
 
   // -- Newsletter forms ---------------------------------------------------
-  const unlock = (form) => {
-    unlocked = true;
-    try {
-      localStorage.setItem(storageKey, 'true');
-    } catch (_) {}
-
-    hidePopup();
-
-    // Wird im Overlay abgeschickt, verschwindet gleich das ganze Overlay -
-    // die Bestaetigung muss dann in einer Box stehen, die sichtbar bleibt.
-    const ownStatus = form?.parentElement?.querySelector('[data-fk-status]');
-    const inLockZone = lockZoneEl?.contains(form);
-    const status = inLockZone
-      ? document.querySelector('#newsletter [data-fk-status]') || ownStatus
-      : ownStatus;
-
-    if (status) {
-      status.hidden = false;
-      status.textContent = 'Eingetragen. Der vollständige Kalender ist jetzt offen.';
-    }
-    render();
-  };
-
-  // Double-Opt-In: nach dem Absenden wird noch NICHT freigeschaltet (kein unlock()) -
-  // erst der Klick auf den Bestaetigungslink in der Mail setzt das localStorage-Flag
-  // (siehe die ?doi=confirmed-Behandlung weiter oben) und damit den echten Unlock in Gang.
-  // Anders als unlock() bleibt das Formular/Popup hier sichtbar (es wird ja nichts entsperrt),
-  // deshalb muss die Meldung IMMER direkt im Formular selbst erscheinen, nie im entfernten
-  // #newsletter-Footer-Bereich - die Person sieht sonst gar keine Reaktion auf ihre Eingabe.
+  // Double-Opt-In: nach dem Absenden wird noch NICHT freigeschaltet - erst der Klick auf
+  // den Bestaetigungslink in der Mail setzt das localStorage-Flag (siehe die
+  // ?doi=confirmed-Behandlung weiter oben) und damit den echten Unlock in Gang. Bis dahin
+  // bleibt das Gate-Formular sichtbar, die Meldung muss deshalb direkt darin erscheinen.
   const showPendingConfirmation = (form) => {
     const status = form?.parentElement?.querySelector('[data-fk-status]');
     if (status) {
