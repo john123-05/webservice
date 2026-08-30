@@ -1320,6 +1320,14 @@ const initSchaustellerDeadlinePage = async () => {
       localStorage.setItem(storageKey, 'true');
       const cleanUrl = window.location.pathname + window.location.hash;
       window.history.replaceState({}, '', cleanUrl);
+
+      // Von der E-Mail kommend soll sofort klar sein "ich bin nicht wieder auf derselben
+      // Werbe-Seite gelandet, sondern es hat geklappt" - gerade auf dem Handy verwechselt
+      // man das sonst leicht. Deshalb ersetzt die Ueberschrift kurz die normale Werbezeile.
+      const titleEl = document.getElementById('fk-title');
+      const leadEl = document.getElementById('fk-lead');
+      if (titleEl) titleEl.innerHTML = 'Dein kostenloser <span class="fk-lead-tight">Fristenkalender</span>';
+      if (leadEl) leadEl.innerHTML = 'Freigeschaltet <span class="fk-lead-ink">✓</span>';
     }
   } catch (_) {}
 
