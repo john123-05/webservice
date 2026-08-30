@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<title>Abgemeldet | ImpressRank</title>
+<meta content="noindex,nofollow" name="robots" />
+<link href="assets/favicon.png" rel="icon" type="image/png" />
+<link href="styles.css" rel="stylesheet" />
+<style>
+  .unsub-wrap {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: #f4f6fb;
+  }
+  .unsub-card {
+    max-width: 460px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 40px 32px;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(20, 40, 90, 0.08);
+  }
+  .unsub-logo { height: 32px; margin-bottom: 24px; }
+  .unsub-icon {
+    width: 56px; height: 56px; border-radius: 50%; margin: 0 auto 20px;
+    display: flex; align-items: center; justify-content: center;
+    background: #e7f0ff; color: var(--primary); font-size: 28px;
+  }
+  .unsub-card h1 { font-size: 1.4rem; margin: 0 0 12px; color: #1a2333; }
+  .unsub-card p { font-size: 0.98rem; line-height: 1.6; color: #55607a; margin: 0 0 24px; }
+  .unsub-card .btn { width: 100%; }
+</style>
+</head>
+<body>
+  <div class="unsub-wrap">
+    <div class="unsub-card">
+      <img alt="ImpressRank" class="unsub-logo" src="assets/logo-cropped.png" />
+      <div class="unsub-icon" id="unsub-icon">✓</div>
+      <h1 id="unsub-title">Du hast dich erfolgreich abgemeldet</h1>
+      <p id="unsub-text">
+        Du erhältst ab sofort keine E-Mails mehr von uns. Falls das ein Versehen war, kannst du
+        dich jederzeit wieder anmelden.
+      </p>
+      <a class="btn btn-primary" href="/schausteller-bewerbungsfristen.html#fk-gate">Jetzt wieder anmelden</a>
+    </div>
+  </div>
+  <script>
+    // ?ok=0 kommt vom email-unsubscribe-Function-Redirect, wenn der Abmelde-Link nicht (mehr)
+    // gueltig ist (z.B. schon abgelaufen/veraltet) - inhaltlich abweichende Meldung, gleiche Seite.
+    if (new URLSearchParams(location.search).get('ok') === '0') {
+      document.getElementById('unsub-icon').textContent = 'i';
+      document.getElementById('unsub-title').textContent = 'Dieser Link ist nicht mehr gültig';
+      document.getElementById('unsub-text').textContent =
+        'Vermutlich wurdest du bereits abgemeldet oder der Link ist veraltet. Du bekommst in jedem Fall keine E-Mails mehr, wenn du dich schon einmal abgemeldet hast.';
+    }
+  </script>
+</body>
+</html>
