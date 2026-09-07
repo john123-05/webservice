@@ -65,7 +65,7 @@ for (const target of copyTargets) {
   copyRecursive(target);
 }
 
-const sitemapExcluded = new Set(['impressum.html', 'datenschutz.html', 'kontakt.html']);
+const sitemapExcluded = new Set(['impressum.html', 'datenschutz.html', 'kontakt.html', 'formular.html']);
 const sitemapPaths = [];
 
 const collectSitemapPaths = (relativePath = '') => {

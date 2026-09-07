@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anfrageformular | ImpressRank</title>
+    <meta name="description" content="Projekt-Anfrage an ImpressRank – Angaben zu Ihrem Vorhaben, ganz ohne Login." />
+    <meta name="robots" content="noindex,follow" />
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+    <link rel="canonical" href="https://impress-rank.de/formular" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .fm-wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
+      .fm-wrap h1 { margin: 0 0 6px; }
+      .fm-intro { color: #4b5563; margin: 0 0 24px; }
+      .fm-field {
+        border: 1px solid #e5e7eb;
+        border-radius: 14px;
+        background: #fff;
+        padding: 16px;
+        margin-bottom: 14px;
+      }
+      .fm-field > label {
+        display: block;
+        font-weight: 600;
+        font-size: 14px;
+        color: #1f2937;
+      }
+      .fm-req { margin-left: 8px; font-weight: 400; font-size: 12px; color: #9ca3af; }
+      .fm-help { margin: 4px 0 0; font-size: 12.5px; color: #6b7280; }
+      .fm-section { font-size: 18px; font-weight: 700; color: #111827; padding: 18px 0 2px; }
+      .fm-input,
+      .fm-textarea,
+      .fm-select {
+        width: 100%;
+        margin-top: 10px;
+        border: 1px solid #d1d5db;
+        border-radius: 12px;
+        padding: 11px 12px;
+        font: inherit;
+        color: #111827;
+        background: #fff;
+        outline: none;
+      }
+      .fm-input:focus,
+      .fm-textarea:focus,
+      .fm-select:focus { border-color: #6366f1; box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15); }
+      .fm-textarea { min-height: 92px; resize: vertical; }
+      .fm-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+      .fm-chip {
+        border: 1px solid #d1d5db;
+        background: #fff;
+        color: #374151;
+        border-radius: 999px;
+        padding: 7px 14px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      .fm-chip.is-on { border-color: #6366f1; background: #eef2ff; color: #4338ca; }
+      .fm-upload {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 10px;
+        border: 1px dashed #9ca3af;
+        border-radius: 12px;
+        padding: 10px 14px;
+        font-size: 14px;
+        color: #374151;
+        cursor: pointer;
+      }
+      .fm-upload input { display: none; }
+      .fm-filelist { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+      .fm-filelist li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #f3f4f6;
+        border-radius: 10px;
+        padding: 7px 12px;
+        font-size: 13.5px;
+      }
+      .fm-filelist button { border: none; background: none; color: #9ca3af; cursor: pointer; font-size: 15px; }
+      .fm-submit {
+        width: 100%;
+        margin-top: 8px;
+        border: none;
+        border-radius: 12px;
+        padding: 14px 20px;
+        font: inherit;
+        font-weight: 700;
+        color: #fff;
+        background: #4f46e5;
+        cursor: pointer;
+      }
+      .fm-submit:disabled { opacity: 0.6; cursor: default; }
+      .fm-error { color: #b91c1c; font-size: 14px; margin: 10px 0 0; }
+      .fm-muted { color: #6b7280; font-size: 14px; }
+      .fm-done {
+        text-align: center;
+        border: 1px solid #e5e7eb;
+        border-radius: 16px;
+        background: #fff;
+        padding: 40px 24px;
+      }
+      .fm-done-check {
+        width: 48px;
+        height: 48px;
+        margin: 0 auto 14px;
+        border-radius: 999px;
+        background: #eef2ff;
+        color: #4f46e5;
+        font-size: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="subpage-head">
+      <div class="container">
+        <nav class="nav">
+          <a class="brand" href="/"><img src="assets/digital.png" alt="ImpressRank" class="brand-logo" /></a>
+          <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a class="nav-cta" href="anfrage">Kostenloses Erstgespräch sichern</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="fm-wrap">
+      <div id="fm-root"><p class="fm-muted">Formular wird geladen…</p></div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <a class="brand" href="/"><img src="assets/digital.png" alt="ImpressRank" class="brand-logo" /></a>
+        <p class="fm-muted">© <span id="fm-year"></span> ImpressRank · <a href="impressum">Impressum</a> · <a href="datenschutz">Datenschutz</a></p>
+      </div>
+    </footer>
+
+    <script type="module">
+      import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.58.0/+esm';
+
+      // ImpressRank-CRM-Projekt (toxzuwassizohrndtbqr). Der anon-Key ist wie im CRM selbst
+      // öffentlich; RLS erlaubt anon nur: aktive Felder + Standard-Vorlagen lesen, eine
+      // Einsendung einfügen, in den Bucket form-uploads hochladen.
+      const CRM_URL = 'https://toxzuwassizohrndtbqr.supabase.co';
+      const CRM_ANON =
+        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRveHp1d2Fzc2l6b2hybmR0YnFyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc5MDY2ODIsImV4cCI6MjEwMzQ4MjY4Mn0._midQqtA3UYcCF36BiLjSu30mguHOU1oxDPu50x7WjU';
+      const SITE = 'impressrank';
+
+      const supabase = createClient(CRM_URL, CRM_ANON, {
+        auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false },
+      });
+
+      const root = document.getElementById('fm-root');
+      document.getElementById('fm-year').textContent = String(new Date().getFullYear());
+
+      const params = new URLSearchParams(location.search);
+      const refToken = params.get('ref');
+
+      const state = {
+        templateId: null,
+        fields: [],
+        values: {},
+        files: [],
+        instanceId: null,
+        submitting: false,
+        uploadingKey: null,
+        error: null,
+        done: false,
+      };
+
+      const langText = (m, fb = '') => (m && (m.de || m.en || Object.values(m)[0])) || fb;
+      const esc = (s) =>
+        String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+      async function loadForm() {
+        let templateId = null;
+        if (refToken) {
+          try {
+            const { data } = await supabase.rpc('get_form_instance', { p_token: refToken });
+            if (data && data.template_id) {
+              templateId = data.template_id;
+              state.instanceId = data.id;
+              const prefill = data.prefill_answers || {};
+              state.values = { ...prefill };
+            }
+          } catch {
+            /* ungültiger Link -> Standard-Vorlage */
+          }
+        }
+
+        if (!templateId) {
+          const { data } = await supabase
+            .from('form_templates')
+            .select('id, site, is_default')
+            .in('site', [SITE, 'beide'])
+            .eq('is_default', true)
+            .order('site', { ascending: false });
+          templateId = data && data[0] ? data[0].id : null;
+        }
+
+        if (!templateId) {
+          root.innerHTML = '<p class="fm-error">Kein Formular verfügbar.</p>';
+          return;
+        }
+
+        const { data: fields, error } = await supabase
+          .from('form_fields')
+          .select('id, sort, key, type, label, help, options, required, active')
+          .eq('template_id', templateId)
+          .eq('active', true)
+          .order('sort', { ascending: true });
+
+        if (error) {
+          root.innerHTML = '<p class="fm-error">' + esc(error.message) + '</p>';
+          return;
+        }
+        state.templateId = templateId;
+        state.fields = fields || [];
+        render();
+      }
+
+      function setVal(key, v) {
+        state.values[key] = v;
+        render();
+      }
+      function toggleMulti(key, v) {
+        const cur = Array.isArray(state.values[key]) ? state.values[key] : [];
+        state.values[key] = cur.includes(v) ? cur.filter((x) => x !== v) : [...cur, v];
+        render();
+      }
+
+      async function uploadFiles(key, list) {
+        state.uploadingKey = key;
+        state.error = null;
+        render();
+        try {
+          for (const file of Array.from(list)) {
+            const safe = file.name.replace(/[^a-zA-Z0-9._-]/g, '_');
+            const path = `${SITE}/${new Date().toISOString().slice(0, 10)}/${crypto.randomUUID()}-${safe}`;
+            const { error: upErr } = await supabase.storage
+              .from('form-uploads')
+              .upload(path, file, { upsert: false, contentType: file.type || undefined });
+            if (upErr) throw upErr;
+            const { data: pub } = supabase.storage.from('form-uploads').getPublicUrl(path);
+            state.files.push({ field_key: key, name: file.name, url: pub.publicUrl });
+          }
+        } catch (e) {
+          state.error = e && e.message ? e.message : 'Upload fehlgeschlagen.';
+        } finally {
+          state.uploadingKey = null;
+          render();
+        }
+      }
+
+      function missingRequired() {
+        return state.fields.some((f) => {
+          if (!f.required || f.type === 'section' || f.type === 'files') return false;
+          const v = state.values[f.key];
+          return Array.isArray(v) ? v.length === 0 : !v || !String(v).trim();
+        });
+      }
+
+      async function submit() {
+        if (missingRequired()) {
+          state.error = 'Bitte füllen Sie alle Pflichtfelder aus.';
+          render();
+          return;
+        }
+        state.submitting = true;
+        state.error = null;
+        render();
+        try {
+          const answers = {};
+          state.fields.forEach((f) => {
+            if (f.type === 'section' || f.type === 'files') return;
+            if (state.values[f.key] !== undefined) answers[f.key] = state.values[f.key];
+          });
+          const row = {
+            template_id: state.templateId,
+            form_instance_id: state.instanceId,
+            site: SITE,
+            name: state.values.name || null,
+            company: state.values.company || null,
+            country: state.values.country || null,
+            email: state.values.email || null,
+            locale: 'de',
+            answers,
+            files: state.files,
+            ref_token: refToken,
+          };
+          const { error } = await supabase.from('form_submissions').insert(row);
+          if (error) throw error;
+          if (refToken) {
+            supabase.rpc('complete_form_instance', { p_token: refToken }).catch(() => {});
+          }
+          state.done = true;
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          render();
+        } catch (e) {
+          state.error = e && e.message ? e.message : 'Senden fehlgeschlagen. Bitte erneut versuchen.';
+        } finally {
+          state.submitting = false;
+          render();
+        }
+      }
+
+      function fieldHtml(f) {
+        const label = esc(langText(f.label, f.key));
+        const help = langText(f.help);
+        if (f.type === 'section') return `<h2 class="fm-section">${label}</h2>`;
+        const v = state.values[f.key];
+        let control = '';
+        if (f.type === 'textarea') {
+          control = `<textarea class="fm-textarea" data-key="${esc(f.key)}">${esc(v || '')}</textarea>`;
+        } else if (f.type === 'email') {
+          control = `<input class="fm-input" type="email" data-key="${esc(f.key)}" value="${esc(v || '')}" />`;
+        } else if (f.type === 'select') {
+          control =
+            `<select class="fm-select" data-key="${esc(f.key)}"><option value="">—</option>` +
+            (f.options || [])
+              .map((o) => `<option value="${esc(o.value)}"${v === o.value ? ' selected' : ''}>${esc(langText(o.label, o.value))}</option>`)
+              .join('') +
+            `</select>`;
+        } else if (f.type === 'multiselect') {
+          const sel = Array.isArray(v) ? v : [];
+          control =
+            `<div class="fm-chips">` +
+            (f.options || [])
+              .map(
+                (o) =>
+                  `<button type="button" class="fm-chip${sel.includes(o.value) ? ' is-on' : ''}" data-multi="${esc(f.key)}" data-value="${esc(o.value)}">${esc(langText(o.label, o.value))}</button>`,
+              )
+              .join('') +
+            `</div>`;
+        } else if (f.type === 'yesno') {
+          control =
+            `<div class="fm-chips">` +
+            [
+              ['yes', 'Ja'],
+              ['no', 'Nein'],
+              ['unknown', 'Weiß nicht'],
+            ]
+              .map(
+                ([val, txt]) =>
+                  `<button type="button" class="fm-chip${v === val ? ' is-on' : ''}" data-yesno="${esc(f.key)}" data-value="${val}">${txt}</button>`,
+              )
+              .join('') +
+            `</div>`;
+        } else if (f.type === 'country') {
+          control = `<input class="fm-input" list="fm-countries" data-key="${esc(f.key)}" value="${esc(v || '')}" />`;
+        } else if (f.type === 'files') {
+          const mine = state.files.filter((x) => x.field_key === f.key);
+          control =
+            `<label class="fm-upload"><span>${state.uploadingKey === f.key ? 'Lädt hoch…' : 'Dateien auswählen'}</span>` +
+            `<input type="file" multiple data-upload="${esc(f.key)}" ${state.uploadingKey ? 'disabled' : ''} /></label>` +
+            (mine.length
+              ? `<ul class="fm-filelist">` +
+                mine
+                  .map(
+                    (x) =>
+                      `<li><a href="${esc(x.url)}" target="_blank" rel="noreferrer">${esc(x.name)}</a><button type="button" data-rmfile="${esc(x.url)}">✕</button></li>`,
+                  )
+                  .join('') +
+                `</ul>`
+              : '');
+        } else {
+          control = `<input class="fm-input" type="text" data-key="${esc(f.key)}" value="${esc(v || '')}" />`;
+        }
+        return (
+          `<div class="fm-field"><label>${label}<span class="fm-req">${f.required ? 'Pflichtfeld' : 'optional'}</span></label>` +
+          (help ? `<p class="fm-help">${esc(help)}</p>` : '') +
+          control +
+          `</div>`
+        );
+      }
+
+      function render() {
+        if (state.done) {
+          root.innerHTML =
+            `<div class="fm-done"><div class="fm-done-check">✓</div>` +
+            `<h1>Vielen Dank!</h1><p class="fm-muted">Ihre Angaben sind bei uns eingegangen. Wir melden uns in Kürze bei Ihnen.</p></div>`;
+          return;
+        }
+        root.innerHTML =
+          `<h1>Projekt-Anfrage</h1>` +
+          `<p class="fm-intro">Damit wir Sie passend beraten und ein Angebot vorbereiten können, füllen Sie bitte kurz dieses Formular aus. Kein Login nötig.</p>` +
+          state.fields.map(fieldHtml).join('') +
+          (state.error ? `<p class="fm-error">${esc(state.error)}</p>` : '') +
+          `<button type="button" class="fm-submit" id="fm-submit" ${state.submitting ? 'disabled' : ''}>${state.submitting ? 'Wird gesendet…' : 'Absenden'}</button>` +
+          `<datalist id="fm-countries">${['Deutschland', 'Österreich', 'Schweiz', 'Niederlande', 'Belgien', 'Luxemburg', 'Frankreich', 'Italien', 'Polen', 'Vereinigtes Königreich', 'USA']
+            .map((c) => `<option value="${c}"></option>`)
+            .join('')}</datalist>`;
+
+        root.querySelectorAll('[data-key]').forEach((el) => {
+          el.addEventListener('input', (e) => {
+            state.values[e.target.dataset.key] = e.target.value;
+          });
+          el.addEventListener('change', (e) => {
+            if (e.target.tagName === 'SELECT') setVal(e.target.dataset.key, e.target.value);
+          });
+        });
+        root.querySelectorAll('[data-multi]').forEach((el) =>
+          el.addEventListener('click', () => toggleMulti(el.dataset.multi, el.dataset.value)),
+        );
+        root.querySelectorAll('[data-yesno]').forEach((el) =>
+          el.addEventListener('click', () => setVal(el.dataset.yesno, el.dataset.value)),
+        );
+        root.querySelectorAll('[data-upload]').forEach((el) =>
+          el.addEventListener('change', (e) => {
+            if (e.target.files && e.target.files.length) uploadFiles(el.dataset.upload, e.target.files);
+          }),
+        );
+        root.querySelectorAll('[data-rmfile]').forEach((el) =>
+          el.addEventListener('click', () => {
+            state.files = state.files.filter((x) => x.url !== el.dataset.rmfile);
+            render();
+          }),
+        );
+        const btn = document.getElementById('fm-submit');
+        if (btn) btn.addEventListener('click', submit);
+      }
+
+      loadForm();
+    </script>
+  </body>
+</html>
