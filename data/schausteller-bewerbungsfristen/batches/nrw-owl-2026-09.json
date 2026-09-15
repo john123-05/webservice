@@ -1,0 +1,93 @@
+{
+  "batch_id": "nrw-owl-2026-09",
+  "region_scope": ["Nordrhein-Westfalen"],
+  "search_terms": [
+    "Detmold Schausteller Weihnachtsmarkt Sommerfestival Bewerbung Frist",
+    "Lemgo Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Gütersloh Schausteller Herbstmarkt Weihnachtsmarkt Bewerbung Frist",
+    "Bad Oeynhausen Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Bünde Löhne Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Rheda-Wiedenbrück Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Espelkamp Vlotho Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Blomberg Barntrup Horn-Bad Meinberg Steinheim Lippe Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Oerlinghausen Leopoldshöhe Schausteller Markt Weihnachtsmarkt Bewerbung Frist"
+  ],
+  "max_expected_results": 25,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-14",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt im Schlosspark Detmold 2026 (Kunsthandwerker)",
+      "candidate_url": "https://serviceportal-detmold.de/detail/-/vr-bis-detail/dienstleistung/27020/show",
+      "reason": "Bewerbungsfrist fuer die Kunsthandwerker-Kategorie war der 31.08.2026, bereits verstrichen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt im Schlosspark Detmold 2026 (Gastronomie/Schausteller)",
+      "candidate_url": "https://www.weihnachtsmarkt-detmold.de/",
+      "reason": "Eigene Bewerbungskategorie fuer Gastronom/Imbiss/Schausteller existiert laut Serviceportal, die verlinkte Detailseite war per direktem Abruf nicht erreichbar (404); Fristdatum daher nicht bestaetigt."
+    },
+    {
+      "event_name": "Kläschen (Weihnachtskirmes) Lemgo",
+      "candidate_url": "https://www.lemgo-marketing.de/veranstaltungen/infos-fuer-aussteller-und-schausteller/",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Frau Bettina Sprank, Stadt Lemgo, Marktplatz 4, 32657 Lemgo, b.sprank@lemgo.de, 05261 213193."
+    },
+    {
+      "event_name": "Gütersloher Weihnachtsmarkt (Standplätze) / Herbstmarkt",
+      "candidate_url": "https://www.guetersloh-marketing.de/wp-content/uploads/2025/01/bewerbung-huettenbetreiberinnen-richtlinien-bewerbungen-guetersloher-weihnachtsmarkt-2025.pdf",
+      "reason": "Bewerbungsverfahren fuer 2026 laut Stadt bereits abgeschlossen; Richtlinien-PDF fuer Standplaetze automatisiert nicht auslesbar. Herbstmarkt (08.11.2026, Kolbeplatz) nimmt Bewerbungen an, kein Fristdatum gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Bad Oeynhausen (Innenstadt und Kurpark)",
+      "candidate_url": "https://www.staatsbad-oeynhausen.de/stadtleben/weihnachtsmarkt/standbewerbung-weihnachtsmarkt",
+      "reason": "Wird von der Staatsbad Bad Oeynhausen GmbH organisiert, eigene Bewerbungsseiten fuer Weihnachtsmarkt- und Kunsthandwerkermarkt-Standplaetze vorhanden, aber kein Fristdatum gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Bünde",
+      "candidate_url": "https://www.buende.de/Freizeit-I-Tourismus/Events/Weihnachtsmarkt/",
+      "reason": "Keine Bewerbungsfrist auf offizieller Stadtseite gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Löhne",
+      "candidate_url": "https://www.wittekindsland.de/deu/ferienregion-wittekindsland/veranstaltungen/veranstaltungen.html",
+      "reason": "Keine spezifischen Suchtreffer zu einer Bewerbungsfrist gefunden; Stadt Loehne direkt kontaktieren."
+    },
+    {
+      "event_name": "Christkindlmarkt Rheda-Wiedenbrück",
+      "candidate_url": "https://www.rheda-wiedenbrueck.de/kalender/termine/feste/2026-11-23-christkindlmarkt/",
+      "reason": "Termin 2026 bekannt (ab 23.11.2026), keine Bewerbungsfrist auf offizieller Stadtseite gefunden."
+    },
+    {
+      "event_name": "Espelkamper Lichterglanz",
+      "candidate_url": "https://www.espelkamp.de/Start/Weihnachtsm%C3%A4rkte-in-Espelkamp.php?object=tx,2862.55&ModID=7&FID=2862.2171.1&NavID=2862.208",
+      "reason": "Wird vom Stadtmarketing Espelkamp e.V. organisiert, keine Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Vlotho",
+      "candidate_url": "https://www.wittekindsland.de/deu/ferienregion-wittekindsland/veranstaltungen/veranstaltungen.html",
+      "reason": "Keine spezifischen Suchtreffer zu einer Bewerbungsfrist gefunden; Stadt Vlotho direkt kontaktieren."
+    },
+    {
+      "event_name": "Weihnachtsmärkte Blomberg / Barntrup / Steinheim",
+      "candidate_url": "https://www.radiolippe.de/service/weihnachtsmaerkte-in-lippe.html",
+      "reason": "Termine bekannt, aber keine Bewerbungsfristen auf offiziellen Seiten gefunden; jeweilige Stadtverwaltung direkt kontaktieren."
+    },
+    {
+      "event_name": "Indoor-Weihnachtsmarkt Horn-Bad Meinberg",
+      "candidate_url": "https://www.hornbadmeinberg.de/kultur-veranstaltungen/maerkte-feste.html",
+      "reason": "Grosser Indoor-Weihnachtsmarkt der Region laut Presse, keine Bewerbungsfrist auf offizieller Seite gefunden."
+    },
+    {
+      "event_name": "Bergstadt-Advent Oerlinghausen",
+      "candidate_url": "https://www.oerlinghausen.de/de/veranstaltungen/",
+      "reason": "Termin 2026 bekannt (05.-07.12.), keine Bewerbungsfrist auf offizieller Seite gefunden."
+    },
+    {
+      "event_name": "Markt / Weihnachtsmarkt Leopoldshöhe",
+      "candidate_url": "https://www.leopoldshoehe.de/aktuelles/veranstaltungskalender/",
+      "reason": "Keine spezifischen Suchtreffer zu einer Bewerbungsfrist gefunden; Gemeindeverwaltung Leopoldshoehe direkt kontaktieren."
+    }
+  ]
+}

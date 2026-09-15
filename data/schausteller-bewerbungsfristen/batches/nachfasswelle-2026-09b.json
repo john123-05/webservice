@@ -1,0 +1,94 @@
+{
+  "batch_id": "nachfasswelle-2026-09b",
+  "region_scope": ["Bundesweit"],
+  "search_terms": [
+    "Kieler Woche Eventflächen Schausteller Bewerbung Frist 2027",
+    "Cranger Kirmes 2027 Schausteller Bewerbung Frist",
+    "Auer Dult München 2027 Schausteller Bewerbung Frist",
+    "Bremer Freimarkt 2027 Schausteller Bewerbung Frist",
+    "Bremer Osterwiese 2027 Schausteller Bewerbung Frist",
+    "Erlanger Bergkirchweih 2027 Schausteller Bewerbung Frist",
+    "Further Drachenstich Further Kirchweih Schausteller Bewerbung Frist 2027",
+    "Rosenheimer Herbstfest 2027 Schausteller Bewerbung Frist",
+    "Landshuter Volksfest 2027 Schausteller Bewerbung Frist",
+    "Stuttgarter Weihnachtsmarkt 2027 Schausteller Bewerbung Frist",
+    "Kasseler Weihnachtsmarkt 2027 Bewerbung Frist Schausteller",
+    "Köln Schausteller Weihnachtsmarkt Bewerbung Frist 2026 2027",
+    "Ulm Schausteller Fischerstechen Weihnachtsmarkt Bewerbung Frist",
+    "Ulmer Volksfest 2027 VMV GmbH Bewerbung Frist Schausteller",
+    "Heilbronn Schausteller Volksfest Weihnachtsmarkt Bewerbung Frist",
+    "Lübeck Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Trier Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Schwerin Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Cottbus Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Wittenberge LAGA Gartenmarkt Schausteller Bewerbung Frist 2027"
+  ],
+  "max_expected_results": 25,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-13",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Lübecker Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.dubistmirnemarke.de/zusammenarbeit/veranstalterinnen/standbetreiberinnen/luebecker-weihnachtsmarkt",
+      "reason": "Bewerbungsfrist war der 31.03.2026, bereits verstrichen. Keine Dauerregel-Formulierung auf der Seite, Formular fuer 2027 noch nicht veroeffentlicht."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt am Kölner Dom (Roncalliplatz) 2026",
+      "candidate_url": "https://www.koelnerweihnachtsmarkt.com/de/aussteller-werden-2025/",
+      "reason": "Konzessionsvergabe an die Koelner Weihnachtsgesellschaft (2026-2030) erfolgte im Maerz 2026; individuelle Bewerbungsfrist fuer Schausteller/Haendler beim Betreiber nicht gefunden. Kontakt: info@koelner-weihnachtsgesellschaft.de."
+    },
+    {
+      "event_name": "Ulmer Volksfest 2027",
+      "candidate_url": "https://ulmer-volksfest.de/bewerbung/",
+      "reason": "Bewerbungsphase laeuft laut Veranstalter 'von der ersten Septemberwoche bis Anfang November', kein exaktes Datum genannt. Kontakt: VMV GmbH, Marktplatz 8, 89073 Ulm, info@vmvgmbh.de, 0731 9402 3627."
+    },
+    {
+      "event_name": "Ulmer Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.ulmer-weihnachtsmarkt.de/bewerbung/",
+      "reason": "Bewerbungsphase fuer 2026 laut Seite bereits abgeschlossen, kein Datum fuer 2027 gefunden. Kontakt: weihnachtsmarkt@ulm-messe.de."
+    },
+    {
+      "event_name": "Heilbronner Volksfest / Käthchen-Weihnachtsmarkt",
+      "candidate_url": "https://www.heilbronn.de/tourismus/veranstaltungskalender/detail/heilbronner-volksfest/2026-07-12-00-00.html",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden; Stadt Heilbronn direkt kontaktieren."
+    },
+    {
+      "event_name": "Trierer Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.trierer-weihnachtsmarkt.de/",
+      "reason": "46. Ausgabe 2026 bekannt (20.11.-22.12.2026), Bewerbungsformular vorhanden, aber kein Fristdatum gefunden. ARGE Trierer Weihnachtsmarkt direkt kontaktieren."
+    },
+    {
+      "event_name": "Schweriner Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.weihnachtsmarkt-schwerin.de/fragen-und-antworten/",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden."
+    },
+    {
+      "event_name": "Cottbuser Weihnachtsmarkt der 1000 Sterne",
+      "candidate_url": "https://www.cottbus.de/erleben/veranstaltungen/event.pl?key=kultur&zeit=25599627",
+      "reason": "Wird von COEX Veranstaltungs GmbH & Co. KG organisiert, keine Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "Rosenheimer Herbstfest 2027",
+      "candidate_url": "https://www.wirtschaftlicher-verband.de/herbstfest/termine.html",
+      "reason": "Termine 2026 (29.08.-13.09.) und 2027 (28.08.-12.09.) bekannt, aber keine Bewerbungsfrist auf der Termine-Seite; die 'Angebotsabfrage fuer Schausteller' liegt hinter einem separaten, nicht direkt verlinkten Bereich. Kontakt: Wirtschaftlicher Verband Rosenheim, info@wirtschaftlicher-verband.de, 08031 90061-0."
+    },
+    {
+      "event_name": "Stuttgarter Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.stuttgarter-weihnachtsmarkt.de/de/bewerbung/",
+      "reason": "Bewerbungsfenster soll laut Betreiber 'im Herbst' oeffnen, am Recherchetag noch kein konkretes Datum veroeffentlicht."
+    },
+    {
+      "event_name": "Kasseler Märchenweihnachtsmarkt 2027",
+      "candidate_url": "https://veranstaltungen.kassel-marketing.de/de/bewerbung",
+      "reason": "2025er Frist war 31.03.2025 (Vorjahresmuster), fuer 2027 noch keine Ausschreibung gefunden. Passt zum bereits im WORKLOG vermerkten Nachfasstermin 'Dez 2026 Kassel stellt Bewerbungsformulare ein'."
+    },
+    {
+      "event_name": "LAGA 2027 Wittenberge - Gartenmarkt/Standplätze",
+      "candidate_url": "https://www.laga-wittenberge.de/",
+      "reason": "Landesgartenschau 21.04.-24.10.2027 bestaetigt, aber keine eigene Schausteller-/Standplatz-Bewerbungsfrist auf der Seite gefunden (nur allgemeine Jobs-Seite)."
+    }
+  ]
+}

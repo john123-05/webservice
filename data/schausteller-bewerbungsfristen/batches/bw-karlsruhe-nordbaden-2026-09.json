@@ -1,0 +1,100 @@
+{
+  "batch_id": "bw-karlsruhe-nordbaden-2026-09",
+  "region_scope": ["Baden-Württemberg"],
+  "search_terms": [
+    "Pforzheim Schausteller Weihnachtsmarkt Blumenfest Bewerbung Frist",
+    "Bruchsal Schausteller Peterhofmarkt Bewerbung Frist Weihnachtsmarkt",
+    "Baden-Baden Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Ettlingen Schausteller Schlossfestspiele Weihnachtsmarkt Bewerbung Frist",
+    "Bretten Schausteller Peter-und-Paul-Fest Weihnachtsmarkt Bewerbung Frist",
+    "Schwetzingen Schausteller Zwiebelmarkt Weihnachtsmarkt Bewerbung Frist",
+    "Weinheim Schausteller Weihnachtsmarkt Herbstmarkt Bewerbung Frist",
+    "Sinsheim Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Wiesloch Schausteller Weinlese Weihnachtsmarkt Bewerbung Frist",
+    "Mosbach Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Buchen Odenwald Schausteller Weihnachtsmarkt Bewerbung Frist"
+  ],
+  "max_expected_results": 30,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-13",
+  "entries": [
+    {
+      "id": "peter-und-paul-fest-2027-bretten",
+      "event_name": "Peter-und-Paul-Fest Bretten 2027 (Historischer Markt)",
+      "event_type": "Mittelaltermarkt / Stadtfest",
+      "city": "Bretten",
+      "state": "Baden-Württemberg",
+      "country": "DE",
+      "venue_or_area": "Historische Altstadt Bretten",
+      "application_deadline_iso": "2026-11-15",
+      "application_deadline_text": "Dauerregel laut Veranstalterseite: '15.11. des Vorjahres: Anmeldeschluss für Verkaufsstände im Folgejahr'",
+      "event_date_range_text": "",
+      "application_mode": "Bewerbung per E-Mail an den Marktmeister",
+      "postal_address": "Vereinigung Alt-Brettheim e.V., Marktmeister Historischer Markt, Kirchplatz 4, 75015 Bretten",
+      "contact_name": "Marktmeister Historischer Markt, Vereinigung Alt-Brettheim e.V.",
+      "contact_email": "marktmeister@alt-brettheim.de",
+      "contact_phone": "",
+      "source_url": "https://peter-und-paul.de/allgemeine-informationen/bewerbungen/",
+      "source_domain": "peter-und-paul.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-13",
+      "agent_batch_id": "bw-karlsruhe-nordbaden-2026-09",
+      "confidence_status": "partial",
+      "notes": "Nicht-staedtischer Veranstalter (Vereinigung Alt-Brettheim e.V.) nennt eine woertliche Dauerregel: Anmeldeschluss fuer Verkaufsstaende ist jeweils der 15.11. des Vorjahres. Frist fuer 2027 (15.11.2026) liegt noch in der Zukunft, ist also keine Ableitung sondern die aktuell gueltige Frist. Exaktes Veranstaltungsdatum 2027 auf der Seite nicht bestaetigt (traditionell erstes Juliwochenende)."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "15. Kurfürstlicher Weihnachtsmarkt Schwetzingen 2026",
+      "candidate_url": "https://www.sms-schwetzingen.de/6-kurfuerstlicher-weihnachtsmarkt/",
+      "reason": "Stadtmarketing Schwetzingen bestaetigt: 'Die Bewerbungsfrist fuer den Kurfuerstlichen Weihnachtsmarkt 2026 ist beendet' (Markt 26.11.-20.12.2026)."
+    },
+    {
+      "event_name": "Mosbacher Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.mosbach.de/mosbacher+weihnachtsmarkt",
+      "reason": "Bewerbungsfrist war Ende April 2026 (Markt 27.11.-20.12.2026), bereits verstrichen."
+    },
+    {
+      "event_name": "Adventsmarkt Schloss Bruchsal 2026 (Kunsthandwerker)",
+      "candidate_url": "https://www.schloss-bruchsal.de/fileadmin/Bilder/13_bruchsal_neu/sonstige/2026-03-12_Adventsmarkt_2026_Bewerbungsunterlagen_Kunsthandwerker.pdf",
+      "reason": "Laut Stadt Bruchsal ist das Bewerbungsverfahren fuer den Weihnachtsmarkt 2026 bereits abgeschlossen, Zu- und Absagen wurden schon verschickt (Markt 03.-07. und 10.-14.12.2026)."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Arlinger Kinder- und Blumenfest / Pforzheimer Weihnachtsmarkt",
+      "candidate_url": "https://www.pforzheim.de/freizeit/veranstaltungshighlights.html",
+      "reason": "Keine Bewerbungsfrist fuer Schausteller auf offizieller Stadtseite gefunden; Stadt Pforzheim direkt kontaktieren."
+    },
+    {
+      "event_name": "Baden-Badener Christkindelsmarkt 2026/2027",
+      "candidate_url": "https://www.baden-baden.com/veranstaltungen/christkindelsmarkt",
+      "reason": "Termin bekannt (26.11.2026-06.01.2027), Online-Bewerbungsformular und Zulassungsrichtlinien vorhanden, aber kein Fristdatum auf der Seite gefunden (Vorjahr lag die Frist bei ca. 30. April). Kontakt: info@baden-baden.com, 07221 275200."
+    },
+    {
+      "event_name": "Weinheimer Weihnachtsmarkt / Weinheimer Herbst",
+      "candidate_url": "https://www.weinheim.de/startseite/stadtthemen/weinheimer+weihnachtsmarkt.html",
+      "reason": "Termine bekannt (Herbst 12.-13.09.2026, Weihnachtsmarkt Dezember), keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Amt fuer Kultur, Tourismus und Wirtschaft, +49 6201 82-592."
+    },
+    {
+      "event_name": "Sinsheimer Weihnachtsmarkt",
+      "candidate_url": "https://www.sinsheim.de/freizeit-kultur/veranstaltungen-feste-maerkte/feste-maerkte/sinsheimer-weihnachtsmarkt",
+      "reason": "Keine Bewerbungsfrist auf offizieller Stadtseite gefunden. Kontakt: Stadt Sinsheim, Wilhelmstrasse 14-18, 74889 Sinsheim, 07261 404-377."
+    },
+    {
+      "event_name": "Weihnachtszauber Wiesloch",
+      "candidate_url": "https://www.wiesloch.de/weihnachtszauber",
+      "reason": "Keine Bewerbungsfrist fuer Schausteller auf offizieller Stadtseite gefunden; Stadt Wiesloch direkt kontaktieren."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Buchen (Odenwald)",
+      "candidate_url": "https://www.ortsdienst.de/baden-wuerttemberg/neckar-odenwald-kreis/buchen-odenwald/weihnachtsmarkt/",
+      "reason": "Nur eine nicht-offizielle Quelle nennt ein Datum (10.10.2025, veraltet); auf der offiziellen Stadtseite Buchen keine Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "Ettlinger Weihnachtsmarkt",
+      "candidate_url": "https://www.ettlingen.de/veranstaltungskalender",
+      "reason": "Schlossfestspiele Ettlingen sind ein Theaterfestival ohne Schausteller-Standplaetze; fuer einen etwaigen Weihnachtsmarkt wurde keine Bewerbungsfrist auf offizieller Stadtseite gefunden."
+    }
+  ]
+}

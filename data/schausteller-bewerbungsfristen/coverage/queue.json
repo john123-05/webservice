@@ -9,7 +9,7 @@
       "label": "Ostwestfalen-Lippe",
       "state": "Nordrhein-Westfalen",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Bielefeld",
         "Herford",
@@ -38,7 +38,7 @@
       "label": "Ruhrgebiet West",
       "state": "Nordrhein-Westfalen",
       "tier": 1,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Duisburg",
         "Oberhausen",
@@ -92,7 +92,7 @@
       "label": "Niederrhein",
       "state": "Nordrhein-Westfalen",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Krefeld",
         "Mönchengladbach",
@@ -257,7 +257,7 @@
       "label": "Mittel- und Oberfranken",
       "state": "Bayern",
       "tier": 1,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Nürnberg",
         "Fürth",
@@ -362,7 +362,7 @@
       "label": "Karlsruhe und Nordbaden",
       "state": "Baden-Württemberg",
       "tier": 1,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Karlsruhe",
         "Mannheim",
@@ -439,7 +439,7 @@
       "label": "Rhein-Main",
       "state": "Hessen",
       "tier": 1,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Frankfurt am Main",
         "Wiesbaden",
@@ -493,7 +493,7 @@
       "label": "Region Hannover und Braunschweig",
       "state": "Niedersachsen",
       "tier": 1,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Hannover",
         "Braunschweig",
@@ -546,7 +546,7 @@
       "label": "Lüneburg, Elbe und Küste",
       "state": "Niedersachsen",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Lüneburg",
         "Celle",
@@ -665,7 +665,7 @@
       "label": "Sachsen",
       "state": "Sachsen",
       "tier": 1,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Dresden",
         "Leipzig",

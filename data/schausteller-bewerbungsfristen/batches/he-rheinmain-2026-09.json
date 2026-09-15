@@ -1,0 +1,161 @@
+{
+  "batch_id": "he-rheinmain-2026-09",
+  "region_scope": ["Hessen"],
+  "search_terms": [
+    "Darmstadt Schausteller Heinerfest Weihnachtsmarkt Bewerbung Frist 2026 2027",
+    "Offenbach Schausteller Wäldchestag Mainuferfest Weihnachtsmarkt Bewerbung Frist",
+    "Hanau Schausteller Lamboyfest Brüder-Grimm-Fest Weihnachtsmarkt Bewerbung Frist",
+    "Rüsselsheim Schausteller Stadtfest Weihnachtsmarkt Bewerbung Frist",
+    "Oberursel Schausteller Bembelfest Weihnachtsmarkt Bewerbung Frist",
+    "Friedberg Hessen Schausteller Herbstmarkt Bewerbung Frist Ordnungsamt",
+    "Bad Nauheim Schausteller Sprudelhof Bewerbung Frist Weihnachtsmarkt",
+    "Dietzenbach Schausteller Stadtfest Weinfest Bewerbung Frist",
+    "Dreieich Schausteller Stadtfest Weihnachtsmarkt Bewerbung Frist",
+    "Neu-Isenburg Schausteller Stadtfest Bewerbung Frist",
+    "Langen Hessen Schausteller Altstadtfest Weihnachtsmarkt Bewerbung Frist",
+    "Mörfelden-Walldorf Schausteller Kerb Bewerbung Frist",
+    "Rodgau Schausteller Herbstmarkt Bewerbung Frist"
+  ],
+  "max_expected_results": 30,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-12",
+  "entries": [
+    {
+      "id": "oberurseler-weihnachtsmarkt-2027-oberursel",
+      "event_name": "Oberurseler Weihnachtsmarkt 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Oberursel",
+      "state": "Hessen",
+      "country": "DE",
+      "venue_or_area": "Marktplatz, Strackgasse, Vorstadt, Rathausplatz, Kumeliusstraße, Epinayplatz (Innenstadt)",
+      "application_deadline_iso": "2027-07-31",
+      "application_deadline_text": "Dauerregel laut Stadtseite: Bewerbungsfrist jeweils zum 31. Juli des Jahres",
+      "event_date_range_text": "",
+      "application_mode": "Schriftliche Bewerbung mit Formular an die Wirtschaftsfoerderung",
+      "postal_address": "Stadt Oberursel (Taunus), Wirtschaftsfoerderung, Rathausplatz 1, 61440 Oberursel (Taunus)",
+      "contact_name": "Wirtschaftsfoerderung Stadt Oberursel",
+      "contact_email": "wirtschaftsfoerderung@oberursel.de",
+      "contact_phone": "06171 502-250",
+      "source_url": "https://www.oberursel.de/de/erleben-entdecken/veranstaltungen/weihnachtsmarkt/",
+      "source_domain": "oberursel.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-12",
+      "agent_batch_id": "he-rheinmain-2026-09",
+      "confidence_status": "partial",
+      "notes": "Dauerregel laut Suchmaschinen-Snippet der Stadtseite ('Bewerbungsfrist ... 31. Juli eines jeden Jahres'). Frist fuer 2026 (31.07.2026, Markt 26.-29.11.2026) bereits verstrichen; Datum fuer den naechsten offenen Jahrgang 2027 abgeleitet. Direkter Seitenabruf schlug wegen TLS-Zertifikatsfehler fehl (oberursel.de), Angabe stammt aus Suchmaschinen-Snippet derselben offiziellen Seite. Veranstaltungstermin 2027 noch nicht veroeffentlicht."
+    },
+    {
+      "id": "langener-weihnachtsmarkt-2027-langen",
+      "event_name": "Langener Weihnachtsmarkt 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Langen",
+      "state": "Hessen",
+      "country": "DE",
+      "venue_or_area": "Innenstadt Langen (Hessen)",
+      "application_deadline_iso": "2027-04-30",
+      "application_deadline_text": "Dauerregel laut Veranstalterseite: 'Bewerbungen werden bis zum 30. April des entsprechenden Jahres entgegen genommen.'",
+      "event_date_range_text": "",
+      "application_mode": "Bewerbung per E-Mail an den Verkehrs- und Verschoenerungsverein",
+      "postal_address": "",
+      "contact_name": "Verkehrs- und Verschoenerungsverein 1877 Langen e.V.",
+      "contact_email": "weihnachtsmarkt@vvv-langen.de",
+      "contact_phone": "",
+      "source_url": "https://vvv-langen.de/feste/langener-weihnachtsmarkt/",
+      "source_domain": "vvv-langen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-12",
+      "agent_batch_id": "he-rheinmain-2026-09",
+      "confidence_status": "partial",
+      "notes": "Nicht-staedtischer Veranstalter (VVV Langen e.V.) nennt eine woertliche Dauerregel. Frist fuer 2026 (30.04.2026, Markt 27.-29.11. und 04.-06.12.2026) bereits verstrichen; Datum fuer 2027 abgeleitet. Postanschrift des Vereins nicht auffindbar, daher leer gelassen."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Merfeller Kerb 2026",
+      "candidate_url": "https://www.moerfelden-walldorf.de/de/aktuelles/presse/2025/oktober/moerfelder-kerb-2025-1/",
+      "reason": "Bewerbungsfrist fuer 2026 war der 01.02.2026, bereits verstrichen (Kerb selbst findet erst 17.-20.10.2026 statt). Keine Dauerregel-Formulierung gefunden, daher kein Datum fuer 2027 abgeleitet."
+    },
+    {
+      "event_name": "Oberurseler Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.oberursel.de/de/erleben-entdecken/veranstaltungen/weihnachtsmarkt/",
+      "reason": "Frist fuer 2026 (31.07.2026) bereits verstrichen. Folgejahrgang 2027 als partial-Eintrag oben abgeleitet."
+    },
+    {
+      "event_name": "Langener Weihnachtsmarkt 2026",
+      "candidate_url": "https://vvv-langen.de/feste/langener-weihnachtsmarkt/",
+      "reason": "Frist fuer 2026 (30.04.2026) bereits verstrichen. Folgejahrgang 2027 als partial-Eintrag oben abgeleitet."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "76. Darmstädter Heinerfest 2026/2027",
+      "candidate_url": "https://www.heinerfest.de/schausteller/keine-laufende-bewerbungsfrist/",
+      "reason": "Offizielle Seite bestaetigt am Recherchetag explizit 'Keine laufende Bewerbungsfrist'. Termine bekannt (2026: 02.-06.07., 2027: 01.-05.07.), naechste Ausschreibung noch nicht online. Kontakt: darmstaedter.heinerfest@t-online.de, (06151) 296688."
+    },
+    {
+      "event_name": "Darmstädter Weihnachtsmarkt",
+      "candidate_url": "https://www.darmstadt-tourismus.de/en/events/christmas-market.html",
+      "reason": "Keine Bewerbungsfrist fuer Schausteller/Haendler auf offizieller Seite gefunden; Wirtschafts- bzw. Ordnungsamt Darmstadt direkt kontaktieren."
+    },
+    {
+      "event_name": "Offenbacher Weihnachtsmarkt (Standplaetze Schausteller)",
+      "candidate_url": "https://www.offenbach.de/vv/produkte/tsabus/festsetzung_von_messen__ausstellungen__maerkten_und_volksfesten_9106361.php",
+      "reason": "Gefundene Bewerbungsfrist (bis 22. Oktober, Start 14. September) betrifft nur die Vereinshuette fuer gemeinnuetzige Vereine, nicht die Schausteller-Standplaetze. Fuer Schausteller keine Frist auf offizieller Seite gefunden; Ordnungsamt Offenbach direkt kontaktieren."
+    },
+    {
+      "event_name": "Offenbacher Wäldchestag",
+      "candidate_url": "https://www.offenbach.de/vv/oe/verwaltung/Ordnungsamt.php",
+      "reason": "Keine Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden; Ordnungsamt Offenbach zustaendig, Bewerbermanager unter bewerbung.offenbach.de vorhanden, aber Fristdaten nicht auslesbar."
+    },
+    {
+      "event_name": "Hanauer Lamboyfest 2026",
+      "candidate_url": "https://www.hanau.de/freizeit/veranstaltungsreihen/lamboyfest/index.html",
+      "reason": "Termin bekannt (12.-14.06.2026), keine Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden."
+    },
+    {
+      "event_name": "Märchenhafter Weihnachtsmarkt Hanau 2026",
+      "candidate_url": "https://www.hanau.de/freizeit/veranstaltungsreihen/lamboyfest/index.html",
+      "reason": "Termin bekannt (23.11.-22.12.2026), keine Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden; Stadt Hanau direkt kontaktieren."
+    },
+    {
+      "event_name": "Rüsselsheimer Volksfeste 2026",
+      "candidate_url": "https://www.ruesselsheim.de/medien/pdfs-ruesselsheim.de/formulare/Bewerbungsformular-Volksfeste-2026.pdf",
+      "reason": "Offizielles Bewerbungsformular fuer Volksfeste 2026 existiert, Fristdatum aus dem PDF automatisiert nicht auslesbar. Stadt Ruesselsheim, Fachbereich Zentrales Veranstaltungswesen, direkt kontaktieren."
+    },
+    {
+      "event_name": "Friedberger Herbstmarkt (Wetteraukreis)",
+      "candidate_url": "https://www.friedberg-hessen.de/de/freizeit-tourismus/freizeit/veranstaltungen/herbstmarkt/",
+      "reason": "Termin bekannt (jaehrlich um den 3. Sonntag im September, Fr.-Di.), keine Bewerbungsfrist auf der offiziellen Stadtseite (friedberg-hessen.de) gefunden. Kontakt: Magistrat der Stadt Friedberg (Hessen), Mainzer-Tor-Anlage 6, 61169 Friedberg, stadt@friedberg-hessen.de, 06031 88-1."
+    },
+    {
+      "event_name": "Bad Nauheimer Christkindlmarkt",
+      "candidate_url": "https://www.bad-nauheim.de/frontend/0_dokumente/4_buergernah/politik/stadtrecht/kultur/5-70%20Christkindlmarkt%20-%20Teilnahmebedingungen.pdf",
+      "reason": "Offizielle Teilnahmebedingungen als PDF vorhanden, Fristdatum automatisiert nicht auslesbar. Stadt Bad Nauheim direkt kontaktieren."
+    },
+    {
+      "event_name": "Dietzenbacher Weinfest",
+      "candidate_url": "https://www.dietzenbach.de/Kultur-Freizeit/Kultur/Dietzenbacher-Capitol/Kultur/Feste-M%C3%A4rkte/Weinfest/F%C3%BCr-Aussteller/",
+      "reason": "Online-Bewerbung fuer Aussteller moeglich (Termin 24.07.-02.08.2026 laut Stadtseite bereits vorbei), konkretes Fristdatum nicht auf der Seite genannt. Kontakt: Chris Macudzinski, Kreisstadt Dietzenbach, Europaplatz 3, 63128 Dietzenbach, macudzinski@dietzenbach.de, 06074 373-308."
+    },
+    {
+      "event_name": "Dreieicher Stadtfest",
+      "candidate_url": "https://www.dreieich.de/rathaus-service/presse-medien/pressemitteilungen/2026/stadtfest-2026/",
+      "reason": "Termin bekannt (jaehrlich 3. Oktober), keine Bewerbungsfrist fuer Schausteller auf offizieller Stadtseite gefunden; Citymanagement Dreieich direkt kontaktieren."
+    },
+    {
+      "event_name": "Neu-Isenburger Altstadtfest",
+      "candidate_url": "https://www.neu-isenburg.de/pressemodul/pressemitteilungen/juni/altstadtfest",
+      "reason": "Termin 2026 bekannt (12.-14.06.2026), keine Bewerbungsfrist fuer Schausteller auf offizieller Stadtseite gefunden."
+    },
+    {
+      "event_name": "Merfeller Kerb 2027",
+      "candidate_url": "https://www.moerfelden-walldorf.de/de/aktuelles/presse/2025/oktober/moerfelder-kerb-2025-1/",
+      "reason": "Frist fuer 2026 (01.02.2026) bereits verstrichen, keine Dauerregel gefunden. Ausschreibung fuer 2027 noch nicht veroeffentlicht. Kontakt: Heike.Tobias@moerfelden-walldorf.de, Fachbereich Planen Bauen Umwelt, Westendstrasse 8, 64546 Moerfelden-Walldorf."
+    },
+    {
+      "event_name": "Rodgauer Kürbismarkt / Herbstmarkt",
+      "candidate_url": "https://gv-rodgau.de/rodgauer-kuerbisfest/",
+      "reason": "Termin bekannt (26. Oktober, Rodgau-Juegesheim), keine aktuelle Bewerbungsfrist auf der Veranstalterseite (Gewerbeverein Rodgau) gefunden; ein archivierter Anmeldeschluss war ohne Datum ('---')."
+    }
+  ]
+}

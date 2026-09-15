@@ -1,0 +1,111 @@
+{
+  "batch_id": "nrw-niederrhein-2026-09",
+  "region_scope": ["Nordrhein-Westfalen"],
+  "search_terms": [
+    "Krefeld Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Mönchengladbach Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Neuss Schausteller Bützchenfest Weihnachtsmarkt Bewerbung Frist",
+    "Kevelaer Schausteller Wallfahrt Weihnachtsmarkt Bewerbung Frist",
+    "Viersen Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Grevenbroich Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Dormagen Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Willich Nettetal Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Kleve Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Emmerich am Rhein Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Goch Geldern Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Xanten Kamp-Lintfort Rheinberg Straelen Schausteller Weihnachtsmarkt Bewerbung Frist"
+  ],
+  "max_expected_results": 40,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-13",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt Made in Krefeld Special (MIKS) 2026",
+      "candidate_url": "https://www.krefeld.de/weihnachtsmarkt-miks",
+      "reason": "Bewerbungsfrist war der 30.04.2026, Markt laut Stadt bereits vollstaendig ausgebucht und Anmeldungen nicht mehr moeglich."
+    },
+    {
+      "event_name": "Nikolausmarkt in Zons (Dormagen) 2026",
+      "candidate_url": "https://www.swd-dormagen.de/tourismus/nikolausmarkt-in-zons",
+      "reason": "Bewerbungsfrist war der 15.06.2026 (Markt 05.-06.12.2026), bereits verstrichen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Sprödentalkirmes Krefeld",
+      "candidate_url": "https://www.krefeld.de/sproedentalkirmes",
+      "reason": "Findet zweimal jaehrlich statt (120-130 Beschicker), keine Bewerbungsfrist auf offizieller Seite gefunden."
+    },
+    {
+      "event_name": "Rheydter Frühkirmes / Weihnachtsmarkt Mönchengladbach",
+      "candidate_url": "https://volksfeste-mg.de/termine.htm",
+      "reason": "Nicht-staedtischer Schaustellerverband (Volksfeste MG) fuehrt Termine, keine Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "Neusser Weihnachtsmarkt",
+      "candidate_url": "https://www.neuss.de/news/2023/11/23/neusser-weihnachtsmaerkte",
+      "reason": "Keine Bewerbungsfrist auf offizieller Stadtseite gefunden; Stadt Neuss direkt kontaktieren."
+    },
+    {
+      "event_name": "Kirmes Viersen-Dülken / Süchtelner Frühkirmes / Märchen- und Weihnachtsmarkt Süchteln",
+      "candidate_url": "https://www.viersen.de/kirmes-und-jahrmarkt",
+      "reason": "Bewerbung geht per Formular an citymanagement@viersen.de, kein Fristdatum auf der Seite genannt."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Grevenbroich",
+      "candidate_url": "https://www.grevenbroich.de/leben-in-grevenbroich/kultur-freizeit/brauchtum/weihnachtsmarkt",
+      "reason": "Keine Bewerbungsfrist auf offizieller Stadtseite gefunden."
+    },
+    {
+      "event_name": "WinterWelt Willich",
+      "candidate_url": "https://weihnachtsmarkt-willich.de/aussteller/",
+      "reason": "Laufende Nachbesetzung fuer das zweite Adventswochenende moeglich, kein festes Bewerbungsdatum; uebrige Huetten laut Seite bereits ausgebucht."
+    },
+    {
+      "event_name": "Klever Weihnachtsmarkt / Großkirmes Kleve 2027",
+      "candidate_url": "https://www.kleve.de/stadt-kleve/rathaus-informieren/aktuelles/klever-weihnachtsmarkt-sei-mit-deinem-klever-verein-dabei",
+      "reason": "Grosskirmes 2026 (11.-19.07.2026) bereits vorbei, kein Fristdatum fuer Schausteller gefunden (nur Vereins-Anmeldung fuer den Weihnachtsmarkt). Kontakt: Schaustellerverband Kleve-Geldern 1958 e.V., Daimlerstr. 2, 47533 Kleve."
+    },
+    {
+      "event_name": "Weihnachtsmarkt am Kapaunenberg Emmerich",
+      "candidate_url": "https://www.wfg-emmerich.de/veranstaltungskalender/weihnachtsmarkt-am-kapaunenberg",
+      "reason": "Keine Bewerbungsfrist gefunden. Kontakt: WfG Emmerich, Nonnenplatz 5, 46446 Emmerich am Rhein, info@wfg-emmerich.de, 02822 9310-0."
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Flachsmarkt Goch",
+      "candidate_url": "https://www.goch.de/rathaus-buergerservice/rathaus-digital/dienstleistungen/anmeldung-zum-flachsmarkt-bewerbung-als-haendler",
+      "reason": "Online-Anmeldung fuer den Flachsmarkt vorhanden, kein Fristdatum genannt; fuer den Weihnachtsmarkt keine eigene Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Geldern",
+      "candidate_url": "https://en.wikipedia.org/wiki/Geldern",
+      "reason": "Keine spezifischen Suchtreffer zu einer Bewerbungsfrist gefunden; Stadt Geldern direkt kontaktieren."
+    },
+    {
+      "event_name": "Kevelaerer Advents- und Krippenmarkt",
+      "candidate_url": "https://www.wallfahrt-kevelaer.de/30-kevelaerer-advents-und-krippenmarkt/",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Tourist-Information Kevelaer, tourismus@kevelaer.de, 02832 122-991; Kulturamt kultur@kevelaer.de, 02832 122-800."
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Markt Straelen",
+      "candidate_url": "https://en.wikipedia.org/wiki/Straelen",
+      "reason": "Keine spezifischen Suchtreffer zu Veranstaltungen oder Bewerbungsfristen gefunden; Stadt Straelen direkt kontaktieren."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Xanten (IGX)",
+      "candidate_url": "https://igx-xanten.de/",
+      "reason": "Bewerbungsformular ueber die IGX-Xanten-Seite (Werbegemeinschaft) vorhanden, kein Fristdatum gefunden."
+    },
+    {
+      "event_name": "Kamp-Lintforter Weihnachtsmarkt im Zechenpark",
+      "candidate_url": "https://www.deutsche-weihnachtsmaerkte.de/weihnachtsmarkt/in/nordrhein-westfalen/kamp-lintforter-weihnachtsmarkt-zechenpark-3138.html",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden; Stadt Kamp-Lintfort direkt kontaktieren."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Rheinberg",
+      "candidate_url": "https://www.niederrhein.de/weihnachtsmaerkte-niederrhein",
+      "reason": "Keine spezifischen Suchtreffer zu Bewerbungsfristen gefunden; Stadt Rheinberg direkt kontaktieren."
+    }
+  ]
+}

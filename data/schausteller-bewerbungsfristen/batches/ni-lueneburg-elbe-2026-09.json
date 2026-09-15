@@ -1,0 +1,151 @@
+{
+  "batch_id": "ni-lueneburg-elbe-2026-09",
+  "region_scope": ["Niedersachsen"],
+  "search_terms": [
+    "Lüneburg Schausteller Stadtfest Weihnachtsmarkt Bewerbung Frist Sammelausschreibung",
+    "Uelzen Schausteller Volksfest Weihnachtsmarkt Bewerbung Frist",
+    "Cuxhaven Schausteller Kutterfest Weihnachtsmarkt Bewerbung Frist",
+    "Göttingen Schausteller Volksfest Weihnachtsmarkt Bewerbung Frist Sammelausschreibung",
+    "Buxtehude Schausteller Volksfest Weihnachtsmarkt Bewerbung Frist",
+    "Winsen Luhe Schausteller Stadtfest Weihnachtsmarkt Bewerbung Frist",
+    "Soltau Schausteller Heidefest Weihnachtsmarkt Bewerbung Frist",
+    "Walsrode Schausteller Stadtfest Weihnachtsmarkt Bewerbung Frist",
+    "Verden Aller Schausteller Stadtfest Weihnachtsmarkt Bewerbung Frist",
+    "Rotenburg Wümme Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Zeven Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Bremervörde Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Otterndorf Schausteller Krabbenfest Weihnachtsmarkt Bewerbung Frist",
+    "Hameln Schausteller Rattenfängerfest Weihnachtsmarkt Bewerbung Frist",
+    "Hessisch Oldendorf Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Holzminden Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Northeim Einbeck Osterode Harz Schausteller Weihnachtsmarkt Bewerbung Frist"
+  ],
+  "max_expected_results": 40,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-13",
+  "entries": [
+    {
+      "id": "adventsleuchten-2026-rotenburg-wuemme",
+      "event_name": "Adventsleuchten (Weihnachtsmarkt) Rotenburg (Wümme) 2026",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Rotenburg (Wümme)",
+      "state": "Niedersachsen",
+      "country": "DE",
+      "venue_or_area": "Innenstadt Rotenburg (Wümme)",
+      "application_deadline_iso": "2026-10-31",
+      "application_deadline_text": "Satzung der Stadt Rotenburg (Wümme): 'Bewerbungsschluss ist der 31. Oktober jeden Jahres.'",
+      "event_date_range_text": "04.-06.12.2026 (2. Adventswochenende, laut Satzung: Freitag bis Sonntag)",
+      "application_mode": "Schriftliche/Online-Anmeldung bei der Stadtverwaltung",
+      "postal_address": "Stadt Rotenburg (Wümme), Große Str. 1, 27356 Rotenburg (Wümme)",
+      "contact_name": "Stadtverwaltung Rotenburg (Wümme)",
+      "contact_email": "stadt@rotenburg-wuemme.de",
+      "contact_phone": "04261 710",
+      "source_url": "https://www.rotenburg-wuemme.de/Bekanntmachungen/Satzung-der-Stadt-Rotenburg-Wuemme-zur-Regelung-des-Weihnachtsmarktes-Adventsleuchten.html",
+      "source_domain": "rotenburg-wuemme.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-13",
+      "agent_batch_id": "ni-lueneburg-elbe-2026-09",
+      "confidence_status": "partial",
+      "notes": "Statutarische Dauerregel aus der Weihnachtsmarktsatzung (verabschiedet 26.10.2023): Bewerbungsschluss jaehrlich 31. Oktober, schriftliche Zulassung ergeht bis Mitte November. Frist fuer 2026 (31.10.2026) liegt noch in der Zukunft, keine Ableitung noetig. Veranstaltungsdatum aus der Satzungsregel '2. Adventswochenende' fuer 2026 berechnet (04.-06.12.2026), nicht auf einer Seite explizit fuer 2026 bestaetigt."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Wintermärchen Buxtehude 2026",
+      "candidate_url": "https://www.buxtehude.de/portal/seiten/wintermaerchen-buxtehude-28-11-bis-28-12-2025--900001048-20351.html",
+      "reason": "Bewerbungsfrist war der 16.03.2026 (Markt 27.11.-24.12.2026), bereits verstrichen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Lüneburger Weihnachtsmarkt",
+      "candidate_url": "https://www.hansestadt-lueneburg.de/_Resources/Persistent/7/d/7/d/7d7d4b51b764e6079d9f5226ecdf692f57c90eb0/vergaberichtlinien_weihnachtsmarkt.pdf",
+      "reason": "Vergaberichtlinien (ca. 41 Standplaetze) gerichtlich bestaetigt, aber kein konkretes Fristdatum fuer 2026 gefunden. Bewerbungsportal existiert unter bewerbung.hansestadtlueneburg.de."
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Ostermarkt Uelzen",
+      "candidate_url": "https://www.schausteller.de/platzangebote/weihnachtsmarkt-in-uelzen-30471.html",
+      "reason": "Keine aktuelle Bewerbungsfrist gefunden; Kontakt Schaustellerverband Uelzen (superskooter@web.de) fuer den Ostermarkt bekannt, fuer den Weihnachtsmarkt nicht."
+    },
+    {
+      "event_name": "Cuxhavener Weihnachtsmarkt",
+      "candidate_url": "https://www.cuxhaven.de/_Resources/Persistent/8/7/8/f/878f42dd971cfb014dccc7d652d011069b12f970/Interessenbekundungsverfahren%202025%20Weihnachtsmarkt.pdf",
+      "reason": "Stadt fuehrt ein Interessenbekundungsverfahren fuer die Marktflaeche durch, Fristdatum aus dem PDF automatisiert nicht auslesbar."
+    },
+    {
+      "event_name": "Göttinger Weihnachtsmarkt / Ostermarkt / Lieselmarkt",
+      "candidate_url": "https://www.goettingen.de/buergerservice/dienstleistungen/taetigkeit-als-markthaendlerin-markthaendler-oder-schaustellerin-schausteller-aufnahme-900000311-0.html?myMedium=1",
+      "reason": "Suchmaschinen-Snippet nennt feste Fristen (Weihnachtsmarkt 31. Mai, Oster-/Lieselmarkt 15. Februar) aus dem Stadtrecht, konnte aber durch direkten Seitenabruf (PDF nicht lesbar, Dienstleistungsseite ohne Fristangabe) nicht verifiziert werden. Vor Uebernahme als Eintrag zwingend am Original-Stadtrecht gegenpruefen. Kontakt: S. Schneid, Neues Rathaus Zi. 210, Hiroshimaplatz 1-4, 37083 Goettingen, S.Schneid@goettingen.de."
+    },
+    {
+      "event_name": "Winsener Stadtfest 2027",
+      "candidate_url": "https://www.stadtfestwinsenluhe.de/",
+      "reason": "Frist fuer die 46. Auflage 2025 war der 31.10.2024 (veraltet); aktuelle Bewerbungsseite (stadtfestwinsenluhe.de/bewerben) lieferte HTTP 403. Kontakt: Stadt Winsen (Luhe), Olaf Brakhage."
+    },
+    {
+      "event_name": "Soltauer Weihnachtsmarkt",
+      "candidate_url": "https://www.soltau.de/home/aktuelles/veranstaltungskalender/veranstaltungs_highlights_der_stadt_soltau/soltauer_weihnachtsmarkt.aspx",
+      "reason": "Bewerbungsformular 'Bewerbung Standplatz Soltauer Maerkte' vorhanden, kein Fristdatum auf der Seite gefunden."
+    },
+    {
+      "event_name": "Frühjahrsmarkt / Herbstmarkt / Boitzer Markt / Stadtfest Walsrode",
+      "candidate_url": "https://www.stadt-walsrode.de/Kultur-Freizeit/Freizeit/M%C3%A4rkte-Feste/Jahrm%C3%A4rkte/",
+      "reason": "Online-Bewerbung moeglich, kein Fristdatum auf der Seite gefunden. Kontakt: Herr Kunert, Stadt Walsrode, Lange Str. 22, 29664 Walsrode, K.Kunert@walsrode.de, 05161 977-228."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Verden",
+      "candidate_url": "https://weihnachtsmarkt-verden.de/wp-content/uploads/2020/01/Bewerbung-VfV-2020-Schausteller-und-Gastro.pdf",
+      "reason": "Nicht-staedtischer Veranstalter 'Veranstaltung fuer Verden e.V.' bietet Bewerbungsformulare fuer Kunsthandwerker und Schausteller/Gastro an, aber kein aktuelles Fristdatum gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Zeven",
+      "candidate_url": "https://www.zeven.de/",
+      "reason": "Keine spezifischen Suchtreffer zu Bewerbungsfristen gefunden; Stadt Zeven direkt kontaktieren."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Bremervörde",
+      "candidate_url": "https://www.bremervoerde.de/rathaus-buergerservice/buergerservice/was-erledige-ich-wo-dienstleistungen/550-weihnachtsmaerkte",
+      "reason": "Wird vom Natur- und Erlebnispark GmbH organisiert, kein Fristdatum gefunden. Kontakt: Jenny Prinz-Claussen, Neue Str. 33 / Rathausmarkt 1, 27432 Bremervoerde, 04761 987-147."
+    },
+    {
+      "event_name": "Otterndorfer Sternenmarkt",
+      "candidate_url": "https://www.stadtmarketing-otterndorf.de/fileadmin/user/sternenmarkt/Teilnahmebedingungen_Sternenmarkt.pdf",
+      "reason": "Teilnahmebedingungen als PDF vorhanden (Markt 12.-14.12., Jahr nicht sicher 2026), Fristdatum automatisiert nicht auslesbar."
+    },
+    {
+      "event_name": "Hamelner Weihnachtsmarkt / Herbstmarkt",
+      "candidate_url": "https://www.hameln.de/de/veranstaltungen/weihnachtsmarkt",
+      "reason": "Bewerbungsformular fuer Beschicker und Kuenstler vorhanden, kein Fristdatum in den Suchtreffern gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Hessisch Oldendorf",
+      "candidate_url": "https://www.hessisch-oldendorf.de/portal/htmlformularpro/taetigkeit-als-markthaendler-in-oder-schausteller-in-aufnahme-900000040-33910.html",
+      "reason": "Online-Anmeldeformular fuer Markthaendler/Schausteller vorhanden, kein Fristdatum auf der Seite gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Holzminden 2026",
+      "candidate_url": "https://weihnachtsmarkt-holzminden.de/",
+      "reason": "Seite verweist auf 'Informationen folgen in Kuerze', kein Fristdatum vorhanden."
+    },
+    {
+      "event_name": "Northeimer MünsterWeihnacht",
+      "candidate_url": "https://www.deutsche-weihnachtsmaerkte.de/weihnachtsmarkt/in/niedersachsen/northeimer-muensterweihnacht-2032.html",
+      "reason": "Keine Bewerbungsfrist gefunden. Kontakt: Northeimer Gesellschaft fuer Wirtschaftsfoerderung, Marketing und Tourismus mbH, michael.eilers@nom-wmt.de, 05551 997960."
+    },
+    {
+      "event_name": "Einbecker Weihnachtsmarkt",
+      "candidate_url": "https://www.h-w-w.de/aktuelles/news/einladung-zu-den-hww-weihnachtsmaerkten-2024",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden; Stadt Einbeck direkt kontaktieren."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Osterode am Harz",
+      "candidate_url": "https://www.h-w-w.de/aktuelles/news/weihnachtsmaerkte-in-osterode-und-northeim-am-2122023",
+      "reason": "Keine Bewerbungsfrist gefunden. Kontakt: Tourismus und Marketing Osterode am Harz e.V., Kornmarkt 18, 37520 Osterode am Harz, info@HARZimpuls.de, 05522 9541800."
+    },
+    {
+      "event_name": "Celler Weihnachtsmarkt / Stadtfest (Querverweis)",
+      "candidate_url": "https://www.celle.de/loadDocument.phtml?FID=3747.2314.1&Ext=PDF",
+      "reason": "Celle wurde bereits in der Einheit ni-hannover-braunschweig (Batch ni-hannover-braunschweig-2026-09) recherchiert; dort als review_candidate dokumentiert, keine neuen Erkenntnisse in diesem Durchgang."
+    }
+  ]
+}

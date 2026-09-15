@@ -1,0 +1,115 @@
+{
+  "batch_id": "nrw-ruhr-west-2026-09",
+  "region_scope": ["Nordrhein-Westfalen"],
+  "search_terms": [
+    "Duisburg Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist Marktamt",
+    "Oberhausen Schausteller Weihnachtsmarkt Kirmes Bewerbung Frist",
+    "Essen Schausteller Weihnachtsmarkt Kirmes Bewerbung Frist Marktamt",
+    "Mülheim an der Ruhr Schausteller Weihnachtsmarkt Stadtfest Bewerbung Frist",
+    "Bottrop Schausteller Weihnachtsmarkt Kirmes Bewerbung Frist",
+    "Gladbeck Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Gelsenkirchen Schausteller Weihnachtsmarkt Kirmes Bewerbung Frist",
+    "Bochum Schausteller Weihnachtsmarkt Bochum Total Bewerbung Frist",
+    "Witten Schausteller Weihnachtsmarkt Stadtfest Bewerbung Frist",
+    "Hattingen Schausteller Weihnachtsmarkt Bewerbung Frist Altstadtfest",
+    "Wesel Schausteller Weihnachtsmarkt Bewerbung Frist Marktamt"
+  ],
+  "max_expected_results": 30,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-12",
+  "entries": [
+    {
+      "id": "weihnachtsmarkt-2027-muelheim-an-der-ruhr",
+      "event_name": "Weihnachtsmarkt Mülheim an der Ruhr 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Mülheim an der Ruhr",
+      "state": "Nordrhein-Westfalen",
+      "country": "DE",
+      "venue_or_area": "",
+      "application_deadline_iso": "2027-08-31",
+      "application_deadline_text": "Dauerregel laut Stadtseite: 'Eine Bewerbung ist möglich ab dem Oster-Kreativ-Markt bis zum 31. August.'",
+      "event_date_range_text": "",
+      "application_mode": "Schriftliche Bewerbung an den Kulturbetrieb",
+      "postal_address": "Kulturbetrieb Mülheim an der Ruhr, Viktoriastr. 20-22, 45468 Mülheim an der Ruhr",
+      "contact_name": "Silke Steinen, Kulturbetrieb Mülheim an der Ruhr",
+      "contact_email": "Silke.Steinen@muelheim-ruhr.de",
+      "contact_phone": "0208 4554121",
+      "source_url": "https://kultur.muelheim-ruhr.de/bewerbung/399",
+      "source_domain": "kultur.muelheim-ruhr.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-12",
+      "agent_batch_id": "nrw-ruhr-west-2026-09",
+      "confidence_status": "partial",
+      "notes": "Dauerregel woertlich auf der Stadtseite zitiert (Bewerbungsfenster jaehrlich vom Oster-Kreativ-Markt bis 31. August). Frist fuer 2026 (31.08.2026) bereits verstrichen; Datum fuer 2027 abgeleitet. Veranstaltungstermin und genauer Veranstaltungsort 2027 auf der Seite nicht genannt."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "City-Adventszauber Oberhausen 2026",
+      "candidate_url": "https://city-adventszauber.de/",
+      "reason": "Bewerbungsfrist war der 11.09.2026 (Markt 26.11.-20.12.2026 auf dem Altmarkt), zum Recherchezeitpunkt (12.09.2026) bereits verstrichen."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Mülheim an der Ruhr 2026",
+      "candidate_url": "https://kultur.muelheim-ruhr.de/bewerbung/399",
+      "reason": "Frist fuer 2026 (31.08.2026) bereits verstrichen. Folgejahrgang 2027 als partial-Eintrag oben abgeleitet."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Duisburger Weihnachtsmarkt",
+      "candidate_url": "https://www.duisburger-weihnachtsmarkt.de/",
+      "reason": "Bewerbungsformulare fuer Aussteller/Gastronomen vorhanden, kein Fristdatum auf der Seite gefunden. Duisburg Kontor bzw. Stadt Duisburg direkt kontaktieren."
+    },
+    {
+      "event_name": "Sterkrader Fronleichnamskirmes Oberhausen 2026",
+      "candidate_url": "https://www.fronleichnamskirmes.de/service/kirmesbuero.php",
+      "reason": "Termin bekannt (03.-08.06.2026), kein Fristdatum gefunden. Kirmesbuero im Technischen Rathaus, Bahnhofstrasse 66, Tel. 0151 7467 1292."
+    },
+    {
+      "event_name": "Essener Weihnachtsmarkt / Kirmes Essen",
+      "candidate_url": "https://kirmes-essen.de/schausteller",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden; Marktamt Essen direkt kontaktieren."
+    },
+    {
+      "event_name": "Karnevalskirmes Bottrop",
+      "candidate_url": "https://www.bottrop.de/veranstaltungen/aktuelles-zu-veranstaltungen/erste-infos-karnevalskirmes.php",
+      "reason": "Termin 2026 bekannt (12.-16.02.2026, bereits vorbei), keine Bewerbungsfrist fuer die naechste Ausgabe auf der Stadtseite gefunden."
+    },
+    {
+      "event_name": "Nikolausmarkt Gladbeck",
+      "candidate_url": "https://www.gladbeck.ruhr/index.asp?form=detail&db=404&id=4591",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Stadt Gladbeck, Willy-Brandt-Platz 2, 45964 Gladbeck, (02043) 99-0."
+    },
+    {
+      "event_name": "Gelsenkirchener Weihnachtsmarkt / Cranger Kirmes",
+      "candidate_url": "https://www.gelsenkirchen.de/de/freizeit/einkaufen/weihnachtsmaerkte.aspx",
+      "reason": "Termine bekannt (Weihnachtsmarkt ab 21.11., Cranger Kirmes traditionell Ende Juli/Anfang August), keine Bewerbungsfrist auf offizieller Seite gefunden."
+    },
+    {
+      "event_name": "Bochumer Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.bochum-tourismus.de/bochum-marketing-gmbh/ausstellerinformationen.html",
+      "reason": "Termin bekannt (19.11.-23.12.2026), Bewerbungsformular vorhanden, aber kein Fristdatum genannt. Seite nennt nur, dass die Bewerbung fuer WAT-kreativ 2027 im Dezember 2026 startet. Kontakt: Bochum Marketing GmbH, Huestrasse 21-23, 44787 Bochum, 0234 904960."
+    },
+    {
+      "event_name": "Wittener Weihnachtsmarkt",
+      "candidate_url": "https://stadtmarketing-witten.de/entdecken-erleben/veranstaltungen/weihnachtsmarkt",
+      "reason": "Termin bekannt (20.11.-23.12., Jahr auf Seite nicht eindeutig 2026 bestaetigt), keine Bewerbungsfrist gefunden. Kontakt: Stadtmarketing Witten, 02302 19433, info@stadtmarketing-witten.de."
+    },
+    {
+      "event_name": "Nostalgischer Weihnachtsmarkt Hattingen 2026",
+      "candidate_url": "https://www.hattingen-tourismus.de/en/events/christmas-market/",
+      "reason": "Termin bekannt (23.11.-22.12.2026), Bewerbungsfrist laut Seite erst ab November verfuegbar. Kontakt: Hattingen Marketing, Haldenplatz 3, 45525 Hattingen, (02324) 204 3095."
+    },
+    {
+      "event_name": "Hattinger Altstadtfest 2026",
+      "candidate_url": "https://www.hattingen.de/stadt_hattingen/Tourismus/Events/",
+      "reason": "Termin bekannt (29.-31.05.2026, bereits vorbei), keine Bewerbungsfrist fuer die naechste Ausgabe gefunden."
+    },
+    {
+      "event_name": "Adventmarkt am Dom / Vereinsfest Wesel",
+      "candidate_url": "https://www.wesel.de/rathaus-online/aktuelles/anmeldungen-fuer-vereinsfest-und-adventmarkt-wesel-gestartet",
+      "reason": "Anmeldeschluss fuer Vereine war 15.06.2026 (Vereinsfest) bzw. 30.06.2026 (Adventmarkt, Termin 27.-29.11.2026), beide bereits verstrichen; betrifft primaer Vereine, nicht gewerbliche Schausteller. Fuer gewerbliche Standbetreiber gilt laut allgemeiner Marktsatzung eine Frist von 4 Wochen vor Marktbeginn, ein eigenes Ausschreibungsdatum fuer Schausteller wurde nicht gefunden. Direkter Seitenabruf schlug mit HTTP 403 fehl."
+    }
+  ]
+}

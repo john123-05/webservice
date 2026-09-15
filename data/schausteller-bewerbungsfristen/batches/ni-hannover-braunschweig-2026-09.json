@@ -1,0 +1,116 @@
+{
+  "batch_id": "ni-hannover-braunschweig-2026-09",
+  "region_scope": ["Niedersachsen"],
+  "search_terms": [
+    "Wolfsburg Schausteller Weihnachtsmarkt Stadtfest Bewerbung Frist",
+    "Celle Schausteller Weihnachtsmarkt Stadtfest Bewerbung Frist Marktamt",
+    "Goslar Schausteller Marktamt Bewerbung Frist Fest Sammelseite",
+    "Wolfenbüttel Schausteller Weihnachtsmarkt Lessingmarkt Bewerbung Frist",
+    "Helmstedt Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Peine Schausteller Weihnachtsmarkt Stadtfest Bewerbung Frist",
+    "Gifhorn Schausteller Stadtfest Weihnachtsmarkt Bewerbung Frist",
+    "Langenhagen Schausteller Stadtfest Weihnachtsmarkt Bewerbung Frist",
+    "Laatzen Schausteller Stadtfest Weihnachtsmarkt Bewerbung Frist",
+    "Garbsen Schausteller Stadtfest Weihnachtsmarkt Bewerbung Frist",
+    "Lehrte Schausteller Stadtfest Weihnachtsmarkt Bewerbung Frist",
+    "Neustadt am Rübenberge Schausteller Stadtfest Bewerbung Frist"
+  ],
+  "max_expected_results": 30,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-12",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Weihnachtsstadt Peine 2026",
+      "candidate_url": "https://www.peine-erleben.de/service/gut-zu-wissen/bewerbung-weihnachtsstadt-peine-2026/",
+      "reason": "Bewerbungsfrist war der 01.07.2026, bereits verstrichen."
+    },
+    {
+      "event_name": "45. Gifhorner Altstadtfest 2026",
+      "candidate_url": "https://gifhorner-altstadtfest.eu/bewerbungen.html",
+      "reason": "Bewerbungsfenster lief vom 01.09.2025 bis 31.01.2026, bereits verstrichen. Veranstaltung selbst ist terminlich fix ('immer am vorletzten Wochenende im August'), Bewerbungsfenster fuer 2027 laut Seite aber noch nicht eroeffnet."
+    },
+    {
+      "event_name": "Walpurgis Goslar 2026",
+      "candidate_url": "https://www.meingoslar.de/veranstaltungen/infos-fuer-aussteller",
+      "reason": "Teil der Goslarer Sammelausschreibung; Bewerbungsfrist war der 15.02.2026, bereits verstrichen."
+    },
+    {
+      "event_name": "Gartenmarkt Goslar 2026",
+      "candidate_url": "https://www.meingoslar.de/veranstaltungen/infos-fuer-aussteller",
+      "reason": "Teil der Goslarer Sammelausschreibung; Bewerbungsfrist war der 22.02.2026, bereits verstrichen."
+    },
+    {
+      "event_name": "Kunsthandwerkermarkt Goslar 2026",
+      "candidate_url": "https://www.meingoslar.de/veranstaltungen/infos-fuer-aussteller",
+      "reason": "Teil der Goslarer Sammelausschreibung; Bewerbungsfrist war der 28.02.2026, bereits verstrichen."
+    },
+    {
+      "event_name": "Vienenburger Seefest 2026",
+      "candidate_url": "https://www.meingoslar.de/veranstaltungen/infos-fuer-aussteller",
+      "reason": "Teil der Goslarer Sammelausschreibung; Bewerbungsfrist war der 28.02.2026, bereits verstrichen."
+    },
+    {
+      "event_name": "Altstadtfest Goslar 2026",
+      "candidate_url": "https://www.meingoslar.de/veranstaltungen/infos-fuer-aussteller",
+      "reason": "Teil der Goslarer Sammelausschreibung; Bewerbungsfrist war der 15.03.2026, bereits verstrichen."
+    },
+    {
+      "event_name": "Weihnachtsmarkt & Weihnachtswald Goslar 2026",
+      "candidate_url": "https://www.meingoslar.de/fileadmin/media-goslar/erlebnis/veranstaltungen/2026/weihnachtsmarkt/zulassungsrichtlinien_weihnachtsmarkt_2026.pdf",
+      "reason": "Teil der Goslarer Sammelausschreibung (GOSLAR marketing gmbh); Bewerbungsfrist war der 28.02.2026, bereits verstrichen. Sammelseite mit 6 Veranstaltungen bestaetigt das in PLAN.md dokumentierte Muster; Nachfassdatum laut WORKLOG.md ist Februar 2027."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Wolfsburger Weihnachtsmarkt 2026 (Standbetreiber/Kreativhuetten)",
+      "candidate_url": "https://wmg-wolfsburg.de/projekt/weihnachtsmarkt/",
+      "reason": "Termin bekannt (23.11.-29.12.2026), Bewerbungsformular online, aber kein Fristdatum fuer 2026 auf der Seite auffindbar (2025er Frist war 31.03.2025, kein Dauerregel-Zitat). Kontakt: veranstaltungen@wmg-wolfsburg.de, 05361 89994-88."
+    },
+    {
+      "event_name": "Celler Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.celle.de/loadDocument.phtml?FID=3747.2314.1&Ext=PDF",
+      "reason": "Zulassungsrichtlinien 2026 als PDF vorhanden (Termin 23.11.-27.12.2026), Fristdatum aus dem PDF automatisiert nicht auslesbar. Marktamt Celle direkt kontaktieren."
+    },
+    {
+      "event_name": "Volksfest Goslar 2027",
+      "candidate_url": "https://www.volksfest-goslar.de/schausteller-2/",
+      "reason": "Nicht-staedtischer Veranstalter (Volksfest Goslar e.V., getrennt von der staedtischen Sammelausschreibung); Bewerbung fuer 2027 laut Seite bereits moeglich, aber kein konkretes Fristdatum genannt. Kontakt: Postfach 3447, 38634 Goslar."
+    },
+    {
+      "event_name": "Wolfenbuetteler Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.wolfenbuettel.de/Stadtleben/Veranstaltungskalender/Bewerbungsformulare-Standbetreiber/",
+      "reason": "Bewerbungsformulare fuer Standbetreiber vorhanden (Termin 25.11.-23.12., Jahr nicht sicher bestaetigt), kein Fristdatum auf der Seite gefunden. Kontakt: veranstaltungen@wolfenbuettel.de, 05331 86-0."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Helmstedt",
+      "candidate_url": "https://www.helmstedtaktuell.de/schausteller/",
+      "reason": "Bewerbungen gehen an Helmstedt aktuell/Stadtmarketing e.V., Markt 7/8, 38350 Helmstedt (Fax 05351 399348); kein konkretes Fristdatum auf der Seite gefunden."
+    },
+    {
+      "event_name": "Stadtfest Langenhagen 2027",
+      "candidate_url": "https://grimm-veranstaltung.de/",
+      "reason": "Stadtfest 2026 (17.-19.07.2026) bereits vorbei, Ausschreibung fuer 2027 noch nicht veroeffentlicht. Organisator Grimm-Veranstaltung, Tel. 0511 9999 5555, betreut auch Floh- und Antikmaerkte in Celle, Laatzen und Garbsen."
+    },
+    {
+      "event_name": "Laatzen Stadtfest / Weihnachtsmarkt",
+      "candidate_url": "https://www.laatzen.de/Veranstaltungen.167.0.html",
+      "reason": "Keine offizielle Bewerbungsfrist fuer Schausteller auf der Stadtseite gefunden; Stadtverwaltung Laatzen direkt kontaktieren."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Garbsen",
+      "candidate_url": "https://www.garbsen.de/portal/seiten/weihnachtszauber-2087056654-21200.html",
+      "reason": "Markt wird von einem externen Betreiber (Mr. Max Food Festivals) organisiert, keine Bewerbungsfrist fuer Schausteller auf der Stadtseite gefunden."
+    },
+    {
+      "event_name": "Lehrter Familien- und Stadtfest / Weihnachtsmarkt",
+      "candidate_url": "https://www.altkreisblitz.de/2025/05/25/familien-und-stadtfest-2025-verbindet-ganz-lehrte/",
+      "reason": "Termine bekannt (Stadtfest jaehrlich im Mai, Weihnachtsmarkt im Dezember), keine offizielle Bewerbungsfrist gefunden; Stadtmarketing Lehrte direkt kontaktieren."
+    },
+    {
+      "event_name": "Stadtfest Neustadt am Rübenberge",
+      "candidate_url": "https://www.neustadt-a-rbge.de/buergerservice/leistungen/NIS:entry:8665615:032410012012/standplatzgenehmigung/",
+      "reason": "Seite beschreibt nur das generelle Standplatzgenehmigungsverfahren, keine konkrete Frist fuer ein bestimmtes Fest; Stadtverwaltung direkt kontaktieren."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "batch_id": "by-franken-2026-09",
+  "region_scope": ["Bayern"],
+  "search_terms": [
+    "Ansbach Schausteller Kiliani Volksfest Bewerbung Frist Weihnachtsmarkt",
+    "Ansbach Volksfest Frühlingsfest Kärwa Bewerbung Schausteller Stadt Ansbach",
+    "Hof Saale Schausteller Volksfest Bewerbung Frist Weihnachtsmarkt",
+    "Hofer Volksfest Bewerbung Schausteller Stadt Hof Standplatz Frist",
+    "Kulmbach Schausteller Bierwoche Volksfest Bewerbung Frist",
+    "Lichtenfels Schausteller Volksfest Weihnachtsmarkt Bewerbung Frist",
+    "Kronach Schausteller Volksfest Weihnachtsmarkt Bewerbung Frist",
+    "Marktredwitz Schausteller Volksfest Weihnachtsmarkt Bewerbung Frist",
+    "Selb Schausteller Volksfest Weihnachtsmarkt Bewerbung Frist",
+    "Neustadt an der Aisch Schausteller Volksfest Bewerbung Frist",
+    "Gunzenhausen Schausteller Volksfest Bewerbung Frist",
+    "Weißenburger Volksfest Kärwa Bewerbung Schausteller Stadt Weißenburg Frist"
+  ],
+  "max_expected_results": 30,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-13",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Hofer Volksfest 2026",
+      "candidate_url": "https://www.100prozenthof.de/news/hof-informiert/hofer-volksfest-2026--anmeldungen-bis-zum-15-juni-2026-moeglich",
+      "reason": "Anmeldungen waren bis 15.06.2026 moeglich (Volksfest 24.07.-02.08.2026), Frist bereits verstrichen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Ansbacher Frühlingsfest 2027",
+      "candidate_url": "https://www.tourismus-ansbach.de/detail/id=68c7e44707ff7ecd9637ee98",
+      "reason": "Fest 2026 fand 08.-17.05.2026 statt. Veranstaltungsmanagement wurde 2025 privat neu vergeben (Eschenbacher/Lagermann/Schilling), ca. 60 Bewerbungen liefen bereits, aber kein offizielles Fristdatum auf einer staedtischen oder Veranstalterseite gefunden."
+    },
+    {
+      "event_name": "Kulmbacher Bierwoche 2027",
+      "candidate_url": "https://www.kulmbacher-bierwoche.de/wissenswertes/faq/",
+      "reason": "Termin 2026 bekannt (25.07.-02.08.2026, bereits vorbei), keine Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden."
+    },
+    {
+      "event_name": "Lichtenfelser Weihnachtsmarkt und Märchenwald 2026",
+      "candidate_url": "https://www.lichtenfels.de/rathaus-und-service/aktuelles/weihnachtsmarkt-und-maerchenwald",
+      "reason": "Termin bekannt (27.11.-23.12.2026), Seite verweist auf 'weitere Informationen folgen in Kuerze', kein Fristdatum vorhanden."
+    },
+    {
+      "event_name": "Lichtenfelser Schützen- und Volksfest",
+      "candidate_url": "https://www.frankenradar.de/events/lichtenfelser-schuetzen-und-volksfest-lichtenfels",
+      "reason": "Termin 2026 bekannt (10.-19.07.2026, bereits vorbei), keine Bewerbungsfrist fuer die naechste Ausgabe gefunden; Stadt Lichtenfels direkt kontaktieren."
+    },
+    {
+      "event_name": "Kronacher Weihnachtsmarkt (Festung Rosenberg)",
+      "candidate_url": "https://www.kronach.de/tourismus-kultur/veranstaltungen/index.html?ev%5Bid%5D=11611",
+      "reason": "Keine Bewerbungsfrist fuer Schausteller auf offizieller Stadtseite gefunden; Stadt Kronach direkt kontaktieren."
+    },
+    {
+      "event_name": "Rawetzer Volksfest / Weihnachtsmarkt Marktredwitz",
+      "candidate_url": "https://www.marktredwitz.de/aktivitaeten-und-erlebnisse/veranstaltungen/jaehrliche-veranstaltungen",
+      "reason": "Volksfest findet wegen Sanierung des Festplatzes am Auenpark statt, kein Fristdatum auf offizieller Stadtseite gefunden."
+    },
+    {
+      "event_name": "Volksfest / Weihnachtsmarkt Selb",
+      "candidate_url": "https://www.selb.de/",
+      "reason": "Keine spezifischen Informationen zu Veranstaltungen oder Bewerbungsfristen in der Suche gefunden; Stadt Selb direkt kontaktieren."
+    },
+    {
+      "event_name": "Neustadt an der Aisch Kirchweih",
+      "candidate_url": "https://www.neustadt-aisch.de/kalender",
+      "reason": "Kirchweih ist stark nachgefragt (ueber 100 Bewerbungen laut Stadt), aber kein Fristdatum auf offizieller Seite gefunden."
+    },
+    {
+      "event_name": "Gunzenhäuser Kirchweih / Bürgerfest",
+      "candidate_url": "https://www.gunzenhausen.info/feste/",
+      "reason": "Keine Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden. Kontakt: Tourist-Information Gunzenhausen, touristik@gunzenhausen.de, 09831 508300."
+    },
+    {
+      "event_name": "Weißenburger Kirchweih 2027",
+      "candidate_url": "https://kirchweih-wug.de/",
+      "reason": "Fest 2026 (14.-23.08.2026) bereits vorbei, weder auf der Veranstalterseite (Kirchweihausschuss Weissenburg e.V.) noch auf weissenburg.de eine Bewerbungsfrist fuer Schausteller gefunden. Kontakt: Kirchweihausschuss Weissenburg e.V., Goethestrasse 1, 91781 Weissenburg i.Bay."
+    }
+  ]
+}

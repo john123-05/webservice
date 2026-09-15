@@ -1,0 +1,73 @@
+{
+  "batch_id": "nachfasswelle-2026-09",
+  "region_scope": ["Hessen", "Nordrhein-Westfalen"],
+  "search_terms": [
+    "Schausteller Bewerbung Weihnachtsmarkt 2027 Frist Oktober 2026 Stadt Ausschreibung",
+    "\"Bewerbungsfrist\" Volksfest 2027 \"endet am\" 2026 Schausteller Stadt",
+    "Rheinkirmes Düsseldorf 2027 Schausteller Bewerbung Frist",
+    "Palmkirmes Recklinghausen 2027 Schausteller Bewerbung Frist",
+    "Paderborn Schausteller Bewerbung 2027 Frist Libori Sammelausschreibung",
+    "Nürnberger Ostermarkt 2027 Bewerbung Frist Schausteller Marktamt"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-13",
+  "entries": [
+    {
+      "id": "frankfurter-weihnachtsmarkt-2027-frankfurt-am-main",
+      "event_name": "Frankfurter Weihnachtsmarkt 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Frankfurt am Main",
+      "state": "Hessen",
+      "country": "DE",
+      "venue_or_area": "Innenstadt Frankfurt (Römerberg, Mainkai, Paulsplatz, Friedrich-Stoltze-Platz, Hauptwache, Roßmarkt)",
+      "application_deadline_iso": "2026-11-20",
+      "application_deadline_text": "'Die Bewerbungsfrist endet am 20.11.2026.' Bewerbungsformular ist ab 15.09.2026 online verfuegbar.",
+      "event_date_range_text": "",
+      "application_mode": "Online-Bewerbungsformular ueber visitfrankfurt.travel",
+      "postal_address": "",
+      "contact_name": "Tourismus+Congress GmbH Frankfurt am Main, Feste und Veranstaltungen",
+      "contact_email": "feste@infofrankfurt.de",
+      "contact_phone": "069 24745 5-300",
+      "source_url": "https://www.visitfrankfurt.travel/ueber-uns/kooperationen/standplatzbewerbung",
+      "source_domain": "visitfrankfurt.travel",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-13",
+      "agent_batch_id": "nachfasswelle-2026-09",
+      "confidence_status": "partial",
+      "notes": "Deutschlandweite Nachfass-Recherche (nicht an eine Queue-Einheit gebunden). Bewerbungsfrist fuer 2027 direkt auf offizieller Seite bestaetigt (Frist noch offen, keine Ableitung). Veranstaltungstermin 2027 auf der Seite noch nicht veroeffentlicht (2026 war 23.11.-22.12.2026), daher partial statt verified. Postadresse nicht auffindbar."
+    },
+    {
+      "id": "rheinkirmes-2027-duesseldorf",
+      "event_name": "Rheinkirmes Düsseldorf 2027",
+      "event_type": "Volksfest / Kirmes",
+      "city": "Düsseldorf",
+      "state": "Nordrhein-Westfalen",
+      "country": "DE",
+      "venue_or_area": "Kirmesgelände am Kaiser-Wilhelm-Ring, Düsseldorf-Oberkassel",
+      "application_deadline_iso": "2026-10-15",
+      "application_deadline_text": "'Bis zum 15. Oktober haben sie Zeit, sich auf die rund 300 Stellplaetze auf dem Kirmesgelaende zu bewerben.'",
+      "event_date_range_text": "16.-25.07.2027",
+      "application_mode": "Online-Bewerbung ueber bewerbung.rheinkirmes-duesseldorf.de",
+      "postal_address": "St. Sebastianus Schuetzenverein Duesseldorf 1316 Veranstaltungs-GmbH, Werftstrasse 23, 40549 Duesseldorf",
+      "contact_name": "St. Sebastianus Schuetzenverein Duesseldorf 1316 Veranstaltungs-GmbH",
+      "contact_email": "veranstaltungs-gmbh@schuetzen1316.de",
+      "contact_phone": "0211 8226 6777",
+      "source_url": "https://rheinkirmes-duesseldorf.de/informationen-fuer-schausteller/",
+      "source_domain": "rheinkirmes-duesseldorf.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-13",
+      "agent_batch_id": "nachfasswelle-2026-09",
+      "confidence_status": "partial",
+      "notes": "Deutschlandweite Nachfass-Recherche; dieser Termin stand bereits als faelliger Nachfassfall (Okt 2026) im WORKLOG.md. Frist und Veranstaltungstermin durch Presseartikel (t-online) bestaetigt; Detailseite mit offiziellen Richtlinien/PDF war per direktem Abruf nicht vollstaendig auslesbar, daher partial. Veranstalter ist ein nicht-staedtischer Schuetzenverein (Ausrichter der Rheinkirmes im Auftrag der Stadt Duesseldorf)."
+    }
+  ],
+  "rejected_candidates": [],
+  "review_candidates": [
+    {
+      "event_name": "Nürnberger Ostermarkt 2027",
+      "candidate_url": "https://www.nuernberg.de/internet/marktamt/ostermarkt.html",
+      "reason": "Bewerbungsfenster soll laut Marktamt erst 'Ende September 2026' oeffnen, am Recherchetag (13.09.2026) noch nicht aktiv; kein konkretes Fristdatum veroeffentlicht. Fuer die naechste Nachfasswelle Ende September vormerken."
+    }
+  ]
+}
