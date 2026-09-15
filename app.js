@@ -317,6 +317,28 @@ const initCookieBanner = () => {
       });
     });
 
+    // WhatsApp-Button-Klicks — generischer href-Selektor faengt alle wa.me-Links
+    // unabhaengig von Klassennamen (kontakt.html/anfrage.html nutzen .kontakt-wa-btn).
+    document.querySelectorAll('a[href*="wa.me"]').forEach((el) => {
+      el.addEventListener('click', () => {
+        window.gtag?.('event', 'whatsapp_click', {
+          event_category: 'engagement',
+          event_label: window.location.pathname,
+        });
+      });
+    });
+
+    // Service-Karten-Klicks (Startseite: Webdesign/SEO/Anzeigen) — zeigt, welche
+    // Leistung Besucher am meisten interessiert.
+    document.querySelectorAll('a.service-card').forEach((el) => {
+      el.addEventListener('click', () => {
+        window.gtag?.('event', 'service_card_click', {
+          event_category: 'engagement',
+          event_label: el.getAttribute('href') || '',
+        });
+      });
+    });
+
     // Scroll depth milestones — 25 / 50 / 75 / 90 %
     const scrollMilestones = [25, 50, 75, 90];
     const reachedMilestones = new Set();
