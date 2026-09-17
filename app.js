@@ -321,10 +321,45 @@ const initCookieBanner = () => {
     // unabhaengig von Klassennamen (kontakt.html/anfrage.html nutzen .kontakt-wa-btn).
     document.querySelectorAll('a[href*="wa.me"]').forEach((el) => {
       el.addEventListener('click', () => {
+        const eventData = {
+          content_name: (el.textContent?.trim() || 'WhatsApp').slice(0, 100),
+          page_path: window.location.pathname,
+        };
         window.gtag?.('event', 'whatsapp_click', {
           event_category: 'engagement',
           event_label: window.location.pathname,
         });
+        window.fbq?.('trackCustom', 'WhatsAppClick', eventData);
+      });
+    });
+
+    // Pro Video und Seitenaufruf genau einmal melden, sobald mindestens 25 % angesehen
+    // wurden. Damit kann im Ads Manager eine eigene Website-Video-Zielgruppe entstehen.
+    const videosTrackedAt25 = new WeakSet();
+    document.querySelectorAll('video').forEach((video) => {
+      video.addEventListener('timeupdate', () => {
+        if (videosTrackedAt25.has(video) || !Number.isFinite(video.duration) || video.duration <= 0) return;
+        if (video.currentTime / video.duration < 0.25) return;
+
+        videosTrackedAt25.add(video);
+        const source = video.currentSrc || video.getAttribute('src') || '';
+        const videoName = video.getAttribute('aria-label')
+          || video.getAttribute('title')
+          || source.split('/').pop()?.split('?')[0]
+          || 'Website-Video';
+        const eventData = {
+          content_name: videoName.slice(0, 100),
+          page_path: window.location.pathname,
+          video_percent: 25,
+        };
+
+        window.gtag?.('event', 'video_progress', {
+          event_category: 'engagement',
+          event_label: videoName.slice(0, 100),
+          value: 25,
+          page_path: window.location.pathname,
+        });
+        window.fbq?.('trackCustom', 'WebsiteVideo25', eventData);
       });
     });
 
@@ -396,13 +431,14 @@ const initCookieBanner = () => {
     document.head.appendChild(script);
   };
 
-  // Meta Pixel laeuft nur auf den Fristenkalender/Newsletter-Seiten, die fuer
-  // Instagram-Ads beworben werden - nicht sitewide.
-  const metaPixelPages = ['schausteller-bewerbungsfristen', 'fristenkalender', 'schausteller-websites'];
-  const isMetaPixelPage = metaPixelPages.some((slug) => window.location.pathname.includes(slug));
+  // Meta Pixel laeuft sitewide auf der echten ImpressRank-Domain. So koennen neben den
+  // Lead-Magneten auch Besucher einzelner Leistungsseiten retargetet werden, ohne lokalen
+  // oder Preview-Traffic in die Zielgruppen aufzunehmen.
+  const PIXEL_ALLOWED_HOSTS = ['impress-rank.de', 'www.impress-rank.de'];
+  const isPixelAllowedHost = PIXEL_ALLOWED_HOSTS.includes(window.location.hostname);
 
   const loadMetaPixel = () => {
-    if (!isMetaPixelPage || window.fbq) return;
+    if (!isPixelAllowedHost || window.fbq) return;
     /* eslint-disable */
     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
