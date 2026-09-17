@@ -1,0 +1,112 @@
+{
+  "batch_id": "st-gesamt-2026-09",
+  "region_scope": ["Sachsen-Anhalt"],
+  "search_terms": [
+    "Halberstadt Schausteller Weihnachtsmarkt Bewerbung Frist Marktamt",
+    "Wernigerode Schausteller Weihnachtsmarkt Bewerbung Standplatz Ordnungsamt",
+    "Quedlinburg Schausteller Weihnachtsmarkt Bewerbung Frist Standplatz",
+    "Lutherstadt Wittenberg Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Köthen Anhalt Schausteller Markt Bewerbung Frist Ordnungsamt",
+    "Bernburg Saale Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Weißenfels Schausteller Weihnachtsmarkt Bewerbung Frist Standplatz",
+    "Merseburg Schausteller Weihnachtsmarkt Bewerbung Frist Stadtverwaltung",
+    "Zeitz Schausteller Weihnachtsmarkt Bewerbung Frist Stadtverwaltung",
+    "Aschersleben Schausteller Weihnachtsmarkt Bewerbung Frist Stadtverwaltung",
+    "Sangerhausen Schausteller Markt Bewerbung Frist Stadtverwaltung",
+    "Schönebeck Elbe Schausteller Markt Bewerbung Frist Stadtverwaltung",
+    "Salzwedel Schausteller Markt Bewerbung Frist Stadtverwaltung"
+  ],
+  "max_expected_results": 25,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-16",
+  "entries": [
+    {
+      "id": "weihnachtsmarkt-2027-quedlinburg",
+      "event_name": "Quedlinburger Weihnachtsmarkt 2027 (Adventsstadt Quedlinburg)",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Quedlinburg",
+      "state": "Sachsen-Anhalt",
+      "country": "DE",
+      "venue_or_area": "Altstadt Quedlinburg (Adventsstadt)",
+      "application_deadline_iso": "2027-01-31",
+      "application_deadline_text": "Laut Teilnahmebedingungen jaehrlich wiederkehrender Bewerbungszeitraum 01.01. bis 31.01.; fuer den Weihnachtsmarkt 2027 daher voraussichtlich bis 31.01.2027 (aus Dauerregel abgeleitet, nicht explizit fuer 2027 veroeffentlicht).",
+      "event_date_range_text": "Voraussichtlich Ende November bis 22. Dezember (2025: 26.11.-22.12.2025)",
+      "application_mode": "Online-Bewerbungsportal der Quedlinburg-Tourismus-Marketing GmbH (Adventsstadt-Bewerbungsportal), schriftliches Vertragsangebot bis 31.03. des jeweiligen Jahres",
+      "postal_address": "Markt 4, 06484 Quedlinburg",
+      "contact_name": "Quedlinburg-Tourismus-Marketing GmbH (QTM)",
+      "contact_email": "qtm@quedlinburg.de",
+      "contact_phone": "+49 3946 905620",
+      "source_url": "https://adventsstadt.quedlinburg-info.de/de/informationen/bewerbungsportal/bewerbung-weihnachtsmarkt.html",
+      "source_domain": "adventsstadt.quedlinburg-info.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-16",
+      "agent_batch_id": "st-gesamt-2026-09",
+      "confidence_status": "partial",
+      "notes": "Dauerregel: Teilnahmebedingungen (zuletzt 2025 veroeffentlicht) nennen den Bewerbungszeitraum 01.01.-31.01. jaehrlich sowie Vertragsangebot bis 31.03. Termin und exakte Frist fuer den Markt 2027 wurden nicht als eigenstaendiges Dokument gefunden, daher konservativ als partial eingestuft."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt Halberstadt 2026-2030 (Betreiber-Ausschreibung)",
+      "candidate_url": "https://www.vergabepilot.ai/ausschreibungen/YPE29XE8YMNU/weihnachtsmarkt-halberstadt-2026-2030",
+      "reason": "Stadt Halberstadt schreibt einen neuen Betreiber/Veranstalter fuer den Weihnachtsmarkt 2026-2030 aus (Holzmarkt/Fischmarkt/Domplatz), keine individuelle Schausteller-Standplatzbewerbung. Bewerbungsfrist fuer die Betreiberausschreibung endete am 20.06.2026 und ist damit bereits abgelaufen; individuelle Standplatzvergabe haengt vom neu gewaehlten Betreiber ab und war zum Recherchezeitpunkt noch nicht bekannt."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Wernigeröder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.wernigerode-tourismus.de/fileadmin/Mediendatenbank/Wernigerode/pdf_dokumente/Weihnachtsmarktbewerbung/Anlage_1-Teilnahmebedingungen.pdf",
+      "reason": "Teilnahmebedingungen und Anmeldeformular fuer den Weihnachtsmarkt 2026 existieren auf der Seite der Wernigerode Tourismus GmbH; direkter PDF-Abruf lieferte 404, eine konkrete Bewerbungsfrist konnte daher nicht bestaetigt werden. Laut Marktsatzung entscheidet das Ordnungsamt Wernigerode ueber Marktzulassungen."
+    },
+    {
+      "event_name": "Aschersleber Weihnachtsmarkt 2026 (27.11.-20.12.2026)",
+      "candidate_url": "https://www.aschersleben-tourismus.de/Kunst-Kultur/Veranstaltungen/Aschersleber-Weihnachtsmarkt/",
+      "reason": "Online-Anmeldeformular fuer Haendler vorhanden, aber keine Bewerbungsfrist auf der Seite genannt. Kontakt: Aschersleber Kulturanstalt, Hecknerstrasse 6, 06449 Aschersleben, Tel. +49 3473 8409440, info@aschersleben-tourismus.de."
+    },
+    {
+      "event_name": "Merseburger Weihnachtszauber",
+      "candidate_url": "https://www.merseburg.de/de/weihnachtszauber.html",
+      "reason": "Veranstaltung auf offizieller Stadtseite bestaetigt, aber keine Bewerbungsinformationen fuer Schausteller/Haendler auf der Seite gefunden. Tourist-Information bzw. Stadtverwaltung Merseburg muesste direkt kontaktiert werden."
+    },
+    {
+      "event_name": "Weißenfelser Weihnachtsmarkt",
+      "candidate_url": "https://weissenfels.de/index.php?object=tx,3678.5.1&ModID=7&FID=3720.986.1",
+      "reason": "Veranstaltungstermin bekannt (zuletzt 27.11.-21.12.2025), keine Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden. Kontakt: Presse- und Oeffentlichkeitsarbeit Stadt Weissenfels, Markt 1, 06667 Weissenfels, Tel. +49 3443 370232, pressestelle@weissenfels.de."
+    },
+    {
+      "event_name": "Bernburger Stadtfeste und Maerkte (u.a. Heele-Christ-Markt)",
+      "candidate_url": "https://www.bernburg.de/de/stadtfeste-und-maerkte.html",
+      "reason": "Mehrere staedtische Maerkte/Feste (Heele-Christ-Markt, Mittelaltermarkt, Stadt- und Rosenfest, Klosterfest, Weinmarkt, Historisches Erntefest) auf Sammelseite gelistet, aber keine Bewerbungsinformationen fuer Schausteller gefunden. Kontakt: Stadtverwaltung Bernburg (Saale), Schlossgartenstrasse 16, 06406 Bernburg, Tel. 03471 659-0, stadt@bernburg.de."
+    },
+    {
+      "event_name": "Wittenberger Weihnachtsmarkt",
+      "candidate_url": "https://www.wittenberg.de/",
+      "reason": "Offizielle Unterseite mit Bewerbungsinformationen fuer Schausteller wurde nicht gefunden (verlinktes PDF und vermutete Unterseite lieferten 404). Kontakt laut Tourismusseite: Tourist-Information Lutherstadt Wittenberg, info@lutherstadt-wittenberg.de."
+    },
+    {
+      "event_name": "Marktwesen / Sondernutzung Köthen (Anhalt)",
+      "candidate_url": "https://www.koethen-anhalt.de/de/stadtverwaltung/organisationseinheit/19/ordnungs-_und_gewerbeabteilung_322.html",
+      "reason": "Zustaendige Abteilung fuer Marktwesen (Ordnungs- und Gewerbeabteilung) identifiziert, aber keine konkrete Marktveranstaltung mit Bewerbungsfrist fuer Schausteller gefunden."
+    },
+    {
+      "event_name": "Zeitzer Adventsmarkt",
+      "candidate_url": "https://www.zeitz.de/",
+      "reason": "Veranstaltung ueber Drittseiten bekannt (Altmarkt Zeitz), auf der offiziellen Stadtseite wurden keine Bewerbungsinformationen fuer Schausteller gefunden."
+    },
+    {
+      "event_name": "Maerkte/Feste Sangerhausen (u.a. Kobermaennchenfest)",
+      "candidate_url": "https://sangerhausen.de/",
+      "reason": "Keine offizielle Seite mit Bewerbungsinformationen fuer Schausteller gefunden. Kontakt: Stadtverwaltung Sangerhausen, Markt 7a, 06526 Sangerhausen, Tel. 03464/5650."
+    },
+    {
+      "event_name": "Maerkte/Volksfeste Schönebeck (Elbe)",
+      "candidate_url": "https://www.schoenebeck.de/de/dezernate-aemter.html",
+      "reason": "Keine dedizierte Markt-/Ordnungsamt-Seite mit Bewerbungsinformationen fuer Schausteller gefunden. Allgemeiner Kontakt: Stadtverwaltung Schoenebeck (Elbe), Markt 1, 39218 Schoenebeck (Elbe), Tel. 03928 710-101."
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Altstadtfest Salzwedel",
+      "candidate_url": "https://www.salzwedel.de/",
+      "reason": "Weihnachtsmarkt im Freizeit-Menue der Stadtseite erwaehnt, aber keine Bewerbungsinformationen fuer Schausteller gefunden. Kontakt: Hansestadt Salzwedel, An der Muenchskirche 5, 29410 Salzwedel, Tel. +49 3901 650, rathaus@salzwedel.de."
+    }
+  ]
+}

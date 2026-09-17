@@ -1,0 +1,114 @@
+{
+  "batch_id": "he-mittel-nordhessen-2026-09",
+  "region_scope": ["Hessen"],
+  "search_terms": [
+    "Kassel Schausteller Bewerbung Volksfest Marktamt Zulassung",
+    "Gießen Marburg Schausteller Bewerbung Elisabethmarkt Frist",
+    "Fulda Wetzlar Schausteller Bewerbung Weihnachtsmarkt Gallusmarkt",
+    "Limburg an der Lahn Schausteller Bewerbung Weihnachtsmarkt Kirmes",
+    "Bad Hersfeld Schausteller Bewerbung Lullusfest Krammarkt",
+    "Korbach Eschwege Schausteller Bewerbung Weihnachtsmarkt Kiliansmarkt",
+    "Baunatal Hofgeismar Schausteller Bewerbung Nikolausmarkt Altstadtfest",
+    "Alsfeld Lauterbach Schausteller Bewerbung Weihnachtsmarkt Vogelsberg",
+    "Herborn Dillenburg Schausteller Bewerbung Weihnachtsmarkt Winterzauber",
+    "Michelstadt Bensheim Heppenheim Schausteller Bewerbung Winzerfest Weihnachtsmarkt"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-16",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Ostermarkt / Pfingstmarkt Bad Hersfeld 2026 (Krammärkte)",
+      "candidate_url": "https://www.bad-hersfeld.de/maerkte/zulassungsantraege/krammaerkte.html",
+      "reason": "Bewerbungsfrist war 01.10.-31.12.2025 fuer Ostermarkt (01.04.2026) und Pfingstmarkt (20.05.2026); zum Stand 16.09.2026 bereits abgelaufen. Fuer weitere Krammaerkte 2026/2027 (Weihnachtsmarkt, Lulluskrammarkt) keine Fristangaben auf der Seite gefunden."
+    },
+    {
+      "event_name": "Alsfelder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.alsfeld.de/weihnachtsmarkt/",
+      "reason": "Bewerbungsfrist laut Stadt Alsfeld war der 31.07.2026 (Bewerbung an wirtschaftundstadtmarketing@stadt.alsfeld.de); zum Stand 16.09.2026 bereits abgelaufen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Kassel – diverse Jahrmärkte/Volksfeste (Marktamt/Schaustellerverband)",
+      "candidate_url": "http://www.vrms-kassel.de/ausschreibung.htm",
+      "reason": "Verein Reisender Marktkaufleute und Schausteller Kassel e.V. veroeffentlicht Ausschreibungen fuer Kasseler Jahrmaerkte; kein konkretes Bewerbungsfristdatum fuer 2027 auffindbar, kein separates staedtisches Marktamt-Bewerbungsformular mit Frist gefunden."
+    },
+    {
+      "event_name": "Marburger Elisabethmarkt 2026",
+      "candidate_url": "https://www.marburg.de/portal/seiten/marburger-elisabethmarkt-10-und-11-oktober-2026--900001325-23001.html",
+      "reason": "Termin 10.-11.10.2026 bestaetigt, Bewerbungsformulare fuer Aussteller und Gastronomen auf der Stadtseite vorhanden (Veranstalter Stadtmarketing Marburg e.V.), aber kein Bewerbungsfristdatum auf der Seite genannt. Kontakt: Universitaetsstadt Marburg, Markt 1, 35037 Marburg, Tel. 06421 201-0."
+    },
+    {
+      "event_name": "Wetzlarer Gallusmarkt 2026",
+      "candidate_url": "https://www.wetzlar.de/rathaus/aktuelles/pressemitteilungen/2025/oktober/gallusmarkt-ist-eroeffnet.php",
+      "reason": "Veranstalter Stadt-Marketing Wetzlar e.V., Domplatz 8, 35573 Wetzlar, Tel. 06441 992050, identifiziert; kein Bewerbungsfristdatum fuer Schausteller/Standplaetze gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt/Weihnachtsflair Wetzlar",
+      "candidate_url": "https://www.wetzlar.de/leben-in-wetzlar/veranstaltungen/index.php",
+      "reason": "Keine Bewerbungsinformationen fuer Schausteller auf offizieller Stadtseite auffindbar; Stadtverwaltung Wetzlar (Ernst-Leitz-Strasse 30, 35578 Wetzlar, Tel. 06441 115) als Kontakt identifiziert."
+    },
+    {
+      "event_name": "Wochenmarkt/Kirmes/Weihnachtsmarkt Limburg an der Lahn",
+      "candidate_url": "https://www.limburg.de/Rathaus-Leben/Aktuelles/Marktwesen.php?object=tx%2C3252.77.1",
+      "reason": "Vorbehalt: Seite bei automatisiertem Abruf wegen zu vieler Redirects nicht erreichbar (technischer Fehler). Tourist-Information Limburg, Barfuesserstrasse 6, 65549 Limburg a. d. Lahn, Tel. 06431 2030, info@stadt.limburg.de als Kontakt bekannt; kein Fristdatum bestaetigt."
+    },
+    {
+      "event_name": "Lullusfest Bad Hersfeld 2027",
+      "candidate_url": "https://lullusfest-verein.de/i/informationen-fuer-schausteller",
+      "reason": "Projektbuero Lullusfest, Am Markt 1, 36251 Bad Hersfeld, sowie Lullusfest-Verein (kontakt@lullusfest-verein.de) identifiziert; keine Bewerbungsfrist fuer 2027 auf der Seite genannt."
+    },
+    {
+      "event_name": "Korbacher Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.korbach.de/Tourismus/Erlebnisse/Veranstaltungen/Weihnachtsmarkt-2026-in-Korbach.php?object=tx%2C3889.4.1&ModID=11&FID=3889.170906.1&NavID=3889.65.1&La=1",
+      "reason": "Termin 08.12.2026, Parkplatz An der Kalkmauer, 34497 Korbach, bestaetigt. Bewerbungskontakt Anika Emde, Rathaus Korbach, Stechbahn 1, 34497 Korbach, anika.emde@korbach.de; kein Fristdatum genannt."
+    },
+    {
+      "event_name": "Eschweger Weihnachtsmarkt",
+      "candidate_url": "https://www.eschwege.de/stadt/stadtportraet/feste-und-maerkte.php",
+      "reason": "Keine Bewerbungsfrist fuer Schausteller auf offizieller Stadtseite gefunden; Kreisstadt Eschwege als allgemeiner Kontakt identifiziert, kein konkreter Ansprechpartner gefunden."
+    },
+    {
+      "event_name": "Nikolausmarkt Baunatal 2026",
+      "candidate_url": "https://stadtmarketing-baunatal.de/stadtmarketing/service-aussteller-standbetreiber/",
+      "reason": "Termin 04.-13.12.2026 bestaetigt, Anmeldeformular vorhanden, kein explizites Bewerbungsfristdatum genannt. Kontakt: Stadtmarketing Baunatal GmbH, Friedrich-Ebert-Allee 8a, 34225 Baunatal, Tel. 0561-953.795.80, info@stadtmarketing-baunatal.de."
+    },
+    {
+      "event_name": "Hofgeismarer Weihnachtsmarkt",
+      "candidate_url": "https://www.hofgeismar.de/hofgeismar-erleben/veranstaltungen/weihnachtsmarkt/",
+      "reason": "Aussteller-Bewerbungsformular auf Stadtseite vorhanden, Kontakt Stadtverwaltung Hofgeismar, Tel. 05671 999-037; kein Fristdatum fuer 2026 gefunden."
+    },
+    {
+      "event_name": "Altstadtfest Hofgeismar",
+      "candidate_url": "https://www.gemeinschaft-hofgeismar.de/events/",
+      "reason": "Veranstalter Gemeinschaft fuer Handel und Gewerbe Hofgeismar e.V. (stadtfeste@ghg-hofgeismar.de) ist kein staedtischer/behoerdlicher Veranstalter im engeren Sinn; kein Fristdatum gefunden."
+    },
+    {
+      "event_name": "Lauterbacher Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.lauterbach-hessen.de/stadtleben/feste-und-maerkte/bewerbung-maerkte-kontakt.html",
+      "reason": "Termin 04.-06. und 11.-13.12.2026 bestaetigt. Kontakt Tourist-Center Stadtmuehle, Svenja Schmidt/Saskia Kreit, Marktplatz 1, 36341 Lauterbach, Tel. 06641 184-118/107; kein Fristdatum gefunden."
+    },
+    {
+      "event_name": "Herborner Weihnachtsmarktplatz",
+      "candidate_url": "https://www.deutsche-weihnachtsmaerkte.de/weihnachtsmarkt/in/hessen/weihnachtsmarkt-herborn-452.html",
+      "reason": "Veranstalter Stadtmarketing Herborn GmbH, Bahnhofsplatz 1, 35745 Herborn, Tel. 02772 708-1900, tourist@herborn.de identifiziert; kein Bewerbungsfristdatum auf offizieller Quelle gefunden."
+    },
+    {
+      "event_name": "Dillenburger Winterzauber",
+      "candidate_url": "https://www.ortsdienst.de/hessen/lahn-dill-kreis/dillenburg/weihnachtsmarkt/",
+      "reason": "Veranstaltung wird laut Recherche von privater Eventagentur organisiert (nicht offizielle Behoerdenquelle); staedtischer Kontakt Magistrat der Oranienstadt Dillenburg, Rathausstr. 7, 35683 Dillenburg, Tel. 02771 896-151 bekannt, aber keine offizielle Bewerbungsseite mit Fristdatum gefunden."
+    },
+    {
+      "event_name": "Bergsträßer Winzerfest / Weihnachtsmarkt Bensheim",
+      "candidate_url": "https://bensheimerleben.de/veranstaltungen/feste-maerkte/",
+      "reason": "Keine Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden; Bensheim erleben/Verkehrsverein als Kontaktstelle identifiziert, kein konkretes Fristdatum bestaetigt."
+    },
+    {
+      "event_name": "Bergsträßer Weinmarkt / Nikolausmarkt Heppenheim",
+      "candidate_url": "https://www.heppenheim.de/heppenheim-erleben/kultur-events/staedtische-veranstaltungen/",
+      "reason": "Staedtische Veranstaltungsseite vorhanden (naechster Weinmarkt 26.06.-05.07.2026, bereits abgelaufen), aber keine Bewerbungsfrist oder Ansprechpartner fuer Schausteller-Bewerbung gefunden."
+    }
+  ]
+}

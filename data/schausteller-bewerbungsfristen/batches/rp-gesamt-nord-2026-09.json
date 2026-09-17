@@ -1,0 +1,122 @@
+{
+  "batch_id": "rp-gesamt-nord-2026-09",
+  "region_scope": ["Rheinland-Pfalz"],
+  "search_terms": [
+    "Koblenz Schausteller Rhein in Flammen Weihnachtsmarkt Bewerbung Standplatz Ordnungsamt",
+    "Trier Schausteller Weihnachtsmarkt Bewerbung Frist 2027",
+    "Neuwied Schausteller Weihnachtsmarkt Bewerbung Standplatz",
+    "Andernach Schausteller Kirmes Weihnachtsmarkt Bewerbung Standplatz",
+    "Mayen Schausteller Kirmes Weihnachtsmarkt Bewerbung Standplatz",
+    "Bad Neuenahr-Ahrweiler Schausteller Weinfest Weihnachtsmarkt Bewerbung Standplatz",
+    "Bitburg Schausteller Kirmes Bewerbung Standplatz",
+    "Wittlich Schausteller Weihnachtsmarkt Bewerbung Standplatz",
+    "Bernkastel-Kues Schausteller Weinfest Bewerbung Standplatz",
+    "Idar-Oberstein Schausteller Kirmes Weihnachtsmarkt Bewerbung Standplatz",
+    "Bad Kreuznach Schausteller Weihnachtsmarkt Bewerbung Standplatz",
+    "Simmern Hunsrück Schausteller Kirmes Bewerbung Standplatz",
+    "Boppard Schausteller Weinfest Weihnachtsmarkt Bewerbung Standplatz",
+    "Lahnstein Schausteller Kirmes Weihnachtsmarkt Bewerbung Standplatz",
+    "Montabaur Schausteller Kirmes Weihnachtsmarkt Bewerbung Standplatz",
+    "Westerburg Schausteller Markt Bewerbung Standplatz",
+    "Diez Lahn Schausteller Markt Bewerbung Standplatz",
+    "Cochem Schausteller Weinfest Weihnachtsmarkt Bewerbung Standplatz"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-16",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Bewerbungsrunde 2026 (Oster-/Fruehlingsmarkt, Standbetreiber, Musikprogramm) Cochem",
+      "candidate_url": "https://cochem.de/stadt-cochem/informationen-aussteller-bewerbungen-veranstaltungen/",
+      "reason": "Stadt Cochem listet diese Bewerbungsverfahren fuer 2026 explizit als 'beendet'; Frist bereits verstrichen, kein neues Datum fuer 2027 auf der Seite veroeffentlicht."
+    },
+    {
+      "event_name": "Nikolausmarkt Lahnstein 2025",
+      "candidate_url": "https://www.lahnstein.de/aktuelles/pressemeldungen/2025/september/nikolausmarkt-lahnstein-2025-jetzt-als-aussteller-anmelden/",
+      "reason": "Veranstaltung fand 5.-7.12.2025 statt, liegt vor dem Stichtag 2026-09-16; keine Ankuendigung/Frist fuer die Ausgabe 2026 auf der Stadtseite gefunden."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Trierer Weihnachtsmarkt (Neuvergabe ab 2027)",
+      "candidate_url": "https://www.trierer-weihnachtsmarkt.de/fragen-und-antworten",
+      "reason": "Stadt Trier bereitet Neuausschreibung des Betreibervertrags ab 2027 vor (bisheriger Betreiber Arbeitsgemeinschaft/Familie Bruch endet Ende 2026); Ausschreibungstext mit Bewerbungsfrist fuer Schausteller/Beschicker war zum Recherchezeitpunkt noch nicht veroeffentlicht. Stadt Trier direkt kontaktieren."
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Schaengelmarkt Koblenz",
+      "candidate_url": "https://www.koblenz.de/buergerservice/leistungen/RLP:entry:64766:ANLR-VLR/weihnachtsmarkt/",
+      "reason": "Standplatzvergabe erfolgt durch beauftragte Firma D. Koenitz GmbH (Hans-Boeckler-Str. 1a, 56070 Koblenz, Tel. 0261/983993-0, info@koenitz-ausstellungen.de); keine Bewerbungsfrist auf offizieller Stadtseite oder bei der Firma gefunden."
+    },
+    {
+      "event_name": "Rhein in Flammen Koblenz (Kirmesbereich Koblenzer Sommerfest)",
+      "candidate_url": "https://www.koblenz-touristik.de/geschaeftsfelder/event/informationen-fuer-veranstalter",
+      "reason": "Vergabe der Standplaetze liegt bei Koblenz-Touristik GmbH (event@koblenz-touristik.de, Tel. 0261 201775-71), Online-Bewerbungsformular fuer Schaustellerbetriebe vorhanden, aber keine Frist genannt."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Neuwied",
+      "candidate_url": "https://www.neuwied.de/6091.html",
+      "reason": "Stadt Neuwied fuehrt einheitliches Bewerbungsverfahren mit eigenem Formular fuer alle Maerkte/Feste; Kontakt kirmes@neuwied.de, Amt fuer Stadtmarketing, 56562 Neuwied; kein konkretes Fristdatum fuer den Weihnachtsmarkt gefunden (Formular auch fuer die bereits im Master erfasste Heddesdorfer Pfingstkirmes zustaendig)."
+    },
+    {
+      "event_name": "Andernacher Michelsmarkt 2026",
+      "candidate_url": "https://www.blick-aktuell.de/Andernach/Andernacher-Michelsmarkt-2026-mit-neuen-Attraktionen-und-erweitertem-Krammarkt-673823.html",
+      "reason": "Veranstaltung 25.-29.09.2026, organisiert von der Stadt Andernach (Kulturamt, Ansprechpartnerin laut Presseartikel Annika Sarrazin); offizielle Andernacher Stadtseite mit Bewerbungsformular/-frist fuer Schausteller wurde nicht gefunden (Andernach-Kultur-Subdomain nicht erreichbar/404)."
+    },
+    {
+      "event_name": "Lukasmarkt und Weihnachtsmarkt Mayen",
+      "candidate_url": "https://www.mayen.de/kultur-tourismus/kultur/maerkte/",
+      "reason": "Stadt Mayen fuehrt eigene Vergaberichtlinien fuer den Lukasmarkt (ca. 40 Standplaetze auch beim Weihnachtsmarkt); Vergaberichtlinien-Unterseite war beim Abruf nicht erreichbar (404), konkrete Bewerbungsfrist daher nicht bestaetigt. Kontakt: Stadtverwaltung Mayen, Tel. 02651 88-0, info@mayen.de."
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Krammaerkte Bad Neuenahr-Ahrweiler",
+      "candidate_url": "https://www.bad-neuenahr-ahrweiler.de/die-stadt/stadtportrait/maerkte/",
+      "reason": "Weihnachtsmarkt-Termin 2026 bekannt (15.12.2026, Ahrtorparkplatz Ahrweiler), aber keine Bewerbungsfrist fuer Schausteller auf der offiziellen Stadtseite gefunden. Kontakt: Stadtverwaltung, Tel. 02641 87-100, stadt@bad-neuenahr-ahrweiler.de."
+    },
+    {
+      "event_name": "Beda-Markt / Kirmes Bitburg",
+      "candidate_url": "https://www.bitburg.de/freizeit-und-veranstaltungen/beda-markt/",
+      "reason": "Naechster Termin laut Stadtseite 20./21.03.2027 ('Save the Date'); keine Bewerbungsfrist fuer Schausteller veroeffentlicht. Kontakt: Stadtmarketing Bitburg, Talweg 4, 54634 Bitburg, Tel. 06561 9442-100, info@stadtmarketing-bitburg.de."
+    },
+    {
+      "event_name": "Weinfest der Mittelmosel Bernkastel-Kues 2027",
+      "candidate_url": "https://www.bernkastel.de/weinfest-der-mittelmosel/mitwirken",
+      "reason": "Offizielle Mitwirken-Seite mit getrennten Online-Bewerbungsformularen fuer Rummel/Schausteller, Wein- und Speisestaende vorhanden; Termin 2027 und Bewerbungsfrist auf der Seite nicht genannt. Kontakt: Michelle Roehl (m.roehl@bernkastel.de, Tel. 06531 5001913) bzw. Elena Hilger (e.hilger@bernkastel.de, Tel. 06531 961956), Kulturamt Bernkastel-Kues."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Hammerstein / Friedenslicht-Weihnachtsmarkt Untertage Idar-Oberstein",
+      "candidate_url": "https://www.idar-oberstein.de/:translation/en/idar-oberstein/kalender/veranstaltungen/2025/12/2025-12-13-weihnachtsmarkt-hammerstein/",
+      "reason": "Weihnachtsmarkt wird laut Stadtkalender vom FoeV-Kulturverein am 3. Adventswochenende organisiert; kein offizieller Bewerbungsweg, keine Frist und kein direkter Kontakt fuer Schausteller auf der Stadtseite gefunden."
+    },
+    {
+      "event_name": "Maimarkt Simmern/Hunsrueck",
+      "candidate_url": "https://www.rhein-zeitung.de/lokales/rhein-hunsrueck-zeitung/maimarkt-bringt-volksfeststimmung-nach-simmern_arid-4125541.html",
+      "reason": "Groesste Kirmes im Hunsrueck (Marktgelaende rund um Schloss, Schlossplatz, Schulstrasse, Bruehlplatz); keine offizielle Stadt- oder Veranstalterseite mit Bewerbungsverfahren/-frist gefunden, nur Presse- und Facebook-Praesenz."
+    },
+    {
+      "event_name": "Bopparder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.boppard.de/aktuelles/bopparder-weihnachtsmarkt-2026-jetzt-fuer-einen-standplatz-anmelden/",
+      "reason": "Termin 27.11.-06.12.2026 bestaetigt, Bewerbung ueber Tourist Information Boppard (Altes Rathaus am Marktplatz, Tel. 06742 3888, tourist@boppard.de) oder online moeglich, aber kein konkretes Fristdatum auf der Stadtseite genannt."
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Wintermarkt Montabaur",
+      "candidate_url": "https://www.vg-montabaur.de/buergerservice/leistungen/RLP:entry:117145:ANLR-VLR/weihnachtsmarkt/",
+      "reason": "VG Montabaur nennt nur allgemeine Beschreibung des Weihnachtsmarkts, keine Bewerbungsfrist. Kontakt: Sachgebiet Kultur/Jugend/Erwachsenenbildung, Konrad-Adenauer-Platz 8, 56410 Montabaur, Tel. 02602 126-0, info@montabaur.de."
+    },
+    {
+      "event_name": "Wittlicher Weihnachtstage",
+      "candidate_url": "https://www.wittlich.de/de/leben-in-wittlich/kultur/veranstaltungen/bewerbung/",
+      "reason": "Eigene Bewerbungsseite des Kulturamts mit Online-Formular/E-Mail-Bewerbung vorhanden (Kulturamt Stadt Wittlich, Neustrasse 2, 54516 Wittlich, Tel. 06571 1466-0, info@kulturamt.wittlich.de); kein konkretes Fristdatum fuer die Wittlicher Weihnachtstage genannt (andere Veranstaltung als die bereits im Master erfasste Saeubrennerkirmes)."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Bad Kreuznach",
+      "candidate_url": "https://www.bad-kreuznach.de/buergerservice/leistungen/RLP:entry:72313:ANLR-VLR/weihnachtsmarkt/",
+      "reason": "Eigene Leistungsseite der Stadt vorhanden, verweist auf Sachgebiet Messen und Maerkte; kein Fristdatum fuer den Weihnachtsmarkt gefunden (andere Veranstaltung als der bereits im Master erfasste Jahrmarkt mit Frist 15.10.). Kontakt: Stadtverwaltung Bad Kreuznach, Kornmarkt 5, 55543 Bad Kreuznach, Tel. 0671 800-0, stadtverwaltung@bad-kreuznach.de."
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Aussteller Cochem",
+      "candidate_url": "https://cochem.de/stadt-cochem/informationen-aussteller-bewerbungen-veranstaltungen/",
+      "reason": "Stadt Cochem bietet Bewerbungsunterlagen fuer mehrere Veranstaltungen (Weihnachtsmarkt, Heimat- und Weinfest, Kinderfest u.a.); Bewerbungen laufen ausschliesslich online, aktuelles Fristdatum fuer 2026/2027 auf der Seite nicht genannt. Kontakt: Malena Bersem, Tourist-Information Ferienland Cochem, Endertplatz 1, 56812 Cochem, Tel. 02671 6004-35, veranstaltungen@ferienland-cochem.de."
+    }
+  ]
+}

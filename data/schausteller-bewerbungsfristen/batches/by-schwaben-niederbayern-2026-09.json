@@ -1,0 +1,108 @@
+{
+  "batch_id": "by-schwaben-niederbayern-2026-09",
+  "region_scope": ["Bayern"],
+  "search_terms": [
+    "Augsburg Kempten Neu-Ulm Memmingen Kaufbeuren Schausteller Bewerbung Standplatz Jahrmarkt Volksfest",
+    "Nördlingen Donauwörth Günzburg Dillingen an der Donau Schausteller Bewerbung Frist",
+    "Lindau Sonthofen Schausteller Bewerbung Jahrmarkt Zulassung",
+    "Passau Straubing Deggendorf Schausteller Bewerbung Standplatz Volksfest Dult",
+    "Landau an der Isar Dingolfing Vilshofen an der Donau Freyung Schausteller Bewerbung Kirta Volksfest"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-16",
+  "entries": [
+    {
+      "id": "dingolfinger-kirta-2027-dingolfing",
+      "event_name": "Dingolfinger Kirta 2027",
+      "event_type": "Volksfest/Jahrmarkt",
+      "city": "Dingolfing",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Festplatz Dingolfing",
+      "application_deadline_iso": "2026-11-09",
+      "application_deadline_text": "Bewerbungen muessen bis spaetestens Montag, 09.11.2026, per Post im Rathaus Dingolfing eingegangen sein (Eingangsstempel massgeblich).",
+      "event_date_range_text": "15. bis 20. Oktober 2027",
+      "application_mode": "Ausschliesslich postalisch (kein Online- oder E-Mail-Antrag moeglich)",
+      "postal_address": "Stadt Dingolfing, Dr.-Josef-Hastreiter-Str. 2, 84130 Dingolfing",
+      "contact_name": "Corinna Schwimmbeck",
+      "contact_email": "corinna.schwimmbeck@dingolfing.de",
+      "contact_phone": "+49 8731 501-140 / 501-145",
+      "source_url": "https://www.dingolfinger-kirta.de/ausschreibung-2025-1",
+      "source_domain": "dingolfinger-kirta.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-16",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09",
+      "confidence_status": "verified",
+      "notes": "Offizielle Ausschreibung der Stadt Dingolfing fuer die Kirta 2027; Betriebe ueber 33,5 m Frontlaenge/24 m Tiefe sowie bestimmte Branchen (u.a. Wahrsagerei, Erotikartikel) sind ausgeschlossen."
+    }
+  ],
+  "rejected_candidates": [],
+  "review_candidates": [
+    {
+      "event_name": "Jahrmarkt Kempten (Himmelfahrtsmarkt/Kathreinemarkt)",
+      "candidate_url": "https://www.kempten.de/jahrmarkt-5313.html",
+      "reason": "Laut Jahrmarktsatzung/Presseauskuenften muessen Bewerbungen ca. 6 Wochen vor Marktbeginn eingehen (Dauerregel); der naechste noch nicht abgelaufene Termin (Himmelfahrtsmarkt 2027) ist am 16.09.2026 offiziell noch nicht terminiert, daher keine konkrete Frist ableitbar. Kathreinemarkt 2026 (23.-31.10.2026) hatte bereits eine verstrichene Bewerbungsfrist (~04.09.2026). Kontakt: Kempten Messe- und Veranstaltungs-Betrieb, Herr Sven Wegmann, Grosser Kornhausplatz 1, 87439 Kempten."
+    },
+    {
+      "event_name": "Memminger Jahrmarkt",
+      "candidate_url": "https://www.memmingen.de/aktuelles/singlenews-aktuelles/news/detail/News/neun-tage-voller-nervenkitzel-nostalgie-und-jahrmarktsspass.html",
+      "reason": "Stadt bestaetigt jaehrlich hunderte Bewerbungen (zuletzt ca. 400) fuer den Jahrmarkt (Samstag vor Galli/16.10. bis Sonntag nach Galli), aber keine offizielle Bewerbungsfrist oder Zustaendigkeitsseite mit Formular gefunden. Kontakt: Stadt Memmingen Pressestelle, Marktplatz 1, 87700 Memmingen, pressestelle@memmingen.de."
+    },
+    {
+      "event_name": "Taenzelfest Kaufbeuren (Festplatz-Schausteller)",
+      "candidate_url": "https://www.taenzelfest.de/besuchen/festplatz/schausteller",
+      "reason": "Offizielle Seite des Taenzelfestvereins bestaetigt, dass die Schausteller-Belegung fuer 2027 noch nicht feststeht; kein Bewerbungsformular oder Frist veroeffentlicht. Kontakt: Taenzelfestverein e.V., Tel. +49 8341 2828, info@taenzelfest.de."
+    },
+    {
+      "event_name": "Guenzburger Jahrmarkt (Fastenmarkt/Maimarkt/Herbstmarkt/Kathreinmarkt)",
+      "candidate_url": "https://www.guenzburg.de/kultur-feste/feste-maerkte/",
+      "reason": "Stadtseite bietet einen Download 'Bewerbung Jahrmarkt' als PDF an, jedoch ohne erkennbare Bewerbungsfrist im Fliesstext. Kontakt Volksfest/Jahrmarkt: Frau Faessler, Stadtverwaltung Guenzburg, Schlossplatz 1, 89312 Guenzburg, Tel. 08221 903-0."
+    },
+    {
+      "event_name": "Guenzburger Volksfest 2026",
+      "candidate_url": "https://www.guenzburg.de/kultur-feste/volksfest/",
+      "reason": "Termin 07.-16.08.2026 bestaetigt, aber Bewerbungsverfahren/Frist fuer Schausteller nicht auf der Seite dokumentiert."
+    },
+    {
+      "event_name": "Donauwoerther Jahrmarkt/Maimarkt",
+      "candidate_url": "https://www.ortsdienst.de/bayern/donau-ries/donauwoerth/volksfest/",
+      "reason": "Keine offizielle Stadt- oder Veranstalterseite mit Bewerbungsinformationen fuer Schausteller gefunden; Stadt Donauwoerth direkt kontaktieren."
+    },
+    {
+      "event_name": "Dillinger Fruehling / Nikolai-Markt Dillingen a.d.Donau",
+      "candidate_url": "https://www.dillingen-donau.de/tourismus/veranstaltungen/veranstaltungskalender",
+      "reason": "Dillinger Fruehling (Volksfest mit ca. 30 Schaustellerbetrieben, Donaupark) und Nikolai-Markt bestaetigt, aber keine offizielle Bewerbungsfrist oder Formular auf der Stadtseite gefunden."
+    },
+    {
+      "event_name": "Lindauer Jahrmarkt",
+      "candidate_url": "https://www.lindau.de/lindau-erleben/veranstaltungen/lindauer-jahrmarkt/",
+      "reason": "Bewerbungsfrist fuer 2025/2026 ist laut Stadt Lindau bereits abgelaufen; naechste Bewerbungsmoeglichkeit laut Stadt erst ab Fruehjahr 2027 fuer den Jahrmarkt am 06.-10.11.2026 (Termin liegt vor Fruehjahr 2027, daher vermutlich fuer 2028 gemeint - auf offizieller Seite nicht eindeutig). Kontakt: Marktamt Lindau, Bregenzer Strasse 12, 88131 Lindau, Tel. 08382 918-319, marktamt@lindau.de."
+    },
+    {
+      "event_name": "Volksfest Sonthofen",
+      "candidate_url": "https://www.allgaeu.de/veranstaltungen/volksfest-sonthofen",
+      "reason": "Termin (10 Tage im Juni/Juli, Marktanger) bekannt, aber keine offizielle Bewerbungsfrist gefunden. Kontakt: Innenstadtmanagement & Wirtschaftsfoerderung Stadt Sonthofen, Andreas Maier, andreas.maier@sonthofen.de, Tel. +49 8321 615228."
+    },
+    {
+      "event_name": "Volksfest Landau a.d. Isar",
+      "candidate_url": "https://www.landau-isar.de/feste-und-feiern/",
+      "reason": "Termin (Wochenende Peter und Paul, Ende Juni, Festwiese Harburger Strasse) bekannt, aber keine Bewerbungsfrist auf offizieller Stadtseite gefunden. Kontakt: Gewerbeamt Stadt Landau a.d.Isar, Tel. (09951) 941-0, stadt.landau@landau-isar.de."
+    },
+    {
+      "event_name": "Traditionelles Volksfest Vilshofen an der Donau",
+      "candidate_url": "https://www.vilshofen.de/freizeit-geniessen/was-ist-los-in-vilshofen/veranstaltungs-highlights/volksfest",
+      "reason": "Stadtseite verweist auf ein Dokument 'Schaustellerbetriebe-Fieranten_2026.pdf' (bereits zugelassene Betriebe), aber kein Bewerbungsformular oder Frist fuer neue Bewerbungen auffindbar. Kontakt: Rathaus Vilshofen, Stadtplatz 27, Tel. 08541 208-0, info@vilshofen.de."
+    },
+    {
+      "event_name": "Volksfest Freyung",
+      "candidate_url": "https://www.freyung.de/de/kultur-und-kulinarik/feste/volksfest.html",
+      "reason": "Naechster Termin 25.-29.06.2027 bestaetigt, aber keine Bewerbungsfrist oder Kontakt fuer Schausteller auf der Stadtseite gefunden. Kontakt: Tourist-Info Freyung, Stadtplatz 10, 94078 Freyung, Tel. +49 8551 588150, touristinfo@freyung.de."
+    },
+    {
+      "event_name": "Neu-Ulm (eigene Schausteller-Veranstaltung)",
+      "candidate_url": "https://vmvgmbh.com/",
+      "reason": "Kein eigenes Volksfest/Jahrmarkt der Stadt Neu-Ulm gefunden; die VMV GmbH (Organisator des Ulmer Volksfests/Fruehjahrsmarkts/Herbstmarkts) hat lediglich ihren Firmensitz in Neu-Ulm (Daimlerstrasse 16), die Veranstaltungen selbst finden in Ulm (Baden-Wuerttemberg) statt und faellt daher nicht in den Scope 'Bayern/Neu-Ulm'."
+    }
+  ]
+}

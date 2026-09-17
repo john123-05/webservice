@@ -1,0 +1,98 @@
+{
+  "batch_id": "mv-gesamt-2026-09",
+  "region_scope": ["Mecklenburg-Vorpommern"],
+  "search_terms": [
+    "Rostock Schausteller Standplatz Bewerbung Frist Weihnachtsmarkt 2026",
+    "Schwerin Schausteller Bewerbung Weihnachtsmarkt Frist Marktamt",
+    "Stralsund Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Wismar Schausteller Weihnachtsmarkt Bewerbung Frist Standplatz",
+    "Güstrow Schausteller Weihnachtsmarkt Bewerbung Frist Marktamt",
+    "Waren Müritz Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Neustrelitz Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Parchim Schausteller Markt Bewerbung Frist Stadtverwaltung",
+    "Bergen auf Rügen Schausteller Markt Bewerbung Frist",
+    "Anklam Schausteller Markt Bewerbung Frist",
+    "Pasewalk Schausteller Markt Bewerbung Frist",
+    "Ueckermünde Schausteller Markt Bewerbung Frist",
+    "Ribnitz-Damgarten Schausteller Markt Bewerbung Frist",
+    "Grevesmühlen Schausteller Markt Bewerbung Frist"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-17",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Rostocker Weihnachtsmarkt 2026 (Händler/Schausteller)",
+      "candidate_url": "https://www.rostocker-weihnachtsmarkt.de/de/unser-weihnachtsmarkt/fuer-haendler-und-schausteller/",
+      "reason": "Bewerbungsfrist fuer 2026 lief bereits am 01.12.2025 ab. Fuer 2027 (Markt 23.11.-22.12.2027) laeuft die Frist bis 01.12.2026, dieser Eintrag ist bereits als 'Hanse Sail / Weihnachtsmarkt Rostock 2027'-Reihe in master.json vorhanden (deadline 2026-12-01), daher keine neue Zeile."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Schweriner Weihnachtsmarkt (Der Stern im Norden)",
+      "candidate_url": "https://www.weihnachtsmarkt-schwerin.de/fragen-und-antworten/",
+      "reason": "Offizielle Veranstalterseite vorhanden (Markt startet traditionell Montag vor 1. Advent bis 30.12.), aber keine Bewerbungsfrist oder Kontaktformular fuer Schausteller/Haendler auffindbar. Stadt Schwerin / Marktamt direkt kontaktieren."
+    },
+    {
+      "event_name": "Stralsunder Weihnachtsmarkt 2026 (Fahrgeschaefte, Gastronomie, Kunsthandwerk)",
+      "candidate_url": "https://www.stralsunder-weihnachtsmarkt.de/fuer-aussteller/jetzt-bewerben",
+      "reason": "Veranstalter SWS Stadtwerke Stralsund GmbH, Frankendamm 7, 18439 Stralsund, Tel. 03831/2410, E-Mail weihnachtsmarkt@stadtwerke-stralsund.de. Online-Bewerbungsformular vorhanden, aber kein konkretes Fristdatum auf der Seite genannt."
+    },
+    {
+      "event_name": "Wismarer Weihnachtsmarkt (Standplatz-Bewerbung)",
+      "candidate_url": "https://www.wismar.de/B%C3%BCrger/B%C3%BCrgerservice/Dienstleistungen-A-Z/Markt-Marktst%C3%A4nde-Standgenehmigung-.php?object=tx,2634.2&ModID=10&FID=125.213.1&sNavID=2634.48&mNavID=2634.48&NavID=2634.48&La=1&ort=Wismar",
+      "reason": "Hansestadt Wismar, BuergerServiceCenter, Am Markt 1 (Rathaus), 23966 Wismar, Tel. 03841 251-0, E-Mail bsc@wismar.de. Seite beschreibt Standgenehmigungsverfahren fuer Schausteller/Beschicker, aber kein konkretes Fristdatum genannt; direkte Rueckfrage noetig."
+    },
+    {
+      "event_name": "Güstrower Adventszauber / Advent am Markt",
+      "candidate_url": "https://www.guestrow.de/advent-am-markt",
+      "reason": "Barlachstadt Guestrow, Karin Bartock (Oeffentlichkeitsarbeit), Markt 1, 18273 Guestrow, Tel. 03843 769-103, karin.bartock@guestrow.de. Veranstaltung wird 2026 von der Stadt neu ausgeschrieben (Interessenbekundungsverfahren fuer Ausrichter, Frist bereits im Mai 2026 verstrichen); Bewerbungsfrist fuer einzelne Schausteller/Haendler-Standplaetze nicht auffindbar."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Waren (Müritz)",
+      "candidate_url": "https://www.innenstadt-waren.de/",
+      "reason": "Veranstalter Innenstadt Waren e.V., Friedensstrasse 4, 17192 Waren (Mueritz). Markt findet im Dezember statt, ca. 25 Beschicker, aber keine Bewerbungsfrist oder Bewerbungsformular auf der Vereinsseite gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt im Tiergarten Neustrelitz",
+      "candidate_url": "https://www.neustrelitz.de/",
+      "reason": "Stadtinformation Neustrelitz, Am Markt 1, 17235 Neustrelitz, Tel. 03981 253-119; Tiergarten Neustrelitz, Am Tiergarten 14, 17235 Neustrelitz, Tel. 03981 204490. Keine Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden."
+    },
+    {
+      "event_name": "Martinimarkt Parchim 2026",
+      "candidate_url": "https://www.parchim.de/de/tourismus-kultur/veranstaltungen/martinimarkt/",
+      "reason": "Stadt Parchim, Fachbereich 3 / Sachgebiet Ordnung und Sicherheit, Blutstrasse 5, 19370 Parchim, Tel. 03871 71-0, kontakt@parchim.de. Markttermin 06.-09.11.2026 bestaetigt, Bewerbungsunterlagen fuer 2027 in Vorbereitung, aber kein konkretes Fristdatum fuer 2026 auf der Seite genannt."
+    },
+    {
+      "event_name": "Markt-/Standplatzvergabe Bergen auf Rügen",
+      "candidate_url": "https://www.stadt-bergen-auf-ruegen.de/",
+      "reason": "Marktgebuehrensatzung der Stadt Bergen auf Ruegen vorhanden, keine spezifische Bewerbungsseite oder Frist fuer Schausteller gefunden. Stadtverwaltung direkt kontaktieren."
+    },
+    {
+      "event_name": "Schaustellermarkt / Marktwesen Anklam",
+      "candidate_url": "https://www.anklam.de/",
+      "reason": "Hansestadt Anklam, Markt 3, 17389 Anklam, Tel. 03971 835-118, E-Mail i.beu@anklam.de. Kein konkretes Marktevent mit Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden."
+    },
+    {
+      "event_name": "Wochenmarkt / Marktwesen Pasewalk",
+      "candidate_url": "https://www.pasewalk.de/aktuelles/wochenmarkt/",
+      "reason": "Stadt Pasewalk, Ansprechpartnerin Claudia Grosse, Tel. 03973 251-105. Nur Wochenmarkt-Informationen gefunden, kein Schausteller-Bewerbungsverfahren mit Frist auf offizieller Seite."
+    },
+    {
+      "event_name": "Standplatzgenehmigung für Märkte Ueckermünde",
+      "candidate_url": "https://www.ueckermuende.de/buergerservice/dienstleistungen/standplatzgenehmigung-fuer-maerkte-beantragen-900000153-0.html",
+      "reason": "Stadt Ueckermuende, Gewerbeamt Frau Susann Brock, Rathaus 4/5 Zi. 301, Am Rathaus 5, 17373 Ueckermuende, Tel. 039771-28482, E-Mail gewerbe@ueckermuende.de. Standplatzgenehmigungsverfahren beschrieben, aber kein konkretes Fristdatum genannt."
+    },
+    {
+      "event_name": "Marktwesen / Gewerbe Ribnitz-Damgarten",
+      "candidate_url": "https://www.ribnitz-damgarten.de/buergerservice/online-dienste/gewerbe",
+      "reason": "Stadt Ribnitz-Damgarten, Am Markt 1, 18311 Ribnitz-Damgarten, Tel. 03821 8934-001. Gewerbe-/Reisegewerbeinformationen vorhanden, aber kein spezifisches Schausteller-Marktevent mit Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "Marktwesen / Ausschreibungen Grevesmühlen",
+      "candidate_url": "https://www.grevesmuehlen.de/rathaus/ausschreibungen.html",
+      "reason": "Stadt Grevesmuehlen fuehrt eine allgemeine Ausschreibungsseite, aber kein Schausteller-spezifisches Marktevent mit Bewerbungsfrist gefunden. Stadtverwaltung direkt kontaktieren."
+    }
+  ]
+}

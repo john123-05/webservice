@@ -1,0 +1,135 @@
+{
+  "batch_id": "th-gesamt-2026-09",
+  "region_scope": ["Thüringen"],
+  "search_terms": [
+    "Gera Schausteller Weihnachtsmarkt Bewerbung Frist Marktamt",
+    "Gotha Schausteller Weihnachtsmarkt Bewerbung Standplatz",
+    "Eisenach Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Suhl Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Mühlhausen Thüringen Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Altenburg Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Arnstadt Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Saalfeld Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Sonneberg Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Meiningen Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Apolda Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Sömmerda Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Gera Händlerinformationen Bewerbung Märchenmarkt Bewerbungsfrist",
+    "Eisenach Wartburgstadt Weihnachtsmarkt Bewerbung Schausteller schriftliche Bewerbung",
+    "Apolda Lichterfest Bewerbung Schausteller Stadtverwaltung site:apolda.de",
+    "Sömmerda Kunstweihnachtsmarkt Bewerbung Schausteller Stadtverwaltung"
+  ],
+  "max_expected_results": 25,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-16",
+  "entries": [
+    {
+      "id": "weihnachtsmarkt-2026-sonneberg",
+      "event_name": "Sonneberger Weihnachtsmarkt 2026",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Sonneberg",
+      "state": "Thüringen",
+      "country": "DE",
+      "venue_or_area": "",
+      "application_deadline_iso": "2026-10-30",
+      "application_deadline_text": "30.10.2026",
+      "event_date_range_text": "10. bis 13. Dezember 2026",
+      "application_mode": "Bewerbung über Anmeldeformulare, abrufbar unter sonneberg.de/rathaus/verwaltung/kultur.html; Stadtverwaltung Sonneberg ruft Schausteller, Markthändler, Vereine und Einrichtungen zur Bewerbung für Volksfeste und Märkte 2026 auf.",
+      "postal_address": "Bahnhofsplatz 1, 96515 Sonneberg",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "03675 880-0",
+      "source_url": "https://sonneberg.de/aktuelles/beitrag/nach-dem-fest-ist-vor-dem-fest-sonneberg-sucht-mitwirkende-fuer-volksfeste-und-maerkte-2026.html",
+      "source_domain": "sonneberg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-16",
+      "agent_batch_id": "th-gesamt-2026-09",
+      "confidence_status": "partial",
+      "notes": "Konkretes Datum fuer 2026 genannt (30.10.2026), Bewerbungsweg ueber Formulare auf sonneberg.de beschrieben; jedoch keine namentliche Kontaktperson, keine spezifische Bewerbungs-Postadresse und kein konkreter Veranstaltungsort auf der Quellseite genannt, daher 'partial' statt 'verified'. Die Sammelseite listet zusaetzlich fuenf weitere Sonneberger Veranstaltungen 2026, deren Bewerbungsfristen bereits verstrichen sind (siehe rejected_candidates)."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Altenburger Weihnachtsmarkt 2026 (Standplatzbewerbung)",
+      "candidate_url": "https://www.abg-net.de/aktuelles/inhalte/pressemitteilungen/2026/03/bewerben-sie-sich-fuer-standplaetze-auf-dem-altenburger-weihnachtsmarkt-2026",
+      "reason": "Bewerbungsfrist war der 31.03.2026 (Bewerbung mit Foto und technischen Daten an Stadtverwaltung Altenburg, Fachdienst Ordnung und Verkehr, Markt 1, 04600 Altenburg / gewerbe@stadt-altenburg.de); Frist bereits verstrichen (heutiges Datum 16.09.2026). Veranstaltung selbst (27.11.-29.12.2026) liegt noch in der Zukunft, aber die Bewerbungsphase ist abgeschlossen."
+    },
+    {
+      "event_name": "Sonneberger Erlebnismarkt mit verkaufsoffenem Sonntag & 6h Citykartrennen 2026",
+      "candidate_url": "https://sonneberg.de/aktuelles/beitrag/nach-dem-fest-ist-vor-dem-fest-sonneberg-sucht-mitwirkende-fuer-volksfeste-und-maerkte-2026.html",
+      "reason": "Veranstaltung 9.-10. Mai 2026, Bewerbungsfrist war 15.04.2026, bereits verstrichen."
+    },
+    {
+      "event_name": "Sonneberger Vogelschießen 2026",
+      "candidate_url": "https://sonneberg.de/aktuelles/beitrag/nach-dem-fest-ist-vor-dem-fest-sonneberg-sucht-mitwirkende-fuer-volksfeste-und-maerkte-2026.html",
+      "reason": "Veranstaltung 4.-12. Juli 2026, Bewerbungsfrist war 15.05.2026, bereits verstrichen."
+    },
+    {
+      "event_name": "Oberlinder Kirchweih 2026 (Sonneberg)",
+      "candidate_url": "https://sonneberg.de/aktuelles/beitrag/nach-dem-fest-ist-vor-dem-fest-sonneberg-sucht-mitwirkende-fuer-volksfeste-und-maerkte-2026.html",
+      "reason": "Veranstaltung 17.-20. Juli 2026, Bewerbungsfrist war 15.06.2026, bereits verstrichen."
+    },
+    {
+      "event_name": "Stadt- und Museumsfest 2026 (Sonneberg)",
+      "candidate_url": "https://sonneberg.de/aktuelles/beitrag/nach-dem-fest-ist-vor-dem-fest-sonneberg-sucht-mitwirkende-fuer-volksfeste-und-maerkte-2026.html",
+      "reason": "Veranstaltung 25.-27. September 2026, Bewerbungsfrist war 15.07.2026, bereits verstrichen."
+    },
+    {
+      "event_name": "Oberlinder Bauernmarkt 2026 (Sonneberg)",
+      "candidate_url": "https://sonneberg.de/aktuelles/beitrag/nach-dem-fest-ist-vor-dem-fest-sonneberg-sucht-mitwirkende-fuer-volksfeste-und-maerkte-2026.html",
+      "reason": "Veranstaltung 10.-11. Oktober 2026, Bewerbungsfrist war 15.09.2026, bereits verstrichen (einen Tag vor Recherchedatum 16.09.2026)."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Arnstädter Weihnachtsmarkt 2026 (Advent unter Turm)",
+      "candidate_url": "https://www.arnstadt.de/veranstaltungen/bewerbung",
+      "reason": "Offizielle Veranstaltungsbewerbung der Stadt Arnstadt mit PDF-Formular ('Bewerbung_Veranstaltungen_Maerkte_26.pdf') fuer Haendler/Schausteller/Gastronomen; keine explizite Bewerbungsfrist auf der Seite genannt. Kontakt: Marktmeister Carsten Roemhildt (03628 745756) / Thomas Zeisse (03628 745719), markt@stadtverwaltung.arnstadt.de, Markt 1, 99310 Arnstadt."
+    },
+    {
+      "event_name": "Geraer Märchenmarkt (Weihnachtsmarkt) 2026",
+      "candidate_url": "https://www.gera.de/maerkte-und-feste/maerkte-sondermaerkte/haendlerinformation",
+      "reason": "Antragsformular 'Antrag Zulassungserlaubnis Maerchenmarkt 2026' online verfuegbar, aber keine Bewerbungsfrist auf der Seite genannt. Kontakt: Marktmeister Marko Schwaberau, marktmeister@gera.de, 0175 7285981, Schlossstrasse 1, 07545 Gera."
+    },
+    {
+      "event_name": "Mühlhäuser Weihnachtsmarkt 2026 / Mühlhäuser Stadtkirmes 2026",
+      "candidate_url": "https://www.muehlhausen.de/rathaus-erkunden/stadtverwaltung/kultur-sport-ehrenamt-klimaschutz/marktwesen/",
+      "reason": "Bewerbungsformular 'Bewerbung Maerkte Stadt Muehlhausen' fuer mehrere Maerkte (u.a. Weihnachtsmarkt 09.-13.12.2026, Kirmesmarkt 28.08.2026) vorhanden, aber keine Bewerbungsfrist genannt. Kontakt: Referat 2 Kultur/Sport/Ehrenamt/Klimaschutz, Melanie Dennstedt, 03601 452298, Postfach 1243, 99962 Muehlhausen/Thueringen."
+    },
+    {
+      "event_name": "Sühler Chrisamelmart (Weihnachtsmarkt Suhl) 2026",
+      "candidate_url": "https://www.suhl.eu/maerkte-feste",
+      "reason": "Antragsformulare ('Antrag auf Standzuweisung', Marktsatzung, Marktgebuehrensatzung) vorhanden, aber keine Bewerbungsfrist fuer den Suehler Chrisamelmart genannt. Kontakt: Stadtverwaltung Suhl, Marktplatz 1, 98527 Suhl, poststelle@stadtsuhl.de, 03681 74-0."
+    },
+    {
+      "event_name": "Eisenacher Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.eisenach.de/service/pressemitteilungen/pressemitteilung-im-detail/gute-zukunftsaussichten-fuer-den-eisenacher-weihnachtsmarkt/",
+      "reason": "Weihnachtsmarkt wird seit Ende 2024 von privatem Betreiber (Familie Hofmann-Jehn, 5-Jahres-Vertrag) organisiert; keine Bewerbungsfrist oder oeffentliche Ansprechperson fuer Schausteller auf offizieller Stadtseite gefunden."
+    },
+    {
+      "event_name": "Gothaer Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.gothaer-weihnachtsmarkt.de/staende",
+      "reason": "Wird von der KulTourStadt Gotha GmbH organisiert (Hauptmarkt 17, 99867 Gotha, Tel. 03621 510-430); Staende-/Haendlerseite vorhanden, aber keine Bewerbungsfrist genannt."
+    },
+    {
+      "event_name": "Meininger Weihnachtszauber 2026",
+      "candidate_url": "https://meiningen.de/meininger-innenstadt/maerkte-und-sondermaerkte",
+      "reason": "Termin 2026 bekannt (23.11.-21.12.2026), aber keine Bewerbungsfrist auf offizieller Seite gefunden. Ansprechstelle: Tourist-Information Meiningen, Ernestinerstrasse 2, 98617 Meiningen, 03693 4465-0."
+    },
+    {
+      "event_name": "Saalfelder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.saalfeld.de/leben_in_saalfeld/kultur_freizeit/maerkte/weihnachtsmarkt/",
+      "reason": "Keine Bewerbungsfrist fuer 2026 auf offizieller Stadtseite veroeffentlicht (nur Termin 2025 gelistet). Ansprechpartner: Thomas Schilling, Stadtverwaltung Saalfeld, Tel. 03671 3595916."
+    },
+    {
+      "event_name": "27. Apoldaer Lichterfest 2026",
+      "candidate_url": "https://www.apolda.de/tourismus-kultur/veranstaltungen-kultur/maerkte-stadtfeste/lichterfest/antrag-zum-lichterfest-in-apolda",
+      "reason": "Termin 2026 bekannt (27.-29.11.2026), Online-Antragsformular mit Standgebuehrenstaffel (2,50-15,00 EUR je laufender Meter) vorhanden, aber keine Bewerbungsfrist genannt. Kontakt: Stadtverwaltung Apolda, Markt 1, 99510 Apolda, 03644 6500 / Tourist-Information 03644 650100."
+    },
+    {
+      "event_name": "Sömmerdaer Kunstweihnachtsmarkt 2026",
+      "candidate_url": "https://www.soemmerda.de/tourismus-kultur/veranstaltungen/einzelansicht/18-kunstweihnachtsmarkt",
+      "reason": "Wird von der Stadt- und Kreisbibliothek Soemmerda mit Kunsthandwerkern im Dreyse-Haus ausgerichtet, kein klassischer Schausteller-/Kirmes-Markt; keine Bewerbungsfrist oder Schausteller-spezifische Ausschreibung gefunden."
+    }
+  ]
+}

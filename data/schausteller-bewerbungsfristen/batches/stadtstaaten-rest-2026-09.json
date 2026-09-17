@@ -1,0 +1,88 @@
+{
+  "batch_id": "stadtstaaten-rest-2026-09",
+  "region_scope": ["Berlin", "Hamburg", "Bremen"],
+  "search_terms": [
+    "Berlin Bezirksamt Weihnachtsmarkt Marktamt Schausteller Bewerbung 2026",
+    "Hamburg Bezirksamt Weihnachtsmarkt Schausteller Standplatz Bewerbung 2026",
+    "Bremerhaven Schausteller Weihnachtsmarkt Volksfest Bewerbung Frist",
+    "Berlin Weihnachtsmarkt Gendarmenmarkt Rotes Rathaus Schausteller Bewerbung Standplatz",
+    "Bremerhaven Weihnachtsmarkt Standplatz Bewerbung Magistrat",
+    "WeihnachtsZauber Gendarmenmarkt Veranstalter Aussteller Bewerbung"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-17",
+  "entries": [
+    {
+      "id": "bremerhavener-freimarkt-2027",
+      "event_name": "172. Bremerhavener Freimarkt 2027",
+      "event_type": "Volksfest",
+      "city": "Bremerhaven",
+      "state": "Bremen",
+      "country": "DE",
+      "venue_or_area": "Festplatz Bremerhaven (Stadthalle-Areal)",
+      "application_deadline_iso": "2026-10-30",
+      "application_deadline_text": "Bewerbungsschluss: 30. Oktober 2026 (nur vollstaendig ausgefuellte Bewerbungen nehmen an der Vergabe teil)",
+      "event_date_range_text": "20. bis 29. August 2027",
+      "application_mode": "Schriftliche Bewerbung per Formular (PDF) an die ARGE Bremerhaven, im Auftrag der Stadt Bremerhaven",
+      "postal_address": "Arbeitsgemeinschaft Bremerhavener Maerkte, c/o Uwe Zander, An der Arend 23, 27619 Schiffdorf",
+      "contact_name": "Arbeitsgemeinschaft Bremerhavener Maerkte (ARGE Bremerhaven i.A. der Stadt Bremerhaven)",
+      "contact_email": "buchhaltung@jahrmarkt-bremerhaven.de",
+      "contact_phone": "0471 81288",
+      "source_url": "https://jahrmarkt-bremerhaven.de/img/Bewerbungsformular_Freimarkt_2027.pdf",
+      "source_domain": "jahrmarkt-bremerhaven.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-17",
+      "agent_batch_id": "stadtstaaten-rest-2026-09",
+      "confidence_status": "verified",
+      "notes": "Bewerbungsformular als PDF direkt von der offiziellen ARGE-Bremerhaven-Domain; ARGE handelt im Auftrag der Stadt Bremerhaven (Magistrat)."
+    },
+    {
+      "id": "bremerhavener-fruehjahrsmarkt-2027",
+      "event_name": "Bremerhavener Fruehjahrsmarkt 2027",
+      "event_type": "Volksfest",
+      "city": "Bremerhaven",
+      "state": "Bremen",
+      "country": "DE",
+      "venue_or_area": "Festplatz Bremerhaven (Stadthalle-Areal)",
+      "application_deadline_iso": "2026-10-30",
+      "application_deadline_text": "Bewerbungsschluss: 30. Oktober 2026 (nur vollstaendig ausgefuellte Bewerbungen nehmen an der Vergabe teil)",
+      "event_date_range_text": "23. April bis 2. Mai 2027",
+      "application_mode": "Schriftliche Bewerbung per Formular (PDF) an die ARGE Bremerhaven, im Auftrag der Stadt Bremerhaven",
+      "postal_address": "Arbeitsgemeinschaft Bremerhavener Maerkte GbR, c/o Uwe Zander, An der Arend 23, 27619 Schiffdorf",
+      "contact_name": "Arbeitsgemeinschaft Bremerhavener Maerkte (ARGE Bremerhaven i.A. der Stadt Bremerhaven)",
+      "contact_email": "buchhaltung@jahrmarkt-bremerhaven.de",
+      "contact_phone": "0471 81288",
+      "source_url": "https://jahrmarkt-bremerhaven.de/img/Bewerbungsformular_Fruehjahrsmarkt_2027.pdf",
+      "source_domain": "jahrmarkt-bremerhaven.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-17",
+      "agent_batch_id": "stadtstaaten-rest-2026-09",
+      "confidence_status": "verified",
+      "notes": "Gleiche Bewerbungsfrist wie Freimarkt (gemeinsame ARGE-Verwaltung); Bewerbungsformular als PDF von der offiziellen Domain."
+    }
+  ],
+  "rejected_candidates": [],
+  "review_candidates": [
+    {
+      "event_name": "Berliner Weihnachtszeit am Roten Rathaus 2027",
+      "candidate_url": "https://www.berlinerweihnachtszeit.de/anmeldung/",
+      "reason": "Privater Veranstalter Laubinger Event GmbH; Seite bestaetigt: 'Die Berliner Weihnachtszeit 2026 ist bereits komplett mit unseren Teilnehmern gefuellt' und 'Anmeldeformular 2027 in Arbeit' - noch keine Bewerbungsfrist fuer 2027 veroeffentlicht. Kontakt: info@laubinger.de, Tel. 033439-143490, Feuerbachstrasse 11b, 15370 Fredersdorf."
+    },
+    {
+      "event_name": "WeihnachtsZauber Gendarmenmarkt 2027",
+      "candidate_url": "https://www.weihnachtsmarkt-berlin.de/en/",
+      "reason": "Privater Veranstalter WeihnachtsZauber Gendarmenmarkt GmbH, Chausseestr. 28, 10115 Berlin; laut Presseberichten werden ca. 90% der Ausstellervertraege im ersten Quartal des Vorjahres geschlossen, aber kein festes Bewerbungsfristdatum auf der offiziellen Seite gefunden. Kontakt: abitz@weihnachtsmarkt-berlin.de."
+    },
+    {
+      "event_name": "Weihnachtlicher Gaensemarkt und St. Petri Weihnachtsmarkt Hamburg 2026",
+      "candidate_url": "https://www.weihnachtsmaerkte-hamburg.de/standvermietung/",
+      "reason": "Privater Betreiber ZERBE Hamburger Weihnachtsmarktbetriebe GmbH, Ausschlaeger Allee 20, 20539 Hamburg, info@hwb-zerbe.de; Bewerbungsformular (PDF) zum Download vorhanden, aber kein Fristdatum im Text der Seite gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Bremerhaven 2026",
+      "candidate_url": "https://www.bremerhaven-erleben.de/weihnachtsmarkt",
+      "reason": "Veranstalter Erlebnis Bremerhaven GmbH, H.-H.-Meier-Strasse 6, 27568 Bremerhaven, touristik@erlebnis-bremerhaven.de, Tel. 0471 80936100; Termin 23.11.-30.12.2026 bekannt, aber keine Aussteller-/Schausteller-Bewerbungsseite mit Frist gefunden."
+    }
+  ]
+}

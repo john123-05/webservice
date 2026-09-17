@@ -1,0 +1,85 @@
+{
+  "batch_id": "ni-weser-ems-2026-09",
+  "region_scope": ["Niedersachsen"],
+  "search_terms": [
+    "Wilhelmshaven Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Emden Schausteller Ostermarkt Rathausmarkt Bewerbung Frist",
+    "Leer Ostfriesland Schausteller Gallimarkt Bewerbung Frist",
+    "Aurich Schausteller Herbstmarkt Bewerbung Frist",
+    "Nordhorn Schausteller Herbstmarkt Weihnachtsmarkt Bewerbung Frist",
+    "Lingen Ems Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Meppen Schausteller Weihnachtsmarkt Rathauskirmes Bewerbung Frist",
+    "Cloppenburg Schausteller Weihnachtsmarkt Mariae-Geburtsmarkt Bewerbung Frist",
+    "Vechta Schausteller Bewerbung Frist",
+    "Westerstede Schausteller Bewerbung Frist",
+    "Wittmund Schausteller Buergermarkt Bewerbung Frist",
+    "Papenburg Schausteller Maimarkt Augustmarkt Bewerbung Frist",
+    "Quakenbrueck Schausteller Bewerbung Frist",
+    "Georgsmarienhuette Schausteller Bewerbung Frist",
+    "Melle Schausteller Wollmarkt Bewerbung Frist",
+    "Oldenburg Osnabrueck Delmenhorst Schausteller Bewerbung Frist"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-16",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Lingener Weihnachtsmarkt 2026 (Standflaechen fuer Aussteller/Schausteller)",
+      "candidate_url": "https://www.tourismus-lingen.de/veranstaltungen/weihnachtsmarkt/informationen-fuer-aussteller/informationen-fuer-weihnachtsmarkt-aussteller.html",
+      "reason": "Bewerbungsfrist laut offizieller Seite der Lingen Wirtschaft & Tourismus GmbH war der 12.07.2026 (Zusagen bis 31.08.2026); zum Stichtag der Recherche (16.09.2026) bereits abgelaufen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt \"Weihnachten am Meer\" Wilhelmshaven 2026",
+      "candidate_url": "https://www.wilhelmshaven-touristik.de/veranstaltungen/weihnachten-am-meer",
+      "reason": "Termin 23.11.-28.12.2026 am Valoisplatz genannt, Veranstalter Wilhelmshaven Touristik & Freizeit GmbH (Ebertstr. 110, 26382 Wilhelmshaven, Tel. 04421 913000). Keine Bewerbungsfrist oder Standplatz-Ausschreibung auf der Seite gefunden; Seite verweist auf spaeter folgendes Detailprogramm. Hinweis: Der kleinere, privat organisierte \"KiezZauber\" in der Suedstadt (Buergerverein Sued e.V. u.a.) ist kein staedtischer Veranstalter und wurde deshalb nicht als Kandidat aufgenommen."
+    },
+    {
+      "event_name": "Emder Ostermarkt / saisonale Schaustellermaerkte Emden",
+      "candidate_url": "https://www.emden.de/rathaus/verwaltung/fb-400-oeffentliche-sicherheit-buergerservice/fd-431-oeffentliche-sicherheit-und-ordnung/emder-wochenmarkt",
+      "reason": "Presseberichte erwaehnen einen jaehrlichen Emder Ostermarkt (Saisonauftakt der ostfriesischen Schausteller), aber die Stadt Emden hat auf den offiziellen Seiten nur den woechentlichen Wochenmarkt dokumentiert, keine Schausteller-Ausschreibung mit Frist gefunden. Kein konkreter staedtischer Ansprechpartner fuer Schaustellerplaetze identifiziert."
+    },
+    {
+      "event_name": "Gallimarkt Leer 2026 (14.-18.10.2026)",
+      "candidate_url": "https://leer.de/Stadt-Leben/Stadt-Leer-Ostfriesland-/Gallimarkt/",
+      "reason": "Termin bestaetigt (14.-18.10.2026), Markt wird laut Presse in Abstimmung zwischen Stadt Leer und dem Verein reisender Schausteller Ostfriesland e.V. (Friedhofstrasse 26, 26789 Leer) organisiert. Keine online veroeffentlichte Bewerbungsfrist gefunden; direkte Anfrage bei Stadt oder Verein noetig."
+    },
+    {
+      "event_name": "Auricher Herbstmarkt 2026 (30.10.-01.11.2026)",
+      "candidate_url": "https://www.aurich-tourismus.de/veranstaltungen/veranstaltung/26102025--100596702--herbstmarkt-aurich",
+      "reason": "Termin und Ort (Grossparkplatz Sparkassenarena, Karl-Heinrich-Ulrichs-Platz, 26603 Aurich) bestaetigt. Veranstalter laut Seite: Verein reisender Schausteller Ostfriesland e.V. (Logabirumer Str. 80, 26789 Leer, Tel. 0491-997122). Keine Bewerbungsfrist auf offizieller Seite genannt."
+    },
+    {
+      "event_name": "Schausteller-/Marktbeschicker-Zulassung Nordhorn (allgemein, keine Einzelveranstaltung mit Termin gefunden)",
+      "candidate_url": "https://www.nordhorn.de/buergerservice/dienstleistungen/taetigkeit-als-markthaendlerin-markthaendler-oder-schaustellerin-schausteller-aufnahme-900000481-0.html?myMedium=1",
+      "reason": "Serviceportal-Seite der Stadt Nordhorn nennt die Ordnungsabteilung als zustaendige Stelle (Frau Mueller, Stadthaus II, Buechereiplatz, 48529 Nordhorn, Tel. 05921 878-107, ordnungsamt@nordhorn.de) und den Hinweis \"Es muessen ggf. Fristen beachtet werden\", aber kein konkretes Datum oder eine konkrete Veranstaltung (z.B. Herbstmarkt/Weihnachtsmarkt) mit Frist gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Meppen 2026 (23.11.-30.12.2026, Alter Markt/Hasestrasse/Windthorstplatz)",
+      "candidate_url": "https://www.wim-meppen.de/portal/seiten/weihnachtsmarkt-meppen-23-november-30-dezember-2026-900000422-24701.html",
+      "reason": "Termin und Ort bestaetigt, Bewerbung erfolgt laut Stadtmarketing Meppen (WIM e.V., Zimmer M4, Markt 4, 49716 Meppen) nur schriftlich ueber Ansgar Limbeck (Tel. 05931 153-295, ansgar.limbeck@meppen.de) oder Katja Wocken (Tel. 05931 153-296, katja.wocken@meppen.de). Bewerbungsformular-PDF fuer 2026 wird auf der Unterseite referenziert, aber ein konkretes Fristdatum fuer 2026 war im abgerufenen Seiteninhalt nicht lesbar."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Cloppenburg 2026",
+      "candidate_url": "https://www.cloppenburg.de/portal/seiten/weihnachtsmarkt-2025-900000323-31040.html",
+      "reason": "Nur die 2025er-Seite (27.11.-30.12.2025) auffindbar, keine bestaetigte Bewerbungsfrist fuer Standbetreiber/Schausteller im abgerufenen Seiteninhalt enthalten (ein per Suchmaschine kolportiertes Datum \"30. September\" liess sich beim direkten Seitenabruf nicht verifizieren und wurde daher verworfen). Allgemeiner Kontakt: Stadt Cloppenburg, Sevelter Strasse 8, 49661 Cloppenburg, Tel. 04471 185-0, rathaus@cloppenburg.de."
+    },
+    {
+      "event_name": "Buergermarkt Wittmund 2026 (17.-19.07.2026, bereits Termin fuer 2026 verstrichen; 2027 unbekannt)",
+      "candidate_url": "https://www.buergermarkt-wittmund.de/",
+      "reason": "Veranstalter ist der Buerger- und Verkehrsverein Wittmund e.V. (nicht die Stadt selbst), keine Bewerbungsfrist auf der Veranstaltungsseite gefunden. Da Trager kein staedtischer/behoerdlicher Veranstalter ist, ist die Quelle fuer den strikten Quellenstandard grenzwertig; nur als Rechercheansatz vermerkt, nicht als Entry uebernommen."
+    },
+    {
+      "event_name": "Papenburg Augustmarkt 2026 (21.-25.08.2026, Untenender Marktplatz)",
+      "candidate_url": "https://kuestenkirmes.de/papenburg-augustmarkt-2026/",
+      "reason": "Termin genannt, Seite vermerkt ausdruecklich \"Eine Beschickung liegt noch nicht vor\". Quelle ist eine private Kirmes-Vermarktungsseite (kuestenkirmes.de), keine offizielle Stadt- oder Vereinsseite, daher nicht als Entry geeignet. Keine offizielle Seite der Stadt Papenburg oder des Vereins reisender Schausteller Ostfriesland e.V. mit Fristangabe gefunden."
+    },
+    {
+      "event_name": "Marktveranstaltungen Melle (kein konkretes Event mit Bewerbungsfrist gefunden)",
+      "candidate_url": "https://www.melle.info/portal/seiten/veranstaltungskalender-919000704-20301.html",
+      "reason": "Kein \"Wollmarkt\" oder vergleichbarer Schaustellermarkt mit offizieller Bewerbungsfrist auf staedtischer Seite oder in Presse gefunden. Weitere Recherche direkt bei der Stadtverwaltung Melle noetig."
+    }
+  ]
+}

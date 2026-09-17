@@ -1,0 +1,140 @@
+{
+  "batch_id": "bb-gesamt-2026-09",
+  "region_scope": [
+    "Brandenburg"
+  ],
+  "search_terms": [
+    "Cottbus Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Brandenburg an der Havel Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Frankfurt (Oder) Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Oranienburg Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Falkensee Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Eberswalde Schausteller Markt Bewerbung Frist Ordnungsamt",
+    "Bernau bei Berlin Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Königs Wusterhausen Schausteller Markt Bewerbung Frist",
+    "Fürstenwalde/Spree Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Neuruppin Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Schwedt/Oder Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Rathenow Schausteller Markt Bewerbung Frist",
+    "Senftenberg Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Strausberg Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Werder (Havel) Schausteller Baumblütenfest Bewerbung Frist",
+    "Luckenwalde Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Wittenberge Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Prenzlau Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Lübbenau Spreewald Schausteller Markt Bewerbung Frist"
+  ],
+  "max_expected_results": 25,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-17",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "367. Martinimarkt Neuruppin 2026",
+      "candidate_url": "https://stadtmarketing-neuruppin.de/schaustelleranmeldung/",
+      "reason": "Offizielle Seite von InKom Neuruppin GmbH nennt ausdrücklich: 'Die Bewerbungsfrist für den Martinimarkt 2026 ist am 15.01.2026 abgelaufen!' Frist liegt vor dem heutigen last_verified_at (2026-09-17)."
+    },
+    {
+      "event_name": "147. Baumblütenfest Werder (Havel) 2026 – Rummel/Volksfest",
+      "candidate_url": "https://www.werder-havel.de/politik-rathaus/aktuelles/neuigkeiten/133-baumbl%C3%BCtenfest/4875-147-baumbl%C3%BCtenfest-bewerbungsstart-f%C3%BCr-rummel-und-volksfest.html",
+      "reason": "Bewerbungsfristen für das Frühjahrsfest 2026 waren 29.11.2025 (Rummel) bzw. 15.12.2025 (Volksfest) und damit bereits vor last_verified_at (2026-09-17) abgelaufen; Veranstaltung 2026 liegt bereits in der Vergangenheit."
+    },
+    {
+      "event_name": "Bernauer Weihnachtsmarkt 2025 (Kunsthandwerker/Händler)",
+      "candidate_url": "https://www.bernau.de/de/rathaus-service/aktuelles/stadtnachrichten/artikel-noch-kunsthandwerker-und-haendler-fuer-den-bernauer-weihnachtsmarkt-gesucht.html",
+      "reason": "Bewerbungsfrist war der 21.11.2025 für den Weihnachtsmarkt vom 5.-14.12.2025; abgelaufener Zyklus, kein Fristdatum für den Weihnachtsmarkt 2026 (04.-13.12.2026) auf der Seite veröffentlicht."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt der 1000 Sterne Cottbus 2026",
+      "candidate_url": "https://cottbus.de/veranstaltungen/weihnachtsmarkt-der-1000-sterne-in-cottbus/",
+      "reason": "Termin 22.11.-23.12.2026 bekannt (offizielle Stadtseite), Organisator laut Seite 'Cottbus Service' (Tel. 0355 7542444, cottbus-tourismus.de); keine Bewerbungsfrist/Kontakt für Schausteller auf der Seite veröffentlicht."
+    },
+    {
+      "event_name": "Weihnachtsgans-Auguste-Markt Oranienburg 2026",
+      "candidate_url": "https://www.oranienburg-erleben.de/weihnachtsmarkt/",
+      "reason": "Markt auf dem Schlossplatz Oranienburg bekannt, aber keine offizielle städtische Bewerbungsseite mit Frist gefunden; älterer Kontakt event-agentur-jobo@gmx.de aus einem abgelaufenen Angebot (nicht offiziell, Stadt direkt kontaktieren empfohlen)."
+    },
+    {
+      "event_name": "Angerweihnacht Falkensee 2026",
+      "candidate_url": "https://www.falkensee.de/weihnachten",
+      "reason": "Offizielle Stadtseite listet Weihnachtsveranstaltungen inkl. Angerweihnacht, aber keine Bewerbungsinfos/Frist/Kontakt für Schausteller oder Standbetreiber veröffentlicht."
+    },
+    {
+      "event_name": "Märkte allgemein / Standplatzvergabe Eberswalde",
+      "candidate_url": "https://www.eberswalde.de/start/rathaus-ortsrecht/rathaus-von-a-z/organisationen/021-dezernat-i/32-ordnungsamt/322-gewerbe",
+      "reason": "Zuständige Stelle ist der Fachbereich Ordnungsamt/Gewerbe der Stadt Eberswalde, Breite Straße 41-44, 16225 Eberswalde, Tel. 03334/64-322; keine konkrete Veranstaltung mit Bewerbungsfrist auf der Seite gefunden."
+    },
+    {
+      "event_name": "Bernauer Weihnachtsmarkt 2026 (04.-13.12.2026)",
+      "candidate_url": "https://www.bernau.de/de/tourismus-kultur/veranstaltungen/weihnachtsmarkt.html",
+      "reason": "Termin 2026 auf offizieller Stadtseite bestätigt; Bewerbungsfrist für 2026 noch nicht veröffentlicht. Kontakt aus Vorjahreszyklus: Kulturamt Bernau, kulturamt@bernau-bei-berlin.de, Tel. 03338 365-366 / 365-310, Ansprechpartnerin Nele Spoenemann."
+    },
+    {
+      "event_name": "Ausschreibungen / Standplätze Königs Wusterhausen",
+      "candidate_url": "https://www.koenigs-wusterhausen.de/ausschreibungen-ab52c76277571d1b",
+      "reason": "Offizielle städtische Ausschreibungsseite behandelt primär Bauvergaben (VOB/A); kein Schausteller-spezifisches Verfahren gefunden. Kontakt Vergabestelle: Juliane Schenker, juliane.schenker@stadt-kw.de, Tel. 03375 273-513."
+    },
+    {
+      "event_name": "Fürstenwalder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.fuerstenwalde-spree.de/news/1/1166831",
+      "reason": "Weihnachtsmarkt rund um den Dom bekannt, sucht laut Vorjahresmeldungen Schausteller mit kleinen/großen Fahrgeschäften und Gastronomie; keine Bewerbungsfrist auf offizieller Stadtseite gefunden. Kontakt: Stadt Fürstenwalde/Spree, Am Markt 4, 15517 Fürstenwalde/Spree, Tel. 03361 557-0."
+    },
+    {
+      "event_name": "Schaustelleranmeldung Neuruppin (kommende Zyklen: Ostermarkt, Mai-/Hafenfest, Weinfest, Martinimarkt 2027)",
+      "candidate_url": "https://stadtmarketing-neuruppin.de/schaustelleranmeldung/",
+      "reason": "Offizielle Seite von InKom Neuruppin GmbH (Stadtmarketing) für Schaustelleranmeldungen; Frist für Martinimarkt 2026 bereits abgelaufen (siehe rejected_candidates), neue Fristen für 2027 noch nicht veröffentlicht. Kontakt: Christian Ringleb, christian.ringleb@stadtmarketing-neuruppin.de, Tel. 03391 82209-464, InKom Neuruppin GmbH, Trenckmannstraße 35, 16816 Neuruppin."
+    },
+    {
+      "event_name": "Weihnachtliches Schwedt 2026",
+      "candidate_url": "https://www.schwedt.eu/de/219629",
+      "reason": "Offizielle Stadtseite listet Weihnachtsveranstaltungen, aber keine Bewerbungsinfos für Schausteller/Standbetreiber. Kontakt: Stadt Schwedt/Oder, Tel. 03332 446-0."
+    },
+    {
+      "event_name": "Interessenbekundungsverfahren Weihnachtsmarkt Rathenow (Märkischer Platz)",
+      "candidate_url": "https://www.rathenow.de/fileadmin/rathenow-de/wirtschaft/PDF/Vergaben/2023/Interessenbekundungsverfahren_2023-2026_Weihnachtsmarkt.pdf",
+      "reason": "PDF eines mehrjährigen Interessenbekundungsverfahrens (2023-2026) auf der offiziellen Stadtseite gefunden, Inhalt (Fristdatum, Kontakt) automatisiert nicht auslesbar; Stadt Rathenow / Wirtschaftsförderung direkt kontaktieren."
+    },
+    {
+      "event_name": "Senftenberger Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.senftenberg.de/weihnachtsmarkt/",
+      "reason": "Offizielle Stadtseite mit Veranstaltungsinfos, aber keine Bewerbungsfrist für Schausteller gefunden. Kontakt: Büro Bürgermeister, Markt 1, 01968 Senftenberg, Tel. 03573 701-110."
+    },
+    {
+      "event_name": "Regionaler Weihnachtsmarkt / Märkte Strausberg",
+      "candidate_url": "https://www.stadt-strausberg.de/stellenausschreibungen/",
+      "reason": "Keine offizielle Bewerbungsseite für Schausteller mit Frist gefunden; Stadt Strausberg direkt kontaktieren."
+    },
+    {
+      "event_name": "Luckenwalder Märchenweihnachtsmarkt 2026",
+      "candidate_url": "https://www.luckenwalde.de/index.php?object=tx,4001.4.1&ModID=11&FID=4001.109.1&kuo=1",
+      "reason": "Veranstalter laut Stadtseite Stadtmarketing Luckenwalde e.V., Markt 12a, 14943 Luckenwalde, Tel. +49 (0)3371 406566; keine Bewerbungsfrist für Schausteller veröffentlicht."
+    },
+    {
+      "event_name": "Wittenberger Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.wittenberge.de/veranstaltungen/2836470/2026/12/09/weihnachtsmarkt-wittenberge.html",
+      "reason": "Termin Dezember 2026 auf offizieller Stadtseite bekannt, Organisator laut Vorjahren Wittenberger Interessenring e.V., Bäckerstraße 34, 19322 Wittenberge, Tel. (0 38 77) 56 55 41; keine Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "Prenzlauer Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.prenzlau.eu/cms/detail.php/land_bb_boa_01.c.390427.de",
+      "reason": "Offizielle Stadtseite mit Veranstaltungsinfos; Ansprechpartnerin laut Suchergebnis Frau S. Ramm, Geschäftsstraßenmanagement, Tel. 03984 75-165 / Mobil 0172/3961104; keine konkrete Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "Marktbeschickung / Gewerbeanmeldung Lübbenau/Spreewald (u.a. Gurkenmarkt/Festmeile)",
+      "candidate_url": "https://www.luebbenau-spreewald.de/seite/481501/gewerberecht-und-gewerbeanmeldung.html",
+      "reason": "Offizielle Stadtseite behandelt allgemeines Gewerberecht für Reisegewerbe/Schausteller, keine konkrete Veranstaltung mit Bewerbungsfrist gefunden; Stadt Lübbenau/Spreewald direkt kontaktieren."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Frankfurt (Oder)",
+      "candidate_url": "https://www.frankfurt-oder.de/",
+      "reason": "Keine spezifischen Suchtreffer zu einer offiziellen Bewerbungsseite oder Frist für Schausteller in Frankfurt (Oder) gefunden; Stadtverwaltung direkt kontaktieren."
+    },
+    {
+      "event_name": "Marktfestsetzung (Wochenmärkte, Volksfeste, Weihnachtsmarkt) Brandenburg an der Havel",
+      "candidate_url": "https://service.stadt-brandenburg.de/dienstleistungen/-/egov-bis-detail/dienstleistung/7643/show",
+      "reason": "Allgemeine Marktfestsetzungs-Regel (4-6 Wochen vor Veranstaltungsbeginn), aber kein konkretes Veranstaltungsdatum bekannt, aus dem eine Frist berechnet werden koennte. Kontakt: Gewerbebehörde Stadt Brandenburg an der Havel, (03381) 58-3280."
+    }
+  ]
+}

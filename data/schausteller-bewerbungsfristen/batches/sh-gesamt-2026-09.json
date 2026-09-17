@@ -1,0 +1,81 @@
+{
+  "batch_id": "sh-gesamt-2026-09",
+  "region_scope": ["Schleswig-Holstein"],
+  "search_terms": [
+    "Kiel Schausteller Standplatz Bewerbung Frist Marktamt",
+    "Lübeck Schausteller Weihnachtsmarkt Bewerbung Frist 2026",
+    "Flensburg Schausteller Jahrmarkt Bewerbung Frist Ordnungsamt",
+    "Norderstedt Schausteller Markt Bewerbung Standplatz",
+    "Elmshorn Schausteller Krammarkt Bewerbung Frist",
+    "Pinneberg Schausteller Jahrmarkt Bewerbung Standplatz",
+    "Rendsburg Schausteller Jahrmarkt Bewerbung Frist",
+    "Heide Schausteller Jahrmarkt Bewerbung Frist",
+    "Eckernförde Schausteller Markt Bewerbung Frist",
+    "Bad Segeberg Schausteller Markt Bewerbung Frist",
+    "Ahrensburg Schausteller Markt Bewerbung Ordnungsamt",
+    "Wedel Schausteller Markt Bewerbung Frist",
+    "Bad Oldesloe Schausteller Frühjahrsmarkt Bewerbung Frist",
+    "Ratzeburg Schausteller Markt Bewerbung Frist",
+    "Plön Schausteller Markt Bewerbung Frist",
+    "Niebüll Schausteller Markt Bewerbung Frist",
+    "Bad Schwartau Schausteller Markt Bewerbung Frist"
+  ],
+  "max_expected_results": 25,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-17",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Lübecker Weihnachtsmarkt 2026 (Standbetreiber:innen)",
+      "candidate_url": "https://www.dubistmirnemarke.de/zusammenarbeit/veranstalterinnen/standbetreiberinnen/luebecker-weihnachtsmarkt",
+      "reason": "Bewerbungsfrist war der 31.03.2026, bereits verstrichen (Stand heute 17.09.2026). Veranstaltung selbst laeuft 23.11.-30.12.2026 auf der Altstadtinsel, Breite Strasse und Koberg, Veranstalter Luebeck und Travemuende Marketing GmbH, Kontakt Inke Moeller, inke.moeller@luebeck-tourismus.de, 0451 4091 921."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Norderstedter Wochenmärkte / Marktflächen (Schausteller-Standplätze)",
+      "candidate_url": "https://www.norderstedt.de/Aktuelles-und-Service/Dienstleistungen-und-Service/Wochenm%C3%A4rkte",
+      "reason": "Keine spezifische Schausteller-Veranstaltung mit Bewerbungsfrist auf der Stadtseite gefunden. Ansprechpartner Marktaufsicht Herr Tessarcyk, Mobil 0151 55 37 32 27; Stadt Norderstedt direkt kontaktieren."
+    },
+    {
+      "event_name": "Elmshorner Jahrmarkt (Buttermarkt)",
+      "candidate_url": "https://www.elmshorn.de/Freizeit-Tourismus/Veranstaltungen/Jahrmarkt/",
+      "reason": "Offizielle Stadtseite nennt Ort (Buttermarkt) und ca. 45 Beschicker, aber keine Bewerbungsfrist. Bewerbungen laut Seite an Marktmeisterin Frau Alexandra Eltze zu richten, Tel. 04121 231 243, Stadt Elmshorn, Schulstrasse 15-17, 25335 Elmshorn."
+    },
+    {
+      "event_name": "Pinneberger Frühjahrsmarkt (Kirmes, Marktplatz)",
+      "candidate_url": "https://www.pinneberg.de/kultur/veranstaltungen/jaehrlich/jahrmarkt",
+      "reason": "Termin 2026 bekannt (01.-04.05.2026, Marktplatz Pinneberg), keine Bewerbungsfrist oder Kontaktperson auf der offiziellen Seite gefunden; Stadt Pinneberg direkt kontaktieren."
+    },
+    {
+      "event_name": "Rendsburger Frühjahrs-/Sommer-/Herbstmarkt 2026",
+      "candidate_url": "https://www.rendsburg-tourismus-marketing.de/veranstaltungen/jahrmaerkte",
+      "reason": "Termine 2026 bekannt (Fruehjahrsmarkt 10.-13.04., Sommermarkt 03.-06.07., Herbstmarkt 25.-28.09.), keine Bewerbungsfrist auf der Seite genannt. Ansprechpartner fuer Schausteller: Tobias Hercher, t.hercher@rd-tm.de, Tel. 04331 6634521, Rendsburg Tourismus + Marketing GmbH, Bahnhofstrasse 12-16, 24768 Rendsburg."
+    },
+    {
+      "event_name": "Heider Herbstjahrmarkt 2026 (Marktplatz)",
+      "candidate_url": "https://www.heide-stadtmarketing.de/jahrmarkt/",
+      "reason": "Termin 2026 bekannt (22.-27.10., Herbstmarkt; Fruehjahrsmarkt 13.-22.03. bereits verstrichen), keine Bewerbungsfrist auf der offiziellen Seite gefunden. Kontakt Heide Stadtmarketing GmbH, Tel. 0481 21 22 160, info@heide-stadtmarketing.de."
+    },
+    {
+      "event_name": "Marktangelegenheiten / Jahrmarkt Eckernförde",
+      "candidate_url": "https://www.eckernfoerde.de/index.php?ModID=10&FID=296.34.1&object=tx,3457.2",
+      "reason": "Nur allgemeine Marktsatzungsregel gefunden (Antragsruecknahme mind. 1 Monat vor Marktbeginn), kein konkreter Jahrmarkt-Termin oder Bewerbungsfrist fuer Schausteller identifiziert; Stadt Eckernfoerde direkt kontaktieren."
+    },
+    {
+      "event_name": "Bad Segeberger Markt (Wochen-/Jahrmarkt)",
+      "candidate_url": "https://www.bad-segeberg.de/fileadmin/Gemeinde/Dateien/Satzungen/J/1.2.5_Benutzungssatzung_f%C3%BCr_die_Wochen-_und_Jahrm%C3%A4rkte.pdf",
+      "reason": "Nur allgemeine Benutzungssatzung gefunden, kein konkretes Bewerbungsfrist-Datum. Ansprechpartner laut Rechercheergebnis Marktmeister Herr Stefan Strasser, Stadt Bad Segeberg direkt kontaktieren."
+    },
+    {
+      "event_name": "Plöner Herbst-Jahrmarkt 2026",
+      "candidate_url": "https://www.ploen.de/PL%C3%96N-erleben/M%C3%A4rkte/Jahrmarkt/",
+      "reason": "Termin 2026 bekannt (31.10.-02.11., Schlossberg/Innenstadt), keine explizite Bewerbungsfrist auf der Seite genannt (Kreis Ploen nennt allgemein 8 Wochen vor Marktbeginn in der Satzung, aber kein staedtisches Datum bestaetigt). Kontakt Herr Daniel Jahns, daniel.jahns@ploen.de, Tel. 04522 505-714, Stadt Ploen, Schlossberg 3-4, 24306 Ploen."
+    },
+    {
+      "event_name": "Bad Oldesloer Frühjahrsmarkt / Stadtfest",
+      "candidate_url": "https://www.badoldesloe.de/index.php?ModID=10&FID=2965.169.1&object=tx%7C2965.9151",
+      "reason": "Offizielle Seite zur Festsetzung von Messen/Ausstellungen/Maerkten vorhanden, aber kein konkretes Bewerbungsfrist-Datum fuer Schausteller gefunden. Stadt Bad Oldesloe, Muehlenplatz 1, 23843 Bad Oldesloe, Tel. 04531 17640, direkt kontaktieren."
+    }
+  ]
+}

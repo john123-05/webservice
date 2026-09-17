@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-04",
+  "updated_at": "2026-09-17",
   "target_entries": 1000,
   "unit_definition_of_done": "Jede Stadt der Einheit wurde geprueft: offizielle Veranstalterseite gesucht (Stadt UND Werbe-/Gewerbeverein/Marktamt), Ausstellerbereich geoeffnet, Frist erfasst oder als review_candidate mit Grund dokumentiert. Batch-Datei geschrieben, npm run deadlines:build gruen.",
   "units": [
@@ -175,7 +175,7 @@
       "label": "Münsterland",
       "state": "Nordrhein-Westfalen",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Münster",
         "Rheine",
@@ -286,7 +286,7 @@
       "label": "Unterfranken und Oberpfalz",
       "state": "Bayern",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Würzburg",
         "Schweinfurt",
@@ -311,7 +311,7 @@
       "label": "Schwaben und Niederbayern",
       "state": "Bayern",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Augsburg",
         "Kempten",
@@ -387,7 +387,7 @@
       "label": "Südbaden und Bodensee",
       "state": "Baden-Württemberg",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Freiburg im Breisgau",
         "Offenburg",
@@ -412,7 +412,7 @@
       "label": "Württemberg Süd und Ost",
       "state": "Baden-Württemberg",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Ulm",
         "Reutlingen",
@@ -466,7 +466,7 @@
       "label": "Mittel- und Nordhessen",
       "state": "Hessen",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Kassel",
         "Gießen",
@@ -519,7 +519,7 @@
       "label": "Weser-Ems",
       "state": "Niedersachsen",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Oldenburg",
         "Osnabrück",
@@ -576,7 +576,7 @@
       "label": "Schleswig-Holstein",
       "state": "Schleswig-Holstein",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Kiel",
         "Lübeck",
@@ -609,7 +609,7 @@
       "label": "Mecklenburg-Vorpommern",
       "state": "Mecklenburg-Vorpommern",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Rostock",
         "Schwerin",
@@ -636,7 +636,7 @@
       "label": "Brandenburg",
       "state": "Brandenburg",
       "tier": 3,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Potsdam",
         "Cottbus",
@@ -694,7 +694,7 @@
       "label": "Sachsen-Anhalt",
       "state": "Sachsen-Anhalt",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Magdeburg",
         "Halle (Saale)",
@@ -721,7 +721,7 @@
       "label": "Thüringen",
       "state": "Thüringen",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Erfurt",
         "Jena",
@@ -748,7 +748,7 @@
       "label": "Rheinland-Pfalz Nord",
       "state": "Rheinland-Pfalz",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Koblenz",
         "Trier",
@@ -775,7 +775,7 @@
       "label": "Rheinland-Pfalz Süd und Rheinhessen",
       "state": "Rheinland-Pfalz",
       "tier": 2,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Mainz",
         "Ludwigshafen am Rhein",
@@ -802,7 +802,7 @@
       "label": "Saarland",
       "state": "Saarland",
       "tier": 3,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Saarbrücken",
         "Neunkirchen",
@@ -827,7 +827,7 @@
       "label": "Stadtstaaten Nachfass",
       "state": "mehrere",
       "tier": 3,
-      "status": "pending",
+      "status": "done",
       "cities": [
         "Berlin",
         "Hamburg",

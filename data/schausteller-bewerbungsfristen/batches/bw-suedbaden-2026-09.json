@@ -1,0 +1,96 @@
+{
+  "batch_id": "bw-suedbaden-2026-09",
+  "region_scope": ["Baden-Württemberg"],
+  "search_terms": [
+    "Lahr Schausteller Bewerbung Weihnachtsmarkt Frist",
+    "Emmendingen Schausteller Bewerbung Weihnachtsmarkt Markt Frist",
+    "Lörrach Schausteller Standplatz Bewerbung Weihnachtsmarkt Herbstmesse",
+    "Weil am Rhein Schausteller Bewerbung Markt Fest Jahrmarkt",
+    "Waldshut-Tiengen Schausteller Bewerbung Chilbi",
+    "Villingen-Schwenningen Schausteller Bewerbung Messe Markt Standplatz",
+    "Konstanz Schausteller Bewerbung Weihnachtsmarkt am See Standplatz",
+    "Singen Hohentwiel Schausteller Bewerbung Herbstmesse Markt",
+    "Radolfzell Schausteller Bewerbung Kräutermarkt Standplatz",
+    "Weingarten Baden-Württemberg Schausteller Bewerbung Welfenfest",
+    "Überlingen Bodensee Schausteller Bewerbung Promenadenfest Markt",
+    "Bad Säckingen Schausteller Bewerbung Fridolinsfest Jahrmarkt"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-16",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt Villingen-Schwenningen 2026 (Wechselhütten)",
+      "candidate_url": "https://www.villingen-schwenningen.de/tourismus-erleben/vs-erleben/maerkte-und-messen/",
+      "reason": "Laut Stabsstelle Stadtmarketing ist das Bewerbungsverfahren fuer den Weihnachtsmarkt 2026 (Schwenningen 27.11.-13.12.2026, Villinger Adventsfenster 1.-24.12.2026) bereits abgeschlossen; die naechste Bewerbungsphase (fuer 2027) beginnt laut Seite erst im Januar 2027."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Lahrer Weihnachtsmarkt 2026 (Museumsplatz)",
+      "candidate_url": "https://www.werbegemeinschaft-lahr.de/news",
+      "reason": "Organisiert vom Aktionsbuendnis Weihnachten in Lahr / Lahrer Werbegemeinschaft e.V. (Rossgasse 5, 77933 Lahr, Tel. 07821/983087, info@werbegemeinschaft-lahr.de). Fuer die Vorjahresausgabe (28./29.11.2025) war der Bewerbungsschluss 30.09.2025, aber kein bestaetigtes Datum fuer die 2026/2027-Ausgabe auf einer offiziellen Seite gefunden; Stadtseite lahr.de/weihnachtsmarkt-in-lahr.240469.htm war per WebFetch nicht abrufbar (403)."
+    },
+    {
+      "event_name": "Grosser Weihnachtsmarkt Emmendingen (Lammstrasse) 2026",
+      "candidate_url": "https://www.emmendingen.de/kultur-freizeit/veranstaltungen-1/4561/grosser-weihnachtsmarkt-in-der-lammstrasse",
+      "reason": "Termin 05.12.2026 laut Stadtseite bekannt, Registrierung erfolgt online ueber ein Formular der Stadt Emmendingen, aber keine Bewerbungsfrist auf der offiziellen Seite gefunden. Kontakt: Stadt Emmendingen, Landvogtei 10, 79312 Emmendingen, Tel. 07641 452-0."
+    },
+    {
+      "event_name": "Loerracher Weihnachtsmarkt 2026 (Alter Marktplatz)",
+      "candidate_url": "https://www.loerrach.de/Bewerbung-Weihnachtsmarkt-2026",
+      "reason": "Termin 3.-13.12.2026 auf offizieller Stadtseite bestaetigt, Online-Bewerbungsformular vorhanden, aber kein Bewerbungsfrist-Datum genannt. Kontakt: Stadt Loerrach, Maerkte, Haus Sonne, Basler Strasse 170, 79539 Loerrach, Tel. 07621 415-132, maerkte@loerrach.de."
+    },
+    {
+      "event_name": "Wochenmarkt-Standplaetze Loerrach (laufende Bewerbung)",
+      "candidate_url": "https://www.loerrach.de/Bewerbung-Standplatz",
+      "reason": "Laufende Bewerbung ohne feste Frist; Stadt prueft Kapazitaet und meldet sich. Kontakt: Stadtverwaltung Loerrach, Luisenstrasse 16, 79539 Loerrach, Tel. 07621 415-0, info@loerrach.de."
+    },
+    {
+      "event_name": "Jahrmarkt / Volksfest Weil am Rhein (Fruehjahrsmarkt, erster Freitag April/September)",
+      "candidate_url": "https://www.weil-am-rhein.de/-/verfahren/marktwesen-bei-der-stadt-weil-am-rhein/vbid1628",
+      "reason": "Stadt verweist fuer Standplatz-Bewerbungen an RGE Arbeitsgemeinschaft Veranstaltung & Werbung (jahrmarkt-suedbaden.de); dort war ueber WebFetch (Startseite und index.html) keine konkrete Bewerbungsfrist auffindbar (404 bzw. keine Frist-Angabe). Kontakt fuer Wochenmarkt: Stephanie Drosselmeyer, Rechts- und Ordnungsamt Weil am Rhein, Tel. 07621/704-301, stephanie.drosselmeyer@weil-am-rhein.de."
+    },
+    {
+      "event_name": "Waldshuter Chilbi (drittes August-Wochenende, Chilbiplatz)",
+      "candidate_url": "https://www.waldshut-tiengen.de/freizeit/veranstaltungen/brauchtum-und-feste/waldshuter-chilbi",
+      "reason": "Traditionstermin (drittes August-Wochenende) bekannt, aber keine Bewerbungsfrist oder Bewerbungsseite fuer Schausteller auf der offiziellen Stadtseite gefunden. Zustaendig laut Recherche: Ordnungsamt Waldshut-Tiengen, Ralph Albrecht, Wallstrasse 26-28, 79761 Waldshut-Tiengen."
+    },
+    {
+      "event_name": "Kunsthandwerkermarkt Villingen-Schwenningen 2027",
+      "candidate_url": "https://www.villingen-schwenningen.de/tourismus-erleben/vs-erleben/maerkte-und-messen/",
+      "reason": "Termin 03.-04.07.2027 genannt, Bewerbungsphase beginnt laut Seite erst im Januar 2027 (kein festes Enddatum bekannt). Kontakt: VS-Mosaik / WIR Villingen-Schwenningen GmbH, Winkelstrasse 9, 78056 Villingen-Schwenningen, Tel. 07720/82-1051, events@villingen-schwenningen.de."
+    },
+    {
+      "event_name": "Weihnachtsmarkt am See Konstanz 2026 (26.11.-23.12.2026)",
+      "candidate_url": "https://weihnachtsmarkt-am-see.de/",
+      "reason": "Veranstaltungstermin bestaetigt, Bewerbung laeuft ganzjaehrig ueber Online-Formular ohne genanntes Fristdatum (laut Seite werden keine Absagen versendet, nur Vertragsangebote bei Zusage). Kontakt: Sankt-Gebhard-Strasse 17-19, 78467 Konstanz, Tel. 07531 23763, info@weihnachtsmarkt-am-see.de."
+    },
+    {
+      "event_name": "Radolfzeller Kraeutermarkt 2026 (Standplatzbewerbung)",
+      "candidate_url": "https://www.radolfzell-tourismus.de/_Resources/Persistent/b81bedfae0976d40e9dabd9611db27ad0564125c/Standplatzbewerbung_Radolfzeller%20Kr%C3%A4utermarkt%202026.pdf",
+      "reason": "Standplatzbewerbungs-PDF existiert auf offizieller Tourismus/Stadtmarketing-Domain, aber Inhalt (Frist, Datum) war per WebFetch aus dem PDF nicht extrahierbar. Ansprechpartner laut Suche: Landesverband der Schausteller und Marktkaufleute e.V., Thomas Kleiner, Tel. 07464 1496, info@wachstuecher.eu."
+    },
+    {
+      "event_name": "Welfenfest Weingarten 2027 (Festplatz)",
+      "candidate_url": "https://welfenfest.de/programm/festplatz-weingarten/",
+      "reason": "Termin fuer 2026 bekannt (10.-14.07.2026), aber keine Bewerbungsfrist oder Schausteller-Bewerbungsseite auf welfenfest.de gefunden. Kontakt: Welfenfestkommission Weingarten e.V., Kirchstrasse 1, 88250 Weingarten, Tel. 0751/405-297, info@welfenfest.de."
+    },
+    {
+      "event_name": "Ueberlinger Promenadenfest",
+      "candidate_url": "https://www.ueberlingen-bodensee.de/promenadenfest",
+      "reason": "Stadtfest am Bodensee bekannt, aber keine Schausteller-Bewerbungsseite oder Frist auf offiziellem Tourismusportal ueberlingen-bodensee.de gefunden."
+    },
+    {
+      "event_name": "Jahrmarkt und Fridolinsfest Bad Saeckingen (Sonntag nach 6. Maerz)",
+      "candidate_url": "https://www.bad-saeckingen.de/leben-wohnen/veranstaltungen",
+      "reason": "Traditionstermin (Sonntag nach 6. Maerz) bekannt, neuntaegiger Rummel mit Schaustellern, aber keine Bewerbungsfrist oder Kontakt fuer Standplatz-Bewerbung auf offizieller Stadtseite gefunden; verlinktes PDF (105_amtliche_Bekanntmachung.pdf) war inhaltlich nicht auswertbar."
+    },
+    {
+      "event_name": "Herbstmesse / Maerkte Singen (Hohentwiel)",
+      "candidate_url": "https://www.singen.de/erleben/veranstaltungen/veranstaltungskalender",
+      "reason": "Keine spezifische Herbstmesse mit Schausteller-Bewerbungsseite auf offizieller Stadtseite gefunden; nur Wochenmarkt-Informationen vorhanden."
+    }
+  ]
+}

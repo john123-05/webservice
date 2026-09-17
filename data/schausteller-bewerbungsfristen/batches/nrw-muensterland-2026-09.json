@@ -1,0 +1,100 @@
+{
+  "batch_id": "nrw-muensterland-2026-09",
+  "region_scope": ["Nordrhein-Westfalen"],
+  "search_terms": [
+    "Steinfurt Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Emsdetten Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Greven Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Beckum Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Coesfeld Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Luedinghausen Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Bocholt Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Borken Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Ahaus Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Gronau Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Dorsten Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Haltern am See Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Warendorf Beckum Weihnachtsmarkt Schausteller Bewerbung Frist 2026",
+    "Steinfurt Erleben Weihnachtsmarkt Standplatz Bewerbung Schausteller",
+    "Buergerschuetzenverein Gemen Schausteller Bewerbung Kirmes",
+    "Coesfeld Kreuzerhoehungskirmes Schausteller Bewerbung Frist"
+  ],
+  "max_expected_results": 25,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-16",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Sternschnuppenmarkt (Weihnachtsmarkt) Emsdetten 2026",
+      "candidate_url": "https://www.vvemsdetten.de/sternschnuppenmarkt/",
+      "reason": "Bewerbungsfrist fuer 2026 war der 01.09.2026 (Standplatzbewerbung, Veranstaltung 04.-06.12.2026), zum Zeitpunkt der Recherche (16.09.2026) bereits verstrichen. Veranstalter: Verkehrsverein Emsdetten e.V., Friedrichstrasse 2, 48282 Emsdetten, l.tecklenborg@vvemsdetten.de, Tel. 02572/93070."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Emsdettener Fruehjahrsmarkt 2027",
+      "candidate_url": "https://www.fruehjahrsmarkt-emsdetten.de/",
+      "reason": "Termin 12.-14.03.2027 bekannt, eigene Ausstellerseite existiert laut Navigation ('FUER AUSSTELLER'), Unterseite direkt nicht abrufbar (404); keine Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmaerkte Borghorst/Burgsteinfurt (Steinfurt)",
+      "candidate_url": "https://www.steinfurt-erleben.com/en/events/",
+      "reason": "Veranstalter Steinfurt Erleben GmbH bewirbt laut eigenem Facebook-Post eine Anmeldung fuer Aussteller der Weihnachtsmaerkte in Borghorst/Burgsteinfurt; auf der offiziellen Website keine Bewerbungsfrist oder Ausstellerseite mit Frist gefunden. Kontakt: Steinfurt Erleben GmbH, Markt 2, 48565 Steinfurt, info@steinfurt-erleben.com, Tel. 02551 186900."
+    },
+    {
+      "event_name": "Grevener Grosskirmes / Lambertusmarkt",
+      "candidate_url": "https://www.greven.net/erleben_besuchen/veranstaltungen/artikel/kirmes.php",
+      "reason": "Termin der Grosskirmes 2026 (28.-31.08.2026) bekannt, keine Bewerbungsfrist auf offizieller Stadtseite gefunden; Stadt Greven direkt kontaktieren."
+    },
+    {
+      "event_name": "Weihnachtsmaerkte Beckum, Roland, Neubeckum, Vellern 2026",
+      "candidate_url": "https://www.beckum.de/:translation/en/stadt-beckum/entdecken-erleben/veranstaltungen/weihnachtsmaerkte/",
+      "reason": "Termine 2026 fuer alle vier Ortsteile bekannt, Bewerbung per Formular an stadtmarketing@beckum.de moeglich, aber keine Bewerbungsfrist auf offizieller Seite genannt. Stadt Beckum, Weststrasse 46, 59269 Beckum, stadt@beckum.de, Tel. 02521 29-0."
+    },
+    {
+      "event_name": "Markt- und Kirmesveranstaltungen Coesfeld (u.a. Kreuzerhoehungskirmes)",
+      "candidate_url": "https://serviceportal.coesfeld.de/detail/-/vr-bis-detail/dienstleistung/538/show",
+      "reason": "Serviceportal nennt nur Gebuehren, keine Bewerbungsfrist. Zustaendig: Team Maerkte, Bernhard-von-Galen-Strasse 10, 48653 Coesfeld, Tel. 02541 939-8419."
+    },
+    {
+      "event_name": "Weihnachtsmarkt der Hobbykuenstler / Aussteller-Kontakt Luedinghausen",
+      "candidate_url": "https://www.luedinghausen-marketing.de/en/events/festivals-and-markets/christmas-market-for-hobby-artists/",
+      "reason": "Veranstaltung findet jaehrlich am 1. Adventswochenende auf Burg Luedinghausen statt (ca. 50 Aussteller); eigene Kontaktseite fuer Aussteller/Marktbeschicker vorhanden, aber keine Bewerbungsfrist gefunden. Luedinghausen Marketing e.V., Borg 4, 59348 Luedinghausen, info@luedinghausen-marketing.de, Tel. 02591 78008."
+    },
+    {
+      "event_name": "Bocholter Herbstkirmes 2026",
+      "candidate_url": "https://www.bocholt.de/serviceverzeichnis/kirmes",
+      "reason": "Termin 3. Sonntag im Oktober bekannt, ca. 270 Beschicker werden aus zahlreichen Bewerbungen ausgewaehlt, aber keine Bewerbungsfrist auf offizieller Seite genannt. Veranstalter: Wirtschaftsfoerderungs- und Stadtmarketing Gesellschaft Bocholt mbH & Co. KG, Osterstrasse 23, 46397 Bocholt, info@bocholt-stadtmarketing.de, Tel. 02871 294933-0."
+    },
+    {
+      "event_name": "Gemener Kirmes (Borken-Gemen) 2026",
+      "candidate_url": "https://buergerschuetzenverein-gemen.de/webseite_wp_2021/wordpress/informationen-fuer-schausteller/",
+      "reason": "Veranstaltung jaehrlich am 1. Sonntag im August, Bewerbungsunterlagen (Standmasse, Anschrift, Fotos) beschrieben, aber keine Bewerbungsfrist genannt. Kontakte: Christoph Garthaus (Vertraege), Augustin-Wibbelt-Strasse 12, 46325 Borken-Gemen, christoph.garthaus@buergerschuetzenverein-gemen.de; Robert Bollrath (Platzwart), Ahnenkamp 9, 46325 Borken-Gemen, robert.bollrath@buergerschuetzenverein-gemen.de."
+    },
+    {
+      "event_name": "Ahauser Kirmes 2026",
+      "candidate_url": "https://www.stadt-ahaus.de/de/aktuelles/meldungen/Kirmes-2024.php",
+      "reason": "Termin 11.-14.09.2026 bekannt, Kirmesmeister Ralf Rohling fuer die Stadt Ahaus zustaendig, aber keine Bewerbungsfrist oder direkte Kontaktseite mit Frist gefunden. Pressestelle der Stadt Ahaus, Rathausplatz 1, 48683 Ahaus, pressestelle@ahaus.de, Tel. 02561 72113."
+    },
+    {
+      "event_name": "Herbstkirmes und Weihnachtsmarkt Gronau",
+      "candidate_url": "https://www.gronau.de/rathaus/news/2025/news-september-2025/herbstkirmes-in-gronau-vom-10-bis-13-oktober-2025/",
+      "reason": "Genanntes Datum 07.10.2025 16 Uhr bezog sich auf eine Publikumsverlosung (Stichwort 'Kirmes' an pressestelle@gronau.de), nicht auf eine Schausteller-Standplatzbewerbung; keine offizielle Bewerbungsfrist fuer Beschicker gefunden. Fuer Weihnachtsmarkt-Aussteller verweist die Seite gronau-inside.de auf ein externes Anmeldeformular (Microsoft Forms) ohne erkennbare Frist. Stadt Gronau, Neustrasse 31, 48599 Gronau, pressestelle@gronau.de, Tel. 02562 12-0."
+    },
+    {
+      "event_name": "Nikolausmarkt Haltern am See 2026",
+      "candidate_url": "https://www.haltern.de/Inhalte/Startseite/Verwaltung_Politik/_details.asp?form=detail&db=245&id=3876",
+      "reason": "Termin 28.11.-14.12.2026 auf dem Marktplatz bekannt, keine Bewerbungsfrist fuer Schausteller/Standbetreiber auf offizieller Seite gefunden. Stadtagentur Haltern am See, Marktplatz, 45721 Haltern am See, stadtagentur@haltern.de, Tel. 02364 933-402."
+    },
+    {
+      "event_name": "Warendorfer Weihnachtswaeldchen 2026",
+      "candidate_url": "https://www.warendorf.de/de/kultur/veranstaltungen/maerkte-feste-und-highlights/warendorfer-weihnachtswaeldchen/",
+      "reason": "Termin 27.11.-20.12.2026 bekannt, Bewerbungsformular ('Bewerbung Warendorfer Weihnachtsmarkt') und Weihnachtsmarktordnung stehen zum Download bereit, aber keine explizite Bewerbungsfrist auf der Seite genannt. Stadt Warendorf, Kulturamt/Team Veranstaltungen & Stadtwerbung, Markt 1, 48231 Warendorf, stadt@warendorf.de, Tel. 02581 54-0."
+    },
+    {
+      "event_name": "Weihnachtsmarkt an der Oude Marie, Dorsten 2026",
+      "candidate_url": "https://dorsten-online.de/weihnachtsmarkt-an-der-oude-marie-geht-im-dezember-in-die-zweite-runde/",
+      "reason": "Nicht-offizielle Quelle nennt Organisatoren (Kevin Over, Birger Schwalvenberg, Heike und Klaus Schmitz), aber keine offizielle Stadt- oder Veranstalterseite mit Bewerbungsfrist auffindbar; dorsten.de-Marktseiten unter den geprueften Pfaden nicht erreichbar (404). Stadt Dorsten direkt kontaktieren."
+    }
+  ]
+}

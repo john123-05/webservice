@@ -1,0 +1,117 @@
+{
+  "batch_id": "rp-gesamt-sued-2026-09",
+  "region_scope": ["Rheinland-Pfalz"],
+  "search_terms": [
+    "Ludwigshafen Weihnachtsmarkt Schausteller Bewerbung Frist",
+    "Worms Backfischfest Schausteller Bewerbung Standplatz Frist",
+    "Pirmasens Belznickelmarkt Standbewerbung Marktamt Stadtverwaltung",
+    "Zweibrücken Schausteller Kirmes Weihnachtsmarkt Bewerbung Frist",
+    "Landau in der Pfalz Schausteller Volksfest Bewerbung Frist",
+    "Neustadt an der Weinstraße Weinlesefest Jahrmarkt Schausteller Bewerbung Frist",
+    "Germersheim Schausteller Markt Bewerbung Frist",
+    "Alzey Weinmarkt Winzerfest Schausteller Bewerbung Frist",
+    "Bingen am Rhein Schausteller Winzerfest Bewerbung Frist",
+    "Ingelheim am Rhein Schausteller Weinmarkt Bewerbung Frist",
+    "Grünstadt Marktbeschicker Bewerbung",
+    "Haßloch Weihnachtsmarkt Schausteller Bewerbung Stadtverwaltung",
+    "Kirchheimbolanden Christkindlmarkt Schausteller Bewerbung Verbandsgemeinde"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-17",
+  "entries": [
+    {
+      "id": "rp-sued-worms-backfischfest-2027",
+      "event_name": "Wormser Backfischfest 2027",
+      "event_type": "Volksfest",
+      "city": "Worms",
+      "state": "Rheinland-Pfalz",
+      "country": "DE",
+      "venue_or_area": "Festplatz am Rhein, Worms",
+      "application_deadline_iso": "2026-10-31",
+      "application_deadline_text": "Laut Kontaktseite des Backfischfests sind Bewerbungen bis spätestens 31. Oktober des Vorjahres einzureichen, d.h. für das Backfischfest 2027 bis zum 31.10.2026.",
+      "event_date_range_text": "Voraussichtlich Ende August/Anfang September 2027 (2026 fand das Fest vom 29.08. bis 06.09. statt); genaues Datum 2027 auf offizieller Seite noch nicht veröffentlicht.",
+      "application_mode": "Schriftliche Bewerbung an die Stadtverwaltung Worms, Abteilung Gewerbe-/Gaststättenrecht, Messen und Märkte",
+      "postal_address": "Stadtverwaltung Worms, Abteilung 3.02 - Gewerbe-, Gaststättenrecht / Messen und Märkte, Folzstraße 5, 67547 Worms",
+      "contact_name": "Abteilung 3.02 - Messen und Märkte, Stadtverwaltung Worms",
+      "contact_email": "backfischfest@worms.de",
+      "contact_phone": "",
+      "source_url": "https://www.backfischfest.de/backfischfest/kontakt/",
+      "source_domain": "backfischfest.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-17",
+      "agent_batch_id": "rp-gesamt-sued-2026-09",
+      "confidence_status": "partial",
+      "notes": "Bewerbungsfrist als wiederkehrende Regel (31.10. des Vorjahres) auf der Kontaktseite genannt, kein separates Bewerbungsformular für 2027 gefunden. Programmpunkte (Umzug, Fischerstechen) laufen über andere Ansprechpartner (KVG Worms, Project4 Events)."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Belznickelmarkt Pirmasens 2026 (Hütten für Vereine/Institutionen)",
+      "candidate_url": "https://www.pirmasens.de/leben-in-ps/buergerservice/aktuelle-nachrichten/belznickelmarkt-das-programm-auf-dem-schlossplatz-im-ueberblick/",
+      "reason": "Bewerbungsfrist für Hüttenvermietung an Vereine/Institutionen (Kontakt: Luisa Grieß, Stadtmarketing, 06331/2394311, veranstaltungen@pirmasens.de) endete laut Suchtreffer am 15.09.2026 und ist damit bereits verstrichen (heute: 17.09.2026)."
+    },
+    {
+      "event_name": "Weihnachtsmarkt der 1000 Lichter Haßloch 2026",
+      "candidate_url": "https://www.hassloch.de/gv_hassloch/Tourismus/Feste%20&%20Veranstaltungen/Weihnachtsmarkt/Bewerbung%20f%C3%BCr%20Weihnachtsmarkt%202026.pdf",
+      "reason": "Bewerbungsfrist für Beschicker (Kontakt: Gunther Metz, 06324 935 238, veranstaltungen@hassloch.de) endete laut Bewerbungsformular am 31.08.2026 und ist damit bereits verstrichen (heute: 17.09.2026). Für 2027 noch kein neues Formular veröffentlicht."
+    },
+    {
+      "event_name": "Feierabendmarkt Germersheim 2026",
+      "candidate_url": "https://www.wochenblatt-reporter.de/germersheim/c-wirtschaft-handel/feierabendmarkt-germersheim-2026-bewerbung-fuer-beschicker-eroeffnet_a675588",
+      "reason": "Bewerbungsfrist für Beschicker der Saison 2026 (Start 19.03.2026) endete laut Presseartikel bereits am 23.11.2025 und ist damit lange verstrichen; keine offizielle Stadtseite mit aktueller Frist für eine Folgesaison gefunden."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Ludwigshafener Weihnachtsmarkt",
+      "candidate_url": "https://lukom.com/events/weihnachtsmarkt/",
+      "reason": "Bewerbung als Beschicker läuft über Marktmeister Christian Diehl (diehl@lukom.com) bei LUKOM; keine Bewerbungsfrist auf der offiziellen Seite genannt."
+    },
+    {
+      "event_name": "Zweibrücker Weihnachtsmarkt 2026",
+      "candidate_url": "https://weihnachtsmarkt-zw.de/bewerbung/",
+      "reason": "Bewerbung nur noch online über die offizielle Veranstaltungsseite möglich, kein konkretes Bewerbungsschluss-Datum auf der Seite genannt (Angebote erfolgen erst nach Ende der - nicht datierten - Bewerbungsfrist)."
+    },
+    {
+      "event_name": "Landauer Maimarkt / Herbstmarkt",
+      "candidate_url": "https://www.landau.de/Tourismus-Kultur/Veranstaltungen/",
+      "reason": "Keine Bewerbungsfrist auf offizieller Stadtseite gefunden. Kontakt: Stabsstelle Öffentlichkeitsarbeit, presse@landau.de, 06341/13-1400, Marktstraße 50, 76829 Landau in der Pfalz; Bewerbung vermutlich über Schaustellerverband Landau-Neustadt."
+    },
+    {
+      "event_name": "Deutsches Weinlesefest Neustadt an der Weinstraße - Bunter Jahrmarkt 2026",
+      "candidate_url": "https://www.neustadt.eu/Tourismus-Wein/Top-Events-Aktuelles/Deutsches-Weinlesefest/Jahrmarkt/",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite veröffentlicht. Kontakt: Malte Ehlen, Events & Veranstaltungen, malte.ehlen@neustadt.eu, 06321 9268-58, Friedrichstraße 1, 67433 Neustadt an der Weinstraße."
+    },
+    {
+      "event_name": "Germersheimer Pfingstmarkt 2026",
+      "candidate_url": "https://www.germersheim.eu/kultur-tourismus/feste-maerkte/pfingstmarkt/",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Stadtverwaltung Germersheim, Kolpingplatz 3, 76726 Germersheim, info@germersheim.eu, +49 7274 960-0; Tourist-Info tourist-info@germersheim.eu, +49 7274 960-301."
+    },
+    {
+      "event_name": "Alzeyer Winzerfest",
+      "candidate_url": "https://www.winzerfest-alzey.de/wf/aussteller/",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Stadtverwaltung Alzey, Ernst-Ludwig-Straße 42, 55232 Alzey."
+    },
+    {
+      "event_name": "Binger Winzerfest",
+      "candidate_url": "https://www.bingen.de/stadt/buergerservice-online/anliegen-von-a-z/d-winzerfest-standvergabe-1133636094",
+      "reason": "Seite beschreibt Standvergabe-Verfahren (Bewerbungen von Standbetreibern, Vertragsausfertigung, Platzzuweisung), aber kein konkretes Fristdatum genannt. Bewerbungsschluss laut anderer Quelle bereits 'verlängert' worden, genaues Datum nicht auffindbar. Kontakt: veranstaltungen@bingen.de, Stadtverwaltung Bingen, Burg Klopp, 55411 Bingen am Rhein, +49 6721 184-0."
+    },
+    {
+      "event_name": "Ingelheimer Weinhöfefeste 2026",
+      "candidate_url": "https://www.ingelheim.de/buergerservice/leistungen/RLP:entry:2283707:ANLR-VLR/verkaufsveranstaltungen-genehmigung-beantragen-wochenmaerkte-jahrmaerkte-spezialmaerkte/",
+      "reason": "Keine schaustellerspezifische Bewerbungsfrist gefunden, nur allgemeine Seite zur Genehmigung von Wochenmärkten/Jahrmärkten/Spezialmärkten. Kontakt: Tourist-Information Ingelheim, touristinformation@ikum-ingelheim.de, 06132 710009200."
+    },
+    {
+      "event_name": "Grünstadt Wochenmarkt - Marktbeschicker",
+      "candidate_url": "https://www.gruenstadt.de/unsere-stadt/wochenmarkt/fuer-marktbeschicker/informationen-zur-bewerbung/",
+      "reason": "Laufende (nicht fristgebundene) Bewerbung für Marktbeschicker auf dem Wochenmarkt möglich, kein Bewerbungsschluss-Datum vorhanden. Kontakt: Stadtverwaltung Grünstadt, Kreuzerweg 2/7, 67269 Grünstadt, stadt@gruenstadt.de, 06359/805-0."
+    },
+    {
+      "event_name": "Christkindlmarkt Kirchheimbolanden 2026",
+      "candidate_url": "https://www.kirchheimbolanden.de/",
+      "reason": "Keine offizielle Unterseite mit Bewerbungsinformationen für Schausteller/Standbetreiber gefunden (Markt wird laut Presse überwiegend von Vereinen/Privatpersonen bestückt). Kontakt: Tourist-Information Kirchheimbolanden, Neue Allee 2, 67292 Kirchheimbolanden, Tel. 06352 1712."
+    }
+  ]
+}

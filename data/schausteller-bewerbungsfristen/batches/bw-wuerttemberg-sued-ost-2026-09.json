@@ -1,0 +1,122 @@
+{
+  "batch_id": "bw-wuerttemberg-sued-ost-2026-09",
+  "region_scope": ["Baden-Württemberg"],
+  "search_terms": [
+    "Ulm Schausteller Weihnachtsmarkt Bewerbung Frist",
+    "Reutlingen Schausteller Marktamt Bewerbung Standplatz Weihnachtsmarkt",
+    "Tübingen Schausteller Bewerbung Weihnachtsmarkt Frist",
+    "Heilbronn Schausteller Bewerbung Volksfest Weihnachtsmarkt Frist",
+    "Schwäbisch Gmünd Schausteller Bewerbung Weihnachtsmarkt Frist",
+    "Schwäbisch Hall Schausteller Bewerbung Weihnachtsmarkt Kuchen- und Brunnenfest",
+    "Aalen Schausteller Bewerbung Weihnachtsmarkt Frist Ordnungsamt",
+    "Heidenheim an der Brenz Schausteller Bewerbung Weihnachtsmarkt Frist",
+    "Crailsheim Schausteller Bewerbung Weihnachtsmarkt Frist",
+    "Biberach an der Riß Schausteller Bewerbung Frist",
+    "Sigmaringen Schausteller Bewerbung Weihnachtsmarkt Stadt Frist",
+    "Balingen Schausteller Bewerbung Weihnachtsmarkt Stadtfest Frist",
+    "Albstadt Schausteller Bewerbung Weihnachtsmarkt Frist",
+    "Rottweil Schausteller Bewerbung Weihnachtsmarkt Frist",
+    "Tuttlingen Schausteller Bewerbung Weihnachtsmarkt Stadtfest Frist",
+    "Bad Mergentheim Schausteller Bewerbung Weihnachtsmarkt Stadtfest Frist",
+    "Öhringen Schausteller Bewerbung Weihnachtsmarkt Frist",
+    "Bad Wurzach Schausteller Bewerbung Frist"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-16",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Tübinger Weihnachtsmarkt 2026",
+      "candidate_url": "https://formulare.tuebingen.de/frontend-server/form/provide/854/",
+      "reason": "Bewerbungsfrist war der 31.07.2026, zum Zeitpunkt der Recherche (16.09.2026) bereits verstrichen. Zusagen/Absagen wurden laut Formular bereits im September 2026 verschickt."
+    },
+    {
+      "event_name": "Reichsstädter Advent Aalen 2026 (Standbetreiber)",
+      "candidate_url": "https://www.aalen-kultur.de/reichsstaedter-advent.212939.htm",
+      "reason": "Bewerbungsfrist fuer Standbetreiber war der 30.06.2026, zum Zeitpunkt der Recherche (16.09.2026) bereits verstrichen."
+    },
+    {
+      "event_name": "Christkindlesmarkt Balingen 2026",
+      "candidate_url": "https://www.balingen.de/freizeit-und-tourismus/stadtmarketing/einkaufen/christkindlesmarkt",
+      "reason": "Offizielle Seite bestaetigt: 'Die Anmeldephase ist beendet'. Presseberichte nennen als regulaeren Bewerbungsschluss den 15.06.2026, bereits verstrichen bei Recherche am 16.09.2026."
+    },
+    {
+      "event_name": "Ulmer Weihnachtsmarkt 2026 (Standplaetze allgemein)",
+      "candidate_url": "https://www.ulmer-weihnachtsmarkt.de/bewerbung/",
+      "reason": "Offizielle Seite bestaetigt: Bewerbungsphase fuer 2026 bereits abgeschlossen. Nur noch kreative Konzepte im Warensegment werden per E-Mail an weihnachtsmarkt@ulm-messe.de formlos entgegengenommen, kein regulaeres Bewerbungsfenster mehr offen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Ulmer Volksfest (Schausteller-Standplatz)",
+      "candidate_url": "https://ulmer-volksfest.de/bewerbung/",
+      "reason": "Seite nennt Bewerbungsschluss 07.11.2024 (bezogen auf einen frueheren Jahrgang); kein aktuelles Datum fuer den naechsten Turnus auf der Seite erkennbar. Kontakt: VMV GmbH, Stefan Scheller, Marktplatz 8, 89073 Ulm, info@vmvgmbh.de bzw. post@ulmer-volksfest.de, Tel. 0731 940 236 27/26."
+    },
+    {
+      "event_name": "Reutlinger Weihnachtsmarkt (gewerbliche Standplaetze)",
+      "candidate_url": "https://weihnachtsmarkt-reutlingen.de/wp-content/uploads/2025/01/Teilnahmebestimmungen%20f%C3%BCr%20die%20Reutlinger%20Weihnachtsm%C3%A4rkte%202025.pdf",
+      "reason": "Teilnahmebestimmungen-PDF (Jahrgang 2025) enthaelt kein explizites Bewerbungsfristdatum fuer 2026. Kontakt: Stadt Reutlingen, Kulturamt/Ordnungsamt, ordnungsamt@reutlingen.de, weihnachtsmarkt@reutlingen.de, Tel. 07121 303 2838 (Bianca Faisst)."
+    },
+    {
+      "event_name": "Käthchen-Weihnachtsmarkt Heilbronn (Standbetreiber)",
+      "candidate_url": "https://www.heilbronn-marketing.de/",
+      "reason": "Termin 2026 bekannt (24.11.-22.12.2026), aber keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Heilbronn Marketing GmbH, Kirchbrunnenstrasse 3, 74072 Heilbronn, Tel. 07131 562270."
+    },
+    {
+      "event_name": "Heilbronner Volksfest (Theresienwiese)",
+      "candidate_url": "https://www.heilbronn.de/tourismus/veranstaltungskalender/detail/heilbronner-volksfest/2026-07-12-00-00.html",
+      "reason": "Termin fuer 2026 bekannt (ab 12.07.2026, damit im Recherchezeitraum bereits gelaufen), Bewerbungsverfahren fuer Schausteller nicht auf oeffentlich zugaenglicher Stadtseite gefunden; Veranstalterkontakt nicht ermittelt."
+    },
+    {
+      "event_name": "Gmünder Weihnachtsmarkt (Standplaetze)",
+      "candidate_url": "https://www.schwaebisch-gmuend.de/veranstaltung/gmuender-weihnachtsmarkt-4.html",
+      "reason": "Keine Bewerbungsfrist auf der Veranstaltungsseite gefunden. Stadt Schwaebisch Gmuend vergibt Standplaetze laut anderen Ausschreibungen (z.B. Maimarkt-Kraemermarkt) ueber eigene Ausschreibungsseiten; entsprechende Seite fuer den Weihnachtsmarkt 2026 wurde nicht gefunden. Kontakt: Touristik und Marketing GmbH Schwaebisch Gmuend, Marktplatz 37/1, 73525 Schwaebisch Gmuend."
+    },
+    {
+      "event_name": "Maimarkt-Kraemermarkt Schwaebisch Gmuend 2026",
+      "candidate_url": "https://www.schwaebisch-gmuend.de/ausschreibungen-2135/ausschreibung-und-aufforderung-zur-bewerbung-fuer-standplaetze-auf-dem-maimarkt-kraemermarkt-schwaebisch-gmuend-2026.html",
+      "reason": "URL aus Suchindex fuehrte bei direktem Abruf zu 404 (Seite evtl. saisonal offline genommen, Markt findet im Fruehjahr statt und Bewerbungsfenster war zum Recherchezeitpunkt im September vermutlich bereits abgelaufen oder die Ausschreibung fuer 2027 noch nicht online). Kein Fristdatum bestaetigt."
+    },
+    {
+      "event_name": "Weihnachtsmarkt/Weihnachtszauber Schwaebisch Hall (Dauerstand/Wechselstand)",
+      "candidate_url": "https://www.schwaebischhall.de/de/kultur-tourismus/feste-highlights/weihnachtsmarkt",
+      "reason": "Termin 2026 bekannt (26.11.-20.12.2026), zwei Standarten (Dauerstand/Wechselstand) vorhanden, Bewerbungen laufen laut Presseinfo an stadtmarketing@schwaebischhall.de, aber kein Fristdatum auf offizieller Seite auffindbar (Seite lieferte bei direktem Abruf nur Navigationsgeruest ohne Volltext)."
+    },
+    {
+      "event_name": "Heidenheimer Weihnachtsmarkt 2026 (Standplaetze)",
+      "candidate_url": "https://www.heidenheim.de/,Lde/startseite/Leben/weihnachtsmarkt.html",
+      "reason": "Termin 2026 bekannt (10.-13.12.2026), offizielle Seite verweist auf spaetere Aktualisierung ohne konkretes Fristdatum. Kontakt: Wirtschaftsfoerderung Heidenheim, Grabenstrasse 15, 89522 Heidenheim an der Brenz, wirtschaftsfoerderung@heidenheim.de, Tel. 07321 3271081."
+    },
+    {
+      "event_name": "Weihnachtsmarkt auf dem Karlsplatz Sigmaringen",
+      "candidate_url": "https://www.sigmaringen.de/de/Buerger-Rathaus/Aktuelles-Stadtinfo/Aktuelles/2024-04/Traditioneller-Weihnachtsmarkt-auf-dem-Karlsplatz-zum-ersten-Adventswochenende.html",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Stadt Sigmaringen, Marktamt, Fuerst-Wilhelm-Str. 15, 72488 Sigmaringen, Tel. 07571 106-222."
+    },
+    {
+      "event_name": "Ebinger Weihnachtszauber Albstadt",
+      "candidate_url": "https://hgv-albstadt.de/aktuelles/",
+      "reason": "Wird vom City-Management/HGV Albstadt organisiert, keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: ulrich.daum@citymanagement-albstadt.de."
+    },
+    {
+      "event_name": "Rottweiler Weihnachtsmarkt (Standplaetze)",
+      "candidate_url": "https://www.tourismus-rottweil.de/das-erlebnis/veranstaltungen/weihnachtsmarkt",
+      "reason": "Termin 2026 vermutlich analog Vorjahr (2. bis 3. Adventswoche), keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Tourist-Information Rottweil, Hauptstrasse 21, 78628 Rottweil, tourist-information@rottweil.de, Tel. 0741 494280."
+    },
+    {
+      "event_name": "Tuttlingen im Advent / Stadtfest Tuttlingen",
+      "candidate_url": "https://www.tuttlingen.de/de/Kultur-Tourismus/Veranstaltungen/Innenstadt-Events",
+      "reason": "Keine Bewerbungsfrist oder Bewerbungsverfahren auf offizieller Seite gefunden. Kontakt: Stadt Tuttlingen, Rathausstrasse 1, 78532 Tuttlingen, info@tuttlingen.de, Tel. 07461 99-0."
+    },
+    {
+      "event_name": "Weihnachtsmarkt in der Innenstadt Bad Mergentheim 2026",
+      "candidate_url": "https://www.bad-mergentheim.de/de/stadtleben/veranstaltungen/weihnachtsmarkt-in-der-innenstadt-id_238512/",
+      "reason": "Termin 2026 bekannt (03.-06.12. und 10.-13.12.2026), offizielle Veranstaltungsseite bei direktem Abruf nicht erreichbar (403); kein Fristdatum bestaetigt. Kontakt: Stadt Bad Mergentheim, Bahnhofsplatz 1, 97980 Bad Mergentheim, Tel. 07931 570; Tourist-Information Marktplatz 1, Tel. 07931 574815."
+    },
+    {
+      "event_name": "Öhringer Weihnachtsmarkt 2026 (Verkaufsstand)",
+      "candidate_url": "https://www.oehringen.de/freizeit-tourismus/unsere-veranstaltungen/oehringer-weihnachtsmarkt/anmeldung-verkaufsstand",
+      "reason": "Termin 2026 bekannt (alle vier Adventswochenenden), Anmeldeformular vorhanden, verweist auf 'WM_Marktordnung_und_Teilnahmebedingungen_2026.pdf' fuer Details; kein konkretes Fristdatum auf der Seite selbst extrahierbar. Kontakt: Stadt Oehringen, Marktplatz 15, 74613 Oehringen, info@oehringen.de, Tel. 07941 68-0."
+    }
+  ]
+}

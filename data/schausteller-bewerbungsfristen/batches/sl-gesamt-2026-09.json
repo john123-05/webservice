@@ -1,0 +1,116 @@
+{
+  "batch_id": "sl-gesamt-2026-09",
+  "region_scope": ["Saarland"],
+  "search_terms": [
+    "Homburg Saar Schausteller Weihnachtsmarkt Bewerbung Standplatz Marktamt",
+    "Völklingen Schausteller Weihnachtsmarkt Bewerbung Standplatz",
+    "Merzig Schausteller Weihnachtsmarkt Bewerbung Standplatz",
+    "St. Wendel Schausteller Markt Bewerbung Standplatz Kirmes",
+    "Blieskastel Schausteller Markt Bewerbung Standplatz",
+    "Lebach Schausteller Markt Weihnachtsmarkt Bewerbung Standplatz",
+    "Dillingen Saar Schausteller Markt Bewerbung Standplatz",
+    "Püttlingen Schausteller Markt Bewerbung Standplatz",
+    "Wadgassen Schwalbach Saar Schausteller Markt Bewerbung Standplatz",
+    "Losheim am See Nonnweiler Schausteller Markt Bewerbung Standplatz",
+    "Nonnweiler Weihnachtsmarkt Primstal Bewerbung Gemeinde offiziell",
+    "Schwalbach Saar Weihnachtsmarkt Gemeinde offiziell"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-17",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Wein- und Käsemarkt Blieskastel 2026",
+      "candidate_url": "https://www.blieskastel.de/maerkte",
+      "reason": "Termin war 06.09.2026, Anmeldeschluss laut Kulturamt 4 Wochen vor der Veranstaltung (ca. 09.08.2026) und die Veranstaltung selbst liegt bereits in der Vergangenheit."
+    },
+    {
+      "event_name": "Second Hand Markt Blieskastel 2026",
+      "candidate_url": "https://www.blieskastel.de/maerkte",
+      "reason": "Termin war 03.10.2026, Anmeldeschluss laut Kulturamt 4 Wochen vor der Veranstaltung (ca. 05.09.2026), Frist bereits verstrichen (Stand 17.09.2026)."
+    },
+    {
+      "event_name": "Mondscheinmarkt Blieskastel 2026",
+      "candidate_url": "https://www.blieskastel.de/stadt/aktuelles/veranstaltungen-der-stadt-blieskastel/termindetail/mondscheinmarkt-20",
+      "reason": "Termin 09.10.2026, Anmeldeschluss laut Kulturamt 4 Wochen vor der Veranstaltung (ca. 11.09.2026), Frist bereits verstrichen (Stand 17.09.2026)."
+    },
+    {
+      "event_name": "Mariä Geburtsmarkt Lebach 2026",
+      "candidate_url": "https://www.lebach.de/kultur-und-bildung/veranstaltungen/bewerbungsformulare-fuer-standbetreiber",
+      "reason": "Termin war 15.09.2026, Veranstaltung liegt bereits in der Vergangenheit (Stand 17.09.2026), Bewerbungsfrist damit abgelaufen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Blieskasteler Christkindlmarkt 2026",
+      "candidate_url": "https://www.blieskastel.de/maerkte",
+      "reason": "Termin 04.-06.12.2026 auf Paradeplatz/Altstadt bestätigt. Bewerbung laut Stadt ganzjährig möglich, kein festes Frist-Datum genannt. Kontakt: Sarah Jäckels, Stadt Blieskastel, Kulturamt, Luitpoldplatz 5, 66440 Blieskastel, Tel. 06842 926-1327, sarah.jaeckels@blieskastel.de."
+    },
+    {
+      "event_name": "Homburger Nikolausmarkt / Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.homburg.de/leben-in-homburg/veranstaltungsvielfalt/weihnachtsmarkte/",
+      "reason": "Markt auf dem Historischen Marktplatz, organisiert von der Homburger Kulturgesellschaft. Kein Bewerbungsfrist-Datum auf offizieller Seite gefunden. Kontakt: kultur@homburg.de."
+    },
+    {
+      "event_name": "Weihnerdsmarkt / Weihnachtsmarkt Völklingen 2026",
+      "candidate_url": "https://www.voelklingen.de/kultur-sport-freizeit/veranstaltungskalender/detail/weihnerdsmarkt-1-1-1",
+      "reason": "Klassischer städtischer Weihnachtsmarkt existiert laut Rechercheergebnissen seit 2013 nicht mehr; aktuelle Veranstaltung 'Weihnerdsmarkt' auf Stadtseite gelistet, aber keine Bewerbungsinformationen für Schausteller/Standbetreiber gefunden. Allgemeiner Kontakt über Stadt Völklingen nötig."
+    },
+    {
+      "event_name": "Merziger Weihnachtsmarkt am Stadthaus 2026",
+      "candidate_url": "https://www.merzig.de/was-erledige-ich-wo/weihnachtsmarkt/",
+      "reason": "Markt findet traditionell Ende November bis 24.12. statt. Kein Bewerbungsfrist-Datum gefunden. Kontakt: Ressort 20 – Wirtschaftsförderung, Soziales, Familie und Tourismus, Poststraße 12 (Kretzschmarhaus), 66663 Merzig, Tel. 06861/85-337; alternativ info@merziger-weihnachtsmarkt.de."
+    },
+    {
+      "event_name": "St. Wendeler Märkte (Stadtfest / LebensArt / Wendelskirmes) 2026",
+      "candidate_url": "https://tourismus.sankt-wendel.de/maerkte/informationen-fuer-aussteller-und-bewerber/",
+      "reason": "Bewerbungsverfahren mit Auswahlkriterien (Attraktivität, Standoptik) beschrieben, aber kein konkretes Fristdatum gefunden. Kontakt: Kulturamt/Stadtmarketing, Schloßstraße 7, 66606 St. Wendel, Tel. (06851) 809-1809/1810, stadtmarketing@sankt-wendel.de."
+    },
+    {
+      "event_name": "Dillinger Märkte / Standplätze 2026",
+      "candidate_url": "https://www.dillingen-saar.de/aktuelles/vielfaeltige-regionale-produkte-der-dillinger-wochenmarkt-hat-tradition/",
+      "reason": "Kein eigener Schausteller-/Weihnachtsmarkt mit Bewerbungsfrist auf offizieller Stadtseite gefunden (nur Wochenmarkt-Informationen). Kontakt: Gewerbeamt Dillingen/Saar, Postfach 1780, 66750 Dillingen, gewerbeamt@dillingen-saar.de, Tel. 06831-709354."
+    },
+    {
+      "event_name": "Lebacher Mondscheinmarkt 2027",
+      "candidate_url": "https://www.lebach.de/kultur-und-bildung/veranstaltungen/bewerbungsformulare-fuer-standbetreiber",
+      "reason": "Termin 09.04.2027 bestätigt, Bewerbungsformulare als PDF verfügbar, aber kein Fristdatum auf der Seite gefunden. Kontakt: Kulturamt der Stadt Lebach, Am Markt 1, 66822 Lebach, Tel. (06881) 59-231, kulturamt@lebach.de."
+    },
+    {
+      "event_name": "TheelFeschd Lebach 2027",
+      "candidate_url": "https://www.lebach.de/kultur-und-bildung/veranstaltungen/bewerbungsformulare-fuer-standbetreiber",
+      "reason": "Termin 25.-26.06.2027 bestätigt, kein Fristdatum gefunden. Kontakt: Kulturamt der Stadt Lebach, Am Markt 1, 66822 Lebach, Tel. (06881) 59-231, kulturamt@lebach.de."
+    },
+    {
+      "event_name": "Mädelsflohmarkt Lebach 2026",
+      "candidate_url": "https://www.lebach.de/kultur-und-bildung/veranstaltungen/bewerbungsformulare-fuer-standbetreiber",
+      "reason": "Termin 27.09.2026 bestätigt, kein Fristdatum gefunden; Termin liegt sehr nah an der Recherche (Stand 17.09.2026), Bewerbung könnte bereits geschlossen sein. Kontakt: Kulturamt der Stadt Lebach, kulturamt@lebach.de, Tel. (06881) 59-231."
+    },
+    {
+      "event_name": "Jahrmarkt Püttlingen 2026/2027",
+      "candidate_url": "https://www.puettlingen.de/rathaus-service/aktuell/veranstaltungen/detail/jahrmarkt-puettlingen",
+      "reason": "Auf offizieller Seite kein Termin für 2026/2027 und keine Bewerbungsinformationen für Schausteller gefunden (nur Angaben zu 2023). Kontakt: Stadtverwaltung Püttlingen, Rathausplatz 1, 66346 Püttlingen, Tel. (0 68 98) 6 91-0, stadtverwaltung@puettlingen.de."
+    },
+    {
+      "event_name": "Wadgasser Weihnachtsmarkt am Abteihof 2026",
+      "candidate_url": "https://www.wadgassen.de/veranstaltung",
+      "reason": "Markt findet traditionell am ersten Adventswochenende statt (2025: 28.-30.11.), 2026-Termin und Bewerbungsinformationen für Schausteller/Standbetreiber auf offizieller Seite nicht gefunden. Kontakt: Gemeinde Wadgassen, Lindenstraße 114, 66787 Wadgassen, Tel. (0 68 34) 9 44-0."
+    },
+    {
+      "event_name": "Schwalbacher Adventszauber 2026",
+      "candidate_url": "https://www.schwalbach-saar.de/buergerservice/was-erledige-ich-wo/item/weihnachtsmarkt",
+      "reason": "Markt findet am ersten Adventswochenende im Rathausgarten (Hauptstraße 92, 66773 Schwalbach) statt; konkrete Unterseite zu Bewerbungsinformationen für Standbetreiber bei Abruf nicht erreichbar (404). Kein Fristdatum bestätigt."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Nonnweiler 2026",
+      "candidate_url": "https://www.nonnweiler.de/aktuelles-veranstaltungen/veranstaltungskalender/detail/weihnachtsmarkt-nonnweiler-4/",
+      "reason": "Vorjahrestermin (01.12.2024) auf offizieller Gemeindeseite bekannt, 2026-Termin und Bewerbungsfrist für Standbetreiber/Vereine nicht bestätigt. Kontakt: Gemeinde Nonnweiler, Trierer Straße 5, 66620 Nonnweiler, Tel. 06873/660-0, rathaus@nonnweiler.de."
+    },
+    {
+      "event_name": "Märkte / Veranstaltungen Losheim am See 2026",
+      "candidate_url": "https://www.losheim.de/rathaus-service/buergerdienstleistungszentrum/karriere",
+      "reason": "Keine offizielle Seite mit Bewerbungsinformationen für Schausteller/Standbetreiber gefunden; nur allgemeine Gemeindeseite verfügbar, keine spezifische Marktveranstaltung mit Bewerbungsverfahren identifiziert."
+    }
+  ]
+}

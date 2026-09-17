@@ -1,7 +1,25 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-13",
+  "updated_at": "2026-09-17",
   "rejected_candidates": [
+    {
+      "event_name": "367. Martinimarkt Neuruppin 2026",
+      "candidate_url": "https://stadtmarketing-neuruppin.de/schaustelleranmeldung/",
+      "reason": "Offizielle Seite von InKom Neuruppin GmbH nennt ausdrücklich: 'Die Bewerbungsfrist für den Martinimarkt 2026 ist am 15.01.2026 abgelaufen!' Frist liegt vor dem heutigen last_verified_at (2026-09-17).",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "147. Baumblütenfest Werder (Havel) 2026 – Rummel/Volksfest",
+      "candidate_url": "https://www.werder-havel.de/politik-rathaus/aktuelles/neuigkeiten/133-baumbl%C3%BCtenfest/4875-147-baumbl%C3%BCtenfest-bewerbungsstart-f%C3%BCr-rummel-und-volksfest.html",
+      "reason": "Bewerbungsfristen für das Frühjahrsfest 2026 waren 29.11.2025 (Rummel) bzw. 15.12.2025 (Volksfest) und damit bereits vor last_verified_at (2026-09-17) abgelaufen; Veranstaltung 2026 liegt bereits in der Vergangenheit.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Bernauer Weihnachtsmarkt 2025 (Kunsthandwerker/Händler)",
+      "candidate_url": "https://www.bernau.de/de/rathaus-service/aktuelles/stadtnachrichten/artikel-noch-kunsthandwerker-und-haendler-fuer-den-bernauer-weihnachtsmarkt-gesucht.html",
+      "reason": "Bewerbungsfrist war der 21.11.2025 für den Weihnachtsmarkt vom 5.-14.12.2025; abgelaufener Zyklus, kein Fristdatum für den Weihnachtsmarkt 2026 (04.-13.12.2026) auf der Seite veröffentlicht.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
     {
       "event_name": "Wilhelmstädter Stadtteilfest 2026 und/oder 2027",
       "candidate_url": "https://www.berlin.de/ba-spandau/aktuelles/pressemitteilungen/2026/pressemitteilung.1652922.php",
@@ -325,6 +343,36 @@
       "candidate_url": "https://www.schloss-bruchsal.de/fileadmin/Bilder/13_bruchsal_neu/sonstige/2026-03-12_Adventsmarkt_2026_Bewerbungsunterlagen_Kunsthandwerker.pdf",
       "reason": "Laut Stadt Bruchsal ist das Bewerbungsverfahren fuer den Weihnachtsmarkt 2026 bereits abgeschlossen, Zu- und Absagen wurden schon verschickt (Markt 03.-07. und 10.-14.12.2026).",
       "agent_batch_id": "bw-karlsruhe-nordbaden-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Villingen-Schwenningen 2026 (Wechselhütten)",
+      "candidate_url": "https://www.villingen-schwenningen.de/tourismus-erleben/vs-erleben/maerkte-und-messen/",
+      "reason": "Laut Stabsstelle Stadtmarketing ist das Bewerbungsverfahren fuer den Weihnachtsmarkt 2026 (Schwenningen 27.11.-13.12.2026, Villinger Adventsfenster 1.-24.12.2026) bereits abgeschlossen; die naechste Bewerbungsphase (fuer 2027) beginnt laut Seite erst im Januar 2027.",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Tübinger Weihnachtsmarkt 2026",
+      "candidate_url": "https://formulare.tuebingen.de/frontend-server/form/provide/854/",
+      "reason": "Bewerbungsfrist war der 31.07.2026, zum Zeitpunkt der Recherche (16.09.2026) bereits verstrichen. Zusagen/Absagen wurden laut Formular bereits im September 2026 verschickt.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Reichsstädter Advent Aalen 2026 (Standbetreiber)",
+      "candidate_url": "https://www.aalen-kultur.de/reichsstaedter-advent.212939.htm",
+      "reason": "Bewerbungsfrist fuer Standbetreiber war der 30.06.2026, zum Zeitpunkt der Recherche (16.09.2026) bereits verstrichen.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Christkindlesmarkt Balingen 2026",
+      "candidate_url": "https://www.balingen.de/freizeit-und-tourismus/stadtmarketing/einkaufen/christkindlesmarkt",
+      "reason": "Offizielle Seite bestaetigt: 'Die Anmeldephase ist beendet'. Presseberichte nennen als regulaeren Bewerbungsschluss den 15.06.2026, bereits verstrichen bei Recherche am 16.09.2026.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Ulmer Weihnachtsmarkt 2026 (Standplaetze allgemein)",
+      "candidate_url": "https://www.ulmer-weihnachtsmarkt.de/bewerbung/",
+      "reason": "Offizielle Seite bestaetigt: Bewerbungsphase fuer 2026 bereits abgeschlossen. Nur noch kreative Konzepte im Warensegment werden per E-Mail an weihnachtsmarkt@ulm-messe.de formlos entgegengenommen, kein regulaeres Bewerbungsfenster mehr offen.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
     },
     {
       "event_name": "Erlanger Bergkirchweih 2027",
@@ -1035,6 +1083,18 @@
       "agent_batch_id": "he-2027-deep-nord-sued"
     },
     {
+      "event_name": "Ostermarkt / Pfingstmarkt Bad Hersfeld 2026 (Krammärkte)",
+      "candidate_url": "https://www.bad-hersfeld.de/maerkte/zulassungsantraege/krammaerkte.html",
+      "reason": "Bewerbungsfrist war 01.10.-31.12.2025 fuer Ostermarkt (01.04.2026) und Pfingstmarkt (20.05.2026); zum Stand 16.09.2026 bereits abgelaufen. Fuer weitere Krammaerkte 2026/2027 (Weihnachtsmarkt, Lulluskrammarkt) keine Fristangaben auf der Seite gefunden.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Alsfelder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.alsfeld.de/weihnachtsmarkt/",
+      "reason": "Bewerbungsfrist laut Stadt Alsfeld war der 31.07.2026 (Bewerbung an wirtschaftundstadtmarketing@stadt.alsfeld.de); zum Stand 16.09.2026 bereits abgelaufen.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
       "event_name": "Merfeller Kerb 2026",
       "candidate_url": "https://www.moerfelden-walldorf.de/de/aktuelles/presse/2025/oktober/moerfelder-kerb-2025-1/",
       "reason": "Bewerbungsfrist fuer 2026 war der 01.02.2026, bereits verstrichen (Kerb selbst findet erst 17.-20.10.2026 statt). Keine Dauerregel-Formulierung gefunden, daher kein Datum fuer 2027 abgeleitet.",
@@ -1051,6 +1111,12 @@
       "candidate_url": "https://vvv-langen.de/feste/langener-weihnachtsmarkt/",
       "reason": "Frist fuer 2026 (30.04.2026) bereits verstrichen. Folgejahrgang 2027 als partial-Eintrag oben abgeleitet.",
       "agent_batch_id": "he-rheinmain-2026-09"
+    },
+    {
+      "event_name": "Rostocker Weihnachtsmarkt 2026 (Händler/Schausteller)",
+      "candidate_url": "https://www.rostocker-weihnachtsmarkt.de/de/unser-weihnachtsmarkt/fuer-haendler-und-schausteller/",
+      "reason": "Bewerbungsfrist fuer 2026 lief bereits am 01.12.2025 ab. Fuer 2027 (Markt 23.11.-22.12.2027) laeuft die Frist bis 01.12.2026, dieser Eintrag ist bereits als 'Hanse Sail / Weihnachtsmarkt Rostock 2027'-Reihe in master.json vorhanden (deadline 2026-12-01), daher keine neue Zeile.",
+      "agent_batch_id": "mv-gesamt-2026-09"
     },
     {
       "event_name": "Lübecker Weihnachtsmarkt 2026",
@@ -1143,6 +1209,12 @@
       "agent_batch_id": "ni-lueneburg-elbe-2026-09"
     },
     {
+      "event_name": "Lingener Weihnachtsmarkt 2026 (Standflaechen fuer Aussteller/Schausteller)",
+      "candidate_url": "https://www.tourismus-lingen.de/veranstaltungen/weihnachtsmarkt/informationen-fuer-aussteller/informationen-fuer-weihnachtsmarkt-aussteller.html",
+      "reason": "Bewerbungsfrist laut offizieller Seite der Lingen Wirtschaft & Tourismus GmbH war der 12.07.2026 (Zusagen bis 31.08.2026); zum Stichtag der Recherche (16.09.2026) bereits abgelaufen.",
+      "agent_batch_id": "ni-weser-ems-2026-09"
+    },
+    {
       "event_name": "Magdeburger Weihnachtsmarkt 2026",
       "candidate_url": "https://www.weihnachtsmarkt-magdeburg.de/ausschreibung",
       "reason": "Die Gesellschaft zur Durchfuehrung der Magdeburger Weihnachtsmaerkte mbH nennt als Bewerbungsschluss den 8. Mai 2026, 12 Uhr, fuer den Markt vom 19.11. bis 29.12.2026. Verspaetete Einreichungen werden nicht beruecksichtigt. Frist zum Stichtag 03.08.2026 abgelaufen.",
@@ -1213,6 +1285,12 @@
       "candidate_url": "https://www.ahlen.de/freizeit-und-touristik/ahlener-kirmes/infos-fuer-schaustellende",
       "reason": "Bewerbungsschluss fuer die Ahlener Kirmesveranstaltungen 2026 war der 31. Oktober 2025. Frist abgelaufen.",
       "agent_batch_id": "nrw-2027-deep-mittelstaedte"
+    },
+    {
+      "event_name": "Sternschnuppenmarkt (Weihnachtsmarkt) Emsdetten 2026",
+      "candidate_url": "https://www.vvemsdetten.de/sternschnuppenmarkt/",
+      "reason": "Bewerbungsfrist fuer 2026 war der 01.09.2026 (Standplatzbewerbung, Veranstaltung 04.-06.12.2026), zum Zeitpunkt der Recherche (16.09.2026) bereits verstrichen. Veranstalter: Verkehrsverein Emsdetten e.V., Friedrichstrasse 2, 48282 Emsdetten, l.tecklenborg@vvemsdetten.de, Tel. 02572/93070.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
     },
     {
       "event_name": "Weihnachtsmarkt Made in Krefeld Special (MIKS) 2026",
@@ -1653,6 +1731,66 @@
       "agent_batch_id": "research-2026-08-03-sn-st-th"
     },
     {
+      "event_name": "Bewerbungsrunde 2026 (Oster-/Fruehlingsmarkt, Standbetreiber, Musikprogramm) Cochem",
+      "candidate_url": "https://cochem.de/stadt-cochem/informationen-aussteller-bewerbungen-veranstaltungen/",
+      "reason": "Stadt Cochem listet diese Bewerbungsverfahren fuer 2026 explizit als 'beendet'; Frist bereits verstrichen, kein neues Datum fuer 2027 auf der Seite veroeffentlicht.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Nikolausmarkt Lahnstein 2025",
+      "candidate_url": "https://www.lahnstein.de/aktuelles/pressemeldungen/2025/september/nikolausmarkt-lahnstein-2025-jetzt-als-aussteller-anmelden/",
+      "reason": "Veranstaltung fand 5.-7.12.2025 statt, liegt vor dem Stichtag 2026-09-16; keine Ankuendigung/Frist fuer die Ausgabe 2026 auf der Stadtseite gefunden.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Belznickelmarkt Pirmasens 2026 (Hütten für Vereine/Institutionen)",
+      "candidate_url": "https://www.pirmasens.de/leben-in-ps/buergerservice/aktuelle-nachrichten/belznickelmarkt-das-programm-auf-dem-schlossplatz-im-ueberblick/",
+      "reason": "Bewerbungsfrist für Hüttenvermietung an Vereine/Institutionen (Kontakt: Luisa Grieß, Stadtmarketing, 06331/2394311, veranstaltungen@pirmasens.de) endete laut Suchtreffer am 15.09.2026 und ist damit bereits verstrichen (heute: 17.09.2026).",
+      "agent_batch_id": "rp-gesamt-sued-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt der 1000 Lichter Haßloch 2026",
+      "candidate_url": "https://www.hassloch.de/gv_hassloch/Tourismus/Feste%20&%20Veranstaltungen/Weihnachtsmarkt/Bewerbung%20f%C3%BCr%20Weihnachtsmarkt%202026.pdf",
+      "reason": "Bewerbungsfrist für Beschicker (Kontakt: Gunther Metz, 06324 935 238, veranstaltungen@hassloch.de) endete laut Bewerbungsformular am 31.08.2026 und ist damit bereits verstrichen (heute: 17.09.2026). Für 2027 noch kein neues Formular veröffentlicht.",
+      "agent_batch_id": "rp-gesamt-sued-2026-09"
+    },
+    {
+      "event_name": "Feierabendmarkt Germersheim 2026",
+      "candidate_url": "https://www.wochenblatt-reporter.de/germersheim/c-wirtschaft-handel/feierabendmarkt-germersheim-2026-bewerbung-fuer-beschicker-eroeffnet_a675588",
+      "reason": "Bewerbungsfrist für Beschicker der Saison 2026 (Start 19.03.2026) endete laut Presseartikel bereits am 23.11.2025 und ist damit lange verstrichen; keine offizielle Stadtseite mit aktueller Frist für eine Folgesaison gefunden.",
+      "agent_batch_id": "rp-gesamt-sued-2026-09"
+    },
+    {
+      "event_name": "Lübecker Weihnachtsmarkt 2026 (Standbetreiber:innen)",
+      "candidate_url": "https://www.dubistmirnemarke.de/zusammenarbeit/veranstalterinnen/standbetreiberinnen/luebecker-weihnachtsmarkt",
+      "reason": "Bewerbungsfrist war der 31.03.2026, bereits verstrichen (Stand heute 17.09.2026). Veranstaltung selbst laeuft 23.11.-30.12.2026 auf der Altstadtinsel, Breite Strasse und Koberg, Veranstalter Luebeck und Travemuende Marketing GmbH, Kontakt Inke Moeller, inke.moeller@luebeck-tourismus.de, 0451 4091 921.",
+      "agent_batch_id": "sh-gesamt-2026-09"
+    },
+    {
+      "event_name": "Wein- und Käsemarkt Blieskastel 2026",
+      "candidate_url": "https://www.blieskastel.de/maerkte",
+      "reason": "Termin war 06.09.2026, Anmeldeschluss laut Kulturamt 4 Wochen vor der Veranstaltung (ca. 09.08.2026) und die Veranstaltung selbst liegt bereits in der Vergangenheit.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Second Hand Markt Blieskastel 2026",
+      "candidate_url": "https://www.blieskastel.de/maerkte",
+      "reason": "Termin war 03.10.2026, Anmeldeschluss laut Kulturamt 4 Wochen vor der Veranstaltung (ca. 05.09.2026), Frist bereits verstrichen (Stand 17.09.2026).",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Mondscheinmarkt Blieskastel 2026",
+      "candidate_url": "https://www.blieskastel.de/stadt/aktuelles/veranstaltungen-der-stadt-blieskastel/termindetail/mondscheinmarkt-20",
+      "reason": "Termin 09.10.2026, Anmeldeschluss laut Kulturamt 4 Wochen vor der Veranstaltung (ca. 11.09.2026), Frist bereits verstrichen (Stand 17.09.2026).",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Mariä Geburtsmarkt Lebach 2026",
+      "candidate_url": "https://www.lebach.de/kultur-und-bildung/veranstaltungen/bewerbungsformulare-fuer-standbetreiber",
+      "reason": "Termin war 15.09.2026, Veranstaltung liegt bereits in der Vergangenheit (Stand 17.09.2026), Bewerbungsfrist damit abgelaufen.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
       "event_name": "592. Dresdner Striezelmarkt 2026",
       "candidate_url": "https://www.dresden.de/media/pdf/wirtschaft/markte/STM-2026-Ausschreibungstext.pdf",
       "reason": "Bewerbungsfrist fuer 216 Standplaetze war der 07.05.2026, bereits verstrichen. Laut WORKLOG.md wird die Ausschreibung fuer 2027 erst ab Maerz 2027 erwartet.",
@@ -1693,9 +1831,159 @@
       "candidate_url": "https://www.bad-duerkheim.de/kultur-tourismus/veranstaltungen-feste/bad-duerkheimer-stadtfest/informationen-fuer-beschicker-anwohner/",
       "reason": "Der Bewerbungszeitraum fuer das Stadtfest 2027 lief vom 1. Mai bis 15. Juni 2026; spaeter eingehende Bewerbungen werden laut Stadt nicht mehr beruecksichtigt. Frist zum Stichtag 03.08.2026 abgelaufen.",
       "agent_batch_id": "sn-rp-2027-deep-grossveranstaltungen"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Halberstadt 2026-2030 (Betreiber-Ausschreibung)",
+      "candidate_url": "https://www.vergabepilot.ai/ausschreibungen/YPE29XE8YMNU/weihnachtsmarkt-halberstadt-2026-2030",
+      "reason": "Stadt Halberstadt schreibt einen neuen Betreiber/Veranstalter fuer den Weihnachtsmarkt 2026-2030 aus (Holzmarkt/Fischmarkt/Domplatz), keine individuelle Schausteller-Standplatzbewerbung. Bewerbungsfrist fuer die Betreiberausschreibung endete am 20.06.2026 und ist damit bereits abgelaufen; individuelle Standplatzvergabe haengt vom neu gewaehlten Betreiber ab und war zum Recherchezeitpunkt noch nicht bekannt.",
+      "agent_batch_id": "st-gesamt-2026-09"
+    },
+    {
+      "event_name": "Altenburger Weihnachtsmarkt 2026 (Standplatzbewerbung)",
+      "candidate_url": "https://www.abg-net.de/aktuelles/inhalte/pressemitteilungen/2026/03/bewerben-sie-sich-fuer-standplaetze-auf-dem-altenburger-weihnachtsmarkt-2026",
+      "reason": "Bewerbungsfrist war der 31.03.2026 (Bewerbung mit Foto und technischen Daten an Stadtverwaltung Altenburg, Fachdienst Ordnung und Verkehr, Markt 1, 04600 Altenburg / gewerbe@stadt-altenburg.de); Frist bereits verstrichen (heutiges Datum 16.09.2026). Veranstaltung selbst (27.11.-29.12.2026) liegt noch in der Zukunft, aber die Bewerbungsphase ist abgeschlossen.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "Sonneberger Erlebnismarkt mit verkaufsoffenem Sonntag & 6h Citykartrennen 2026",
+      "candidate_url": "https://sonneberg.de/aktuelles/beitrag/nach-dem-fest-ist-vor-dem-fest-sonneberg-sucht-mitwirkende-fuer-volksfeste-und-maerkte-2026.html",
+      "reason": "Veranstaltung 9.-10. Mai 2026, Bewerbungsfrist war 15.04.2026, bereits verstrichen.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "Sonneberger Vogelschießen 2026",
+      "candidate_url": "https://sonneberg.de/aktuelles/beitrag/nach-dem-fest-ist-vor-dem-fest-sonneberg-sucht-mitwirkende-fuer-volksfeste-und-maerkte-2026.html",
+      "reason": "Veranstaltung 4.-12. Juli 2026, Bewerbungsfrist war 15.05.2026, bereits verstrichen.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "Oberlinder Kirchweih 2026 (Sonneberg)",
+      "candidate_url": "https://sonneberg.de/aktuelles/beitrag/nach-dem-fest-ist-vor-dem-fest-sonneberg-sucht-mitwirkende-fuer-volksfeste-und-maerkte-2026.html",
+      "reason": "Veranstaltung 17.-20. Juli 2026, Bewerbungsfrist war 15.06.2026, bereits verstrichen.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "Stadt- und Museumsfest 2026 (Sonneberg)",
+      "candidate_url": "https://sonneberg.de/aktuelles/beitrag/nach-dem-fest-ist-vor-dem-fest-sonneberg-sucht-mitwirkende-fuer-volksfeste-und-maerkte-2026.html",
+      "reason": "Veranstaltung 25.-27. September 2026, Bewerbungsfrist war 15.07.2026, bereits verstrichen.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "Oberlinder Bauernmarkt 2026 (Sonneberg)",
+      "candidate_url": "https://sonneberg.de/aktuelles/beitrag/nach-dem-fest-ist-vor-dem-fest-sonneberg-sucht-mitwirkende-fuer-volksfeste-und-maerkte-2026.html",
+      "reason": "Veranstaltung 10.-11. Oktober 2026, Bewerbungsfrist war 15.09.2026, bereits verstrichen (einen Tag vor Recherchedatum 16.09.2026).",
+      "agent_batch_id": "th-gesamt-2026-09"
     }
   ],
   "review_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt der 1000 Sterne Cottbus 2026",
+      "candidate_url": "https://cottbus.de/veranstaltungen/weihnachtsmarkt-der-1000-sterne-in-cottbus/",
+      "reason": "Termin 22.11.-23.12.2026 bekannt (offizielle Stadtseite), Organisator laut Seite 'Cottbus Service' (Tel. 0355 7542444, cottbus-tourismus.de); keine Bewerbungsfrist/Kontakt für Schausteller auf der Seite veröffentlicht.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsgans-Auguste-Markt Oranienburg 2026",
+      "candidate_url": "https://www.oranienburg-erleben.de/weihnachtsmarkt/",
+      "reason": "Markt auf dem Schlossplatz Oranienburg bekannt, aber keine offizielle städtische Bewerbungsseite mit Frist gefunden; älterer Kontakt event-agentur-jobo@gmx.de aus einem abgelaufenen Angebot (nicht offiziell, Stadt direkt kontaktieren empfohlen).",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Angerweihnacht Falkensee 2026",
+      "candidate_url": "https://www.falkensee.de/weihnachten",
+      "reason": "Offizielle Stadtseite listet Weihnachtsveranstaltungen inkl. Angerweihnacht, aber keine Bewerbungsinfos/Frist/Kontakt für Schausteller oder Standbetreiber veröffentlicht.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Märkte allgemein / Standplatzvergabe Eberswalde",
+      "candidate_url": "https://www.eberswalde.de/start/rathaus-ortsrecht/rathaus-von-a-z/organisationen/021-dezernat-i/32-ordnungsamt/322-gewerbe",
+      "reason": "Zuständige Stelle ist der Fachbereich Ordnungsamt/Gewerbe der Stadt Eberswalde, Breite Straße 41-44, 16225 Eberswalde, Tel. 03334/64-322; keine konkrete Veranstaltung mit Bewerbungsfrist auf der Seite gefunden.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Bernauer Weihnachtsmarkt 2026 (04.-13.12.2026)",
+      "candidate_url": "https://www.bernau.de/de/tourismus-kultur/veranstaltungen/weihnachtsmarkt.html",
+      "reason": "Termin 2026 auf offizieller Stadtseite bestätigt; Bewerbungsfrist für 2026 noch nicht veröffentlicht. Kontakt aus Vorjahreszyklus: Kulturamt Bernau, kulturamt@bernau-bei-berlin.de, Tel. 03338 365-366 / 365-310, Ansprechpartnerin Nele Spoenemann.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Ausschreibungen / Standplätze Königs Wusterhausen",
+      "candidate_url": "https://www.koenigs-wusterhausen.de/ausschreibungen-ab52c76277571d1b",
+      "reason": "Offizielle städtische Ausschreibungsseite behandelt primär Bauvergaben (VOB/A); kein Schausteller-spezifisches Verfahren gefunden. Kontakt Vergabestelle: Juliane Schenker, juliane.schenker@stadt-kw.de, Tel. 03375 273-513.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Fürstenwalder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.fuerstenwalde-spree.de/news/1/1166831",
+      "reason": "Weihnachtsmarkt rund um den Dom bekannt, sucht laut Vorjahresmeldungen Schausteller mit kleinen/großen Fahrgeschäften und Gastronomie; keine Bewerbungsfrist auf offizieller Stadtseite gefunden. Kontakt: Stadt Fürstenwalde/Spree, Am Markt 4, 15517 Fürstenwalde/Spree, Tel. 03361 557-0.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Schaustelleranmeldung Neuruppin (kommende Zyklen: Ostermarkt, Mai-/Hafenfest, Weinfest, Martinimarkt 2027)",
+      "candidate_url": "https://stadtmarketing-neuruppin.de/schaustelleranmeldung/",
+      "reason": "Offizielle Seite von InKom Neuruppin GmbH (Stadtmarketing) für Schaustelleranmeldungen; Frist für Martinimarkt 2026 bereits abgelaufen (siehe rejected_candidates), neue Fristen für 2027 noch nicht veröffentlicht. Kontakt: Christian Ringleb, christian.ringleb@stadtmarketing-neuruppin.de, Tel. 03391 82209-464, InKom Neuruppin GmbH, Trenckmannstraße 35, 16816 Neuruppin.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Weihnachtliches Schwedt 2026",
+      "candidate_url": "https://www.schwedt.eu/de/219629",
+      "reason": "Offizielle Stadtseite listet Weihnachtsveranstaltungen, aber keine Bewerbungsinfos für Schausteller/Standbetreiber. Kontakt: Stadt Schwedt/Oder, Tel. 03332 446-0.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Interessenbekundungsverfahren Weihnachtsmarkt Rathenow (Märkischer Platz)",
+      "candidate_url": "https://www.rathenow.de/fileadmin/rathenow-de/wirtschaft/PDF/Vergaben/2023/Interessenbekundungsverfahren_2023-2026_Weihnachtsmarkt.pdf",
+      "reason": "PDF eines mehrjährigen Interessenbekundungsverfahrens (2023-2026) auf der offiziellen Stadtseite gefunden, Inhalt (Fristdatum, Kontakt) automatisiert nicht auslesbar; Stadt Rathenow / Wirtschaftsförderung direkt kontaktieren.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Senftenberger Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.senftenberg.de/weihnachtsmarkt/",
+      "reason": "Offizielle Stadtseite mit Veranstaltungsinfos, aber keine Bewerbungsfrist für Schausteller gefunden. Kontakt: Büro Bürgermeister, Markt 1, 01968 Senftenberg, Tel. 03573 701-110.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Regionaler Weihnachtsmarkt / Märkte Strausberg",
+      "candidate_url": "https://www.stadt-strausberg.de/stellenausschreibungen/",
+      "reason": "Keine offizielle Bewerbungsseite für Schausteller mit Frist gefunden; Stadt Strausberg direkt kontaktieren.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Luckenwalder Märchenweihnachtsmarkt 2026",
+      "candidate_url": "https://www.luckenwalde.de/index.php?object=tx,4001.4.1&ModID=11&FID=4001.109.1&kuo=1",
+      "reason": "Veranstalter laut Stadtseite Stadtmarketing Luckenwalde e.V., Markt 12a, 14943 Luckenwalde, Tel. +49 (0)3371 406566; keine Bewerbungsfrist für Schausteller veröffentlicht.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Wittenberger Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.wittenberge.de/veranstaltungen/2836470/2026/12/09/weihnachtsmarkt-wittenberge.html",
+      "reason": "Termin Dezember 2026 auf offizieller Stadtseite bekannt, Organisator laut Vorjahren Wittenberger Interessenring e.V., Bäckerstraße 34, 19322 Wittenberge, Tel. (0 38 77) 56 55 41; keine Bewerbungsfrist gefunden.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Prenzlauer Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.prenzlau.eu/cms/detail.php/land_bb_boa_01.c.390427.de",
+      "reason": "Offizielle Stadtseite mit Veranstaltungsinfos; Ansprechpartnerin laut Suchergebnis Frau S. Ramm, Geschäftsstraßenmanagement, Tel. 03984 75-165 / Mobil 0172/3961104; keine konkrete Bewerbungsfrist gefunden.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Marktbeschickung / Gewerbeanmeldung Lübbenau/Spreewald (u.a. Gurkenmarkt/Festmeile)",
+      "candidate_url": "https://www.luebbenau-spreewald.de/seite/481501/gewerberecht-und-gewerbeanmeldung.html",
+      "reason": "Offizielle Stadtseite behandelt allgemeines Gewerberecht für Reisegewerbe/Schausteller, keine konkrete Veranstaltung mit Bewerbungsfrist gefunden; Stadt Lübbenau/Spreewald direkt kontaktieren.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Frankfurt (Oder)",
+      "candidate_url": "https://www.frankfurt-oder.de/",
+      "reason": "Keine spezifischen Suchtreffer zu einer offiziellen Bewerbungsseite oder Frist für Schausteller in Frankfurt (Oder) gefunden; Stadtverwaltung direkt kontaktieren.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
+    {
+      "event_name": "Marktfestsetzung (Wochenmärkte, Volksfeste, Weihnachtsmarkt) Brandenburg an der Havel",
+      "candidate_url": "https://service.stadt-brandenburg.de/dienstleistungen/-/egov-bis-detail/dienstleistung/7643/show",
+      "reason": "Allgemeine Marktfestsetzungs-Regel (4-6 Wochen vor Veranstaltungsbeginn), aber kein konkretes Veranstaltungsdatum bekannt, aus dem eine Frist berechnet werden koennte. Kontakt: Gewerbebehörde Stadt Brandenburg an der Havel, (03381) 58-3280.",
+      "agent_batch_id": "bb-gesamt-2026-09"
+    },
     {
       "event_name": "Nachbarschaftsfest am Rathaus Schöneberg 2027",
       "candidate_url": "https://www.berlin.de/ba-tempelhof-schoeneberg/aktuelles/veranstaltungen/nachbarschaftsfest/artikel.777132.php",
@@ -2609,6 +2897,168 @@
       "agent_batch_id": "bw-stuttgart-2026-08"
     },
     {
+      "event_name": "Lahrer Weihnachtsmarkt 2026 (Museumsplatz)",
+      "candidate_url": "https://www.werbegemeinschaft-lahr.de/news",
+      "reason": "Organisiert vom Aktionsbuendnis Weihnachten in Lahr / Lahrer Werbegemeinschaft e.V. (Rossgasse 5, 77933 Lahr, Tel. 07821/983087, info@werbegemeinschaft-lahr.de). Fuer die Vorjahresausgabe (28./29.11.2025) war der Bewerbungsschluss 30.09.2025, aber kein bestaetigtes Datum fuer die 2026/2027-Ausgabe auf einer offiziellen Seite gefunden; Stadtseite lahr.de/weihnachtsmarkt-in-lahr.240469.htm war per WebFetch nicht abrufbar (403).",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Grosser Weihnachtsmarkt Emmendingen (Lammstrasse) 2026",
+      "candidate_url": "https://www.emmendingen.de/kultur-freizeit/veranstaltungen-1/4561/grosser-weihnachtsmarkt-in-der-lammstrasse",
+      "reason": "Termin 05.12.2026 laut Stadtseite bekannt, Registrierung erfolgt online ueber ein Formular der Stadt Emmendingen, aber keine Bewerbungsfrist auf der offiziellen Seite gefunden. Kontakt: Stadt Emmendingen, Landvogtei 10, 79312 Emmendingen, Tel. 07641 452-0.",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Loerracher Weihnachtsmarkt 2026 (Alter Marktplatz)",
+      "candidate_url": "https://www.loerrach.de/Bewerbung-Weihnachtsmarkt-2026",
+      "reason": "Termin 3.-13.12.2026 auf offizieller Stadtseite bestaetigt, Online-Bewerbungsformular vorhanden, aber kein Bewerbungsfrist-Datum genannt. Kontakt: Stadt Loerrach, Maerkte, Haus Sonne, Basler Strasse 170, 79539 Loerrach, Tel. 07621 415-132, maerkte@loerrach.de.",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Wochenmarkt-Standplaetze Loerrach (laufende Bewerbung)",
+      "candidate_url": "https://www.loerrach.de/Bewerbung-Standplatz",
+      "reason": "Laufende Bewerbung ohne feste Frist; Stadt prueft Kapazitaet und meldet sich. Kontakt: Stadtverwaltung Loerrach, Luisenstrasse 16, 79539 Loerrach, Tel. 07621 415-0, info@loerrach.de.",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Jahrmarkt / Volksfest Weil am Rhein (Fruehjahrsmarkt, erster Freitag April/September)",
+      "candidate_url": "https://www.weil-am-rhein.de/-/verfahren/marktwesen-bei-der-stadt-weil-am-rhein/vbid1628",
+      "reason": "Stadt verweist fuer Standplatz-Bewerbungen an RGE Arbeitsgemeinschaft Veranstaltung & Werbung (jahrmarkt-suedbaden.de); dort war ueber WebFetch (Startseite und index.html) keine konkrete Bewerbungsfrist auffindbar (404 bzw. keine Frist-Angabe). Kontakt fuer Wochenmarkt: Stephanie Drosselmeyer, Rechts- und Ordnungsamt Weil am Rhein, Tel. 07621/704-301, stephanie.drosselmeyer@weil-am-rhein.de.",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Waldshuter Chilbi (drittes August-Wochenende, Chilbiplatz)",
+      "candidate_url": "https://www.waldshut-tiengen.de/freizeit/veranstaltungen/brauchtum-und-feste/waldshuter-chilbi",
+      "reason": "Traditionstermin (drittes August-Wochenende) bekannt, aber keine Bewerbungsfrist oder Bewerbungsseite fuer Schausteller auf der offiziellen Stadtseite gefunden. Zustaendig laut Recherche: Ordnungsamt Waldshut-Tiengen, Ralph Albrecht, Wallstrasse 26-28, 79761 Waldshut-Tiengen.",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Kunsthandwerkermarkt Villingen-Schwenningen 2027",
+      "candidate_url": "https://www.villingen-schwenningen.de/tourismus-erleben/vs-erleben/maerkte-und-messen/",
+      "reason": "Termin 03.-04.07.2027 genannt, Bewerbungsphase beginnt laut Seite erst im Januar 2027 (kein festes Enddatum bekannt). Kontakt: VS-Mosaik / WIR Villingen-Schwenningen GmbH, Winkelstrasse 9, 78056 Villingen-Schwenningen, Tel. 07720/82-1051, events@villingen-schwenningen.de.",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt am See Konstanz 2026 (26.11.-23.12.2026)",
+      "candidate_url": "https://weihnachtsmarkt-am-see.de/",
+      "reason": "Veranstaltungstermin bestaetigt, Bewerbung laeuft ganzjaehrig ueber Online-Formular ohne genanntes Fristdatum (laut Seite werden keine Absagen versendet, nur Vertragsangebote bei Zusage). Kontakt: Sankt-Gebhard-Strasse 17-19, 78467 Konstanz, Tel. 07531 23763, info@weihnachtsmarkt-am-see.de.",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Radolfzeller Kraeutermarkt 2026 (Standplatzbewerbung)",
+      "candidate_url": "https://www.radolfzell-tourismus.de/_Resources/Persistent/b81bedfae0976d40e9dabd9611db27ad0564125c/Standplatzbewerbung_Radolfzeller%20Kr%C3%A4utermarkt%202026.pdf",
+      "reason": "Standplatzbewerbungs-PDF existiert auf offizieller Tourismus/Stadtmarketing-Domain, aber Inhalt (Frist, Datum) war per WebFetch aus dem PDF nicht extrahierbar. Ansprechpartner laut Suche: Landesverband der Schausteller und Marktkaufleute e.V., Thomas Kleiner, Tel. 07464 1496, info@wachstuecher.eu.",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Welfenfest Weingarten 2027 (Festplatz)",
+      "candidate_url": "https://welfenfest.de/programm/festplatz-weingarten/",
+      "reason": "Termin fuer 2026 bekannt (10.-14.07.2026), aber keine Bewerbungsfrist oder Schausteller-Bewerbungsseite auf welfenfest.de gefunden. Kontakt: Welfenfestkommission Weingarten e.V., Kirchstrasse 1, 88250 Weingarten, Tel. 0751/405-297, info@welfenfest.de.",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Ueberlinger Promenadenfest",
+      "candidate_url": "https://www.ueberlingen-bodensee.de/promenadenfest",
+      "reason": "Stadtfest am Bodensee bekannt, aber keine Schausteller-Bewerbungsseite oder Frist auf offiziellem Tourismusportal ueberlingen-bodensee.de gefunden.",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Jahrmarkt und Fridolinsfest Bad Saeckingen (Sonntag nach 6. Maerz)",
+      "candidate_url": "https://www.bad-saeckingen.de/leben-wohnen/veranstaltungen",
+      "reason": "Traditionstermin (Sonntag nach 6. Maerz) bekannt, neuntaegiger Rummel mit Schaustellern, aber keine Bewerbungsfrist oder Kontakt fuer Standplatz-Bewerbung auf offizieller Stadtseite gefunden; verlinktes PDF (105_amtliche_Bekanntmachung.pdf) war inhaltlich nicht auswertbar.",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Herbstmesse / Maerkte Singen (Hohentwiel)",
+      "candidate_url": "https://www.singen.de/erleben/veranstaltungen/veranstaltungskalender",
+      "reason": "Keine spezifische Herbstmesse mit Schausteller-Bewerbungsseite auf offizieller Stadtseite gefunden; nur Wochenmarkt-Informationen vorhanden.",
+      "agent_batch_id": "bw-suedbaden-2026-09"
+    },
+    {
+      "event_name": "Ulmer Volksfest (Schausteller-Standplatz)",
+      "candidate_url": "https://ulmer-volksfest.de/bewerbung/",
+      "reason": "Seite nennt Bewerbungsschluss 07.11.2024 (bezogen auf einen frueheren Jahrgang); kein aktuelles Datum fuer den naechsten Turnus auf der Seite erkennbar. Kontakt: VMV GmbH, Stefan Scheller, Marktplatz 8, 89073 Ulm, info@vmvgmbh.de bzw. post@ulmer-volksfest.de, Tel. 0731 940 236 27/26.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Reutlinger Weihnachtsmarkt (gewerbliche Standplaetze)",
+      "candidate_url": "https://weihnachtsmarkt-reutlingen.de/wp-content/uploads/2025/01/Teilnahmebestimmungen%20f%C3%BCr%20die%20Reutlinger%20Weihnachtsm%C3%A4rkte%202025.pdf",
+      "reason": "Teilnahmebestimmungen-PDF (Jahrgang 2025) enthaelt kein explizites Bewerbungsfristdatum fuer 2026. Kontakt: Stadt Reutlingen, Kulturamt/Ordnungsamt, ordnungsamt@reutlingen.de, weihnachtsmarkt@reutlingen.de, Tel. 07121 303 2838 (Bianca Faisst).",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Käthchen-Weihnachtsmarkt Heilbronn (Standbetreiber)",
+      "candidate_url": "https://www.heilbronn-marketing.de/",
+      "reason": "Termin 2026 bekannt (24.11.-22.12.2026), aber keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Heilbronn Marketing GmbH, Kirchbrunnenstrasse 3, 74072 Heilbronn, Tel. 07131 562270.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Heilbronner Volksfest (Theresienwiese)",
+      "candidate_url": "https://www.heilbronn.de/tourismus/veranstaltungskalender/detail/heilbronner-volksfest/2026-07-12-00-00.html",
+      "reason": "Termin fuer 2026 bekannt (ab 12.07.2026, damit im Recherchezeitraum bereits gelaufen), Bewerbungsverfahren fuer Schausteller nicht auf oeffentlich zugaenglicher Stadtseite gefunden; Veranstalterkontakt nicht ermittelt.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Gmünder Weihnachtsmarkt (Standplaetze)",
+      "candidate_url": "https://www.schwaebisch-gmuend.de/veranstaltung/gmuender-weihnachtsmarkt-4.html",
+      "reason": "Keine Bewerbungsfrist auf der Veranstaltungsseite gefunden. Stadt Schwaebisch Gmuend vergibt Standplaetze laut anderen Ausschreibungen (z.B. Maimarkt-Kraemermarkt) ueber eigene Ausschreibungsseiten; entsprechende Seite fuer den Weihnachtsmarkt 2026 wurde nicht gefunden. Kontakt: Touristik und Marketing GmbH Schwaebisch Gmuend, Marktplatz 37/1, 73525 Schwaebisch Gmuend.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Maimarkt-Kraemermarkt Schwaebisch Gmuend 2026",
+      "candidate_url": "https://www.schwaebisch-gmuend.de/ausschreibungen-2135/ausschreibung-und-aufforderung-zur-bewerbung-fuer-standplaetze-auf-dem-maimarkt-kraemermarkt-schwaebisch-gmuend-2026.html",
+      "reason": "URL aus Suchindex fuehrte bei direktem Abruf zu 404 (Seite evtl. saisonal offline genommen, Markt findet im Fruehjahr statt und Bewerbungsfenster war zum Recherchezeitpunkt im September vermutlich bereits abgelaufen oder die Ausschreibung fuer 2027 noch nicht online). Kein Fristdatum bestaetigt.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt/Weihnachtszauber Schwaebisch Hall (Dauerstand/Wechselstand)",
+      "candidate_url": "https://www.schwaebischhall.de/de/kultur-tourismus/feste-highlights/weihnachtsmarkt",
+      "reason": "Termin 2026 bekannt (26.11.-20.12.2026), zwei Standarten (Dauerstand/Wechselstand) vorhanden, Bewerbungen laufen laut Presseinfo an stadtmarketing@schwaebischhall.de, aber kein Fristdatum auf offizieller Seite auffindbar (Seite lieferte bei direktem Abruf nur Navigationsgeruest ohne Volltext).",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Heidenheimer Weihnachtsmarkt 2026 (Standplaetze)",
+      "candidate_url": "https://www.heidenheim.de/,Lde/startseite/Leben/weihnachtsmarkt.html",
+      "reason": "Termin 2026 bekannt (10.-13.12.2026), offizielle Seite verweist auf spaetere Aktualisierung ohne konkretes Fristdatum. Kontakt: Wirtschaftsfoerderung Heidenheim, Grabenstrasse 15, 89522 Heidenheim an der Brenz, wirtschaftsfoerderung@heidenheim.de, Tel. 07321 3271081.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt auf dem Karlsplatz Sigmaringen",
+      "candidate_url": "https://www.sigmaringen.de/de/Buerger-Rathaus/Aktuelles-Stadtinfo/Aktuelles/2024-04/Traditioneller-Weihnachtsmarkt-auf-dem-Karlsplatz-zum-ersten-Adventswochenende.html",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Stadt Sigmaringen, Marktamt, Fuerst-Wilhelm-Str. 15, 72488 Sigmaringen, Tel. 07571 106-222.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Ebinger Weihnachtszauber Albstadt",
+      "candidate_url": "https://hgv-albstadt.de/aktuelles/",
+      "reason": "Wird vom City-Management/HGV Albstadt organisiert, keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: ulrich.daum@citymanagement-albstadt.de.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Rottweiler Weihnachtsmarkt (Standplaetze)",
+      "candidate_url": "https://www.tourismus-rottweil.de/das-erlebnis/veranstaltungen/weihnachtsmarkt",
+      "reason": "Termin 2026 vermutlich analog Vorjahr (2. bis 3. Adventswoche), keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Tourist-Information Rottweil, Hauptstrasse 21, 78628 Rottweil, tourist-information@rottweil.de, Tel. 0741 494280.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Tuttlingen im Advent / Stadtfest Tuttlingen",
+      "candidate_url": "https://www.tuttlingen.de/de/Kultur-Tourismus/Veranstaltungen/Innenstadt-Events",
+      "reason": "Keine Bewerbungsfrist oder Bewerbungsverfahren auf offizieller Seite gefunden. Kontakt: Stadt Tuttlingen, Rathausstrasse 1, 78532 Tuttlingen, info@tuttlingen.de, Tel. 07461 99-0.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt in der Innenstadt Bad Mergentheim 2026",
+      "candidate_url": "https://www.bad-mergentheim.de/de/stadtleben/veranstaltungen/weihnachtsmarkt-in-der-innenstadt-id_238512/",
+      "reason": "Termin 2026 bekannt (03.-06.12. und 10.-13.12.2026), offizielle Veranstaltungsseite bei direktem Abruf nicht erreichbar (403); kein Fristdatum bestaetigt. Kontakt: Stadt Bad Mergentheim, Bahnhofsplatz 1, 97980 Bad Mergentheim, Tel. 07931 570; Tourist-Information Marktplatz 1, Tel. 07931 574815.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
+      "event_name": "Öhringer Weihnachtsmarkt 2026 (Verkaufsstand)",
+      "candidate_url": "https://www.oehringen.de/freizeit-tourismus/unsere-veranstaltungen/oehringer-weihnachtsmarkt/anmeldung-verkaufsstand",
+      "reason": "Termin 2026 bekannt (alle vier Adventswochenenden), Anmeldeformular vorhanden, verweist auf 'WM_Marktordnung_und_Teilnahmebedingungen_2026.pdf' fuer Details; kein konkretes Fristdatum auf der Seite selbst extrahierbar. Kontakt: Stadt Oehringen, Marktplatz 15, 74613 Oehringen, info@oehringen.de, Tel. 07941 68-0.",
+      "agent_batch_id": "bw-wuerttemberg-sued-ost-2026-09"
+    },
+    {
       "event_name": "Ausbildungs- und Studienmesse Bad Windsheim 2027",
       "candidate_url": "https://www.bad-windsheim.de/ausbildungsmesse",
       "reason": "Offizielle Stadtseite bestätigt den Messetermin 13.03.2027 und eine offene Ausstelleranmeldung, veröffentlicht aber keinen verbindlichen Anmeldeschluss.",
@@ -3383,6 +3833,126 @@
       "agent_batch_id": "by-oberbayern-2026-08"
     },
     {
+      "event_name": "Jahrmarkt Kempten (Himmelfahrtsmarkt/Kathreinemarkt)",
+      "candidate_url": "https://www.kempten.de/jahrmarkt-5313.html",
+      "reason": "Laut Jahrmarktsatzung/Presseauskuenften muessen Bewerbungen ca. 6 Wochen vor Marktbeginn eingehen (Dauerregel); der naechste noch nicht abgelaufene Termin (Himmelfahrtsmarkt 2027) ist am 16.09.2026 offiziell noch nicht terminiert, daher keine konkrete Frist ableitbar. Kathreinemarkt 2026 (23.-31.10.2026) hatte bereits eine verstrichene Bewerbungsfrist (~04.09.2026). Kontakt: Kempten Messe- und Veranstaltungs-Betrieb, Herr Sven Wegmann, Grosser Kornhausplatz 1, 87439 Kempten.",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09"
+    },
+    {
+      "event_name": "Memminger Jahrmarkt",
+      "candidate_url": "https://www.memmingen.de/aktuelles/singlenews-aktuelles/news/detail/News/neun-tage-voller-nervenkitzel-nostalgie-und-jahrmarktsspass.html",
+      "reason": "Stadt bestaetigt jaehrlich hunderte Bewerbungen (zuletzt ca. 400) fuer den Jahrmarkt (Samstag vor Galli/16.10. bis Sonntag nach Galli), aber keine offizielle Bewerbungsfrist oder Zustaendigkeitsseite mit Formular gefunden. Kontakt: Stadt Memmingen Pressestelle, Marktplatz 1, 87700 Memmingen, pressestelle@memmingen.de.",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09"
+    },
+    {
+      "event_name": "Taenzelfest Kaufbeuren (Festplatz-Schausteller)",
+      "candidate_url": "https://www.taenzelfest.de/besuchen/festplatz/schausteller",
+      "reason": "Offizielle Seite des Taenzelfestvereins bestaetigt, dass die Schausteller-Belegung fuer 2027 noch nicht feststeht; kein Bewerbungsformular oder Frist veroeffentlicht. Kontakt: Taenzelfestverein e.V., Tel. +49 8341 2828, info@taenzelfest.de.",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09"
+    },
+    {
+      "event_name": "Guenzburger Jahrmarkt (Fastenmarkt/Maimarkt/Herbstmarkt/Kathreinmarkt)",
+      "candidate_url": "https://www.guenzburg.de/kultur-feste/feste-maerkte/",
+      "reason": "Stadtseite bietet einen Download 'Bewerbung Jahrmarkt' als PDF an, jedoch ohne erkennbare Bewerbungsfrist im Fliesstext. Kontakt Volksfest/Jahrmarkt: Frau Faessler, Stadtverwaltung Guenzburg, Schlossplatz 1, 89312 Guenzburg, Tel. 08221 903-0.",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09"
+    },
+    {
+      "event_name": "Guenzburger Volksfest 2026",
+      "candidate_url": "https://www.guenzburg.de/kultur-feste/volksfest/",
+      "reason": "Termin 07.-16.08.2026 bestaetigt, aber Bewerbungsverfahren/Frist fuer Schausteller nicht auf der Seite dokumentiert.",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09"
+    },
+    {
+      "event_name": "Donauwoerther Jahrmarkt/Maimarkt",
+      "candidate_url": "https://www.ortsdienst.de/bayern/donau-ries/donauwoerth/volksfest/",
+      "reason": "Keine offizielle Stadt- oder Veranstalterseite mit Bewerbungsinformationen fuer Schausteller gefunden; Stadt Donauwoerth direkt kontaktieren.",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09"
+    },
+    {
+      "event_name": "Dillinger Fruehling / Nikolai-Markt Dillingen a.d.Donau",
+      "candidate_url": "https://www.dillingen-donau.de/tourismus/veranstaltungen/veranstaltungskalender",
+      "reason": "Dillinger Fruehling (Volksfest mit ca. 30 Schaustellerbetrieben, Donaupark) und Nikolai-Markt bestaetigt, aber keine offizielle Bewerbungsfrist oder Formular auf der Stadtseite gefunden.",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09"
+    },
+    {
+      "event_name": "Lindauer Jahrmarkt",
+      "candidate_url": "https://www.lindau.de/lindau-erleben/veranstaltungen/lindauer-jahrmarkt/",
+      "reason": "Bewerbungsfrist fuer 2025/2026 ist laut Stadt Lindau bereits abgelaufen; naechste Bewerbungsmoeglichkeit laut Stadt erst ab Fruehjahr 2027 fuer den Jahrmarkt am 06.-10.11.2026 (Termin liegt vor Fruehjahr 2027, daher vermutlich fuer 2028 gemeint - auf offizieller Seite nicht eindeutig). Kontakt: Marktamt Lindau, Bregenzer Strasse 12, 88131 Lindau, Tel. 08382 918-319, marktamt@lindau.de.",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09"
+    },
+    {
+      "event_name": "Volksfest Sonthofen",
+      "candidate_url": "https://www.allgaeu.de/veranstaltungen/volksfest-sonthofen",
+      "reason": "Termin (10 Tage im Juni/Juli, Marktanger) bekannt, aber keine offizielle Bewerbungsfrist gefunden. Kontakt: Innenstadtmanagement & Wirtschaftsfoerderung Stadt Sonthofen, Andreas Maier, andreas.maier@sonthofen.de, Tel. +49 8321 615228.",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09"
+    },
+    {
+      "event_name": "Volksfest Landau a.d. Isar",
+      "candidate_url": "https://www.landau-isar.de/feste-und-feiern/",
+      "reason": "Termin (Wochenende Peter und Paul, Ende Juni, Festwiese Harburger Strasse) bekannt, aber keine Bewerbungsfrist auf offizieller Stadtseite gefunden. Kontakt: Gewerbeamt Stadt Landau a.d.Isar, Tel. (09951) 941-0, stadt.landau@landau-isar.de.",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09"
+    },
+    {
+      "event_name": "Traditionelles Volksfest Vilshofen an der Donau",
+      "candidate_url": "https://www.vilshofen.de/freizeit-geniessen/was-ist-los-in-vilshofen/veranstaltungs-highlights/volksfest",
+      "reason": "Stadtseite verweist auf ein Dokument 'Schaustellerbetriebe-Fieranten_2026.pdf' (bereits zugelassene Betriebe), aber kein Bewerbungsformular oder Frist fuer neue Bewerbungen auffindbar. Kontakt: Rathaus Vilshofen, Stadtplatz 27, Tel. 08541 208-0, info@vilshofen.de.",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09"
+    },
+    {
+      "event_name": "Volksfest Freyung",
+      "candidate_url": "https://www.freyung.de/de/kultur-und-kulinarik/feste/volksfest.html",
+      "reason": "Naechster Termin 25.-29.06.2027 bestaetigt, aber keine Bewerbungsfrist oder Kontakt fuer Schausteller auf der Stadtseite gefunden. Kontakt: Tourist-Info Freyung, Stadtplatz 10, 94078 Freyung, Tel. +49 8551 588150, touristinfo@freyung.de.",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09"
+    },
+    {
+      "event_name": "Neu-Ulm (eigene Schausteller-Veranstaltung)",
+      "candidate_url": "https://vmvgmbh.com/",
+      "reason": "Kein eigenes Volksfest/Jahrmarkt der Stadt Neu-Ulm gefunden; die VMV GmbH (Organisator des Ulmer Volksfests/Fruehjahrsmarkts/Herbstmarkts) hat lediglich ihren Firmensitz in Neu-Ulm (Daimlerstrasse 16), die Veranstaltungen selbst finden in Ulm (Baden-Wuerttemberg) statt und faellt daher nicht in den Scope 'Bayern/Neu-Ulm'.",
+      "agent_batch_id": "by-schwaben-niederbayern-2026-09"
+    },
+    {
+      "event_name": "Rakoczy-Fest Bad Kissingen 2027 (Standplaetze Schausteller/Gastronomie)",
+      "candidate_url": "https://www.badkissingen.de/kultur/rakoczy-fest",
+      "reason": "Groesstes Stadtfest Bad Kissingens, jaehrlich letztes Juli-Wochenende (2026: 24.-26.07.). Keine Unterseite mit Bewerbungsfrist fuer Schausteller/Standbetreiber gefunden. Allgemeiner Kontakt: Stadt Bad Kissingen, Rathausplatz 1, 97688 Bad Kissingen, Tel. 0971/807-0, info@stadt.badkissingen.de. Ticket-/Infohotline: 0971 8048-444, kissingen-ticket@badkissingen.de.",
+      "agent_batch_id": "by-unterfranken-oberpfalz-2026-09"
+    },
+    {
+      "event_name": "Kitzinger Fruehlingsfest 2027",
+      "candidate_url": "https://www.stadt-kitzingen.de/allgemeines/veranstaltungskalender",
+      "reason": "Fruehlingsfest findet auf dem Bleichwasen statt (2026: 04.-12.04., 75. Auflage). Keine offizielle Unterseite mit Bewerbungsfrist fuer Schausteller gefunden. Stadt Kitzingen direkt kontaktieren.",
+      "agent_batch_id": "by-unterfranken-oberpfalz-2026-09"
+    },
+    {
+      "event_name": "Volksfest/Markt Hassfurt",
+      "candidate_url": "https://hassfurt.de/1.html",
+      "reason": "Kein konkretes Volksfest mit Schausteller-Bewerbungsfrist auf offizieller Seite identifiziert. Ordnungsamt Hassfurt: Robert Barth, Marktplatz 1, 97437 Hassfurt, Tel. 09521 688-145, robert.barth@hassfurt.de.",
+      "agent_batch_id": "by-unterfranken-oberpfalz-2026-09"
+    },
+    {
+      "event_name": "Schwandorfer Volksfest 2027",
+      "candidate_url": "https://www.schwandorf.de/Kultur-Tourismus/Veranstaltungen/Volksfest-Schwandorf/Ausschreibungsunterlagen-Volksfest-Schwandorf-2026-und-2027.php",
+      "reason": "Stadt Schwandorf schreibt auf ihrer offiziellen Seite: 'Das 87. Schwandorfer Volksfest ist im Juni 2027 geplant. Sobald genaue Informationen vorliegen, werden diese hier veroeffentlicht.' Ausschreibungsunterlagen fuer 2027 zum Zeitpunkt der Recherche noch nicht online. Allgemeiner Kontakt: info@schwandorf.de, Tel. 09431 45-0.",
+      "agent_batch_id": "by-unterfranken-oberpfalz-2026-09"
+    },
+    {
+      "event_name": "Chamer Volksfest 2027",
+      "candidate_url": "https://www.cham-volksfest.de/kontakt/",
+      "reason": "Veranstalter ist der Verein zur Foerderung oeffentlicher Veranstaltungen und kulturellen Bestrebungen der Stadt Cham e.V. Ansprechpartner fuer Aussteller: Stefan Raab (Platzmeister), Tel. 0160/963 15 959, stefan.raab@stadtwerke-cham.de. Keine Bewerbungsfrist auf der Aussteller-Unterseite gefunden.",
+      "agent_batch_id": "by-unterfranken-oberpfalz-2026-09"
+    },
+    {
+      "event_name": "Fruehlingsvolksfest Sulzbach-Rosenberg 2027",
+      "candidate_url": "https://www.suro.city/fruehlingsfest-altstadtfest-und-annabergfest-finden-statt/",
+      "reason": "Fruehlingsfest 2026 fand 13.-17.05. statt. Standplatzbewerbungen sind schriftlich zu richten an: Amt fuer oeffentliche Sicherheit und Ordnung, Siegfried Lier (Marktmeister), Haus fuer Buergerdienste DG/Zi. 14, Luitpoldplatz 5, 92237 Sulzbach-Rosenberg, Tel. 09661 510-1303, Fax 09661 510-1307, markt@sulzbach-rosenberg.de. Keine konkrete Bewerbungsfrist auf offizieller Seite gefunden.",
+      "agent_batch_id": "by-unterfranken-oberpfalz-2026-09"
+    },
+    {
+      "event_name": "Volksfest Tirschenreuth 2027",
+      "candidate_url": "https://www.stadt-tirschenreuth.de/leben-in-tirschenreuth/maerkte",
+      "reason": "Volksfest am Festplatz Tirschenreuth existiert laut Stadtseite/Veranstaltungshinweisen, aber keine Unterseite mit Bewerbungsfrist fuer Schausteller gefunden. Zustaendig: Buerger- und Ordnungsamt Tirschenreuth, Maximilianplatz 35, 95643 Tirschenreuth, Tel. 09631 609-16, einwohner@stadt-tirschenreuth.de.",
+      "agent_batch_id": "by-unterfranken-oberpfalz-2026-09"
+    },
+    {
       "event_name": "Cannstatter Volksfest 2027 und Stuttgarter Fruehlingsfest 2027",
       "candidate_url": "https://www.cannstatter-volksfest.de/fileadmin/cannstatter-volksfest/bewerbung/Bewerbung_Volksfest_2027.pdf",
       "reason": "Zweitgroesstes Volksfest Deutschlands. Veranstalterin ist die in.Stuttgart Veranstaltungsgesellschaft mbH & Co. KG, Mercedesstrasse 50, 70372 Stuttgart; ein gemeinsames Bewerbungsformular gilt fuer Fruehlingsfest und Volksfest. Sekundaerquellen nennen den 15.10.2026 als Bewerbungsschluss fuer 2027, im offiziellen PDF liess sich das Datum jedoch nicht bestaetigen, da es nur Formular und Datenschutzhinweise enthaelt. Vor Uebernahme telefonisch verifizieren. Sehr hohe Prioritaet.",
@@ -3863,6 +4433,102 @@
       "agent_batch_id": "he-2027-deep-nord-sued"
     },
     {
+      "event_name": "Kassel – diverse Jahrmärkte/Volksfeste (Marktamt/Schaustellerverband)",
+      "candidate_url": "http://www.vrms-kassel.de/ausschreibung.htm",
+      "reason": "Verein Reisender Marktkaufleute und Schausteller Kassel e.V. veroeffentlicht Ausschreibungen fuer Kasseler Jahrmaerkte; kein konkretes Bewerbungsfristdatum fuer 2027 auffindbar, kein separates staedtisches Marktamt-Bewerbungsformular mit Frist gefunden.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Marburger Elisabethmarkt 2026",
+      "candidate_url": "https://www.marburg.de/portal/seiten/marburger-elisabethmarkt-10-und-11-oktober-2026--900001325-23001.html",
+      "reason": "Termin 10.-11.10.2026 bestaetigt, Bewerbungsformulare fuer Aussteller und Gastronomen auf der Stadtseite vorhanden (Veranstalter Stadtmarketing Marburg e.V.), aber kein Bewerbungsfristdatum auf der Seite genannt. Kontakt: Universitaetsstadt Marburg, Markt 1, 35037 Marburg, Tel. 06421 201-0.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Wetzlarer Gallusmarkt 2026",
+      "candidate_url": "https://www.wetzlar.de/rathaus/aktuelles/pressemitteilungen/2025/oktober/gallusmarkt-ist-eroeffnet.php",
+      "reason": "Veranstalter Stadt-Marketing Wetzlar e.V., Domplatz 8, 35573 Wetzlar, Tel. 06441 992050, identifiziert; kein Bewerbungsfristdatum fuer Schausteller/Standplaetze gefunden.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt/Weihnachtsflair Wetzlar",
+      "candidate_url": "https://www.wetzlar.de/leben-in-wetzlar/veranstaltungen/index.php",
+      "reason": "Keine Bewerbungsinformationen fuer Schausteller auf offizieller Stadtseite auffindbar; Stadtverwaltung Wetzlar (Ernst-Leitz-Strasse 30, 35578 Wetzlar, Tel. 06441 115) als Kontakt identifiziert.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Wochenmarkt/Kirmes/Weihnachtsmarkt Limburg an der Lahn",
+      "candidate_url": "https://www.limburg.de/Rathaus-Leben/Aktuelles/Marktwesen.php?object=tx%2C3252.77.1",
+      "reason": "Vorbehalt: Seite bei automatisiertem Abruf wegen zu vieler Redirects nicht erreichbar (technischer Fehler). Tourist-Information Limburg, Barfuesserstrasse 6, 65549 Limburg a. d. Lahn, Tel. 06431 2030, info@stadt.limburg.de als Kontakt bekannt; kein Fristdatum bestaetigt.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Lullusfest Bad Hersfeld 2027",
+      "candidate_url": "https://lullusfest-verein.de/i/informationen-fuer-schausteller",
+      "reason": "Projektbuero Lullusfest, Am Markt 1, 36251 Bad Hersfeld, sowie Lullusfest-Verein (kontakt@lullusfest-verein.de) identifiziert; keine Bewerbungsfrist fuer 2027 auf der Seite genannt.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Korbacher Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.korbach.de/Tourismus/Erlebnisse/Veranstaltungen/Weihnachtsmarkt-2026-in-Korbach.php?object=tx%2C3889.4.1&ModID=11&FID=3889.170906.1&NavID=3889.65.1&La=1",
+      "reason": "Termin 08.12.2026, Parkplatz An der Kalkmauer, 34497 Korbach, bestaetigt. Bewerbungskontakt Anika Emde, Rathaus Korbach, Stechbahn 1, 34497 Korbach, anika.emde@korbach.de; kein Fristdatum genannt.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Eschweger Weihnachtsmarkt",
+      "candidate_url": "https://www.eschwege.de/stadt/stadtportraet/feste-und-maerkte.php",
+      "reason": "Keine Bewerbungsfrist fuer Schausteller auf offizieller Stadtseite gefunden; Kreisstadt Eschwege als allgemeiner Kontakt identifiziert, kein konkreter Ansprechpartner gefunden.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Nikolausmarkt Baunatal 2026",
+      "candidate_url": "https://stadtmarketing-baunatal.de/stadtmarketing/service-aussteller-standbetreiber/",
+      "reason": "Termin 04.-13.12.2026 bestaetigt, Anmeldeformular vorhanden, kein explizites Bewerbungsfristdatum genannt. Kontakt: Stadtmarketing Baunatal GmbH, Friedrich-Ebert-Allee 8a, 34225 Baunatal, Tel. 0561-953.795.80, info@stadtmarketing-baunatal.de.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Hofgeismarer Weihnachtsmarkt",
+      "candidate_url": "https://www.hofgeismar.de/hofgeismar-erleben/veranstaltungen/weihnachtsmarkt/",
+      "reason": "Aussteller-Bewerbungsformular auf Stadtseite vorhanden, Kontakt Stadtverwaltung Hofgeismar, Tel. 05671 999-037; kein Fristdatum fuer 2026 gefunden.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Altstadtfest Hofgeismar",
+      "candidate_url": "https://www.gemeinschaft-hofgeismar.de/events/",
+      "reason": "Veranstalter Gemeinschaft fuer Handel und Gewerbe Hofgeismar e.V. (stadtfeste@ghg-hofgeismar.de) ist kein staedtischer/behoerdlicher Veranstalter im engeren Sinn; kein Fristdatum gefunden.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Lauterbacher Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.lauterbach-hessen.de/stadtleben/feste-und-maerkte/bewerbung-maerkte-kontakt.html",
+      "reason": "Termin 04.-06. und 11.-13.12.2026 bestaetigt. Kontakt Tourist-Center Stadtmuehle, Svenja Schmidt/Saskia Kreit, Marktplatz 1, 36341 Lauterbach, Tel. 06641 184-118/107; kein Fristdatum gefunden.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Herborner Weihnachtsmarktplatz",
+      "candidate_url": "https://www.deutsche-weihnachtsmaerkte.de/weihnachtsmarkt/in/hessen/weihnachtsmarkt-herborn-452.html",
+      "reason": "Veranstalter Stadtmarketing Herborn GmbH, Bahnhofsplatz 1, 35745 Herborn, Tel. 02772 708-1900, tourist@herborn.de identifiziert; kein Bewerbungsfristdatum auf offizieller Quelle gefunden.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Dillenburger Winterzauber",
+      "candidate_url": "https://www.ortsdienst.de/hessen/lahn-dill-kreis/dillenburg/weihnachtsmarkt/",
+      "reason": "Veranstaltung wird laut Recherche von privater Eventagentur organisiert (nicht offizielle Behoerdenquelle); staedtischer Kontakt Magistrat der Oranienstadt Dillenburg, Rathausstr. 7, 35683 Dillenburg, Tel. 02771 896-151 bekannt, aber keine offizielle Bewerbungsseite mit Fristdatum gefunden.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Bergsträßer Winzerfest / Weihnachtsmarkt Bensheim",
+      "candidate_url": "https://bensheimerleben.de/veranstaltungen/feste-maerkte/",
+      "reason": "Keine Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden; Bensheim erleben/Verkehrsverein als Kontaktstelle identifiziert, kein konkretes Fristdatum bestaetigt.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
+      "event_name": "Bergsträßer Weinmarkt / Nikolausmarkt Heppenheim",
+      "candidate_url": "https://www.heppenheim.de/heppenheim-erleben/kultur-events/staedtische-veranstaltungen/",
+      "reason": "Staedtische Veranstaltungsseite vorhanden (naechster Weinmarkt 26.06.-05.07.2026, bereits abgelaufen), aber keine Bewerbungsfrist oder Ansprechpartner fuer Schausteller-Bewerbung gefunden.",
+      "agent_batch_id": "he-mittel-nordhessen-2026-09"
+    },
+    {
       "event_name": "76. Darmstädter Heinerfest 2026/2027",
       "candidate_url": "https://www.heinerfest.de/schausteller/keine-laufende-bewerbungsfrist/",
       "reason": "Offizielle Seite bestaetigt am Recherchetag explizit 'Keine laufende Bewerbungsfrist'. Termine bekannt (2026: 02.-06.07., 2027: 01.-05.07.), naechste Ausschreibung noch nicht online. Kontakt: darmstaedter.heinerfest@t-online.de, (06151) 296688.",
@@ -3945,6 +4611,84 @@
       "candidate_url": "https://gv-rodgau.de/rodgauer-kuerbisfest/",
       "reason": "Termin bekannt (26. Oktober, Rodgau-Juegesheim), keine aktuelle Bewerbungsfrist auf der Veranstalterseite (Gewerbeverein Rodgau) gefunden; ein archivierter Anmeldeschluss war ohne Datum ('---').",
       "agent_batch_id": "he-rheinmain-2026-09"
+    },
+    {
+      "event_name": "Schweriner Weihnachtsmarkt (Der Stern im Norden)",
+      "candidate_url": "https://www.weihnachtsmarkt-schwerin.de/fragen-und-antworten/",
+      "reason": "Offizielle Veranstalterseite vorhanden (Markt startet traditionell Montag vor 1. Advent bis 30.12.), aber keine Bewerbungsfrist oder Kontaktformular fuer Schausteller/Haendler auffindbar. Stadt Schwerin / Marktamt direkt kontaktieren.",
+      "agent_batch_id": "mv-gesamt-2026-09"
+    },
+    {
+      "event_name": "Stralsunder Weihnachtsmarkt 2026 (Fahrgeschaefte, Gastronomie, Kunsthandwerk)",
+      "candidate_url": "https://www.stralsunder-weihnachtsmarkt.de/fuer-aussteller/jetzt-bewerben",
+      "reason": "Veranstalter SWS Stadtwerke Stralsund GmbH, Frankendamm 7, 18439 Stralsund, Tel. 03831/2410, E-Mail weihnachtsmarkt@stadtwerke-stralsund.de. Online-Bewerbungsformular vorhanden, aber kein konkretes Fristdatum auf der Seite genannt.",
+      "agent_batch_id": "mv-gesamt-2026-09"
+    },
+    {
+      "event_name": "Wismarer Weihnachtsmarkt (Standplatz-Bewerbung)",
+      "candidate_url": "https://www.wismar.de/B%C3%BCrger/B%C3%BCrgerservice/Dienstleistungen-A-Z/Markt-Marktst%C3%A4nde-Standgenehmigung-.php?object=tx,2634.2&ModID=10&FID=125.213.1&sNavID=2634.48&mNavID=2634.48&NavID=2634.48&La=1&ort=Wismar",
+      "reason": "Hansestadt Wismar, BuergerServiceCenter, Am Markt 1 (Rathaus), 23966 Wismar, Tel. 03841 251-0, E-Mail bsc@wismar.de. Seite beschreibt Standgenehmigungsverfahren fuer Schausteller/Beschicker, aber kein konkretes Fristdatum genannt; direkte Rueckfrage noetig.",
+      "agent_batch_id": "mv-gesamt-2026-09"
+    },
+    {
+      "event_name": "Güstrower Adventszauber / Advent am Markt",
+      "candidate_url": "https://www.guestrow.de/advent-am-markt",
+      "reason": "Barlachstadt Guestrow, Karin Bartock (Oeffentlichkeitsarbeit), Markt 1, 18273 Guestrow, Tel. 03843 769-103, karin.bartock@guestrow.de. Veranstaltung wird 2026 von der Stadt neu ausgeschrieben (Interessenbekundungsverfahren fuer Ausrichter, Frist bereits im Mai 2026 verstrichen); Bewerbungsfrist fuer einzelne Schausteller/Haendler-Standplaetze nicht auffindbar.",
+      "agent_batch_id": "mv-gesamt-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Waren (Müritz)",
+      "candidate_url": "https://www.innenstadt-waren.de/",
+      "reason": "Veranstalter Innenstadt Waren e.V., Friedensstrasse 4, 17192 Waren (Mueritz). Markt findet im Dezember statt, ca. 25 Beschicker, aber keine Bewerbungsfrist oder Bewerbungsformular auf der Vereinsseite gefunden.",
+      "agent_batch_id": "mv-gesamt-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt im Tiergarten Neustrelitz",
+      "candidate_url": "https://www.neustrelitz.de/",
+      "reason": "Stadtinformation Neustrelitz, Am Markt 1, 17235 Neustrelitz, Tel. 03981 253-119; Tiergarten Neustrelitz, Am Tiergarten 14, 17235 Neustrelitz, Tel. 03981 204490. Keine Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden.",
+      "agent_batch_id": "mv-gesamt-2026-09"
+    },
+    {
+      "event_name": "Martinimarkt Parchim 2026",
+      "candidate_url": "https://www.parchim.de/de/tourismus-kultur/veranstaltungen/martinimarkt/",
+      "reason": "Stadt Parchim, Fachbereich 3 / Sachgebiet Ordnung und Sicherheit, Blutstrasse 5, 19370 Parchim, Tel. 03871 71-0, kontakt@parchim.de. Markttermin 06.-09.11.2026 bestaetigt, Bewerbungsunterlagen fuer 2027 in Vorbereitung, aber kein konkretes Fristdatum fuer 2026 auf der Seite genannt.",
+      "agent_batch_id": "mv-gesamt-2026-09"
+    },
+    {
+      "event_name": "Markt-/Standplatzvergabe Bergen auf Rügen",
+      "candidate_url": "https://www.stadt-bergen-auf-ruegen.de/",
+      "reason": "Marktgebuehrensatzung der Stadt Bergen auf Ruegen vorhanden, keine spezifische Bewerbungsseite oder Frist fuer Schausteller gefunden. Stadtverwaltung direkt kontaktieren.",
+      "agent_batch_id": "mv-gesamt-2026-09"
+    },
+    {
+      "event_name": "Schaustellermarkt / Marktwesen Anklam",
+      "candidate_url": "https://www.anklam.de/",
+      "reason": "Hansestadt Anklam, Markt 3, 17389 Anklam, Tel. 03971 835-118, E-Mail i.beu@anklam.de. Kein konkretes Marktevent mit Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden.",
+      "agent_batch_id": "mv-gesamt-2026-09"
+    },
+    {
+      "event_name": "Wochenmarkt / Marktwesen Pasewalk",
+      "candidate_url": "https://www.pasewalk.de/aktuelles/wochenmarkt/",
+      "reason": "Stadt Pasewalk, Ansprechpartnerin Claudia Grosse, Tel. 03973 251-105. Nur Wochenmarkt-Informationen gefunden, kein Schausteller-Bewerbungsverfahren mit Frist auf offizieller Seite.",
+      "agent_batch_id": "mv-gesamt-2026-09"
+    },
+    {
+      "event_name": "Standplatzgenehmigung für Märkte Ueckermünde",
+      "candidate_url": "https://www.ueckermuende.de/buergerservice/dienstleistungen/standplatzgenehmigung-fuer-maerkte-beantragen-900000153-0.html",
+      "reason": "Stadt Ueckermuende, Gewerbeamt Frau Susann Brock, Rathaus 4/5 Zi. 301, Am Rathaus 5, 17373 Ueckermuende, Tel. 039771-28482, E-Mail gewerbe@ueckermuende.de. Standplatzgenehmigungsverfahren beschrieben, aber kein konkretes Fristdatum genannt.",
+      "agent_batch_id": "mv-gesamt-2026-09"
+    },
+    {
+      "event_name": "Marktwesen / Gewerbe Ribnitz-Damgarten",
+      "candidate_url": "https://www.ribnitz-damgarten.de/buergerservice/online-dienste/gewerbe",
+      "reason": "Stadt Ribnitz-Damgarten, Am Markt 1, 18311 Ribnitz-Damgarten, Tel. 03821 8934-001. Gewerbe-/Reisegewerbeinformationen vorhanden, aber kein spezifisches Schausteller-Marktevent mit Bewerbungsfrist gefunden.",
+      "agent_batch_id": "mv-gesamt-2026-09"
+    },
+    {
+      "event_name": "Marktwesen / Ausschreibungen Grevesmühlen",
+      "candidate_url": "https://www.grevesmuehlen.de/rathaus/ausschreibungen.html",
+      "reason": "Stadt Grevesmuehlen fuehrt eine allgemeine Ausschreibungsseite, aber kein Schausteller-spezifisches Marktevent mit Bewerbungsfrist gefunden. Stadtverwaltung direkt kontaktieren.",
+      "agent_batch_id": "mv-gesamt-2026-09"
     },
     {
       "event_name": "Nürnberger Ostermarkt 2027",
@@ -4239,6 +4983,66 @@
       "candidate_url": "https://www.celle.de/loadDocument.phtml?FID=3747.2314.1&Ext=PDF",
       "reason": "Celle wurde bereits in der Einheit ni-hannover-braunschweig (Batch ni-hannover-braunschweig-2026-09) recherchiert; dort als review_candidate dokumentiert, keine neuen Erkenntnisse in diesem Durchgang.",
       "agent_batch_id": "ni-lueneburg-elbe-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt \"Weihnachten am Meer\" Wilhelmshaven 2026",
+      "candidate_url": "https://www.wilhelmshaven-touristik.de/veranstaltungen/weihnachten-am-meer",
+      "reason": "Termin 23.11.-28.12.2026 am Valoisplatz genannt, Veranstalter Wilhelmshaven Touristik & Freizeit GmbH (Ebertstr. 110, 26382 Wilhelmshaven, Tel. 04421 913000). Keine Bewerbungsfrist oder Standplatz-Ausschreibung auf der Seite gefunden; Seite verweist auf spaeter folgendes Detailprogramm. Hinweis: Der kleinere, privat organisierte \"KiezZauber\" in der Suedstadt (Buergerverein Sued e.V. u.a.) ist kein staedtischer Veranstalter und wurde deshalb nicht als Kandidat aufgenommen.",
+      "agent_batch_id": "ni-weser-ems-2026-09"
+    },
+    {
+      "event_name": "Emder Ostermarkt / saisonale Schaustellermaerkte Emden",
+      "candidate_url": "https://www.emden.de/rathaus/verwaltung/fb-400-oeffentliche-sicherheit-buergerservice/fd-431-oeffentliche-sicherheit-und-ordnung/emder-wochenmarkt",
+      "reason": "Presseberichte erwaehnen einen jaehrlichen Emder Ostermarkt (Saisonauftakt der ostfriesischen Schausteller), aber die Stadt Emden hat auf den offiziellen Seiten nur den woechentlichen Wochenmarkt dokumentiert, keine Schausteller-Ausschreibung mit Frist gefunden. Kein konkreter staedtischer Ansprechpartner fuer Schaustellerplaetze identifiziert.",
+      "agent_batch_id": "ni-weser-ems-2026-09"
+    },
+    {
+      "event_name": "Gallimarkt Leer 2026 (14.-18.10.2026)",
+      "candidate_url": "https://leer.de/Stadt-Leben/Stadt-Leer-Ostfriesland-/Gallimarkt/",
+      "reason": "Termin bestaetigt (14.-18.10.2026), Markt wird laut Presse in Abstimmung zwischen Stadt Leer und dem Verein reisender Schausteller Ostfriesland e.V. (Friedhofstrasse 26, 26789 Leer) organisiert. Keine online veroeffentlichte Bewerbungsfrist gefunden; direkte Anfrage bei Stadt oder Verein noetig.",
+      "agent_batch_id": "ni-weser-ems-2026-09"
+    },
+    {
+      "event_name": "Auricher Herbstmarkt 2026 (30.10.-01.11.2026)",
+      "candidate_url": "https://www.aurich-tourismus.de/veranstaltungen/veranstaltung/26102025--100596702--herbstmarkt-aurich",
+      "reason": "Termin und Ort (Grossparkplatz Sparkassenarena, Karl-Heinrich-Ulrichs-Platz, 26603 Aurich) bestaetigt. Veranstalter laut Seite: Verein reisender Schausteller Ostfriesland e.V. (Logabirumer Str. 80, 26789 Leer, Tel. 0491-997122). Keine Bewerbungsfrist auf offizieller Seite genannt.",
+      "agent_batch_id": "ni-weser-ems-2026-09"
+    },
+    {
+      "event_name": "Schausteller-/Marktbeschicker-Zulassung Nordhorn (allgemein, keine Einzelveranstaltung mit Termin gefunden)",
+      "candidate_url": "https://www.nordhorn.de/buergerservice/dienstleistungen/taetigkeit-als-markthaendlerin-markthaendler-oder-schaustellerin-schausteller-aufnahme-900000481-0.html?myMedium=1",
+      "reason": "Serviceportal-Seite der Stadt Nordhorn nennt die Ordnungsabteilung als zustaendige Stelle (Frau Mueller, Stadthaus II, Buechereiplatz, 48529 Nordhorn, Tel. 05921 878-107, ordnungsamt@nordhorn.de) und den Hinweis \"Es muessen ggf. Fristen beachtet werden\", aber kein konkretes Datum oder eine konkrete Veranstaltung (z.B. Herbstmarkt/Weihnachtsmarkt) mit Frist gefunden.",
+      "agent_batch_id": "ni-weser-ems-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Meppen 2026 (23.11.-30.12.2026, Alter Markt/Hasestrasse/Windthorstplatz)",
+      "candidate_url": "https://www.wim-meppen.de/portal/seiten/weihnachtsmarkt-meppen-23-november-30-dezember-2026-900000422-24701.html",
+      "reason": "Termin und Ort bestaetigt, Bewerbung erfolgt laut Stadtmarketing Meppen (WIM e.V., Zimmer M4, Markt 4, 49716 Meppen) nur schriftlich ueber Ansgar Limbeck (Tel. 05931 153-295, ansgar.limbeck@meppen.de) oder Katja Wocken (Tel. 05931 153-296, katja.wocken@meppen.de). Bewerbungsformular-PDF fuer 2026 wird auf der Unterseite referenziert, aber ein konkretes Fristdatum fuer 2026 war im abgerufenen Seiteninhalt nicht lesbar.",
+      "agent_batch_id": "ni-weser-ems-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Cloppenburg 2026",
+      "candidate_url": "https://www.cloppenburg.de/portal/seiten/weihnachtsmarkt-2025-900000323-31040.html",
+      "reason": "Nur die 2025er-Seite (27.11.-30.12.2025) auffindbar, keine bestaetigte Bewerbungsfrist fuer Standbetreiber/Schausteller im abgerufenen Seiteninhalt enthalten (ein per Suchmaschine kolportiertes Datum \"30. September\" liess sich beim direkten Seitenabruf nicht verifizieren und wurde daher verworfen). Allgemeiner Kontakt: Stadt Cloppenburg, Sevelter Strasse 8, 49661 Cloppenburg, Tel. 04471 185-0, rathaus@cloppenburg.de.",
+      "agent_batch_id": "ni-weser-ems-2026-09"
+    },
+    {
+      "event_name": "Buergermarkt Wittmund 2026 (17.-19.07.2026, bereits Termin fuer 2026 verstrichen; 2027 unbekannt)",
+      "candidate_url": "https://www.buergermarkt-wittmund.de/",
+      "reason": "Veranstalter ist der Buerger- und Verkehrsverein Wittmund e.V. (nicht die Stadt selbst), keine Bewerbungsfrist auf der Veranstaltungsseite gefunden. Da Trager kein staedtischer/behoerdlicher Veranstalter ist, ist die Quelle fuer den strikten Quellenstandard grenzwertig; nur als Rechercheansatz vermerkt, nicht als Entry uebernommen.",
+      "agent_batch_id": "ni-weser-ems-2026-09"
+    },
+    {
+      "event_name": "Papenburg Augustmarkt 2026 (21.-25.08.2026, Untenender Marktplatz)",
+      "candidate_url": "https://kuestenkirmes.de/papenburg-augustmarkt-2026/",
+      "reason": "Termin genannt, Seite vermerkt ausdruecklich \"Eine Beschickung liegt noch nicht vor\". Quelle ist eine private Kirmes-Vermarktungsseite (kuestenkirmes.de), keine offizielle Stadt- oder Vereinsseite, daher nicht als Entry geeignet. Keine offizielle Seite der Stadt Papenburg oder des Vereins reisender Schausteller Ostfriesland e.V. mit Fristangabe gefunden.",
+      "agent_batch_id": "ni-weser-ems-2026-09"
+    },
+    {
+      "event_name": "Marktveranstaltungen Melle (kein konkretes Event mit Bewerbungsfrist gefunden)",
+      "candidate_url": "https://www.melle.info/portal/seiten/veranstaltungskalender-919000704-20301.html",
+      "reason": "Kein \"Wollmarkt\" oder vergleichbarer Schaustellermarkt mit offizieller Bewerbungsfrist auf staedtischer Seite oder in Presse gefunden. Weitere Recherche direkt bei der Stadtverwaltung Melle noetig.",
+      "agent_batch_id": "ni-weser-ems-2026-09"
     },
     {
       "event_name": "Luebecker Weihnachtsmarkt 2027",
@@ -4623,6 +5427,84 @@
       "candidate_url": "https://www.stadt-koeln.de/service/produkte/00292/index.html",
       "reason": "Bereits in frueherer Welle geprueft, Status unveraendert: Die Stadt Koeln nennt 'Der Antrag muss mindestens 4 Wochen vor der Veranstaltung vorliegen', das Verfahren richtet sich aber an Veranstalter (Marktfestsetzung), nicht an Beschicker. Der Weihnachtsmarkt am Dom laeuft ueber die Koelner Weihnachtsgesellschaft ohne Frist.",
       "agent_batch_id": "nrw-koeln-bonn-2026-08"
+    },
+    {
+      "event_name": "Emsdettener Fruehjahrsmarkt 2027",
+      "candidate_url": "https://www.fruehjahrsmarkt-emsdetten.de/",
+      "reason": "Termin 12.-14.03.2027 bekannt, eigene Ausstellerseite existiert laut Navigation ('FUER AUSSTELLER'), Unterseite direkt nicht abrufbar (404); keine Bewerbungsfrist gefunden.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmaerkte Borghorst/Burgsteinfurt (Steinfurt)",
+      "candidate_url": "https://www.steinfurt-erleben.com/en/events/",
+      "reason": "Veranstalter Steinfurt Erleben GmbH bewirbt laut eigenem Facebook-Post eine Anmeldung fuer Aussteller der Weihnachtsmaerkte in Borghorst/Burgsteinfurt; auf der offiziellen Website keine Bewerbungsfrist oder Ausstellerseite mit Frist gefunden. Kontakt: Steinfurt Erleben GmbH, Markt 2, 48565 Steinfurt, info@steinfurt-erleben.com, Tel. 02551 186900.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
+    },
+    {
+      "event_name": "Grevener Grosskirmes / Lambertusmarkt",
+      "candidate_url": "https://www.greven.net/erleben_besuchen/veranstaltungen/artikel/kirmes.php",
+      "reason": "Termin der Grosskirmes 2026 (28.-31.08.2026) bekannt, keine Bewerbungsfrist auf offizieller Stadtseite gefunden; Stadt Greven direkt kontaktieren.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmaerkte Beckum, Roland, Neubeckum, Vellern 2026",
+      "candidate_url": "https://www.beckum.de/:translation/en/stadt-beckum/entdecken-erleben/veranstaltungen/weihnachtsmaerkte/",
+      "reason": "Termine 2026 fuer alle vier Ortsteile bekannt, Bewerbung per Formular an stadtmarketing@beckum.de moeglich, aber keine Bewerbungsfrist auf offizieller Seite genannt. Stadt Beckum, Weststrasse 46, 59269 Beckum, stadt@beckum.de, Tel. 02521 29-0.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
+    },
+    {
+      "event_name": "Markt- und Kirmesveranstaltungen Coesfeld (u.a. Kreuzerhoehungskirmes)",
+      "candidate_url": "https://serviceportal.coesfeld.de/detail/-/vr-bis-detail/dienstleistung/538/show",
+      "reason": "Serviceportal nennt nur Gebuehren, keine Bewerbungsfrist. Zustaendig: Team Maerkte, Bernhard-von-Galen-Strasse 10, 48653 Coesfeld, Tel. 02541 939-8419.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt der Hobbykuenstler / Aussteller-Kontakt Luedinghausen",
+      "candidate_url": "https://www.luedinghausen-marketing.de/en/events/festivals-and-markets/christmas-market-for-hobby-artists/",
+      "reason": "Veranstaltung findet jaehrlich am 1. Adventswochenende auf Burg Luedinghausen statt (ca. 50 Aussteller); eigene Kontaktseite fuer Aussteller/Marktbeschicker vorhanden, aber keine Bewerbungsfrist gefunden. Luedinghausen Marketing e.V., Borg 4, 59348 Luedinghausen, info@luedinghausen-marketing.de, Tel. 02591 78008.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
+    },
+    {
+      "event_name": "Bocholter Herbstkirmes 2026",
+      "candidate_url": "https://www.bocholt.de/serviceverzeichnis/kirmes",
+      "reason": "Termin 3. Sonntag im Oktober bekannt, ca. 270 Beschicker werden aus zahlreichen Bewerbungen ausgewaehlt, aber keine Bewerbungsfrist auf offizieller Seite genannt. Veranstalter: Wirtschaftsfoerderungs- und Stadtmarketing Gesellschaft Bocholt mbH & Co. KG, Osterstrasse 23, 46397 Bocholt, info@bocholt-stadtmarketing.de, Tel. 02871 294933-0.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
+    },
+    {
+      "event_name": "Gemener Kirmes (Borken-Gemen) 2026",
+      "candidate_url": "https://buergerschuetzenverein-gemen.de/webseite_wp_2021/wordpress/informationen-fuer-schausteller/",
+      "reason": "Veranstaltung jaehrlich am 1. Sonntag im August, Bewerbungsunterlagen (Standmasse, Anschrift, Fotos) beschrieben, aber keine Bewerbungsfrist genannt. Kontakte: Christoph Garthaus (Vertraege), Augustin-Wibbelt-Strasse 12, 46325 Borken-Gemen, christoph.garthaus@buergerschuetzenverein-gemen.de; Robert Bollrath (Platzwart), Ahnenkamp 9, 46325 Borken-Gemen, robert.bollrath@buergerschuetzenverein-gemen.de.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
+    },
+    {
+      "event_name": "Ahauser Kirmes 2026",
+      "candidate_url": "https://www.stadt-ahaus.de/de/aktuelles/meldungen/Kirmes-2024.php",
+      "reason": "Termin 11.-14.09.2026 bekannt, Kirmesmeister Ralf Rohling fuer die Stadt Ahaus zustaendig, aber keine Bewerbungsfrist oder direkte Kontaktseite mit Frist gefunden. Pressestelle der Stadt Ahaus, Rathausplatz 1, 48683 Ahaus, pressestelle@ahaus.de, Tel. 02561 72113.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
+    },
+    {
+      "event_name": "Herbstkirmes und Weihnachtsmarkt Gronau",
+      "candidate_url": "https://www.gronau.de/rathaus/news/2025/news-september-2025/herbstkirmes-in-gronau-vom-10-bis-13-oktober-2025/",
+      "reason": "Genanntes Datum 07.10.2025 16 Uhr bezog sich auf eine Publikumsverlosung (Stichwort 'Kirmes' an pressestelle@gronau.de), nicht auf eine Schausteller-Standplatzbewerbung; keine offizielle Bewerbungsfrist fuer Beschicker gefunden. Fuer Weihnachtsmarkt-Aussteller verweist die Seite gronau-inside.de auf ein externes Anmeldeformular (Microsoft Forms) ohne erkennbare Frist. Stadt Gronau, Neustrasse 31, 48599 Gronau, pressestelle@gronau.de, Tel. 02562 12-0.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
+    },
+    {
+      "event_name": "Nikolausmarkt Haltern am See 2026",
+      "candidate_url": "https://www.haltern.de/Inhalte/Startseite/Verwaltung_Politik/_details.asp?form=detail&db=245&id=3876",
+      "reason": "Termin 28.11.-14.12.2026 auf dem Marktplatz bekannt, keine Bewerbungsfrist fuer Schausteller/Standbetreiber auf offizieller Seite gefunden. Stadtagentur Haltern am See, Marktplatz, 45721 Haltern am See, stadtagentur@haltern.de, Tel. 02364 933-402.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
+    },
+    {
+      "event_name": "Warendorfer Weihnachtswaeldchen 2026",
+      "candidate_url": "https://www.warendorf.de/de/kultur/veranstaltungen/maerkte-feste-und-highlights/warendorfer-weihnachtswaeldchen/",
+      "reason": "Termin 27.11.-20.12.2026 bekannt, Bewerbungsformular ('Bewerbung Warendorfer Weihnachtsmarkt') und Weihnachtsmarktordnung stehen zum Download bereit, aber keine explizite Bewerbungsfrist auf der Seite genannt. Stadt Warendorf, Kulturamt/Team Veranstaltungen & Stadtwerbung, Markt 1, 48231 Warendorf, stadt@warendorf.de, Tel. 02581 54-0.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt an der Oude Marie, Dorsten 2026",
+      "candidate_url": "https://dorsten-online.de/weihnachtsmarkt-an-der-oude-marie-geht-im-dezember-in-die-zweite-runde/",
+      "reason": "Nicht-offizielle Quelle nennt Organisatoren (Kevin Over, Birger Schwalvenberg, Heike und Klaus Schmitz), aber keine offizielle Stadt- oder Veranstalterseite mit Bewerbungsfrist auffindbar; dorsten.de-Marktseiten unter den geprueften Pfaden nicht erreichbar (404). Stadt Dorsten direkt kontaktieren.",
+      "agent_batch_id": "nrw-muensterland-2026-09"
     },
     {
       "event_name": "Sprödentalkirmes Krefeld",
@@ -5363,6 +6245,300 @@
       "agent_batch_id": "research-2026-08-03-sn-st-th"
     },
     {
+      "event_name": "Trierer Weihnachtsmarkt (Neuvergabe ab 2027)",
+      "candidate_url": "https://www.trierer-weihnachtsmarkt.de/fragen-und-antworten",
+      "reason": "Stadt Trier bereitet Neuausschreibung des Betreibervertrags ab 2027 vor (bisheriger Betreiber Arbeitsgemeinschaft/Familie Bruch endet Ende 2026); Ausschreibungstext mit Bewerbungsfrist fuer Schausteller/Beschicker war zum Recherchezeitpunkt noch nicht veroeffentlicht. Stadt Trier direkt kontaktieren.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Schaengelmarkt Koblenz",
+      "candidate_url": "https://www.koblenz.de/buergerservice/leistungen/RLP:entry:64766:ANLR-VLR/weihnachtsmarkt/",
+      "reason": "Standplatzvergabe erfolgt durch beauftragte Firma D. Koenitz GmbH (Hans-Boeckler-Str. 1a, 56070 Koblenz, Tel. 0261/983993-0, info@koenitz-ausstellungen.de); keine Bewerbungsfrist auf offizieller Stadtseite oder bei der Firma gefunden.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Rhein in Flammen Koblenz (Kirmesbereich Koblenzer Sommerfest)",
+      "candidate_url": "https://www.koblenz-touristik.de/geschaeftsfelder/event/informationen-fuer-veranstalter",
+      "reason": "Vergabe der Standplaetze liegt bei Koblenz-Touristik GmbH (event@koblenz-touristik.de, Tel. 0261 201775-71), Online-Bewerbungsformular fuer Schaustellerbetriebe vorhanden, aber keine Frist genannt.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Neuwied",
+      "candidate_url": "https://www.neuwied.de/6091.html",
+      "reason": "Stadt Neuwied fuehrt einheitliches Bewerbungsverfahren mit eigenem Formular fuer alle Maerkte/Feste; Kontakt kirmes@neuwied.de, Amt fuer Stadtmarketing, 56562 Neuwied; kein konkretes Fristdatum fuer den Weihnachtsmarkt gefunden (Formular auch fuer die bereits im Master erfasste Heddesdorfer Pfingstkirmes zustaendig).",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Andernacher Michelsmarkt 2026",
+      "candidate_url": "https://www.blick-aktuell.de/Andernach/Andernacher-Michelsmarkt-2026-mit-neuen-Attraktionen-und-erweitertem-Krammarkt-673823.html",
+      "reason": "Veranstaltung 25.-29.09.2026, organisiert von der Stadt Andernach (Kulturamt, Ansprechpartnerin laut Presseartikel Annika Sarrazin); offizielle Andernacher Stadtseite mit Bewerbungsformular/-frist fuer Schausteller wurde nicht gefunden (Andernach-Kultur-Subdomain nicht erreichbar/404).",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Lukasmarkt und Weihnachtsmarkt Mayen",
+      "candidate_url": "https://www.mayen.de/kultur-tourismus/kultur/maerkte/",
+      "reason": "Stadt Mayen fuehrt eigene Vergaberichtlinien fuer den Lukasmarkt (ca. 40 Standplaetze auch beim Weihnachtsmarkt); Vergaberichtlinien-Unterseite war beim Abruf nicht erreichbar (404), konkrete Bewerbungsfrist daher nicht bestaetigt. Kontakt: Stadtverwaltung Mayen, Tel. 02651 88-0, info@mayen.de.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Krammaerkte Bad Neuenahr-Ahrweiler",
+      "candidate_url": "https://www.bad-neuenahr-ahrweiler.de/die-stadt/stadtportrait/maerkte/",
+      "reason": "Weihnachtsmarkt-Termin 2026 bekannt (15.12.2026, Ahrtorparkplatz Ahrweiler), aber keine Bewerbungsfrist fuer Schausteller auf der offiziellen Stadtseite gefunden. Kontakt: Stadtverwaltung, Tel. 02641 87-100, stadt@bad-neuenahr-ahrweiler.de.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Beda-Markt / Kirmes Bitburg",
+      "candidate_url": "https://www.bitburg.de/freizeit-und-veranstaltungen/beda-markt/",
+      "reason": "Naechster Termin laut Stadtseite 20./21.03.2027 ('Save the Date'); keine Bewerbungsfrist fuer Schausteller veroeffentlicht. Kontakt: Stadtmarketing Bitburg, Talweg 4, 54634 Bitburg, Tel. 06561 9442-100, info@stadtmarketing-bitburg.de.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Weinfest der Mittelmosel Bernkastel-Kues 2027",
+      "candidate_url": "https://www.bernkastel.de/weinfest-der-mittelmosel/mitwirken",
+      "reason": "Offizielle Mitwirken-Seite mit getrennten Online-Bewerbungsformularen fuer Rummel/Schausteller, Wein- und Speisestaende vorhanden; Termin 2027 und Bewerbungsfrist auf der Seite nicht genannt. Kontakt: Michelle Roehl (m.roehl@bernkastel.de, Tel. 06531 5001913) bzw. Elena Hilger (e.hilger@bernkastel.de, Tel. 06531 961956), Kulturamt Bernkastel-Kues.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Hammerstein / Friedenslicht-Weihnachtsmarkt Untertage Idar-Oberstein",
+      "candidate_url": "https://www.idar-oberstein.de/:translation/en/idar-oberstein/kalender/veranstaltungen/2025/12/2025-12-13-weihnachtsmarkt-hammerstein/",
+      "reason": "Weihnachtsmarkt wird laut Stadtkalender vom FoeV-Kulturverein am 3. Adventswochenende organisiert; kein offizieller Bewerbungsweg, keine Frist und kein direkter Kontakt fuer Schausteller auf der Stadtseite gefunden.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Maimarkt Simmern/Hunsrueck",
+      "candidate_url": "https://www.rhein-zeitung.de/lokales/rhein-hunsrueck-zeitung/maimarkt-bringt-volksfeststimmung-nach-simmern_arid-4125541.html",
+      "reason": "Groesste Kirmes im Hunsrueck (Marktgelaende rund um Schloss, Schlossplatz, Schulstrasse, Bruehlplatz); keine offizielle Stadt- oder Veranstalterseite mit Bewerbungsverfahren/-frist gefunden, nur Presse- und Facebook-Praesenz.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Bopparder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.boppard.de/aktuelles/bopparder-weihnachtsmarkt-2026-jetzt-fuer-einen-standplatz-anmelden/",
+      "reason": "Termin 27.11.-06.12.2026 bestaetigt, Bewerbung ueber Tourist Information Boppard (Altes Rathaus am Marktplatz, Tel. 06742 3888, tourist@boppard.de) oder online moeglich, aber kein konkretes Fristdatum auf der Stadtseite genannt.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Wintermarkt Montabaur",
+      "candidate_url": "https://www.vg-montabaur.de/buergerservice/leistungen/RLP:entry:117145:ANLR-VLR/weihnachtsmarkt/",
+      "reason": "VG Montabaur nennt nur allgemeine Beschreibung des Weihnachtsmarkts, keine Bewerbungsfrist. Kontakt: Sachgebiet Kultur/Jugend/Erwachsenenbildung, Konrad-Adenauer-Platz 8, 56410 Montabaur, Tel. 02602 126-0, info@montabaur.de.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Wittlicher Weihnachtstage",
+      "candidate_url": "https://www.wittlich.de/de/leben-in-wittlich/kultur/veranstaltungen/bewerbung/",
+      "reason": "Eigene Bewerbungsseite des Kulturamts mit Online-Formular/E-Mail-Bewerbung vorhanden (Kulturamt Stadt Wittlich, Neustrasse 2, 54516 Wittlich, Tel. 06571 1466-0, info@kulturamt.wittlich.de); kein konkretes Fristdatum fuer die Wittlicher Weihnachtstage genannt (andere Veranstaltung als die bereits im Master erfasste Saeubrennerkirmes).",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Bad Kreuznach",
+      "candidate_url": "https://www.bad-kreuznach.de/buergerservice/leistungen/RLP:entry:72313:ANLR-VLR/weihnachtsmarkt/",
+      "reason": "Eigene Leistungsseite der Stadt vorhanden, verweist auf Sachgebiet Messen und Maerkte; kein Fristdatum fuer den Weihnachtsmarkt gefunden (andere Veranstaltung als der bereits im Master erfasste Jahrmarkt mit Frist 15.10.). Kontakt: Stadtverwaltung Bad Kreuznach, Kornmarkt 5, 55543 Bad Kreuznach, Tel. 0671 800-0, stadtverwaltung@bad-kreuznach.de.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Aussteller Cochem",
+      "candidate_url": "https://cochem.de/stadt-cochem/informationen-aussteller-bewerbungen-veranstaltungen/",
+      "reason": "Stadt Cochem bietet Bewerbungsunterlagen fuer mehrere Veranstaltungen (Weihnachtsmarkt, Heimat- und Weinfest, Kinderfest u.a.); Bewerbungen laufen ausschliesslich online, aktuelles Fristdatum fuer 2026/2027 auf der Seite nicht genannt. Kontakt: Malena Bersem, Tourist-Information Ferienland Cochem, Endertplatz 1, 56812 Cochem, Tel. 02671 6004-35, veranstaltungen@ferienland-cochem.de.",
+      "agent_batch_id": "rp-gesamt-nord-2026-09"
+    },
+    {
+      "event_name": "Ludwigshafener Weihnachtsmarkt",
+      "candidate_url": "https://lukom.com/events/weihnachtsmarkt/",
+      "reason": "Bewerbung als Beschicker läuft über Marktmeister Christian Diehl (diehl@lukom.com) bei LUKOM; keine Bewerbungsfrist auf der offiziellen Seite genannt.",
+      "agent_batch_id": "rp-gesamt-sued-2026-09"
+    },
+    {
+      "event_name": "Zweibrücker Weihnachtsmarkt 2026",
+      "candidate_url": "https://weihnachtsmarkt-zw.de/bewerbung/",
+      "reason": "Bewerbung nur noch online über die offizielle Veranstaltungsseite möglich, kein konkretes Bewerbungsschluss-Datum auf der Seite genannt (Angebote erfolgen erst nach Ende der - nicht datierten - Bewerbungsfrist).",
+      "agent_batch_id": "rp-gesamt-sued-2026-09"
+    },
+    {
+      "event_name": "Landauer Maimarkt / Herbstmarkt",
+      "candidate_url": "https://www.landau.de/Tourismus-Kultur/Veranstaltungen/",
+      "reason": "Keine Bewerbungsfrist auf offizieller Stadtseite gefunden. Kontakt: Stabsstelle Öffentlichkeitsarbeit, presse@landau.de, 06341/13-1400, Marktstraße 50, 76829 Landau in der Pfalz; Bewerbung vermutlich über Schaustellerverband Landau-Neustadt.",
+      "agent_batch_id": "rp-gesamt-sued-2026-09"
+    },
+    {
+      "event_name": "Deutsches Weinlesefest Neustadt an der Weinstraße - Bunter Jahrmarkt 2026",
+      "candidate_url": "https://www.neustadt.eu/Tourismus-Wein/Top-Events-Aktuelles/Deutsches-Weinlesefest/Jahrmarkt/",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite veröffentlicht. Kontakt: Malte Ehlen, Events & Veranstaltungen, malte.ehlen@neustadt.eu, 06321 9268-58, Friedrichstraße 1, 67433 Neustadt an der Weinstraße.",
+      "agent_batch_id": "rp-gesamt-sued-2026-09"
+    },
+    {
+      "event_name": "Germersheimer Pfingstmarkt 2026",
+      "candidate_url": "https://www.germersheim.eu/kultur-tourismus/feste-maerkte/pfingstmarkt/",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Stadtverwaltung Germersheim, Kolpingplatz 3, 76726 Germersheim, info@germersheim.eu, +49 7274 960-0; Tourist-Info tourist-info@germersheim.eu, +49 7274 960-301.",
+      "agent_batch_id": "rp-gesamt-sued-2026-09"
+    },
+    {
+      "event_name": "Alzeyer Winzerfest",
+      "candidate_url": "https://www.winzerfest-alzey.de/wf/aussteller/",
+      "reason": "Keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Stadtverwaltung Alzey, Ernst-Ludwig-Straße 42, 55232 Alzey.",
+      "agent_batch_id": "rp-gesamt-sued-2026-09"
+    },
+    {
+      "event_name": "Binger Winzerfest",
+      "candidate_url": "https://www.bingen.de/stadt/buergerservice-online/anliegen-von-a-z/d-winzerfest-standvergabe-1133636094",
+      "reason": "Seite beschreibt Standvergabe-Verfahren (Bewerbungen von Standbetreibern, Vertragsausfertigung, Platzzuweisung), aber kein konkretes Fristdatum genannt. Bewerbungsschluss laut anderer Quelle bereits 'verlängert' worden, genaues Datum nicht auffindbar. Kontakt: veranstaltungen@bingen.de, Stadtverwaltung Bingen, Burg Klopp, 55411 Bingen am Rhein, +49 6721 184-0.",
+      "agent_batch_id": "rp-gesamt-sued-2026-09"
+    },
+    {
+      "event_name": "Ingelheimer Weinhöfefeste 2026",
+      "candidate_url": "https://www.ingelheim.de/buergerservice/leistungen/RLP:entry:2283707:ANLR-VLR/verkaufsveranstaltungen-genehmigung-beantragen-wochenmaerkte-jahrmaerkte-spezialmaerkte/",
+      "reason": "Keine schaustellerspezifische Bewerbungsfrist gefunden, nur allgemeine Seite zur Genehmigung von Wochenmärkten/Jahrmärkten/Spezialmärkten. Kontakt: Tourist-Information Ingelheim, touristinformation@ikum-ingelheim.de, 06132 710009200.",
+      "agent_batch_id": "rp-gesamt-sued-2026-09"
+    },
+    {
+      "event_name": "Grünstadt Wochenmarkt - Marktbeschicker",
+      "candidate_url": "https://www.gruenstadt.de/unsere-stadt/wochenmarkt/fuer-marktbeschicker/informationen-zur-bewerbung/",
+      "reason": "Laufende (nicht fristgebundene) Bewerbung für Marktbeschicker auf dem Wochenmarkt möglich, kein Bewerbungsschluss-Datum vorhanden. Kontakt: Stadtverwaltung Grünstadt, Kreuzerweg 2/7, 67269 Grünstadt, stadt@gruenstadt.de, 06359/805-0.",
+      "agent_batch_id": "rp-gesamt-sued-2026-09"
+    },
+    {
+      "event_name": "Christkindlmarkt Kirchheimbolanden 2026",
+      "candidate_url": "https://www.kirchheimbolanden.de/",
+      "reason": "Keine offizielle Unterseite mit Bewerbungsinformationen für Schausteller/Standbetreiber gefunden (Markt wird laut Presse überwiegend von Vereinen/Privatpersonen bestückt). Kontakt: Tourist-Information Kirchheimbolanden, Neue Allee 2, 67292 Kirchheimbolanden, Tel. 06352 1712.",
+      "agent_batch_id": "rp-gesamt-sued-2026-09"
+    },
+    {
+      "event_name": "Norderstedter Wochenmärkte / Marktflächen (Schausteller-Standplätze)",
+      "candidate_url": "https://www.norderstedt.de/Aktuelles-und-Service/Dienstleistungen-und-Service/Wochenm%C3%A4rkte",
+      "reason": "Keine spezifische Schausteller-Veranstaltung mit Bewerbungsfrist auf der Stadtseite gefunden. Ansprechpartner Marktaufsicht Herr Tessarcyk, Mobil 0151 55 37 32 27; Stadt Norderstedt direkt kontaktieren.",
+      "agent_batch_id": "sh-gesamt-2026-09"
+    },
+    {
+      "event_name": "Elmshorner Jahrmarkt (Buttermarkt)",
+      "candidate_url": "https://www.elmshorn.de/Freizeit-Tourismus/Veranstaltungen/Jahrmarkt/",
+      "reason": "Offizielle Stadtseite nennt Ort (Buttermarkt) und ca. 45 Beschicker, aber keine Bewerbungsfrist. Bewerbungen laut Seite an Marktmeisterin Frau Alexandra Eltze zu richten, Tel. 04121 231 243, Stadt Elmshorn, Schulstrasse 15-17, 25335 Elmshorn.",
+      "agent_batch_id": "sh-gesamt-2026-09"
+    },
+    {
+      "event_name": "Pinneberger Frühjahrsmarkt (Kirmes, Marktplatz)",
+      "candidate_url": "https://www.pinneberg.de/kultur/veranstaltungen/jaehrlich/jahrmarkt",
+      "reason": "Termin 2026 bekannt (01.-04.05.2026, Marktplatz Pinneberg), keine Bewerbungsfrist oder Kontaktperson auf der offiziellen Seite gefunden; Stadt Pinneberg direkt kontaktieren.",
+      "agent_batch_id": "sh-gesamt-2026-09"
+    },
+    {
+      "event_name": "Rendsburger Frühjahrs-/Sommer-/Herbstmarkt 2026",
+      "candidate_url": "https://www.rendsburg-tourismus-marketing.de/veranstaltungen/jahrmaerkte",
+      "reason": "Termine 2026 bekannt (Fruehjahrsmarkt 10.-13.04., Sommermarkt 03.-06.07., Herbstmarkt 25.-28.09.), keine Bewerbungsfrist auf der Seite genannt. Ansprechpartner fuer Schausteller: Tobias Hercher, t.hercher@rd-tm.de, Tel. 04331 6634521, Rendsburg Tourismus + Marketing GmbH, Bahnhofstrasse 12-16, 24768 Rendsburg.",
+      "agent_batch_id": "sh-gesamt-2026-09"
+    },
+    {
+      "event_name": "Heider Herbstjahrmarkt 2026 (Marktplatz)",
+      "candidate_url": "https://www.heide-stadtmarketing.de/jahrmarkt/",
+      "reason": "Termin 2026 bekannt (22.-27.10., Herbstmarkt; Fruehjahrsmarkt 13.-22.03. bereits verstrichen), keine Bewerbungsfrist auf der offiziellen Seite gefunden. Kontakt Heide Stadtmarketing GmbH, Tel. 0481 21 22 160, info@heide-stadtmarketing.de.",
+      "agent_batch_id": "sh-gesamt-2026-09"
+    },
+    {
+      "event_name": "Marktangelegenheiten / Jahrmarkt Eckernförde",
+      "candidate_url": "https://www.eckernfoerde.de/index.php?ModID=10&FID=296.34.1&object=tx,3457.2",
+      "reason": "Nur allgemeine Marktsatzungsregel gefunden (Antragsruecknahme mind. 1 Monat vor Marktbeginn), kein konkreter Jahrmarkt-Termin oder Bewerbungsfrist fuer Schausteller identifiziert; Stadt Eckernfoerde direkt kontaktieren.",
+      "agent_batch_id": "sh-gesamt-2026-09"
+    },
+    {
+      "event_name": "Bad Segeberger Markt (Wochen-/Jahrmarkt)",
+      "candidate_url": "https://www.bad-segeberg.de/fileadmin/Gemeinde/Dateien/Satzungen/J/1.2.5_Benutzungssatzung_f%C3%BCr_die_Wochen-_und_Jahrm%C3%A4rkte.pdf",
+      "reason": "Nur allgemeine Benutzungssatzung gefunden, kein konkretes Bewerbungsfrist-Datum. Ansprechpartner laut Rechercheergebnis Marktmeister Herr Stefan Strasser, Stadt Bad Segeberg direkt kontaktieren.",
+      "agent_batch_id": "sh-gesamt-2026-09"
+    },
+    {
+      "event_name": "Plöner Herbst-Jahrmarkt 2026",
+      "candidate_url": "https://www.ploen.de/PL%C3%96N-erleben/M%C3%A4rkte/Jahrmarkt/",
+      "reason": "Termin 2026 bekannt (31.10.-02.11., Schlossberg/Innenstadt), keine explizite Bewerbungsfrist auf der Seite genannt (Kreis Ploen nennt allgemein 8 Wochen vor Marktbeginn in der Satzung, aber kein staedtisches Datum bestaetigt). Kontakt Herr Daniel Jahns, daniel.jahns@ploen.de, Tel. 04522 505-714, Stadt Ploen, Schlossberg 3-4, 24306 Ploen.",
+      "agent_batch_id": "sh-gesamt-2026-09"
+    },
+    {
+      "event_name": "Bad Oldesloer Frühjahrsmarkt / Stadtfest",
+      "candidate_url": "https://www.badoldesloe.de/index.php?ModID=10&FID=2965.169.1&object=tx%7C2965.9151",
+      "reason": "Offizielle Seite zur Festsetzung von Messen/Ausstellungen/Maerkten vorhanden, aber kein konkretes Bewerbungsfrist-Datum fuer Schausteller gefunden. Stadt Bad Oldesloe, Muehlenplatz 1, 23843 Bad Oldesloe, Tel. 04531 17640, direkt kontaktieren.",
+      "agent_batch_id": "sh-gesamt-2026-09"
+    },
+    {
+      "event_name": "Blieskasteler Christkindlmarkt 2026",
+      "candidate_url": "https://www.blieskastel.de/maerkte",
+      "reason": "Termin 04.-06.12.2026 auf Paradeplatz/Altstadt bestätigt. Bewerbung laut Stadt ganzjährig möglich, kein festes Frist-Datum genannt. Kontakt: Sarah Jäckels, Stadt Blieskastel, Kulturamt, Luitpoldplatz 5, 66440 Blieskastel, Tel. 06842 926-1327, sarah.jaeckels@blieskastel.de.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Homburger Nikolausmarkt / Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.homburg.de/leben-in-homburg/veranstaltungsvielfalt/weihnachtsmarkte/",
+      "reason": "Markt auf dem Historischen Marktplatz, organisiert von der Homburger Kulturgesellschaft. Kein Bewerbungsfrist-Datum auf offizieller Seite gefunden. Kontakt: kultur@homburg.de.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Weihnerdsmarkt / Weihnachtsmarkt Völklingen 2026",
+      "candidate_url": "https://www.voelklingen.de/kultur-sport-freizeit/veranstaltungskalender/detail/weihnerdsmarkt-1-1-1",
+      "reason": "Klassischer städtischer Weihnachtsmarkt existiert laut Rechercheergebnissen seit 2013 nicht mehr; aktuelle Veranstaltung 'Weihnerdsmarkt' auf Stadtseite gelistet, aber keine Bewerbungsinformationen für Schausteller/Standbetreiber gefunden. Allgemeiner Kontakt über Stadt Völklingen nötig.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Merziger Weihnachtsmarkt am Stadthaus 2026",
+      "candidate_url": "https://www.merzig.de/was-erledige-ich-wo/weihnachtsmarkt/",
+      "reason": "Markt findet traditionell Ende November bis 24.12. statt. Kein Bewerbungsfrist-Datum gefunden. Kontakt: Ressort 20 – Wirtschaftsförderung, Soziales, Familie und Tourismus, Poststraße 12 (Kretzschmarhaus), 66663 Merzig, Tel. 06861/85-337; alternativ info@merziger-weihnachtsmarkt.de.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "St. Wendeler Märkte (Stadtfest / LebensArt / Wendelskirmes) 2026",
+      "candidate_url": "https://tourismus.sankt-wendel.de/maerkte/informationen-fuer-aussteller-und-bewerber/",
+      "reason": "Bewerbungsverfahren mit Auswahlkriterien (Attraktivität, Standoptik) beschrieben, aber kein konkretes Fristdatum gefunden. Kontakt: Kulturamt/Stadtmarketing, Schloßstraße 7, 66606 St. Wendel, Tel. (06851) 809-1809/1810, stadtmarketing@sankt-wendel.de.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Dillinger Märkte / Standplätze 2026",
+      "candidate_url": "https://www.dillingen-saar.de/aktuelles/vielfaeltige-regionale-produkte-der-dillinger-wochenmarkt-hat-tradition/",
+      "reason": "Kein eigener Schausteller-/Weihnachtsmarkt mit Bewerbungsfrist auf offizieller Stadtseite gefunden (nur Wochenmarkt-Informationen). Kontakt: Gewerbeamt Dillingen/Saar, Postfach 1780, 66750 Dillingen, gewerbeamt@dillingen-saar.de, Tel. 06831-709354.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Lebacher Mondscheinmarkt 2027",
+      "candidate_url": "https://www.lebach.de/kultur-und-bildung/veranstaltungen/bewerbungsformulare-fuer-standbetreiber",
+      "reason": "Termin 09.04.2027 bestätigt, Bewerbungsformulare als PDF verfügbar, aber kein Fristdatum auf der Seite gefunden. Kontakt: Kulturamt der Stadt Lebach, Am Markt 1, 66822 Lebach, Tel. (06881) 59-231, kulturamt@lebach.de.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "TheelFeschd Lebach 2027",
+      "candidate_url": "https://www.lebach.de/kultur-und-bildung/veranstaltungen/bewerbungsformulare-fuer-standbetreiber",
+      "reason": "Termin 25.-26.06.2027 bestätigt, kein Fristdatum gefunden. Kontakt: Kulturamt der Stadt Lebach, Am Markt 1, 66822 Lebach, Tel. (06881) 59-231, kulturamt@lebach.de.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Mädelsflohmarkt Lebach 2026",
+      "candidate_url": "https://www.lebach.de/kultur-und-bildung/veranstaltungen/bewerbungsformulare-fuer-standbetreiber",
+      "reason": "Termin 27.09.2026 bestätigt, kein Fristdatum gefunden; Termin liegt sehr nah an der Recherche (Stand 17.09.2026), Bewerbung könnte bereits geschlossen sein. Kontakt: Kulturamt der Stadt Lebach, kulturamt@lebach.de, Tel. (06881) 59-231.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Jahrmarkt Püttlingen 2026/2027",
+      "candidate_url": "https://www.puettlingen.de/rathaus-service/aktuell/veranstaltungen/detail/jahrmarkt-puettlingen",
+      "reason": "Auf offizieller Seite kein Termin für 2026/2027 und keine Bewerbungsinformationen für Schausteller gefunden (nur Angaben zu 2023). Kontakt: Stadtverwaltung Püttlingen, Rathausplatz 1, 66346 Püttlingen, Tel. (0 68 98) 6 91-0, stadtverwaltung@puettlingen.de.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Wadgasser Weihnachtsmarkt am Abteihof 2026",
+      "candidate_url": "https://www.wadgassen.de/veranstaltung",
+      "reason": "Markt findet traditionell am ersten Adventswochenende statt (2025: 28.-30.11.), 2026-Termin und Bewerbungsinformationen für Schausteller/Standbetreiber auf offizieller Seite nicht gefunden. Kontakt: Gemeinde Wadgassen, Lindenstraße 114, 66787 Wadgassen, Tel. (0 68 34) 9 44-0.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Schwalbacher Adventszauber 2026",
+      "candidate_url": "https://www.schwalbach-saar.de/buergerservice/was-erledige-ich-wo/item/weihnachtsmarkt",
+      "reason": "Markt findet am ersten Adventswochenende im Rathausgarten (Hauptstraße 92, 66773 Schwalbach) statt; konkrete Unterseite zu Bewerbungsinformationen für Standbetreiber bei Abruf nicht erreichbar (404). Kein Fristdatum bestätigt.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Nonnweiler 2026",
+      "candidate_url": "https://www.nonnweiler.de/aktuelles-veranstaltungen/veranstaltungskalender/detail/weihnachtsmarkt-nonnweiler-4/",
+      "reason": "Vorjahrestermin (01.12.2024) auf offizieller Gemeindeseite bekannt, 2026-Termin und Bewerbungsfrist für Standbetreiber/Vereine nicht bestätigt. Kontakt: Gemeinde Nonnweiler, Trierer Straße 5, 66620 Nonnweiler, Tel. 06873/660-0, rathaus@nonnweiler.de.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
+      "event_name": "Märkte / Veranstaltungen Losheim am See 2026",
+      "candidate_url": "https://www.losheim.de/rathaus-service/buergerdienstleistungszentrum/karriere",
+      "reason": "Keine offizielle Seite mit Bewerbungsinformationen für Schausteller/Standbetreiber gefunden; nur allgemeine Gemeindeseite verfügbar, keine spezifische Marktveranstaltung mit Bewerbungsverfahren identifiziert.",
+      "agent_batch_id": "sl-gesamt-2026-09"
+    },
+    {
       "event_name": "Zwickauer Herbstvolksfest 2026",
       "candidate_url": "https://www.volksfeste-zwickau.de/fuer-schausteller/",
       "reason": "Laufende Veranstaltung (25.09.-11.10.2026) mit laufender Nachmeldung wegen Absagen, kein festes Bewerbungsdatum genannt. Kontakt: ZSV e.V., Reichenbacher Str. 75c, 08056 Zwickau, zsv-zwickau@web.de, 01525 6826022.",
@@ -5463,6 +6639,156 @@
       "candidate_url": "https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/leipziger-weihnachtsmarkt/haendler",
       "reason": "Rund 300 Haendler auf einem der groessten Weihnachtsmaerkte Deutschlands. Die staedtische Haendlerseite enthaelt zum Pruefzeitpunkt keine Bewerbungsfrist und keine Kontaktdaten fuer Bewerbungen.",
       "agent_batch_id": "sn-rp-2027-deep-grossveranstaltungen"
+    },
+    {
+      "event_name": "Wernigeröder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.wernigerode-tourismus.de/fileadmin/Mediendatenbank/Wernigerode/pdf_dokumente/Weihnachtsmarktbewerbung/Anlage_1-Teilnahmebedingungen.pdf",
+      "reason": "Teilnahmebedingungen und Anmeldeformular fuer den Weihnachtsmarkt 2026 existieren auf der Seite der Wernigerode Tourismus GmbH; direkter PDF-Abruf lieferte 404, eine konkrete Bewerbungsfrist konnte daher nicht bestaetigt werden. Laut Marktsatzung entscheidet das Ordnungsamt Wernigerode ueber Marktzulassungen.",
+      "agent_batch_id": "st-gesamt-2026-09"
+    },
+    {
+      "event_name": "Aschersleber Weihnachtsmarkt 2026 (27.11.-20.12.2026)",
+      "candidate_url": "https://www.aschersleben-tourismus.de/Kunst-Kultur/Veranstaltungen/Aschersleber-Weihnachtsmarkt/",
+      "reason": "Online-Anmeldeformular fuer Haendler vorhanden, aber keine Bewerbungsfrist auf der Seite genannt. Kontakt: Aschersleber Kulturanstalt, Hecknerstrasse 6, 06449 Aschersleben, Tel. +49 3473 8409440, info@aschersleben-tourismus.de.",
+      "agent_batch_id": "st-gesamt-2026-09"
+    },
+    {
+      "event_name": "Merseburger Weihnachtszauber",
+      "candidate_url": "https://www.merseburg.de/de/weihnachtszauber.html",
+      "reason": "Veranstaltung auf offizieller Stadtseite bestaetigt, aber keine Bewerbungsinformationen fuer Schausteller/Haendler auf der Seite gefunden. Tourist-Information bzw. Stadtverwaltung Merseburg muesste direkt kontaktiert werden.",
+      "agent_batch_id": "st-gesamt-2026-09"
+    },
+    {
+      "event_name": "Weißenfelser Weihnachtsmarkt",
+      "candidate_url": "https://weissenfels.de/index.php?object=tx,3678.5.1&ModID=7&FID=3720.986.1",
+      "reason": "Veranstaltungstermin bekannt (zuletzt 27.11.-21.12.2025), keine Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden. Kontakt: Presse- und Oeffentlichkeitsarbeit Stadt Weissenfels, Markt 1, 06667 Weissenfels, Tel. +49 3443 370232, pressestelle@weissenfels.de.",
+      "agent_batch_id": "st-gesamt-2026-09"
+    },
+    {
+      "event_name": "Bernburger Stadtfeste und Maerkte (u.a. Heele-Christ-Markt)",
+      "candidate_url": "https://www.bernburg.de/de/stadtfeste-und-maerkte.html",
+      "reason": "Mehrere staedtische Maerkte/Feste (Heele-Christ-Markt, Mittelaltermarkt, Stadt- und Rosenfest, Klosterfest, Weinmarkt, Historisches Erntefest) auf Sammelseite gelistet, aber keine Bewerbungsinformationen fuer Schausteller gefunden. Kontakt: Stadtverwaltung Bernburg (Saale), Schlossgartenstrasse 16, 06406 Bernburg, Tel. 03471 659-0, stadt@bernburg.de.",
+      "agent_batch_id": "st-gesamt-2026-09"
+    },
+    {
+      "event_name": "Wittenberger Weihnachtsmarkt",
+      "candidate_url": "https://www.wittenberg.de/",
+      "reason": "Offizielle Unterseite mit Bewerbungsinformationen fuer Schausteller wurde nicht gefunden (verlinktes PDF und vermutete Unterseite lieferten 404). Kontakt laut Tourismusseite: Tourist-Information Lutherstadt Wittenberg, info@lutherstadt-wittenberg.de.",
+      "agent_batch_id": "st-gesamt-2026-09"
+    },
+    {
+      "event_name": "Marktwesen / Sondernutzung Köthen (Anhalt)",
+      "candidate_url": "https://www.koethen-anhalt.de/de/stadtverwaltung/organisationseinheit/19/ordnungs-_und_gewerbeabteilung_322.html",
+      "reason": "Zustaendige Abteilung fuer Marktwesen (Ordnungs- und Gewerbeabteilung) identifiziert, aber keine konkrete Marktveranstaltung mit Bewerbungsfrist fuer Schausteller gefunden.",
+      "agent_batch_id": "st-gesamt-2026-09"
+    },
+    {
+      "event_name": "Zeitzer Adventsmarkt",
+      "candidate_url": "https://www.zeitz.de/",
+      "reason": "Veranstaltung ueber Drittseiten bekannt (Altmarkt Zeitz), auf der offiziellen Stadtseite wurden keine Bewerbungsinformationen fuer Schausteller gefunden.",
+      "agent_batch_id": "st-gesamt-2026-09"
+    },
+    {
+      "event_name": "Maerkte/Feste Sangerhausen (u.a. Kobermaennchenfest)",
+      "candidate_url": "https://sangerhausen.de/",
+      "reason": "Keine offizielle Seite mit Bewerbungsinformationen fuer Schausteller gefunden. Kontakt: Stadtverwaltung Sangerhausen, Markt 7a, 06526 Sangerhausen, Tel. 03464/5650.",
+      "agent_batch_id": "st-gesamt-2026-09"
+    },
+    {
+      "event_name": "Maerkte/Volksfeste Schönebeck (Elbe)",
+      "candidate_url": "https://www.schoenebeck.de/de/dezernate-aemter.html",
+      "reason": "Keine dedizierte Markt-/Ordnungsamt-Seite mit Bewerbungsinformationen fuer Schausteller gefunden. Allgemeiner Kontakt: Stadtverwaltung Schoenebeck (Elbe), Markt 1, 39218 Schoenebeck (Elbe), Tel. 03928 710-101.",
+      "agent_batch_id": "st-gesamt-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Altstadtfest Salzwedel",
+      "candidate_url": "https://www.salzwedel.de/",
+      "reason": "Weihnachtsmarkt im Freizeit-Menue der Stadtseite erwaehnt, aber keine Bewerbungsinformationen fuer Schausteller gefunden. Kontakt: Hansestadt Salzwedel, An der Muenchskirche 5, 29410 Salzwedel, Tel. +49 3901 650, rathaus@salzwedel.de.",
+      "agent_batch_id": "st-gesamt-2026-09"
+    },
+    {
+      "event_name": "Berliner Weihnachtszeit am Roten Rathaus 2027",
+      "candidate_url": "https://www.berlinerweihnachtszeit.de/anmeldung/",
+      "reason": "Privater Veranstalter Laubinger Event GmbH; Seite bestaetigt: 'Die Berliner Weihnachtszeit 2026 ist bereits komplett mit unseren Teilnehmern gefuellt' und 'Anmeldeformular 2027 in Arbeit' - noch keine Bewerbungsfrist fuer 2027 veroeffentlicht. Kontakt: info@laubinger.de, Tel. 033439-143490, Feuerbachstrasse 11b, 15370 Fredersdorf.",
+      "agent_batch_id": "stadtstaaten-rest-2026-09"
+    },
+    {
+      "event_name": "WeihnachtsZauber Gendarmenmarkt 2027",
+      "candidate_url": "https://www.weihnachtsmarkt-berlin.de/en/",
+      "reason": "Privater Veranstalter WeihnachtsZauber Gendarmenmarkt GmbH, Chausseestr. 28, 10115 Berlin; laut Presseberichten werden ca. 90% der Ausstellervertraege im ersten Quartal des Vorjahres geschlossen, aber kein festes Bewerbungsfristdatum auf der offiziellen Seite gefunden. Kontakt: abitz@weihnachtsmarkt-berlin.de.",
+      "agent_batch_id": "stadtstaaten-rest-2026-09"
+    },
+    {
+      "event_name": "Weihnachtlicher Gaensemarkt und St. Petri Weihnachtsmarkt Hamburg 2026",
+      "candidate_url": "https://www.weihnachtsmaerkte-hamburg.de/standvermietung/",
+      "reason": "Privater Betreiber ZERBE Hamburger Weihnachtsmarktbetriebe GmbH, Ausschlaeger Allee 20, 20539 Hamburg, info@hwb-zerbe.de; Bewerbungsformular (PDF) zum Download vorhanden, aber kein Fristdatum im Text der Seite gefunden.",
+      "agent_batch_id": "stadtstaaten-rest-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Bremerhaven 2026",
+      "candidate_url": "https://www.bremerhaven-erleben.de/weihnachtsmarkt",
+      "reason": "Veranstalter Erlebnis Bremerhaven GmbH, H.-H.-Meier-Strasse 6, 27568 Bremerhaven, touristik@erlebnis-bremerhaven.de, Tel. 0471 80936100; Termin 23.11.-30.12.2026 bekannt, aber keine Aussteller-/Schausteller-Bewerbungsseite mit Frist gefunden.",
+      "agent_batch_id": "stadtstaaten-rest-2026-09"
+    },
+    {
+      "event_name": "Arnstädter Weihnachtsmarkt 2026 (Advent unter Turm)",
+      "candidate_url": "https://www.arnstadt.de/veranstaltungen/bewerbung",
+      "reason": "Offizielle Veranstaltungsbewerbung der Stadt Arnstadt mit PDF-Formular ('Bewerbung_Veranstaltungen_Maerkte_26.pdf') fuer Haendler/Schausteller/Gastronomen; keine explizite Bewerbungsfrist auf der Seite genannt. Kontakt: Marktmeister Carsten Roemhildt (03628 745756) / Thomas Zeisse (03628 745719), markt@stadtverwaltung.arnstadt.de, Markt 1, 99310 Arnstadt.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "Geraer Märchenmarkt (Weihnachtsmarkt) 2026",
+      "candidate_url": "https://www.gera.de/maerkte-und-feste/maerkte-sondermaerkte/haendlerinformation",
+      "reason": "Antragsformular 'Antrag Zulassungserlaubnis Maerchenmarkt 2026' online verfuegbar, aber keine Bewerbungsfrist auf der Seite genannt. Kontakt: Marktmeister Marko Schwaberau, marktmeister@gera.de, 0175 7285981, Schlossstrasse 1, 07545 Gera.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "Mühlhäuser Weihnachtsmarkt 2026 / Mühlhäuser Stadtkirmes 2026",
+      "candidate_url": "https://www.muehlhausen.de/rathaus-erkunden/stadtverwaltung/kultur-sport-ehrenamt-klimaschutz/marktwesen/",
+      "reason": "Bewerbungsformular 'Bewerbung Maerkte Stadt Muehlhausen' fuer mehrere Maerkte (u.a. Weihnachtsmarkt 09.-13.12.2026, Kirmesmarkt 28.08.2026) vorhanden, aber keine Bewerbungsfrist genannt. Kontakt: Referat 2 Kultur/Sport/Ehrenamt/Klimaschutz, Melanie Dennstedt, 03601 452298, Postfach 1243, 99962 Muehlhausen/Thueringen.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "Sühler Chrisamelmart (Weihnachtsmarkt Suhl) 2026",
+      "candidate_url": "https://www.suhl.eu/maerkte-feste",
+      "reason": "Antragsformulare ('Antrag auf Standzuweisung', Marktsatzung, Marktgebuehrensatzung) vorhanden, aber keine Bewerbungsfrist fuer den Suehler Chrisamelmart genannt. Kontakt: Stadtverwaltung Suhl, Marktplatz 1, 98527 Suhl, poststelle@stadtsuhl.de, 03681 74-0.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "Eisenacher Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.eisenach.de/service/pressemitteilungen/pressemitteilung-im-detail/gute-zukunftsaussichten-fuer-den-eisenacher-weihnachtsmarkt/",
+      "reason": "Weihnachtsmarkt wird seit Ende 2024 von privatem Betreiber (Familie Hofmann-Jehn, 5-Jahres-Vertrag) organisiert; keine Bewerbungsfrist oder oeffentliche Ansprechperson fuer Schausteller auf offizieller Stadtseite gefunden.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "Gothaer Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.gothaer-weihnachtsmarkt.de/staende",
+      "reason": "Wird von der KulTourStadt Gotha GmbH organisiert (Hauptmarkt 17, 99867 Gotha, Tel. 03621 510-430); Staende-/Haendlerseite vorhanden, aber keine Bewerbungsfrist genannt.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "Meininger Weihnachtszauber 2026",
+      "candidate_url": "https://meiningen.de/meininger-innenstadt/maerkte-und-sondermaerkte",
+      "reason": "Termin 2026 bekannt (23.11.-21.12.2026), aber keine Bewerbungsfrist auf offizieller Seite gefunden. Ansprechstelle: Tourist-Information Meiningen, Ernestinerstrasse 2, 98617 Meiningen, 03693 4465-0.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "Saalfelder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.saalfeld.de/leben_in_saalfeld/kultur_freizeit/maerkte/weihnachtsmarkt/",
+      "reason": "Keine Bewerbungsfrist fuer 2026 auf offizieller Stadtseite veroeffentlicht (nur Termin 2025 gelistet). Ansprechpartner: Thomas Schilling, Stadtverwaltung Saalfeld, Tel. 03671 3595916.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "27. Apoldaer Lichterfest 2026",
+      "candidate_url": "https://www.apolda.de/tourismus-kultur/veranstaltungen-kultur/maerkte-stadtfeste/lichterfest/antrag-zum-lichterfest-in-apolda",
+      "reason": "Termin 2026 bekannt (27.-29.11.2026), Online-Antragsformular mit Standgebuehrenstaffel (2,50-15,00 EUR je laufender Meter) vorhanden, aber keine Bewerbungsfrist genannt. Kontakt: Stadtverwaltung Apolda, Markt 1, 99510 Apolda, 03644 6500 / Tourist-Information 03644 650100.",
+      "agent_batch_id": "th-gesamt-2026-09"
+    },
+    {
+      "event_name": "Sömmerdaer Kunstweihnachtsmarkt 2026",
+      "candidate_url": "https://www.soemmerda.de/tourismus-kultur/veranstaltungen/einzelansicht/18-kunstweihnachtsmarkt",
+      "reason": "Wird von der Stadt- und Kreisbibliothek Soemmerda mit Kunsthandwerkern im Dreyse-Haus ausgerichtet, kein klassischer Schausteller-/Kirmes-Markt; keine Bewerbungsfrist oder Schausteller-spezifische Ausschreibung gefunden.",
+      "agent_batch_id": "th-gesamt-2026-09"
     }
   ]
 }
