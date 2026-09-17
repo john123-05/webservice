@@ -1,0 +1,51 @@
+{
+  "batch_id": "nachfasswelle-einfach-2026-09",
+  "region_scope": [
+    "Deutschland"
+  ],
+  "search_terms": [
+    "Nachfass aus review_candidates vorheriger Wellen"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-17",
+  "entries": [
+    {
+      "id": "nikolausmarkt-2026-heppenheim",
+      "event_name": "Nikolausmarkt Heppenheim",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Heppenheim",
+      "state": "Hessen",
+      "country": "DE",
+      "venue_or_area": "Innenstadt Heppenheim",
+      "application_deadline_iso": "2026-10-15",
+      "application_deadline_text": "Bewerbungszeitraum für einen Standplatz: 01. bis 15. Oktober 2026",
+      "event_date_range_text": "05.-06.12.2026",
+      "application_mode": "Bewerbung direkt bei der Stadt Heppenheim (Kontakt/Formular über Veranstaltungsseite)",
+      "postal_address": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "source_url": "https://www.heppenheim.de/heppenheim-erleben/kultur-events/staedtische-veranstaltungen/",
+      "source_domain": "heppenheim.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-17",
+      "agent_batch_id": "nachfasswelle-einfach-2026-09",
+      "confidence_status": "partial",
+      "notes": "Bewerbungszeitraum (01.-15.10.2026) explizit auf offizieller Städte-Veranstaltungsseite genannt; kein separates Anmeldeformular verlinkt."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Neu-Ulm / Ulmer Volksfest (VMV GmbH)",
+      "candidate_url": "https://vmvgmbh.com/",
+      "reason": "Bewerbungsschluss auf Seite war 07.11.2024 - veraltet/abgelaufen, keine aktuelle Frist für 2026/2027 sichtbar"
+    },
+    {
+      "event_name": "Schaustelleranmeldung Neuruppin (Martinimarkt)",
+      "candidate_url": "https://stadtmarketing-neuruppin.de/schaustelleranmeldung/",
+      "reason": "Seite nennt nur Fristen für 2025 (15.01.2025) und 2026 (15.01.2026, bereits abgelaufen); keine 2027-Frist veröffentlicht"
+    }
+  ],
+  "review_candidates": []
+}
