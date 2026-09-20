@@ -1326,11 +1326,25 @@ const initSchaustellerDeadlinePage = async () => {
       if (backdrop) backdrop.hidden = !large;
       if (largeBtn) largeBtn.textContent = large ? 'Verkleinern' : 'Großansicht';
     };
-    const open = () => {
-      if (helpBtn) helpBtn.hidden = true;
+    // Schneller Start: Verbindung zu Loom vorwaermen und den Player schon im Hintergrund laden,
+    // waehrend die Karte noch nicht sichtbar ist.
+    const loadPlayer = () => {
       if (stage && !stage.firstElementChild) {
         stage.innerHTML = `<iframe src="https://www.loom.com/embed/${LOOM_ID}?hide_owner=true&hide_share=true&hideEmbedTopBar=true" title="Fristenkalender kurz erklärt" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
       }
+    };
+    const warmUp = () => {
+      ['https://www.loom.com', 'https://cdn.loom.com'].forEach((href) => {
+        const link = document.createElement('link');
+        link.rel = 'preconnect';
+        link.href = href;
+        link.crossOrigin = '';
+        document.head.appendChild(link);
+      });
+    };
+    const open = () => {
+      if (helpBtn) helpBtn.hidden = true;
+      loadPlayer();
       box.hidden = false;
       window.requestAnimationFrame(() => box.classList.add('is-visible'));
     };
@@ -1356,6 +1370,8 @@ const initSchaustellerDeadlinePage = async () => {
     if (dismissed) {
       if (helpBtn) helpBtn.hidden = false;
     } else {
+      warmUp();
+      window.setTimeout(loadPlayer, 300);
       window.setTimeout(open, 2500);
     }
   };

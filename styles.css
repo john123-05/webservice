@@ -6797,7 +6797,7 @@ h2 {
 
 .fk-menu summary::-webkit-details-marker { display: none; }
 
-.fk-menu summary span {
+.fk-menu-arrow {
   width: 6px;
   height: 6px;
   margin-top: -2px;
@@ -6806,7 +6806,14 @@ h2 {
   transform: rotate(45deg);
 }
 
-.fk-menu[open] summary span { transform: rotate(225deg); margin-top: 3px; }
+.fk-menu[open] .fk-menu-arrow { transform: rotate(225deg); margin-top: 3px; }
+
+.fk-menu-prefix { font-style: normal; }
+
+@media (max-width: 720px) {
+  .fk-menu-prefix { display: none; }
+  .fk-menu summary { white-space: nowrap; }
+}
 
 .fk-menu-list {
   list-style: none;
