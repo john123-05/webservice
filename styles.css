@@ -2254,8 +2254,6 @@ figure {
 }
 
 .hero-new-customers {
-  font-size: 0.88em;
-  letter-spacing: -0.07em;
   white-space: nowrap;
 }
 
@@ -6761,6 +6759,47 @@ h2 {
   }
 }
 
+/* Zwei Dinge (Startseite) */
+.two-things-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: 48px;
+  align-items: center;
+}
+
+.two-things-title {
+  color: #000;
+  font-size: clamp(1.8rem, 3.4vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.two-things-accent {
+  color: #145af3;
+}
+
+.two-things-right { min-width: 0; }
+
+.two-things-cta {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.two-things-media {
+  min-width: 0;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+@media (max-width: 860px) {
+  .two-things-layout {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
+
 /* Navbar der Fristenkalender-Seite */
 .fk .lc-header-inner { justify-content: flex-start; }
 .fk .lc-header .brand-logo { height: 42px; width: auto; transform: none; }
@@ -7096,4 +7135,78 @@ body:has(.ir-banner) .nav { top: 40px; }
   .ir-banner { font-size: 0.85rem; padding: 0 40px 0 12px; }
   .ir-banner-long { display: none; }
   .ir-banner-short { display: inline; }
+}
+
+/* Blog-Teaser (wie auf der Schausteller-Seite) */
+.blog-teaser-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.blog-teaser-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid #dce6f0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.blog-teaser-card:hover {
+  box-shadow: 0 12px 32px rgba(20, 90, 243, 0.12);
+  transform: translateY(-3px);
+}
+
+.blog-teaser-card figure { margin: 0; position: relative; }
+
+.blog-teaser-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1456 / 819;
+  object-fit: cover;
+}
+
+.blog-teaser-card figcaption {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  background: rgba(14, 34, 56, 0.78);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 999px;
+}
+
+.blog-teaser-card h3 {
+  margin: 0;
+  padding: 18px 20px 22px;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: #0e2238;
+}
+
+.blog-hero { margin: 0 0 28px; }
+
+.blog-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 16px 38px rgba(14, 34, 56, 0.14);
+}
+
+.blog-hero figcaption {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #1a1a1a;
 }

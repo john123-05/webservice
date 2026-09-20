@@ -14,6 +14,8 @@ export default defineConfig({
         blogGoogleSichtbarkeit: resolve(__dirname, 'blog/google-sichtbarkeit-unternehmen/index.html'),
         blogWebsiteFehler: resolve(__dirname, 'blog/website-fehler-kunden-verlust/index.html'),
         blogModerneWebsite: resolve(__dirname, 'blog/moderne-website-vertrauen/index.html'),
+        blogGoogleRanking: resolve(__dirname, 'blog/einfacher-weg-bei-google-hoeher-zu-ranken/index.html'),
+        blogStarkeMarkeOwl: resolve(__dirname, 'blog/wie-bauen-unternehmer-in-owl-eine-starke-marke-auf/index.html'),
       },
     },
   },
