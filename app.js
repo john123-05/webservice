@@ -1309,9 +1309,63 @@ const initSchaustellerDeadlinePage = async () => {
     const menu = document.querySelector('.fk-menu');
     if (menu?.open && !menu.contains(event.target)) menu.open = false;
   });
+  // Erklaervideo (Loom): Desktop unten rechts, mobil als Karte unten; nur freigeschaltet. Das Video wird erst
+  // erst beim Einblenden geladen, nicht schon beim Seitenaufruf.
+  const LOOM_ID = '633a67fe44644dc58e3949fb6c26f9e8';
+  const VIDEO_DISMISSED_KEY = 'fk-video-dismissed';
+  const initExplainerVideo = () => {
+    const box = document.getElementById('fk-video');
+    const backdrop = document.querySelector('[data-fk-video-backdrop]');
+    const helpBtn = document.querySelector('[data-fk-video-help]');
+    if (!box) return;
+
+    const stage = box.querySelector('[data-fk-video-stage]');
+    const largeBtn = box.querySelector('[data-fk-video-large]');
+    const setLarge = (large) => {
+      box.classList.toggle('is-large', large);
+      if (backdrop) backdrop.hidden = !large;
+      if (largeBtn) largeBtn.textContent = large ? 'Verkleinern' : 'Großansicht';
+    };
+    const open = () => {
+      if (helpBtn) helpBtn.hidden = true;
+      if (stage && !stage.firstElementChild) {
+        stage.innerHTML = `<iframe src="https://www.loom.com/embed/${LOOM_ID}?hide_owner=true&hide_share=true&hideEmbedTopBar=true" title="Fristenkalender kurz erklärt" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
+      }
+      box.hidden = false;
+      window.requestAnimationFrame(() => box.classList.add('is-visible'));
+    };
+    const close = () => {
+      setLarge(false);
+      box.classList.remove('is-visible');
+      box.hidden = true;
+      if (stage) stage.innerHTML = '';
+      if (helpBtn) helpBtn.hidden = false;
+      try { localStorage.setItem(VIDEO_DISMISSED_KEY, 'true'); } catch (_) {}
+    };
+
+    box.querySelector('[data-fk-video-close]')?.addEventListener('click', close);
+    helpBtn?.addEventListener('click', open);
+    backdrop?.addEventListener('click', () => setLarge(false));
+    largeBtn?.addEventListener('click', () => setLarge(!box.classList.contains('is-large')));
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && box.classList.contains('is-large')) setLarge(false);
+    });
+
+    let dismissed = false;
+    try { dismissed = localStorage.getItem(VIDEO_DISMISSED_KEY) === 'true'; } catch (_) {}
+    if (dismissed) {
+      if (helpBtn) helpBtn.hidden = false;
+    } else {
+      window.setTimeout(open, 2500);
+    }
+  };
+
   try {
     const isConfirmLink = new URLSearchParams(window.location.search).get('doi') === 'confirmed';
-    if (isConfirmLink || localStorage.getItem(storageKey) === 'true') applyUnlockedChrome();
+    if (isConfirmLink || localStorage.getItem(storageKey) === 'true') {
+      applyUnlockedChrome();
+      initExplainerVideo();
+    }
   } catch (_) {}
 
   const listEl = document.getElementById('fk-list');

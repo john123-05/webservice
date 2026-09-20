@@ -6863,3 +6863,185 @@ h2 {
   .fk--unlocked .fk-board { padding-top: 76px; }
   .fk--unlocked .fk-scroll { max-height: calc(100vh - 150px); }
 }
+
+/* Erklaervideo-Popup (nur freigeschaltet): Mobil als Karte unten, Desktop unten rechts */
+.fk-video, .fk-video-backdrop, .fk-video-help { display: none; }
+
+.fk-video:not([hidden]) {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: 78px;
+  padding: 14px 14px 12px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 18px 50px rgba(14, 34, 56, 0.3);
+  z-index: 60;
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.fk-video.is-visible { opacity: 1; transform: none; }
+
+.fk-video-close {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 56px;
+  height: 56px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #28425f;
+  font-size: 3.4rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.fk-video-close:hover { background: #eef4ff; }
+
+.fk-video-kicker {
+  margin: 0 0 2px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.fk-video-title {
+  margin: 0 0 10px;
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.fk-video-stage {
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #0e2238;
+}
+
+.fk-video-stage iframe { width: 100%; height: 100%; border: 0; }
+
+.fk-video-large { display: none; }
+
+/* WhatsApp-Kontakt neben dem X, nur mobil */
+/* Mobil: zwei Textzeilen links, Kontakt-Button senkrecht mittig dazu und waagerecht mittig zwischen Text und X */
+.fk-video-head {
+  display: flex;
+  align-items: center;
+  padding-right: 36px;
+  margin: 0 0 10px;
+}
+
+.fk-video-text { flex: 0 1 auto; min-width: 0; }
+.fk-video-kicker { margin: 0 0 2px; }
+.fk-video-title { margin: 0; }
+
+.fk-video-mid {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 0 8px;
+}
+
+.fk-video-wa {
+  flex: none;
+  height: 42px;
+  padding: 0 18px;
+  font-size: 1rem;
+  gap: 8px;
+  border-radius: 11px;
+  background: linear-gradient(135deg, #0b3d24 0%, #128c4a 48%, #34d399 100%);
+  border: 1px solid rgba(6, 41, 24, 0.35);
+  box-shadow: 0 6px 16px rgba(11, 61, 36, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+}
+
+.fk-video-wa:hover {
+  background: linear-gradient(135deg, #0f4a2c 0%, #159f56 48%, #4ade80 100%);
+}
+
+.fk-video-wa svg { width: 21px; height: 21px; }
+
+.fk-video-help:not([hidden]) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 16px;
+  bottom: 86px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  font: inherit;
+  font-size: 1.3rem;
+  font-weight: 700;
+  box-shadow: 0 8px 24px rgba(14, 34, 56, 0.3);
+  cursor: pointer;
+  z-index: 60;
+}
+
+@media (min-width: 900px) {
+  .fk-video:not([hidden]) {
+    display: block;
+    left: auto;
+    right: 24px;
+    bottom: 96px;
+    width: clamp(440px, 34vw, 580px);
+    padding: 20px 20px 16px;
+  }
+
+  .fk-video.is-large {
+    width: min(960px, calc(100vw - 96px));
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    z-index: 71;
+  }
+
+  .fk-video-backdrop:not([hidden]) {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(14, 34, 56, 0.55);
+    z-index: 70;
+  }
+
+  .fk-video-close { top: 8px; right: 10px; width: 30px; height: 30px; font-size: 1.5rem; }
+  .fk-video-head { display: block; padding-right: 30px; margin: 0 0 12px; }
+  .fk-video-kicker { font-size: 0.74rem; }
+  .fk-video-mid { display: none; }
+  .fk-video-title { font-size: 1.05rem; }
+
+  .fk-video-large {
+    display: block;
+    margin: 10px 0 0 auto;
+    padding: 4px 2px;
+    border: 0;
+    background: transparent;
+    color: var(--primary);
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .fk-video-help:not([hidden]) {
+    right: 24px;
+    bottom: 96px;
+    width: 46px;
+    height: 46px;
+    font-size: 1.35rem;
+    transition: transform 0.2s ease;
+  }
+
+  .fk-video-help:hover { transform: scale(1.08); }
+}
