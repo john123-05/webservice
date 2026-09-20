@@ -6774,6 +6774,10 @@ h2 {
 
 .fk-menu { position: relative; }
 
+/* Ohne Freischaltung keine Ablenkung: Lösungen-Menü und Frage nur im freigeschalteten Zustand */
+.fk:not(.fk--unlocked) .fk-menu,
+.fk:not(.fk--unlocked) .fk-help-text { display: none; }
+
 .fk-menu summary:hover { background: #e8f0ff; }
 
 
