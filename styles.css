@@ -2254,6 +2254,8 @@ figure {
 }
 
 .hero-new-customers {
+  font-size: 0.88em;
+  letter-spacing: -0.07em;
   white-space: nowrap;
 }
 
@@ -6756,40 +6758,6 @@ h2 {
     padding: 2px 0 8px;
     opacity: 1;
     transform: none;
-  }
-}
-
-/* Zwei Dinge (Startseite) */
-.two-things-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
-  gap: 48px;
-  align-items: center;
-}
-
-.two-things-title {
-  color: #000;
-  font-size: clamp(1.8rem, 3.4vw, 2.8rem);
-  font-weight: 800;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-  margin: 0;
-}
-
-.two-things-accent {
-  color: #145af3;
-}
-
-.two-things-media {
-  min-width: 0;
-  border-radius: 16px;
-  overflow: hidden;
-}
-
-@media (max-width: 860px) {
-  .two-things-layout {
-    grid-template-columns: 1fr;
-    gap: 28px;
   }
 }
 
