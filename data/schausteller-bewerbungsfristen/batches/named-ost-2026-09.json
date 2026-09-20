@@ -1,0 +1,287 @@
+{
+  "batch_id": "named-ost-2026-09",
+  "region_scope": [
+    "Sachsen",
+    "Sachsen-Anhalt",
+    "Thüringen",
+    "Namensbasierte Recherche"
+  ],
+  "search_terms": [
+    "<Eventname> Bewerbung Schausteller Beschicker Frist",
+    "Weihnachtsmarkt 2026 Sachsen Thüringen Sachsen-Anhalt Bewerbung Frist",
+    "Stadtfest Volksfest 2027 Sachsen Thüringen Bewerbung Schausteller"
+  ],
+  "max_expected_results": 50,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-19",
+  "entries": [
+    {
+      "id": "werdau-weihnachtsmarkt-2026",
+      "event_name": "Werdauer Weihnachtsmarkt 2026",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Werdau",
+      "state": "Sachsen",
+      "country": "DE",
+      "venue_or_area": "Marktplatz Werdau",
+      "application_deadline_iso": "2026-10-16",
+      "application_deadline_text": "Schriftliche Bewerbung erforderlich; Abgabetermin spätestens 8 Wochen vor Beginn des Weihnachtsmarktes (auf der Seite mit 16.10.2026 angegeben)",
+      "event_date_range_text": "10.-13.12.2026, täglich 11-20 Uhr (Aufbau ab 08.12.)",
+      "application_mode": "Schriftlich mit Formular Händlerbewerbung (Download auf der Stadtseite)",
+      "postal_address": "Stadtverwaltung Werdau, Fachdienst Märkte, Markt 10-18, 08412 Werdau",
+      "contact_name": "Frau Arnold (Marktmeisterin)",
+      "contact_email": "3.22arnold@werdau.de",
+      "contact_phone": "03761 594295",
+      "source_url": "https://werdau.de/de/22,6.html?single_con=6600%2C6",
+      "source_domain": "werdau.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-ost-2026-09",
+      "confidence_status": "verified",
+      "notes": "Datum 16.10.2026 wörtlich auf der Stadtseite in Klammern genannt. Hinweis: 8 Wochen vor dem 10.12.2026 wären rechnerisch der 15.10.2026; maßgeblich ist die genannte Angabe, im Zweifel früher einreichen. Standgebühr Weihnachtsmarkt 3,10 Euro/Tag laut Marktgebührensatzung."
+    },
+    {
+      "id": "weimarer-weihnacht-2026-wechselhuette",
+      "event_name": "Weimarer Weihnacht 2026 - Wechselhütte (Einzelhändler)",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Weimar",
+      "state": "Thüringen",
+      "country": "DE",
+      "venue_or_area": "Theaterplatz, Marktplatz, Frauenplan, Schillerstraße, Herderplatz",
+      "application_deadline_iso": "2026-09-30",
+      "application_deadline_text": "Für die Wechselhütte können sich einzelne Händler für einen oder mehrere Tage bis zum 30.09.2026 anmelden; Bewerbung über das Thavel-Formular",
+      "event_date_range_text": "29.11.2026-03.01.2027 (Theaterplatz/Marktplatz); 29.11.-29.12.2026 (übrige Flächen)",
+      "application_mode": "Thavel-Online-Formular (Teilnahmeantrag Wechselhütte)",
+      "postal_address": "Stadtverwaltung Weimar, Bereich Märkte, Markt 1, 99423 Weimar",
+      "contact_name": "Marktmeisterin A. Heßler / Sachbearbeiterinnen Märkte",
+      "contact_email": "maerkte@stadtweimar.de",
+      "contact_phone": "03643 762-482 / -483 / -485",
+      "source_url": "https://stadt.weimar.de/de/haendlerinformationen-weihnachtsmarkt.html",
+      "source_domain": "stadt.weimar.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-ost-2026-09",
+      "confidence_status": "verified",
+      "notes": "Nur die Wechselhütte (Tagesplätze) hat die Frist 30.09.2026; für reguläre Stände nennt die Seite allgemein 'spätestens 30. April'. Die Vereinshütte (nur eingetragene Vereine) hat dieselbe Frist und ist hier nicht gemeint. Ein früherer Log-Eintrag mit Frist 30.04.2026 bezog sich auf die regulären Stände."
+    },
+    {
+      "id": "weimarer-weihnacht-2027",
+      "event_name": "Weimarer Weihnacht 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Weimar",
+      "state": "Thüringen",
+      "country": "DE",
+      "venue_or_area": "Theaterplatz, Marktplatz, Frauenplan, Schillerstraße, Herderplatz",
+      "application_deadline_iso": "2027-04-30",
+      "application_deadline_text": "Bewerbungen frühestmöglich, spätestens bis zum 30. April (Jahresangabe fehlt; hier für 2027 abgeleitet)",
+      "event_date_range_text": "Ende November 2027 bis Anfang Januar 2028 (Termin 2027 noch nicht veröffentlicht)",
+      "application_mode": "Online über Standplatzgenehmigung (Thavel) bzw. E-Mail an den Bereich Märkte mit Bewerbungsfoto",
+      "postal_address": "Stadtverwaltung Weimar, Bereich Märkte, Markt 1, 99423 Weimar",
+      "contact_name": "Marktmeisterin A. Heßler / Sachbearbeiterinnen Märkte",
+      "contact_email": "maerkte@stadtweimar.de",
+      "contact_phone": "03643 762-482 / -483 / -485",
+      "source_url": "https://stadt.weimar.de/de/haendlerinformationen-weihnachtsmarkt.html",
+      "source_domain": "stadt.weimar.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-ost-2026-09",
+      "confidence_status": "partial",
+      "notes": "Abgeleitet (Dauerregel): Die Seite nennt 'spätestens bis zum 30. April' ohne Jahr; für den Jahrgang 2027 als 30.04.2027 angesetzt. Ausschreibung 2027 noch nicht veröffentlicht, Termine 2027 unbekannt."
+    },
+    {
+      "id": "dresdner-striezelmarkt-2026-newcomer",
+      "event_name": "Dresdner Striezelmarkt 2026 - Newcomer-Hütte",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Dresden",
+      "state": "Sachsen",
+      "country": "DE",
+      "venue_or_area": "Altmarkt Dresden (Striezelmarkt)",
+      "application_deadline_iso": "2026-10-11",
+      "application_deadline_text": "Bewerbungen sind bis einschließlich 11. Oktober 2026 möglich",
+      "event_date_range_text": "Dresdner Striezelmarkt 2026 (genauer Zeitraum auf der Ausschreibungsseite nicht genannt)",
+      "application_mode": "Online-Bewerbung über die Ausschreibungsseite der Stadt (Link 'Hier geht es zur Bewerbung')",
+      "postal_address": "Landeshauptstadt Dresden, Spezialmärkte (Adresse auf der Ausschreibungsseite nicht angegeben)",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "source_url": "https://www.dresden.de/de/leben/sport-und-freizeit/maerkte/ausschreibungen-maerkte.php",
+      "source_domain": "dresden.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-ost-2026-09",
+      "confidence_status": "partial",
+      "notes": "Nur für Newcomer/Nachwuchshändler (kostenfreier Standplatz in eigener Markthütte); die regulären 216 Standplätze waren bis 07.05.2026 ausgeschrieben (abgelaufen). Seite zuletzt geändert 06.08.2026. Kontakt und Adresse fehlen auf der Seite."
+    },
+    {
+      "id": "freiberger-bergstadtfest-2027",
+      "event_name": "Freiberger Bergstadtfest 2027",
+      "event_type": "Stadtfest",
+      "city": "Freiberg",
+      "state": "Sachsen",
+      "country": "DE",
+      "venue_or_area": "Innenstadt Freiberg",
+      "application_deadline_iso": "2027-03-30",
+      "application_deadline_text": "Bewerbung als Händler bzw. Schausteller/Rummelplatzstandbetreiber jeweils bis 30. März (Jahresangabe fehlt; hier für 2027 abgeleitet)",
+      "event_date_range_text": "24.-27.06.2027",
+      "application_mode": "Händler: Händlerportal Freiberg online; Schausteller: Händlerportal oder Formular per Post/E-Mail",
+      "postal_address": "Stadt Freiberg, Sachgebiet Events und Märkte, Schloßplatz 6, 09599 Freiberg",
+      "contact_name": "Anne Radecker",
+      "contact_email": "Anne_Radecker@freiberg.de",
+      "contact_phone": "03731 273653",
+      "source_url": "https://www.freiberg.de/kultur-und-tourismus/veranstaltungen/bergstadtfest-freiberg",
+      "source_domain": "freiberg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-ost-2026-09",
+      "confidence_status": "partial",
+      "notes": "Abgeleitet (Dauerregel): Seite nennt 'bis 30. März' ohne Jahr; für 2027 als 30.03.2027 angesetzt. Termin 24.-27.06.2027 laut Veranstaltungsseite (per Seitenabruf, nicht separat gegengeprüft). Künstler-Bewerbungen laufen separat bis Februar."
+    },
+    {
+      "id": "arnstadt-weihnachtsmarkt-2026-standbewerbung",
+      "event_name": "Arnstädter Weihnachtsmarkt 2026 (Standplatzbewerbung Stadtverwaltung)",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Arnstadt",
+      "state": "Thüringen",
+      "country": "DE",
+      "venue_or_area": "Innenstadt Arnstadt",
+      "application_deadline_iso": "2026-11-05",
+      "application_deadline_text": "Anmeldung vier Wochen vor Veranstaltung (Bewerbungsformular 2026)",
+      "event_date_range_text": "03.-06.12.2026",
+      "application_mode": "Bewerbungsformular 2026 (PDF) per Post/E-Mail an Stadtverwaltung; Foto von Stand und Sortiment beifügen",
+      "postal_address": "Stadtverwaltung Arnstadt, SG Öffentlichkeitsarbeit und Veranstaltungen, Markt 1, 99310 Arnstadt",
+      "contact_name": "Marktmeister Carsten Römhildt / Thomas Zeiße",
+      "contact_email": "markt@stadtverwaltung.arnstadt.de",
+      "contact_phone": "03628 745756 / 745719",
+      "source_url": "https://www.arnstadt.de/veranstaltungen/bewerbung",
+      "source_domain": "arnstadt.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-ost-2026-09",
+      "confidence_status": "partial",
+      "notes": "Abgeleitet: Formular nennt 4 Wochen vor Veranstaltung; 03.12.2026 minus 28 Tage = 05.11.2026. Ort im Formular nicht genannt (Innenstadt angenommen aus Stadtverwaltung als Veranstalter, nicht bestätigt). Kategorien Versorger, Schausteller, Händler."
+    },
+    {
+      "id": "arnstadt-halloween-2026-standbewerbung",
+      "event_name": "Arnstadt Halloween 2026 (Standplatzbewerbung)",
+      "event_type": "Volksfest",
+      "city": "Arnstadt",
+      "state": "Thüringen",
+      "country": "DE",
+      "venue_or_area": "Arnstadt (Ort im Formular nicht genannt)",
+      "application_deadline_iso": "2026-09-25",
+      "application_deadline_text": "Anmeldung vier Wochen vor Veranstaltung (Bewerbungsformular 2026)",
+      "event_date_range_text": "23.10.2026",
+      "application_mode": "Bewerbungsformular 2026 (PDF) per Post/E-Mail an Stadtverwaltung",
+      "postal_address": "Stadtverwaltung Arnstadt, SG Öffentlichkeitsarbeit und Veranstaltungen, Markt 1, 99310 Arnstadt",
+      "contact_name": "Marktmeister Carsten Römhildt / Thomas Zeiße",
+      "contact_email": "markt@stadtverwaltung.arnstadt.de",
+      "contact_phone": "03628 745756 / 745719",
+      "source_url": "https://www.arnstadt.de/veranstaltungen/bewerbung",
+      "source_domain": "arnstadt.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-ost-2026-09",
+      "confidence_status": "partial",
+      "notes": "Abgeleitet: 23.10.2026 minus 28 Tage = 25.09.2026. Nur Terminangabe im Formular, Charakter der Veranstaltung nicht näher beschrieben; Frist in 6 Tagen."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Plauener Weihnachtsmarkt 2026",
+      "candidate_url": "https://fs.egov.sachsen.de/formserv/findform?shortname=MBWeihnachtsmarkt&formtecid=2&areashortname=14166000_Merkblatt",
+      "reason": "Ausschreibung der Stadt Plauen (PDF gelesen): Bewerbungen bis 31.07.2026, abgelaufen. Markt 24.11.-22.12.2026. Kontakt: Stadt Plauen, Tourismus, Marktwesen und Stadtmarketing, Unterer Graben 1, 08523 Plauen.",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Canalettomarkt Pirna 2026",
+      "candidate_url": "https://canalettomarkt.de/de/haendler.html",
+      "reason": "Bewerbungsfrist bis 31.07.2026, abgelaufen; Markt 24.11.-30.12.2026. Veranstalter Plan de Saxe GmbH (haendler@plandesaxe.de), Vertrag laut Stadt bis einschließlich 2027.",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Bautzener Frühling 2026 (1024.)",
+      "candidate_url": "https://www.bautzener-fruehling.de/fileadmin/media/ausschreibungen/Bautzener_Fruehling/Ausschreibung_Marktwesen_BF2026.pdf",
+      "reason": "Ausschreibung 29.-31.05.2026 mit Bewerbungsschluss 29.01.2026, abgelaufen. 2027 noch nicht ausgeschrieben; Ordnungsamt/Marktwesen, Fleischmarkt 1, 02625 Bautzen.",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Gothardusfest Gotha 2026",
+      "candidate_url": "https://gotha-aktuell.info/2025/12/01/gothardusfest-2026-planungen-gestartet-haendler-und-versorger-koennen-sich-ab-sofort-anmelden/",
+      "reason": "Anmeldefrist 31.12.2025, abgelaufen (30.04.-03.05.2026). Quelle nur Lokalpresse, offizielle Seite gothardusfest.de nicht auswertbar; keine Dauerregel belegt.",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Magdeburger Frühjahrs- und Herbstmesse 2026 sowie Stendal/Aschersleben/Halberstadt 2026",
+      "candidate_url": "https://volksfeste-magdeburg.de/news/53/1/0/fruehjahrs-und-herbstmesse-2026",
+      "reason": "Allgemeine Bewerbungsfrist 30.11.2025, abgelaufen; Herbstmesse 25.09.-18.10.2026 läuft in Kürze. Vorjahr (2025) hatte Frist 31.12.2024, also keine feste Dauerregel.",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Zwickauer Weihnachtsmarkt 2026",
+      "candidate_url": "https://s59bf7851e882e632.jimcontent.com/download/version/1770112446/module/20083847425/name/Ausf%C3%BChrungsbestimmungen%20Weihnachtsmarkt%202026.pdf",
+      "reason": "Bewerbungsschluss 15.05.2026 (Kultour Z. GmbH, Hauptstraße 6, 08056 Zwickau), abgelaufen; Zulassungen bis 31.08., Absagen bis 14.09.2026.",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Zittauer Stadtfest 2026",
+      "candidate_url": "https://zittau.de/stadtfest2024",
+      "reason": "Fest 10.-12.07.2026 bereits vorbei; keine Angaben zu 2027.",
+      "agent_batch_id": "named-ost-2026-09"
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Plauener Oster-Volksfest und Vogelschießen 2027",
+      "candidate_url": "https://www.volksfeste-plauen.de/schausteller",
+      "reason": "Oster-Volksfest 27.03.-04.04.2027 laut Stadtseite. Nur Formulare 2026 online, keine Frist für 2027. Kontakt Festhalle Plauen info@festhalle-plauen.de; Tourist-Information Plauen, Unterer Graben 1, touristinfo@plauen.de, 03741 291-1027.",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Sommergewinn Eisenach 2027",
+      "candidate_url": "https://www.sommergewinn-eisenach.de/kontakt/schausteller-und-haendler.html",
+      "reason": "Bewerbungen werden ab September 2026 angenommen, kein Enddatum genannt. Termine 2027: Marktplatz 5.-8.03., Katharinenstraße 6. und 17.03. Förderverein Sommergewinn Eisenach e.V., Frankfurter Str. 128, 99817 Eisenach, foerderverein@sommergewinn-eisenach.de, 03691 742144 (Christel Heider, Peter Apel).",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Karl-May-Festtage Radebeul 2027",
+      "candidate_url": "https://www.radebeul.de/karlmay/en/Retailer",
+      "reason": "Händleranmeldung 2027 (Fest 07.-09.05.2027) als PDF online, aber keine Frist genannt. SG Feste und Märkte, Pestalozzistr. 6, 01445 Radebeul, markt@radebeul.de, Marktleitung Frank Jeschick 0351 8311-611.",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Magdeburger Frühjahrsmesse und Herbstmesse 2027 (VSG)",
+      "candidate_url": "https://volksfeste-magdeburg.de/47/ausschreibungen",
+      "reason": "Ausschreibung 2027 noch nicht veröffentlicht (Fristen 2025/2026: 31.12.2024 bzw. 30.11.2025). Kontakt Veranstaltungsgesellschaft selbständiger Gewerbetreibender GmbH, Neuer Sülzeweg 92, 39128 Magdeburg, info@volksfeste-magdeburg.de, 0391 2526214.",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Wernigeröder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.wernigerode-tourismus.de/event/weihnachtsmarkt-wernigerode",
+      "reason": "Markt 20.11.-22.12.2026, Anmeldeformular 2026 existiert, aber PDF-Link liefert 404 und keine Frist auffindbar. Kontakt über Wernigerode Tourismus GmbH.",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Meißner Weinfest 2027",
+      "candidate_url": "https://www.meissner-weinfest.de/",
+      "reason": "Weinfest 17.-19.09.2027; Händlerinformationen beim Gewerbeverein Meißen e.V. (Burgstraße 28, 01662 Meißen, Martin Rehnus), keine Frist gefunden.",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Arnstadt Frühjahrs- und Pflanzenmarkt, Stadtfest 2027",
+      "candidate_url": "https://www.arnstadt.de/veranstaltungen/bewerbung",
+      "reason": "Formular 2026 nennt Regel 4 Wochen (Stadtfest 6 Wochen) vor Veranstaltung; Termine 2027 nicht veröffentlicht, daher kein Datum ableitbar. Kontakt markt@stadtverwaltung.arnstadt.de, 03628 745719.",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Höhlerfest Gera 2026/2027",
+      "candidate_url": "https://www.gera.de/maerkte-und-feste/stadtfeste/hoehlerfest",
+      "reason": "Händleranfragen laut Suchtreffer über Veranstaltungs & Gastroservice Ernst Michael Ernst, Crimla 26, 07557 Crimla (me@veranstaltungsservice-weida.de); keine Frist gefunden, Fest im Oktober.",
+      "agent_batch_id": "named-ost-2026-09"
+    },
+    {
+      "event_name": "Bautzener Frühling 2027 und Wenzelsmarkt 2027",
+      "candidate_url": "https://www.bautzen.de/buerger-rathaus-politik/stadtverwaltung/ausschreibungen/marktausschreibungen",
+      "reason": "Marktausschreibungsseite aktuell ohne Inhalt; 2027 nicht ausgeschrieben. Ordnungsamt/Marktwesen ordnungsamt@bautzen.de.",
+      "agent_batch_id": "named-ost-2026-09"
+    }
+  ]
+}

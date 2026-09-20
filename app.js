@@ -1297,6 +1297,23 @@ const initSchaustellerDeadlinePage = async () => {
   const TEASER_ROWS = 6;
   const storageKey = `deadline-unlocked:${window.location.pathname}`;
 
+  // Freigeschaltet: Kalender rueckt nach oben, Werbung verschwindet. Passiert vor dem
+  // Laden der Daten, damit die Werbe-Ueberschrift nicht kurz aufblitzt.
+  const applyUnlockedChrome = () => {
+    document.querySelector('.fk')?.classList.add('fk--unlocked');
+    if (document.querySelector('.fk-unlocked-badge')) return;
+    document.querySelector('.lc-header .brand')
+      ?.insertAdjacentHTML('afterend', '<span class="fk-unlocked-badge" role="status">Freigeschaltet ✓</span>');
+  };
+  document.addEventListener('click', (event) => {
+    const menu = document.querySelector('.fk-menu');
+    if (menu?.open && !menu.contains(event.target)) menu.open = false;
+  });
+  try {
+    const isConfirmLink = new URLSearchParams(window.location.search).get('doi') === 'confirmed';
+    if (isConfirmLink || localStorage.getItem(storageKey) === 'true') applyUnlockedChrome();
+  } catch (_) {}
+
   const listEl = document.getElementById('fk-list');
   const scrollEl = document.getElementById('fk-scroll');
   const nextEl = document.getElementById('fk-next');
@@ -1305,6 +1322,7 @@ const initSchaustellerDeadlinePage = async () => {
   const searchEl = document.getElementById('fk-search');
   const stateEl = document.getElementById('fk-state');
   const periodEl = document.getElementById('fk-period');
+  const modeEl = document.getElementById('fk-mode');
   const resetEl = document.querySelector('[data-fk-reset]');
   const lockZoneEl = document.querySelector('[data-fk-lockzone]');
   const lockedListEl = document.getElementById('fk-locked');
@@ -1354,11 +1372,20 @@ const initSchaustellerDeadlinePage = async () => {
     console.error('Fristenkalender konnte nicht geladen werden.', error);
   }
 
-  const entries = data.entries
-    .filter((entry) => ['verified', 'partial'].includes(entry.confidence_status))
-    .map((entry) => ({ ...entry, date: parseIsoDate(entry.application_deadline_iso) }))
-    .filter((entry) => !Number.isNaN(entry.date.getTime()) && entry.date >= today)
+  const publishable = data.entries
+    .filter((entry) => ['verified', 'partial', 'frist_offen'].includes(entry.confidence_status))
+    .map((entry) => ({
+      ...entry,
+      open: entry.confidence_status === 'frist_offen',
+      date: entry.confidence_status === 'frist_offen' ? null : parseIsoDate(entry.application_deadline_iso),
+    }));
+  const datedEntries = publishable
+    .filter((entry) => !entry.open && !Number.isNaN(entry.date.getTime()) && entry.date >= today)
     .sort((a, b) => a.date - b.date || a.event_name.localeCompare(b.event_name, 'de'));
+  const openEntries = publishable
+    .filter((entry) => entry.open)
+    .sort((a, b) => a.event_name.localeCompare(b.event_name, 'de'));
+  const entries = [...datedEntries, ...openEntries];
 
   const daysUntil = (entry) => Math.round((entry.date - today) / 86400000);
 
@@ -1382,10 +1409,7 @@ const initSchaustellerDeadlinePage = async () => {
       // Von der E-Mail kommend soll sofort klar sein "ich bin nicht wieder auf derselben
       // Werbe-Seite gelandet, sondern es hat geklappt" - gerade auf dem Handy verwechselt
       // man das sonst leicht. Deshalb ersetzt die Ueberschrift kurz die normale Werbezeile.
-      const titleEl = document.getElementById('fk-title');
-      const leadEl = document.getElementById('fk-lead');
-      if (titleEl) titleEl.innerHTML = 'Dein kostenloser <span class="fk-lead-tight">Fristenkalender</span>';
-      if (leadEl) leadEl.innerHTML = 'Freigeschaltet <span class="fk-lead-ink">✓</span>';
+      applyUnlockedChrome();
     }
   } catch (_) {}
 
@@ -1406,7 +1430,7 @@ const initSchaustellerDeadlinePage = async () => {
   // -- Next deadline strip ------------------------------------------------
   const renderNext = () => {
     if (!nextEl) return;
-    const entry = entries[0];
+    const entry = datedEntries[0];
 
     if (!entry) {
       nextEl.innerHTML = `
@@ -1426,7 +1450,12 @@ const initSchaustellerDeadlinePage = async () => {
   // -- Filtering ----------------------------------------------------------
   const inPeriod = (entry, mode) => {
     if (mode === 'all') return true;
+    if (entry.open) return false;
     const d = entry.date;
+
+    if (mode === 'today') return daysUntil(entry) === 0;
+    if (mode === '3d') return daysUntil(entry) <= 3;
+    if (mode === '7d') return daysUntil(entry) <= 7;
 
     if (mode === 'this-month') {
       return d.getFullYear() === today.getFullYear() && d.getMonth() === today.getMonth();
@@ -1443,13 +1472,25 @@ const initSchaustellerDeadlinePage = async () => {
     return d <= limit;
   };
 
+  const applicationModes = (entry) => {
+    const text = entry.application_mode || '';
+    const found = new Set();
+    if (/online|portal|internet|webformular|web-formular|elektronisch|webseite|website/i.test(text)) found.add('online');
+    if (/e-?mail|@/i.test(text)) found.add('email');
+    if (/\bpost|postalisch|schriftlich|brief|einschreiben|fax|persönlich|persoenlich/i.test(text)) found.add('post');
+    if (!found.size) found.add('unknown');
+    return found;
+  };
+
   const getFiltered = () => {
     const term = (searchEl?.value || '').trim().toLowerCase();
     const state = stateEl?.value || '';
     const period = periodEl?.value || 'all';
+    const mode = modeEl?.value || '';
 
     return entries.filter((entry) => {
       if (state && entry.state !== state) return false;
+      if (mode && !applicationModes(entry).has(mode)) return false;
       if (!inPeriod(entry, period)) return false;
       if (!term) return true;
       return [entry.event_name, entry.city, entry.state, entry.event_type, entry.venue_or_area]
@@ -1463,7 +1504,7 @@ const initSchaustellerDeadlinePage = async () => {
   // Vorschauzeilen - sonst gaebe es jedes fk-detail-N zweimal im Dokument.
   const rowMarkup = (entry, index, prefix = 'f') => {
     const domId = `fk-detail-${prefix}${index}`;
-    const diff = daysUntil(entry);
+    const diff = entry.open ? Infinity : daysUntil(entry);
     const contact = [entry.contact_name, entry.contact_email, entry.contact_phone]
       .filter(Boolean).map(escapeHtml).join('<br>');
     const quality = entry.confidence_status === 'verified'
@@ -1472,16 +1513,19 @@ const initSchaustellerDeadlinePage = async () => {
 
     return `
       <button class="fk-row" type="button" aria-expanded="false" aria-controls="${domId}" data-fk-row="${domId}">
-        <span class="fk-date">
-          <span class="fk-date-day">${String(entry.date.getDate()).padStart(2, '0')}</span>
-          <span class="fk-date-month">${MONTHS_SHORT[entry.date.getMonth()]} ${String(entry.date.getFullYear()).slice(2)}</span>
+        <span class="fk-date${entry.open ? ' fk-date--open' : ''}">${entry.open
+    ? '<span class="fk-date-day">?</span><span class="fk-date-month">offen</span>'
+    : `<span class="fk-date-day">${String(entry.date.getDate()).padStart(2, '0')}</span>
+          <span class="fk-date-month">${MONTHS_SHORT[entry.date.getMonth()]} ${String(entry.date.getFullYear()).slice(2)}</span>`}
         </span>
         <span>
           <span class="fk-row-name">${escapeHtml(entry.event_name)}</span>
           <span class="fk-row-meta">${show(entry.city)}, ${show(entry.state)} · ${show(entry.event_type)}</span>
         </span>
         <span class="fk-row-side">
-          <span class="fk-days${diff <= 21 ? ' fk-days--urgent' : ''}">noch ${daysLabel(entry)}</span>
+          ${entry.open
+    ? '<span class="fk-days">Frist noch nicht veröffentlicht</span>'
+    : `<span class="fk-days${diff <= 21 ? ' fk-days--urgent' : ''}">noch ${daysLabel(entry)}</span>`}
           <span class="fk-chevron" aria-hidden="true"></span>
         </span>
       </button>
@@ -1564,7 +1608,7 @@ const initSchaustellerDeadlinePage = async () => {
     detail.hidden = open;
   });
 
-  [searchEl, stateEl, periodEl].forEach((control) => {
+  [searchEl, stateEl, periodEl, modeEl].forEach((control) => {
     control?.addEventListener('input', render);
     control?.addEventListener('change', render);
   });
@@ -1573,6 +1617,7 @@ const initSchaustellerDeadlinePage = async () => {
     if (searchEl) searchEl.value = '';
     if (stateEl) stateEl.value = '';
     if (periodEl) periodEl.value = 'all';
+    if (modeEl) modeEl.value = '';
     render();
     scrollEl?.scrollTo({ top: 0 });
   });

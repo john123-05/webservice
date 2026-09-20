@@ -15,8 +15,17 @@
   <header class="lc-header">
     <div class="container lc-header-inner">
       <a class="brand" href="schausteller-websites.html">
-        <img src="assets/digital.png" alt="ImpressRank" class="brand-logo" />
+        <img src="assets/logo-cropped.png" alt="ImpressRank" class="brand-logo" />
       </a>
+      <span class="fk-help-text">Brauchst du Unterstützung bei den Bewerbungen?</span>
+      <details class="fk-menu">
+        <summary>Unsere Lösungen <span aria-hidden="true"></span></summary>
+        <ul class="fk-menu-list">
+          <li><a href="schausteller-websites">Websites für Schausteller</a></li>
+          <li><a href="schausteller-websites#angebote">Digitale Bewerbungsmappe</a></li>
+          <li><a href="schausteller-websites#angebote">Ich übernehme deine Bewerbung komplett</a></li>
+        </ul>
+      </details>
       <a class="btn btn-primary" href="#fk-gate">Kostenlos freischalten</a>
     </div>
   </header>
@@ -60,10 +69,23 @@
               <label for="fk-period">Zeitraum</label>
               <select id="fk-period">
                 <option value="all">Alle offenen Fristen</option>
+                <option value="today">Heute</option>
+                <option value="3d">In den nächsten 3 Tagen</option>
+                <option value="7d">Nächste 7 Tage</option>
                 <option value="this-month">Diesen Monat</option>
                 <option value="next-month">Nächsten Monat</option>
                 <option value="3">Nächste 3 Monate</option>
                 <option value="6">Nächste 6 Monate</option>
+              </select>
+            </div>
+            <div class="fk-control">
+              <label for="fk-mode">Bewerbungsart</label>
+              <select id="fk-mode">
+                <option value="">Alle Bewerbungsarten</option>
+                <option value="online">Online / Portal</option>
+                <option value="email">Per E-Mail</option>
+                <option value="post">Schriftlich / postalisch</option>
+                <option value="unknown">Nicht angegeben</option>
               </select>
             </div>
             <button class="fk-reset" type="button" data-fk-reset>Zurücksetzen</button>
@@ -106,6 +128,7 @@
     </section>
 
   </main>
+
 
   <footer class="lc-footer">
     <div class="container">

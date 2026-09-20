@@ -1,0 +1,46 @@
+{
+  "batch_id": "named-nordost-2026-09",
+  "region_scope": [
+    "Brandenburg",
+    "Mecklenburg-Vorpommern",
+    "Berlin"
+  ],
+  "search_terms": [
+    "<Eventname> Bewerbung Schausteller Beschicker Frist",
+    "Marktbeschicker Anmeldung Weihnachtsmarkt 2026",
+    "Standplatz Bewerbung Stadtfest 2027"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-19",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Spandauer.Altstadt.Fest. 2026 (Wein.Sommer & Food.Festival)",
+      "candidate_url": "https://partner-fuer-spandau.de/haendler/bewerbungsunterlagen-spandaueraltstadtfest-27-30-august-2026/92",
+      "reason": "Veranstaltung fand 27.-30.08.2026 statt, Bewerbung nicht mehr moeglich; Ausschreibung 2027 noch nicht online (Weihnachtsmarkt Spandau 2027 und Oktoberfest Spandau bereits als Review im Log)."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Weihnachtsmarkt der Stadt Bergen auf Ruegen 2026 (04.-06.12.2026)",
+      "candidate_url": "https://www.stadt-bergen-auf-ruegen.de/index.php?object=tx,3331.4&ModID=11&FID=3331.722.1",
+      "reason": "Offizielle Stadtseite bestaetigt Termin 04.-06.12.2026, nennt aber keine Bewerbungsfrist/-weg. Kontakt: Stadt Bergen auf Ruegen, Markt 5/6, 18528 Bergen auf Ruegen, Tel. 03838 811-0, info@stadt-bergen-auf-ruegen.de."
+    },
+    {
+      "event_name": "Anklamer Maerkte / Adventsmarkt Anklam",
+      "candidate_url": "https://www.anklam.de/Kultur-Tourismus/Veranstaltungen-Ausstellungen-Sonstiges/M%C3%A4rkte/",
+      "reason": "Offizielle Stadtseite nennt keine Frist fuer Schausteller/Beschicker (Flohmarkt ohne Anmeldung, Wochenmarkt). Ansprechpartner Maerkte: Alexander Becker, Tel. 03971 835 260, A.Becker@anklam.de, Markt 3, 17389 Anklam."
+    },
+    {
+      "event_name": "Gubener Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.guben.de/de/freizeit-tourismus/guben-veranstaltungen/gubener-weihnachtsmarkt-3",
+      "reason": "Stadtseite nennt Markt an 3. Advent, aber keine Haendler-Bewerbungsfrist gefunden (Pressemeldungs-URL lieferte 404). Kontakt: Stadt Guben, Gasstrasse 4, 03172 Guben, Tel. 03561 6871-0, info@guben.de."
+    },
+    {
+      "event_name": "Fruehling an der Neisse 2027 Guben-Gubin (Stadtfest)",
+      "candidate_url": "https://www.guben.de/de/leben-wohnen/soziales/item/1072-fruehling-an-der-neisse-2026",
+      "reason": "Stadtfest 29.-31.05.2026 bestaetigt (Ausgabe 2026, vorbei); Seite enthaelt keine Bewerbungsinfos fuer Beschicker/Schausteller. Kontakt: Stadt Guben, Gasstrasse 4, 03172 Guben, Tel. 03561 6871-0, info@guben.de."
+    }
+  ]
+}

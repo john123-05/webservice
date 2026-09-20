@@ -1,0 +1,42 @@
+{
+  "batch_id": "named-events-01-2026-09",
+  "region_scope": [
+    "Bundesweit",
+    "Namensbasierte Recherche bekannter Kirmessen und Volksfeste"
+  ],
+  "search_terms": [
+    "Kirmeswiki Bekannte Kirmessen Deutschland",
+    "groesste Volksfeste Deutschland Top Liste",
+    "Nuernberg Fruehlingsfest Herbstvolksfest Schausteller Bewerbung",
+    "Stuttgarter Fruehlingsfest Schausteller Bewerbung Bewerbungsschluss",
+    "Eisleben Wiesenmarkt Fruehlingswiese Schausteller Bewerbung"
+  ],
+  "max_expected_results": 10,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-18",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Nuernberger Fruehlingsfest 2027",
+      "candidate_url": "https://sueddeutscher-schaustellerverband.de/wp-content/uploads/2026/07/Anzeige_Komet_2027.pdf",
+      "reason": "Offizielle Ausschreibung des Sueddeutschen Schaustellerverbands e.V. (im Auftrag der Stadt Nuernberg) gefunden: Bewerbungsschluss 15. September 2026 (Poststempel), Veranstaltungszeitraum 27.03.-18.04.2027. Frist ist zum Pruefzeitpunkt (18.09.2026) bereits 3 Tage abgelaufen. Bewerbung schriftlich an Sueddeutscher Schaustellerverband e.V., Bayernstrasse 98d, 90478 Nuernberg, Bearbeitungsgebuehr 15 Euro. Fuer 2028 die naechste Ausschreibung ab ca. Juli/August 2027 auf sueddeutscher-schaustellerverband.de/ausschreibungen/ pruefen - noch kein zweiter Jahrgang bestaetigt, daher keine Dauerregel ableitbar, nur ein Datenpunkt (Mitte September)."
+    },
+    {
+      "event_name": "Nuernberger Herbstvolksfest 2027",
+      "candidate_url": "https://sueddeutscher-schaustellerverband.de/wp-content/uploads/2026/07/Anzeige_Komet_2027.pdf",
+      "reason": "Gleiche Ausschreibung/Verband wie Fruehlingsfest: Bewerbungsschluss 15. September 2026 (Poststempel), Veranstaltungszeitraum 27. August bis 12. September 2027. Frist zum Pruefzeitpunkt (18.09.2026) bereits abgelaufen. Gleicher Kontakt: Sueddeutscher Schaustellerverband e.V., Bayernstrasse 98d, 90478 Nuernberg. Fuer 2028 ab ca. Juli/August 2027 erneut pruefen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Stuttgarter Fruehlingsfest 2028",
+      "candidate_url": "https://www.stuttgarter-fruehlingsfest.de/bewerbung",
+      "reason": "Bewerbungsschluss fuer 2027 war bereits am 15.07.2026 (abgelaufen). Termin fuer 2028 noch nicht veroeffentlicht. Ansprechpartner: Thomas Heibel, in.Stuttgart Veranstaltungsgesellschaft mbH & Co. KG, Mercedesstrasse 50, 70372 Stuttgart, Tel. +49 711 9554 33 03. Im Fruehjahr 2027 erneut pruefen, sobald die Ausschreibung fuer 2028 erscheint."
+    },
+    {
+      "event_name": "Eisleber Wiesenmarkt 2027 (Hauptveranstaltung)",
+      "candidate_url": "https://www.wiesenmarkt.de/fruehlingswiese-und-gewerbeschau/ausschreibung-und-teilnahme/",
+      "reason": "Veranstalter bestaetigt (Eigenbetrieb Maerkte der Lutherstadt Eisleben, Wiesenweg 1, 06295 Lutherstadt Eisleben, Tel. 03475/633970, info@wiesenmarkt.de), konkretes Datum fuer Hauptmarkt und Fruehlingswiese auf der geprueften Unterseite nicht ausgewiesen. Separates Bewerbungsportal unter wiesenmarkt.de/bewerbungsportal/ noch nicht ausgewertet - dort vermutlich das Datum."
+    }
+  ]
+}

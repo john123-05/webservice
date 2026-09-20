@@ -25,8 +25,8 @@ export const FRIST_ENTRY_FIELDS = [
   'notes',
 ];
 
-export const CONFIDENCE_STATUSES = ['verified', 'partial', 'needs_review'];
-export const PUBLISHABLE_STATUSES = ['verified', 'partial'];
+export const CONFIDENCE_STATUSES = ['verified', 'partial', 'frist_offen', 'needs_review'];
+export const PUBLISHABLE_STATUSES = ['verified', 'partial', 'frist_offen'];
 
 export const GERMAN_STATES = [
   ['baden-wuerttemberg', 'Baden-Württemberg'],
@@ -76,8 +76,9 @@ const VERIFIED_DETAIL_FIELDS = [
 
 const STATUS_PRIORITY = {
   needs_review: 0,
-  partial: 1,
-  verified: 2,
+  frist_offen: 1,
+  partial: 2,
+  verified: 3,
 };
 
 export const normalizeText = (value) => String(value ?? '').trim().replace(/\s+/g, ' ');
@@ -153,8 +154,14 @@ export const validateEntry = (entry, options = {}) => {
 
   const publishableStatus = PUBLISHABLE_STATUSES.includes(normalized.confidence_status);
   if (publishableStatus) {
-    for (const field of REQUIRED_PUBLISHABLE_FIELDS) {
+    const requiredFields = normalized.confidence_status === 'frist_offen'
+      ? ['application_deadline_text']
+      : REQUIRED_PUBLISHABLE_FIELDS;
+    for (const field of requiredFields) {
       if (!normalized[field]) errors.push(`${field} fehlt fuer einen veroeffentlichbaren Eintrag`);
+    }
+    if (normalized.confidence_status === 'frist_offen' && normalized.application_deadline_iso) {
+      errors.push('frist_offen darf kein application_deadline_iso haben');
     }
   }
 

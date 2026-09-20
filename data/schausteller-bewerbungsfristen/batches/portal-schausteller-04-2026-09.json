@@ -1,0 +1,245 @@
+{
+  "batch_id": "portal-schausteller-04-2026-09",
+  "region_scope": ["Bundesweit"],
+  "search_terms": [
+    "schausteller.de platzangebote Seite 16",
+    "schausteller.de platzangebote Seite 17",
+    "schausteller.de platzangebote Seite 18",
+    "schausteller.de platzangebote Seite 19",
+    "schausteller.de platzangebote Seite 20",
+    "Nikolausmarkt Abtei Pulheim Brauweiler Schausteller Bewerbung",
+    "Weihnachtsmarkt Hackescher Markt Berlin Schausteller Bewerbung",
+    "Weihnachtsmarkt Hamburg-Harburg Schausteller Bewerbung",
+    "Stadtfest Leverkusen Schlebusch Schausteller Standplatz Bewerbung",
+    "Weihnachtsmarkt Koeln-West Schausteller Bewerbung",
+    "Erkelenzer Weihnachtsmarkt Schausteller Bewerbung Standplatz",
+    "Geraer Hoehlerfest Schausteller Standbetreiber Bewerbung",
+    "Historischer Weihnachtsmarkt Magdeburg Schausteller Bewerbung",
+    "Weihnachtsmarkt Marktoberdorf Schausteller Bewerbung",
+    "Weihnachtsmarkt Zerbst Schausteller Bewerbung",
+    "Christkindlmarkt Sauerlach Schausteller Standplatz",
+    "Rheidter Kirmes Bergheim Schausteller Bewerbung",
+    "Waldweihnachtsmarkt Duennwald Koeln Schausteller Bewerbung",
+    "Brunnenfest Bad Duerrenberg Schausteller Standplatz",
+    "Feller Markt Fell Schausteller Standplatz",
+    "Pfeffelbacher Kerwe Schausteller Standplatz",
+    "Santas Weihnachtsmarkt MediaPark Koeln Schausteller Bewerbung",
+    "Beer Food Festival Wolfenbuettel Standbetreiber Bewerbung",
+    "Winterworld Motorworld Muenchen Schausteller Bewerbung",
+    "Weihnachtsmarkt Pilina Lodge Dortmund Aussteller Bewerbung",
+    "Parkfest Lankwitz Berlin Schausteller Standplatz",
+    "Winterzauber am See Koelner Stadtwald Schausteller Bewerbung",
+    "Bopparder Weihnachtsmarkt Standplatz Anmeldung",
+    "Ruiter Weihnachtsmarkt Ostfildern Schausteller Bewerbung",
+    "Nussknackermarkt Engers Neuwied Schausteller Bewerbung",
+    "Bothfelder Herbstmarkt Hannover Schausteller Standplatz",
+    "Spekulatiusmarkt Buettgen Kaarst Schausteller Standplatz",
+    "Fischbacher Kirmes Moritzrennen Arnsdorf Schausteller Bewerbung",
+    "Scheidinger Herbstkirmes Welver Schausteller Standplatz",
+    "Apfelfest Clusorth-Bramhar Lingen Schausteller Standplatz",
+    "Wambacher Kerb Schlangenbad Schausteller Standplatz",
+    "Vegesacker Hafenfest Bremen Schausteller Standplatz",
+    "Winzerfest Erzingen Baden Schausteller Standplatz",
+    "Kaltenkirchener Jahrmarkt Wiesen Schausteller Standplatz",
+    "Weihnachtsmarkt Siegen Weidenau Schausteller Standplatz",
+    "Weihnachtsmarkt Freudenstadt Schausteller Standplatz"
+  ],
+  "max_expected_results": 40,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-18",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Historischer Weihnachtsmarkt Magdeburg 2026",
+      "candidate_url": "https://www.weihnachtsmarkt-magdeburg.de/ausschreibung",
+      "reason": "Auf der offiziellen Ausschreibungsseite der Gesellschaft zur Durchfuehrung der Magdeburger Weihnachtsmaerkte mbH war der Bewerbungsschluss der 08.05.2026, 12 Uhr; diese Frist ist zum Recherchezeitpunkt (18.09.2026) bereits abgelaufen. Veranstaltungszeitraum 19.11.-29.12.2026 liegt noch in der Zukunft, die Bewerbungsphase ist jedoch abgeschlossen."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Freudenstadt 2026 (Kunsthandwerk)",
+      "candidate_url": "https://www.freudenstadt.de/Weihnachtsmarkt2026",
+      "reason": "Offizielle Stadtseite Freudenstadt vermerkt woertlich: 'Alle Plaetze fuer den Weihnachtsmarkt sind bereits vergeben.' Interessierte fuer 2027 werden an Freudenstadt Tourismus (emanuela.zuparic@freudenstadt.de, +49 7441 864-730) verwiesen. Fuer 2026 keine Bewerbung mehr moeglich."
+    },
+    {
+      "event_name": "Kaltenkirchener Jahrmarkt / Kaltenkirchener Wiesen 2026",
+      "candidate_url": "https://www.kaltenkirchen.de/de/aktuelles/meldungen/Jahrmarkt.php",
+      "reason": "Stadt Kaltenkirchen meldet auf offizieller Seite, dass von 199 eingegangenen Bewerbungen bereits 76 Betriebe ausgewaehlt und alle Zusagen bestaetigt wurden; das Auswahlverfahren fuer den Jahrmarkt vom 04.-07.09.2026 ist abgeschlossen, keine weiteren Bewerbungen moeglich."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Siegen (Innenstadt)",
+      "candidate_url": "https://weihnachtsmarkt-in-siegen.de/haendler-aussteller/",
+      "reason": "Offizielle Veranstalterseite nennt Bewerbungsschluss 31.07.2026 fuer den Innenstadt-Weihnachtsmarkt Siegen (Start 20.11.2026); diese Frist ist bereits abgelaufen. Hinweis: Dies betrifft den city-organisierten Innenstadt-Markt, nicht zwingend identisch mit dem separat betriebenen Weidenauer Weihnachtsmarkt im Siegerlandcenter (siehe review_candidates, dort keine Frist gefunden)."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Nikolausmarkt an der Abtei (Pulheim-Brauweiler) 2026",
+      "candidate_url": "https://www.pulheim.de/aktuelles/meldungen-2025/weihnachtsmaerkte.php",
+      "reason": "Veranstaltung bestaetigt (05.-06.12.2026, Abteipark Brauweiler), Veranstalter ist die IG Brauweiler Vereine gemeinsam mit dem LVR-Kulturzentrum Abtei Brauweiler. Keine offizielle Ausschreibungsseite mit Bewerbungsfrist oder direktem Kontakt fuer Schausteller innerhalb der Recherche gefunden; Stadt Pulheim selbst ist nicht Veranstalter."
+    },
+    {
+      "event_name": "Neuer Weihnachtsmarkt am Hackescher Markt, Berlin-Mitte 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/",
+      "reason": "Veranstaltung ueber schausteller.de-Ausschreibung (01.11.-28.12.2026) gefunden. Kein offizieller Veranstalter oder Kontakt konnte identifiziert werden; existierende Weihnachtsmaerkte in unmittelbarer Naehe (z.B. Sophienstrasse) scheinen ein anderes, unabhaengiges Projekt zu sein. Weitere Recherche direkt vor Ort/telefonisch noetig."
+    },
+    {
+      "event_name": "Harburger Weihnachtsmarkt auf dem Rathausplatz 2026",
+      "candidate_url": "https://www.harburger-weihnachtsmarkt.de/kontakt/",
+      "reason": "Veranstaltung bestaetigt (19.11.-28.12.2026), Veranstalter WAGS Hamburg Events GmbH, Eiffestrasse 68, 20537 Hamburg, Tel. (040) 430 975 90. Bewerbungsformular als PDF verlinkt, jedoch keine konkrete Bewerbungsfrist auf der Seite genannt."
+    },
+    {
+      "event_name": "Stadtfest Leverkusen-Schlebusch / Schlebuscher Schuetzen- und Volksfest",
+      "candidate_url": "https://www.schlebuscher-volksfest.de/",
+      "reason": "Veranstalter Veranstaltungsbuero & Eventagentur Nolden GmbH, info@veranstaltungsbuero.de, Tel. 02171/3801. Keine Bewerbungsfrist auf der Seite genannt. Terminunklarheit: schausteller.de-Anzeige nennt 18.-20.09.2026, offizielle Seite aktuell nur das 42. Fest am 27.-30.05.2027 (41. Fest war 04.-07.06.2026) - moeglicherweise zwei unterschiedliche Veranstaltungen (Stadtfest vs. Schuetzen-/Volksfest) unter aehnlichem Namen."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Koeln-West 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/",
+      "reason": "Veranstaltung (19.11.-23.12.2026) ueber schausteller.de gefunden, aber kein offizieller Veranstalter oder Kontakt fuer 'Weihnachtsmarkt Koeln-West' auffindbar; nicht zu verwechseln mit dem Weihnachtsmarkt am Koelner Dom (anderer Veranstalter/Standort)."
+    },
+    {
+      "event_name": "Erkelenzer Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.erkelenz.de/erkelenz-entdecken/veranstaltungen/erkelenzer-weihnachtsmarkt/",
+      "reason": "Veranstaltung bestaetigt (19.11.-23.12.2026, Marktplatz am Alten Rathaus). Kontakt: Stephan Jopen, Stadtmarketing, stadtmarketing@erkelenz.de, Tel. +49 2431 85-149, Stadtverwaltung Erkelenz, Johannismarkt 17, 41812 Erkelenz. Keine Bewerbungsfrist auf der offiziellen Seite genannt."
+    },
+    {
+      "event_name": "35. Geraer Hoehlerfest 2026",
+      "candidate_url": "https://www.gera.de/maerkte-und-feste/stadtfeste/hoehlerfest",
+      "reason": "Veranstaltung bestaetigt (02.-04.10.2026, Innenstadt Gera). Zustaendig fuer Markt-/Standanfragen laut Stadt Gera: Kulturamt, Steffen Kuehn, kuehn.steffen@gera.de, Tel. 0365 619-0, Schlossstrasse 1, 07545 Gera. Keine Bewerbungsfrist auf der Seite genannt."
+    },
+    {
+      "event_name": "Vegesacker Hafenfest (Bremen-Vegesack)",
+      "candidate_url": "https://www.ortsamt-vegesack.bremen.de/veranstaltungen/vegesacker-hafenfest-12438",
+      "reason": "Traditionsveranstaltung erstes Juni-Wochenende, Kontakt hafenfest-vegesack@gmx.de. schausteller.de-Anzeige datiert auf 06.-09.05.2027, weicht vom ueblichen Junitermin ab - Datum nicht zweifelsfrei geklärt. Keine Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "Winzerfest Erzingen (Baden) 2026",
+      "candidate_url": "https://www.winzerfest-erzingen.de/",
+      "reason": "Veranstaltung bestaetigt, findet traditionell am 3. Septemberwochenende statt (Portal nennt 19.-20.09.2026). Offizielle Vereinsseite vorhanden, jedoch keine Bewerbungsfrist oder direkter Schausteller-Kontakt auf der Seite auffindbar; ggf. ueber Winzergenossenschaft Erzingen e.G. zu erfragen."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Marktoberdorf 2026",
+      "candidate_url": "https://www.marktoberdorf.de/maerkte",
+      "reason": "Veranstaltung bestaetigt (04.-13.12.2026), gesucht werden laut Ausschreibung vor allem Kunsthandwerker. Kontakt allgemein: Stadt Marktoberdorf, Richard-Wengenmeier-Platz 1, 87616 Marktoberdorf, Tel. 08342 4008-0. Kein konkretes Bewerbungsformular oder Frist auf der Uebersichtsseite gefunden."
+    },
+    {
+      "event_name": "Martinimarkt Marktoberdorf 2026",
+      "candidate_url": "https://www.marktoberdorf.de/maerkte",
+      "reason": "Veranstaltung bestaetigt (07.-08.11.2026). Gleicher Veranstalter/Kontakt wie Weihnachtsmarkt Marktoberdorf (Stadt Marktoberdorf, Tel. 08342 4008-0), keine spezifische Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Zerbst/Anhalt 2026 (Schlossfreiheit)",
+      "candidate_url": "https://www.stadt-zerbst.de/de/feste-und-festtage.html",
+      "reason": "Veranstaltung bestaetigt (09.-13.12.2026, Schlossfreiheit Zerbst), Nachfolgeveranstaltung des erfolgreichen Marktes 2025. Kein direkter Ansprechpartner oder Bewerbungsfrist auf der offiziellen Stadtseite gefunden; schausteller.de-Anzeige ist bislang einziger Bewerbungsweg."
+    },
+    {
+      "event_name": "Christkindlmarkt Sauerlach 2026",
+      "candidate_url": "https://hey.bayern/events/652067",
+      "reason": "Veranstaltung bestaetigt (27.-29.11.2026), jedoch kein offizieller Veranstalter (Gemeinde Sauerlach oder Verein) mit Kontakt oder Bewerbungsfrist innerhalb der Recherche identifizierbar."
+    },
+    {
+      "event_name": "Rheidter Kirmes auf dem Dorfplatz, Bergheim-Rheidt 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/",
+      "reason": "Veranstaltung (19.-21.09.2026) ueber schausteller.de gefunden, kein offizieller Veranstalter oder Kontakt auffindbar (nicht zu verwechseln mit dem groesseren Bergheimer Hubertusmarkt Ende Oktober)."
+    },
+    {
+      "event_name": "Waldweihnachtsmarkt Duennwald, Koeln 2026",
+      "candidate_url": "https://www.deutsche-weihnachtsmaerkte.de/weihnachtsmarkt/in/nordrhein-westfalen/waldweihnachtsmarkt-duennwald-koeln-3334.html",
+      "reason": "Veranstaltung bestaetigt (12.-13.12.2026, Waldbad Duennwald, Peter-Baum-Weg 20, 51069 Koeln). Anmeldungen wurden in frueheren Jahren ueber 'Freies Ortskartell e.V.' abgewickelt; aktueller Kontakt oder Bewerbungsfrist fuer 2026 nicht auffindbar."
+    },
+    {
+      "event_name": "263. Brunnenfest & 80 Jahre Stadtrecht, Bad Duerrenberg 2026",
+      "candidate_url": "https://www.badduerrenberg.de/veranstaltungen/2789834/2026/09/18/263.-bad-d%C3%BCrrenberger-brunnenfest.html",
+      "reason": "Veranstaltung bestaetigt (18.-20.09.2026, Kurpark Bad Duerrenberg). Bewerbungen/Anfragen laut Recherche an k.berghaus@badduerrenberg.de. Keine Bewerbungsfrist auf der Seite genannt; Veranstaltungsbeginn faellt zudem mit dem Recherchedatum zusammen, Bewerbungsfenster fuer 2026 damit faktisch bereits geschlossen."
+    },
+    {
+      "event_name": "Feller Markt und Weinfest, Fell 2026",
+      "candidate_url": "https://www.fellermarkt-mosel.de/",
+      "reason": "Veranstaltung bestaetigt (18.-21.09.2026, Fell/Mosel). Offizielle Veranstalterseite vorhanden, jedoch keine Angaben zu Schausteller-Bewerbung oder Frist gefunden; Veranstaltungsbeginn faellt mit dem Recherchedatum zusammen."
+    },
+    {
+      "event_name": "Herbstmarkt zur Pfeffelbacher Kerwe 2026",
+      "candidate_url": "https://die-pfalz-feiert.de/event-details/herbstmarkt-zur-pfeffelbacher-kerwe",
+      "reason": "Veranstaltung bestaetigt (25.-28.09.2026, Pfeffelbach). Kein offizieller Veranstalter (Ortsgemeinde/Verein) mit Kontakt oder Bewerbungsfrist auffindbar."
+    },
+    {
+      "event_name": "Santas Weihnachtsmarkt im MediaPark, Koeln 2026",
+      "candidate_url": "https://santas-weihnachtsmarkt.de/",
+      "reason": "Veranstaltung bestaetigt (19.11.-23.12.2026, MediaPark Koeln), Premiere 2026 mit rund 80 Standplaetzen. Offizielle Veranstalterseite vorhanden mit allgemeiner Kontaktaufnahme fuer Aussteller, jedoch keine konkrete Bewerbungsfrist genannt."
+    },
+    {
+      "event_name": "Beer & Food Festival Wolfenbuettel 2026",
+      "candidate_url": "https://www.wolfenbuettel.de/Stadtleben/Veranstaltungskalender/Beer-Food-Festival-2026.php?ModID=11&FID=3413.34042.1",
+      "reason": "Veranstaltung bestaetigt (18.-20.06.2026, Schlossplatz Wolfenbuettel), Veranstalter ist M&S Hospitality GmbH, nicht die Stadt selbst. Kein direkter Kontakt oder Bewerbungsfrist fuer Standbetreiber gefunden."
+    },
+    {
+      "event_name": "Winterworld an der Motorworld Muenchen 2026",
+      "candidate_url": "https://www.winterworld-motorworld.de/bewerbung2025",
+      "reason": "Veranstaltung bestaetigt (07.11.-18.12.2026, Motorworld Muenchen-Freimann). Bewerbung per E-Mail an as@charlesblumeevents.com (Charles Blume Events), Rueckfragen per WhatsApp 0177/3022373. Keine konkrete Bewerbungsfrist auf der Seite genannt, nur laufendes Auswahlverfahren nach Bewerbungseingang."
+    },
+    {
+      "event_name": "Weihnachtsmarkt / Herbstmarkt an der Pilina Lodge, Dortmund 2026",
+      "candidate_url": "https://www.pilinalodge.de/",
+      "reason": "Veranstaltung bestaetigt (Herbstmarkt 24.-25.10.2026, Weihnachtsmarkt 11.-13.12.2026, Revierpark Wischlingen, Hoefkerstrasse 12, 44149 Dortmund). Gesucht werden Haendler/Kunsthandwerker fuer Huetten. Kein direkter E-Mail-Kontakt oder Bewerbungsfrist auf der Betreiberseite gefunden."
+    },
+    {
+      "event_name": "Parkfest Lankwitz, Berlin 2026",
+      "candidate_url": "https://volksfest-berlin.de/bewerbungsportal/",
+      "reason": "Veranstaltung (26.09.2026) ueber schausteller.de gefunden. Kein spezifischer Veranstalter fuer 'Parkfest Lankwitz' identifizierbar; moeglicherweise ueber das allgemeine Berliner Bewerbungsportal fuer Volksfeste (volksfest-berlin.de) zu bewerben, dort jedoch keine Bestaetigung fuer dieses konkrete Fest gefunden."
+    },
+    {
+      "event_name": "Winterzauber am See / Kölner Winterzauber am Stadtwald 2026",
+      "candidate_url": "https://www.facebook.com/winterzauberamsee/",
+      "reason": "Veranstaltung bestaetigt (Winterzauber am See, Koelner Stadtwald, Duerener Strasse 287, 50931 Koeln, 20.11.-27.12.2026). Kontakt fuer Standanfragen: timo@schulteundschulte.de. Keine Bewerbungsfrist genannt. Hinweis: schausteller.de-Anzeige nennt den Namen 'Kölner Winterzauber am Stadtwald' mit Zeitraum 16.11.-23.12.2026, leicht abweichend vom offiziellen 'Winterzauber am See' - moeglicherweise dieselbe Veranstaltung mit unterschiedlicher Datumsangabe."
+    },
+    {
+      "event_name": "Bopparder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.boppard.de/aktuelles/bopparder-weihnachtsmarkt-2026-jetzt-fuer-einen-standplatz-anmelden/",
+      "reason": "Veranstaltung bestaetigt (27.11.-06.12.2026, historischer Marktplatz Boppard). Anmeldung ueber Tourist Information Boppard, Altes Rathaus am Marktplatz, Tel. 06742/3888, tourist@boppard.de bzw. petra.winkler@boppard.de. Eine im Suchindex angezeigte Frist (31.03.2026) konnte auf der offiziellen Seite und in den verlinkten Teilnahmebedingungen nicht zweifelsfrei bestaetigt werden, daher als review_candidate und nicht als rejected eingestuft."
+    },
+    {
+      "event_name": "Ruiter Weihnachtsmarkt, Ostfildern 2026",
+      "candidate_url": "https://www.ostfildern.de/termin/Ruiter-Weihnachtsmarkt-event-appointment4511",
+      "reason": "Veranstaltung bestaetigt (29.11.2026), Veranstalter BDS Ruit e.V. Kein direkter Kontakt (E-Mail/Telefon) oder Bewerbungsfrist auf der Stadtseite gefunden."
+    },
+    {
+      "event_name": "Nussknackermarkt Engers (Neuwied) 2026",
+      "candidate_url": "https://www.nussknackermarkt.com/",
+      "reason": "Veranstaltung bestaetigt (erstes Adventswochenende, Schloss/Marktplatz Engers). Offizielle Veranstalterseite vorhanden, jedoch kein direkter Kontakt oder Bewerbungsfrist fuer Aussteller 2026 auffindbar."
+    },
+    {
+      "event_name": "29. Bothfelder Herbstmarkt, Hannover 2026",
+      "candidate_url": "https://bothfeld-und-mehr.de/events/bothfelder-herbstmarkt-2026/",
+      "reason": "Veranstaltung bestaetigt (19.-20.09.2026, Kurze-Kamp-Strasse). Anmeldung ueber Gemeinschaft Bothfelder Kaufleute (GBK), Sutelstr. 53, 30659 Hannover, Tel. 0511/6477748, alternativ Eggers Eventservice GmbH (Bjoern Eggers), b.eggers@eggers-eventservice.de. Keine feste Bewerbungsfrist genannt, Anmeldung laufend moeglich; Veranstaltungsbeginn faellt mit dem Recherchedatum zusammen."
+    },
+    {
+      "event_name": "Spekulatiusmarkt Buettgen (Kaarst) 2026",
+      "candidate_url": "https://www.ig-buettgen.eu/unsere-veranstaltungen/spekulatiusmarkt/",
+      "reason": "Veranstaltung bestaetigt (2. Adventswochenende, Kirche/Rathaus Buettgen). Veranstalter Interessengemeinschaft Buettgen e.V., Gutenbergstr. 2, 41564 Kaarst-Buettgen, Tel. 02131 92390, info@ig-buettgen.eu. Keine Bewerbungsfrist auf der Seite genannt."
+    },
+    {
+      "event_name": "Fischbacher Kirmes mit 30. Fischbacher Moritzrennen, Arnsdorf bei Dresden 2026",
+      "candidate_url": "https://www.gemeindearnsdorf.de/gemeinde/ortsteile/fischbach",
+      "reason": "Veranstaltung bestaetigt (01.-04.10.2026, Ortsteil Fischbach, Gemeinde Arnsdorf). Organisiert durch IG Moritz. Kein direkter Kontakt (E-Mail/Telefon) oder Bewerbungsfrist fuer Standbetreiber gefunden."
+    },
+    {
+      "event_name": "Scheidinger Herbstkirmes, Welver 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/scheidinger-herbstkirmes-14937.html",
+      "reason": "Veranstaltung (02.-04.10.2026) ueber schausteller.de gefunden; eigene Vereinsseite (scheidinger-kirmes.de) existiert laut Suchergebnis, jedoch kein direkter Kontakt oder Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "18. Apfelfest in Clusorth-Bramhar (Lingen) 2026",
+      "candidate_url": "https://www.apfelfest.net/",
+      "reason": "Veranstaltung bestaetigt (27.09.2026), im Rahmen der 1050-Jahr-Feier der Stadt Lingen. Kontakt: Tel. +49 171 8317853, info@apfelfest.net. Keine feste Bewerbungsfrist fuer regionale Anbieter genannt."
+    },
+    {
+      "event_name": "Wambacher Kerb, Schlangenbad 2026",
+      "candidate_url": "https://kerbegesellschaft-wambach.de/kerb/",
+      "reason": "Veranstaltung bestaetigt (16.-18.10.2026), Veranstalter Kerbegesellschaft Wambach 1976 e.V. Kein direkter E-Mail/Telefonkontakt oder Bewerbungsfrist fuer Schausteller auf der Vereinsseite gefunden."
+    },
+    {
+      "event_name": "Weidenauer Weihnachtsmarkt, Siegen-Weidenau (Siegerlandcenter) 2026",
+      "candidate_url": "https://siegerlandcenter.de/events/weidenauer-weihnachtsmarkt.html",
+      "reason": "Veranstaltung bestaetigt, Standort Siegerlandcenter Weidenau. Kontakt info@siegerlandcenter.de. Keine eigene Bewerbungsfrist gefunden; nicht zu verwechseln mit dem bereits abgelaufenen Bewerbungsverfahren des Innenstadt-Weihnachtsmarkts Siegen (siehe rejected_candidates)."
+    }
+  ]
+}

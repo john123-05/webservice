@@ -1,0 +1,65 @@
+{
+  "description": "Portal-basierte Recherche-Warteschlange, ergaenzend zur staedtebasierten queue.json. Quelle: schausteller.de/platzangebote (ca. 25 Seiten, ca. 14 Eintraege je Seite). Die Seite dient nur zum Auffinden; source_url in jedem FristEntry bleibt ausschliesslich eine offizielle Stadt-, Behoerden- oder Veranstalterquelle, wie in RESEARCH_AGENT_PROMPT.md festgelegt.",
+  "units": [
+    {
+      "id": "portal-schausteller-01",
+      "label": "schausteller.de/platzangebote Seiten 1-5",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "done"
+    },
+    {
+      "id": "portal-schausteller-02",
+      "label": "schausteller.de/platzangebote Seiten 6-10",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "done"
+    },
+    {
+      "id": "portal-schausteller-03",
+      "label": "schausteller.de/platzangebote Seiten 11-15",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "status": "done"
+    },
+    {
+      "id": "portal-schausteller-04",
+      "label": "schausteller.de/platzangebote Seiten 16-20",
+      "pages": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "status": "done"
+    },
+    {
+      "id": "portal-schausteller-05",
+      "label": "schausteller.de/platzangebote Seiten 21-25",
+      "pages": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "status": "done"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "batch_id": "portal-schausteller-03-2026-09",
+  "region_scope": ["Bundesweit"],
+  "search_terms": [
+    "schausteller.de platzangebote Seite 11-15",
+    "Schausteller Bewerbung Standplatz offizielle Quelle 2026",
+    "Kirmes Weihnachtsmarkt Volksfest Bewerbungsschluss Stadt 2026"
+  ],
+  "max_expected_results": 50,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-18",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "4. Porzer Weinfest / Porzer Volksfest 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/4-porzer-weinfest-41675.html",
+      "reason": "Offizielle Bekanntmachung der Stadt Koeln (stadt-koeln.de) vom 20.12.2024: Auswahlverfahren fuer die Ausrichtung des Porzer Volksfests 2025-2027, Bewerbungsschluss war 31.01.2025. Frist bereits abgelaufen, Vergabe fuer den gesamten Dreijahreszeitraum 2025-2027 ist bereits erfolgt (Veranstaltungszeitraum 2026: 14.-17.05.2026). Keine offene Bewerbung fuer 2026 moeglich."
+    },
+    {
+      "event_name": "Dorfkirmes",
+      "candidate_url": "https://www.schausteller.de/platzangebote/dorfkirmes-41571.html",
+      "reason": "Keine Ortsangabe auf der Portalseite (Ort nicht genannt), Veranstaltung ist ohne Ortsbezug nicht recherchierbar und nicht eindeutig identifizierbar."
+    },
+    {
+      "event_name": "Lingener Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.tourismus-lingen.de/veranstaltungen/weihnachtsmarkt/informationen-fuer-aussteller/informationen-fuer-weihnachtsmarkt-aussteller.html",
+      "reason": "Die offizielle Seite der Lingen Wirtschaft + Tourismus GmbH nennt den 12.07.2026 als Einsendeschluss. Diese Frist ist zum Prüfdatum bereits abgelaufen; Zusagen wurden bis spätestens 31.08.2026 erteilt."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Rostocker Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.rostocker-weihnachtsmarkt.de/de/index/",
+      "reason": "Offizielle Veranstalterseite bestätigt 23.11.-22.12.2026 und meldet, dass weiterhin Händler mit attraktiven Angeboten gesucht werden. Der reguläre Bewerbungsschluss 01.12.2025 ist zwar verstrichen, für die aktuelle Nachbesetzung wird aber kein neuer fester Stichtag genannt; deshalb Nachfasskandidat statt Eintrag."
+    },
+    {
+      "event_name": "Greifswalder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.greifswald.de/de/urlaub-kultur/veranstaltungen/maerkte/weihnachtsmarkt/",
+      "reason": "Offizielle Stadtseite bestätigt 26.11.-21.12.2026 und verlinkt weiterhin eine Händlerbewerbung. Kontakt Fachbereich Märkte und Veranstaltungen, markt@greifswald.de, Tel. 03834 8536-4380/-2866; kein aktueller fester Stichtag veröffentlicht."
+    },
+    {
+      "event_name": "Pfeffelbacher Kerwe / Herbst- und Bauernmarkt 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/pfeffelbacher-kerwe-42029.html",
+      "reason": "Veranstaltung in 66871 Pfeffelbach (25.-28.09.2026) bestaetigt ueber lokale Presse (wochenblatt-reporter.de) und Ortsgemeinde Pfeffelbach (pfeffelbach.de) als vermutlicher Veranstalter. Keine konkrete Bewerbungsfrist oder Kontaktinformation fuer Standbetreiber auf offizieller Seite auffindbar."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Hamburg-Harburg 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/weihnachtsmarkt-hamburg-harburg-42033.html",
+      "reason": "Bezirksamt Harburg (hamburg.de/harburg) hat die Ausrichtung des Weihnachtsmarkts Harburger Rathausplatz neu ausgeschrieben (Pressemeldung 'Ausschreibung Veranstaltung Weihnachtsmarkt'), Auswahl durch Gremium aus Verwaltung/Politik/Wirtschaft. Direkter Link zur Ausschreibung inkl. Bewerbungsfrist war nicht abrufbar (404); Markttermin 19.11.-28.12.2026 laut harburger-weihnachtsmarkt.de bereits terminiert, Vergabe moeglicherweise bereits erfolgt. Kontakt: Bezirksamt Harburg, Harburger Rathausplatz 1, Hamburg."
+    },
+    {
+      "event_name": "1. Gymnicher Vereins Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/1-gymnicher-vereins-weihnachtsmarkt-42041.html",
+      "reason": "Kleine Vereinsveranstaltung in 50374 Erftstadt-Gymnich, organisiert vermutlich durch St. Sebastianus Bruderschaft / Jugendabteilung bzw. 'Gut Klang' Erftstadt e.V. Kein amtliches Bewerbungsverfahren fuer Schausteller mit Frist auffindbar."
+    },
+    {
+      "event_name": "Herbst Martinimarkt in Herne NRW (18 Spieltage) 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/herbst-martinimarkt-in-herne-nrw-18-spieltage-42043.html",
+      "reason": "Nicht identisch mit der Cranger Kirmes (Stadt Herne, Fachbereich 44). Kein eigenes offizielles Bewerbungsverfahren der Stadt Herne fuer diesen Martinimarkt auffindbar; moeglicherweise privater Veranstalter."
+    },
+    {
+      "event_name": "Es wird laut in Neubrandenburg!!! 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/es-wird-laut-in-neubrandenburg-41761.html",
+      "reason": "Privat wirkende Kleinveranstaltung (02.-04.10.2026), keine amtliche Stadt- oder Behoerdenquelle auffindbar."
+    },
+    {
+      "event_name": "Es wird laut in Achern!!! 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/es-wird-laut-in-achern-41759.html",
+      "reason": "Privat wirkende Kleinveranstaltung (25.-27.09.2026) in 77855 Achern, keine amtliche Quelle auffindbar."
+    },
+    {
+      "event_name": "Es wird laut in Hameln!!! 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/es-wird-laut-in-hameln-41757.html",
+      "reason": "Privat wirkende Kleinveranstaltung (18.-20.09.2026) in Hameln, keine amtliche Quelle auffindbar."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Heidenau 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/weihnachtsmarkt-heidenau-41733.html",
+      "reason": "Vermittlung laut Recherche ueber privaten Dienstleister 'Agentur Schroeder' (Haendlerportal), keine staedtische Ausschreibung oder amtliche Quelle mit Bewerbungsfrist auffindbar."
+    },
+    {
+      "event_name": "Winter Wonderland Muenchen 2026/27",
+      "candidate_url": "https://www.schausteller.de/platzangebote/winter-wonderland-muenchen-2026-27-41941.html",
+      "reason": "Privater Veranstalter, Bewerbung per E-Mail an winterwonderlandmunich@gmx.de bzw. ueber winterwonderlandmunich.de/bewerbung. Keine Bewerbungsfrist, kein Ansprechpartner-Name und keine Postadresse genannt."
+    },
+    {
+      "event_name": "Gutshof Fest (Bad Lauchstaedt) 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/gutshof-fest-42053.html",
+      "reason": "Keine belastbaren Informationen zu Veranstalter, Kontakt oder Bewerbungsverfahren fuer 06246 Bad Lauchstaedt auffindbar."
+    },
+    {
+      "event_name": "100 Jahre Burschenverein Kirchenthumbach 2027",
+      "candidate_url": "https://www.schausteller.de/platzangebote/100-jahre-burschenverein-kirchenthumbach-41717.html",
+      "reason": "Vereinsjubilaeum eines Burschenvereins in 91281 Kirchenthumbach, kein Hinweis auf ein offizielles Bewerbungsverfahren fuer Schausteller gefunden."
+    },
+    {
+      "event_name": "Volksfest / Schuetzenfest (Lennestadt) 2027",
+      "candidate_url": "https://www.schausteller.de/platzangebote/volksfest-schuetzenfest-41711.html",
+      "reason": "Generischer Titel ohne konkreten Veranstalternamen, 57368 Lennestadt; keine offizielle Quelle auffindbar."
+    },
+    {
+      "event_name": "Erntedankmarkt Steinfurt-Burgsteinfurt 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/erntedankmarkt-steinfurt-burgsteinfurt-41709.html",
+      "reason": "Moeglicherweise organisiert ueber Steinfurt Erleben GmbH oder DRK-Ortsverein Burgsteinfurt e.V.; kein offizielles Bewerbungsverfahren mit Frist fuer Schausteller gefunden."
+    },
+    {
+      "event_name": "Herbstkirmes Viersen-Duelken (neues Grosskonzept) 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/herbstkirmes-viersen-duelken-mit-neuen-grosskonzept-41705.html",
+      "reason": "Stadt Viersen unterstuetzt den Neustart der Duelkener Herbstkirmes (19.-22.09.2026) laut Pressebericht, offizielle Stadtseite viersen.de/kirmes-und-jahrmarkt war nicht abrufbar (403). Bewerbungen laut Presseartikel per E-Mail an einen privaten Organisator, konkrete Adresse nicht ermittelbar."
+    },
+    {
+      "event_name": "Hoechster Weihnachtsmarkt Koeln's 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/hoechster-weihnachtsmarkt-koeln-s-41687.html",
+      "reason": "Privater Veranstalter (rutwiess-events.de, info@rutwiess-events.de) fuer einen Weihnachtsmarkt in der Koelner Innenstadt (13.11.-23.12.2026). Keine Bewerbungsfrist genannt."
+    },
+    {
+      "event_name": "Santas Weihnachtsmarkt im MediaPark 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/santas-weihnachtsmarkt-im-mediapark-41935.html",
+      "reason": "Privater Veranstalter im MediaPark Koeln (19.11.-23.12.2026), keine Bewerbungsfrist oder Bewerbungsverfahren fuer Schausteller auf santas-weihnachtsmarkt.de auffindbar."
+    },
+    {
+      "event_name": "Oktoberfest in Bochum 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/oktoberfest-in-bochum-41997.html",
+      "reason": "Nicht Teil des offiziellen Veranstaltungsprogramms der Bochum Marketing GmbH (bochum-tourismus.de listet nur Bochumer Weihnachtsmarkt, Musiksommer und diverse Kirmessen, aber kein Oktoberfest). Kein offizieller Veranstalter oder Frist auffindbar."
+    },
+    {
+      "event_name": "Herbstfest Bad Reichenhall 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/herbstfest-bad-reichenhall-41665.html",
+      "reason": "Stadt Bad Reichenhall (stadt-bad-reichenhall.de) bestaetigt Termin 11.-20.09.2026 und nennt Organisator Juergen Hanetzok (Waldkraiburg) in Abstimmung mit Buergerbraeu und der Stadt. Bewerbungsverfahren/-frist fuer Schausteller ist laut Pressemitteilung noch nicht veroeffentlicht (Programm in Ausarbeitung, Verweis auf reichenhall-herbstfest.de)."
+    },
+    {
+      "event_name": "The Winter Village 2026 - Duesseldorf Koenigsallee",
+      "candidate_url": "https://www.schausteller.de/platzangebote/the-winter-village-2026-duesseldorf-koenigsallee-41661.html",
+      "reason": "Keine offizielle Quelle mit Bewerbungsfrist recherchiert; Rechercheumfang in diesem Durchgang durch Erreichen des Such-Kontingents begrenzt."
+    },
+    {
+      "event_name": "Schuetzenfest Hitzacker (Elbe) 2027",
+      "candidate_url": "https://www.schausteller.de/platzangebote/schuetzenfest-hitzacker-elbe-41655.html",
+      "reason": "Ausrichter ist die Schuetzengilde von 1395 zu Hitzacker (Elbe) e.V. (schuetzengilde-hitzacker.de), Kontakt Henning Fredersdorf (Fredersdorf@gmx.net). Kein Verein-/Behoerdenverfahren mit konkreter Bewerbungsfrist fuer Schausteller gefunden."
+    },
+    {
+      "event_name": "174. Erntefest Wustrow (Wendland) 2027",
+      "candidate_url": "https://www.schausteller.de/platzangebote/174-erntefest-wustrow-wendland-41653.html",
+      "reason": "Keine offizielle Quelle mit Bewerbungsfrist recherchiert; Rechercheumfang in diesem Durchgang durch Erreichen des Such-Kontingents begrenzt."
+    },
+    {
+      "event_name": "39. Christkindlmarkt Unterschleissheim 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/39-christkindlmarkt-unterschleissheim-2026-41649.html",
+      "reason": "Stadt Unterschleissheim (Fachbereich 35 Maerkte/Feste, Rathausplatz 1, 85716 Unterschleissheim, maerkte@ush.bayern.de, Tel. 089 310 09 183) ist offizieller Veranstalter. Suchergebnisse nennen einen frueheren Bewerbungsschluss 31. August (Vorjahr), die offizielle Seite unterschleissheim.de/kultur-freizeit-sport/christkindlmarkt.html war jedoch nicht abrufbar (401) und die Frist fuer 2026 konnte nicht direkt verifiziert werden."
+    },
+    {
+      "event_name": "74. Lohhofer Volksfest 2027",
+      "candidate_url": "https://www.schausteller.de/platzangebote/74-lohhofer-volksfest-2027-41647.html",
+      "reason": "Stadt Unterschleissheim (Fachbereich 35 Volksfest/Maerkte, Rathausplatz 1, 85716 Unterschleissheim) ist laut eigener Unterseite 'Schausteller, Gastro & Co.' offizieller Veranstalter. Seite war zum Abruf nicht erreichbar (401), aktuelle Bewerbungsfrist fuer 2027 (Termin 14.-23.05.2027) konnte nicht verifiziert werden."
+    },
+    {
+      "event_name": "VIVRE Wein & Genuss Festival 2027",
+      "candidate_url": "https://www.schausteller.de/platzangebote/vivre-wein-genuss-festival-41643.html",
+      "reason": "Keine offizielle Quelle mit Bewerbungsfrist recherchiert; Rechercheumfang in diesem Durchgang durch Erreichen des Such-Kontingents begrenzt (69488 Birkenau, Odenwald)."
+    },
+    {
+      "event_name": "Nikolausmarkt an der Abtei (Pulheim-Brauweiler) 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/verkaufsstaende-frei-nikolausmarkt-an-der-abtei-brauweiler-41559.html",
+      "reason": "Keine offizielle Quelle mit Bewerbungsfrist recherchiert; Rechercheumfang in diesem Durchgang durch Erreichen des Such-Kontingents begrenzt (50259 Pulheim)."
+    },
+    {
+      "event_name": "Vegesacker Hafenfest 2027",
+      "candidate_url": "https://www.schausteller.de/platzangebote/vegesacker-hafenfest-41641.html",
+      "reason": "Keine offizielle Quelle mit Bewerbungsfrist recherchiert; Rechercheumfang in diesem Durchgang durch Erreichen des Such-Kontingents begrenzt (28757 Bremen-Vegesack)."
+    },
+    {
+      "event_name": "Herbstkirmes Bad Bederkesa 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/herbstkirmes-bad-bederkesa-41639.html",
+      "reason": "Keine offizielle Quelle mit Bewerbungsfrist recherchiert; Rechercheumfang in diesem Durchgang durch Erreichen des Such-Kontingents begrenzt."
+    },
+    {
+      "event_name": "Germeringer Marktsonntag 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/germeringer-marktsonntag-41631.html",
+      "reason": "Keine offizielle Quelle mit Bewerbungsfrist recherchiert; Rechercheumfang in diesem Durchgang durch Erreichen des Such-Kontingents begrenzt (82110 Germering)."
+    },
+    {
+      "event_name": "429. Gallusmarkt Hitzacker (Elbe) 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/429-gallusmarkt-hitzacker-elbe-41627.html",
+      "reason": "Ausrichter ist der Schaustellerverband Lueneburg und Umgebung e.V. in Kooperation mit der Stadt Hitzacker (Elbe), Kontakt Matthias Mantau (matthias.mantau@t-online.de, Tel. 05821 2234). Keine konkrete Bewerbungsfrist genannt."
+    },
+    {
+      "event_name": "71. Britzer Baumbluete 2027",
+      "candidate_url": "https://www.schausteller.de/platzangebote/71-britzer-baumbluete-41585.html",
+      "reason": "Ausrichter ist der Schaustellerbetrieb Wollenschlaeger GmbH (Seepromenade 96, 14612 Falkensee, info@wollenschlaeger-berlin.de, Tel. 03322 42 882 45). Keine konkrete Bewerbungsfrist genannt."
+    },
+    {
+      "event_name": "Wintermarkt Schlossplatz Berlin Mitte 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/wintermarkt-schlossplatz-42051.html",
+      "reason": "Ausrichter ist der Schaustellerbetrieb Wollenschlaeger GmbH ueber die offizielle Veranstaltungsseite wintermarkt-schlossplatz.de/haendlerbewerbung (Markt im Humboldt Forum, Schlossplatz 1, 10178 Berlin). Bewerbungsformular vorhanden, aber keine konkrete Bewerbungsfrist auf der Seite genannt."
+    },
+    {
+      "event_name": "Pflaumenkirmes Radevormwald 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/pflaumenkirmes-radevormwald-2026-nrw-41317.html",
+      "reason": "Keine offizielle Quelle mit Bewerbungsfrist recherchiert; Rechercheumfang in diesem Durchgang durch Erreichen des Such-Kontingents begrenzt (42477 Radevormwald)."
+    },
+    {
+      "event_name": "Kirchweih Burgebrach 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/kirchweih-burgebrach-2026-41567.html",
+      "reason": "Keine offizielle Quelle mit Bewerbungsfrist recherchiert; Rechercheumfang in diesem Durchgang durch Erreichen des Such-Kontingents begrenzt (96138 Burgebrach)."
+    },
+    {
+      "event_name": "Koblenzer Weinfest 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/koblenzer-weinfest-2026-41555.html",
+      "reason": "Offizielle Veranstaltungsseite der Stadt Koblenz war nicht abrufbar (404); keine Bewerbungsfrist oder Kontakt fuer Schausteller gefunden."
+    },
+    {
+      "event_name": "Weihnachtszauber Sierichs im Stadtpark Hamburg (Karussell gesucht) 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/karussell-gesucht-weihnachtszauber-sierichs-im-stadtpark-hamburg-platzangebot-41533.html",
+      "reason": "Private Kleinanzeige auf dem Portal, kein amtlicher Veranstalter oder Bewerbungsfrist auffindbar."
+    },
+    {
+      "event_name": "Scheiderhoeher Kirmes 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/scheiderhoeher-kirmes-41523.html",
+      "reason": "Keine offizielle Quelle mit Bewerbungsfrist recherchiert; Rechercheumfang in diesem Durchgang durch Erreichen des Such-Kontingents begrenzt (53797 Scheiderhoehe)."
+    },
+    {
+      "event_name": "Freudenberg Herbstzauberfest (Wiesbaden-Dotzheim) 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/wiesbaden-freudenberg-herbstzauberfest-41511.html",
+      "reason": "Keine offizielle Quelle mit Bewerbungsfrist recherchiert; Rechercheumfang in diesem Durchgang durch Erreichen des Such-Kontingents begrenzt (65201 Wiesbaden-Dotzheim)."
+    },
+    {
+      "event_name": "Weihnachtsmarkt in Stassfurt 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/weihnachtsmarkt-in-stassfurt-41509.html",
+      "reason": "Keine offizielle Quelle mit Bewerbungsfrist recherchiert; Rechercheumfang in diesem Durchgang durch Erreichen des Such-Kontingents begrenzt (39418 Stassfurt)."
+    },
+    {
+      "event_name": "Schuetzenfest 2027 in Dorsten (Festplatz sucht Fahrgeschaefte)",
+      "candidate_url": "https://www.schausteller.de/platzangebote/festplatz-sucht-fahrgeschaefte-schuetzenfest-2027-in-dorsten-46284-41505.html",
+      "reason": "Offizielle Stadt-Dorsten-Homepage (dorsten.de) enthaelt keine Informationen zu diesem Schuetzenfest; kein offizieller Veranstalter oder Frist auffindbar. Kontakt Stadt Dorsten: 02362 66-0, poststelle@dorsten.de."
+    }
+  ]
+}

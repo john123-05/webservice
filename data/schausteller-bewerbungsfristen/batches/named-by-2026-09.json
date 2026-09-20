@@ -1,0 +1,127 @@
+{
+  "batch_id": "named-by-2026-09",
+  "region_scope": [
+    "Bayern",
+    "Namensbasierte Recherche"
+  ],
+  "search_terms": [
+    "Eventname Bewerbung Schausteller Beschicker Frist"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-19",
+  "entries": [
+    {
+      "id": "alt-rothenburger-reiterlesmarkt-2027-rothenburg-ob-der-tauber",
+      "event_name": "Alt-Rothenburger Reiterlesmarkt 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Rothenburg ob der Tauber",
+      "state": "Bayern",
+      "country": "DE",
+      "venue_or_area": "Marktplatz, Grüner Markt, Kirchplatz und Lichthof am Rathaus",
+      "application_deadline_iso": "2027-04-01",
+      "application_deadline_text": "Bewerbungsstichtag für den Reiterlesmarkt 2027 ist der 01.04.2027.",
+      "event_date_range_text": "Traditionell ab Freitag vor dem 1. Advent bis 23. Dezember; Termin 2027 nicht ausdrücklich veröffentlicht (2026: 20.11.-23.12.).",
+      "application_mode": "Bewerbung beim Amt für Messen und Märkte; Gestaltungs- und Vergaberichtlinien der Stadt beachten.",
+      "postal_address": "Amt für Messen und Märkte, Grüner Markt 1, 91541 Rothenburg ob der Tauber",
+      "contact_name": "Amt für Messen und Märkte",
+      "contact_email": "messen-maerkte@rothenburg.de",
+      "contact_phone": "09861 404-230",
+      "source_url": "https://stadt.rothenburg.de/wohnort/sport-und-freizeit/messen-und-maerkte",
+      "source_domain": "stadt.rothenburg.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-by-2026-09",
+      "confidence_status": "partial",
+      "notes": "Frist wörtlich von der Stadtseite (Abruf 2026-09-19). Vergabe- und Gestaltungsrichtlinien nicht geöffnet; Zusatzdaten fehlen."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Rothenburger Sommermesse 2026",
+      "candidate_url": "https://stadt.rothenburg.de/wohnort/sport-und-freizeit/messen-und-maerkte",
+      "reason": "Bewerbungsstichtag 01.02.2026 abgelaufen; Termin 2027 nicht veröffentlicht.",
+      "agent_batch_id": "named-by-2026-09"
+    },
+    {
+      "event_name": "Rothenburger Weindorf 2026",
+      "candidate_url": "https://stadt.rothenburg.de/wohnort/sport-und-freizeit/messen-und-maerkte",
+      "reason": "Bewerbungsstichtag 01.02.2026 abgelaufen (Weindorf 12.-16.08.2026); Termin 2027 nicht veröffentlicht.",
+      "agent_batch_id": "named-by-2026-09"
+    },
+    {
+      "event_name": "Rothenburger Herbstmesse 2026",
+      "candidate_url": "https://stadt.rothenburg.de/wohnort/sport-und-freizeit/messen-und-maerkte",
+      "reason": "Bewerbungsstichtage 01.05.2026 (Schausteller) und 01.07.2026 (Händler) abgelaufen; 2027 nicht veröffentlicht.",
+      "agent_batch_id": "named-by-2026-09"
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Gillamoos Abensberg 2027",
+      "candidate_url": "https://www.abensberg.de/gillamoos/service/service-fuer-schausteller",
+      "reason": "Gillamoos 2026 war 03.-07.09.2026. Stadtseite nennt keine Bewerbungsfrist für 2027. Kontakt: Heribert Eichstädter, Stadtwerke Abensberg, Bad Gögginger Weg 2, 93326 Abensberg, Tel. 09443 9103 421, heribert.eichstaedter@abensberg.de.",
+      "agent_batch_id": "named-by-2026-09"
+    },
+    {
+      "event_name": "Allgäuer Festwoche Kempten 2027",
+      "candidate_url": "https://www.festwoche.com/ausstellen/ausstellerinfo/anmeldeformular-2026/",
+      "reason": "Festwoche 07.-15.08.2027. Anmeldung 2027 'voraussichtlich ab Ende November' möglich, keine Frist genannt (Vorjahr 2025: 01.03.). Kontakt: Kempten Messe- und Veranstaltungs-Betrieb, Großer Kornhausplatz 1, 87439 Kempten, Tel. 0831 2525-7050, festwoche@kempten.de. Nach Nov. 2026 nachfassen.",
+      "agent_batch_id": "named-by-2026-09"
+    },
+    {
+      "event_name": "Dinkelsbühler Kinderzeche 2027",
+      "candidate_url": "https://www.kinderzeche.de/",
+      "reason": "Kinderzeche 2027 laut Suche 16.-21.07.2027 (nicht auf Seite bestätigt); Standplatzbewerbung Schießwasen erwähnt, aber keine Frist auffindbar. Kontakt über Stadt Dinkelsbühl / Kinderzeche-Verein.",
+      "agent_batch_id": "named-by-2026-09"
+    },
+    {
+      "event_name": "Passauer Christkindlmarkt 2026/2027",
+      "candidate_url": "https://passauer-christkindlmarkt.de/bewerbung/",
+      "reason": "Bewerbungsformular vorhanden, keine Frist und kein Termin auf der Seite. Kontakt: Stadt Passau, Rathausplatz 2, 94032 Passau, Tel. 0851 396551, veranstaltungen@passau.de. Markt 2026: 24.11.-22.12.",
+      "agent_batch_id": "named-by-2026-09"
+    },
+    {
+      "event_name": "Coburger Vogelschießen 2027",
+      "candidate_url": "https://vogelschiessen-coburg.de/infos-fuer-schausteller/",
+      "reason": "Suchtreffer nennt Dauerregel Bewerbung 'bis 31. Oktober des Vorjahres', Seite am 2026-09-19 nicht abrufbar (HTTP 500) und Termin 2027 unbekannt; daher nicht als partial übernommen. Nachfassen: Bewerbung als Schausteller über vogelschiessen-coburg.de.",
+      "agent_batch_id": "named-by-2026-09"
+    },
+    {
+      "event_name": "Ansbacher Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.tourismus-ansbach.de/veranstaltungskalender/feste-maerkte/weihnachtsmarkt",
+      "reason": "Markt 26.11.-23.12.2026; keine Bewerbungsfrist veröffentlicht. Kontakt Tourist-Information Ansbach, Tel. 0981 51243, tourismus@ansbach.de.",
+      "agent_batch_id": "named-by-2026-09"
+    },
+    {
+      "event_name": "Lindauer Hafenweihnacht 2027",
+      "candidate_url": "https://stadtlindau.de/B%C3%BCrger-Politik-Verwaltung/Online-B%C3%BCrgerservices/index.php?La=1&object=tx,2715.5028.1,2412.90.1&kuo=2&sub=0&NavID=2715.139&La=1",
+      "reason": "Frist 2026 vorbei; Kulturamt veröffentlicht Bewerbungsformular jährlich zu Jahresbeginn (mind. 6 Wochen). Keine 2027-Frist bekannt. Nach Jahresbeginn 2027 nachfassen (Kulturamt Lindau).",
+      "agent_batch_id": "named-by-2026-09"
+    },
+    {
+      "event_name": "Romantischer Weihnachtsmarkt Nördlingen 2026",
+      "candidate_url": "https://www.noerdlingen.de/tourismus/veranstaltungen/weihnachtsmarkt",
+      "reason": "Markt 27.11.-23.12.2026; Bewerbung nur für Aktionsbuden in Vorjahren bis 11.10. (Presse, keine offizielle Quelle für 2026). Keine aktuelle Frist gefunden; Stadt Nördlingen kontaktieren.",
+      "agent_batch_id": "named-by-2026-09"
+    },
+    {
+      "event_name": "Füssener Adventsmarkt 2026",
+      "candidate_url": "https://www.stadt-fuessen.de/",
+      "reason": "Keine Bewerbungsfrist auffindbar (nur Markt-/Marktsatzung). Kontakt Füssen Tourismus und Marketing, Kaiser-Maximilian-Platz 1, 87629 Füssen, Tel. 08362 9385-0, tourismus@fuessen.de.",
+      "agent_batch_id": "named-by-2026-09"
+    },
+    {
+      "event_name": "Christkindlmarkt Dachau 2026",
+      "candidate_url": "https://www.dachau.de/maerkte-jahr-und-wochenmaerkte/",
+      "reason": "Stadt nennt allgemein Antrag mind. 8 Wochen vor Markt an maerkte@dachau.de; keine konkrete Christkindlmarkt-Frist. Markt beginnt ca. Ende Nov. 2026, Regelfrist daher wohl bereits verstrichen; nicht abgeleitet.",
+      "agent_batch_id": "named-by-2026-09"
+    },
+    {
+      "event_name": "Memminger Weihnachtsmarkt / Fischertag 2027",
+      "candidate_url": "https://www.memmingen.de/veranstaltungen/traditionelle-feste.html",
+      "reason": "Keine Bewerbungsfrist gefunden. Suche nennt als Ansprechpartner den Bayerischen Landesverband der Marktkaufleute und Schausteller, Marktplatz, 87700 Memmingen (nicht offiziell bestätigt).",
+      "agent_batch_id": "named-by-2026-09"
+    }
+  ]
+}

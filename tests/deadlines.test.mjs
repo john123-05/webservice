@@ -222,3 +222,29 @@ test('bei sonst gleichwertigen Duplikaten gewinnt der ausführlichere Eintrag', 
     assert.equal(result[0].venue_or_area, 'Marktplatz und Rathausvorplatz');
   }
 });
+
+test('frist_offen ist ohne Datum veröffentlichbar, mit Datum aber ungültig', () => {
+  const open = makeEntry({
+    application_deadline_iso: '',
+    application_deadline_text: 'Frist noch nicht veröffentlicht',
+    confidence_status: 'frist_offen',
+  });
+  assert.equal(validateEntry(open).valid, true);
+  assert.equal(isPublishableEntry(open), true);
+  assert.equal(validateEntry({ ...open, application_deadline_iso: '2026-10-15' }).valid, false);
+  assert.equal(validateEntry({ ...open, application_deadline_text: '' }).valid, false);
+});
+
+test('frist_offen taucht nicht als nächste offene Frist auf', () => {
+  const open = makeEntry({
+    id: 'offen-2027',
+    application_deadline_iso: '',
+    application_deadline_text: 'Frist noch nicht veröffentlicht',
+    confidence_status: 'frist_offen',
+  });
+  const dated = makeEntry({ application_deadline_iso: '2026-12-01', application_deadline_text: '01.12.2026' });
+  assert.equal(getNextOpenEntry([open, dated], new Date('2026-09-19T12:00:00Z')).id, dated.id);
+  const result = consolidateData({ masterEntries: [open, dated] });
+  assert.equal(result.errors.length, 0);
+  assert.equal(result.publishableEntries.length, 2);
+});

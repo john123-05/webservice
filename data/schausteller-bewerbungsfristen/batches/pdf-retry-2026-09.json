@@ -1,0 +1,115 @@
+{
+  "batch_id": "pdf-retry-2026-09",
+  "region_scope": [
+    "Bundesweit",
+    "PDF-Retry"
+  ],
+  "search_terms": [
+    "PDF-Download und Textextraktion (pypdf) der bislang nicht lesbaren Ausschreibungs-PDFs"
+  ],
+  "max_expected_results": 20,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-19",
+  "entries": [
+    {
+      "id": "otterndorfer-sternenmarkt-2026-otterndorf",
+      "event_name": "Otterndorfer Sternenmarkt 2026",
+      "event_type": "Weihnachtsmarkt / Hüttenmarkt",
+      "city": "Otterndorf",
+      "state": "Niedersachsen",
+      "country": "DE",
+      "venue_or_area": "Kirchplatz Otterndorf",
+      "application_deadline_iso": "2026-10-05",
+      "application_deadline_text": "bis 05. Oktober 2026 (Online-Anmeldung im Serviceportal)",
+      "event_date_range_text": "11.12.-13.12.2026",
+      "application_mode": "Online-Anmeldung über das Serviceportal der Stadt Otterndorf",
+      "postal_address": "Stadt Otterndorf, Stadtmarketing, Marktstraße 21, 21762 Otterndorf",
+      "contact_name": "Imke Lütjen (Stadtmarketing Otterndorf)",
+      "contact_email": "Imke.Luetjen@Otterndorf.de",
+      "contact_phone": "04751 919135",
+      "source_url": "https://www.otterndorfer-sternenmarkt.de",
+      "source_domain": "otterndorfer-sternenmarkt.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "pdf-retry-2026-09",
+      "confidence_status": "verified",
+      "notes": "Frist auf der offiziellen Sternenmarkt-Seite (Hinweis: Zertifikat der Seite selbstsigniert, per curl abgerufen). Termine, Standgebühren und Kontakt aus dem Teilnahmebedingungen-PDF (stadtmarketing-otterndorf.de/fileadmin/user/sternenmarkt/Teilnahmebedingungen_Sternenmarkt.pdf) 2026 gelesen."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Interessenbekundungsverfahren Weihnachtsmarkt Rathenow (Märkischer Platz)",
+      "candidate_url": "https://www.rathenow.de/fileadmin/rathenow-de/wirtschaft/PDF/Vergaben/2023/Interessenbekundungsverfahren_2023-2026_Weihnachtsmarkt.pdf",
+      "reason": "PDF gelesen: Bewerbungsfrist war der 15.03.2023 (Verfahren fuer die Jahre 2023-2026, Zuschlag durch Stadtverordnetenversammlung 26.04.2023); abgelaufen. Naechste Ausschreibung erst fuer die Zeit nach 2026 zu erwarten.",
+      "agent_batch_id": "pdf-retry-2026-09"
+    },
+    {
+      "event_name": "Cuxhavener Weihnachtsmarkt",
+      "candidate_url": "https://www.cuxhaven.de/_Resources/Persistent/8/7/8/f/878f42dd971cfb014dccc7d652d011069b12f970/Interessenbekundungsverfahren%202025%20Weihnachtsmarkt.pdf",
+      "reason": "PDF gelesen: Interessenbekundungsverfahren fuer Ausrichter 2025-2027 (Option bis 2029), Frist war der 10.06.2025, 12:00 Uhr; abgelaufen. Kontakt Niklas Bathmann, Fachbereich 3, Tel. 04721 700-523, Niklas.Bathmann@Cuxhaven.de.",
+      "agent_batch_id": "pdf-retry-2026-09"
+    },
+    {
+      "event_name": "Leipziger Weihnachtsmarkt 2026 - Bewerbungsformular",
+      "candidate_url": "https://www.leipzig.de/service-portal/formulare/formular/weihnachtsmarkt/download",
+      "reason": "PDF gelesen: Bewerbungsschluss 30.04.2026 (Posteingang Marktamt Leipzig); abgelaufen. Jahrgang 2027 (Frist 2027-04-30) steht bereits im Master.",
+      "agent_batch_id": "pdf-retry-2026-09"
+    },
+    {
+      "event_name": "Gütersloher Weihnachtsmarkt (Standplätze) / Herbstmarkt",
+      "candidate_url": "https://www.guetersloh-marketing.de/wp-content/uploads/2025/01/bewerbung-huettenbetreiberinnen-richtlinien-bewerbungen-guetersloher-weihnachtsmarkt-2025.pdf",
+      "reason": "PDF gelesen: Richtlinien gelten nur fuer 2025 (Bewerbungsschluss 28.03.2025, Online-Formular gtm); abgelaufen, 2026 laut frueherem Befund bereits abgeschlossen. Herbstmarkt steht nicht im PDF, weiterhin ohne Frist.",
+      "agent_batch_id": "pdf-retry-2026-09"
+    },
+    {
+      "event_name": "Pfingstvolksfest und Herbstvolksfest Ingolstadt 2027",
+      "candidate_url": "https://www.ingolstadt.de/output/download.php?fid=3052.11550.1.PDF",
+      "reason": "Ausschreibungs-PDF (Kulturamt) gelesen: nur Jahrgang 2026 mit Frist 30.06.2025 (Postweg, nicht per E-Mail). Fuer 2027 ist keine Ausschreibung veroeffentlicht; bei gleichem Rhythmus laege die Frist um den 30.06.2026 und waere abgelaufen. Nicht als Eintrag uebernehmbar. Kontakt Kulturamt, Ziegelbraeustr. 7, kulturamt@ingolstadt.de, 0841 305-46601.",
+      "agent_batch_id": "pdf-retry-2026-09"
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Bad Nauheimer Christkindlmarkt",
+      "candidate_url": "https://www.bad-nauheim.de/frontend/0_dokumente/4_buergernah/politik/stadtrecht/kultur/5-70%20Christkindlmarkt%20-%20Teilnahmebedingungen.pdf",
+      "reason": "PDF gelesen: Dauerregel Bewerbungen 01.01.-31.08. des Veranstaltungsjahres; Eintrag Bad Nauheimer Christkindlmarkt 2027 (Frist 2027-08-31) steht bereits im Master. Keine weitere Aktion.",
+      "agent_batch_id": "pdf-retry-2026-09"
+    },
+    {
+      "event_name": "Karlsruher Jahrmaerkte (Karlsruher Mess') 2027",
+      "candidate_url": "https://www.karlsruhe.de/kultur-freizeit/maerkte/bewerbungsverfahren",
+      "reason": "Bereits im Master (Fruehjahrsmess 2027 Frist 2026-12-01, Herbstmess 2027 Frist 2027-01-02); erledigt.",
+      "agent_batch_id": "pdf-retry-2026-09"
+    },
+    {
+      "event_name": "Celler Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.celle.de/loadDocument.phtml?FID=3747.2314.1&Ext=PDF",
+      "reason": "PDF-Retry 2026-09-19: Zulassungsrichtlinien 2026 (Weihnachtsmarkt 23.11.-27.12.2026) per Textextraktion gelesen; enthalten keinerlei Fristdatum (Bewerbung erfolgt ueber separaten Bewerbungsbogen). Marktamt/Fachdienst 16 Stadt Celle direkt kontaktieren.",
+      "agent_batch_id": "pdf-retry-2026-09"
+    },
+    {
+      "event_name": "Lüneburger Weihnachtsmarkt",
+      "candidate_url": "https://www.hansestadt-lueneburg.de/_Resources/Persistent/7/d/7/d/7d7d4b51b764e6079d9f5226ecdf692f57c90eb0/vergaberichtlinien_weihnachtsmarkt.pdf",
+      "reason": "PDF gelesen (Vergaberichtlinien, Stand 30.01.2018): nennt nur, dass Frist jeweils rechtzeitig separat ausgeschrieben wird; kein Datum. Bewerbungsportal bewerbung.hansestadtlueneburg.de direkt pruefen.",
+      "agent_batch_id": "pdf-retry-2026-09"
+    },
+    {
+      "event_name": "Rüsselsheimer Volksfeste 2026",
+      "candidate_url": "https://www.ruesselsheim.de/medien/pdfs-ruesselsheim.de/formulare/Bewerbungsformular-Volksfeste-2026.pdf",
+      "reason": "PDF-URL liefert am 2026-09-19 HTTP 404 (Seite nicht mehr vorhanden); Frist nicht ermittelbar. Stadt Ruesselsheim, Zentrales Veranstaltungswesen, direkt kontaktieren.",
+      "agent_batch_id": "pdf-retry-2026-09"
+    },
+    {
+      "event_name": "Göttinger Weihnachtsmarkt / Ostermarkt / Lieselmarkt",
+      "candidate_url": "https://www.goettingen.de/buergerservice/dienstleistungen/taetigkeit-als-markthaendlerin-markthaendler-oder-schaustellerin-schausteller-aufnahme-900000311-0.html?myMedium=1",
+      "reason": "Im PDF-Retry nicht erneut belegbar (Stadtrecht-PDF nicht gefunden); Fristen 31.05./15.02. bleiben unbestaetigt. Kontakt: S. Schneid, Neues Rathaus Zi. 210, S.Schneid@goettingen.de.",
+      "agent_batch_id": "pdf-retry-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Meppen 2026 (23.11.-30.12.2026, Alter Markt/Hasestrasse/Windthorstplatz)",
+      "candidate_url": "https://www.wim-meppen.de/portal/seiten/weihnachtsmarkt-meppen-23-november-30-dezember-2026-900000422-24701.html",
+      "reason": "Seite 2026-09-19 erneut geprueft: kein Fristdatum, Bewerbung nur schriftlich; Kontakt Ansgar Limbeck 05931 153-295, ansgar.limbeck@meppen.de, Katja Wocken 05931 153-296.",
+      "agent_batch_id": "pdf-retry-2026-09"
+    }
+  ]
+}

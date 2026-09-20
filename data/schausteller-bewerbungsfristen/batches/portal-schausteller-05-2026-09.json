@@ -1,0 +1,290 @@
+{
+  "batch_id": "portal-schausteller-05-2026-09",
+  "region_scope": [
+    "Bundesweit",
+    "schausteller.de/platzangebote Seiten 21-25"
+  ],
+  "search_terms": [
+    "schausteller.de platzangebote p=21..25",
+    "<Veranstaltungsname> Schausteller Bewerbung Frist",
+    "<Veranstaltungsname> Ausschreibung Standplatz Stadt/Gemeinde"
+  ],
+  "max_expected_results": 45,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-18",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Chilbi | Herbstfest in Gais AR",
+      "candidate_url": "https://www.schausteller.de/platzangebote/chilbi-herbstfest-in-gais-40773.html",
+      "reason": "Veranstaltungsort Gais AR liegt in der Schweiz, nicht in Deutschland - außerhalb des Projektumfangs (country=DE)."
+    },
+    {
+      "event_name": "Weihnachtsmarkt 3. Adventwochenende",
+      "candidate_url": "https://www.schausteller.de/platzangebote/weihnachtsmarkt-3-adventwochenende-40787.html",
+      "reason": "Kein Ort und kein Veranstalter in der Anzeige genannt; Veranstaltung nicht identifizierbar, daher keine offizielle Quelle recherchierbar."
+    },
+    {
+      "event_name": "Kirmes (Platzangebot ohne Ortsangabe)",
+      "candidate_url": "https://www.schausteller.de/platzangebote/kirmes-40323.html",
+      "reason": "Anzeige ohne Ortsangabe und ohne individuellen Veranstaltungsnamen; keine Identifikation und damit keine offizielle Quelle möglich."
+    },
+    {
+      "event_name": "Martini Kirmes 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/martini-kirmes-2026-40449.html",
+      "reason": "Kein Ort in der Anzeige genannt; generischer Name ('Martini Kirmes') kommt in vielen Orten vor, Veranstaltung nicht eindeutig identifizierbar."
+    },
+    {
+      "event_name": "Jubiläumsfeier (Köln)",
+      "candidate_url": "https://www.schausteller.de/platzangebote/jubilaeumsfeier-40481.html",
+      "reason": "Name zu unspezifisch ('Jubiläumsfeier'), kein Veranstalter oder genauerer Veranstaltungsort erkennbar; keine offizielle Quelle auffindbar."
+    },
+    {
+      "event_name": "Schützenfest 2026 (ohne Ortsangabe)",
+      "candidate_url": "https://www.schausteller.de/platzangebote/schuetzenfest-2026-39349.html",
+      "reason": "Kein Ort in der Anzeige genannt; 'Schützenfest 2026' ist bundesweit ein Gattungsbegriff und ohne Ortsangabe nicht recherchierbar."
+    },
+    {
+      "event_name": "Kirmes bei Werl",
+      "candidate_url": "https://www.schausteller.de/platzangebote/kirmes-bei-werl-40715.html",
+      "reason": "Nur ungefähre Ortsangabe ('bei Werl'), kein Veranstaltungsname oder Ortsteil genannt; Veranstaltung nicht eindeutig identifizierbar, keine offizielle Quelle auffindbar."
+    },
+    {
+      "event_name": "Marsberger Allerheiligen-Markt mit Historischem Umzug",
+      "candidate_url": "https://stadtmarketing-marsberg.de/veranstaltungen/",
+      "reason": "Offizielle Quelle (Stadtmarketing und Wirtschaftsfoerderung Marsberg e.V.) bestaetigt Bewerbungsschluss 31.01.2026 fuer den Markt am 15.10.2026 - diese Frist ist zum Recherchezeitpunkt (18.09.2026) bereits abgelaufen."
+    },
+    {
+      "event_name": "Jahrmarkt - Gallusmarkt (Weißenhorn)",
+      "candidate_url": "https://www.weissenhorn.de/tourismus-und-freizeit/was-ist-los-in-weissenhorn/maerkte",
+      "reason": "Offizielle Stadtseite Weissenhorn nennt Bewerbungsschluss 20.12.2025 fuer den Gallusmarkt am 14.10.2026 - diese Frist ist zum Recherchezeitpunkt (18.09.2026) bereits abgelaufen."
+    },
+    {
+      "event_name": "Trödelmärkte an den EDEKA Rosenzweig Filialen in Düren",
+      "candidate_url": "https://www.dks-events.de/",
+      "reason": "Wiederkehrende private Floehmarktserie (DKS Events & Service) an EDEKA-Parkplaetzen, kein amtlicher Ausschreibungsprozess mit fester Bewerbungsfrist erkennbar; passt nicht zum Format 'Schausteller-Bewerbungsfrist'."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Pfeffelbacher Kerwe",
+      "candidate_url": "https://die-pfalz-feiert.de/event-details/pfeffelbacher-kerwe",
+      "reason": "Veranstaltung bestaetigt (Kerwe/Wiesn im Festzelt, 25.-28.09.2026, Pfeffelbach). Kein offizieller Bewerbungsprozess oder Ansprechpartner fuer Schausteller im Netz auffindbar - direkt bei der Ortsgemeinde Pfeffelbach erfragen."
+    },
+    {
+      "event_name": "Herbst Martinimarkt in Herne NRW 18 Spieltage",
+      "candidate_url": "https://www.herne.de/",
+      "reason": "Vermutlich Stadt Herne / Amt fuer oeffentliche Ordnung als Veranstalter (analog Cranger Kirmes, Kontakt Dirk Reuter, Tel. 02323 162435), aber keine eigene Ausschreibungsseite mit Bewerbungsfrist fuer den 'Herbst Martinimarkt' (18 Spieltage) gefunden."
+    },
+    {
+      "event_name": "Feller Markt",
+      "candidate_url": "https://www.fellermarkt-mosel.de/",
+      "reason": "Veranstalter-Website bestaetigt Termin (18.-21.09.2026) und Kontakt info@fellermarkt-mosel.de, Im Bruehl 1, 54341 Fell. Keine Bewerbungsfrist oder -prozess fuer Schausteller veroeffentlicht."
+    },
+    {
+      "event_name": "Kirmes der Burschenschaft Oberquembach",
+      "candidate_url": "https://www.freizeit-mittelhessen.de/events/39-zeltkirmes-oberquembach.html",
+      "reason": "Zeltkirmes der Burschenschaft 'Schoppenelf' Oberquembach bestaetigt (Anfang Oktober). Kein offizieller Online-Bewerbungsprozess oder Kontakt fuer Schausteller auffindbar."
+    },
+    {
+      "event_name": "40. Freimarkt in 49681 Garrel (NDS) + Street Food Festival",
+      "candidate_url": "https://freimarkt-garrel.wixsite.com/home/aussteller",
+      "reason": "Veranstalter Handels- und Gewerbeverein (HGV) Garrel e.V., Hauptstrasse 50, 49681 Garrel bestaetigt (19.-20.09.2026). Anmeldungen laufend moeglich, aber keine feste Bewerbungsfrist genannt."
+    },
+    {
+      "event_name": "Baden-Badener Christkindelsmarkt 2026",
+      "candidate_url": "https://www.baden-baden.com/veranstaltungen/christkindelsmarkt",
+      "reason": "Baden-Baden Kur & Tourismus GmbH als Veranstalter bestaetigt (Tel. +49 7221 275 232 00, info@baden-baden.com), Termin 26.11.2026-06.01.2027, Online-Bewerbungsportal vorhanden (portal.keentix.com), aber keine explizite Bewerbungsfrist auf der Seite genannt."
+    },
+    {
+      "event_name": "Herbstmarkt (Pfatter)",
+      "candidate_url": "https://www.pfatter.de/unsere-gemeinde/alle-meldungen/?category=29666",
+      "reason": "Arbeitskreis Kultur der Gemeinde Pfatter als Veranstalter, Termin 20.09.2026 bestaetigt. Kein Bewerbungsprozess/Frist fuer Aussteller/Schausteller online gefunden."
+    },
+    {
+      "event_name": "Kumpel Weihnachtsmakrt",
+      "candidate_url": "https://www.bochum-tourismus.de/bochum-marketing-gmbh/ausstellerinformationen.html",
+      "reason": "Bochum Marketing GmbH (Huestrasse 21-23, 44787 Bochum, Tel. 0234 9049612) als Veranstalter bestaetigt, Termin 19.11.-23.12.2026, Bewerbungsformulare vorhanden, aber keine explizite Frist auf der Seite genannt."
+    },
+    {
+      "event_name": "4. Kupferfest Hettstedt",
+      "candidate_url": "https://www.kupferfest.de/bewerbungen",
+      "reason": "Veranstaltung bestaetigt (16.-18.10.2026), Online-Bewerbungsformular auf offizieller Vereinsseite vorhanden, aber keine explizite Bewerbungsfrist genannt; Essens- und Suesswarenstaende laut Seite bereits ausgebucht."
+    },
+    {
+      "event_name": "Nikolausmarkt an der Abtei Brauweiler",
+      "candidate_url": "https://www.abtei-brauweiler.eu/",
+      "reason": "Veranstaltung im Abteipark Brauweiler (Pulheim) bestaetigt, vermutlich organisiert durch die Brauweiler Interessengemeinschaft (BIG). Kein offizieller Bewerbungsprozess mit Frist fuer Schausteller gefunden."
+    },
+    {
+      "event_name": "Oktoberfest in Bochum",
+      "candidate_url": "https://www.bochum-tourismus.de/bochum-marketing-gmbh/ausstellerinformationen.html",
+      "reason": "Auf der offiziellen Bochum-Marketing-Ausstellerseite wird kein eigenes 'Oktoberfest Bochum' gelistet; Veranstalter vermutlich privat und nicht identifiziert."
+    },
+    {
+      "event_name": "Street Food Festival am Hauptbahnhof",
+      "candidate_url": "https://www.hauptstadtkultur.berlin/events/",
+      "reason": "Vermutlich durch Jüttner Entertainment/Hauptstadtkultur Berlin organisiert (analog Koepenicker Herbst, Boelschestrassenfest), aber konkrete Bestaetigung und Bewerbungsfrist fuer dieses Event nicht gefunden."
+    },
+    {
+      "event_name": "Street Art Festival auf dem Alexanderplatz",
+      "candidate_url": "https://www.hauptstadtkultur.berlin/events/",
+      "reason": "Vermutlich analog zu anderen Berliner Strassenfesten durch Hauptstadtkultur Berlin/Juettner Entertainment organisiert, aber kein spezifischer Nachweis oder Frist gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Eisenhüttenstadt vorm City Center",
+      "candidate_url": "https://www.eisenhuettenstadt.de/",
+      "reason": "Erster Weihnachtsmarkt der Stadt Eisenhuettenstadt vor dem City Center bestaetigt (23.11.-19.12.2026, Suche nach Baeckerei, Suesswaren, Imbiss, Spielgeschaeften), aber kein offizieller Bewerbungsprozess mit Frist auf der Stadtseite gefunden."
+    },
+    {
+      "event_name": "Jubiläums Schützenfest SV Ledde Dorf",
+      "candidate_url": "https://www.schuetzenverein-ledde.de/",
+      "reason": "Schuetzenverein Ledde als Veranstalter bestaetigt (27.-30.05.2027, Ledder Dorfstrasse, Tecklenburg-Ledde), aber keine Bewerbungsfrist oder -prozess fuer Schausteller veroeffentlicht."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Hagebaumarkt Liblar",
+      "candidate_url": "https://www.schausteller.de/platzangebote/weihnachtsmarkt-hagebaumarkt-liblar-40599.html",
+      "reason": "Vermutlich vom privaten Hagebaumarkt Liblar (Erftstadt) organisiert; kein offizieller Bewerbungsprozess mit Frist auffindbar."
+    },
+    {
+      "event_name": "Weihnachtsmarkt im Zechenpark",
+      "candidate_url": "https://www.kamp-lintfort.de/",
+      "reason": "Stadt Kamp-Lintfort als Ausrichter des Weihnachtsmarkts im Zechenpark Friedrich Heinrich bestaetigt (Quartiersplatz), aber kein Bewerbungsprozess/Frist fuer Schausteller auf der Stadtseite gefunden."
+    },
+    {
+      "event_name": "Kirmes in Lutter",
+      "candidate_url": "https://www.schausteller.de/platzangebote/kirmes-in-lutter-40547.html",
+      "reason": "Ort Lutter bei Heilbad Heiligenstadt bestaetigt (19.-20.09.2026), aber keine offizielle Quelle mit Bewerbungsinfo gefunden - Gemeindeverwaltung Heilbad Heiligenstadt direkt kontaktieren."
+    },
+    {
+      "event_name": "Kölner Feierabendmärkte auf dem Chlodwigplatz 2026",
+      "candidate_url": "https://feierabendmaerkte-koeln.de/aussteller/",
+      "reason": "RutWiess Events als privater Veranstalter bestaetigt, laufendes Online-Bewerbungsverfahren ohne festen Stichtag (Rueckmeldung innerhalb 4 Wochen), daher kein konkretes Bewerbungsdatum ableitbar."
+    },
+    {
+      "event_name": "Winterdorf Gummersbach – 19.11. bis 23.12.2026",
+      "candidate_url": "https://www.winterdorf-gummersbach.de/",
+      "reason": "Veranstaltung bestaetigt (12.11.-23.12.2026, iwents-agentur als Organisator). Fuer die 2025er Ausgabe lag die Frist bei 25.04.2025 an post@iwents-agentur.de; 2026er Frist auf der Webseite nicht bestaetigt und vermutlich bereits abgelaufen, aber nicht offiziell verifizierbar."
+    },
+    {
+      "event_name": "Santas Weihnachtsmarkt im MediaPark",
+      "candidate_url": "https://santas-weihnachtsmarkt.de/",
+      "reason": "Premiere 2026 bestaetigt (19.11.-23.12.2026, MediaPark Koeln). Kein Bewerbungsprozess/Frist fuer Schausteller auf der offiziellen Veranstaltungsseite gefunden."
+    },
+    {
+      "event_name": "Erkelenzer Weihnachtsmarkt",
+      "candidate_url": "https://www.erkelenz.de/erkelenz-entdecken/veranstaltungen/erkelenzer-weihnachtsmarkt/",
+      "reason": "Stadt Erkelenz / IWENTS Eventagentur (Saturnstrasse 11, 44388 Dortmund) als Veranstalter bestaetigt (24.11.-21.12.2026), aber keine Bewerbungsfrist auf der Stadtseite genannt."
+    },
+    {
+      "event_name": "Street Food Festival Ludwigsfelde",
+      "candidate_url": "https://www.schausteller.de/platzangebote/street-food-festival-ludwigsfelde-40413.html",
+      "reason": "Termin 25.-27.09.2026 auf der Festwiese Ludwigsfelde vermutet, aber kein offizieller Veranstalter oder Bewerbungsprozess identifiziert."
+    },
+    {
+      "event_name": "Street Food Festival Potsdam",
+      "candidate_url": "https://www.schausteller.de/platzangebote/street-food-festival-potsdam-40411.html",
+      "reason": "Kein offizieller Veranstalter oder Bewerbungsprozess mit Frist identifiziert."
+    },
+    {
+      "event_name": "Köpenicker Herbst",
+      "candidate_url": "https://www.hauptstadtkultur.berlin/kopenicker-herbst/",
+      "reason": "Jüttner Entertainment / Hauptstadtkultur Berlin als Veranstalter bestaetigt (info@juettner-entertainment.de, Luisenhain Koepenick), aber keine feste Bewerbungsfrist genannt."
+    },
+    {
+      "event_name": "Oktoberfest Schönefeld",
+      "candidate_url": "https://www.schausteller.de/platzangebote/oktoberfest-schoenefeld-40407.html",
+      "reason": "Kein offizieller Veranstalter (Gemeinde Schoenefeld oder privat) identifiziert, keine Bewerbungsinfo gefunden."
+    },
+    {
+      "event_name": "Bölschestraßenfest",
+      "candidate_url": "https://www.hauptstadtkultur.berlin/boelschestrassenfest/",
+      "reason": "Jüttner Entertainment / Hauptstadtkultur Berlin als Veranstalter bestaetigt (info@juettner-entertainment.de, Boelschestrasse Friedrichshagen, 18.-20.09.2026), keine feste Bewerbungsfrist genannt."
+    },
+    {
+      "event_name": "Kirmes in Ringleben",
+      "candidate_url": "https://ringleben.net/",
+      "reason": "Ort Ringleben (Thueringen) bestaetigt, aber keine offizielle Bewerbungsinfo mit Frist gefunden - Gemeindeverwaltung Ringleben direkt kontaktieren."
+    },
+    {
+      "event_name": "Winter Wonderland München 2026/27",
+      "candidate_url": "https://www.winterwonderlandmunich.de/bewerbung",
+      "reason": "Privater Veranstalter bestaetigt (Kontakt winterwonderlandmunic@gmx.de), Bewerbung per E-Mail moeglich, aber keine feste Frist auf der Seite genannt."
+    },
+    {
+      "event_name": "Kirmes Mandern",
+      "candidate_url": "https://www.schausteller.de/platzangebote/kirmes-mandern-40309.html",
+      "reason": "Ort Mandern bei Hermeskeil bestaetigt (17.-19.10.2026), keine offizielle Quelle mit Bewerbungsinfo gefunden."
+    },
+    {
+      "event_name": "Kerb Hallgarten/Nahe",
+      "candidate_url": "https://www.schausteller.de/platzangebote/kerb-hallgarten-nahe-40279.html",
+      "reason": "Musikverein Hallgarten 1873 e.V. vermutlich Mitorganisator (Hallgarten bei Bad Kreuznach, 25.-28.09.2026), kein offizieller Bewerbungsprozess/Frist online gefunden."
+    },
+    {
+      "event_name": "Rückershäuser Markt",
+      "candidate_url": "https://de.wikipedia.org/wiki/R%C3%BCckersh%C3%A4user_Markt",
+      "reason": "Marktgesellschaft Rueckershausen als Veranstalter bestaetigt (Kontakt marktmeister@rueckershausen.de, Standgebuehr 2025 war 3 Euro/lfd. Meter), 2026er Termin/Frist noch nicht veroeffentlicht."
+    },
+    {
+      "event_name": "Geisenheimer Adventszauber 2026 - Weihnachtsmarkt Rheingau",
+      "candidate_url": "http://www.geisenheimer-adventszauber.de/",
+      "reason": "Veranstalterin Gisela Mills bestaetigt (Tel. 0151-15548694, Standpreis 90 Euro/3 Tage fuer 3x3m), aber konkretes Datum/Frist fuer 2026 (voraussichtlich erstes Adventswochenende) auf der Seite noch nicht veroeffentlicht."
+    },
+    {
+      "event_name": "Kirmes in Breitungen/werra",
+      "candidate_url": "https://www.schausteller.de/platzangebote/kirmes-in-breitungen-werra-40105.html",
+      "reason": "Keine offizielle Quelle mit Bewerbungsinfo gefunden - Gemeinde Breitungen/Werra direkt kontaktieren."
+    },
+    {
+      "event_name": "Kirmes in Floh",
+      "candidate_url": "https://www.schausteller.de/platzangebote/kirmes-in-floh-40101.html",
+      "reason": "Ort Floh-Seligenthal bestaetigt, keine offizielle Quelle mit Bewerbungsinfo gefunden."
+    },
+    {
+      "event_name": "Kirmes Fambach",
+      "candidate_url": "https://www.schausteller.de/platzangebote/kirmes-fambach-40099.html",
+      "reason": "Ort Fambach (Thueringen) bestaetigt, keine offizielle Quelle mit Bewerbungsinfo gefunden."
+    },
+    {
+      "event_name": "Kram- und Viehmarkt Battenfeld",
+      "candidate_url": "https://www.schausteller.de/platzangebote/kram-und-viehmarkt-battenfeld-40091.html",
+      "reason": "Ort Allendorf/Eder-Battenfeld bestaetigt, keine offizielle Quelle mit Bewerbungsinfo gefunden."
+    },
+    {
+      "event_name": "Königswalder Wiesn 2026",
+      "candidate_url": "http://www.jc-wolfsheim.de/index.php/koenigswalder-wiesn",
+      "reason": "Jugendclub Wolfsheim als Veranstalter bestaetigt (02.-04.10.2026, Koenigswalde/Erzgebirge), kein offizieller Bewerbungsprozess/Frist fuer Schausteller online gefunden."
+    },
+    {
+      "event_name": "Kirmes Reiskirchen",
+      "candidate_url": "https://bs-reiskirchen.de/",
+      "reason": "Burschenschaft Reiskirchen e.V. (Huettenberg) als Veranstalter bestaetigt (08.-12.10.2026), kein offizieller Bewerbungsprozess/Frist online gefunden."
+    },
+    {
+      "event_name": "Kirb in Ober-Mockstadt 2026",
+      "candidate_url": "https://www.schausteller.de/platzangebote/kirb-in-ober-mockstadt-2026-39731.html",
+      "reason": "Ort Ober-Mockstadt (Gemeinde Ranstadt) bestaetigt, keine offizielle Quelle mit Bewerbungsinfo gefunden."
+    },
+    {
+      "event_name": "Oktoberfest Meiningen",
+      "candidate_url": "https://meiningen.de/",
+      "reason": "Stadtseite Meiningen listet das Event im Veranstaltungskalender, aber keine Ausschreibung/Bewerbungsfrist fuer Schausteller gefunden."
+    },
+    {
+      "event_name": "Kirmes und 150 Jähriges Feuerwehrjubiläum",
+      "candidate_url": "https://www.schausteller.de/platzangebote/kirmes-und-150-jaehriges-feuerwehrjubilaeum-38953.html",
+      "reason": "Ort Grossalmerode bestaetigt (29.07.-01.08.2027), keine offizielle Quelle mit Bewerbungsinfo gefunden - vermutlich Freiwillige Feuerwehr Grossalmerode als Veranstalter."
+    },
+    {
+      "event_name": "100 Jahre Freiwillige Feuerwehr Großkugel",
+      "candidate_url": "https://www.schausteller.de/platzangebote/100-jahre-freiwillige-feuerwehr-grosskugel-38931.html",
+      "reason": "Vermutlich Freiwillige Feuerwehr Grosskugel als Veranstalter (30.04.-02.05.2027), keine offizielle Quelle mit Bewerbungsinfo gefunden."
+    },
+    {
+      "event_name": "Vereinsfest Löbichau",
+      "candidate_url": "http://www.sv-loebichau.de/veranstaltungen/index.php",
+      "reason": "Sportverein Loebichau e.V. als Veranstalter bestaetigt (Beerwalder Strasse 33, 04626 Loebichau, Tel. 034496 23174, svloebichau@web.de, Termin 03.-05.09.2027), aber keine Bewerbungsfrist fuer Schausteller genannt."
+    }
+  ]
+}

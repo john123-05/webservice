@@ -2254,8 +2254,6 @@ figure {
 }
 
 .hero-new-customers {
-  font-size: 0.88em;
-  letter-spacing: -0.07em;
   white-space: nowrap;
 }
 
@@ -5775,6 +5773,8 @@ h2 {
   letter-spacing: -0.02em;
 }
 
+.fk-date--open .fk-date-day { color: var(--fk-ink-soft); }
+
 .fk-date-month {
   display: block;
   margin-top: 3px;
@@ -6757,4 +6757,137 @@ h2 {
     opacity: 1;
     transform: none;
   }
+}
+
+/* Zwei Dinge (Startseite) */
+.two-things-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: 48px;
+  align-items: center;
+}
+
+.two-things-title {
+  color: #000;
+  font-size: clamp(1.8rem, 3.4vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.two-things-accent {
+  color: #145af3;
+}
+
+.two-things-media {
+  min-width: 0;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+@media (max-width: 860px) {
+  .two-things-layout {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
+
+/* Navbar der Fristenkalender-Seite */
+.fk .lc-header-inner { justify-content: flex-start; }
+.fk .lc-header .brand-logo { height: 42px; width: auto; transform: none; }
+
+.fk-help-text {
+  margin-left: auto;
+  font-size: 0.94rem;
+  font-weight: 400;
+  color: #28425f;
+}
+
+.fk-menu { position: relative; }
+
+.fk-menu summary:hover { background: #e8f0ff; }
+
+
+.fk-menu summary {
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: 1.5px solid var(--primary);
+  border-radius: 999px;
+  font-size: 0.94rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.fk-menu summary::-webkit-details-marker { display: none; }
+
+.fk-menu summary span {
+  width: 6px;
+  height: 6px;
+  margin-top: -2px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+}
+
+.fk-menu[open] summary span { transform: rotate(225deg); margin-top: 3px; }
+
+.fk-menu-list {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 8px 14px;
+  position: absolute;
+  right: 0;
+  min-width: 290px;
+  background: #eef4ff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(14, 34, 56, 0.16);
+}
+
+.fk-menu-list a {
+  display: block;
+  padding: 9px 2px;
+  color: #28425f;
+  font-size: 0.92rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.fk-menu-list a:hover { color: var(--primary); }
+
+/* Freigeschalteter Zustand: Kalender fuellt die Seite */
+.fk--unlocked .lc-header .btn { display: none; }
+.fk--unlocked .fk-hero { display: none; }
+
+.fk-unlocked-badge {
+  margin-left: 28px;
+  padding: 7px 16px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.fk--unlocked .fk-board { padding: 88px 0 32px; }
+.fk--unlocked .fk-board-head { display: none; }
+
+.fk--unlocked .fk-scroll {
+  max-height: calc(100vh - 170px);
+  min-height: 420px;
+}
+
+@media (max-width: 720px) {
+  .fk .lc-header .brand-logo { height: 34px; }
+  .fk-help-text { display: none; }
+  .fk-menu summary { font-size: 0.82rem; }
+  .fk-menu-list { min-width: 240px; }
+  .fk-unlocked-badge { margin-left: 14px; padding: 6px 11px; font-size: 0.8rem; }
+  .fk--unlocked .fk-board { padding-top: 76px; }
+  .fk--unlocked .fk-scroll { max-height: calc(100vh - 150px); }
 }

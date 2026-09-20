@@ -13,7 +13,9 @@ const today = new Date().toISOString().slice(0, 10);
 const master = existsSync(masterPath)
   ? JSON.parse(readFileSync(masterPath, 'utf8'))
   : { entries: [] };
-const entries = master.entries || [];
+const allEntries = master.entries || [];
+const undatedCount = allEntries.filter((e) => !e.application_deadline_iso).length;
+const entries = allEntries.filter((e) => e.application_deadline_iso);
 
 let problems = 0;
 const report = (label, list, render = (x) => x) => {
@@ -27,7 +29,7 @@ const report = (label, list, render = (x) => x) => {
   if (list.length > 12) console.log(`       ... und ${list.length - 12} weitere`);
 };
 
-console.log(`Datensatz: ${entries.length} Eintraege, Stichtag ${today}\n`);
+console.log(`Datensatz: ${entries.length} Eintraege mit Frist (+ ${undatedCount} mit noch offener Frist), Stichtag ${today}\n`);
 
 // 1. Abgelaufene Fristen - gehoeren nicht mehr in einen Kalender offener Fristen.
 report(

@@ -1,0 +1,133 @@
+{
+  "batch_id": "named-nrw-2026-09",
+  "region_scope": [
+    "Nordrhein-Westfalen",
+    "Namensbasierte Recherche"
+  ],
+  "search_terms": [
+    "Eventname Bewerbung Schausteller Beschicker Frist",
+    "Weihnachtsmarkt Bewerbung Beschicker Frist NRW",
+    "Kirmes Schausteller Bewerbung 2027 NRW"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-19",
+  "entries": [
+    {
+      "event_type": "Weihnachtsmarkt",
+      "state": "Nordrhein-Westfalen",
+      "country": "DE",
+      "venue_or_area": "Innenstadt Paderborn",
+      "postal_address": "Stadt Paderborn, Am Abdinghof 11, 33098 Paderborn",
+      "contact_name": "Sandra Hinz / Matthias Amediek",
+      "contact_email": "s.hinz@paderborn.de",
+      "contact_phone": "05251 8811387",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-nrw-2026-09",
+      "id": "paderborner-weihnachtsmarkt-2027",
+      "event_name": "Paderborner Weihnachtsmarkt 2027",
+      "city": "Paderborn",
+      "application_deadline_iso": "2027-04-01",
+      "application_deadline_text": "Bewerbungen voraussichtlich ab Anfang Januar 2027 möglich, Fristende am 1. April 2027 (voraussichtlich)",
+      "event_date_range_text": "Weihnachtsmarkt 2027 (Termin nicht auf der Seite genannt)",
+      "application_mode": "Online-Bewerbungsformular der Stadt; maßgeblich ist der Eingang der Bewerbung in der Verwaltung",
+      "source_url": "https://www.paderborn.de/microsite/maerkte/weihnachtsmarkt/index_163771_194493_206269_241841_277346_297707_316536.php",
+      "source_domain": "paderborn.de",
+      "confidence_status": "partial",
+      "notes": "Städtische Seite nennt für 2027 voraussichtlich Bewerbungsstart Anfang Januar 2027 und Fristende 01.04.2027; als voraussichtlich gekennzeichnet, nicht bestätigt. Verfahren 2026 abgeschlossen. Veranstaltungstermin 2027 nicht genannt. Zweiter Ansprechpartner: m.amediek@paderborn.de, 05251 8812090."
+    },
+    {
+      "event_type": "Weihnachtsmarkt / Kunsthandwerkermarkt",
+      "state": "Nordrhein-Westfalen",
+      "country": "DE",
+      "venue_or_area": "Barendorf (Museen Iserlohn)",
+      "postal_address": "Stadtmuseum Iserlohn, Fritz-Kühn-Platz 1, 58636 Iserlohn",
+      "contact_name": "Stadtmuseum Iserlohn",
+      "contact_email": "museum@iserlohn.de",
+      "contact_phone": "",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-nrw-2026-09",
+      "id": "weihnachtliches-barendorf-iserlohn-2027",
+      "event_name": "Weihnachtliches Barendorf Iserlohn 2027",
+      "city": "Iserlohn",
+      "application_deadline_iso": "2027-02-28",
+      "application_deadline_text": "Bewerbung bis Ende Februar eines Jahres (Dauerregel)",
+      "event_date_range_text": "2026: 5.-6. und 12.-13. Dezember (jeweils 12-19 Uhr); 2027 nicht genannt",
+      "application_mode": "Bewerbung per E-Mail oder Post mit aussagekräftigen Fotos der Produkte bzw. bisheriger Stände",
+      "source_url": "https://museen-iserlohn.de/weihnachtliches-barendorf/",
+      "source_domain": "museen-iserlohn.de",
+      "confidence_status": "partial",
+      "notes": "Dauerregel \"bis Ende Februar eines Jahres\"; Datum 2027-02-28 abgeleitet (letzter Februartag 2027), nicht ausdrücklich bestätigt. Nur Kunsthandwerk/Einzelstücke, reine Händlerware unerwünscht; keine Schausteller-Fahrgeschäfte."
+    },
+    {
+      "event_type": "Kirmes",
+      "state": "Nordrhein-Westfalen",
+      "country": "DE",
+      "venue_or_area": "Ortskern Anröchte",
+      "postal_address": "Gemeinde Anröchte, Hauptstraße 74, 59609 Anröchte",
+      "contact_name": "Gemeinde Anröchte",
+      "contact_email": "",
+      "contact_phone": "02947 888-0",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-nrw-2026-09",
+      "id": "anroechter-herbstkirmes-2027",
+      "event_name": "Anröchter Herbstkirmes 2027",
+      "city": "Anröchte",
+      "application_deadline_iso": "2026-12-01",
+      "application_deadline_text": "Bewerbungsvordruck bis 1. Dezember des Vorjahres (Dauerregel)",
+      "event_date_range_text": "2026: 9.-12. Oktober; Termin 2027 nicht genannt",
+      "application_mode": "Bewerbungsvordruck der Gemeinde (Zulassungsbedingungen, Kirmesgebührensatzung)",
+      "source_url": "https://www.anroechte.de/kultur-freizeit/anroechter-herbstkirmes/informationen-fuer-schausteller/innen",
+      "source_domain": "anroechte.de",
+      "confidence_status": "partial",
+      "notes": "Dauerregel \"1. Dezember des Vorjahres\"; für die Kirmes 2027 abgeleitet auf 01.12.2026, nicht ausdrücklich für 2027 bestätigt. Termin 2027 nicht veröffentlicht. Vorherige Terminabsprache mit Sachbearbeiter erforderlich; E-Mail nur über Kontaktformular."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Aachener Weihnachtsmarkt 2026",
+      "candidate_url": "https://aachenweihnachtsmarkt.de/de/seiten/fur-ausstellende/",
+      "reason": "Frist \"Ende Februar 2026\" abgelaufen; Markt 20.11.-23.12.2026. Kein Datum für 2027 veröffentlicht (Veranstalter MAC Aachen, Theaterstraße 65, 52062 Aachen, +49 241 93688949)."
+    },
+    {
+      "event_name": "Bielefelder Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.bielefeld.jetzt/weihnachtsmarkt",
+      "reason": "Online-Bewerbungsfenster 05.01.-01.03.2026 abgelaufen; Markt 19.11.-30.12.2026. Für 2027 noch nichts veröffentlicht (Bielefeld Marketing, info@bielefeld-marketing.de, 0521 55774555)."
+    },
+    {
+      "event_name": "Anröchter Herbstkirmes 2026",
+      "candidate_url": "https://kirmes-anroechte.de",
+      "reason": "Kirmes läuft 09.-12.10.2026 (unter 4 Wochen); Frist 01.12.2025 abgelaufen. 2027 siehe Entry."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Christkindchenmarkt Leverkusen 2026/2027",
+      "candidate_url": "https://www.christkindchenmarkt.de/bewerbung",
+      "reason": "Veranstalter-Seite mit Online-Bewerbungsformularen, aber keine Frist und kein Markttermin genannt. Kontakt info@christkindchenmarkt.de, 0214 8606419, Wöhlerstraße 22, Leverkusen. Nachfassen."
+    },
+    {
+      "event_name": "Fronleichnamskirmes Xanten 2027",
+      "candidate_url": "https://www.xanten.de/rathaus-buergerservice/digitales-services/services-von-a-z/kirmes-xanten",
+      "reason": "Seite lieferte 403 beim Abruf; laut Suchtreffer Kirmes 27.-31.05.2027, Bewerbung digital an ordnung@xanten.de; Frist nicht verifiziert. Nachfassen."
+    },
+    {
+      "event_name": "Heimatfest Haltern am See 2027",
+      "candidate_url": "https://heimatfest-haltern-am-see.de/",
+      "reason": "Heimatfest 2026 war 4.-6.09.2026; Seite nennt keine Schausteller-Bewerbungsfrist für 2027. Kontakt Heimatfest@haltern.de, Marina Jordan 02364 933335, Christian Koop 02364 933433."
+    },
+    {
+      "event_name": "Martinimarkt Nottuln 2027",
+      "candidate_url": "https://www.nottuln.de/kultur-freizeit/maerkte-feste-gedenktage/martinimarkt/infos-fuer-marktbeschicker",
+      "reason": "Markt 06.-08.11.2027 (2026: 07.-09.11.), Online-Bewerbungsformular vorhanden, aber keine Frist genannt. Kontakt martinimarkt@nottuln.de, 02502 942323, Stiftsplatz 7/8, 48301 Nottuln. Nachfassen."
+    },
+    {
+      "event_name": "Kirmesveranstaltungen Hückelhoven (Baal, Brachelen, Kleingladbach, Millich, Rurich, Schaufenberg) 2027",
+      "candidate_url": "https://www.hueckelhoven.de/dienstleistungen/kimes/",
+      "reason": "Stadtseite nennt weder Termine noch Frist (steht in Kirmessatzung); Hückelhoven und Ratheim durch private Veranstalterin Kolo GmbH. Kontakt Lara Prüter, Lara.Prueter@hueckelhoven.de, 02433 82-226."
+    }
+  ]
+}

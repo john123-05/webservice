@@ -1,0 +1,205 @@
+{
+  "batch_id": "portal-schausteller-02-2026-09",
+  "region_scope": [
+    "Bundesweit",
+    "Portal-Recherche schausteller.de/platzangebote Seiten 6-10"
+  ],
+  "search_terms": [
+    "schausteller.de Platzangebote Seiten 6-10",
+    "offizielle Stadt- oder Veranstalterseite je gefundenem Event",
+    "Schausteller Bewerbung Frist 2026 2027"
+  ],
+  "max_expected_results": 48,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-18",
+  "entries": [
+    {
+      "id": "wolfhager-kram-und-viehmarkt-2027-wolfhagen",
+      "event_name": "190. Wolfhager Kram- und Viehmarkt 2027",
+      "event_type": "Volksfest / Kram- und Viehmarkt",
+      "city": "Wolfhagen",
+      "state": "Hessen",
+      "country": "DE",
+      "venue_or_area": "Festplatz Liemecke",
+      "application_deadline_iso": "2026-12-01",
+      "application_deadline_text": "Bewerbungsunterlagen für Verkaufs-, Vergnügungs- und Fahrgeschäfte sowie Händlerstände bis 01.12.2026",
+      "event_date_range_text": "15.07.-18.07.2027",
+      "application_mode": "Per E-Mail oder postalisch an den Magistrat der Stadt Wolfhagen",
+      "postal_address": "Magistrat der Stadt Wolfhagen, Frau Dumeier, Burgstraße 33-35, 34466 Wolfhagen",
+      "contact_name": "Frau Dumeier, Stabsstelle Märkte & Veranstaltungen",
+      "contact_email": "stadtverwaltung@wolfhagen.de",
+      "contact_phone": "05692 602-600",
+      "source_url": "https://wolfhagen.de/kram-viehmarkt-wolfhagen/",
+      "source_domain": "wolfhagen.de",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-18",
+      "agent_batch_id": "portal-schausteller-02-2026-09",
+      "confidence_status": "partial",
+      "notes": "Die offizielle Stadtseite nennt weiterhin den 189. Markt vom 16.-19.07.2026, veröffentlicht aber eine erst danach liegende Bewerbungsfrist 01.12.2026. Die Zuordnung zur nächsten Ausgabe 2027 ist deshalb abgeleitet. Der Veranstaltungszeitraum 15.-18.07.2027 folgt der offiziellen Dauerregel 'immer am dritten Wochenende im Juli' und dem Portal-Kandidaten; vor Veröffentlichung der 2027er Programmseite erneut prüfen."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Matthäusmarkt Roth 2026",
+      "candidate_url": "https://www.stadt-roth.de/stadtleben/aktuelles/maerkte",
+      "reason": "Die offizielle Stadtseite nennt für die Vergabe der Durchführung zwar den 30.09.2026, erklärt zugleich aber, dass alle weiteren Rother Märkte 2026 und 2027 nach aktuellem Stand entfallen. Die im Portal genannte Fierantenfrist 07.09.2026 ist zudem bereits abgelaufen; kein veröffentlichbarer Standplatz-Kandidat."
+    },
+    {
+      "event_name": "Kerwe Erlenbrunn 2026",
+      "candidate_url": "",
+      "reason": "Veranstaltungsbeginn bereits am 25.09.2026, nur sieben Tage nach dem Prüfdatum. Keine offizielle Bewerbungsfrist oder belastbare Veranstalterseite auffindbar; eine noch offene reguläre Schaustellerbewerbung ist praktisch ausgeschlossen."
+    },
+    {
+      "event_name": "Erntedankfest Stommelerbusch 2026",
+      "candidate_url": "https://www.am-stommelerbusch.info/m-article/Erntedankfest-im-Stommelerbusch/",
+      "reason": "Offizielle Kirchengemeindeseite bestätigt den Termin 26.-27.09.2026 und den Böscher Erntedankverein als Ausrichter. Das Fest beginnt in acht Tagen; keine öffentliche Bewerbungsfrist, reguläre Bewerbung damit praktisch ausgeschlossen."
+    },
+    {
+      "event_name": "Jubiläumsfeier einer Waschanlage Saarbrücken 2026",
+      "candidate_url": "",
+      "reason": "Private eintägige Firmenaktion am 27.09.2026 mit nur rund 250 erwarteten Gästen, kein Markt- oder Volksfest. Beginn in neun Tagen und kein offizielles Bewerbungsverfahren; außerhalb des sinnvollen Kalenderumfangs."
+    },
+    {
+      "event_name": "Altstadtfete Schwerin 2026",
+      "candidate_url": "",
+      "reason": "Die Anzeige nennt ausdrücklich Bewerbungsschluss 31.08.2026; diese Frist ist am Prüfdatum bereits abgelaufen. Veranstaltung 09.-11.10.2026, daher kein offener Kandidat."
+    },
+    {
+      "event_name": "Historischer Klostermarkt mit Landvolk-Bauernmarkt Northeim 2026",
+      "candidate_url": "https://www.northeim.de/kultur-freizeit/veranstaltungen/",
+      "reason": "Veranstaltungsbeginn am 19.09.2026, also am Tag nach der Prüfung. Eine offene reguläre Standplatzbewerbung ist ausgeschlossen."
+    },
+    {
+      "event_name": "Herbst- und Familienfest Dorsten 2026",
+      "candidate_url": "https://www.dorsten.de/rathaus-stadt/verwaltung/pressestelle/pressemitteilungen-august-2026/herbst-und-familienfest-2026",
+      "reason": "Offizielle Stadtmeldung bestätigt Termin und Veranstalterin für 26.-27.09.2026. Das Fest beginnt in acht Tagen; ohne veröffentlichte Frist ist eine reguläre offene Bewerbung praktisch ausgeschlossen."
+    },
+    {
+      "event_name": "Schützenfest Rommerskirchen 2026",
+      "candidate_url": "",
+      "reason": "Kurzfristiges Gesuch für einen Schießwagen zum Fest 26.-29.09.2026. Beginn in acht Tagen, keine offizielle Veranstalterseite oder datierte Bewerbungsfrist auffindbar."
+    },
+    {
+      "event_name": "OMClub Köln 2026",
+      "candidate_url": "https://omclub.de/",
+      "reason": "Private Marketing-Fachveranstaltung am 23.09.2026 und damit nur fünf Tage nach der Prüfung. Gesucht wurde ein einzelnes Action-Tool, keine reguläre Schausteller- oder Standplatzbewerbung."
+    },
+    {
+      "event_name": "3. Hamburger Fischmarkt Rottenburg am Neckar 2026",
+      "candidate_url": "https://www.wags-hamburg.de/",
+      "reason": "Die Veranstaltung läuft bereits seit 16.09.2026 und endet am 20.09.2026. Eine offene Bewerbung ist ausgeschlossen."
+    },
+    {
+      "event_name": "Weimarer Weihnacht 2026 – Herderplatz",
+      "candidate_url": "https://stadt.weimar.de/de/wirtschaft-ausschreibungen/nutzung-der-wechselhuette-zur-weimarer-weihnacht-2026.html",
+      "reason": "Die offizielle Stadtseite nennt für Händler der Weimarer Weihnacht den 30.04.2026 als Bewerbungsfrist. Diese Frist ist bereits abgelaufen; das spätere Portalgesuch nennt keinen neuen offiziellen Stichtag."
+    },
+    {
+      "event_name": "Marzahn Herbstfest 2026",
+      "candidate_url": "",
+      "reason": "Für das Portalgesuch vom 09.-11.10.2026 konnte weder im Bezirkskalender Marzahn-Hellersdorf noch auf einer Veranstalterseite ein eindeutig passendes Fest bestätigt werden. Kein offizieller Veranstalter und keine Frist auffindbar."
+    },
+    {
+      "event_name": "VIVRE Wein & Genuss Festival Alsfeld 2027",
+      "candidate_url": "",
+      "reason": "Neues Portalgesuch für 30.04.-02.05.2027 im Alsfelder Klostergarten, aber keine offizielle Stadt- oder Veranstalterseite und kein belastbarer Ansprechpartner auffindbar. Veranstaltung außerhalb des Portals nicht bestätigt."
+    },
+    {
+      "event_name": "Erntedankfest Poppenlauer 2026",
+      "candidate_url": "",
+      "reason": "Generisches Portalgesuch für ein Kinderkarussell am 11.10.2026 ohne benannten Veranstalter oder Kontaktweg. Keine offizielle Veranstaltungsausschreibung auffindbar."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "10. Deutsche Beach-Polo-Meisterschaft Sellin 2026",
+      "candidate_url": "https://www.ostseebad-sellin.de/veranstaltung/10-deutsche-beach-polo-meisterschaft/",
+      "reason": "Offizielle Kurverwaltungsseite bestätigt 02.-04.10.2026 am Hauptstrand; Veranstalter Baltic Polo Events GmbH, Kontakt zusätzlich über kv@ostseebad-sellin.de, Tel. 038303 160. Gesucht werden noch Gastronomiestände, aber keine feste Bewerbungsfrist veröffentlicht."
+    },
+    {
+      "event_name": "Kirmes Hopsten 2026",
+      "candidate_url": "https://www.sabu.de/events/158",
+      "reason": "Gemeinde Hopsten als Veranstalter und Termin 03.-05.10.2026 bestätigt. Die Kirmesfreu(n)de Hopsten suchen ein Familienfahrgeschäft; kein offizieller Bewerbungsschluss oder allgemeiner Kontaktkanal veröffentlicht."
+    },
+    {
+      "event_name": "Lengfelder Kerb 2026",
+      "candidate_url": "https://www.lengfelder-schnullkappe.de/",
+      "reason": "Kerbverein Lengfelder Schnullkappe als Veranstalter bestätigt, Kontakt info@lengfelder-schnullkappe.de. Für 16.-19.10.2026 werden Fahrgeschäft, Kinderkarussell und Spielbude gesucht, aber ohne festen Bewerbungsschluss."
+    },
+    {
+      "event_name": "Christmas Avenue und LGBT Winterdays Berlin 2026",
+      "candidate_url": "https://rutwiess-events.de/events",
+      "reason": "RutWiess Events bestätigt Christmas Avenue im November/Dezember 2026 und bietet eine laufende Standanmeldung an. Kontakt info@rutwiess-events.de; kein fester Bewerbungsschluss veröffentlicht."
+    },
+    {
+      "event_name": "Allerheiligenmarkt Sassenberg 2026",
+      "candidate_url": "https://www.allerheiligenmarkt-sassenberg.de/86-2/",
+      "reason": "Offizielle Veranstalterseite des Gewerbevereins Sassenberg bestätigt 07.-08.11.2026. Kontakt info@gewerbeverein-sassenberg.de; aktuelles Gesuch für ein Fahrgeschäft, aber keine feste Bewerbungsfrist."
+    },
+    {
+      "event_name": "Wittenberger Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.wittenberge.de/veranstaltungen/2836470/2026/12/09/weihnachtsmarkt-wittenberge.html",
+      "reason": "Kultur-, Sport- und Tourismusbetrieb der Stadt Wittenberge bestätigt 09.-13.12.2026 auf dem Paul-Lincke-Platz. Kontakt goettsching@kfh-wbge.de, Tel. 03877 929-174; für ein kleines Riesenrad wird gesucht, aber ohne Bewerbungsfrist."
+    },
+    {
+      "event_name": "Reinheimer Markt 2027",
+      "candidate_url": "https://www.reinheim.de/wirtschaft-standort/standortmarketing/reinheimer-markt/",
+      "reason": "Stadt Reinheim bestätigt Gewerbeverein und Stadt als Veranstalter, Organisation durch Ulrich Diehl Verlags- und Medienservice GmbH. Portal nennt 12.-13.06.2027 und Kontakt Angelika Giesche, angelika.giesche@udvm.de, Tel. 0171 4432482; keine feste Bewerbungsfrist."
+    },
+    {
+      "event_name": "825 Jahre Fichtenberg 2027",
+      "candidate_url": "https://fichtenbergelbe.de/",
+      "reason": "Offizielle Dorfseite bestätigt das Jubiläumsfest 27.-29.08.2027. Gesucht werden Kinderkarussell, Schießbude und Ballwerfen; kein fester Bewerbungsschluss oder öffentlicher Bewerbungsweg genannt."
+    },
+    {
+      "event_name": "VeedelsAdvent Köln-Lindenthal 2026",
+      "candidate_url": "https://rutwiess-events.de/events",
+      "reason": "RutWiess Events ist als Veranstalter bestätigt, Kontakt info@rutwiess-events.de. Portalgesuch und offizielle Seite widersprechen sich beim Jahr/Standort: Portal nennt Köln-Lindenthal 2026, Veranstalterseite aktuell VeedelsAdvent an der Severinstorburg 2027. Vor Aufnahme klären; keine Frist."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Birkenfeld 2026",
+      "candidate_url": "https://www.stadt-birkenfeld.de/leben-in-bir/aemter-was-erledige-ich-wo/item/maerkte.html",
+      "reason": "Stadt Birkenfeld bestätigt Marktmeister Jürgen Schug (Tel. 06782 9899291 bzw. 0151 11562356) als Ansprechpartner. Portal nennt 04.-07.12.2026 und marktmeister-bir@t-online.de; keine feste Bewerbungsfrist veröffentlicht."
+    },
+    {
+      "event_name": "Gertrüdchen Neuenrade 2027",
+      "candidate_url": "https://www.neuenrade.de/Freizeit/Maerkte/Gertruedchen.htm",
+      "reason": "Stadt Neuenrade bestätigt das Gertrüdchen und das Gewerbeamt als zuständige Stelle; Kontakt Sabine Rogoli, s.rogoli@neuenrade.de, Tel. 02392 693-40. Portal nennt Frist 30.09.2026, diese ist auf der offiziellen Seite aber nicht veröffentlicht und darf deshalb nicht als Eintrag übernommen werden."
+    },
+    {
+      "event_name": "150 Jahre Freiwillige Feuerwehr Wörnitz 2027",
+      "candidate_url": "https://www.ff-woernitz.de/150-jahre/",
+      "reason": "Freiwillige Feuerwehr Wörnitz bestätigt das Jubiläumsfest 18.-20.06.2027 und einen Festausschuss. Gesucht werden Fahr- und Spielgeschäfte; kein fester Bewerbungsschluss auf der Vereinsseite."
+    },
+    {
+      "event_name": "Südstadtfest Köln 2027",
+      "candidate_url": "https://www.suedstadtfest-koeln.de/",
+      "reason": "Offizielle Veranstaltungsseite bestätigt 12.-13.06.2027 auf der Bonner Straße. RutWiess Events kündigt die Ausstelleranmeldung erst für später an; Kontakt anmeldung@rutwiess-events.de, noch keine Frist veröffentlicht."
+    },
+    {
+      "event_name": "Beelitzer Lichterzauber 2026/27",
+      "candidate_url": "https://beelitz.de/events/lichterzauber-2/",
+      "reason": "Stadt Beelitz bestätigt den Lichterzauber im Stadtpark; Veranstalter Pyro Passion. Für 18.12.2026-10.01.2027 wird ein historisches Kettenkarussell gesucht, aber ohne öffentliche Bewerbungsfrist oder direkten Bewerbungskontakt."
+    },
+    {
+      "event_name": "Sendlinger Bergweihnacht München 2026",
+      "candidate_url": "https://www.sendlinger-bergweihnacht.de/",
+      "reason": "Offizielle Veranstalterseite bestätigt 20.11.-23.12.2026 am Harras. Veranstalter Schwertfeger Veranstaltungen, kontakt@sendlinger-bergweihnacht.de, Tel. 01522 1713329; Bewerbungen möglich, aber kein fester Stichtag."
+    },
+    {
+      "event_name": "Urige Meppener Oktoberfest 2026",
+      "candidate_url": "https://vorwerk.ems-ticket.de/ok26/",
+      "reason": "Offizielle Veranstalterseite von Getränke Vorwerk bestätigt 24.10.2026 am Nagelshof. Gesucht wird ein Schießwagen, Kontakt info@el-event-service.de, Tel. 05931 4989739; nur 'zeitnah', keine feste Bewerbungsfrist."
+    },
+    {
+      "event_name": "4. Schlossweihnacht Schönfeld 2026",
+      "candidate_url": "https://www.schloss-schoenfeld.de/kontakt/",
+      "reason": "Förderverein Schloss Schönfeld 1996 e.V. als Veranstalterkontakt bestätigt, info@schloss-schoenfeld.de. Veranstaltung 12.-13.12.2026; Händleranmeldung wird angeboten, aber ohne festen Bewerbungsschluss."
+    },
+    {
+      "event_name": "Plagwitzer Naschmarkt Leipzig 2027",
+      "candidate_url": "https://plagwitzer-naschmarkt.de/",
+      "reason": "Offizielle Veranstaltungsseite bestätigt 08.-31.01.2027 im Biergarten des Felsenkellers, Karl-Heine-Straße 32. Bewerbungen an db@honky-tonk.de; keine feste Bewerbungsfrist veröffentlicht."
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "batch_id": "portal-schausteller-01-2026-09",
+  "region_scope": [
+    "Bundesweit",
+    "Portal-Recherche schausteller.de/platzangebote Seiten 1-5"
+  ],
+  "search_terms": [
+    "schausteller.de Platzangebote Seite 1-5",
+    "offizielle Stadt- oder Veranstalterseite je gefundenem Event"
+  ],
+  "max_expected_results": 41,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-18",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Herbstfest Neuenhagen 2026",
+      "candidate_url": "https://www.neuenhagen-bei-berlin.de/startseite-de/aktuelles/2026/neues-anmeldeverfahren-fuer-staende-und-buehnen/",
+      "reason": "Offizielle Quelle der Gemeinde Neuenhagen bei Berlin bestaetigt, Bewerbungsfrist 14.08.2026 (Marktstand) bzw. 01.07.2026 (Buehne) ist zum Pruefzeitpunkt (18.09.2026) bereits abgelaufen. Fuer die 2027er Ausgabe erneut pruefen."
+    },
+    {
+      "event_name": "Gutshof Fest Bad Lauchstaedt 2026",
+      "candidate_url": "https://goethestadt-bad-lauchstaedt.de/veranstaltungen",
+      "reason": "Im offiziellen Veranstaltungskalender der Stadt fuer den genannten Termin nur eine Vogelausstellung gelistet, kein Gutshof Fest auffindbar."
+    },
+    {
+      "event_name": "SV.Hamm 125-jaehriges Jubilaeum Hamburg 2027",
+      "candidate_url": "",
+      "reason": "Weder Sport- noch Schuetzenverein SV Hamm mit Sitz in Hamburg-Hamm und 125-jaehrigem Jubilaeum 2027 auffindbar; Treffer betrafen ausschliesslich Hamm/Westfalen."
+    },
+    {
+      "event_name": "Troisdorfer Oktoberfest 2026",
+      "candidate_url": "https://www.troisdorf.de",
+      "reason": "Offizielle Innenstadtfeste-Liste der Stadt Troisdorf fuer 2026 enthaelt kein Oktoberfest mit diesem Datum; Veranstaltung nicht verifizierbar."
+    },
+    {
+      "event_name": "Kirmes Duelken 2026",
+      "candidate_url": "",
+      "reason": "Duelkener Herbstkirmes beginnt bereits am 19.09.2026 (Pruefdatum 18.09.2026), Bewerbungsfrist beim Ordnungsamt Stadt Viersen mit Sicherheit abgelaufen."
+    },
+    {
+      "event_name": "Weihnachtsmarkt im Seniorenheim Muenster 2026",
+      "candidate_url": "",
+      "reason": "Weder Stadt Muenster noch Caritas-/Altenzentren-Seiten listen dieses Event; kein offizieller Veranstalter/Verfahren auffindbar, vermutlich nicht-oeffentliche Hausveranstaltung."
+    },
+    {
+      "event_name": "Kerwe Ludwigshafen (Ruchheim) 2026",
+      "candidate_url": "https://lukom.com/event-seiten/kerwe-ruchheim/",
+      "reason": "Veranstaltung beginnt morgen (19.09.2026); LUKOM-Seite nennt kein Bewerbungsverfahren fuer Schausteller, Frist praktisch ausgeschlossen."
+    },
+    {
+      "event_name": "Feller Markt 2026 (Fell)",
+      "candidate_url": "https://www.fellermarkt-mosel.de/",
+      "reason": "Veranstaltung hat am Pruefdatum (18.09.2026) bereits begonnen; keine Bewerbungs-/Fristinfos auf offizieller Seite, Frist damit abgelaufen."
+    },
+    {
+      "event_name": "Oktoberfest Germersheim 2026",
+      "candidate_url": "https://oktoberfest-germersheim.de/",
+      "reason": "Seite weist bereits eine vorlaeufige Beschickerliste aus; Beschickerverfahren offenbar abgeschlossen, Beginn in 6 Tagen."
+    },
+    {
+      "event_name": "1. Weihnachtsmarkt auf der Yburg Baden-Baden 2026",
+      "candidate_url": "",
+      "reason": "Weder Staatliche Schloesser und Gaerten BW (Yburg) noch Baden-Baden Kur & Tourismus noch der Verein SR Yburg Steinbach erwaehnen dieses Event fuer 2026; Existenz nicht bestaetigt, vermutlich Verwechslung mit dem regulaeren Christkindelsmarkt."
+    },
+    {
+      "event_name": "Herbstfest Bad Reichenhall 2026",
+      "candidate_url": "https://www.stadt-bad-reichenhall.de/startseite/herbstfest-bad-reichenhall-2026-findet-statt",
+      "reason": "Offizielle Stadtmeldung bestaetigt Termin 11.-20.09.2026 - Veranstaltung laeuft am Pruefdatum (18.09.2026) bereits, offene Bewerbung ausgeschlossen."
+    },
+    {
+      "event_name": "21. Oktoberfest Hamburg Bergedorf 2026",
+      "candidate_url": "",
+      "reason": "Veranstaltung beginnt heute (18.09.2026), Bewerbungsfrist mit Sicherheit abgelaufen."
+    },
+    {
+      "event_name": "40. Freimarkt Garrel 2026",
+      "candidate_url": "https://freimarkt-garrel.de",
+      "reason": "Veranstaltung beginnt morgen (19.09.2026), Bewerbungsfrist mit Sicherheit abgelaufen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Neuer Weihnachtsmarkt am Hackescher Markt Berlin",
+      "candidate_url": "",
+      "reason": "Existenz als eigenstaendige Veranstaltung nicht verifizierbar; moeglicherweise Verwechslung mit dem Umwelt- und Weihnachtsmarkt Sophienstrasse (post@weihnachtsmarkt-sophienstrasse.de) oder sehr neues/kleines Event ohne Webpraesenz."
+    },
+    {
+      "event_name": "Hellersdorfer Erntedankfest 2026",
+      "candidate_url": "https://helle-promenade.de/Aktuelles/erntedankfest",
+      "reason": "Veranstalter Quartiersmanagement Hellersdorfer Promenade (S.T.E.R.N. GmbH) bestaetigt, Kontakt qm-hellersdorf@stern-berlin.de, Tel. 030 99286287. Kein Schausteller-Bewerbungsformular auf der Seite; Termin in 2 Wochen, offene Bewerbung unwahrscheinlich."
+    },
+    {
+      "event_name": "Spandauer Winterland 2026",
+      "candidate_url": "https://www.spandauer-winterland.de/",
+      "reason": "Veranstalter Schaffeld & Spindler GbR bestaetigt, Kontakt anfragen@berliner-winterland.de, Tel. +49 151 529 377 38. Kein oeffentliches Bewerbungsformular/Frist auf der Website sichtbar."
+    },
+    {
+      "event_name": "3. Berliner Wintertraum 2026",
+      "candidate_url": "https://www.berliner-wintertraum.de/kontakt",
+      "reason": "Gleicher Veranstalter wie Spandauer Winterland (Schaffeld & Spindler GbR), Kontakt anfragen@berliner-wintertraum.de. Kein Bewerbungsformular/Frist gefunden. Schaustellerverband Berlin e.V. (volksfest-berlin.de/bewerbungsportal, info@svbev.de) deckt dieses Event laut eigener Liste nicht ab."
+    },
+    {
+      "event_name": "Silvesterparty Heiligenhafen 2026",
+      "candidate_url": "https://heiligenhafen-touristik.de/veranstaltungen/highlights/",
+      "reason": "Veranstalter Heiligenhafen Touristik bestaetigt, Kontakt info@ts-heiligenhafen.de, Tel. 04362/9072-0. Kein Hinweis auf Schausteller-Standplatz-Ausschreibung, wirkt eher wie intern vergebene Party."
+    },
+    {
+      "event_name": "Adventszauber Harztor 2026",
+      "candidate_url": "https://harztor-erlebenswert.de/events/",
+      "reason": "Tourismusbuero Harztor bestaetigt als Ansprechpartner (tourismus@harztor.de, Tel. 036331 462-77), Veranstaltung selbst zum Pruefzeitpunkt noch nicht im bis Oktober gepflegten Kalender gelistet."
+    },
+    {
+      "event_name": "Grosse Kirmes in Heyerode 2026",
+      "candidate_url": "",
+      "reason": "Veranstalter Heyeroeder Kirmesgesellschaft e.V. bestaetigt (09.-12.10.2026), Vereinsseite nur mit 2022er Inhalten. Alternativkontakt Landgemeinde Suedeichsfeld, Tel. 036024 80 22 0. Programm laut Quelle erst Spaetsommer 2026 veroeffentlicht."
+    },
+    {
+      "event_name": "Oktoberfest in Bochum 2026",
+      "candidate_url": "https://www.bochum-oktoberfest.de/",
+      "reason": "Privates Bierzelt-Event (Veranstalter Glas Strack), Kontakt kontakt@bochum-oktoberfest.de, WhatsApp 02327 982399. Kein staedtisches Verfahren, keine Ausschreibung/Frist auf der Website."
+    },
+    {
+      "event_name": "1. Gymnicher Vereins Weihnachtsmarkt 2026",
+      "candidate_url": "",
+      "reason": "Vermutlich von St. Sebastianus Bruderschaft Gymnich 1139 e.V. oder Heimatverein Gymnich e.V. getragen, Tel. (02235) 74067. Keine offizielle Ausschreibung mit Bewerbungsinfos gefunden - eher Vereinsstaende."
+    },
+    {
+      "event_name": "Herbst Martinimarkt Herne 2026",
+      "candidate_url": "",
+      "reason": "Zustaendig vermutlich Stadt Herne FB 44 (dieselbe Stelle wie fuer die Cranger Kirmes), Kontakt Dirk Reuter, Tel. +49 2323 162435, Dirk.Reuter@herne.de - ob dieselbe Frist gilt, nicht verifiziert. Keine dedizierte Ausschreibung fuer den Martinimarkt gefunden."
+    },
+    {
+      "event_name": "Koelner Winterzauber am Stadtwald 2026",
+      "candidate_url": "",
+      "reason": "Veranstalter Schulte & Schulte (Duerener Strasse 287, 50931 Koeln), Kontakt timo@schulteundschulte.de. Kein eigener Web-Auftritt mit Bewerbungsformular, nur Kontakt-E-Mail."
+    },
+    {
+      "event_name": "Santas Weihnachtsmarkt im MediaPark Koeln 2026",
+      "candidate_url": "https://santas-weihnachtsmarkt.de/",
+      "reason": "Eigene Veranstalter-Domain bestaetigt, Kontakt info@santas-weihnachtsmarkt.de, Im MediaPark 50670 Koeln. Bewerbung laeuft fortlaufend bis Staende ausgebucht sind, keine feste Deadline."
+    },
+    {
+      "event_name": "Kirmes Viersen 2026",
+      "candidate_url": "https://www.viersen.de/kirmes-und-jahrmarkt",
+      "reason": "Verfahren ueber Ordnungsamt Stadt Viersen bestaetigt (Postfach 101152, 41711 Viersen, Tel. 02162 101-0), offizielle Seite lieferte HTTP 403 beim Abruf. Event beginnt in ca. 2 Wochen, Frist falls vorhanden wahrscheinlich abgelaufen."
+    },
+    {
+      "event_name": "Nikolausmarkt an der Abtei Pulheim-Brauweiler 2026",
+      "candidate_url": "",
+      "reason": "Aeltere Stadt-Pulheim-Quelle beschreibt nur einen eintaegigen Markt (2. Advents-Samstag), Sammelseite nennt 2 Tage - Widerspruch ungeklaert. Kontakt Stadt Pulheim, Tel. 02238/808-0. Keine Bewerbungsinfo fuer 2026 gefunden."
+    },
+    {
+      "event_name": "Pfeffelbacher Kerwe 2026",
+      "candidate_url": "https://die-pfalz-feiert.de/event-details/pfeffelbacher-kerwe",
+      "reason": "Veranstaltung (25.-28.09.2026) vermutlich von Ortsgemeinde Pfeffelbach getragen, keine offizielle Seite mit Bewerbung/Kontakt gefunden."
+    },
+    {
+      "event_name": "Oktobermarkt und Hochzeitsmesse Horhausen (Westerwald) 2026",
+      "candidate_url": "https://www.horhausen.de/veranstaltungen/oktobermarkt-u-leistungsschau",
+      "reason": "Offizielle Ortsgemeinde-Seite bestaetigt, Kontakt markt@horhausen.de (Marktleitung Lars Lettau) bzw. chadia.struck@outlook.de (Gewerbeschau), Ortsgemeinde Horhausen, Am Bach 5, 56593 Horhausen, Tel. 02687 926830. Keine feste Frist genannt, Bewerbung laut Sekundaerquelle ab sofort moeglich."
+    },
+    {
+      "event_name": "Kirmes Schoenborn (Rhein-Lahn-Kreis) 2026",
+      "candidate_url": "",
+      "reason": "Nur allgemeiner Gemeindekontakt vorhanden (Ortsgemeinde Schoenborn, Tel. 06486 6261, og-schoenborn@online.de ueber VG Aar-Einrich), kein spezifischer Bewerbungskanal fuer Schausteller gefunden."
+    },
+    {
+      "event_name": "75 Jahre Grosse Kirmes in Hausen (Wied) 2026",
+      "candidate_url": "https://kirmes-hausen.de",
+      "reason": "Datumskorrektur noetig: tatsaechlicher Termin laut Vereinsseite 09.-12.10.2026 (nicht wie urspruenglich vermutet). Veranstalter Kirmesburschenverein Hausen e.V., Kontaktformular auf der Seite. Keine Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "78. Grebensteiner Vieh- und Jahrmarkt 2027",
+      "candidate_url": "https://www.grebenstein.de/seite/645789/vieh-jahrmarkt.html",
+      "reason": "Offizielle Stadtseite Grebenstein bestaetigt Termin 09.-12.07.2027, Kontakt Manuel Schmidt (Platzmeister), Rathaus Markt 1, 34393 Grebenstein, Tel. 05674 705137. Ausschreibung fuer 2027 noch nicht veroeffentlicht (aktuell nur 2026 online)."
+    },
+    {
+      "event_name": "Es wird laut - Veranstaltungsreihe mehrerer Staedte 2026 (Forchheim, Lichtenfels, Nordhausen, Hamm, Bad Neustadt, Eching, Neubrandenburg, Achern, Hameln)",
+      "candidate_url": "http://www.gilde-der-marktschreier.de/",
+      "reason": "Veranstalter Event- und Werbeagentur JOBO, Postfach 91 11 43, 45536 Sprockhoevel, Kontakt event-agentur-jobo@gmx.de, Tel. 02324 6866691. Keine eigene Webseite mit Fristen pro Stadt, Bewerbung offenbar formlos per E-Mail. Bei erneuter Pruefung ggf. pro Stadt einzeln aufloesen."
+    },
+    {
+      "event_name": "Winter Wonderland Muenchen 2026/27",
+      "candidate_url": "https://www.winterwonderlandmunich.de/bewerbung",
+      "reason": "Eigene aktive Domain mit Bewerbungsseite bestaetigt, Kontakt winterwonderlandmunich@gmx.de. Keine Frist auf der Seite genannt. Nicht zu verwechseln mit dem inaktiven Winter Wonderland in der Reithalle am Englischen Garten."
+    },
+    {
+      "event_name": "Christkindlmarkt Regenstauf 2026",
+      "candidate_url": "",
+      "reason": "Offizielle Gemeindeseite Regenstauf listet nur die regulaeren Marktsonntage, kein Christkindlmarkt. Kontakt fuer Rueckfrage markt@regenstauf.de, Tel. 09402 509-0."
+    },
+    {
+      "event_name": "Herbstmarkt Blankenburg (Harz) 2026",
+      "candidate_url": "",
+      "reason": "Termin nicht im offiziellen Veranstaltungskalender der Stadt bestaetigt. Kontakt Stadtverwaltung kontakt@blankenburg.de, Tel. 03944 9430, bzw. Touristinfo touristinfo@blankenburg.de, Tel. 03944 362260."
+    },
+    {
+      "event_name": "Oktoberfest Rangsdorf 2026",
+      "candidate_url": "https://www.rangsdorf.de/veranstaltungen/",
+      "reason": "Veranstaltung am Strandbad Rangsdorf offiziell bestaetigt, kein Schausteller-Bewerbungsverfahren auf der Seite. Nur noch 2 Wochen bis Start, Frist falls vorhanden wahrscheinlich abgelaufen."
+    },
+    {
+      "event_name": "Mond und Magie - Die Naechte der Illusionen Schuettorf 2026",
+      "candidate_url": "",
+      "reason": "Samtgemeinde Schuettorf als Veranstalter identifiziert, keine dedizierte Bewerbungsseite mit Kontakt/Frist gefunden."
+    },
+    {
+      "event_name": "Weihnachtsmarkt Hamburg-Harburg 2026",
+      "candidate_url": "https://www.harburger-weihnachtsmarkt.de/kontakt/",
+      "reason": "Veranstalter WAGS Hamburg Events GmbH, Eiffestrasse 68, 20537 Hamburg, Tel. 040 430 975 90. Bewerbungsformular als PDF verlinkt, keine Frist genannt."
+    },
+    {
+      "event_name": "Leipziger Kleinmesse (Herbst) 2026/2027",
+      "candidate_url": "https://www.leipziger-kleinmesse.net/inhalt/kontakt/",
+      "reason": "Leipziger Schaustellerverein e.V. bestaetigt, Cottaweg 5, 04177 Leipzig, Kontakt schaustellerleipzig@gmail.com, Tel. 0163 2424231. Auf der Sammelseite genanntes Datum 25.10.2027 konnte nicht zugeordnet werden, laufendes Bewerbungsverfahren ohne feste Frist."
+    },
+    {
+      "event_name": "Neusaesser Volksfest 2027",
+      "candidate_url": "https://www.neusaess.de/de/Kultur-und-Freizeit/Feste-und-Maerkte/Volksfest",
+      "reason": "Offizielle Stadtseite Neusaess bestaetigt Volksfest-Programm existiert, Kontakt Florian Laritz, Kulturbuero Stadt Neusaess, Tel. 0821/4606-147, kulturbuero@neusaess.de. Fuer 2027 noch keine Bewerbungsfrist veroeffentlicht, bisheriger Festwirt uebernimmt den Bierzeltbetrieb nicht mehr."
+    }
+  ]
+}

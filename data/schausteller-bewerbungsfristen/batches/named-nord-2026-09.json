@@ -1,0 +1,270 @@
+{
+  "batch_id": "named-nord-2026-09",
+  "region_scope": [
+    "Niedersachsen",
+    "Bremen",
+    "Hamburg",
+    "Schleswig-Holstein",
+    "Namensbasierte Recherche"
+  ],
+  "search_terms": [
+    "Eventname + Bewerbung Schausteller Beschicker Frist (Lübeck, Hamburg Rathausmarkt, Lingen, Osnabrück, Hannover, Heide, Stade, Verden, Emden, Cuxhaven, Husum, Rendsburg, Norderstedt, Bremen Schlachte-Zauber, Leer, Lüneburg)"
+  ],
+  "max_expected_results": 100,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-19",
+  "entries": [
+    {
+      "country": "DE",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-nord-2026-09",
+      "contact_name": "Stadt Verden (Aller)",
+      "contact_email": "verkehr@verden.de",
+      "contact_phone": "",
+      "postal_address": "",
+      "venue_or_area": "",
+      "event_date_range_text": "5. bis 10. Juni 2027",
+      "id": "verdener-domweih-2027",
+      "event_name": "Verdener Domweih 2027",
+      "event_type": "Volksfest",
+      "city": "Verden (Aller)",
+      "state": "Niedersachsen",
+      "application_deadline_iso": "2026-09-30",
+      "application_deadline_text": "Bewerbung von Schaustellerinnen und Schaustellern für die Domweih 2027 per E-Mail bis 30.09.2026",
+      "application_mode": "Bewerbung per E-Mail an verkehr@verden.de",
+      "source_url": "https://www.domweih.de/portal/seiten/aktuelles-907000941-20680.html",
+      "source_domain": "domweih.de",
+      "confidence_status": "partial",
+      "notes": "Offizielle Domweih-Seite der Stadt Verden, geprüft am 2026-09-19. Postadresse und Telefon nicht erfasst."
+    },
+    {
+      "country": "DE",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-nord-2026-09",
+      "contact_name": "Marktwesen der Landeshauptstadt Hannover",
+      "contact_email": "23.4@hannover-stadt.de",
+      "contact_phone": "0511 168-42887",
+      "postal_address": "Marktwesen, Vahrenwalder Straße 7, 30165 Hannover",
+      "venue_or_area": "",
+      "event_date_range_text": "2026: 23.11. bis 22.12.2026; 2027 nicht geprüft",
+      "id": "hannover-weihnachtsmarkt-2027",
+      "event_name": "Hannoverscher Weihnachtsmarkt 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Hannover",
+      "state": "Niedersachsen",
+      "application_deadline_iso": "2027-03-15",
+      "application_deadline_text": "Bewerbungsschluss für die Weihnachtsmärkte ist jeweils zum 15.03. des Jahres",
+      "application_mode": "Bewerbung beim Marktwesen der Landeshauptstadt Hannover",
+      "source_url": "https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Landeshauptstadt-Hannover/Dezernate-und-Fachbereiche-der-LHH/Wirtschaft-und-Umwelt/Fachbereich-Wirtschaft/Marktwesen",
+      "source_domain": "hannover.de",
+      "confidence_status": "partial",
+      "notes": "Dauerregel (jeweils zum 15.03.); Datum 2027-03-15 für den Weihnachtsmarkt 2027 abgeleitet, da die Frist für 2026 (15.03.2026) abgelaufen ist."
+    },
+    {
+      "country": "DE",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-nord-2026-09",
+      "contact_name": "Katharina Brüger, Projektleitung City Events, Marketing Osnabrück",
+      "contact_email": "",
+      "contact_phone": "0541 323-3585",
+      "postal_address": "Marketing Osnabrück, Schlosswall 1-9, 49074 Osnabrück",
+      "venue_or_area": "",
+      "event_date_range_text": "2026: 23.11. bis 22.12.2026; 2027 nicht geprüft",
+      "id": "osnabruecker-historischer-weihnachtsmarkt-2027",
+      "event_name": "Historischer Weihnachtsmarkt Osnabrück 2027",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Osnabrück",
+      "state": "Niedersachsen",
+      "application_deadline_iso": "2027-05-31",
+      "application_deadline_text": "Bewerbungsfrist jeweils 31. Mai des Veranstaltungsjahres",
+      "application_mode": "Online-Bewerbung über das Portal city-events.marketingosnabrueck.de",
+      "source_url": "https://www.marketingosnabrueck.de/events/historischer-weihnachtsmarkt/",
+      "source_domain": "marketingosnabrueck.de",
+      "confidence_status": "partial",
+      "notes": "Dauerregel (31. Mai des Veranstaltungsjahres); Datum 2027-05-31 für Weihnachtsmarkt 2027 abgeleitet, da die Frist 2026 abgelaufen ist. Veranstalter Marketing Osnabrück GmbH (städtisch)."
+    },
+    {
+      "country": "DE",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-nord-2026-09",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "postal_address": "",
+      "venue_or_area": "",
+      "event_date_range_text": "",
+      "id": "luebecker-fruehjahrsmarkt-2027",
+      "event_name": "Lübecker Frühjahrsmarkt 2027",
+      "event_type": "Jahrmarkt",
+      "city": "Lübeck",
+      "state": "Schleswig-Holstein",
+      "application_deadline_iso": "2027-01-31",
+      "application_deadline_text": "Antrag bis 31. Januar des Veranstaltungsjahres (Satzung)",
+      "application_mode": "Schriftlicher Antrag an die Marktverwaltung der Hansestadt Lübeck",
+      "source_url": "https://www.luebeck.de/file/7_3_volksfest-_und_jahrmarktsatzung_fuer_die_hansestadt_luebeck.pdf",
+      "source_domain": "luebeck.de",
+      "confidence_status": "partial",
+      "notes": "Abgeleitet aus Dauerregel in § 4 Abs. 1 der Volksfest- und Jahrmarktsatzung Lübeck (Fassung vom 07.12.1998): Anträge müssen der Marktverwaltung bis zum 31. Januar des jeweiligen Veranstaltungsjahres zugehen. Datum für Jahrgang 2027 abgeleitet, nicht als aktuelle Ausschreibung bestätigt; Veranstaltungstermine und Kontakt nicht geprüft, Satzungsstand evtl. veraltet."
+    },
+    {
+      "country": "DE",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-nord-2026-09",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "postal_address": "",
+      "venue_or_area": "",
+      "event_date_range_text": "",
+      "id": "luebecker-sommermarkttage-2027",
+      "event_name": "Lübecker Sommermarkttage 2027",
+      "event_type": "Jahrmarkt",
+      "city": "Lübeck",
+      "state": "Schleswig-Holstein",
+      "application_deadline_iso": "2027-01-31",
+      "application_deadline_text": "Antrag bis 31. Januar des Veranstaltungsjahres (Satzung)",
+      "application_mode": "Schriftlicher Antrag an die Marktverwaltung der Hansestadt Lübeck",
+      "source_url": "https://www.luebeck.de/file/7_3_volksfest-_und_jahrmarktsatzung_fuer_die_hansestadt_luebeck.pdf",
+      "source_domain": "luebeck.de",
+      "confidence_status": "partial",
+      "notes": "Abgeleitet aus Dauerregel in § 4 Abs. 1 der Volksfest- und Jahrmarktsatzung Lübeck (Fassung vom 07.12.1998): Anträge müssen der Marktverwaltung bis zum 31. Januar des jeweiligen Veranstaltungsjahres zugehen. Datum für Jahrgang 2027 abgeleitet, nicht als aktuelle Ausschreibung bestätigt; Veranstaltungstermine und Kontakt nicht geprüft, Satzungsstand evtl. veraltet."
+    },
+    {
+      "country": "DE",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-nord-2026-09",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "postal_address": "",
+      "venue_or_area": "",
+      "event_date_range_text": "",
+      "id": "luebecker-herbstmarkt-2027",
+      "event_name": "Lübecker Herbstmarkt 2027",
+      "event_type": "Jahrmarkt",
+      "city": "Lübeck",
+      "state": "Schleswig-Holstein",
+      "application_deadline_iso": "2027-07-31",
+      "application_deadline_text": "Antrag bis 31. Juli des Veranstaltungsjahres (Satzung)",
+      "application_mode": "Schriftlicher Antrag an die Marktverwaltung der Hansestadt Lübeck",
+      "source_url": "https://www.luebeck.de/file/7_3_volksfest-_und_jahrmarktsatzung_fuer_die_hansestadt_luebeck.pdf",
+      "source_domain": "luebeck.de",
+      "confidence_status": "partial",
+      "notes": "Abgeleitet aus Dauerregel in § 4 Abs. 1 der Volksfest- und Jahrmarktsatzung Lübeck (Fassung vom 07.12.1998): Anträge müssen der Marktverwaltung bis zum 31. Juli des jeweiligen Veranstaltungsjahres zugehen. Datum für Jahrgang 2027 abgeleitet, nicht als aktuelle Ausschreibung bestätigt; Veranstaltungstermine und Kontakt nicht geprüft, Satzungsstand evtl. veraltet."
+    },
+    {
+      "country": "DE",
+      "source_kind": "official",
+      "last_verified_at": "2026-09-19",
+      "agent_batch_id": "named-nord-2026-09",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "postal_address": "",
+      "venue_or_area": "",
+      "event_date_range_text": "",
+      "id": "luebecker-weihnachtsmarkt-2027-satzung",
+      "event_name": "Lübecker Weihnachtsmarkt 2027 (Standplatzanträge nach Satzung)",
+      "event_type": "Weihnachtsmarkt",
+      "city": "Lübeck",
+      "state": "Schleswig-Holstein",
+      "application_deadline_iso": "2027-07-31",
+      "application_deadline_text": "Antrag bis 31. Juli des Veranstaltungsjahres (Satzung)",
+      "application_mode": "Schriftlicher Antrag an die Marktverwaltung der Hansestadt Lübeck",
+      "source_url": "https://www.luebeck.de/file/7_3_volksfest-_und_jahrmarktsatzung_fuer_die_hansestadt_luebeck.pdf",
+      "source_domain": "luebeck.de",
+      "confidence_status": "partial",
+      "notes": "Abgeleitet aus Dauerregel in § 4 Abs. 1 der Volksfest- und Jahrmarktsatzung Lübeck (Fassung vom 07.12.1998): Anträge müssen der Marktverwaltung bis zum 31. Juli des jeweiligen Veranstaltungsjahres zugehen. Datum für Jahrgang 2027 abgeleitet, nicht als aktuelle Ausschreibung bestätigt; Veranstaltungstermine und Kontakt nicht geprüft, Satzungsstand evtl. veraltet."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event_name": "Hannoverscher Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Landeshauptstadt-Hannover/Dezernate-und-Fachbereiche-der-LHH/Wirtschaft-und-Umwelt/Fachbereich-Wirtschaft/Marktwesen",
+      "reason": "Frist 15.03.2026 abgelaufen; 2027 als Eintrag angelegt."
+    },
+    {
+      "event_name": "Historischer Weihnachtsmarkt Osnabrück 2026",
+      "candidate_url": "https://www.marketingosnabrueck.de/events/historischer-weihnachtsmarkt/",
+      "reason": "Frist 31.05.2026 abgelaufen; 2027 als Eintrag angelegt."
+    },
+    {
+      "event_name": "Verdener Domweih 2026",
+      "candidate_url": "https://www.domweih.de/",
+      "reason": "Veranstaltung fand 30.05.-04.06.2026 statt."
+    },
+    {
+      "event_name": "Rendsburger Herbstmarkt 2026",
+      "candidate_url": "https://www.rendsburg-tourismus-marketing.de/veranstaltungen/jahrmaerkte",
+      "reason": "Markt 25.-28.09.2026 läuft in weniger als 2 Wochen; Frist (2 Monate vor Beginn) abgelaufen."
+    },
+    {
+      "event_name": "Lübecker Herbstmarkt / Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.luebeck.de/file/7_3_volksfest-_und_jahrmarktsatzung_fuer_die_hansestadt_luebeck.pdf",
+      "reason": "Satzungsfrist 31.07.2026 abgelaufen; 2027 als Einträge angelegt."
+    },
+    {
+      "event_name": "Cuxhavener Weihnachtsmarkt am Schloss Ritzebüttel",
+      "candidate_url": "https://www.cuxhaven.de/aktuelle-nachrichten/flaschenpost/flaschenpost-1/neuer-ausrichter-fuer-den-cuxhavener-weihnachtsmarkt-am-schloss-ritzebuettel.html",
+      "reason": "Interessenbekundungsverfahren betraf den Ausrichter (Hakan Bingöl, 2025-2029), keine Beschicker-Frist; Betreiber ansprechen."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Heider Marktfrieden 2027",
+      "candidate_url": "https://www.heide.de/leben-freizeit/events-maerkte/heider-marktfrieden.html",
+      "reason": "Stadt-Seite nennt laufenden Aufruf für Händler/Künstler 2027, aber keine Frist abrufbar; Termin widersprüchlich (Suche: 2.-4.6.2027, Vereinsseite: 2.-4.7.2027). Kontakt über heide.de bzw. heider-marktfrieden.de/kontakt.html."
+    },
+    {
+      "event_name": "Rendsburger Jahrmärkte 2027 (Frühjahr/Sommer/Herbst)",
+      "candidate_url": "https://www.rendsburg-tourismus-marketing.de/veranstaltungen/jahrmaerkte",
+      "reason": "Regel: schriftliche Interessenbekundung bis 2 Monate vor Marktbeginn (Marktsatzung), 2027-Termine noch nicht veröffentlicht (2026: 10.-13.4., 3.-6.7., 28.-30.8., 25.-28.9.). Kontakt Tobias Hercher, 04331 6634521, t.hercher@rd-tm.de."
+    },
+    {
+      "event_name": "Stader Weihnachtsmarkt 2026/2027",
+      "candidate_url": "https://stade-tourismus.de/de/veranstaltungen-stade/informationen-fuer-standbetreiber/",
+      "reason": "Seite Informationen für Standbetreiber existiert, Inhalt/Frist nicht abrufbar. Kontakt Sonja Möllers, moellers@stade-marketing.de, 04141 77698-67."
+    },
+    {
+      "event_name": "Husumer Weihnachtsmarkt 2026/2027",
+      "candidate_url": "https://www.husum.org/Leben-in-Husum/Dienstleistungen/Was-erledige-ich-wo-/Marktangelegenheiten-Wochenm%C3%A4rkte-und-Weihnachtsmarkt.php?ModID=10&FID=2214.60.1&ort=38.1",
+      "reason": "Zuständig Ordnungsamt Husum (ordnungsamt@husum.de, 04841 666-3101), Zingel 10, 25813 Husum; keine Frist veröffentlicht. Hafentage: Veranstalter Messe Husum & Congress."
+    },
+    {
+      "event_name": "Vegesacker Hafenfest 2027",
+      "candidate_url": "https://www.ortsamt-vegesack.bremen.de/veranstaltungen/vegesacker-hafenfest-12438",
+      "reason": "Veranstalter Vegesacker Hafenfest e.V.; laut Presse Bewerbungen für 2027 bereits möglich, offizielle Frist nicht gefunden."
+    },
+    {
+      "event_name": "Schlachte-Zauber Bremen 2027",
+      "candidate_url": "https://www.marktwelt-bremen.de/markt/schlachte-zauber/",
+      "reason": "Bewerbungsrichtlinien-PDF (M3B/Großmarkt Bremen) existiert, Frist im PDF nicht extrahierbar. Kontakt kontakt@grossmarkt-bremen.de."
+    },
+    {
+      "event_name": "Lüneburger Frühjahrs- und Herbstmarkt 2027",
+      "candidate_url": "https://www.lueneburg.info/",
+      "reason": "Hansestadt Lüneburg (Ordnung und Märkte) mit Schaustellerverband; keine öffentliche Bewerbungsfrist gefunden."
+    },
+    {
+      "event_name": "Gallimarkt Leer 2027",
+      "candidate_url": "https://leer.de/Stadt-Leben/Stadt-Leer-Ostfriesland-/Gallimarkt/",
+      "reason": "Bewerbungsfrist nicht veröffentlicht; Marktmeister Michael Meyer, 0491 9782-226, Rathausstraße 1, 26789 Leer (Eintrag ggf. bereits im Master)."
+    },
+    {
+      "event_name": "Norderstedter Advents-Markt 2026",
+      "candidate_url": "https://advents-norderstedt.de/?page_id=29",
+      "reason": "Privater Veranstalter (Hauschildt Verlag, info@hauschildt-verlag.de, 040 525 65 65); Anmeldeunterlagen vorhanden, keine Frist bestätigt."
+    },
+    {
+      "event_name": "Bremerhaven, Lüneburg u. a. Schaustellerverband SH Anmeldefristen (Bad Bramstedt, Bad Oldesloe, Bad Segeberg, Bargteheide: 2 Monate; Barmstedt: 4 Monate vor Marktbeginn)",
+      "candidate_url": "https://schaustellerverband-schleswig-holstein.de/Anmeldefristen.html",
+      "reason": "Nur relative Regeln ohne Termine, Verbandsseite (kein amtlicher Beleg), Angaben ohne Gewähr; als Nachfass-Hinweis."
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "batch_id": "nachfass-wm-02-2026-09",
+  "region_scope": [
+    "Bundesweit",
+    "Nachfasswelle Weihnachtsmaerkte Gruppe 2"
+  ],
+  "search_terms": [
+    "erneute Pruefung bereits bekannter Weihnachtsmarkt-Kandidaten auf veroeffentlichte Bewerbungsfrist"
+  ],
+  "max_expected_results": 50,
+  "source_policy": "official_only",
+  "researched_at": "2026-09-18",
+  "entries": [],
+  "rejected_candidates": [
+    {
+      "event_name": "Fürstenfeldbrucker Christkindlmarkt 2026",
+      "candidate_url": "https://www.fuerstenfeldbruck.de/ffb/web.nsf/id/pa_christkindlmarkt.html",
+      "reason": "Nachfass 18.09.2026: Offizielle Stadtseite nennt jetzt eine konkrete Bewerbungsfrist 'bis 26. Juni 2026' fuer den Christkindlmarkt 2026 (04 Adventswochenenden, suedlicher Viehmarktplatz). Diese Frist ist zum Pruefzeitpunkt bereits abgelaufen, daher fuer den laufenden Jahrgang nicht mehr verwertbar. Fuer 2027 erneut pruefen. Kontakt: Daniel Brando, Tel. 08141 281-1410, daniel.brando@fuerstenfeldbruck.de."
+    }
+  ],
+  "review_candidates": [
+    {
+      "event_name": "Heidenheimer Weihnachtsmarkt 2026 (Standplaetze)",
+      "candidate_url": "https://www.heidenheim.de/,Lde/startseite/Leben/weihnachtsmarkt.html",
+      "reason": "Nachfass 18.09.2026: Weiterhin keine konkrete Bewerbungsfrist auf offizieller Seite, nur allgemeiner Hinweis auf Teilnahmebedingungen. Kontakt: Wirtschaftsfoerderung Heidenheim, Grabenstrasse 15, 89522 Heidenheim an der Brenz, wirtschaftsfoerderung@heidenheim.de, Tel. 07321 3271081.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt auf dem Karlsplatz Sigmaringen",
+      "candidate_url": "https://www.sigmaringen.de/de/Buerger-Rathaus/Aktuelles-Stadtinfo/Aktuelles/2024-04/Traditioneller-Weihnachtsmarkt-auf-dem-Karlsplatz-zum-ersten-Adventswochenende.html",
+      "reason": "Nachfass 18.09.2026: Quelle bezieht sich weiterhin nur auf den Jahrgang 2024, keine Bewerbungsfrist fuer 2026 gefunden. Kontakt: Stadt Sigmaringen, Marktamt, Fuerst-Wilhelm-Str. 15, 72488 Sigmaringen, Tel. 07571 106-222.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Ebinger Weihnachtszauber Albstadt",
+      "candidate_url": "https://hgv-albstadt.de/aktuelles/",
+      "reason": "Nachfass 18.09.2026: Weiterhin keine konkrete Bewerbungsfrist auf offizieller Seite; Schausteller sollen sich direkt an den Marktleiter wenden. Kontakt: Ulrich Daum, ulrich.daum@citymanagement-albstadt.de, Anmeldeportal www.ebinger-weihnachtszauber.de.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Rottweiler Weihnachtsmarkt (Standplaetze)",
+      "candidate_url": "https://www.tourismus-rottweil.de/das-erlebnis/veranstaltungen/weihnachtsmarkt",
+      "reason": "Nachfass 18.09.2026: Weiterhin keine Bewerbungsfrist auf offizieller Seite gefunden. Kontakt: Tourist-Information Rottweil, Hauptstrasse 21, 78628 Rottweil, tourist-information@rottweil.de, Tel. 0741 494280.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Tuttlingen im Advent / Stadtfest Tuttlingen",
+      "candidate_url": "https://www.tuttlingen.de/de/Kultur-Tourismus/Veranstaltungen/Innenstadt-Events",
+      "reason": "Nachfass 18.09.2026: Weiterhin keine Bewerbungsfrist oder Bewerbungsverfahren auf offizieller Seite gefunden. Kontakt: Stadt Tuttlingen, Rathausstrasse 1, 78532 Tuttlingen, info@tuttlingen.de, Tel. 07461 99-0.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt in der Innenstadt Bad Mergentheim 2026",
+      "candidate_url": "https://www.bad-mergentheim.de/de/stadtleben/veranstaltungen/weihnachtsmarkt-in-der-innenstadt-id_238512/",
+      "reason": "Nachfass 18.09.2026: Offizielle Seite weiterhin nicht abrufbar (HTTP 403); kein Fristdatum bestaetigt. Kontakt: Stadt Bad Mergentheim, Bahnhofsplatz 1, 97980 Bad Mergentheim, Tel. 07931 570; Tourist-Information Marktplatz 1, Tel. 07931 574815.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Öhringer Weihnachtsmarkt 2026 (Verkaufsstand)",
+      "candidate_url": "https://www.oehringen.de/freizeit-tourismus/unsere-veranstaltungen/oehringer-weihnachtsmarkt/anmeldung-verkaufsstand",
+      "reason": "Nachfass 18.09.2026: Anmeldeformular weiterhin vorhanden, aber kein konkretes Fristdatum auf der Seite selbst; Details vermutlich nur im PDF 'WM_Marktordnung_und_Teilnahmebedingungen_2026'. Kontakt: Stadt Oehringen, Marktplatz 15, 74613 Oehringen, info@oehringen.de, Tel. 07941 68-0.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Erdinger Herbstfest, Altstadtfest und Christkindlmarkt 2027",
+      "candidate_url": "https://www.erding.de/rathaus-buerger-service/stadtverwaltung/formulare-und-onlinedienste/feste-und-maerkte",
+      "reason": "Nachfass 18.09.2026: Fuer Herbstfest 2027 bereits im Master erfasst (Frist 2026-10-31); Altstadtfest und Christkindlmarkt weiterhin ohne konkretes Fristdatum auf offizieller Seite. Kontakt: stadtverwaltung@erding.de.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Landsberger Christkindlmarkt 2027",
+      "candidate_url": "https://www.landsberg.de/fileadmin/user_upload/download/Rathaus-Stadtrecht/231001_Marktgebuehrensatzung_Marktsatzung_Gebuehrenverzeichnis.pdf",
+      "reason": "Nachfass 18.09.2026: Marktsatzung regelt jaehrliche Bewerbung bis Ende Februar, aber keine konkret auf 2027 bezogene Ausschreibung mit Datum gefunden.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Marktoberdorfer Weihnachtsmarkt 2027",
+      "candidate_url": "https://www.marktoberdorf.de/allgemein/Markttermine%202027.pdf",
+      "reason": "Nachfass 18.09.2026: PDF enthaelt weiterhin keine konkrete 2027-Bewerbungsfrist, nur Metadaten.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Lichtenfelser Weihnachtsmarkt und Märchenwald 2026",
+      "candidate_url": "https://www.lichtenfels.de/rathaus-und-service/aktuelles/weihnachtsmarkt-und-maerchenwald",
+      "reason": "Nachfass 18.09.2026: Termin bestaetigt (27.11.-23.12.2026), weiterhin 'weitere Informationen folgen in Kuerze', kein Fristdatum. Kontakt: Stadt Lichtenfels, Marktplatz 1 u. 5, 96215 Lichtenfels, rathaus@lichtenfels.de, Tel. 09571 795-0.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Kronacher Weihnachtsmarkt (Festung Rosenberg)",
+      "candidate_url": "https://www.kronach.de/tourismus-kultur/veranstaltungen/index.html?ev%5Bid%5D=11611",
+      "reason": "Nachfass 18.09.2026: Veranstaltungsseite zeigt aktuell keinen Eintrag; weiterhin keine Bewerbungsfrist auffindbar. Kontakt: Stadt Kronach, Marktplatz 5, 96317 Kronach, poststelle@stadt-kronach.de, Tel. 09261 97-0.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Rawetzer Volksfest / Weihnachtsmarkt Marktredwitz",
+      "candidate_url": "https://www.marktredwitz.de/aktivitaeten-und-erlebnisse/veranstaltungen/jaehrliche-veranstaltungen",
+      "reason": "Nachfass 18.09.2026: Marktredwitzer Adventszauber (Ende November bis Ende Dezember) bestaetigt, weiterhin keine Bewerbungsfrist genannt. Kontakt: Stadt Marktredwitz, info@marktredwitz.de, Tel. 09231 501-0.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Volksfest / Weihnachtsmarkt Selb",
+      "candidate_url": "https://www.selb.de/",
+      "reason": "Nachfass 18.09.2026: Startseite nennt kein Weihnachtsmarkt-Bewerbungsverfahren; Veranstaltungsuebersicht unter /freizeit-tourismus/veranstaltungen muss direkt geprueft werden. Kontakt: Stadt Selb, Ludwigstrasse 6, 95100 Selb, poststelle@selb.de, Tel. 09287 883-0.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Christkindlmarkt Rosenheim",
+      "candidate_url": "https://wirtschaftlicher-verband.de/christkindlmarkt/ausschreibung.html",
+      "reason": "Nachfass 18.09.2026: Eigene Ausschreibungsseite /christkindlmarkt/ausschreibung.html identifiziert (Wirtschaftlicher Verband), aber Fristdatum aus dem abgerufenen Content nicht extrahierbar. Kontakt: Wirtschaftlicher Verband, Kaiserstr. 27, 83022 Rosenheim, info@wirtschaftlicher-verband.de, Tel. 08031 90061-0.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Veranstaltungen der Stadt Wolfenbuettel 2026 (Osterfest, Maifest, Feierabendmarkt, Adventsmarkt, Weihnachtsmarkt)",
+      "candidate_url": "https://www.wolfenbuettel.de/Stadtleben/Veranstaltungskalender/Bewerbungsformulare-Standbetreiber/",
+      "reason": "Nachfass 18.09.2026: Bewerbungsformulare weiterhin ohne genannte Fristen. Kontakt: Anna Wohlert-Boortz, veranstaltungen@wolfenbuettel.de, +49 5331 86-431; Vivien Kendell +49 5331 86-435, Loewentorstrasse 1, 38300 Wolfenbuettel.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Karlsruher Jahrmaerkte (Karlsruher Mess') 2027",
+      "candidate_url": "https://www.karlsruhe.de/kultur-freizeit/maerkte/bewerbungsverfahren",
+      "reason": "Nachfass 18.09.2026: Uebersichtsseite verweist auf PDF 'Ausschreibung Jahrmaerkte', konkretes Fristdatum aus dem Seiteninhalt nicht extrahierbar. Christkindlesmarkt (Kunsthandwerkerhuette) 2027 mit Frist 2027-06-30 bereits im Master; Jahrmaerkte weiterhin offen. Kontakt: Marktamt Karlsruhe, Am Grossmarkt 10, 76137 Karlsruhe, Esther Hauska, Tel. 0721 133-7201.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Leipziger Weihnachtsmarkt 2026 - Bewerbungsformular",
+      "candidate_url": "https://www.leipzig.de/service-portal/formulare/formular/weihnachtsmarkt/download",
+      "reason": "Nachfass 18.09.2026: PDF-Formular technisch nicht auslesbar, kein Fristdatum bestaetigt. Master enthaelt bereits Leipziger Weihnachtsmarkt 2027 mit Frist 2027-04-30 (anderer Jahrgang); fuer 2026 weiterhin offen.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Adventsmarkt Vechelde 2026",
+      "candidate_url": "https://www.vechelde.de/portal/meldungen/bewerbung-um-einen-standplatz-adventsmarkt-2026-900001367-26590.html",
+      "reason": "Nachfass 18.09.2026: Termin bestaetigt (28.11.2026, Rathausparkplatz), Bewerbungsformular vorhanden, weiterhin kein Fristdatum genannt.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Schloss Agathenburg 2026",
+      "candidate_url": "https://www.schlossagathenburg.de/aktuelles/618/detailreich-2023-bewerbung-fuer-ausstellerinnen/",
+      "reason": "Nachfass 18.09.2026: Markt am 5./6. Dezember 2026 bestaetigt, Bewerbungsformular vorhanden, weiterhin kein Abgabedatum genannt. Kontakt: Kulturstiftung Schloss Agathenburg, info@schlossagathenburg.de, Tel. 04141 54220.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Duerkheimer Advent",
+      "candidate_url": "https://www.bad-duerkheim.de/kultur-tourismus/veranstaltungen-feste/duerkheimer-advent/informationen-fuer-beschicker-anwohner/",
+      "reason": "Nachfass 18.09.2026: Unterseite fuer Beschicker weiterhin ohne im Abruf sichtbares Fristdatum. Stadt Bad Duerkheim direkt kontaktieren.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsstadt Bad Homburg",
+      "candidate_url": "https://www.bad-homburg.de/de/stadt/aktuelles/bewerbungsverfahren-fuer-die-weihnachtsstadt-bad-homburg-startet-bja3lnv8o4",
+      "reason": "Nachfass 18.09.2026: Meldung zum Start des Bewerbungsverfahrens weiterhin ohne konkretes Fristdatum im abrufbaren Content. Laternenfest Bad Homburg 2027 desselben Veranstalters mit Frist 2026-10-31 bereits im Master; Weihnachtsstadt eigenstaendig weiterhin offen.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Chemnitzer Weihnachtsmarkt",
+      "candidate_url": "https://www.chemnitz.de/chemnitz/de/rathaus/ausschreibungen/marktausschreibungen/chemnitzer-weihnachtsmarkt/index.html",
+      "reason": "Nachfass 18.09.2026: Sammelseite blockt weiterhin automatisierte Abrufe (HTTP 403). Kontakt: Stadt Chemnitz, Ordnungsamt, Abteilung Gewerbe, Veranstaltungen, Maerkte, 09106 Chemnitz.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Cottbuser Märkte und Weihnachtsmarkt der tausend Sterne",
+      "candidate_url": "https://cottbus.de/verwaltung/gb-3/dz-3-1/fb-32-ordnung-und-sicherheit/cottbuser-wochenmaerkte/",
+      "reason": "Nachfass 18.09.2026: Seite behandelt weiterhin nur Wochenmaerkte, kein Weihnachtsmarkt-Fristdatum. Kontakt: Karsten Herbst, karsten.herbst@cottbus.de, 0355 612-3716/0163 6123717; Niels Loewenberg, niels.loewenberg@cottbus.de, 0355 612-2327.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Lörracher Weihnachtsmarkt",
+      "candidate_url": "https://www.loerrach.de/de/Loerrach-Erleben/Wirtschaft-Einkaufen/Maerkte/Maerkte/Weihnachtsmarkt",
+      "reason": "Nachfass 18.09.2026: Termin bestaetigt (3.-13. Dezember 2026), weiterhin kein Fristdatum genannt. Kontakt: Stadt Loerrach, Abteilung Maerkte, maerkte@loerrach.de, Tel. 07621 415-132, Haus Sonne, Basler Strasse 170, 79539 Loerrach.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Kirchweihen und Weihnachtsmarkt Fuerth",
+      "candidate_url": "https://www.bayernportal.de/dokumente/onlineservice/18221628128",
+      "reason": "Nachfass 18.09.2026: BayernPortal-Verfahren aufgefunden fuer Michaelis-Kirchweih (bereits im Master mit Frist 2026-10-20), fuer die uebrigen Fuerther Kirchweihen und Weihnachtsmarkt weiterhin kein Fristdatum extrahierbar. Kontakt: Marktamt Fuerth, Bahnhofplatz 9, 90762 Fuerth, marktamt@fuerth.de, Tel. 0911 974-1278/-1277.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Hamburger Weihnachtsmarkt auf dem Rathausmarkt",
+      "candidate_url": "https://www.hamburger-weihnachtsmarkt.com/faqs/",
+      "reason": "Nachfass 18.09.2026: Offizielle FAQ bestaetigen weiterhin ausdruecklich, dass Bewerbungen ohne Frist angenommen werden (markt-hamburg@roncalli.de). Ohne Fristdatum nicht veroeffentlichbar.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Gerhart-Hauptmann-Platz Hamburg-Mitte",
+      "candidate_url": "https://bv-hh.de/hamburg-mitte/documents/auswahlverfahren-fuer-die-veranstaltung-weihnachtsmarkt-gerhart-hauptmann-platz-168785",
+      "reason": "Nachfass 18.09.2026: Drucksache enthaelt weiterhin nur den Platzhalter 'bis zum XX.XX.202X, 12:00 Uhr' als Frist; kein konkretes Datum. Kontakt: Christin Carstens, Management des oeffentlichen Raumes, Tel. 040 42854-2777, Caffamacherreihe 1-3, 20355 Hamburg.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt/Weihnachtsflair Wetzlar",
+      "candidate_url": "https://www.wetzlar.de/leben-in-wetzlar/veranstaltungen/index.php",
+      "reason": "Nachfass 18.09.2026: Weiterhin keine Bewerbungsinformationen fuer Schausteller auf offizieller Stadtseite auffindbar. Kontakt: Stadtverwaltung Wetzlar, Ernst-Leitz-Strasse 30, 35578 Wetzlar, stadtverwaltung@wetzlar.de, Tel. 06441 115.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Wochenmarkt/Kirmes/Weihnachtsmarkt Limburg an der Lahn",
+      "candidate_url": "https://www.limburg.de/Rathaus-Leben/Aktuelles/Marktwesen.php?object=tx%2C3252.77.1",
+      "reason": "Nachfass 18.09.2026: Seite weiterhin bei automatisiertem Abruf wegen zu vieler Redirects nicht erreichbar. Tourist-Information Limburg, Barfuesserstrasse 6, 65549 Limburg a. d. Lahn, Tel. 06431 2030, info@stadt.limburg.de als Kontakt bekannt; kein Fristdatum bestaetigt.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Korbacher Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.korbach.de/Tourismus/Erlebnisse/Veranstaltungen/Weihnachtsmarkt-2026-in-Korbach.php?object=tx%2C3889.4.1&ModID=11&FID=3889.170906.1&NavID=3889.65.1&La=1",
+      "reason": "Nachfass 18.09.2026: Termin 08.12.2026 bestaetigt (Parkplatz An der Kalkmauer), weiterhin kein Fristdatum genannt. Kontakt: Korbach-Information, tourismus@korbach.de, Tel. 05631 53232, Prof.-Bier-Strasse 15, 34497 Korbach.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Eschweger Weihnachtsmarkt",
+      "candidate_url": "https://www.eschwege.de/stadt/stadtportraet/feste-und-maerkte.php",
+      "reason": "Nachfass 18.09.2026: Weiterhin keine Bewerbungsfrist fuer Schausteller auf offizieller Stadtseite gefunden. Kontakt: Torben Sponer (Marktangelegenheiten), torben.sponer@eschwege-rathaus.de, Tel. 05651 304-0.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Hofgeismarer Weihnachtsmarkt",
+      "candidate_url": "https://www.hofgeismar.de/hofgeismar-erleben/veranstaltungen/weihnachtsmarkt/",
+      "reason": "Nachfass 18.09.2026: Seite zeigt weiterhin nur Informationen zur Ausgabe 2025, kein Fristdatum fuer 2026. Kontakt: Stadt Hofgeismar, Markt 1, 34369 Hofgeismar, info@stadt-hofgeismar.de, Tel. 05671 999-037.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Lauterbacher Weihnachtsmarkt 2026",
+      "candidate_url": "https://www.lauterbach-hessen.de/stadtleben/feste-und-maerkte/bewerbung-maerkte-kontakt.html",
+      "reason": "Nachfass 18.09.2026: Termin 04.-06. und 11.-13.12.2026 bestaetigt, weiterhin kein Fristdatum gefunden. Kontakt: Tourist-Center Stadtmuehle, Svenja Schmidt/Saskia Kreit, Marktplatz 1, 36341 Lauterbach, Tel. 06641 184-118/107.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Herborner Weihnachtsmarktplatz",
+      "candidate_url": "https://www.deutsche-weihnachtsmaerkte.de/weihnachtsmarkt/in/hessen/weihnachtsmarkt-herborn-452.html",
+      "reason": "Nachfass 18.09.2026: Quellseite bei Abruf nicht erreichbar (HTTP 307 Redirect-Fehler). Veranstalter Stadtmarketing Herborn GmbH, Bahnhofsplatz 1, 35745 Herborn, Tel. 02772 708-1900, tourist@herborn.de weiterhin ohne bestaetigtes Fristdatum.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Bergsträßer Winzerfest / Weihnachtsmarkt Bensheim",
+      "candidate_url": "https://bensheimerleben.de/veranstaltungen/feste-maerkte/",
+      "reason": "Nachfass 18.09.2026: Weiterhin keine Bewerbungsfrist fuer Schausteller auf offizieller Seite gefunden. Kontakt: Tourist-Information Bensheim, touristinfo@bensheim.de.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Darmstädter Weihnachtsmarkt",
+      "candidate_url": "https://www.darmstadt-tourismus.de/en/events/christmas-market.html",
+      "reason": "Nachfass 18.09.2026: Weiterhin keine Bewerbungsfrist fuer Schausteller/Haendler auf offizieller Seite gefunden. Kontakt: Darmstadt Marketing GmbH, Luisenstrasse 12, 64283 Darmstadt, Tel. 06151 1345-13, information@darmstadt.de; Schaustellerverband Darmstadt als Partner genannt.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Offenbacher Weihnachtsmarkt (Standplaetze Schausteller)",
+      "candidate_url": "https://www.offenbach.de/vv/produkte/tsabus/festsetzung_von_messen__ausstellungen__maerkten_und_volksfesten_9106361.php",
+      "reason": "Nachfass 18.09.2026: Seite behandelt weiterhin nur die allgemeine Festsetzung, keine Bewerbungsfrist fuer Schausteller-Standplaetze. Kontakt: Ordnungsamt Offenbach, Frau Roth (Sachgebietsleitung Veranstaltungen), Tel. 069 80653821, Ordnungsamt@offenbach.de.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Märchenhafter Weihnachtsmarkt Hanau 2026",
+      "candidate_url": "https://www.hanau.de/freizeit/veranstaltungsreihen/lamboyfest/index.html",
+      "reason": "Nachfass 18.09.2026: Verlinkte Seite behandelt nur das Lamboyfest, kein Weihnachtsmarkt-Inhalt im Abruf; Navigation verweist auf eigene Weihnachtsmaerkte-Unterseite. Stadt Hanau direkt kontaktieren.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Bad Nauheimer Christkindlmarkt",
+      "candidate_url": "https://www.bad-nauheim.de/frontend/0_dokumente/4_buergernah/politik/stadtrecht/kultur/5-70%20Christkindlmarkt%20-%20Teilnahmebedingungen.pdf",
+      "reason": "Nachfass 18.09.2026: PDF-Teilnahmebedingungen weiterhin technisch nicht auslesbar, kein Fristdatum bestaetigt. Stadt Bad Nauheim direkt kontaktieren.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Schweriner Weihnachtsmarkt (Der Stern im Norden)",
+      "candidate_url": "https://www.weihnachtsmarkt-schwerin.de/fragen-und-antworten/",
+      "reason": "Nachfass 18.09.2026: Offizielle FAQ-Seite weiterhin ohne Bewerbungsfrist, nur Kontaktverweis fuer Standbetreiber. Kontakt: info@schweriner-weihnachtsmarkt.de.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Stralsunder Weihnachtsmarkt 2026 (Fahrgeschaefte, Gastronomie, Kunsthandwerk)",
+      "candidate_url": "https://www.stralsunder-weihnachtsmarkt.de/fuer-aussteller/jetzt-bewerben",
+      "reason": "Nachfass 18.09.2026: Online-Bewerbungsformular weiterhin ohne konkretes Fristdatum. Kontakt: SWS Stadtwerke Stralsund GmbH, Frankendamm 7, 18439 Stralsund, Tel. 03831/2410, weihnachtsmarkt@stadtwerke-stralsund.de.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Wismarer Weihnachtsmarkt (Standplatz-Bewerbung)",
+      "candidate_url": "https://www.wismar.de/B%C3%BCrger/B%C3%BCrgerservice/Dienstleistungen-A-Z/Markt-Marktst%C3%A4nde-Standgenehmigung-.php?object=tx,2634.2&ModID=10&FID=125.213.1&sNavID=2634.48&mNavID=2634.48&NavID=2634.48&La=1&ort=Wismar",
+      "reason": "Nachfass 18.09.2026: Standgenehmigungsverfahren weiterhin ohne konkretes Fristdatum. Kontakt: Hansestadt Wismar, BuergerServiceCenter, Am Markt 1, 23966 Wismar, Tel. 03841 251-0, bsc@wismar.de.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Güstrower Adventszauber / Advent am Markt",
+      "candidate_url": "https://www.guestrow.de/advent-am-markt",
+      "reason": "Nachfass 18.09.2026: Seite bei Abruf nicht mehr erreichbar (HTTP 404). Bewerbungsfrist fuer einzelne Schausteller/Haendler-Standplaetze weiterhin nicht auffindbar. Kontakt: Karin Bartock, Barlachstadt Guestrow, Markt 1, 18273 Guestrow, Tel. 03843 769-103, karin.bartock@guestrow.de.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt Waren (Müritz)",
+      "candidate_url": "https://www.innenstadt-waren.de/",
+      "reason": "Nachfass 18.09.2026: Vereinsseite nennt weiterhin keinen Weihnachtsmarkt-Termin oder Bewerbungsfrist, nur Sommerveranstaltungen. Kontakt: Innenstadt Waren e.V., Claudia Bergmann, Tel. 0160 3458010, info@innenstadt-waren.de.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt im Tiergarten Neustrelitz",
+      "candidate_url": "https://www.neustrelitz.de/",
+      "reason": "Nachfass 18.09.2026: Startseite enthaelt weiterhin keine Informationen zum Weihnachtsmarkt oder einer Bewerbungsfrist. Kontakt: Touristinformation Neustrelitz, Tel. 03981 4534-105, touristinformation@neustrelitz.de.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    },
+    {
+      "event_name": "Weihnachtsmarkt am Kölner Dom (Roncalliplatz) 2026",
+      "candidate_url": "https://www.koelnerweihnachtsmarkt.com/de/aussteller-werden-2025/",
+      "reason": "Nachfass 18.09.2026: Aussteller-Seite bezieht sich weiterhin nur auf den Jahrgang 2025, keine 2026-Bewerbungsfrist veroeffentlicht. Kontakt: KW Koelner Weihnachtsgesellschaft mbH, Overstolzenstrasse 21, 50677 Koeln, Tel. 0221 399 29 30, info@koelner-weihnachtsgesellschaft.de.",
+      "agent_batch_id": "nachfass-wm-02-2026-09"
+    }
+  ]
+}
