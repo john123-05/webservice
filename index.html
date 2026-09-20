@@ -113,6 +113,14 @@
 </head>
   <body>
     <div class="site-wrap">
+      <div class="ir-banner">
+        <a class="ir-banner-link" href="https://schausteller-marketing.de/?utm_source=impress-rank&amp;utm_medium=hinweisleiste&amp;utm_campaign=flyer">
+          <span class="ir-banner-long">Du kommst vom Schausteller-Flyer? <strong>Hier geht's zu Online-Marketing für Schausteller</strong> &rarr;</span>
+          <span class="ir-banner-short">Vom Schausteller-Flyer? <strong>Hier entlang</strong> &rarr;</span>
+        </a>
+        <button class="ir-banner-close" type="button" aria-label="Hinweis schließen" onclick="try{localStorage.setItem('ir-banner-closed','1')}catch(e){};this.parentNode.remove()">&times;</button>
+      </div>
+      <script>try{if(localStorage.getItem('ir-banner-closed'))document.querySelector('.ir-banner').remove()}catch(e){}</script>
       <nav class="nav">
         <a class="brand" href="/"><img src="assets/logo-cropped.png" alt="ImpressRank" class="brand-logo" /></a>
         <button class="menu-toggle" type="button" aria-label="Navigation öffnen" aria-expanded="false">
