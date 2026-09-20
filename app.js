@@ -1769,6 +1769,188 @@ const initSchaustellerDeadlinePage = async () => {
 };
 initSchaustellerDeadlinePage();
 
+// -- Eigener Videoplayer (Look wie Wistia: blauer Rahmen, grosse Play-Taste, Steuerleiste) ------
+const initVideoPlayers = () => {
+  const ICONS = {
+    play: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>',
+    pause: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.6v14H7zM13.4 5H17v14h-3.6z" fill="currentColor"/></svg>',
+    volume: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5v5h3.6L12 18.5v-13L7.6 9.5z" fill="currentColor"/><path d="M15.2 9a4.2 4.2 0 0 1 0 6M17.6 6.6a7.6 7.6 0 0 1 0 10.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+    muted: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5v5h3.6L12 18.5v-13L7.6 9.5z" fill="currentColor"/><path d="M15.5 9.5l5 5M20.5 9.5l-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+    full: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    more: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.8" fill="currentColor"/><circle cx="12" cy="12" r="1.8" fill="currentColor"/><circle cx="19" cy="12" r="1.8" fill="currentColor"/></svg>',
+  };
+  const fmt = (t) => {
+    if (!Number.isFinite(t) || t < 0) t = 0;
+    const m = Math.floor(t / 60);
+    const s = Math.floor(t % 60);
+    return `${m}:${String(s).padStart(2, '0')}`;
+  };
+
+  document.querySelectorAll('[data-vp]').forEach((root) => {
+    const existing = root.querySelector('video');
+    const title = root.dataset.vpTitle || 'Video';
+    if (!existing) return;
+    existing.classList.add('vp-video');
+    existing.setAttribute('aria-label', title);
+    existing.removeAttribute('controls');
+
+    root.classList.add('vp');
+    root.insertAdjacentHTML('beforeend', `
+      <div class="vp-tint" aria-hidden="true"></div>
+      <button class="vp-big" type="button" aria-label="Video abspielen">${ICONS.play}</button>
+      <div class="vp-buffering" aria-hidden="true"></div>
+      <div class="vp-controls">
+        <button class="vp-btn vp-toggle" type="button" aria-label="Abspielen">${ICONS.play}</button>
+        <span class="vp-time vp-current">0:00</span>
+        <div class="vp-progress" role="slider" tabindex="0" aria-label="Position im Video" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="vp-track"><div class="vp-buffered"></div><div class="vp-played"></div><div class="vp-thumb"></div></div>
+        </div>
+        <span class="vp-time vp-duration">0:00</span>
+        <button class="vp-btn vp-mute" type="button" aria-label="Ton aus">${ICONS.volume}</button>
+        <div class="vp-more">
+          <button class="vp-btn vp-more-btn" type="button" aria-label="Weitere Optionen" aria-expanded="false">${ICONS.more}</button>
+          <div class="vp-menu" hidden>
+            <p class="vp-menu-title">Geschwindigkeit</p>
+            <div class="vp-speeds">
+              <button type="button" data-speed="0.75">0,75x</button>
+              <button type="button" data-speed="1" class="is-active">1x</button>
+              <button type="button" data-speed="1.25">1,25x</button>
+              <button type="button" data-speed="1.5">1,5x</button>
+              <button type="button" data-speed="2">2x</button>
+            </div>
+            <button type="button" class="vp-menu-full">${ICONS.full}<span>Vollbild</span></button>
+          </div>
+        </div>
+      </div>`);
+
+    const video = existing;
+    const big = root.querySelector('.vp-big');
+    const toggle = root.querySelector('.vp-toggle');
+    const cur = root.querySelector('.vp-current');
+    const dur = root.querySelector('.vp-duration');
+    const prog = root.querySelector('.vp-progress');
+    const played = root.querySelector('.vp-played');
+    const buffered = root.querySelector('.vp-buffered');
+    const thumb = root.querySelector('.vp-thumb');
+    const mute = root.querySelector('.vp-mute');
+    const moreBtn = root.querySelector('.vp-more-btn');
+    const menu = root.querySelector('.vp-menu');
+    let started = false;
+    let hideTimer = 0;
+    let dragging = false;
+
+    const setPlayingUi = () => {
+      const playing = !video.paused && !video.ended;
+      root.classList.toggle('is-playing', playing);
+      toggle.innerHTML = playing ? ICONS.pause : ICONS.play;
+      toggle.setAttribute('aria-label', playing ? 'Pause' : 'Abspielen');
+    };
+    const showControls = () => {
+      root.classList.add('show-controls');
+      window.clearTimeout(hideTimer);
+      if (!video.paused && menu.hidden) {
+        hideTimer = window.setTimeout(() => root.classList.remove('show-controls'), 2600);
+      }
+    };
+    const play = () => {
+      started = true;
+      root.classList.add('is-started');
+      const p = video.play();
+      if (p && p.catch) p.catch(() => {});
+    };
+    const togglePlay = () => (video.paused ? play() : video.pause());
+    const seekTo = (clientX) => {
+      const r = prog.getBoundingClientRect();
+      const ratio = Math.min(1, Math.max(0, (clientX - r.left) / r.width));
+      if (Number.isFinite(video.duration)) video.currentTime = ratio * video.duration;
+    };
+    const updateProgress = () => {
+      const d = video.duration || 0;
+      const ratio = d ? video.currentTime / d : 0;
+      played.style.width = `${ratio * 100}%`;
+      thumb.style.left = `${ratio * 100}%`;
+      cur.textContent = fmt(video.currentTime);
+      prog.setAttribute('aria-valuenow', String(Math.round(ratio * 100)));
+      if (d && video.buffered.length) {
+        const end = video.buffered.end(video.buffered.length - 1);
+        buffered.style.width = `${Math.min(100, (end / d) * 100)}%`;
+      }
+    };
+
+    video.addEventListener('loadedmetadata', () => { dur.textContent = fmt(video.duration); updateProgress(); });
+    video.addEventListener('durationchange', () => { dur.textContent = fmt(video.duration); });
+    video.addEventListener('timeupdate', updateProgress);
+    video.addEventListener('progress', updateProgress);
+    video.addEventListener('play', () => { setPlayingUi(); showControls(); });
+    video.addEventListener('pause', () => { setPlayingUi(); root.classList.add('show-controls'); });
+    video.addEventListener('ended', () => { setPlayingUi(); root.classList.add('show-controls'); root.classList.add('is-ended'); });
+    video.addEventListener('playing', () => root.classList.remove('is-buffering', 'is-ended'));
+    video.addEventListener('waiting', () => root.classList.add('is-buffering'));
+    video.addEventListener('canplay', () => root.classList.remove('is-buffering'));
+
+    big.addEventListener('click', play);
+    toggle.addEventListener('click', togglePlay);
+    video.addEventListener('click', () => { if (started) togglePlay(); });
+
+    mute.addEventListener('click', () => {
+      video.muted = !video.muted;
+      mute.innerHTML = video.muted ? ICONS.muted : ICONS.volume;
+      mute.setAttribute('aria-label', video.muted ? 'Ton an' : 'Ton aus');
+    });
+
+    prog.addEventListener('pointerdown', (e) => {
+      dragging = true;
+      prog.setPointerCapture(e.pointerId);
+      seekTo(e.clientX);
+    });
+    prog.addEventListener('pointermove', (e) => { if (dragging) seekTo(e.clientX); });
+    const endDrag = () => { dragging = false; };
+    prog.addEventListener('pointerup', endDrag);
+    prog.addEventListener('pointercancel', endDrag);
+    prog.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') { video.currentTime = Math.min(video.duration || 0, video.currentTime + 5); e.preventDefault(); }
+      if (e.key === 'ArrowLeft') { video.currentTime = Math.max(0, video.currentTime - 5); e.preventDefault(); }
+    });
+
+    const setMenu = (open) => {
+      menu.hidden = !open;
+      moreBtn.setAttribute('aria-expanded', String(open));
+    };
+    moreBtn.addEventListener('click', (e) => { e.stopPropagation(); setMenu(menu.hidden); });
+    document.addEventListener('click', (e) => { if (!menu.hidden && !root.querySelector('.vp-more').contains(e.target)) setMenu(false); });
+    menu.querySelectorAll('[data-speed]').forEach((b) => b.addEventListener('click', () => {
+      video.playbackRate = Number(b.dataset.speed);
+      menu.querySelectorAll('[data-speed]').forEach((x) => x.classList.toggle('is-active', x === b));
+    }));
+    const goFull = () => {
+      const el = root;
+      if (document.fullscreenElement) { document.exitFullscreen?.(); return; }
+      if (el.requestFullscreen) el.requestFullscreen();
+      else if (video.webkitEnterFullscreen) video.webkitEnterFullscreen();
+      setMenu(false);
+    };
+    menu.querySelector('.vp-menu-full').addEventListener('click', goFull);
+
+    root.addEventListener('pointermove', showControls);
+    root.addEventListener('pointerleave', () => { if (!video.paused) root.classList.remove('show-controls'); });
+    root.addEventListener('keydown', (e) => {
+      if (e.target.closest('.vp-progress') && ['ArrowLeft', 'ArrowRight'].includes(e.key)) return;
+      if (e.key === ' ' || e.key.toLowerCase() === 'k') { e.preventDefault(); togglePlay(); }
+      else if (e.key === 'ArrowRight') { video.currentTime = Math.min(video.duration || 0, video.currentTime + 10); }
+      else if (e.key === 'ArrowLeft') { video.currentTime = Math.max(0, video.currentTime - 10); }
+      else if (e.key.toLowerCase() === 'm') mute.click();
+      else if (e.key.toLowerCase() === 'f') goFull();
+    });
+    root.tabIndex = 0;
+
+    // Schneller Start: Datei erst beim ersten Hover/Touch vollstaendig vorladen.
+    const warm = () => { if (video.preload !== 'auto') video.preload = 'auto'; };
+    root.addEventListener('pointerenter', warm, { once: true });
+    root.addEventListener('touchstart', warm, { once: true, passive: true });
+  });
+};
+initVideoPlayers();
+
 
 // LC location pill
 const initLocationPill = () => {
