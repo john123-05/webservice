@@ -41,27 +41,38 @@
 <link as="font" crossorigin="" href="assets/fonts/manrope-latin.woff2" rel="preload" type="font/woff2"/>
 <link href="styles.css" rel="stylesheet"/>
 </head>
-<body>
+<body class="plain-labels">
 <div class="site-wrap">
       <nav class="nav">
-<a class="brand" href="/"><img alt="ImpressRank" class="brand-logo" src="assets/logo-cropped.png"/></a>
-<button aria-expanded="false" aria-label="Navigation öffnen" class="menu-toggle" type="button">
-<span></span><span></span><span></span>
-</button>
-<ul class="nav-links">
-<li><a href="/">Home</a></li>
-<li class="nav-dropdown">
-<a class="active" href="#">Lösungen</a>
-<div class="nav-dropdown-wrap"><ul class="nav-dropdown-menu">
-<li><a href="webdesign">Websites, die mehr Anfragen bringen</a></li>
-<li><a href="seo">An der Spitze von Google mit lokalem SEO</a></li>
-<li><a href="anzeigen">Social-Media-Werbung, die Neukunden bringt</a></li>
-</ul></div>
-</li>
-<li><a href="fachartikel">Blog</a></li>
-<li><a class="nav-cta" href="anfrage">Kostenloses Erstgespräch sichern</a></li>
-</ul>
-</nav>
+        <a class="brand" href="/"><img src="assets/logo-cropped.png" alt="ImpressRank" class="brand-logo" /></a>
+        <button class="menu-toggle" type="button" aria-label="Navigation öffnen" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="/">Start</a></li>
+          <li class="nav-dropdown">
+            <button class="nav-dropdown-trigger nav-submenu-toggle active" type="button" aria-label="Lösungen öffnen" aria-expanded="false">
+              Lösungen <span aria-hidden="true"></span>
+            </button>
+            <div class="nav-dropdown-wrap"><ul class="nav-dropdown-menu">
+                <li><a href="webdesign">Websites, die mehr Anfragen bringen</a></li>
+                <li><a href="seo">An der Spitze von Google mit lokalem SEO</a></li>
+                <li><a href="anzeigen">Social-Media-Werbung, die Neukunden bringt</a></li>
+              </ul></div>
+            </li>
+          <li class="nav-dropdown">
+            <button class="nav-dropdown-trigger nav-submenu-toggle" type="button" aria-label="Angebote öffnen" aria-expanded="false">
+              Angebote <span aria-hidden="true"></span>
+            </button>
+            <div class="nav-dropdown-wrap"><ul class="nav-dropdown-menu">
+                <li><a href="seo#preise">Top 3 in Google in 90 Tagen</a></li>
+              </ul></div>
+            </li>
+          <li><a href="seo#liftcs">Fallstudie</a></li>
+          <li><a href="fachartikel">Blog</a></li>
+          <li><a class="nav-cta" href="anfrage">Kostenloses Erstgespräch sichern</a></li>
+        </ul>
+      </nav>
       
 <header class="hero-area" id="top">
 <div aria-hidden="true" class="hero-showcase">
@@ -184,26 +195,15 @@
 </div>
 <div class="container">
 
-<section class="hero-grid">
+<section class="hero-grid hero-grid--wide">
 <div class="hero-copy">
-<h1 class="eyebrow">Webdesign Bielefeld</h1>
+<h1 class="eyebrow">Webdesign OWL</h1>
 <h2 class="hero-main-heading">
-<span class="hero-highlight">Websites</span> für Unternehmen in Bielefeld, die
-                <span class="hero-highlight">sichtbar mehr Anfragen</span> bringen
+<span class="hero-highlight">Websites</span> für Unternehmen<br class="hd-br"/> in OWL, die <span class="hero-highlight">sichtbar</span><br class="hd-br"/> <span class="hero-highlight">mehr Anfragen</span> bringen
               </h2>
-<ul class="hero-bullets">
-<li>Klare Positionierung</li>
-<li>Mehr Anfragen</li>
-<li>Saubere Struktur</li>
-</ul>
 <div class="hero-actions">
-<a class="btn btn-primary" href="#angebot">Starten</a>
+<a class="btn btn-primary btn-cta-blue" href="anfrage">Starten</a>
 </div>
-<ul class="hero-checks">
-<li>Lokaler Ansprechpartner in Bielefeld</li>
-<li>Fokus auf Anfragen statt nur Design</li>
-<li>Klare Conversion-Struktur für lokale Unternehmen</li>
-</ul>
 <div aria-hidden="true" class="hero-showcase-mobile">
 <div class="hero-showcase-mobile-track">
 <figure class="hero-shot hero-shot-mobile">
@@ -242,7 +242,7 @@
 </div>
 </section>
 </div>
-<div aria-hidden="true" class="hero-divider-graphic">
+<div aria-hidden="true" class="hero-divider-graphic hero-divider-graphic--outlined">
 <img alt="" decoding="async" fetchpriority="high" src="assets/Untitled design (2).webp"/>
 </div>
 </header>
@@ -277,7 +277,7 @@
 </div>
 </div>
 <div class="intro-actions" style="justify-content:center; margin-top:28px;">
-<a class="btn btn-primary" href="#angebot">Kostenlos Starten</a>
+<a class="btn btn-primary btn-cta-blue" href="anfrage">Kostenlos starten</a>
 </div>
 </div>
 </section>
@@ -374,289 +374,71 @@
 </div>
 </div>
 </section>
-<section class="section section-soft--flow diff-section-accent" id="contact" style="border:none;">
+<section class="section section-soft diff-section-accent" id="projekte-webdesign" style="border:none;">
 <div class="contact-frame" aria-hidden="true"></div>
-<div class="container">
-<h2 class="section-question">„OK... Und was macht euch so <em>anders?</em>"</h2>
-<div class="diff-split">
-<div class="diff-split__left">
-<figure class="diff-image-wrap diff-image-main">
-<img src="assets/IMG_6725.webp" alt="Münchener Marketing Kongress – Networking und fachlicher Austausch" loading="lazy" decoding="async" />
-</figure>
-<div class="diff-grid-2">
-<div class="diff-card">
-<p class="diff-label">Lokal</p>
-<p>Wir sind ein <strong>lokales Unternehmen</strong> — du erreichst uns, wenn du uns brauchst.</p>
-</div>
-<div class="diff-card">
-<p class="diff-label">Spezialisiert</p>
-<p>Wir <strong>arbeiten mit Branchen, die wir kennen</strong> — damit wir schnell liefern können, ohne lange Einarbeitung.</p>
-</div>
-</div>
-</div>
-<div class="diff-split__right">
-<div class="diff-grid-2">
-<div class="diff-card">
-<p class="diff-label">Verbindlich</p>
-<p>Sie erhalten <strong>klare Empfehlungen</strong>, eine nachvollziehbare Priorisierung und eine <strong>Umsetzung, die auf echte Anfragen</strong> statt auf leere Agenturphrasen ausgerichtet ist.</p>
-<div class="diff-card-img-wrap">
-<img src="assets/Add a heading-cropped.png" alt="" class="diff-card-img diff-card-img--verbindlich" aria-hidden="true" />
-</div>
-</div>
-<div class="diff-card">
-<p class="diff-label">Ergebnisse</p>
-<p>Unser oberstes Ziel sind <strong>messbare Ergebnisse</strong> für dich. Weniger reden, mehr liefern.</p>
-<div class="diff-card-img-wrap">
-<img src="assets/6-cropped.png" alt="" class="diff-card-img" aria-hidden="true" />
-</div>
-</div>
-</div>
-<div class="diff-split__office-wrap">
-<figure class="diff-image-wrap diff-image-office">
-<img src="assets/buero-bad-salzuflen.webp" alt="ImpressRank Büro in Bad Salzuflen – lokal verwurzelt" loading="lazy" decoding="async" />
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="section section-soft" id="projekte-webdesign">
 <div class="container">
 <h2 class="home-problem-question" style="text-align:center; margin-bottom:48px;">Weitere Projekte im Überblick</h2>
 <div style="display:flex; flex-wrap:wrap; gap:24px; justify-content:center;">
-<div class="wd-projekt-card"><img src="assets/websiteliftpicturesbeispielimpressrankmarketingbürobadsalzuflen.webp" alt="Liftpictures Website" loading="lazy" decoding="async" /></div>
+<div class="wd-projekt-card"><img src="assets/liftpictures-neu-tablet-QT8sePF6.webp" alt="Liftpictures Website auf einem Tablet" loading="lazy" decoding="async" /></div>
 <div class="wd-projekt-card"><img src="assets/Alohabeachclubwebsitebeispielimpressrankmarketingbüro.webp" alt="Aloha Beach Club Website" loading="lazy" decoding="async" /></div>
 <div class="wd-projekt-card"><img src="assets/piratesadventurebeispielmarketingwebsiteschaustellerimpressrank.webp" alt="Pirates Adventure Website" loading="lazy" decoding="async" /></div>
 </div>
 </div>
 </section>
-<section style="background:#fff; padding:100px 0 80px;" id="prozess">
+<section class="section section-soft diff-section-accent diff-section-gray" id="prozess">
+  <div class="contact-frame" aria-hidden="true"></div>
+  <div class="container narrow" style="text-align:center; margin-bottom:48px;">
+    <h2>Wie wir dich zu deiner <em>perfekten Website</em> bringen</h2>
+  </div>
   <div class="container">
-    <h2 class="home-problem-question" style="text-align:center; margin-bottom:80px;">Wie wir dich zu deiner <em>perfekten Website</em> bringen</h2>
-    <style>
-      .prozess-zz { position:relative; max-width:860px; margin:0 auto; --process-progress:0%; }
-      .prozess-zz::before {
-        content:'';
-        position:absolute;
-        left:50%; top:0; bottom:0;
-        width:2px;
-        background:#dbe4f0;
-        transform:translateX(-50%);
-        z-index:0;
-      }
-      .prozess-progress-fill {
-        position:absolute;
-        left:50%; top:0;
-        width:2px;
-        height:var(--process-progress);
-        background: linear-gradient(to bottom, #22bce5 0%, #145af3 100%);
-        transform:translateX(-50%);
-        z-index:0;
-        border-radius:999px;
-        transition:height 0.1s linear;
-      }
-      .prozess-step { display:flex; align-items:center; gap:0; position:relative; z-index:1; margin-bottom:64px; }
-      .prozess-step:last-child { margin-bottom:0; }
-      .prozess-num { transition:transform 0.25s ease, box-shadow 0.25s ease; }
-      .prozess-step.is-active .prozess-num { transform:scale(1.08); box-shadow:0 6px 22px rgba(37,99,235,0.55); }
-      .prozess-step--right { flex-direction:row-reverse; }
-      .prozess-box {
-        flex:0 0 calc(50% - 40px);
-        max-width:calc(50% - 40px);
-        background:#f7f9fc;
-        border-radius:12px;
-        padding:32px 28px;
-        box-shadow:0 4px 20px rgba(14,34,56,0.07);
-      }
-      .prozess-step--right .prozess-box { background:#eff4ff; }
-      .prozess-num {
-        flex:0 0 80px;
-        width:80px;
-        height:80px;
-        border-radius:50%;
-        background:#2563eb;
-        color:#fff;
-        font-size:1.5rem;
-        font-weight:800;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        box-shadow:0 4px 16px rgba(37,99,235,0.35);
-        z-index:2;
-      }
-      .prozess-box h3 { font-size:1.15rem; font-weight:700; color:#0e2238; margin:0 0 10px; }
-      .prozess-box p { font-size:0.97rem; font-weight:400; color:#2d4a63; line-height:1.6; margin:0 0 12px; }
-      .prozess-badge {
-        display:inline-flex; align-items:center; gap:6px;
-        background:#fff; border:1.5px solid #2563eb;
-        border-radius:20px; padding:4px 14px;
-        font-size:0.82rem; font-weight:600; color:#1240a0;
-      }
-      @media(max-width:680px){
-        .prozess-zz::before, .prozess-progress-fill { left:28px; }
-        .prozess-step, .prozess-step--right { flex-direction:column; align-items:flex-start; padding-left:60px; }
-        .prozess-num { position:absolute; left:0; top:0; width:56px; height:56px; font-size:1.1rem; }
-        .prozess-box { max-width:100%; flex:unset; width:100%; }
-      }
-    </style>
-    <div class="prozess-zz" data-process-timeline="">
-      <div class="prozess-progress-fill" aria-hidden="true"></div>
-      <div class="prozess-step" data-step="">
-        <div class="prozess-box">
+    <div class="seo-steps">
+      <div class="seo-step">
+        <span class="seo-step-num">01</span>
+        <div>
           <h3>Kickoff</h3>
-          <p>In einem gemeinsamen Telefonat besprechen wir den konkreten Inhalt deiner Website, deine Zielsetzung und die Möglichkeiten für eine erfolgreiche Umsetzung. Im Anschluss erhältst du einen Link, wo du Bilder und Medien hochladen kannst.</p>
-          <span class="prozess-badge">⏱ Dein Zeitaufwand: 1h</span>
-        </div>
-        <div class="prozess-num">1</div>
-        <div style="flex:0 0 calc(50% - 40px); max-width:calc(50% - 40px); display:flex; justify-content:flex-end;">
-          <div style="width:100%; max-width:260px; aspect-ratio:4/3; border-radius:10px; overflow:hidden; position:relative;">
-            <img src="assets/prozess-kickoff.webp" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
-            <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(20,90,243,0.30) 0%, rgba(20,90,243,0.12) 100%); mix-blend-mode:screen; border-radius:10px;"></div>
-            <div style="position:absolute; inset:0; border:1.5px solid rgba(80,160,255,0.4); border-radius:10px; box-shadow:0 0 10px rgba(20,90,243,0.35); pointer-events:none;"></div>
-          </div>
+          <p>In einem gemeinsamen Telefonat besprechen wir den konkreten Inhalt deiner Website, deine Zielsetzung und die M&ouml;glichkeiten f&uuml;r eine erfolgreiche Umsetzung. Im Anschluss erh&auml;ltst du einen Link, wo du Bilder und Medien hochladen kannst. <span class="wd-step-time">Dein Zeitaufwand: 1&nbsp;h</span></p>
         </div>
       </div>
-      <div class="prozess-step prozess-step--right" data-step="">
-        <div class="prozess-box">
+      <div class="seo-step">
+        <span class="seo-step-num">02</span>
+        <div>
           <h3>Dein Website-Konzept</h3>
-          <p>Im Anschluss schreiben wir die Texte für deine Website. Von dir brauchen wir lediglich Feedback.</p>
-          <span class="prozess-badge">⏱ Dein Zeitaufwand: 15 min</span>
-        </div>
-        <div class="prozess-num">2</div>
-        <div style="flex:0 0 calc(50% - 40px); max-width:calc(50% - 40px); display:flex; justify-content:flex-start;">
-          <div style="width:100%; max-width:260px; aspect-ratio:4/3; border-radius:10px; overflow:hidden; position:relative;">
-            <img src="assets/pirates-5.webp" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
-            <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(20,90,243,0.30) 0%, rgba(20,90,243,0.12) 100%); mix-blend-mode:screen; border-radius:10px;"></div>
-            <div style="position:absolute; inset:0; border:1.5px solid rgba(80,160,255,0.4); border-radius:10px; box-shadow:0 0 10px rgba(20,90,243,0.35); pointer-events:none;"></div>
-          </div>
+          <p>Im Anschluss schreiben wir die Texte f&uuml;r deine Website. Von dir brauchen wir lediglich Feedback. <span class="wd-step-time">Dein Zeitaufwand: 15&nbsp;min</span></p>
         </div>
       </div>
-      <div class="prozess-step" data-step="">
-        <div class="prozess-box">
+      <div class="seo-step">
+        <span class="seo-step-num">03</span>
+        <div>
           <h3>Dein Design</h3>
-          <p>Sobald du mit dem Text glücklich bist, erstellen wir einen Look, der zu deiner Website passt, und integrieren ihn in die Seite.</p>
-          <span class="prozess-badge">⏱ Dein Zeitaufwand: 15 min</span>
-        </div>
-        <div class="prozess-num">3</div>
-        <div style="flex:0 0 calc(50% - 40px); max-width:calc(50% - 40px); display:flex; justify-content:flex-end;">
-          <div style="width:100%; max-width:260px; aspect-ratio:4/3; border-radius:10px; overflow:hidden; position:relative;">
-            <img src="assets/prozess-design.webp" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
-            <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(20,90,243,0.30) 0%, rgba(20,90,243,0.12) 100%); mix-blend-mode:screen; border-radius:10px;"></div>
-            <div style="position:absolute; inset:0; border:1.5px solid rgba(80,160,255,0.4); border-radius:10px; box-shadow:0 0 10px rgba(20,90,243,0.35); pointer-events:none;"></div>
-          </div>
+          <p>Sobald du mit dem Text gl&uuml;cklich bist, erstellen wir einen Look, der zu deiner Website passt, und integrieren ihn in die Seite. <span class="wd-step-time">Dein Zeitaufwand: 15&nbsp;min</span></p>
         </div>
       </div>
-      <div class="prozess-step prozess-step--right" data-step="">
-        <div class="prozess-box">
+      <div class="seo-step">
+        <span class="seo-step-num">04</span>
+        <div>
           <h3>Fertigstellung &amp; Launch</h3>
-          <p>Deine Website geht live. Auf Wunsch kümmern wir uns auch nach dem Live-Gang um Pflege und weitere Anpassungen.</p>
-          <span class="prozess-badge">🚀 Deine Website ist online</span>
-        </div>
-        <div class="prozess-num">4</div>
-        <div style="flex:0 0 calc(50% - 40px); max-width:calc(50% - 40px); display:flex; justify-content:flex-start;">
-          <div style="width:100%; max-width:260px; aspect-ratio:4/3; border-radius:10px; overflow:hidden; position:relative;">
-            <img src="assets/pirates-6.webp" alt="" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy" decoding="async" />
-            <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(20,90,243,0.30) 0%, rgba(20,90,243,0.12) 100%); mix-blend-mode:screen; border-radius:10px;"></div>
-            <div style="position:absolute; inset:0; border:1.5px solid rgba(80,160,255,0.4); border-radius:10px; box-shadow:0 0 10px rgba(20,90,243,0.35); pointer-events:none;"></div>
-          </div>
+          <p>Deine Website geht live. Auf Wunsch k&uuml;mmern wir uns auch nach dem Live-Gang um Pflege und weitere Anpassungen.</p>
         </div>
       </div>
     </div>
-    <div style="text-align:center; margin-top:64px;">
-      <a href="anfrage" class="btn btn-primary" style="font-size:1.1rem; padding:18px 40px;">Jetzt kostenlos anfragen</a>
+    <div style="text-align:center; margin-top:40px;">
+      <a href="anfrage" class="btn btn-primary btn-cta-blue">Jetzt kostenlos anfragen</a>
     </div>
   </div>
 </section>
-<section class="section section-accent" id="angebot">
-<div class="container split">
-<div>
-<h2>Kostenlose Website-Analyse für Unternehmen aus Bielefeld</h2>
-<p class="section-copy left">
-                Ich analysiere Ihre aktuelle Website und zeige Ihnen in einem kurzen Überblick, wo
-                Potenzial für mehr Anfragen besteht.
-              </p>
-<ul class="problem-list dark-list">
-<li>Wo Besucher abspringen</li>
-<li>Welche Verbesserungen sofort möglich sind</li>
-<li>Wie Ihre Website mehr Anfragen unterstützen kann</li>
-</ul>
-</div>
-<form action="https://hook.eu2.make.com/y5jbf5tppgs3e9gfiyuwtol7bx9nxnr6" class="offer-form" data-form-source="homepage-offer" method="post">
-<label for="name">Name</label>
-<input id="name" name="name" required="" type="text"/>
-<label for="email">Email</label>
-<input id="email" name="email" required="" type="email"/>
-<label for="url">Website URL</label>
-<input autocomplete="url" id="url" inputmode="url" name="url" placeholder="ihrewebsite.de" required="" type="text"/>
-<button class="btn btn-primary" type="submit">Kostenlose Analyse anfragen</button>
-<p aria-live="polite" class="form-status" data-form-status=""></p>
-</form>
-</div>
-</section>
-<section class="section section-soft" id="insights">
+<section class="section" id="blog">
 <div class="container">
-<div class="insights-head">
-<div class="narrow">
-<h2>Aktuelle Einblicke zu Websites, Online-Sichtbarkeit und digitalem Marketing</h2>
-<p class="section-copy">
-                  Viele Unternehmen unterschätzen, welchen Einfluss ihre Website auf Vertrauen,
-                  Sichtbarkeit und Kundenanfragen hat. Hier teilen wir Einblicke, Trends und praktische
-                  Tipps rund um moderne Websites, Online-Marketing und digitale Kundengewinnung.
-                </p>
-</div>
-</div>
-<div class="insights-grid">
-<article class="insight-card">
-<a aria-label="Artikel lesen: Google Sichtbarkeit" class="insight-media" href="blog/google-sichtbarkeit-unternehmen/">
-<img alt="Symbolbild: Online-Sichtbarkeit und Google" decoding="async" loading="lazy" src="assets/bild1.webp"/>
+<h2 style="text-align:center; margin-bottom:8px;">Der Blog, der dir mehr Neukunden bringt</h2>
+<p style="text-align:center; max-width:640px; margin:0 auto 40px; color:#4a5e72; font-size:1.05rem; line-height:1.7;">Kurze Impulse rund um Sichtbarkeit bei Google, deine Marke und mehr Neukunden.</p>
+<div class="blog-teaser-grid">
+<a class="blog-teaser-card" href="blog/einfacher-weg-bei-google-hoeher-zu-ranken/">
+<figure><img src="assets/blog/einfacher-weg-bei-google-hoeher-zu-ranken.webp" alt="Einfacher Weg, bei Google höher zu ranken" loading="lazy" decoding="async" /></figure>
+<h3>Einfacher Weg, bei Google höher zu ranken</h3>
 </a>
-<div class="insight-body">
-<h3>
-<a href="blog/google-sichtbarkeit-unternehmen/">
-                      Warum viele Unternehmens-Websites in Google kaum noch sichtbar sind
-                    </a>
-</h3>
-<p>
-                    Suchmaschinen verändern sich – besonders durch neue Technologien wie KI und steigende
-                    Konkurrenz. Unternehmen mit veralteten Websites verlieren dadurch zunehmend an Sichtbarkeit.
-                  </p>
-<a class="insight-link" href="blog/google-sichtbarkeit-unternehmen/">Artikel lesen</a>
-</div>
-</article>
-<article class="insight-card">
-<a aria-label="Artikel lesen: Website Fehler" class="insight-media" href="blog/website-fehler-kunden-verlust/">
-<img alt="Symbolbild: Website-Analyse und typische Fehler" decoding="async" loading="lazy" src="assets/bild2.webp"/>
+<a class="blog-teaser-card" href="blog/wie-bauen-unternehmer-in-owl-eine-starke-marke-auf/">
+<figure><img src="assets/blog/wie-bauen-unternehmer-in-owl-eine-starke-marke-auf.webp" alt="Aber was ist mit Markenbildung?" loading="lazy" decoding="async" /></figure>
+<h3>Wie bauen Unternehmer in OWL eine starke Marke auf?</h3>
 </a>
-<div class="insight-body">
-<h3>
-<a href="blog/website-fehler-kunden-verlust/">
-                      5 Website Fehler, durch die Unternehmen täglich Kunden verlieren
-                    </a>
-</h3>
-<p>
-                    Viele Websites wirken modern, führen Besucher aber nicht zur Anfrage. Diese häufigen Fehler
-                    kosten Unternehmen täglich potenzielle Kunden.
-                  </p>
-<a class="insight-link" href="blog/website-fehler-kunden-verlust/">Artikel lesen</a>
-</div>
-</article>
-<article class="insight-card">
-<a aria-label="Artikel lesen: Moderne Website" class="insight-media" href="blog/moderne-website-vertrauen/">
-<img alt="Symbolbild: Vertrauen durch moderne Website" decoding="async" loading="lazy" src="assets/bild3.webp"/>
-</a>
-<div class="insight-body">
-<h3>
-<a href="blog/moderne-website-vertrauen/">
-                      Warum eine moderne Website heute wichtiger ist als Werbung
-                    </a>
-</h3>
-<p>
-                    Bevor Kunden Kontakt aufnehmen, prüfen sie fast immer zuerst die Website. Der erste Eindruck
-                    entscheidet dabei oft über Vertrauen oder Absprung.
-                  </p>
-<a class="insight-link" href="blog/moderne-website-vertrauen/">Artikel lesen</a>
-</div>
-</article>
 </div>
 </div>
 </section>

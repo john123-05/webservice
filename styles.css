@@ -370,7 +370,7 @@ figure {
 }
 
 .nav-links a {
-  color: #28425f;
+  color: #000000;
   font-size: 0.94rem;
   font-weight: 600;
   padding: 8px 2px;
@@ -452,7 +452,7 @@ figure {
   border: 0;
   border-radius: 0;
   background: transparent;
-  color: #28425f;
+  color: #000000;
   font: inherit;
   font-size: 0.94rem;
   font-weight: 600;
@@ -511,7 +511,7 @@ figure {
   display: block;
   padding: 8px 2px;
   white-space: nowrap;
-  color: #28425f;
+  color: #000000;
   font-size: 0.92rem;
   font-weight: 600;
   position: relative;
@@ -594,7 +594,7 @@ figure {
 
 .home-problem-sub {
   font-size: clamp(1rem, 1.8vw, 1.2rem);
-  color: var(--muted);
+  color: #000000;
   margin-top: 10px;
 }
 
@@ -648,9 +648,13 @@ figure {
 
 .option-card p {
   font-size: 0.95rem;
-  color: var(--muted);
+  color: #000000;
   margin-top: 4px;
   text-align: center;
+}
+
+.option-card p strong {
+  color: #000000;
 }
 
 .option-card--bad {
@@ -854,12 +858,20 @@ figure {
 
 .diff-card p:last-child {
   font-size: 0.95rem;
-  color: var(--muted);
+  color: #000000;
   margin-top: 8px;
 }
 
+.diff-card p:not(.diff-label) {
+  color: #000000;
+}
+
 .diff-split__left .diff-card p:last-child {
-  color: var(--ink);
+  color: #000000;
+}
+
+.diff-card p:not(.diff-label) strong {
+  color: #000000;
 }
 
 @media (max-width: 900px) {
@@ -2264,6 +2276,13 @@ figure {
   height: 18px;
   object-fit: fill;
   margin-top: 2px;
+}
+
+.hero-underline.hero-underline--black {
+  filter: brightness(0);
+  width: 100%;
+  margin-left: 0;
+  transform: none;
 }
 
 .hero-bielefeld {
@@ -7360,9 +7379,9 @@ h2 {
 
 .services-split-card--icon img {
   width: auto;
-  max-width: 70%;
+  max-width: 56%;
   height: auto;
-  max-height: 80%;
+  max-height: 68%;
   object-fit: contain;
 }
 
@@ -7372,8 +7391,12 @@ h2 {
   font-size: 1.1rem;
   line-height: 1.32;
   color: #0e2238;
-  font-weight: 800;
+  font-weight: 500;
   flex: 1;
+}
+
+.services-split-card h3 strong {
+  font-weight: 800;
 }
 
 .services-split-more {
@@ -7417,7 +7440,7 @@ h2 {
 
 @media (max-width: 640px) {
   .services-split-card--icon figure { aspect-ratio: 16 / 10; }
-  .services-split-card--icon img { max-width: 52%; max-height: 74%; }
+  .services-split-card--icon img { max-width: 46%; max-height: 62%; }
   .services-split-section { padding: 56px 0; }
   .services-split-grid { flex-direction: column; }
   .services-split-grid .services-split-col { display: contents; }
@@ -7433,7 +7456,7 @@ h2 {
 
 .services-split-deco img {
   display: block;
-  width: 118px;
+  width: 96px;
   height: auto;
   pointer-events: none;
   user-select: none;
@@ -7794,8 +7817,9 @@ h2 {
 
 .hero-area--video { background: #ffffff; }
 
-/* SEO-Seite: duenne blaue Kontur um die weisse Stadt-Silhouette */
-.hero-area--video .hero-divider-graphic img {
+/* Duenne blaue Kontur um die weisse Stadt-Silhouette */
+.hero-area--video .hero-divider-graphic img,
+.hero-divider-graphic--outlined img {
   filter:
     drop-shadow(1px 0 0 #145af3)
     drop-shadow(-1px 0 0 #145af3)
@@ -8097,7 +8121,8 @@ h2 {
 }
 
 /* SEO-Seite: Ueberschriften-Labels schlicht wie bei "Fallstudie" (kein Rahmen, kein Kreis) */
-.seo-page p.eyebrow {
+.seo-page p.eyebrow,
+.plain-labels p.eyebrow {
   display: block;
   width: auto;
   margin: 0 0 10px;
@@ -8113,7 +8138,8 @@ h2 {
   color: #1a2a3a;
 }
 
-.seo-page p.eyebrow svg { display: none; }
+.seo-page p.eyebrow svg,
+.plain-labels p.eyebrow svg { display: none; }
 
 /* Preise: echte Karten in Google-Farben (Blau, Gruen, Gelb), leicht gekippt */
 .pr-stage { position: relative; max-width: 1080px; margin: 0 auto; padding-top: 26px; }
@@ -8264,15 +8290,17 @@ h2 {
 }
 
 
-/* SEO-Seite: Stadt-Silhouette kleiner, die blaue Bodenlinie laeuft duenn bis zu den Seiten */
-.hero-area--video .hero-divider-graphic img {
+/* Stadt-Silhouette kleiner, die blaue Bodenlinie laeuft duenn bis zu den Seiten */
+.hero-area--video .hero-divider-graphic img,
+.hero-divider-graphic--outlined img {
   left: 12%;
   right: auto;
   width: 76%;
   z-index: 1;
 }
 
-.hero-area--video .hero-divider-graphic::after {
+.hero-area--video .hero-divider-graphic::after,
+.hero-divider-graphic--outlined::after {
   content: "";
   position: absolute;
   left: 0;
@@ -8284,8 +8312,10 @@ h2 {
 }
 
 @media (max-width: 900px) {
-  .hero-area--video .hero-divider-graphic img { left: 0; width: 100%; }
-  .hero-area--video .hero-divider-graphic::after { background: #145af3; }
+  .hero-area--video .hero-divider-graphic img,
+  .hero-divider-graphic--outlined img { left: 0; width: 100%; }
+  .hero-area--video .hero-divider-graphic::after,
+  .hero-divider-graphic--outlined::after { background: #145af3; }
 }
 
 /* Angebots-Sektion minimalistisch: Text links, Platz fuer ein Bild rechts */
@@ -8329,3 +8359,26 @@ h2 {
   .seo-offer-media { position: static; margin: 12px 21px 21px; }
   .seo-offer-media img { width: 100%; height: auto; border-radius: 14px; -webkit-mask-image: none; mask-image: none; }
 }
+
+/* Websites-Seite: Ueberschrift in drei Zeilen */
+.hero-copy .hero-main-heading { max-width: none; }
+@media (min-width: 721px) { .hero-grid--wide { max-width: 760px; } .hero-grid--wide .hero-main-heading { font-size: clamp(2rem, 3.6vw, 3rem); } }
+@media (max-width: 720px) { .hd-br { display: none; } }
+
+/* Websites-Seite: Angebot schlicht, weisse Karten statt dunkelblauer Box */
+.plain-labels .intro-features { padding: 0; margin-top: 30px; border-radius: 0; background: none; box-shadow: none; }
+.plain-labels .intro-features-grid { gap: 22px; }
+.plain-labels .intro-feature-card {
+  background: #ffffff;
+  border: 1px solid #dce6f0;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 12px 28px rgba(16, 36, 65, 0.08);
+}
+.plain-labels .intro-feature-icon { width: 34px; height: 34px; margin-bottom: 16px; color: #145af3; }
+.plain-labels .intro-feature-card p { color: #4a5e72; font-size: 1.02rem; }
+.plain-labels .intro-feature-card p strong { color: #0e2238; }
+
+.wd-step-time { display: block; margin-top: 8px; font-size: 0.92rem; font-weight: 600; color: #145af3; }
+
+.nav-dropdown-trigger.active { color: var(--primary-deep); }

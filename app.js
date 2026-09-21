@@ -113,16 +113,17 @@ const initMenu = () => {
   if (!toggle || !nav) return;
 
   const mobileMedia = window.matchMedia('(max-width: 780px)');
-  const submenu = nav.querySelector('.nav-dropdown');
-  const submenuToggle = nav.querySelector('.nav-submenu-toggle');
+  const submenus = Array.from(nav.querySelectorAll('.nav-dropdown'));
   if (!nav.id) nav.id = 'site-navigation';
   toggle.setAttribute('aria-controls', nav.id);
 
-  const syncSubmenuState = (open) => {
-    if (!submenu || !submenuToggle) return;
+  const syncSubmenuState = (submenu, open) => {
+    const submenuToggle = submenu.querySelector('.nav-submenu-toggle');
+    if (!submenuToggle) return;
+    const name = submenuToggle.textContent.trim();
     submenu.classList.toggle('is-open', open);
     submenuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    submenuToggle.setAttribute('aria-label', open ? 'Lösungen schließen' : 'Lösungen öffnen');
+    submenuToggle.setAttribute('aria-label', open ? name + ' schließen' : name + ' öffnen');
 
     // Inline values keep the mobile disclosure reliable even if a cached stylesheet wins the cascade.
     // On desktop the dropdown opens via CSS :hover/:focus-within, so leftover inline styles here
@@ -157,7 +158,7 @@ const initMenu = () => {
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     toggle.setAttribute('aria-label', open ? 'Navigation schließen' : 'Navigation öffnen');
     nav.hidden = false;
-    if (!open) syncSubmenuState(false);
+    if (!open) submenus.forEach((submenu) => syncSubmenuState(submenu, false));
   };
 
   const syncViewportState = () => {
@@ -171,9 +172,15 @@ const initMenu = () => {
     syncMenuState(!nav.classList.contains('open'));
   });
 
-  submenuToggle?.addEventListener('click', () => {
-    if (!mobileMedia.matches || !submenu) return;
-    syncSubmenuState(!submenu.classList.contains('is-open'));
+  submenus.forEach((submenu) => {
+    submenu.querySelector('.nav-submenu-toggle')?.addEventListener('click', () => {
+      if (!mobileMedia.matches) return;
+      const willOpen = !submenu.classList.contains('is-open');
+      submenus.forEach((other) => {
+        if (other !== submenu) syncSubmenuState(other, false);
+      });
+      syncSubmenuState(submenu, willOpen);
+    });
   });
 
   nav.querySelectorAll('a').forEach((link) => {
