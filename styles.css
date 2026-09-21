@@ -8491,6 +8491,49 @@ h2 {
   }
 }
 
+/* Startseiten-Hero mobil: Motiv gross und zentriert zwischen den Seitenraendern. */
+@media (max-width: 780px) {
+  .hero-area.hero-area--photo.hero-area--home {
+    padding-bottom: 370px;
+    background-size: auto 500px;
+    background-position: center calc(100% - 90px);
+  }
+
+  .hero-area.hero-area--home .hero-copy {
+    margin-top: 72px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-area.hero-area--home .hero-main-heading {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero-area.hero-area--home .hero-actions {
+    justify-content: center;
+  }
+
+  .hero-area.hero-area--home .hero-divider-graphic {
+    height: clamp(300px, 76vw, 430px);
+  }
+
+  .hero-area.hero-area--home .hero-divider-graphic img {
+    left: -17.5%;
+    right: auto;
+    width: 135%;
+    max-width: none;
+  }
+
+  .hero-area.hero-area--home .hero-divider-graphic--outlined::after {
+    display: none;
+  }
+
+  .hero-area.hero-area--home + main .two-things-section {
+    padding-top: 0;
+  }
+}
+
 /* Fallstudie-Button unter der Bewertung: schwarz */
 .testimonial-case-btn.btn-cta-blue {
   background: #0e1116;
