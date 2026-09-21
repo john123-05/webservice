@@ -311,8 +311,8 @@ figure {
   padding-left: calc((100vw - min(1160px, 92vw)) / 2);
   padding-right: calc((100vw - min(1160px, 92vw)) / 2);
   box-sizing: border-box;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.35);
-  background: #eef4ff;
+  border-bottom: 0;
+  background: #ffffff;
   z-index: 9999;
 }
 
@@ -500,8 +500,8 @@ figure {
   flex-direction: column;
   gap: 0;
   padding: 8px 14px 12px;
-  background: #eef4ff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+  background: #ffffff;
+  border-bottom: 0;
   transform: translateY(-100%);
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
@@ -2061,6 +2061,65 @@ figure {
   filter: blur(2px);
   transform: scale(1.015);
   opacity: 0.44;
+}
+
+/* Fotohintergründe ohne Overlay auf Startseite und Anzeigen-Seite. */
+.hero-area.hero-area--photo {
+  background: #d3e5fd url("assets/home-hero-pirates.png") center / cover no-repeat;
+}
+
+.hero-area--photo::before {
+  content: none;
+}
+
+.hero-area.hero-area--ads {
+  background-image: url("assets/ads-hero-pirates8.png");
+}
+
+.hero-area.hero-area--webdesign {
+  background-image: url("assets/webdesign-hero-pirates7.png");
+}
+
+@media (min-width: 1001px) {
+  .hero-area.hero-area--webdesign .hero-grid {
+    max-width: 900px;
+  }
+
+  .hero-area.hero-area--webdesign .hero-main-heading {
+    margin-left: 0;
+    max-width: 900px;
+    font-size: clamp(2rem, 3.6vw, 3rem);
+  }
+
+  .hero-area.hero-area--webdesign .hero-copy {
+    margin-top: 120px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero-area.hero-area--webdesign .hero-main-heading {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 721px) {
+  .hero-area--ads .hero-grid {
+    max-width: 900px;
+  }
+
+  .hero-area--ads .hero-main-heading {
+    max-width: 900px;
+    font-size: clamp(1.5rem, 3.5vw, 3rem);
+  }
+}
+
+@media (max-width: 720px) {
+  .hero-area.hero-area--photo {
+    padding-top: 48px;
+    padding-bottom: 320px;
+    background-size: auto 320px;
+    background-position: right bottom;
+  }
 }
 
 .hero-showcase {
@@ -4430,9 +4489,9 @@ h2 {
     align-items: center;
     gap: 0 16px;
     padding: 8px 5vw;
-    background: rgba(238, 244, 255, 0.96);
-    box-shadow: 0 1px 0 rgba(28, 56, 90, 0.16);
-    backdrop-filter: blur(14px);
+    background: #ffffff;
+    box-shadow: none;
+    backdrop-filter: none;
   }
 
   .brand {
@@ -8423,6 +8482,13 @@ h2 {
 .testimonial-col--offset { margin-top: 34px; }
 .testimonial-case-btn { margin-top: 18px; align-self: center; padding: 10px 20px; font-size: 0.95rem; }
 @media (max-width: 860px) { .testimonial-col--offset { margin-top: 0; } .testimonial-case-btn { margin-bottom: 10px; } }
+
+/* Webdesign-Hero: Inhalt auf Desktop etwas tiefer im Bild platzieren. */
+@media (min-width: 1001px) {
+  .hero-area.hero-area--webdesign .hero-copy {
+    margin-top: 150px;
+  }
+}
 
 /* Fallstudie-Button unter der Bewertung: schwarz */
 .testimonial-case-btn.btn-cta-blue {
