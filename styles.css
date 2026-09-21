@@ -8382,3 +8382,56 @@ h2 {
 .wd-step-time { display: block; margin-top: 8px; font-size: 0.92rem; font-weight: 600; color: #145af3; }
 
 .nav-dropdown-trigger.active { color: var(--primary-deep); }
+
+/* Bewertungen: drei kleine Karten, mittlere leicht versetzt */
+.testimonials-offset {
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+}
+
+.testimonials-offset .testimonial-card {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.testimonial-card--small {
+  padding: 20px;
+}
+
+.testimonial-card--small .testimonial-quote {
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.testimonial-card--offset {
+  margin-top: 34px;
+}
+
+@media (max-width: 860px) {
+  .testimonials-offset {
+    flex-direction: column;
+  }
+  .testimonial-card--offset {
+    margin-top: 0;
+  }
+}
+
+
+.testimonial-col { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; align-items: center; }
+.testimonial-col .testimonial-card { width: 100%; box-sizing: border-box; }
+.testimonial-col--offset { margin-top: 34px; }
+.testimonial-case-btn { margin-top: 18px; align-self: center; padding: 10px 20px; font-size: 0.95rem; }
+@media (max-width: 860px) { .testimonial-col--offset { margin-top: 0; } .testimonial-case-btn { margin-bottom: 10px; } }
+
+/* Fallstudie-Button unter der Bewertung: schwarz */
+.testimonial-case-btn.btn-cta-blue {
+  background: #0e1116;
+  border: 1px solid #0e1116;
+  color: #ffffff;
+  box-shadow: 0 10px 22px rgba(14, 17, 22, 0.28);
+}
+.testimonial-case-btn.btn-cta-blue:hover {
+  background: #262c36;
+  box-shadow: 0 14px 28px rgba(14, 17, 22, 0.36);
+}
