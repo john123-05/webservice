@@ -2065,7 +2065,7 @@ figure {
 
 /* Fotohintergründe ohne Overlay auf Startseite und Anzeigen-Seite. */
 .hero-area.hero-area--photo {
-  background: #d3e5fd url("assets/home-hero-pirates.png") center / cover no-repeat;
+  background: #d3e5fd url("assets/home-hero-pirates.webp") center / cover no-repeat;
 }
 
 .hero-area--photo::before {
@@ -2073,11 +2073,11 @@ figure {
 }
 
 .hero-area.hero-area--ads {
-  background-image: url("assets/ads-hero-pirates8.png");
+  background-image: url("assets/ads-hero-pirates8.webp");
 }
 
 .hero-area.hero-area--webdesign {
-  background-image: url("assets/webdesign-hero-pirates7.png");
+  background-image: url("assets/webdesign-hero-pirates7.webp");
 }
 
 @media (min-width: 1001px) {
@@ -2114,9 +2114,10 @@ figure {
 }
 
 @media (max-width: 720px) {
-  .hero-area.hero-area--photo {
+  .hero-area.hero-area--photo.hero-area--home {
     padding-top: 48px;
     padding-bottom: 320px;
+    background-image: url("assets/home-hero-pirates9.webp");
     background-size: auto 320px;
     background-position: right bottom;
   }
