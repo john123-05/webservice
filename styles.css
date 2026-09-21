@@ -7094,51 +7094,6 @@ h2 {
   .fk-video-help:hover { transform: scale(1.08); }
 }
 
-/* Hinweisleiste fuer Flyer-Besucher (temporaer, entfernen: .ir-banner aus index.html loeschen) */
-.ir-banner {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 200;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 44px;
-  background: var(--primary);
-  color: #fff;
-  font-size: 0.92rem;
-  overflow: hidden;
-}
-
-.ir-banner-link { color: #fff; text-decoration: none; white-space: nowrap; }
-.ir-banner-link:hover strong { text-decoration: underline; }
-.ir-banner-short { display: none; }
-
-.ir-banner-close {
-  position: absolute;
-  top: 0;
-  right: 6px;
-  width: 36px;
-  height: 40px;
-  border: 0;
-  background: transparent;
-  color: #fff;
-  font-size: 1.5rem;
-  line-height: 1;
-  cursor: pointer;
-}
-
-body:has(.ir-banner) { padding-top: 40px; }
-body:has(.ir-banner) .nav { top: 40px; }
-
-@media (max-width: 720px) {
-  .ir-banner { font-size: 0.85rem; padding: 0 40px 0 12px; }
-  .ir-banner-long { display: none; }
-  .ir-banner-short { display: inline; }
-}
-
 /* Blog-Teaser (wie auf der Schausteller-Seite) */
 .blog-teaser-grid {
   display: grid;
@@ -7737,9 +7692,9 @@ body:has(.ir-banner) .nav { top: 40px; }
 .hero-video {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: -90px;
   width: min(48%, 640px);
-  transform: translateY(-46%);
+  transform: translateY(-68%);
   z-index: 4;
 }
 
@@ -7818,4 +7773,149 @@ body:has(.ir-banner) .nav { top: 40px; }
   .liftcs { padding: 56px 0; }
   .liftcs-grid { grid-template-columns: 1fr; gap: 30px; padding: 0; }
   .liftcs-copy h2 { max-width: none; }
+}
+
+/* Wistia-Video im Hero der SEO-Seite */
+.hero-video-wistia {
+  border-radius: 18px;
+  overflow: hidden;
+  background: #0e2238;
+  box-shadow: 0 24px 60px rgba(20, 60, 190, 0.26);
+}
+
+/* SEO-Seite: eigenes Hero-Hintergrundbild (Google-Suche) */
+.hero-area--video::before {
+  inset: 0;
+  background: url("assets/hero-google-suche.webp") 76% bottom / 68% auto no-repeat;
+  filter: none;
+  transform: none;
+  opacity: 1;
+}
+
+.hero-area--video { background: #ffffff; }
+
+/* SEO-Seite: duenne blaue Kontur um die weisse Stadt-Silhouette */
+.hero-area--video .hero-divider-graphic img {
+  filter:
+    drop-shadow(1px 0 0 #145af3)
+    drop-shadow(-1px 0 0 #145af3)
+    drop-shadow(0 1px 0 #145af3)
+    drop-shadow(0 -1px 0 #145af3);
+}
+
+.hero-video-cta {
+  margin-top: 18px;
+  text-align: center;
+}
+
+/* Angebots-Sektion (SEO-Seite): Rahmen-Sektion mit grauem Verlauf wie bei der Fallstudie */
+.seo-offer-wrap { position: relative; padding: 82px 0; }
+
+.seo-offer { text-align: center; }
+
+.seo-offer-eyebrow {
+  margin: 0 0 14px;
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: #1a2a3a;
+}
+
+.seo-offer-title {
+  max-width: 24ch;
+  margin: 0 auto 20px;
+  font-size: clamp(2rem, 4.4vw, 3.4rem);
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  color: #0e2238;
+}
+
+.seo-offer-accent { color: #145af3; }
+
+.seo-offer-lead {
+  margin: 0 auto 34px;
+  max-width: 52ch;
+  font-size: 1.12rem;
+  line-height: 1.65;
+  color: #1a1a1a;
+}
+
+.seo-offer-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 820px;
+  margin: 0 auto 36px;
+}
+
+.seo-offer-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 20px 14px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #dce6f0;
+  box-shadow: 0 12px 28px rgba(16, 36, 65, 0.08);
+}
+
+.seo-offer-num {
+  font-size: clamp(1.4rem, 2.6vw, 2rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: #145af3;
+}
+
+.seo-offer-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #4a5e72;
+}
+
+.seo-offer-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+@media (max-width: 700px) {
+  .seo-offer-wrap { padding: 56px 0; }
+  .seo-offer-tiles { grid-template-columns: 1fr; gap: 10px; }
+  .seo-offer-tile { flex-direction: row; align-items: baseline; justify-content: center; gap: 10px; padding: 14px; }
+}
+
+/* Angebots-Sektion: grauer Verlauf kommt von links statt von rechts */
+.seo-offer-wrap.diff-section-gray::before {
+  background: linear-gradient(258deg, transparent 44%, rgba(100, 110, 125, 0.15) 51%, rgba(100, 110, 125, 0.12) 100%) !important;
+}
+
+/* Angebots-Sektion: Text links (linksbuendig), Kacheln rechts, ein Kontakt-Button */
+.seo-offer {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+  gap: 56px;
+  align-items: center;
+  text-align: left;
+  padding: 0 clamp(8px, 2vw, 28px);
+}
+
+.seo-offer-title { max-width: none; margin: 0 0 20px; }
+.seo-offer-lead { margin: 0 0 30px; max-width: 46ch; }
+.seo-offer-actions { justify-content: flex-start; }
+
+.seo-offer-tiles {
+  grid-template-columns: 1fr;
+  max-width: none;
+  margin: 0;
+}
+
+.seo-offer-tile { align-items: flex-start; text-align: left; padding: 20px 24px; }
+
+@media (max-width: 900px) {
+  .seo-offer { grid-template-columns: 1fr; gap: 40px; padding: 0; }
+}
+
+@media (max-width: 700px) {
+  .seo-offer-tile { flex-direction: row; align-items: baseline; justify-content: flex-start; gap: 10px; padding: 14px 18px; }
 }
