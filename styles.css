@@ -585,6 +585,43 @@ figure {
   margin-inline: auto;
 }
 
+.home-problem-copy .home-problem-question { margin-bottom: 40px; }
+
+@media (min-width: 861px) {
+  .home-problem {
+    max-width: 1160px;
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.3fr);
+    gap: clamp(32px, 5vw, 80px);
+    align-items: center;
+    text-align: left;
+  }
+  .home-problem-copy .home-problem-question { margin-bottom: 0; }
+  .home-problem .options-grid { grid-template-columns: 1fr; gap: 18px; }
+  .home-problem .option-card {
+    display: grid;
+    grid-template-columns: 132px minmax(0, 1fr);
+    column-gap: 20px;
+    align-items: center;
+    width: calc(100% - 48px);
+    padding: 18px 26px;
+  }
+  .home-problem .option-card:nth-child(even) { margin-left: auto; }
+  .home-problem .option-card-img {
+    grid-column: 1;
+    grid-row: 1 / span 6;
+    width: 132px;
+    height: 132px;
+    margin: 0;
+    transform: none;
+    object-position: center;
+  }
+  .home-problem .option-card > :not(img) { grid-column: 2; }
+  .home-problem .option-card h3,
+  .home-problem .option-card p { text-align: left; }
+}
+
+
 .home-problem-lead {
   font-size: clamp(1.4rem, 2.5vw, 2rem);
   font-weight: 700;
@@ -7294,7 +7331,56 @@ h2 {
   z-index: 2;
 }
 
+@media (min-width: 861px) {
+  .diff-split--reordered {
+    grid-template-columns: 1.05fr 0.95fr;
+    grid-template-rows: auto 1fr;
+    column-gap: clamp(32px, 4vw, 64px);
+  }
+  .diff-split--reordered .diff-split__title {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: left;
+    margin-bottom: 28px;
+    align-self: end;
+  }
+  .diff-split--reordered .diff-split__cards { grid-column: 1; grid-row: 1 / span 2; }
+  .diff-split--reordered .diff-split__images { grid-column: 2; grid-row: 2; }
+
+  /* Karten als laengliche, versetzte Streifen untereinander (wie "Alles selbst machen?") */
+  .diff-split__cards { flex-direction: column; gap: 18px; align-items: stretch; }
+  .diff-split__cards .services-split-col { display: contents; }
+  .diff-split__cards .services-split-col--offset { margin-top: 0; }
+  .diff-split__cards .services-split-col:first-child > .diff-card:nth-child(1) { order: 1; }
+  .diff-split__cards .services-split-col--offset > .diff-card:nth-child(1) { order: 2; }
+  .diff-split__cards .services-split-col:first-child > .diff-card:nth-child(2) { order: 3; }
+  .diff-split__cards .services-split-col--offset > .diff-card:nth-child(2) { order: 4; }
+  .diff-split__cards .diff-card--portrait {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: center;
+    column-gap: 20px;
+    width: calc(100% - 48px);
+    min-height: 0;
+    padding: 18px 26px;
+  }
+  .diff-split__cards .diff-card--portrait:has(.diff-card-img-wrap) { grid-template-columns: minmax(0, 1fr) 130px; }
+  .diff-split__cards .diff-label { grid-column: 1; margin-bottom: 8px; }
+  .diff-split__cards .diff-card p:last-child { grid-column: 1; margin-top: 0; }
+  .diff-split__cards .diff-card p:not(.diff-label) { grid-column: 1; }
+  .diff-split__cards .diff-card-img-wrap {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    height: 100px;
+    margin: 0;
+  }
+  .diff-split__cards .diff-card-img { height: 100px; }
+  .diff-split__cards .services-split-col--offset > .diff-card { margin-left: auto; }
+  .diff-split__cards .diff-card-img { height: 90px; transform: scale(1.1); transform-origin: center; }
+}
+
 @media (max-width: 860px) {
+  .diff-split--reordered .diff-split__title { margin-bottom: 32px; }
   .diff-split--reordered {
     grid-template-columns: 1fr;
     align-items: start;
@@ -8480,6 +8566,8 @@ h2 {
 .testimonial-col--offset { margin-top: 34px; }
 .testimonial-case-btn { margin-top: 18px; align-self: center; padding: 10px 20px; font-size: 0.95rem; }
 @media (max-width: 860px) { .testimonial-col--offset { margin-top: 0; } .testimonial-case-btn { margin-bottom: 10px; } }
+/* Desktop: Liftpictures-Karte (mit Fallstudie-Button) in der Mitte */
+@media (min-width: 861px) { .testimonials-offset .testimonial-col--offset { order: 2; } .testimonials-offset > .testimonial-card:last-of-type { order: 3; } }
 
 /* Webdesign-Hero: Inhalt auf Desktop etwas tiefer im Bild platzieren. */
 @media (min-width: 1001px) {
@@ -8580,4 +8668,15 @@ h2 {
 .testimonial-case-btn.btn-cta-blue:hover {
   background: #262c36;
   box-shadow: 0 14px 28px rgba(14, 17, 22, 0.36);
+}
+
+/* Navbar Desktop: kein weisser Balken, Logo/Links/Button direkt auf dem Hero-Bild.
+   absolute statt fixed, damit die Leiste beim Scrollen nicht ueber dem Inhalt schwebt. */
+@media (min-width: 781px) {
+  .nav {
+    position: absolute;
+    background: transparent;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
 }

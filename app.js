@@ -222,7 +222,7 @@ const getCookieBannerConfig = () => {
       privacyHref: '/datenschutz-en.html',
     reopenLabel: 'Open cookie settings',
     message:
-        'We use necessary cookies and optional analytics and HubSpot to improve this website. You can accept all cookies or stay with the necessary ones only.',
+        'We use necessary cookies and optional analytics to improve this website. You can accept all cookies or stay with the necessary ones only.',
     };
   }
 
@@ -233,7 +233,7 @@ const getCookieBannerConfig = () => {
     privacyHref: '/datenschutz.html',
     reopenLabel: 'Cookie-Einstellungen öffnen',
     message:
-      'Wir nutzen notwendige Cookies sowie optionale Analysen und HubSpot, um diese Website zu verbessern. Sie können alle Cookies akzeptieren oder nur bei den notwendigen bleiben.',
+      'Wir nutzen notwendige Cookies sowie optionale Analysen, um diese Website zu verbessern. Sie können alle Cookies akzeptieren oder nur bei den notwendigen bleiben.',
   };
 };
 
@@ -427,17 +427,6 @@ const initCookieBanner = () => {
     })(window, document, 'clarity', 'script', 'wu351o84oe');
   };
 
-  const loadHubSpot = () => {
-    if (document.getElementById('hs-script-loader')) return;
-
-    const script = document.createElement('script');
-    script.id = 'hs-script-loader';
-    script.async = true;
-    script.defer = true;
-    script.src = 'https://js-eu1.hs-scripts.com/149175807.js';
-    document.head.appendChild(script);
-  };
-
   // Meta Pixel laeuft sitewide auf der echten ImpressRank-Domain. So koennen neben den
   // Lead-Magneten auch Besucher einzelner Leistungsseiten retargetet werden, ohne lokalen
   // oder Preview-Traffic in die Zielgruppen aufzunehmen.
@@ -468,7 +457,6 @@ const initCookieBanner = () => {
 
     loadClarity();
     loadMetaPixel();
-    loadHubSpot();
     initAnalyticsTracking();
   };
 
