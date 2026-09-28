@@ -1315,7 +1315,7 @@ const initInlineFristenkalenderForm = () => {
 
     if (status) {
       status.hidden = false;
-      status.textContent = 'Fast geschafft — bitte bestätige deine E-Mail-Adresse. Wir haben dir einen Link geschickt.';
+      status.textContent = 'Fast geschafft - bitte bestätige deine E-Mail-Adresse. Wir haben dir einen Link geschickt.';
     }
 
     form.reset();

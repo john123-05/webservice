@@ -1197,6 +1197,12 @@ figure {
   gap: 14px;
 }
 
+.section-cta-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
 .seo-step {
   background: var(--surface);
   border: 1px solid #e4ebf5;
@@ -2477,6 +2483,7 @@ figure {
 .nav-links .nav-cta.btn-whatsapp {
   background: linear-gradient(135deg, #0b3d24 0%, #128c4a 48%, #1f9e5c 100%);
   box-shadow: 0 8px 18px rgba(11, 61, 36, 0.28);
+  color: #ffffff;
 }
 
 .btn-cta-blue.btn-whatsapp:hover,
@@ -6686,8 +6693,9 @@ h2 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 15px 22px;
+  padding: 14px 20px;
   border-radius: 10px;
+  white-space: nowrap;
   background: linear-gradient(135deg, var(--primary) 0%, var(--primary-deep) 100%);
   border: none;
   box-shadow: 0 10px 22px rgba(20, 90, 243, 0.3);
@@ -7447,6 +7455,9 @@ h2 {
     grid-template-columns: 1fr;
     align-items: start;
   }
+  .diff-split--reordered .diff-split__title { order: 1; }
+  .diff-split--reordered .diff-split__images { order: 2; margin-bottom: 32px; }
+  .diff-split--reordered .diff-split__cards { order: 3; }
   .diff-split--reordered .diff-image-office { display: block; }
   .diff-split__images .diff-image-main { width: 100%; }
   .diff-image-office--small {

@@ -322,7 +322,7 @@
           control = `<input class="fm-input" type="email" data-key="${esc(f.key)}" value="${esc(v || '')}" />`;
         } else if (f.type === 'select') {
           control =
-            `<select class="fm-select" data-key="${esc(f.key)}"><option value="">—</option>` +
+            `<select class="fm-select" data-key="${esc(f.key)}"><option value="">-</option>` +
             (f.options || [])
               .map((o) => `<option value="${esc(o.value)}"${v === o.value ? ' selected' : ''}>${esc(langText(o.label, o.value))}</option>`)
               .join('') +
