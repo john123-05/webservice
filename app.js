@@ -1176,6 +1176,52 @@ const initScrollAnimations = () => {
 
 initScrollAnimations();
 
+// Zaehlt Stat-Zahlen (z.B. "72%") beim Reinscrollen von 0 bis zum Zielwert hoch.
+const initStatCounters = () => {
+  const counters = document.querySelectorAll('[data-count-to]');
+  if (!counters.length) return;
+
+  const animateCount = (el) => {
+    const target = parseInt(el.dataset.countTo, 10);
+    if (!Number.isFinite(target)) return;
+    const duration = 1200;
+    const start = performance.now();
+
+    const step = (now) => {
+      const progress = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.round(eased * target);
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      } else {
+        el.textContent = target;
+      }
+    };
+    requestAnimationFrame(step);
+  };
+
+  if (!('IntersectionObserver' in window)) {
+    counters.forEach((el) => { el.textContent = el.dataset.countTo; });
+    return;
+  }
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          animateCount(entry.target);
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.4 }
+  );
+
+  counters.forEach((el) => observer.observe(el));
+};
+
+initStatCounters();
+
 // LC newsletter subscribe form
 const postLeadWebhook = async (payload) => {
   const webhookUrl = 'https://hook.eu2.make.com/py853sy75xwacg5chb32gtk0i3cyt48a';
@@ -1971,3 +2017,49 @@ if (lcHeader) {
   window.addEventListener('scroll', onLcScroll, { passive: true });
   onLcScroll();
 }
+
+// Auf Mobil werden die Haupt-Kontakt-CTAs zu direkten WhatsApp-Buttons,
+// da mobile Nutzer eher per WhatsApp schreiben als das Formular auszufuellen.
+// Auf Desktop bleiben die Buttons unveraendert (Link zur Anfrage-Seite).
+const initMobileWhatsappCtas = () => {
+  const links = Array.from(document.querySelectorAll('[data-wa-cta]'));
+  if (!links.length) return;
+
+  const WHATSAPP_NUMBER = '4915229274863';
+  const WHATSAPP_MESSAGE = 'Hallo, ich interessiere mich für Online-Marketing für mein Unternehmen, schickt mir bitte mehr Infos.';
+  const WHATSAPP_HREF = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+  const WHATSAPP_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px;margin-right:8px;flex:0 0 auto;fill:currentColor;"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>';
+
+  const state = links.map((link) => ({
+    link,
+    originalHref: link.getAttribute('href'),
+    originalHtml: link.innerHTML,
+    originalTarget: link.getAttribute('target'),
+    originalRel: link.getAttribute('rel'),
+    originalText: link.textContent.trim(),
+  }));
+
+  const mq = window.matchMedia('(max-width: 780px)');
+
+  const apply = (isMobile) => {
+    state.forEach(({ link, originalHref, originalHtml, originalTarget, originalRel, originalText }) => {
+      if (isMobile) {
+        link.setAttribute('href', WHATSAPP_HREF);
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener');
+        link.classList.add('btn-whatsapp');
+        link.innerHTML = WHATSAPP_ICON + originalText;
+      } else {
+        link.setAttribute('href', originalHref);
+        if (originalTarget) link.setAttribute('target', originalTarget); else link.removeAttribute('target');
+        if (originalRel) link.setAttribute('rel', originalRel); else link.removeAttribute('rel');
+        link.classList.remove('btn-whatsapp');
+        link.innerHTML = originalHtml;
+      }
+    });
+  };
+
+  apply(mq.matches);
+  mq.addEventListener('change', (e) => apply(e.matches));
+};
+initMobileWhatsappCtas();
