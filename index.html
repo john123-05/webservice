@@ -45,7 +45,7 @@
     <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="assets/online-marketing-agentur-bielefeld-owl.webp" as="image" media="(min-width: 781px)" fetchpriority="high" />
     <link rel="preload" href="assets/online-marketing-agentur-bielefeld-owl-mobile.webp" as="image" media="(max-width: 780px)" fetchpriority="high" />
-    <link rel="stylesheet" href="styles.css?v=64" />
+    <link rel="stylesheet" href="styles.css?v=68" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -587,6 +587,32 @@
           </div>
         </div>
       </footer>
+      <div class="marketing-popup" data-marketing-popup hidden>
+        <div class="marketing-popup__backdrop" data-marketing-popup-close aria-hidden="true"></div>
+        <section
+          class="marketing-popup__dialog"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Kostenlose Videoanalyse"
+          tabindex="-1"
+        >
+          <button class="marketing-popup__close" type="button" data-marketing-popup-close aria-label="Popup schließen">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6 6l12 12M18 6 6 18" />
+            </svg>
+          </button>
+          <div class="marketing-popup__media">
+            <img
+              data-marketing-popup-image
+              data-src="assets/kostenlose-videoanalyse-online-auftritt-impressrank.webp"
+              width="1100"
+              height="1376"
+              alt="Kostenlose Videoanalyse des Online-Auftritts mit drei konkreten Verbesserungstipps von ImpressRank"
+            />
+            <a class="btn btn-teal marketing-popup__cta" href="naechster-schritt">Kostenlose Analyse</a>
+          </div>
+        </section>
+      </div>
       <button class="cookie-reopen" data-cookie-open hidden aria-label="Cookie-Einstellungen öffnen">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#3db87a"><path d="M12 1C8.69 1 6 3.69 6 7c0 2.05 1.05 3.86 2.66 4.94L7 22h10l-1.66-10.06C16.95 10.86 18 9.05 18 7c0-3.31-2.69-6-6-6z"/></svg>
       </button>
@@ -605,10 +631,11 @@
         </div>
       </div>
     </div>
-    <script type="module" src="app.js?v=6"></script>
+    <script type="module" src="app.js?v=7"></script>
     <script>
       const months = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
-      document.getElementById('current-month').textContent = months[new Date().getMonth()];
+      const currentMonth = document.getElementById('current-month');
+      if (currentMonth) currentMonth.textContent = months[new Date().getMonth()];
 
     </script>
   </body>

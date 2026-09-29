@@ -2066,3 +2066,70 @@ const initMobileWhatsappCtas = () => {
   mq.addEventListener('change', (e) => apply(e.matches));
 };
 initMobileWhatsappCtas();
+
+// Startseiten-Popup fuer die kostenlose Videoanalyse. Das Bild wird erst kurz
+// vor der Einblendung geladen, damit es den initialen Seitenaufbau nicht bremst.
+const initMarketingAnalysisPopup = () => {
+  const popup = document.querySelector('[data-marketing-popup]');
+  if (!popup) return;
+
+  const dialog = popup.querySelector('.marketing-popup__dialog');
+  const image = popup.querySelector('[data-marketing-popup-image]');
+  const closeButtons = popup.querySelectorAll('[data-marketing-popup-close]');
+  const focusable = Array.from(popup.querySelectorAll('button, a[href]'));
+  let previouslyFocused = null;
+  let hideTimer = null;
+
+  const loadImage = () => {
+    if (image?.dataset.src && !image.getAttribute('src')) {
+      image.setAttribute('src', image.dataset.src);
+    }
+  };
+
+  const openPopup = () => {
+    loadImage();
+    previouslyFocused = document.activeElement;
+    popup.hidden = false;
+    document.body.classList.add('marketing-popup-open');
+    requestAnimationFrame(() => {
+      popup.classList.add('is-visible');
+      dialog?.focus({ preventScroll: true });
+    });
+  };
+
+  const closePopup = () => {
+    if (popup.hidden) return;
+    popup.classList.remove('is-visible');
+    document.body.classList.remove('marketing-popup-open');
+    window.clearTimeout(hideTimer);
+    hideTimer = window.setTimeout(() => {
+      popup.hidden = true;
+      if (previouslyFocused instanceof HTMLElement) previouslyFocused.focus({ preventScroll: true });
+    }, 250);
+  };
+
+  closeButtons.forEach((button) => button.addEventListener('click', closePopup));
+
+  popup.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      closePopup();
+      return;
+    }
+
+    if (event.key !== 'Tab' || focusable.length < 2) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  });
+
+  window.setTimeout(loadImage, 3000);
+  window.setTimeout(openPopup, 5000);
+};
+initMarketingAnalysisPopup();

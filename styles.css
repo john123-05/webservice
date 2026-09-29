@@ -9128,3 +9128,157 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
+/* ===== Startseiten-Popup: kostenlose Videoanalyse ===== */
+body.marketing-popup-open {
+  overflow: hidden;
+}
+
+.marketing-popup {
+  position: fixed;
+  inset: 0;
+  z-index: 10020;
+  display: grid;
+  place-items: center;
+  padding: clamp(14px, 3vw, 32px);
+}
+
+.marketing-popup[hidden] {
+  display: none;
+}
+
+.marketing-popup__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 13, 24, 0.72);
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.25s ease;
+}
+
+.marketing-popup__dialog {
+  position: relative;
+  z-index: 1;
+  width: min(600px, calc((100svh - 40px) * 0.7994), calc(100vw - 40px));
+  max-height: calc(100svh - 40px);
+  border: 0;
+  border-radius: 2px;
+  outline: none;
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.42);
+  overflow: visible;
+  opacity: 0;
+  transform: translateY(18px) scale(0.98);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.marketing-popup.is-visible .marketing-popup__backdrop {
+  opacity: 1;
+}
+
+.marketing-popup.is-visible .marketing-popup__dialog {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.marketing-popup__media {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.marketing-popup__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.marketing-popup__close {
+  position: absolute;
+  z-index: 3;
+  top: 12px;
+  right: 12px;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 2px solid rgba(255, 255, 255, 0.95);
+  border-radius: 50%;
+  background: rgba(11, 25, 42, 0.35);
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.22);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.marketing-popup__close:hover,
+.marketing-popup__close:focus-visible {
+  background: rgba(11, 25, 42, 0.75);
+  transform: scale(1.06);
+}
+
+.marketing-popup__close svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.3;
+  stroke-linecap: round;
+}
+
+.marketing-popup__cta {
+  position: absolute;
+  z-index: 2;
+  top: 69%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  min-width: max-content;
+  padding: clamp(12px, 1.6vw, 18px) clamp(18px, 2.8vw, 34px);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  font-size: clamp(0.9rem, 1.5vw, 1.15rem);
+  font-weight: 800;
+  text-align: center;
+}
+
+.marketing-popup__cta:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .marketing-popup {
+    padding: 12px;
+  }
+
+  .marketing-popup__dialog {
+    width: min(94vw, 440px, calc((100svh - 24px) * 0.7994));
+    max-height: calc(100svh - 24px);
+  }
+
+  .marketing-popup__close {
+    top: 9px;
+    right: 9px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .marketing-popup__close svg {
+    width: 19px;
+    height: 19px;
+  }
+
+  .marketing-popup__cta {
+    left: 62%;
+    padding: 13px 20px;
+    font-size: clamp(0.86rem, 4vw, 1.04rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marketing-popup__backdrop,
+  .marketing-popup__dialog,
+  .marketing-popup__close {
+    transition: none;
+  }
+}
