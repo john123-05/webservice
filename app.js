@@ -2073,6 +2073,13 @@ const initMarketingAnalysisPopup = () => {
   const popup = document.querySelector('[data-marketing-popup]');
   if (!popup) return;
 
+  const sessionKey = 'impressrank-marketing-popup-shown';
+  try {
+    if (window.sessionStorage.getItem(sessionKey) === 'true') return;
+  } catch (_) {
+    // Das Popup funktioniert auch, wenn der Browser Session Storage blockiert.
+  }
+
   const dialog = popup.querySelector('.marketing-popup__dialog');
   const image = popup.querySelector('[data-marketing-popup-image]');
   const closeButtons = popup.querySelectorAll('[data-marketing-popup-close]');
@@ -2087,6 +2094,9 @@ const initMarketingAnalysisPopup = () => {
   };
 
   const openPopup = () => {
+    try {
+      window.sessionStorage.setItem(sessionKey, 'true');
+    } catch (_) {}
     loadImage();
     previouslyFocused = document.activeElement;
     popup.hidden = false;
@@ -2109,6 +2119,14 @@ const initMarketingAnalysisPopup = () => {
   };
 
   closeButtons.forEach((button) => button.addEventListener('click', closePopup));
+
+  // Verhindert, dass ein bereits gezeigtes Popup beim Zurücknavigieren aus
+  // dem Browser-Cache erneut offen wiederhergestellt wird.
+  window.addEventListener('pagehide', () => {
+    popup.classList.remove('is-visible');
+    popup.hidden = true;
+    document.body.classList.remove('marketing-popup-open');
+  });
 
   popup.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') {
