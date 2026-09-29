@@ -309,7 +309,7 @@ figure {
   margin-left: 0;
   margin-right: 0;
   padding-left: calc((100vw - min(1160px, 92vw)) / 2);
-  padding-right: calc((100vw - min(1160px, 92vw)) / 2);
+  padding-right: clamp(48px, 6vw, 100px);
   box-sizing: border-box;
   border-bottom: 0;
   background: #ffffff;
@@ -412,6 +412,7 @@ figure {
 .nav-links .nav-cta {
   display: inline-flex;
   align-items: center;
+  margin-left: 24px;
   padding: 13px 22px;
   border-radius: 11px;
   font-size: 0.88rem;
@@ -2463,6 +2464,23 @@ figure {
   background: transparent;
   border: 1px solid #99b4e8;
   color: #2a4f96;
+}
+
+.btn-teal {
+  background: linear-gradient(135deg, #2f7a8f 0%, #17495a 100%);
+  color: #ffffff;
+  box-shadow: 0 10px 22px rgba(23, 73, 90, 0.32);
+}
+
+.btn-teal:hover {
+  background: linear-gradient(135deg, #17495a 0%, #2f7a8f 100%);
+  box-shadow: 0 14px 28px rgba(23, 73, 90, 0.42);
+  transform: scale(1.07);
+}
+
+.hero-actions--stacked {
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .btn-whatsapp {
@@ -6686,7 +6704,19 @@ h2 {
 .network-reputation-cta-wrap {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
   margin-top: 56px;
+}
+
+.network-reputation-cta.network-reputation-cta--secondary {
+  background: linear-gradient(135deg, #2f7a8f 0%, #17495a 100%);
+  box-shadow: 0 10px 22px rgba(23, 73, 90, 0.32);
+}
+
+.network-reputation-cta.network-reputation-cta--secondary:hover {
+  background: linear-gradient(135deg, #17495a 0%, #2f7a8f 100%);
+  box-shadow: 0 14px 28px rgba(23, 73, 90, 0.42);
 }
 
 .network-reputation-cta {
@@ -8720,6 +8750,9 @@ h2 {
     font-size: clamp(1.5rem, 7.25vw, 2.3rem);
   }
   .hero-area.hero-area--home .hero-actions { justify-content: center; }
+  .hero-area.hero-area--home .hero-actions--stacked {
+    align-items: center;
+  }
   .hero-area.hero-area--home .hero-divider-graphic {
     height: 76vw;
   }
@@ -8751,5 +8784,347 @@ h2 {
     background: transparent;
     box-shadow: none;
     backdrop-filter: none;
+  }
+}
+
+/* ===== "Naechster Schritt"-Quiz-Landingpage ===== */
+
+/* Reduziertes Nav-Menü: unsichtbare Menüpunkte behalten ihren Platz im Layout,
+   damit "Start" exakt an derselben Stelle wie auf der Startseite sitzt. */
+.nav-quiz-hidden {
+  visibility: hidden;
+}
+
+@media (max-width: 780px) {
+  .nav--quiz {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .nav--quiz .nav-links li.nav-quiz-hidden {
+    display: none;
+  }
+
+  .nav--quiz .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    grid-column: auto;
+    width: auto;
+    max-height: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: visible;
+    opacity: 1;
+    pointer-events: auto;
+    gap: 8px;
+  }
+
+  .nav--quiz .nav-links li {
+    width: auto;
+  }
+
+  .nav--quiz .nav-links a {
+    width: auto;
+    min-height: 0;
+    border-bottom: 0;
+    white-space: nowrap;
+  }
+
+  .nav--quiz .nav-links .nav-cta {
+    margin-top: 0;
+    margin-left: 0;
+    padding: 9px 14px;
+    font-size: 0.72rem;
+  }
+}
+
+.hero-area.hero-area--photo.hero-area--quiz {
+  padding: clamp(140px, 14vw, 200px) 0 clamp(80px, 10vw, 140px);
+  min-height: clamp(620px, 60vw, 880px);
+  background-image: url("assets/marketing-analyse-video-owl.webp");
+  background-size: 100% auto;
+  background-position: center bottom;
+}
+
+@media (max-width: 780px) {
+  .hero-area.hero-area--photo.hero-area--quiz {
+    padding: clamp(120px, 18vw, 160px) 0 40px;
+    min-height: 0;
+    background-image: url("assets/marketing-analyse-video-owl-mobile.webp");
+    background-size: 100% auto;
+    background-position: center bottom;
+  }
+}
+
+.hero-area.hero-area--photo.hero-area--quiz .container {
+  max-width: 1560px;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quiz-hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 60px;
+  align-items: start;
+}
+
+@media (max-width: 1400px) {
+  .quiz-hero-grid {
+    grid-template-columns: 1fr minmax(0, 400px);
+  }
+}
+
+.quiz-hero-copy {
+  max-width: 760px;
+  margin-left: clamp(60px, 16vw, 260px);
+  padding-top: 90px;
+}
+
+@media (max-width: 900px) {
+  .quiz-hero-copy {
+    margin-left: 0;
+  }
+}
+
+.quiz-hero-copy .eyebrow {
+  color: #000000;
+  margin-bottom: 14px;
+  border: none;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  font-weight: 800;
+  font-size: clamp(1.385rem, 2.26vw, 1.895rem);
+  text-transform: none;
+}
+
+.quiz-hero-title {
+  margin: 0;
+  font-size: clamp(1.9rem, 3.1vw, 2.6rem);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.quiz-hero-subtitle {
+  margin: 48px 0 0;
+  font-size: clamp(1.247rem, 2.034vw, 1.706rem);
+  font-weight: 800;
+  line-height: 1.3;
+  color: #000000;
+}
+
+.quiz-highlight {
+  color: var(--primary);
+}
+
+@media (max-width: 900px) {
+  .quiz-hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quiz-hero-copy {
+    max-width: none;
+    text-align: center;
+    margin: 0 auto 32px;
+  }
+}
+
+/* Quiz-Karte */
+.quiz-card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 24px 60px rgba(14, 34, 56, 0.22);
+  padding: 36px 36px 18px;
+  box-sizing: border-box;
+  margin-top: -80px;
+}
+
+.quiz-card .offer-form {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  background: transparent;
+  gap: 6px;
+}
+
+.quiz-contact-intro {
+  margin: 0 0 24px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #0e2238;
+  line-height: 1.4;
+}
+
+.quiz-field {
+  margin-bottom: 8px;
+}
+
+.quiz-field label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #33465c;
+}
+
+.quiz-field-optional {
+  font-weight: 500;
+  color: #99a4b2;
+}
+
+.quiz-field input,
+.quiz-field textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid #dce6f0;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+}
+
+.quiz-field textarea {
+  resize: none;
+  min-height: 0;
+  height: 38px;
+}
+
+.quiz-field input:focus,
+.quiz-field textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.quiz-submit-btn {
+  width: 100%;
+  margin-top: 4px;
+  padding: 12px 20px;
+}
+
+.quiz-card .form-status {
+  display: none;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.quiz-card .form-status[data-state] {
+  display: block;
+  margin: 6px 0 0;
+  padding: 10px 12px;
+}
+
+.quiz-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.quiz-form-row .quiz-field {
+  margin-bottom: 0;
+}
+
+.quiz-checkbox-group {
+  border: none;
+  padding: 0;
+  margin: 4px 0 16px;
+}
+
+.quiz-checkbox-group legend {
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #33465c;
+}
+
+.quiz-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: #33465c;
+  cursor: pointer;
+}
+
+.quiz-checkbox input {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  accent-color: var(--primary);
+}
+
+.quiz-field--whatsapp {
+  margin: -2px 0 12px 28px;
+}
+
+.quiz-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin-bottom: 0;
+  font-size: 0.68rem;
+  line-height: 1.25;
+  color: #5a6b80;
+  cursor: pointer;
+}
+
+.quiz-consent input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 7px !important;
+  height: 7px !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  padding: 0 !important;
+  margin: 3px 0 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  border: 1px solid #b9c6d6;
+  border-radius: 0;
+  background: #ffffff;
+  position: relative;
+  cursor: pointer;
+}
+
+.quiz-consent input:checked {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.quiz-consent input:checked::after {
+  content: "";
+  position: absolute;
+  left: 1.5px;
+  top: -0.5px;
+  width: 1.5px;
+  height: 3.5px;
+  border: solid #ffffff;
+  border-width: 0 1px 1px 0;
+  transform: rotate(45deg);
+}
+
+.quiz-consent a {
+  color: var(--primary-deep);
+}
+
+@media (max-width: 900px) {
+  .quiz-card {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .quiz-form-row {
+    grid-template-columns: 1fr;
   }
 }

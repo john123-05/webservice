@@ -554,6 +554,9 @@ const initLeadForms = () => {
       if (typeof payload.url === 'string') {
         payload.url = normalizeUrl(payload.url);
       }
+      if (!payload.name && (payload.firstname || payload.lastname)) {
+        payload.name = [payload.firstname, payload.lastname].filter(Boolean).join(' ').trim();
+      }
       payload.page = window.location.pathname;
       payload.source = form.dataset.formSource || 'website';
       payload.timestamp = new Date().toISOString();
