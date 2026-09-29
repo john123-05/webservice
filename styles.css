@@ -6550,6 +6550,16 @@ h2 {
   text-wrap: balance;
 }
 
+/* Auf Mobil reicht die kurze Variante; die lange Frage ist nur fuer Desktop. */
+.network-strip-heading-short {
+  display: none;
+}
+
+/* Die "Ganz einfach"-Sektion ist nur fuer die mobile Ansicht gedacht. */
+.mobile-only-section {
+  display: none;
+}
+
 .network-answer-row {
   display: flex;
   align-items: flex-start;
@@ -6947,6 +6957,19 @@ h2 {
     line-height: 1.13;
     max-width: 20ch;
     margin-inline: auto;
+  }
+
+  .network-strip-heading-full {
+    display: none;
+  }
+
+  .network-strip-heading-short {
+    display: inline;
+  }
+
+  /* Die "Ganz einfach"-Sektion ist nur fuer Mobil gedacht. */
+  .mobile-only-section {
+    display: block;
   }
 
   /* These benefits are desktop-only; the compact hero needs this space on phones. */
