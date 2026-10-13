@@ -551,6 +551,16 @@ const initLeadForms = () => {
 
       const formData = new FormData(form);
       const payload = Object.fromEntries(formData.entries());
+      // Köderfeld (Spam-Schutz): Menschen sehen es nicht und lassen es leer. Ist es gefüllt, war es ein Bot -
+      // dann so tun, als wäre alles gut gegangen, aber nichts senden.
+      if (typeof payload.website_hp === 'string' && payload.website_hp.trim()) {
+        form.reset();
+        status.textContent = messages.success;
+        status.dataset.state = 'success';
+        status.hidden = false;
+        return;
+      }
+      delete payload.website_hp;
       if (typeof payload.url === 'string') {
         payload.url = normalizeUrl(payload.url);
       }

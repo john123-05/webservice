@@ -9563,3 +9563,6 @@ body.blog-simple-page {
     margin-bottom: 28px;
   }
 }
+
+/* Köderfeld gegen Spam-Bots: für Menschen unsichtbar, im Seitencode aber vorhanden. */
+.hp-field { position: absolute !important; left: -9999px !important; top: auto !important; width: 1px !important; height: 1px !important; overflow: hidden !important; opacity: 0; pointer-events: none; }
