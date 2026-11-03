@@ -270,8 +270,7 @@ ${renderHeader(eyebrow, h1)}
             <div class="narrow">
               <h2>${relatedTitle}</h2>
               <p class="section-copy">
-                Diese Seiten helfen Suchmaschinen, AI-Systemen und lokalen Unternehmen schneller zu
-                verstehen, welche Leistungen ${brand} in Bielefeld, Bad Salzuflen und dem Umland anbietet.
+                Hier findest du passende Leistungen und Projektbeispiele für dein Unternehmen.
               </p>
             </div>
           </div>
@@ -742,11 +741,11 @@ const industryPages = [
   {
     fileName: 'webdesign-handwerker-bielefeld.html',
     title: 'Webdesign für Handwerker in Bielefeld | Mehr Anfragen für Handwerksbetriebe',
-    description: 'Webdesign für Handwerksbetriebe in Bielefeld, die online professioneller auftreten und mehr qualifizierte Anfragen gewinnen möchten.',
+    description: 'Websites für Handwerker in Bielefeld: Leistungen und Einsatzgebiet klar zeigen, Vertrauen aufbauen und Anfragen am Handy erleichtern. Kostenlos anfragen.',
     eyebrow: 'Handwerk',
     h1: 'Webdesign für Handwerker in Bielefeld, die online mehr Anfragen gewinnen wollen',
     introTitle: 'Websites für Handwerksbetriebe mit klarem Nutzen',
-    introText: 'Viele Handwerksbetriebe haben gute Leistungen, aber die Website erklärt diese zu unklar, wirkt veraltet oder führt Besucher nicht schnell genug zur Kontaktaufnahme. Genau dort setzt diese Branchenseite an.',
+    introText: 'Dein Betrieb leistet gute Arbeit. Deine Website soll zeigen, welche Aufträge du übernimmst, wo du arbeitest und wie Kunden dich erreichen. Dafür gestalten wir übersichtliche Seiten mit klaren Leistungen, echten Projektbildern und einem kurzen Weg zur Anfrage.',
     points: [
       'Leistungen und Einsatzgebiete klar verständlich machen',
       'Vertrauen durch Referenzen, Bilder und klare Ansprechpartner stärken',
@@ -755,7 +754,8 @@ const industryPages = [
     ],
     detailTitle: 'Was bei Websites für Handwerker besonders wichtig ist',
     detailParagraphs: [
-      'Handwerksseiten müssen schnell verständlich sein: Was wird angeboten, in welchem Gebiet wird gearbeitet und wie läuft die Anfrage ab? Genau das entscheidet oft darüber, ob aus einem Besucher ein echter Kontakt wird.',
+      'Ein Kunde mit einem konkreten Anliegen braucht schnelle Antworten: Übernimmst du seinen Auftrag? Arbeitest du an seinem Standort? Wie kann er dich erreichen? Wir ordnen deine Leistungen und Einsatzgebiete so, dass diese Fragen direkt beantwortet werden.',
+      'Im ersten Gespräch schauen wir gemeinsam auf deine vorhandene Website oder dein Vorhaben. Anschließend legen wir fest, welche Seiten, Texte und Bilder du brauchst. Auf Wunsch übernehmen wir Texte und Gestaltung sowie die technische Umsetzung. Den Umfang und die Kosten besprechen wir vor dem Start.',
       'Die vorhandenen Projektbeispiele auf dieser Website zeigen die Herangehensweise an Struktur, Klarheit und Conversion. Sie stehen bewusst nicht als erfundene Handwerks-Referenzen, sondern als ehrlicher Nachweis der Arbeitsweise.',
     ],
     relatedTitle: 'Passende Seiten für Handwerksbetriebe',
