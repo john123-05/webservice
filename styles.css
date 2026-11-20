@@ -9566,3 +9566,133 @@ body.blog-simple-page {
 
 /* Köderfeld gegen Spam-Bots: für Menschen unsichtbar, im Seitencode aber vorhanden. */
 .hp-field { position: absolute !important; left: -9999px !important; top: auto !important; width: 1px !important; height: 1px !important; overflow: hidden !important; opacity: 0; pointer-events: none; }
+
+/* --------------------------------------------------------------------------
+   Bewertungen ab Tablet: Karten so breit wie bei drei Stück, weitere Karten
+   gehen seitlich weiter (wischen, Trackpad oder Pfeile darunter). Die Reihe
+   reicht rechts bis an den Bildschirmrand, damit die nächste Karte hervorschaut.
+   Startseite: jede zweite Karte leicht versetzt (wie bisher die mittlere).
+   Pfeile: [data-testi-nav], Steuerung in app.js (initTestimonialRows).
+   -------------------------------------------------------------------------- */
+@media (min-width: 861px) {
+  :root {
+    --testi-gutter: calc((100vw - min(1160px, 92vw)) / 2);
+    /* Platz für den weichen Kartenschatten, damit er nicht an der Kante der Reihe abreißt */
+    --testi-pad: min(56px, var(--testi-gutter));
+  }
+  .container.testimonials-offset[data-testi-row],
+  .container.testimonials-grid[data-testi-row] {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+    width: auto;
+    margin-left: calc(var(--testi-gutter) - var(--testi-pad));
+    margin-right: 0;
+    margin-top: -40px;
+    margin-bottom: -76px;
+    padding: 40px var(--testi-gutter) 76px var(--testi-pad);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: var(--testi-pad);
+    overscroll-behavior-inline: contain;
+    scrollbar-width: none;
+  }
+  .container.testimonials-grid[data-testi-row] {
+    align-items: stretch;
+  }
+  .container[data-testi-row]::-webkit-scrollbar {
+    display: none;
+  }
+  .container[data-testi-row] > * {
+    flex: 0 0 calc((min(1160px, 92vw) - 44px) / 3);
+    min-width: 0;
+    scroll-snap-align: start;
+    order: 0 !important;
+  }
+  .container.testimonials-offset[data-testi-row] > *:nth-child(odd) {
+    margin-top: 0;
+  }
+  .container.testimonials-offset[data-testi-row] > *:nth-child(even) {
+    margin-top: 34px;
+  }
+}
+
+/* Letzte Karte: „Werde der Nächste!“ mit Anfrage-Knopf (Handy: WhatsApp über data-wa-cta) */
+.ir-testi-cta {
+  background: #f6f9ff;
+  border-style: dashed;
+  border-color: #c7d6ee;
+  box-shadow: none;
+}
+.ir-testi-cta:hover {
+  transform: none;
+  box-shadow: none;
+}
+.ir-testi-cta__title {
+  margin: 4px 0 0;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  font-weight: 700;
+  color: var(--ink);
+}
+.ir-testi-cta__text {
+  margin: 10px 0 22px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--muted, #4a5672);
+  flex-grow: 1;
+}
+.ir-testi-cta__action {
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+.ir-testi-cta__action .btn {
+  padding: 10px 18px;
+  font-size: 0.92rem;
+}
+
+.ir-testi-nav {
+  display: none;
+}
+@media (min-width: 861px) {
+  .ir-testi-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 26px;
+  }
+  .ir-testi-nav[hidden] {
+    display: none;
+  }
+  .ir-testi-nav button {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    background: #ffffff;
+    color: var(--ink);
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+  }
+  .ir-testi-nav button:hover:not(:disabled) {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #ffffff;
+  }
+  .ir-testi-nav button:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+  .ir-testi-nav svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+}

@@ -45,7 +45,7 @@
     <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="assets/online-marketing-agentur-bielefeld-owl.webp" as="image" media="(min-width: 781px)" fetchpriority="high" />
     <link rel="preload" href="assets/online-marketing-agentur-bielefeld-owl-mobile.webp" as="image" media="(max-width: 780px)" fetchpriority="high" />
-    <link rel="stylesheet" href="styles.css?v=68" />
+    <link rel="stylesheet" href="styles.css?v=69" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -245,7 +245,15 @@
         <div class="container narrow" style="text-align:center; margin-bottom:32px;">
         <h2>Erfahrungen mit ImpressRank</h2>
         </div>
-        <div class="container testimonials-offset">
+        <div class="container testimonials-offset" data-testi-row>
+        <div class="testimonial-card testimonial-card--small">
+        <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+        <p class="testimonial-quote">„Sehr zuverlässig. Sofortige Rückmeldung bei Fragen. Schnelle Bearbeitung bei Änderungswünschen, sehr kreativ und flexibel, Meine erste Wahl bei kommenden Projekten"</p>
+        <div class="testimonial-author">
+        <span class="testimonial-author-name">Karl Maus</span>
+        <span class="testimonial-author-business">Schausteller, Fang den Nemo</span>
+        </div>
+        </div>
         <a class="testimonial-card testimonial-card--small" href="https://www.aloha-beachclub-herford.de/" target="_blank" rel="noopener">
         <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
         <p class="testimonial-quote">„Sehr kompetentes Büro aus Bad Salzuflen! Herr Nolting geht auf individuelle Wünsche ein und setzt sie kreativ um! Die Website wird immer auf dem neuesten Stand gehalten und ist einfach und übersichtlich …"</p>
@@ -254,15 +262,7 @@
         <span class="testimonial-author-business">Aloha Beachclub Herford</span>
         </div>
         </a>
-        <a class="testimonial-card testimonial-card--small" href="https://pirates-adventure.de/" target="_blank" rel="noopener">
-        <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
-        <p class="testimonial-quote">„Wirklich kompetente Zusammenarbeit, Vorschläge und Wünsche wurden sofort umgesetzt. Bin wirklich zufrieden und gebe gern eine Empfehlung weiter!"</p>
-        <div class="testimonial-author">
-        <span class="testimonial-author-name">Pirates Adventure</span>
-        <span class="testimonial-author-business">pirates-adventure.de</span>
-        </div>
-        </a>
-        <div class="testimonial-col testimonial-col--offset">
+                <div class="testimonial-col testimonial-col--offset">
 <div class="testimonial-card testimonial-card--small">
         <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
         <p class="testimonial-quote">„Dank der Zusammenarbeit mit ImpressRank tauchen wir jetzt branchenweit bei Google auf Platz 1 auf und erhalten über unsere beiden neuen Websites regelmäßig neue Anfragen. Wir sind sehr zufrieden mit den empfohlenen Marketingmaßnahmen …"</p>
@@ -273,6 +273,27 @@
         
 </div>
 <a class="btn btn-primary btn-cta-blue testimonial-case-btn" href="seo#liftcs">Zur Fallstudie</a>
+</div>
+        <a class="testimonial-card testimonial-card--small" href="https://pirates-adventure.de/" target="_blank" rel="noopener">
+        <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+        <p class="testimonial-quote">„Wirklich kompetente Zusammenarbeit, Vorschläge und Wünsche wurden sofort umgesetzt. Bin wirklich zufrieden und gebe gern eine Empfehlung weiter!"</p>
+        <div class="testimonial-author">
+        <span class="testimonial-author-name">Pirates Adventure</span>
+        <span class="testimonial-author-business">pirates-adventure.de</span>
+        </div>
+        </a>
+        <div class="testimonial-card testimonial-card--small ir-testi-cta">
+        <p class="ir-testi-cta__title">Werde der Nächste!</p>
+        <p class="ir-testi-cta__text">Hol dir professionelle Unterstützung für deinen Auftritt im Netz.</p>
+        <div class="ir-testi-cta__action">
+        <a class="btn btn-primary btn-cta-blue" href="anfrage" data-wa-cta>Jetzt unverbindlich anfragen</a>
+        </div>
+        </div>
+        </div>
+        <div class="container">
+<div class="ir-testi-nav" data-testi-nav hidden>
+<button type="button" data-testi-prev aria-label="Vorherige Bewertung"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></button>
+<button type="button" data-testi-next aria-label="Nächste Bewertung"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"></path></svg></button>
 </div>
         </div>
         </section>
@@ -631,7 +652,7 @@
         </div>
       </div>
     </div>
-    <script type="module" src="app.js?v=8"></script>
+    <script type="module" src="app.js?v=9"></script>
     <script>
       const months = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
       const currentMonth = document.getElementById('current-month');

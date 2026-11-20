@@ -2170,3 +2170,30 @@ const initMarketingAnalysisPopup = () => {
   window.setTimeout(openPopup, 5000);
 };
 initMarketingAnalysisPopup();
+
+// Bewertungen: Pfeile unter der seitlich scrollbaren Reihe (ab Tablet, siehe styles.css).
+// Pfeile erscheinen nur, wenn wirklich mehr Karten da sind, als ins Bild passen.
+const initTestimonialRows = () => {
+  document.querySelectorAll('[data-testi-row]').forEach((row) => {
+    const nav = row.closest('section')?.querySelector('[data-testi-nav]');
+    if (!nav) return;
+    const prev = nav.querySelector('[data-testi-prev]');
+    const next = nav.querySelector('[data-testi-next]');
+    const step = () => {
+      const item = row.firstElementChild;
+      return item ? item.getBoundingClientRect().width + 22 : row.clientWidth * 0.8;
+    };
+    const update = () => {
+      const max = row.scrollWidth - row.clientWidth;
+      nav.hidden = max < 4;
+      prev.disabled = row.scrollLeft <= 2;
+      next.disabled = row.scrollLeft >= max - 2;
+    };
+    prev.addEventListener('click', () => row.scrollBy({ left: -step(), behavior: 'smooth' }));
+    next.addEventListener('click', () => row.scrollBy({ left: step(), behavior: 'smooth' }));
+    row.addEventListener('scroll', () => requestAnimationFrame(update), { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+};
+initTestimonialRows();
