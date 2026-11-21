@@ -20,14 +20,11 @@ to = "https://impress-rank.de/schausteller-websites"
 status = 301
 force = true
 
-[[redirects]]
-from = "/*.html"
-to = "/:splat"
-status = 301
-force = false
+# The build writes explicit .html -> short URL redirects into dist/_redirects.
+# Netlify does not support suffix wildcards such as /*.html.
 
 [[redirects]]
-from = "/:page"
-to = "/:page.html"
+from = "/*"
+to = "/:splat.html"
 status = 200
 force = false

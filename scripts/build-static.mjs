@@ -1,6 +1,7 @@
-import { cpSync, existsSync, mkdirSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { cleanInternalUrl, isNoindexHtml, normalizeHtmlUrls } from './site-urls.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
@@ -49,7 +50,11 @@ const copyRecursive = (sourceRelativePath) => {
   }
 
   ensureDir(dirname(destPath));
-  cpSync(sourcePath, destPath);
+  if (sourcePath.endsWith('.html')) {
+    writeFileSync(destPath, normalizeHtmlUrls(readFileSync(sourcePath, 'utf8')));
+  } else {
+    cpSync(sourcePath, destPath);
+  }
 };
 
 rmSync(distDir, { recursive: true, force: true });
@@ -67,6 +72,7 @@ for (const target of copyTargets) {
 
 const sitemapExcluded = new Set(['impressum.html', 'datenschutz.html', 'kontakt.html', 'formular.html']);
 const sitemapPaths = [];
+const htmlPaths = [];
 
 const collectSitemapPaths = (relativePath = '') => {
   const currentDir = join(distDir, relativePath);
@@ -81,26 +87,34 @@ const collectSitemapPaths = (relativePath = '') => {
     }
 
     if (!entry.endsWith('.html')) continue;
+    htmlPaths.push(`/${nextRelativePath.replace(/\\/g, '/')}`);
     if (sitemapExcluded.has(entry)) continue;
+    if (isNoindexHtml(readFileSync(entryPath, 'utf8'))) continue;
 
     const urlPath = nextRelativePath
       .replace(/\\/g, '/')
       .replace(/index\.html$/, '')
       .replace(/\.html$/, '.html');
-    sitemapPaths.push(urlPath);
+    sitemapPaths.push(cleanInternalUrl(`/${urlPath}`));
   }
 };
 
 collectSitemapPaths();
 
+// Explicit routes also cover nested English articles; suffix splats are not
+// supported by Netlify. Keep existing domain/funnel rules ahead of these rules.
+const sourceRedirects = existsSync(join(rootDir, '_redirects'))
+  ? readFileSync(join(rootDir, '_redirects'), 'utf8').trimEnd()
+  : '';
+const htmlRedirects = htmlPaths.sort().map((path) => `${path} ${cleanInternalUrl(path)} 301!`);
+writeFileSync(join(distDir, '_redirects'), `${sourceRedirects}\n\n# Canonical page URLs (generated)\n${htmlRedirects.join('\n')}\n`);
+
 const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${sitemapPaths
+${[...new Set(sitemapPaths)]
   .sort()
   .map((path) => {
-    const normalizedPath = path === '' ? '' : `/${path}`;
-    const loc = normalizedPath.endsWith('/index') ? normalizedPath.slice(0, -5) : normalizedPath;
-    return `  <url><loc>${domain}${loc}</loc></url>`;
+    return `  <url><loc>${domain}${path}</loc></url>`;
   })
   .join('\n')}
 </urlset>
@@ -159,6 +173,6 @@ Regionen:
 
 writeFileSync(join(distDir, 'sitemap.xml'), sitemapXml);
 writeFileSync(join(distDir, 'robots.txt'), robotsTxt);
-writeFileSync(join(distDir, 'llms.txt'), llmsTxt);
+writeFileSync(join(distDir, 'llms.txt'), normalizeHtmlUrls(llmsTxt));
 
 console.log('Static site copied to dist/');

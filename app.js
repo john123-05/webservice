@@ -34,46 +34,32 @@ const postDoiConfirmationMail = (payload) => {
 const getLocale = () => (document.documentElement.lang || '').toLowerCase().startsWith('en') ? 'en' : 'de';
 
 const getLanguageTargets = () => {
-  const pathname = window.location.pathname || '/';
-  const isEnglish = pathname.endsWith('-en.html');
-
-  if (pathname === '/' || pathname.endsWith('/index.html')) {
-    return {
-      current: isEnglish ? 'en' : 'de',
-      de: pathname === '/' ? '/' : pathname,
-      en: pathname === '/' ? '/index-en.html' : pathname.replace(/index\.html$/, 'index-en.html'),
-    };
+  const pathname = (window.location.pathname || '/')
+    .replace(/\/index\.html$/, '/')
+    .replace(/\.html$/, '');
+  if (pathname.endsWith('/index-en')) {
+    return { current: 'en', de: pathname.slice(0, -8), en: pathname };
   }
-
   if (pathname.endsWith('/')) {
-    return {
-      current: 'de',
-      de: pathname,
-      en: `${pathname}index-en.html`,
-    };
+    return { current: 'de', de: pathname, en: `${pathname}index-en` };
   }
-
-  if (isEnglish) {
-    return {
-      current: 'en',
-      de: pathname.replace(/-en\.html$/, '.html'),
-      en: pathname,
-    };
+  if (pathname.endsWith('-en')) {
+    return { current: 'en', de: pathname.slice(0, -3), en: pathname };
   }
+  return { current: 'de', de: pathname, en: `${pathname}-en` };
+};
 
-  if (pathname.endsWith('.html')) {
-    return {
-      current: 'de',
-      de: pathname,
-      en: pathname.replace(/\.html$/, '-en.html'),
-    };
+const trackConsentedLead = (form) => {
+  // Never send names, email addresses, phone numbers or form text to analytics.
+  try {
+    if (localStorage.getItem('webservice_cookie_consent') !== 'accepted') return;
+    window.gtag?.('event', 'generate_lead', {
+      form_source: form.dataset.formSource || 'website',
+      page_path: window.location.pathname,
+    });
+  } catch {
+    // Analytics must never interrupt a successfully submitted inquiry.
   }
-
-  return {
-    current: getLocale(),
-    de: pathname,
-    en: pathname,
-  };
 };
 
 const initLanguageSwitch = () => {
@@ -312,16 +298,21 @@ const initCookieBanner = () => {
     analyticsTrackingInitialized = true;
 
     // Contact click tracking — nav CTA, hero button, section CTAs
-    document.querySelectorAll(
-      'a[href="anfrage.html"], a[href$="/anfrage.html"], a[href="#contact"], .nav-cta'
-    ).forEach((el) => {
-      el.addEventListener('click', () => {
+    document.addEventListener('click', (event) => {
+      const el = event.target.closest?.('a[href]');
+      if (!el) return;
+      const url = new URL(el.href, window.location.href);
+      if (url.origin === window.location.origin
+        && (/\/(?:anfrage|naechster-schritt)(?:\.html)?$/.test(url.pathname) || url.hash === '#contact')) {
         window.gtag?.('event', 'contact_click', {
           event_category: 'engagement',
-          event_label: (el.textContent?.trim() || el.getAttribute('href') || '').slice(0, 100),
+          event_label: url.pathname,
           page_path: window.location.pathname,
         });
-      });
+      }
+      if (url.protocol === 'tel:') {
+        window.gtag?.('event', 'phone_click', { page_path: window.location.pathname });
+      }
     });
 
     // WhatsApp-Button-Klicks — generischer href-Selektor faengt alle wa.me-Links
@@ -447,13 +438,28 @@ const initCookieBanner = () => {
   };
 
   const loadAnalytics = () => {
-    // gtag.js is loaded statically in <head> — just grant consent and init tracking
+    // Some landing pages do not include a tag in <head>. Load it there only
+    // after analytics consent; retain the existing tag on the other pages.
+    const needsAnalyticsTag = !window.gtag;
+    if (needsAnalyticsTag) {
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+    }
     window.gtag?.('consent', 'update', {
       analytics_storage: 'granted',
       ad_storage: 'denied',
       ad_user_data: 'denied',
       ad_personalization: 'denied',
     });
+
+    if (needsAnalyticsTag) {
+      window.gtag('js', new Date());
+      window.gtag('config', 'G-JWEQYND20F', { anonymize_ip: true });
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-JWEQYND20F';
+      document.head.appendChild(script);
+    }
 
     loadClarity();
     loadMetaPixel();
@@ -570,7 +576,8 @@ const initLeadForms = () => {
       payload.page = window.location.pathname;
       payload.source = form.dataset.formSource || 'website';
       payload.timestamp = new Date().toISOString();
-      payload.angemeldet = 'ja';
+      const marketingConsent = form.querySelector('input[name="consent_marketing"]');
+      payload.angemeldet = marketingConsent && !marketingConsent.checked ? 'nein' : 'ja';
 
       const target = (form.dataset.formSource || '').startsWith('3-tipps')
         ? analysisWebhookUrl
@@ -597,6 +604,7 @@ const initLeadForms = () => {
           throw new Error(`Webhook responded with ${response.status}`);
         }
 
+        trackConsentedLead(form);
         form.reset();
         status.textContent = messages.success;
         status.dataset.state = 'success';
