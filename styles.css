@@ -4557,7 +4557,11 @@ h2 {
   }
 
   .nav-links.open {
-    max-height: 500px;
+    /* Ganze Bildschirmhöhe statt fester 500px, sonst wird der Knopf unten abgeschnitten,
+       sobald ein Untermenü offen ist. Bei sehr kleinen Handys scrollt das Menü. */
+    max-height: calc(100dvh - 90px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
     padding: 8px 0 14px;
     border-top-color: rgba(28, 56, 90, 0.14);
     opacity: 1;

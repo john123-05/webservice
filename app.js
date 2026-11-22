@@ -33,46 +33,32 @@ const postDoiConfirmationMail = (payload) => {
 
 const getLocale = () => (document.documentElement.lang || '').toLowerCase().startsWith('en') ? 'en' : 'de';
 
+// Seiten mit englischer Fassung (scripts/build_english.py). Für alle anderen führt „EN“
+// zur englischen Startseite. Funktioniert mit sauberen Adressen (/webdesign) wie mit .html.
+const EN_PAGES = new Set([
+  'index', 'webdesign', 'seo', 'anzeigen', 'projekte', 'anfrage', 'naechster-schritt', 'fachartikel',
+  '3-tipps', 'newsletter', 'impressum', 'datenschutz',
+  'blog/die-mysterie-box/index', 'blog/einfacher-weg-bei-google-hoeher-zu-ranken/index',
+  'blog/gewinne-gegen-besseres-marketing/index', 'blog/networking-networking-networking/index',
+  'blog/wie-bauen-unternehmer-in-owl-eine-starke-marke-auf/index', 'blog/wozu-eigentlich-bei-google-ganz-oben/index',
+]);
+
 const getLanguageTargets = () => {
-  const pathname = window.location.pathname || '/';
-  const isEnglish = pathname.endsWith('-en.html');
-
-  if (pathname === '/' || pathname.endsWith('/index.html')) {
-    return {
-      current: isEnglish ? 'en' : 'de',
-      de: pathname === '/' ? '/' : pathname,
-      en: pathname === '/' ? '/index-en.html' : pathname.replace(/index\.html$/, 'index-en.html'),
-    };
-  }
-
-  if (pathname.endsWith('/')) {
-    return {
-      current: 'de',
-      de: pathname,
-      en: `${pathname}index-en.html`,
-    };
-  }
-
-  if (isEnglish) {
-    return {
-      current: 'en',
-      de: pathname.replace(/-en\.html$/, '.html'),
-      en: pathname,
-    };
-  }
-
-  if (pathname.endsWith('.html')) {
-    return {
-      current: 'de',
-      de: pathname,
-      en: pathname.replace(/\.html$/, '-en.html'),
-    };
-  }
-
+  let page = (window.location.pathname || '/').replace(/^\/+/, '').replace(/\.html$/, '');
+  if (page === '' || page.endsWith('/')) page += 'index';
+  const isEnglish = page.endsWith('-en');
+  const base = isEnglish ? page.slice(0, -3) : page;
+  const nested = base.includes('/');
+  const toUrl = (name) => {
+    if (name === 'index') return '/';
+    if (nested) return name.endsWith('/index') ? `/${name.slice(0, -5)}` : `/${name}.html`;
+    return `/${name}`;
+  };
+  const enUrl = (name) => (nested ? `/${name}-en.html` : `/${name}-en`);
   return {
-    current: getLocale(),
-    de: pathname,
-    en: pathname,
+    current: isEnglish ? 'en' : 'de',
+    de: toUrl(base),
+    en: EN_PAGES.has(base) ? enUrl(base) : '/index-en',
   };
 };
 
@@ -123,7 +109,8 @@ const initMenu = () => {
     const name = submenuToggle.textContent.trim();
     submenu.classList.toggle('is-open', open);
     submenuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    submenuToggle.setAttribute('aria-label', open ? name + ' schließen' : name + ' öffnen');
+    const en = getLocale() === 'en';
+    submenuToggle.setAttribute('aria-label', en ? (open ? 'Close ' : 'Open ') + name.toLowerCase() : (open ? name + ' schließen' : name + ' öffnen'));
 
     // Inline values keep the mobile disclosure reliable even if a cached stylesheet wins the cascade.
     // On desktop the dropdown opens via CSS :hover/:focus-within, so leftover inline styles here
@@ -143,7 +130,7 @@ const initMenu = () => {
       return;
     }
     if (submenuWrap) {
-      submenuWrap.style.maxHeight = open ? '160px' : '0';
+      submenuWrap.style.maxHeight = open ? `${(submenuMenu?.scrollHeight || 150) + 10}px` : '0';
       submenuWrap.style.pointerEvents = open ? 'auto' : 'none';
     }
     if (submenuMenu) {
@@ -156,7 +143,9 @@ const initMenu = () => {
   const syncMenuState = (open) => {
     nav.classList.toggle('open', open);
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    toggle.setAttribute('aria-label', open ? 'Navigation schließen' : 'Navigation öffnen');
+    toggle.setAttribute('aria-label', getLocale() === 'en'
+      ? (open ? 'Close navigation' : 'Open navigation')
+      : (open ? 'Navigation schließen' : 'Navigation öffnen'));
     nav.hidden = false;
     if (!open) submenus.forEach((submenu) => syncSubmenuState(submenu, false));
   };
@@ -2039,7 +2028,9 @@ const initMobileWhatsappCtas = () => {
   if (!links.length) return;
 
   const WHATSAPP_NUMBER = '4915229274863';
-  const WHATSAPP_MESSAGE = 'Hallo, ich interessiere mich für Online-Marketing für mein Unternehmen, schickt mir bitte mehr Infos.';
+  const WHATSAPP_MESSAGE = getLocale() === 'en'
+    ? "Hi, I'm interested in online marketing for my business. Please send me more info."
+    : 'Hallo, ich interessiere mich für Online-Marketing für mein Unternehmen, schickt mir bitte mehr Infos.';
   const WHATSAPP_HREF = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
   const WHATSAPP_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px;margin-right:8px;flex:0 0 auto;fill:currentColor;"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.34A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.15c-1.6 0-3.16-.43-4.52-1.24l-.32-.19-3.05.8.81-2.97-.21-.31A8.15 8.15 0 0 1 3.85 12c0-4.52 3.67-8.19 8.19-8.19S20.23 7.48 20.23 12s-3.67 8.15-8.19 8.15Zm4.48-6.12c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.28.37-.42.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.8-.2-.48-.4-.42-.55-.42-.14 0-.31-.02-.47-.02s-.43.06-.66.31c-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>';
 
@@ -2049,6 +2040,10 @@ const initMobileWhatsappCtas = () => {
     'Kostenloses Erstgespräch buchen': 'Kostenlos in Kontakt treten',
     'Jetzt kostenloses Erstgespräch buchen': 'Jetzt kostenlos in Kontakt treten',
     'Jetzt kostenlosen Call buchen': 'Jetzt kostenlos in Kontakt treten',
+    'Book a free intro call': 'Get in touch for free',
+    'Book your free intro call now': 'Get in touch for free now',
+    'Book your free call now': 'Get in touch for free now',
+    'Free intro call': 'Get in touch for free',
   };
 
   const state = links.map((link) => ({

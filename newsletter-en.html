@@ -1,185 +1,172 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Is Your Business Invisible on Google? | ImpressRank</title>
-  <meta name="robots" content="noindex,nofollow" />
-  <link rel="icon" href="assets/favicon.png" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap" rel="stylesheet" />
-  <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Is Your Business Invisible on Google? | ImpressRank</title>
+<meta content="noindex,nofollow" name="robots"/>
+<link href="assets/favicon.png" rel="icon" type="image/png"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&amp;display=swap" rel="stylesheet"/>
+<link as="font" crossorigin="" href="assets/fonts/manrope-latin.woff2" rel="preload" type="font/woff2"/>
+<link href="styles.css" rel="stylesheet"/>
+
+
+
+<link href="https://impress-rank.de/newsletter" hreflang="de" rel="alternate"/>
+<link href="https://impress-rank.de/newsletter-en" hreflang="en" rel="alternate"/>
+<link href="https://impress-rank.de/newsletter" hreflang="x-default" rel="alternate"/>
 </head>
 <body>
 <div class="site-wrap">
-
-  <!-- Minimal header: logo + CTA only, no nav links -->
-  <header class="lc-header">
-    <div class="container lc-header-inner">
-      <a class="brand" href="/">
-        <img src="assets/digital.png" alt="ImpressRank" class="brand-logo" />
-      </a>
-      <a class="btn btn-primary" href="#hero">Sign Up</a>
-    </div>
-  </header>
-
-  <main>
-
-    <!-- Confirmation screen (shown after subscribe) -->
-    <section class="lc-thanks-section" id="lc-thanks" hidden>
-      <div class="container narrow">
-        <p class="eyebrow" style="margin: 0 auto 20px;">Confirmed</p>
-        <h1 class="lc-thanks-title">Check Your Inbox –<br>Your Video Is On Its Way</h1>
-        <p class="lc-thanks-sub">While you wait, here's a quick preview of what you'll learn in the free video:</p>
-        <div class="lc-tips-card" style="margin-top: 48px;">
-          <img class="lc-tips-card-icon" src="assets/digital.png" alt="" aria-hidden="true" />
-          <p class="eyebrow" style="margin: 12px auto 20px;">Skip The Work</p>
-          <h2 class="lc-tips-title">Want Us To <span class="lc-tips-title-italic">Do This For You?</span></h2>
-          <p class="lc-tips-desc">These 3 tips will get you started, but ranking in the top 3 takes a full strategy:</p>
-          <ul class="lc-thanks-list">
-            <li>Google Business Profile optimization</li>
-            <li>Backend website fixes</li>
-            <li>Local authority building</li>
-          </ul>
-          <p class="lc-tips-desc">We handle all of it. If you'd rather skip the work and let us take care of it, click below.</p>
-          <a class="lc-tips-btn" href="3-tipps-en">See How We Get You to The Top 3</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Hero -->
-    <section class="lc-section" id="hero">
-      <div class="container">
-        <div class="lc-hero-grid">
-
-          <!-- Left: text + subscribe form -->
-          <div>
-            <p class="lc-location-pill" id="lc-location" aria-live="polite"></p>
-            <p class="eyebrow">Google Local SEO</p>
-            <h1 class="lc-hero-title">Is Your Business Invisible on Google?</h1>
-            <p class="lc-hero-sub">Watch this short video to learn why you're not ranking in the top 3.</p>
-            <p class="lc-hero-cta"><strong>Sign up below to get three FREE tips you can implement today to start climbing ⬇</strong></p>
-            <!-- WEBHOOK TODO: add action URL when webhook is ready -->
-            <form id="subscribe" class="lc-subscribe-form" action="#" method="post" data-form-source="newsletter-en"><div class="hp-field" aria-hidden="true"><label for="hp-website">Bitte dieses Feld leer lassen</label><input id="hp-website" name="website_hp" type="text" tabindex="-1" autocomplete="off" /></div>
-              <input type="email" name="email" placeholder="name@email.com" required autocomplete="email" />
-              <button class="btn btn-primary" type="submit">Subscribe</button>
-            </form>
-          </div>
-
-          <!-- Right: video placeholder -->
-          <div class="lc-video-box">
-            <div class="lc-video-inner">
-              <div class="lc-video-play"></div>
-              <p class="lc-video-click-text">Click To Watch</p>
-            </div>
-            <div class="lc-video-bar">
-              <span class="lc-video-time">2:44</span>
-              <div class="lc-video-progress"></div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Scrolling logos -->
-    <div class="lc-logos-strip">
-      <div class="container">
-        <div class="trust-marquee" aria-label="Our clients">
-          <div class="trust-marquee-viewport">
-            <div class="trust-marquee-track">
-              <div class="trust-logo-mark">
-                <img src="assets/aloha-beachclub-logo.svg" alt="Aloha Beachclub" loading="lazy" decoding="async" />
-              </div>
-              <div class="trust-logo-mark trust-logo-mark--lift">
-                <img src="assets/liftpictures-logo.webp" alt="LiftPictures" loading="lazy" decoding="async" />
-              </div>
-              <div class="trust-logo-mark">
-                <img src="assets/aloha-beachclub-logo.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />
-              </div>
-              <div class="trust-logo-mark trust-logo-mark--lift">
-                <img src="assets/liftpictures-logo.webp" alt="" aria-hidden="true" loading="lazy" decoding="async" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Who we are -->
-    <section class="lc-who-section">
-      <div class="container">
-        <p class="eyebrow lc-reveal" style="margin: 0 auto 8px;">Who we are</p>
-        <div class="lc-who-card">
-          <img
-            class="lc-who-img"
-            src="assets/IMG_6725.webp"
-            alt="ImpressRank Team – Marketing Congress"
-            loading="lazy"
-            decoding="async"
-          />
-          <p class="lc-who-caption">Marketing Agency – Online Marketing for Local Companies</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- 3 Tips CTA -->
-    <section class="lc-section">
-      <div class="container narrow">
-        <div class="lc-tips-card">
-          <img class="lc-tips-card-icon" src="assets/digital.png" alt="" aria-hidden="true" />
-          <p class="eyebrow">Free stuff</p>
-          <h2 class="lc-tips-title">3 Tips to <span class="lc-tips-title-italic">Rank Higher</span> on Google</h2>
-          <p class="lc-tips-desc">Get a free video showing you the first three things we do when we start working with a local business to get them ranking in the top 3.</p>
-          <p class="lc-tips-desc">No technical know-how needed.</p>
-          <a class="lc-tips-btn" href="3-tipps-en">Get 3 FREE Tips</a>
-        </div>
-      </div>
-    </section>
-
-  <section class="site-location-section">
-  <div class="container">
-    <div class="site-location-layout">
-      <div class="site-location-copy">
-        <h2>Our Location.</h2>
-        <p>Where is ImpressRank based? Our marketing office is located in Bad Salzuflen near Bielefeld. We have digitized our processes so thoroughly that we can handle complete website productions via phone and video conference.</p>
-        <p>Meeting in person is possible, but not necessary. This allows us to create websites for businesses throughout Germany, Austria, and Switzerland.</p>
-      </div>
-    </div>
-  </div>
-  <div class="site-location-skyline" aria-hidden="true">
-    <img src="assets/white-skyline-divider.webp" alt="" loading="lazy" decoding="async" />
-  </div>
+<!-- Minimal header: logo + CTA only, no nav links -->
+<header class="lc-header">
+<div class="container lc-header-inner">
+<a class="brand" href="/index-en">
+<img alt="ImpressRank" class="brand-logo" src="assets/digital.png"/>
+</a>
+<a class="btn btn-primary" href="#hero">Sign up</a>
+</div>
+</header>
+<main>
+<!-- Confirmation screen (shown after subscribe) -->
+<section class="lc-thanks-section" hidden="" id="lc-thanks">
+<div class="container narrow">
+<p class="eyebrow" style="margin: 0 auto 20px;">Confirmation</p>
+<h1 class="lc-thanks-title">Check your inbox:<br/>your video is on its way</h1>
+<p class="lc-thanks-sub">While you wait, here is a preview of what you will learn in the video:</p>
+<div class="lc-tips-card" style="margin-top: 48px;">
+<img alt="" aria-hidden="true" class="lc-tips-card-icon" src="assets/digital.png"/>
+<p class="eyebrow" style="margin: 12px auto 20px;">Skip the work</p>
+<h2 class="lc-tips-title">Want us to <span class="lc-tips-title-italic">handle it for you?</span></h2>
+<p class="lc-tips-desc">These 3 tips get you started, but top 3 rankings need a complete strategy:</p>
+<ul class="lc-thanks-list">
+<li>Google Business Profile optimization</li>
+<li>Technical website improvements</li>
+<li>Building local authority</li>
+</ul>
+<p class="lc-tips-desc">We handle everything. If you would rather leave the work to us, click below.</p>
+<a class="lc-tips-btn" href="/3-tipps-en">See how we get you into the top 3</a>
+</div>
+</div>
+</section>
+<!-- Hero -->
+<section class="lc-section" id="hero">
+<div class="container">
+<div class="lc-hero-grid">
+<!-- Left: text + subscribe form -->
+<div>
+<p aria-live="polite" class="lc-location-pill" id="lc-location"></p>
+<p class="eyebrow">Google Local SEO</p>
+<h1 class="lc-hero-title">Is your business invisible on Google?</h1>
+<p class="lc-hero-sub">Watch this short video and find out why you are not ranking in the top 3.</p>
+<p class="lc-hero-cta"><strong>Sign up below and get three FREE tips you can put into practice today ⬇</strong></p>
+<!-- WEBHOOK TODO: action wird später ergänzt -->
+<form action="#" class="lc-subscribe-form" data-form-source="newsletter-de" id="subscribe" method="post"><div aria-hidden="true" class="hp-field"><label for="hp-website">Please leave this field empty</label><input autocomplete="off" id="hp-website" name="website_hp" tabindex="-1" type="text"/></div>
+<input autocomplete="email" name="email" placeholder="name@email.com" required="" type="email"/>
+<button class="btn btn-primary" type="submit">Sign up</button>
+</form>
+</div>
+<!-- Right: video placeholder -->
+<div class="lc-video-box">
+<div class="lc-video-inner">
+<div class="lc-video-play"></div>
+<p class="lc-video-click-text">Click here to watch</p>
+</div>
+<div class="lc-video-bar">
+<span class="lc-video-time">2:44</span>
+<div class="lc-video-progress"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Scrolling logos -->
+<div class="lc-logos-strip">
+<div class="container">
+<div aria-label="Our clients" class="trust-marquee">
+<div class="trust-marquee-viewport">
+<div class="trust-marquee-track">
+<div class="trust-logo-mark">
+<img alt="Aloha Beachclub" decoding="async" loading="lazy" src="assets/aloha-beachclub-logo.svg"/>
+</div>
+<div class="trust-logo-mark trust-logo-mark--lift">
+<img alt="LiftPictures" decoding="async" loading="lazy" src="assets/liftpictures-logo.webp"/>
+</div>
+<div class="trust-logo-mark">
+<img alt="" aria-hidden="true" decoding="async" loading="lazy" src="assets/aloha-beachclub-logo.svg"/>
+</div>
+<div class="trust-logo-mark trust-logo-mark--lift">
+<img alt="" aria-hidden="true" decoding="async" loading="lazy" src="assets/liftpictures-logo.webp"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Who we are -->
+<section class="lc-who-section">
+<div class="container">
+<p class="eyebrow lc-reveal" style="margin: 0 auto 8px;">Who we are</p>
+<div class="lc-who-card">
+<img alt="ImpressRank team at a marketing congress" class="lc-who-img" decoding="async" loading="lazy" src="assets/IMG_6725.webp"/>
+<p class="lc-who-caption">A marketing agency focused on winning new customers</p>
+</div>
+</div>
+</section>
+<!-- 3 Tips CTA -->
+<section class="lc-section">
+<div class="container narrow">
+<div class="lc-tips-card">
+<img alt="" aria-hidden="true" class="lc-tips-card-icon" src="assets/digital.png"/>
+<p class="eyebrow">Free</p>
+<h2 class="lc-tips-title">3 tips to <span class="lc-tips-title-italic">rank higher</span> on Google</h2>
+<p class="lc-tips-desc">Get a free video with the first three steps we take with every local business to place it in the top 3.</p>
+<p class="lc-tips-desc">No technical know-how required.</p>
+<a class="lc-tips-btn" href="/3-tipps-en">Get 3 FREE tips</a>
+</div>
+</div>
+</section>
+<section class="site-location-section">
+<div class="container">
+<div class="site-location-layout">
+<div class="site-location-copy">
+<h2>Where we are.</h2>
+<p>Where is ImpressRank based? Our office is in Bad Salzuflen, Germany. Our processes are fully digital, so we can run complete website projects by phone and video call.</p>
+<p>Meeting in person is possible, but not necessary. That way we build websites for businesses all over Germany, Austria, Switzerland and beyond.</p>
+</div>
+</div>
+</div>
+<div aria-hidden="true" class="site-location-skyline">
+<img alt="" decoding="async" loading="lazy" src="assets/white-skyline-divider.webp"/>
+</div>
 </section>
 </main>
-
-  <footer class="lc-footer">
-    <div class="container">
-      <p>&copy; ImpressRank</p>
-      <div class="lc-footer-links">
-        <a href="impressum-en">Imprint</a>
-        <a href="datenschutz-en">Privacy Policy</a>
-      </div>
-    </div>
-  </footer>
-
-  <div class="cookie-banner" data-cookie-banner hidden>
-        <div class="cookie-banner__modal">
-<button class="cookie-banner__close" type="button" data-cookie-decline aria-label="Schließen">&#x2715;</button>
-          <div class="cookie-banner__copy">
-                <strong>Cookies &amp; Statistics</strong>
-                <p>This website uses necessary cookies and optionally Google Analytics. See our <a href="datenschutz-en">Privacy Policy</a>.</p>
-              </div>
-              <div class="cookie-banner__actions">
-                <button class="btn btn-ghost" type="button" data-cookie-decline>Necessary only</button>
-                <button class="btn btn-primary" type="button" data-cookie-accept>Accept all</button>
-              </div>
-        </div>
-      </div>
-
+<footer class="lc-footer">
+<div class="container">
+<p>© ImpressRank</p>
+<div class="lc-footer-links">
+<a href="/impressum-en">Legal notice</a>
+<a href="/datenschutz-en">Privacy policy</a>
 </div>
-<script type="module" src="app.js"></script>
+</div>
+</footer>
+<div class="cookie-banner" data-cookie-banner="" hidden="">
+<div class="cookie-banner__modal">
+<button aria-label="Close" class="cookie-banner__close" data-cookie-decline="" type="button">✕</button>
+<div class="cookie-banner__copy">
+<strong>Cookies &amp; statistics</strong>
+<p>This website uses necessary cookies and, optionally, Google Analytics. More details in our <a href="/datenschutz-en">privacy policy</a>.</p>
+</div>
+<div class="cookie-banner__actions">
+<button class="btn btn-ghost" data-cookie-decline="" type="button">Necessary only</button>
+<button class="btn btn-primary" data-cookie-accept="" type="button">Accept all</button>
+</div>
+</div>
+</div>
+</div>
+<script src="app.js" type="module"></script>
 </body>
 </html>

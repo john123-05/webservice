@@ -1,0 +1,3426 @@
+[
+ {
+  "de": "<a class=\"active\" href=\"/\">Start</a>",
+  "en": "<a class=\"active\" href=\"/\">Home</a>"
+ },
+ {
+  "de": "Lösungen <span aria-hidden=\"true\"></span>",
+  "en": "Solutions <span aria-hidden=\"true\"></span>"
+ },
+ {
+  "de": "<a href=\"webdesign\">Websites, die mehr Anfragen bringen</a>",
+  "en": "<a href=\"webdesign\">Websites that bring more leads</a>"
+ },
+ {
+  "de": "<a href=\"seo\">An der Spitze von Google mit lokalem SEO</a>",
+  "en": "<a href=\"seo\">Top of Google with local SEO</a>"
+ },
+ {
+  "de": "<a href=\"anzeigen\">Social-Media-Werbung, die Neukunden bringt</a>",
+  "en": "<a href=\"anzeigen\">Social media ads that win new customers</a>"
+ },
+ {
+  "de": "Angebote <span aria-hidden=\"true\"></span>",
+  "en": "Offers <span aria-hidden=\"true\"></span>"
+ },
+ {
+  "de": "<a href=\"seo#preise\">Top 3 in Google in 90 Tagen</a>",
+  "en": "<a href=\"seo#preise\">Top 3 on Google in 90 days</a>"
+ },
+ {
+  "de": "<a href=\"seo#liftcs\">Fallstudie</a>",
+  "en": "<a href=\"seo#liftcs\">Case study</a>"
+ },
+ {
+  "de": "<a href=\"fachartikel\">Blog</a>",
+  "en": "<a href=\"fachartikel\">Blog</a>"
+ },
+ {
+  "de": "<a href=\"anfrage\">Kontakt</a>",
+  "en": "<a href=\"anfrage\">Contact</a>"
+ },
+ {
+  "de": "<a class=\"nav-cta\" data-wa-cta=\"\" href=\"https://calendly.com/kontakt-impress-rank/30min\" rel=\"noopener\" target=\"_blank\">Kostenloses Erstgespräch</a>",
+  "en": "<a class=\"nav-cta\" data-wa-cta=\"\" href=\"https://calendly.com/kontakt-impress-rank/30min\" rel=\"noopener\" target=\"_blank\">Free intro call</a>"
+ },
+ {
+  "de": "Bestes Marketingbüro in Bad Salzuflen &amp; Bielefeld",
+  "en": "Marketing agency for websites, SEO &amp; ads"
+ },
+ {
+  "de": "Mehr Wachstum.<br/> <span class=\"hero-new-customers\">Mehr Neukunden.</span><br/> <span class=\"hero-bielefeld\">Für OWL. <em><span class=\"hero-highlight hero-underline-wrap\">Garantiert.⟦1⟧</span></em></span>",
+  "en": "More growth.<br/> <span class=\"hero-new-customers\">More new customers.</span><br/> <span class=\"hero-bielefeld\">For your business. <em><span class=\"hero-highlight hero-underline-wrap\">Guaranteed.⟦1⟧</span></em></span>"
+ },
+ {
+  "de": "Kostenloses Erstgespräch buchen",
+  "en": "Book a free intro call"
+ },
+ {
+  "de": "Welche Lösung passt zu mir?",
+  "en": "Which solution is right for me?"
+ },
+ {
+  "de": "Die einzigen <span class=\"two-things-accent\">zwei Dinge</span>, die Sie über <span class=\"two-things-accent\">Marketing</span> wissen müssen.",
+  "en": "The only <span class=\"two-things-accent\">two things</span> you need to know about <span class=\"two-things-accent\">marketing</span>."
+ },
+ {
+  "de": "<a class=\"btn btn-primary btn-cta-blue\" data-wa-cta=\"\" href=\"https://calendly.com/kontakt-impress-rank/30min\" rel=\"noopener\" target=\"_blank\">Kostenlos in Kontakt treten</a>",
+  "en": "<a class=\"btn btn-primary btn-cta-blue\" data-wa-cta=\"\" href=\"https://calendly.com/kontakt-impress-rank/30min\" rel=\"noopener\" target=\"_blank\">Get in touch for free</a>"
+ },
+ {
+  "de": "Meine Lösung für dein Unternehmen:",
+  "en": "My solution for your business:"
+ },
+ {
+  "de": "So helfe ich dir, <span class=\"services-split-accent\">online</span> <span class=\"services-split-accent\">Neukunden</span> zu <span class=\"services-split-accent\">gewinnen.</span>",
+  "en": "How I help you <span class=\"services-split-accent\">win</span> <span class=\"services-split-accent\">new customers</span> <span class=\"services-split-accent\">online.</span>"
+ },
+ {
+  "de": "Ich baue dir einen digitalen Auftritt, der dir in deiner Region planbar Neukunden bringt – von Anfang bis Ende, professionell umgesetzt und auf dein Unternehmen zugeschnitten.",
+  "en": "I build you an online presence that brings in new customers predictably. From start to finish, done professionally and tailored to your business."
+ },
+ {
+  "de": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>Regelmäßige Pflege mit aktuellen Inhalten",
+  "en": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>Regular care with fresh content"
+ },
+ {
+  "de": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>Professionelle Texte, die Kunden überzeugen",
+  "en": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>Professional copy that convinces customers"
+ },
+ {
+  "de": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>Ein Design, das zu deinem Unternehmen passt",
+  "en": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>A design that fits your business"
+ },
+ {
+  "de": "⟦1⟧Jetzt kostenlos anfragen",
+  "en": "⟦1⟧Ask now for free"
+ },
+ {
+  "de": "<strong>Websites &amp; Webdesign</strong>, dass <strong>mehr Anfragen</strong> bringt",
+  "en": "<strong>Websites &amp; web design</strong> that bring <strong>more leads</strong>"
+ },
+ {
+  "de": "Mehr erfahren ⟦1⟧",
+  "en": "Learn more ⟦1⟧"
+ },
+ {
+  "de": "an der <strong>Spitze von Google</strong> mit <strong>lokalem SEO</strong>",
+  "en": "at the <strong>top of Google</strong> with <strong>local SEO</strong>"
+ },
+ {
+  "de": "<strong>Kunden aus der Region</strong> erreichen mit <strong>Google &amp; Meta Ads</strong>",
+  "en": "Reach <strong>the right customers</strong> with <strong>Google &amp; Meta Ads</strong>"
+ },
+ {
+  "de": "Erfahrungen mit ImpressRank",
+  "en": "What clients say about ImpressRank"
+ },
+ {
+  "de": "★★★★★",
+  "en": "★★★★★"
+ },
+ {
+  "de": "„Sehr zuverlässig. Sofortige Rückmeldung bei Fragen. Schnelle Bearbeitung bei Änderungswünschen, sehr kreativ und flexibel, Meine erste Wahl bei kommenden Projekten\"",
+  "en": "“Very reliable. Instant replies to questions. Changes are done quickly, very creative and flexible. My first choice for upcoming projects.”"
+ },
+ {
+  "de": "Karl Maus",
+  "en": "Karl Maus"
+ },
+ {
+  "de": "Schausteller, Fang den Nemo",
+  "en": "Fairground operator, Fang den Nemo"
+ },
+ {
+  "de": "„Sehr kompetentes Büro aus Bad Salzuflen! Herr Nolting geht auf individuelle Wünsche ein und setzt sie kreativ um! Die Website wird immer auf dem neuesten Stand gehalten und ist einfach und übersichtlich …\"",
+  "en": "“A very competent agency from Bad Salzuflen! Mr. Nolting responds to individual requests and implements them creatively! The website is always kept up to date and is simple and clear …”"
+ },
+ {
+  "de": "Louis Schneider",
+  "en": "Louis Schneider"
+ },
+ {
+  "de": "Aloha Beachclub Herford",
+  "en": "Aloha Beachclub Herford"
+ },
+ {
+  "de": "„Dank der Zusammenarbeit mit ImpressRank tauchen wir jetzt branchenweit bei Google auf Platz 1 auf und erhalten über unsere beiden neuen Websites regelmäßig neue Anfragen. Wir sind sehr zufrieden mit den empfohlenen Marketingmaßnahmen …\"",
+  "en": "“Thanks to working with ImpressRank, we now rank first on Google across our industry and receive new inquiries regularly through our two new websites. We are very happy with the recommended marketing measures …”"
+ },
+ {
+  "de": "Liftpictures Fotosysteme",
+  "en": "Liftpictures Fotosysteme"
+ },
+ {
+  "de": "liftpictures.com",
+  "en": "liftpictures.com"
+ },
+ {
+  "de": "Zur Fallstudie",
+  "en": "View case study"
+ },
+ {
+  "de": "„Wirklich kompetente Zusammenarbeit, Vorschläge und Wünsche wurden sofort umgesetzt. Bin wirklich zufrieden und gebe gern eine Empfehlung weiter!\"",
+  "en": "“A truly competent collaboration. Suggestions and requests were implemented right away. I am really happy and gladly recommend them!”"
+ },
+ {
+  "de": "Pirates Adventure",
+  "en": "Pirates Adventure"
+ },
+ {
+  "de": "pirates-adventure.de",
+  "en": "pirates-adventure.de"
+ },
+ {
+  "de": "Werde der Nächste!",
+  "en": "Be the next one!"
+ },
+ {
+  "de": "Hol dir professionelle Unterstützung für deinen Auftritt im Netz.",
+  "en": "Get professional support for your online presence."
+ },
+ {
+  "de": "<a class=\"btn btn-primary btn-cta-blue\" data-wa-cta=\"\" href=\"anfrage\">Jetzt unverbindlich anfragen</a>",
+  "en": "<a class=\"btn btn-primary btn-cta-blue\" data-wa-cta=\"\" href=\"anfrage\">Get a free, no-obligation quote</a>"
+ },
+ {
+  "de": "Wir arbeiten mit lokalen Unternehmen",
+  "en": "Businesses we work with"
+ },
+ {
+  "de": "Marketing ist wichtig...",
+  "en": "Marketing matters..."
+ },
+ {
+  "de": "...aber auf deiner To-do-Liste stehen bereits <strong>101 Dinge</strong>.",
+  "en": "...but your to-do list already has <strong>101 things</strong> on it."
+ },
+ {
+  "de": "Und die sind alle wichtig!",
+  "en": "And they all matter!"
+ },
+ {
+  "de": "Wie optimierst du also dein <em>Marketing?</em>",
+  "en": "So how do you improve your <em>marketing?</em>"
+ },
+ {
+  "de": "Alles selbst machen?",
+  "en": "Do it all yourself?"
+ },
+ {
+  "de": "<strong>Kein Problem, wenn du wenig auf dem Tisch hast.</strong>",
+  "en": "<strong>No problem if your plate is fairly empty.</strong>"
+ },
+ {
+  "de": "Aber wenn du ohnehin schon ausgelastet bist... ist das keine wirkliche Option.",
+  "en": "But if you are already at capacity... that is not a real option."
+ },
+ {
+  "de": "Neue Mitarbeiter einstellen?",
+  "en": "Hire new staff?"
+ },
+ {
+  "de": "<strong>Gute Leute zu finden ist nicht einfach.</strong>",
+  "en": "<strong>Finding good people is not easy.</strong>"
+ },
+ {
+  "de": "Einarbeitung kostet Zeit und Geld.",
+  "en": "Onboarding costs time and money."
+ },
+ {
+  "de": "Und selbst wenn du die perfekte Person findest - du bist von einer einzigen Person abhängig.",
+  "en": "And even if you find the perfect person, you depend on a single individual."
+ },
+ {
+  "de": "Eine Agentur beauftragen?",
+  "en": "Hire an agency?"
+ },
+ {
+  "de": "<strong>Kein fünfstelliges Marketingbudget?</strong> Dann wird dein Account womöglich vom Praktikanten des Assistenten der Assistentin betreut.",
+  "en": "<strong>No five-figure marketing budget?</strong> Then your account may end up with the intern of the assistant's assistant."
+ },
+ {
+  "de": "Nicht gerade optimal.",
+  "en": "Not exactly ideal."
+ },
+ {
+  "de": "OK und was macht dich so <em>anders?</em>",
+  "en": "OK, so what makes you <em>different?</em>"
+ },
+ {
+  "de": "Lokal",
+  "en": "Personal"
+ },
+ {
+  "de": "Wir sind ein <strong>lokales Büro aus Bad Salzuflen</strong> - du erreichst mich, wenn du mich brauchst.",
+  "en": "We are a <strong>small, owner-led office</strong>: you can reach me whenever you need me."
+ },
+ {
+  "de": "Verbindlich",
+  "en": "Reliable"
+ },
+ {
+  "de": "Sie erhalten <strong>klare Empfehlungen</strong>, eine nachvollziehbare Priorisierung und eine <strong>Umsetzung, die auf echte Anfragen</strong> statt auf leere Agenturphrasen ausgerichtet ist.",
+  "en": "You get <strong>clear recommendations</strong>, priorities that make sense and <strong>work focused on real inquiries</strong> instead of empty agency buzzwords."
+ },
+ {
+  "de": "Spezialisiert",
+  "en": "Specialized"
+ },
+ {
+  "de": "Ich <strong>arbeite mit Branchen, die ich kenne</strong> - damit ich schnell liefern kann, ohne lange Einarbeitung.",
+  "en": "I <strong>work with industries I know</strong>, so I can deliver fast without a long ramp-up."
+ },
+ {
+  "de": "Ergebnisse",
+  "en": "Results"
+ },
+ {
+  "de": "Mein oberstes Ziel sind <strong>messbare Ergebnisse</strong> für dich: weniger reden, mehr liefern.",
+  "en": "My top goal is <strong>measurable results</strong> for you: less talk, more delivery."
+ },
+ {
+  "de": "Ganz <em>einfach.</em>",
+  "en": "Simple as <em>that.</em>"
+ },
+ {
+  "de": "Strategiegespräch",
+  "en": "Strategy call"
+ },
+ {
+  "de": "Buche ein kostenloses Gespräch, damit ich deinen Markt und deine aktuelle Situation einschätzen kann.",
+  "en": "Book a free call so I can assess your market and your current situation."
+ },
+ {
+  "de": "Onboarding",
+  "en": "Onboarding"
+ },
+ {
+  "de": "Ich führe dich Schritt für Schritt durch alles, was du für den Start brauchst – transparent und unkompliziert.",
+  "en": "I guide you step by step through everything you need to get started. Transparent and easy."
+ },
+ {
+  "de": "Umsetzung",
+  "en": "Execution"
+ },
+ {
+  "de": "Ich arbeite mich durch jeden Schritt des Prozesses – damit dein Kalender nicht nur einmal voll wird, sondern dauerhaft.",
+  "en": "I work through every step of the process, so your calendar does not just fill up once, but stays full."
+ },
+ {
+  "de": "Was funktioniert?",
+  "en": "What works?"
+ },
+ {
+  "de": "Ich tracke relevante Daten, sehe, was wirklich funktioniert – und mache davon mehr.",
+  "en": "I track the data that matters, see what really works and do more of it."
+ },
+ {
+  "de": "<a class=\"btn btn-primary btn-cta-blue\" data-wa-cta=\"\" href=\"https://calendly.com/kontakt-impress-rank/30min\" rel=\"noopener\" target=\"_blank\">Jetzt kostenloses Erstgespräch buchen</a>",
+  "en": "<a class=\"btn btn-primary btn-cta-blue\" data-wa-cta=\"\" href=\"https://calendly.com/kontakt-impress-rank/30min\" rel=\"noopener\" target=\"_blank\">Book your free intro call now</a>"
+ },
+ {
+  "de": "… Aber kann man in OWL überhaupt Kunden über das Internet gewinnen?",
+  "en": "… But can you really win customers online?"
+ },
+ {
+  "de": "Kunden über das Internet gewinnen",
+  "en": "Winning customers online"
+ },
+ {
+  "de": "Ja, gerade ein <span style=\"color:#145af3;\">Lipper</span> <span style=\"color:#145af3;\">durchsiebt</span> das <span style=\"color:#145af3;\">Internet</span> förmlich, bevor er eine <span style=\"color:#145af3;\">Kaufentscheidung</span> trifft.",
+  "en": "Yes. Before making a <span style=\"color:#145af3;\">purchase decision</span>, people <span style=\"color:#145af3;\">comb</span> through the <span style=\"color:#145af3;\">internet</span> like never <span style=\"color:#145af3;\">before</span>."
+ },
+ {
+  "de": "Bis zu",
+  "en": "Up to"
+ },
+ {
+  "de": "<span class=\"network-stat-count\" data-count-to=\"72\">0</span>%",
+  "en": "<span class=\"network-stat-count\" data-count-to=\"72\">0</span>%"
+ },
+ {
+  "de": "Der Entscheider <span style=\"color:#145af3;\">googlen</span> teilweise bis zu <span style=\"color:#145af3;\">3x</span>, bevor sie eine Kaufentscheidung treffen.",
+  "en": "of decision makers <span style=\"color:#145af3;\">google</span> up to <span style=\"color:#145af3;\">3 times</span> before they make a purchase decision."
+ },
+ {
+  "de": "Auch in OWL nimmt das Internet immer mehr Einzug ein.",
+  "en": "The internet plays a bigger role in buying decisions every year."
+ },
+ {
+  "de": "Verlasse dich also nicht nur auf dein Netzwerk,",
+  "en": "So don't rely on your network alone,"
+ },
+ {
+  "de": "sondern werde online sichtbar,",
+  "en": "become visible online,"
+ },
+ {
+  "de": "und gewinne Kunden über das Internet.",
+  "en": "and win customers through the internet."
+ },
+ {
+  "de": "Kostenloses Erstgespräch",
+  "en": "Free intro call"
+ },
+ {
+  "de": "Der Blog, der dir mehr Neukunden bringt",
+  "en": "The blog that brings you more new customers"
+ },
+ {
+  "de": "Kurze Impulse rund um Sichtbarkeit bei Google, deine Marke und mehr Neukunden.",
+  "en": "Short ideas on Google visibility, your brand and winning more new customers."
+ },
+ {
+  "de": "Einfacher Weg, bei Google höher zu ranken",
+  "en": "A simple way to rank higher on Google"
+ },
+ {
+  "de": "Wie bauen Unternehmer in OWL eine starke Marke auf?",
+  "en": "How do business owners build a strong brand?"
+ },
+ {
+  "de": "Häufige Fragen",
+  "en": "Frequently asked questions"
+ },
+ {
+  "de": "Was kostet Online-Marketing bei euch?",
+  "en": "What does online marketing with you cost?"
+ },
+ {
+  "de": "Das hängt davon ab, welche Leistungen du benötigst und wie wettbewerbsintensiv dein Markt ist. Im ersten Gespräch schauen wir uns deine Situation an und machen dir ein konkretes Angebot – ohne versteckte Kosten.",
+  "en": "That depends on which services you need and how competitive your market is. In our first call we look at your situation and make you a concrete offer, with no hidden costs."
+ },
+ {
+  "de": "Wie schnell sehe ich erste Ergebnisse?",
+  "en": "How soon will I see first results?"
+ },
+ {
+  "de": "Das variiert je nach Service: Bei Google &amp; Meta Ads sind erste Klicks und Anfragen oft innerhalb weniger Tage möglich. Beim SEO dauert es in der Regel 60–90 Tage, bis du messbare Ergebnisse siehst. Webdesign und Copywriting wirken, sobald die neue Version live ist.",
+  "en": "It depends on the service: with Google &amp; Meta Ads, first clicks and inquiries are often possible within a few days. With SEO it usually takes 60 to 90 days until you see measurable results. Web design and copywriting take effect as soon as the new version is live."
+ },
+ {
+  "de": "Arbeitet ihr nur in Bielefeld?",
+  "en": "Do you only work with local businesses?"
+ },
+ {
+  "de": "Nein – wir arbeiten mit lokalen Unternehmen in ganz OWL und darüber hinaus. Lokale Nähe schätzen wir, aber für die meisten Leistungen ist ein persönliches Treffen keine Voraussetzung.",
+  "en": "No. We work with businesses across Germany, Austria, Switzerland and beyond. We value personal contact, but for most services meeting in person is not required."
+ },
+ {
+  "de": "Muss ich einen Vertrag unterschreiben?",
+  "en": "Do I have to sign a contract?"
+ },
+ {
+  "de": "Wir arbeiten transparent und ohne Knebelverträge. Die genauen Konditionen besprechen wir individuell – abgestimmt auf deinen Bedarf und dein Ziel.",
+  "en": "We work transparently and without lock-in contracts. We agree on the exact terms individually, based on your needs and your goal."
+ },
+ {
+  "de": "Was macht euch besser als andere Agenturen?",
+  "en": "What makes you better than other agencies?"
+ },
+ {
+  "de": "Wir sind eine kleine, spezialisierte Einheit – kein anonymer Großbetrieb. Du arbeitest direkt mit uns, nicht mit einem Junior-Mitarbeiter. Und wir verdienen nur dann, wenn du Ergebnisse siehst.",
+  "en": "We are a small, specialized team, not an anonymous large firm. You work directly with us, not with a junior employee. And we only earn when you see results."
+ },
+ {
+  "de": "Wie starten wir?",
+  "en": "How do we get started?"
+ },
+ {
+  "de": "Einfach das Kontaktformular ausfüllen oder uns direkt anschreiben. Wir melden uns innerhalb von 24 Stunden und vereinbaren ein kostenloses Erstgespräch.",
+  "en": "Simply fill in the contact form or message us directly. We will get back to you within 24 hours and set up a free intro call."
+ },
+ {
+  "de": "Kostenlos",
+  "en": "Free"
+ },
+ {
+  "de": "Buche deinen kostenlosen Strategieanruf",
+  "en": "Book your free strategy call"
+ },
+ {
+  "de": "Wenn das genau das ist, was dein Unternehmen braucht – lass uns reden.<br/> Buche einen kurzen Call mit uns und wir zeigen dir genau, wie wir dein Marketing verbessern würden.",
+  "en": "If this is exactly what your business needs, let's talk.<br/> Book a short call with us and we will show you exactly how we would improve your marketing."
+ },
+ {
+  "de": "Jetzt kostenlosen Call buchen",
+  "en": "Book your free call now"
+ },
+ {
+  "de": "Unser Standort.",
+  "en": "Where we are."
+ },
+ {
+  "de": "Wo sitzt ImpressRank? Das Marketing Büro sitzt in Bad Salzuflen bei Bielefeld. Unsere Prozesse haben wir so digitalisiert, dass wir komplette Website-Produktionen per Telefon und Video-Konferenz abwickeln können.",
+  "en": "Where is ImpressRank based? Our office is in Bad Salzuflen, Germany. Our processes are fully digital, so we can run complete website projects by phone and video call."
+ },
+ {
+  "de": "Ein persönliches Treffen vor Ort ist möglich, aber nicht notwendig. So können wir Websites für Unternehmen in ganz Deutschland, in Österreich und der Schweiz erstellen.",
+  "en": "Meeting in person is possible, but not necessary. That way we build websites for businesses all over Germany, Austria, Switzerland and beyond."
+ },
+ {
+  "de": "Dominiere den Markt in OWL",
+  "en": "Dominate your market"
+ },
+ {
+  "de": "Online-Marketing für lokale Unternehmen mit Fokus auf Wachstum, Anfragen und Ergebnisse.",
+  "en": "Online marketing for businesses that want growth, inquiries and results."
+ },
+ {
+  "de": "Seiten",
+  "en": "Pages"
+ },
+ {
+  "de": "<a href=\"/\">Home</a>",
+  "en": "<a href=\"/\">Home</a>"
+ },
+ {
+  "de": "<a href=\"webdesign\">Websites / Webdesign</a>",
+  "en": "<a href=\"webdesign\">Websites / Web design</a>"
+ },
+ {
+  "de": "<a href=\"projekte\">Projekte / Case Studies</a>",
+  "en": "<a href=\"projekte\">Projects / Case studies</a>"
+ },
+ {
+  "de": "<a href=\"impressum\">Impressum</a>",
+  "en": "<a href=\"impressum\">Legal notice</a>"
+ },
+ {
+  "de": "<a href=\"datenschutz\">Datenschutz</a>",
+  "en": "<a href=\"datenschutz\">Privacy policy</a>"
+ },
+ {
+  "de": "Kontakt",
+  "en": "Contact"
+ },
+ {
+  "de": "ImpressRank",
+  "en": "ImpressRank"
+ },
+ {
+  "de": "Lehmkuhlstr. 18, 32108 Bad Salzuflen",
+  "en": "Lehmkuhlstr. 18, 32108 Bad Salzuflen, Germany"
+ },
+ {
+  "de": "<a href=\"tel:+4915229274863\">01522 9274863</a>",
+  "en": "<a href=\"tel:+4915229274863\">+49 1522 9274863</a>"
+ },
+ {
+  "de": "<a href=\"mailto:kontakt@impress-rank.de\">kontakt@impress-rank.de</a>",
+  "en": "<a href=\"mailto:kontakt@impress-rank.de\">kontakt@impress-rank.de</a>"
+ },
+ {
+  "de": "Kostenlose Analyse",
+  "en": "Free analysis"
+ },
+ {
+  "de": "Um unsere Website zu optimieren und personalisieren, nutzen wir Cookies. Sie helfen uns, Social Media Funktionen anzubieten, Zugriffe zu analysieren und Informationen mit unseren Partnern in den Bereichen Social Media, Anzeigen und Analysen zu teilen. Sind Sie widerruflich mit der Nutzung von Cookies einverstanden?",
+  "en": "We use cookies to optimize and personalize our website. They help us offer social media features, analyze traffic and share information with our partners for social media, advertising and analytics. Do you agree to the use of cookies? You can withdraw your consent at any time."
+ },
+ {
+  "de": "Ablehnen",
+  "en": "Decline"
+ },
+ {
+  "de": "Zustimmen",
+  "en": "Accept"
+ },
+ {
+  "de": "<a class=\"cookie-btn cookie-btn--secondary\" href=\"datenschutz\">Mehr erfahren und anpassen</a>",
+  "en": "<a class=\"cookie-btn cookie-btn--secondary\" href=\"datenschutz\">Learn more and adjust</a>"
+ },
+ {
+  "de": "Marketing Agentur Bielefeld & Bad Salzuflen | SEO, Webdesign & mehr Anfragen | ImpressRank",
+  "en": "Marketing Agency for SEO, Web Design & More Leads | ImpressRank"
+ },
+ {
+  "de": "ImpressRank ist Ihre Marketing Agentur für Bielefeld und OWL. SEO, Webdesign und digitale Strategie für mehr Sichtbarkeit, Vertrauen und qualifizierte Anfragen.",
+  "en": "ImpressRank is your marketing agency for SEO, web design and digital strategy. More visibility, more trust and more qualified inquiries for your business."
+ },
+ {
+  "de": "Marketing Agentur Bielefeld | SEO, Webdesign & mehr Anfragen",
+  "en": "Marketing Agency | SEO, Web Design & More Leads"
+ },
+ {
+  "de": "Navigation öffnen",
+  "en": "Open navigation"
+ },
+ {
+  "de": "Lösungen öffnen",
+  "en": "Open solutions"
+ },
+ {
+  "de": "Angebote öffnen",
+  "en": "Open offers"
+ },
+ {
+  "de": "Vorherige Bewertung",
+  "en": "Previous review"
+ },
+ {
+  "de": "Nächste Bewertung",
+  "en": "Next review"
+ },
+ {
+  "de": "Aloha Beach Club",
+  "en": "Aloha Beach Club"
+ },
+ {
+  "de": "Liftpictures",
+  "en": "Liftpictures"
+ },
+ {
+  "de": "Schneider Schaustellerbetrieb",
+  "en": "Schneider fairground business"
+ },
+ {
+  "de": "Münchener Marketing Kongress – Networking und fachlicher Austausch",
+  "en": "Munich Marketing Congress: networking and professional exchange"
+ },
+ {
+  "de": "ImpressRank Büro in Bad Salzuflen – lokal verwurzelt",
+  "en": "ImpressRank office in Bad Salzuflen"
+ },
+ {
+  "de": "Auch in OWL nimmt das Internet immer mehr Einzug ein",
+  "en": "The internet plays a bigger role every year"
+ },
+ {
+  "de": "Verlasse dich nicht nur auf dein Netzwerk",
+  "en": "Don't rely on your network alone"
+ },
+ {
+  "de": "Werde online sichtbar",
+  "en": "Become visible online"
+ },
+ {
+  "de": "Gewinne online Neukunden",
+  "en": "Win new customers online"
+ },
+ {
+  "de": "Aber was ist mit Markenbildung?",
+  "en": "But what about branding?"
+ },
+ {
+  "de": "LinkedIn",
+  "en": "LinkedIn"
+ },
+ {
+  "de": "Instagram",
+  "en": "Instagram"
+ },
+ {
+  "de": "Facebook",
+  "en": "Facebook"
+ },
+ {
+  "de": "X",
+  "en": "X"
+ },
+ {
+  "de": "Kostenlose Videoanalyse",
+  "en": "Free video analysis"
+ },
+ {
+  "de": "Popup schließen",
+  "en": "Close popup"
+ },
+ {
+  "de": "Kostenlose Videoanalyse des Online-Auftritts mit drei konkreten Verbesserungstipps von ImpressRank",
+  "en": "Free video analysis of your online presence with three concrete improvement tips from ImpressRank"
+ },
+ {
+  "de": "Cookie-Einstellungen öffnen",
+  "en": "Open cookie settings"
+ },
+ {
+  "de": "Bielefeld",
+  "en": "Bielefeld"
+ },
+ {
+  "de": "Bad Salzuflen",
+  "en": "Bad Salzuflen"
+ },
+ {
+  "de": "OWL",
+  "en": "OWL"
+ },
+ {
+  "de": "Marketing Agentur Bielefeld | SEO, Webdesign & mehr Anfragen | ImpressRank",
+  "en": "Marketing Agency | SEO, Web Design & More Leads | ImpressRank"
+ },
+ {
+  "de": "Marketing Agentur Bielefeld",
+  "en": "Marketing Agency"
+ },
+ {
+  "de": "SEO",
+  "en": "SEO"
+ },
+ {
+  "de": "Webdesign",
+  "en": "Web design"
+ },
+ {
+  "de": "Online-Marketing",
+  "en": "Online marketing"
+ },
+ {
+  "de": "<a href=\"/\">Start</a>",
+  "en": "<a href=\"/\">Home</a>"
+ },
+ {
+  "de": "<a class=\"nav-cta\" href=\"anfrage\">Kostenloses Erstgespräch sichern</a>",
+  "en": "<a class=\"nav-cta\" href=\"anfrage\">Book your free intro call</a>"
+ },
+ {
+  "de": "Beste Webdesign- und Webentwicklungs-Agentur in Bielefeld &amp; OWL",
+  "en": "Web design and web development agency"
+ },
+ {
+  "de": "<span class=\"hero-highlight\">Websites</span> für Unternehmen<br class=\"hd-br\"/> in OWL, die <span class=\"hero-highlight\">sichtbar mehr Anfragen bringen</span>",
+  "en": "<span class=\"hero-highlight\">Websites</span> for businesses<br class=\"hd-br\"/> that <span class=\"hero-highlight\">bring noticeably more inquiries</span>"
+ },
+ {
+  "de": "<a class=\"btn btn-primary btn-cta-blue\" href=\"anfrage\">Starten</a>",
+  "en": "<a class=\"btn btn-primary btn-cta-blue\" href=\"anfrage\">Get started</a>"
+ },
+ {
+  "de": "Unser Angebot",
+  "en": "Our offer"
+ },
+ {
+  "de": "So bringen wir deine Website zu mehr Anfragen",
+  "en": "How we get your website to bring more inquiries"
+ },
+ {
+  "de": "Wir erarbeiten mit dir ein <strong>Marketing-Konzept</strong>, das deine Website-Besucher in Anfragen verwandelt.",
+  "en": "Together with you, we develop a <strong>marketing concept</strong> that turns your website visitors into inquiries."
+ },
+ {
+  "de": "Wir schreiben <strong>verkaufsstarke Texte</strong> für deine Website, die deine Zielgruppe direkt ins Herz treffen.",
+  "en": "We write <strong>persuasive copy</strong> for your website that speaks straight to your target audience."
+ },
+ {
+  "de": "Wir erstellen ein <strong>Custom Webdesign</strong>, das dein Unternehmen im besten Licht präsentiert.",
+  "en": "We create a <strong>custom web design</strong> that shows your business in the best light."
+ },
+ {
+  "de": "Wir kümmern uns um die <strong>technische Entwicklung</strong> und begleiten deine Website bis zum Launch.",
+  "en": "We take care of the <strong>technical development</strong> and support your website all the way to launch."
+ },
+ {
+  "de": "<a class=\"btn btn-primary btn-cta-blue\" href=\"anfrage\">Kostenlos starten</a>",
+  "en": "<a class=\"btn btn-primary btn-cta-blue\" href=\"anfrage\">Start for free</a>"
+ },
+ {
+  "de": "Deine Website neu aufgesetzt",
+  "en": "Your website, rebuilt"
+ },
+ {
+  "de": "Wie der Aloha Beachclub in Herford",
+  "en": "Like the Aloha Beachclub in Herford"
+ },
+ {
+  "de": "Neu aufgebaut mit Fokus auf schnelle Orientierung, klare Darstellung von Menü, Standort und Reservierung – damit Besucher schneller zu Gästen werden.",
+  "en": "Rebuilt with a focus on quick orientation and a clear presentation of menu, location and reservations, so visitors become guests faster."
+ },
+ {
+  "de": "Bessere mobile Nutzerführung",
+  "en": "Better mobile navigation"
+ },
+ {
+  "de": "Klarere Darstellung der wichtigsten Infos",
+  "en": "Clearer presentation of the key information"
+ },
+ {
+  "de": "Professioneller erster Eindruck für neue Gäste",
+  "en": "A professional first impression for new guests"
+ },
+ {
+  "de": "Vorher",
+  "en": "Before"
+ },
+ {
+  "de": "Nachher",
+  "en": "After"
+ },
+ {
+  "de": "Weitere Projekte im Überblick",
+  "en": "More projects at a glance"
+ },
+ {
+  "de": "Wie wir dich zu deiner <em>perfekten Website</em> bringen",
+  "en": "How we get you to your <em>perfect website</em>"
+ },
+ {
+  "de": "Kickoff",
+  "en": "Kickoff"
+ },
+ {
+  "de": "In einem gemeinsamen Telefonat besprechen wir den konkreten Inhalt deiner Website, deine Zielsetzung und die Möglichkeiten für eine erfolgreiche Umsetzung. Im Anschluss erhältst du einen Link, wo du Bilder und Medien hochladen kannst. <span class=\"wd-step-time\">Dein Zeitaufwand: 1 h</span>",
+  "en": "In a call together, we discuss the specific content of your website, your goals and the options for a successful launch. Afterwards you get a link where you can upload images and media. <span class=\"wd-step-time\">Your time: 1 h</span>"
+ },
+ {
+  "de": "Dein Website-Konzept",
+  "en": "Your website concept"
+ },
+ {
+  "de": "Im Anschluss schreiben wir die Texte für deine Website. Von dir brauchen wir lediglich Feedback. <span class=\"wd-step-time\">Dein Zeitaufwand: 15 min</span>",
+  "en": "Next, we write the copy for your website. All we need from you is feedback. <span class=\"wd-step-time\">Your time: 15 min</span>"
+ },
+ {
+  "de": "Dein Design",
+  "en": "Your design"
+ },
+ {
+  "de": "Sobald du mit dem Text glücklich bist, erstellen wir einen Look, der zu deiner Website passt, und integrieren ihn in die Seite. <span class=\"wd-step-time\">Dein Zeitaufwand: 15 min</span>",
+  "en": "As soon as you are happy with the copy, we create a look that suits your website and build it into the page. <span class=\"wd-step-time\">Your time: 15 min</span>"
+ },
+ {
+  "de": "Fertigstellung &amp; Launch",
+  "en": "Completion &amp; launch"
+ },
+ {
+  "de": "Deine Website geht live. Auf Wunsch kümmern wir uns auch nach dem Live-Gang um Pflege und weitere Anpassungen.",
+  "en": "Your website goes live. If you like, we also take care of maintenance and further changes after launch."
+ },
+ {
+  "de": "<a class=\"btn btn-primary btn-cta-blue\" href=\"anfrage\">Jetzt kostenlos anfragen</a>",
+  "en": "<a class=\"btn btn-primary btn-cta-blue\" href=\"anfrage\">Ask now for free</a>"
+ },
+ {
+  "de": "Häufige Fragen rund um Websites für Unternehmen",
+  "en": "Frequently asked questions about business websites"
+ },
+ {
+  "de": "Viele Unternehmen stellen ähnliche Fragen, wenn es um eine neue Website oder eine Überarbeitung geht. Hier finden Sie Antworten auf einige der häufigsten Fragen rund um Planung, Umsetzung und Ergebnisse.",
+  "en": "Many businesses ask similar questions when it comes to a new website or a redesign. Here you will find answers to some of the most common questions about planning, execution and results."
+ },
+ {
+  "de": "Wie lange dauert die Erstellung einer Website?",
+  "en": "How long does it take to build a website?"
+ },
+ {
+  "de": "Die Umsetzung einer neuen Website dauert in der Regel zwischen 2 und 6 Wochen, abhängig vom Umfang des Projekts und der Verfügbarkeit der Inhalte. Kleinere Websites können schneller umgesetzt werden, während größere Projekte mit mehreren Seiten oder speziellen Funktionen etwas mehr Zeit benötigen.",
+  "en": "Building a new website usually takes between 2 and 6 weeks, depending on the scope of the project and how quickly the content is available. Smaller websites can be done faster, while larger projects with several pages or special features need a little more time."
+ },
+ {
+  "de": "Muss ich Texte und Bilder selbst bereitstellen?",
+  "en": "Do I have to provide the copy and images myself?"
+ },
+ {
+  "de": "Nicht unbedingt. Viele Inhalte können gemeinsam entwickelt oder optimiert werden. Falls bereits Texte, Bilder oder Logos vorhanden sind, können diese natürlich verwendet werden. Wenn Inhalte fehlen, unterstützen wir dabei, klare und verständliche Inhalte für die Website zu entwickeln.",
+  "en": "Not necessarily. A lot of the content can be developed or improved together. If you already have copy, images or logos, we can of course use them. If content is missing, we help you create clear and easy-to-understand content for your website."
+ },
+ {
+  "de": "Wird meine Website auch auf Smartphones gut funktionieren?",
+  "en": "Will my website also work well on smartphones?"
+ },
+ {
+  "de": "Ja. Ein Großteil der Besucher kommt heute über Smartphones auf Websites. Deshalb werden alle Websites so aufgebaut, dass sie auf Mobilgeräten genauso gut funktionieren wie auf Desktop-Geräten.",
+  "en": "Yes. Most visitors now reach websites on their smartphones. That is why every website is built to work just as well on mobile devices as on desktop."
+ },
+ {
+  "de": "Kann meine Website auch bei Google besser gefunden werden?",
+  "en": "Can my website also be found more easily on Google?"
+ },
+ {
+  "de": "Eine klare Seitenstruktur, schnelle Ladezeiten und verständliche Inhalte helfen Suchmaschinen dabei, Websites besser zu verstehen. Deshalb achten wir auch darauf, dass technische und inhaltliche Grundlagen für eine bessere Sichtbarkeit vorhanden sind.",
+  "en": "A clear page structure, fast loading times and understandable content help search engines understand websites better. That is why we also make sure the technical and content foundations for better visibility are in place."
+ },
+ {
+  "de": "Kann ich meine Website später selbst bearbeiten?",
+  "en": "Can I edit my website myself later?"
+ },
+ {
+  "de": "Ja. Die meisten Websites werden mit einem System aufgebaut, das es ermöglicht, Inhalte später selbst zu aktualisieren oder zu erweitern. So bleiben Sie flexibel und können Änderungen jederzeit vornehmen.",
+  "en": "Yes. Most websites are built with a system that lets you update or extend the content yourself later on. So you stay flexible and can make changes at any time."
+ },
+ {
+  "de": "Für welche Unternehmen lohnt sich eine professionelle Website?",
+  "en": "Which businesses benefit from a professional website?"
+ },
+ {
+  "de": "Eine professionelle Website ist für fast jedes Unternehmen wichtig, besonders für lokale Dienstleister. Viele Kunden informieren sich zuerst online, bevor sie Kontakt aufnehmen oder eine Entscheidung treffen.",
+  "en": "A professional website matters for almost every business, especially for local service providers. Many customers research online first before they get in touch or make a decision."
+ },
+ {
+  "de": "Websites für Unternehmen mit Fokus auf Sichtbarkeit, Struktur und Anfragen.",
+  "en": "Websites for businesses with a focus on visibility, structure and inquiries."
+ },
+ {
+  "de": "<a href=\"leistungen\">Leistungen</a>",
+  "en": "∅"
+ },
+ {
+  "de": "<a href=\"standorte\">Standorte</a>",
+  "en": "∅"
+ },
+ {
+  "de": "✕",
+  "en": "✕"
+ },
+ {
+  "de": "Cookies &amp; Statistik",
+  "en": "Cookies &amp; statistics"
+ },
+ {
+  "de": "Diese Website nutzt notwendige Cookies und optional Google Analytics. Mehr dazu steht in der <a href=\"datenschutz\">Datenschutzerklärung</a>.",
+  "en": "This website uses necessary cookies and, optionally, Google Analytics. You can find more details in our <a href=\"datenschutz\">privacy policy</a>."
+ },
+ {
+  "de": "Nur notwendige",
+  "en": "Necessary only"
+ },
+ {
+  "de": "Alle akzeptieren",
+  "en": "Accept all"
+ },
+ {
+  "de": "Webdesign Bielefeld | Websites für mehr Anfragen | ImpressRank",
+  "en": "Web Design for Businesses | Websites That Bring More Leads | ImpressRank"
+ },
+ {
+  "de": "Webdesign in Bielefeld für Unternehmen, die online professioneller wirken, bei Google klarer verstanden werden und mehr qualifizierte Anfragen gewinnen möchten.",
+  "en": "Web design for businesses that want to look more professional online, be understood better by Google and win more qualified inquiries."
+ },
+ {
+  "de": "Restaurant Website nachher Video",
+  "en": "Restaurant website after, video"
+ },
+ {
+  "de": "Restaurant Website vorher",
+  "en": "Restaurant website before"
+ },
+ {
+  "de": "Restaurant Vorher-Nachher Vergleich",
+  "en": "Restaurant before and after comparison"
+ },
+ {
+  "de": "Liftpictures Website auf einem Tablet",
+  "en": "Liftpictures website on a tablet"
+ },
+ {
+  "de": "Aloha Beach Club Website",
+  "en": "Aloha Beach Club website"
+ },
+ {
+  "de": "Pirates Adventure Website",
+  "en": "Pirates Adventure website"
+ },
+ {
+  "de": "Schließen",
+  "en": "Close"
+ },
+ {
+  "de": "Gütersloh",
+  "en": "Gütersloh"
+ },
+ {
+  "de": "Detmold",
+  "en": "Detmold"
+ },
+ {
+  "de": "Leopoldshöhe",
+  "en": "Leopoldshöhe"
+ },
+ {
+  "de": "Oerlinghausen",
+  "en": "Oerlinghausen"
+ },
+ {
+  "de": "Verl",
+  "en": "Verl"
+ },
+ {
+  "de": "Lage",
+  "en": "Lage"
+ },
+ {
+  "de": "Schloß Holte-Stukenbrock",
+  "en": "Schloß Holte-Stukenbrock"
+ },
+ {
+  "de": "Webdesign Bielefeld",
+  "en": "Web design"
+ },
+ {
+  "de": "Website Relaunch",
+  "en": "Website relaunch"
+ },
+ {
+  "de": "Conversion-orientierte Unternehmenswebsite",
+  "en": "Conversion-focused business website"
+ },
+ {
+  "de": "Beste lokale SEO-Agentur für Bielefeld, Bad Salzuflen &amp; OWL",
+  "en": "Local SEO agency for businesses that want to be found"
+ },
+ {
+  "de": "Ist dein Unternehmen<br/> <span class=\"hero-highlight\">unsichtbar in Google?</span>",
+  "en": "Is your business<br/> <span class=\"hero-highlight\">invisible on Google?</span>"
+ },
+ {
+  "de": "<a class=\"btn btn-primary btn-cta-blue\" href=\"#prozess\">Jetzt starten</a>",
+  "en": "<a class=\"btn btn-primary btn-cta-blue\" href=\"#prozess\">Get started now</a>"
+ },
+ {
+  "de": "<a class=\"btn btn-primary btn-cta-blue\" href=\"3-tipps\">3 Tipps erhalten</a>",
+  "en": "<a class=\"btn btn-primary btn-cta-blue\" href=\"3-tipps\">Get 3 tips</a>"
+ },
+ {
+  "de": "In den <span class=\"seo-offer-accent\">Top 3</span> von Google in <span class=\"seo-offer-accent\">90 Tagen</span>",
+  "en": "In Google's <span class=\"seo-offer-accent\">top 3</span> in <span class=\"seo-offer-accent\">90 days</span>"
+ },
+ {
+  "de": "Oder du bekommst dein <span class=\"seo-offer-accent\">Geld zurück.</span>",
+  "en": "Or you get your <span class=\"seo-offer-accent\">money back.</span>"
+ },
+ {
+  "de": "Werde sichtbar für Kunden in Bielefeld, Bad Salzuflen und OWL.",
+  "en": "Become visible to customers in your area."
+ },
+ {
+  "de": "Kostenloses Erstgespräch sichern",
+  "en": "Book your free intro call"
+ },
+ {
+  "de": "Angebote ansehen",
+  "en": "View packages"
+ },
+ {
+  "de": "Der Vorteil",
+  "en": "The advantage"
+ },
+ {
+  "de": "Aber - lohnt sich das wirklich?",
+  "en": "But is it really worth it?"
+ },
+ {
+  "de": "Sichtbarkeit",
+  "en": "Visibility"
+ },
+ {
+  "de": "75 % aller Klicks gehen an die Top-3-Ergebnisse. Wer dort nicht auftaucht, ist für potenzielle Kunden schlicht unsichtbar.",
+  "en": "75% of all clicks go to the top 3 results. If you don't show up there, you are simply invisible to potential customers."
+ },
+ {
+  "de": "Keine laufenden Kosten",
+  "en": "No ongoing costs"
+ },
+ {
+  "de": "Kein Pay-per-Click, keine monatlichen Werbebudgets wie bei Google Ads oder Meta Ads. Organische Sichtbarkeit zahlt sich dauerhaft aus.",
+  "en": "No pay per click, no monthly ad budgets like with Google Ads or Meta Ads. Organic visibility pays off for the long term."
+ },
+ {
+  "de": "Langfristige Strategie",
+  "en": "Long-term strategy"
+ },
+ {
+  "de": "Wer einmal in den Top 3 ist, bleibt dort meist jahrelang - ohne zusätzliche monatliche Kosten.",
+  "en": "Once you are in the top 3, you usually stay there for years, without extra monthly costs."
+ },
+ {
+  "de": "⟦1⟧ Vorher / Nachher",
+  "en": "⟦1⟧ Before / After"
+ },
+ {
+  "de": "Der <em>Unterschied</em>",
+  "en": "The <em>difference</em>"
+ },
+ {
+  "de": "Dein Unternehmen",
+  "en": "Your business"
+ },
+ {
+  "de": "Deine Straße 123, 123456 Bielefeld",
+  "en": "Your Street 123, 12345 Your City"
+ },
+ {
+  "de": "Durchschnittliche Position",
+  "en": "Average position"
+ },
+ {
+  "de": "Marktanteil",
+  "en": "Market share"
+ },
+ {
+  "de": "Klicks pro Monat",
+  "en": "Clicks per month"
+ },
+ {
+  "de": "Kunden pro Monat",
+  "en": "Customers per month"
+ },
+ {
+  "de": "Fallstudie",
+  "en": "Case study"
+ },
+ {
+  "de": "Unser Kunde Liftpictures wird sogar von ChatGPT empfohlen.",
+  "en": "Our client Liftpictures is even recommended by ChatGPT."
+ },
+ {
+  "de": "Suchmaschinenoptimierung, branchenweit auf Platz 1",
+  "en": "Search engine optimization, number 1 across the industry"
+ },
+ {
+  "de": "Mit unserer Suchmaschinenoptimierung ist Liftpictures in der Branche auf Platz 1 gelandet – und hat seitdem <strong>7× mehr Anfragen</strong>.",
+  "en": "With our search engine optimization, Liftpictures reached number 1 in its industry and has received <strong>7× more inquiries</strong> ever since."
+ },
+ {
+  "de": "Im Video siehst du live, wie das aussieht.",
+  "en": "Watch the video to see what that looks like live."
+ },
+ {
+  "de": "Jetzt starten",
+  "en": "Get started now"
+ },
+ {
+  "de": "Warum du aktuell jeden Tag Kunden an deine Konkurrenz verlierst",
+  "en": "Why you are losing customers to your competitors every day"
+ },
+ {
+  "de": "Wer nach einem Betrieb in der Nähe sucht, sieht bei Google zuerst nur die Top 3. Steht dein Geschäft erst hinter „Weitere Geschäfte“, ist der Kunde meist schon bei der Konkurrenz.",
+  "en": "When people search for a business nearby, Google first shows them only the top 3. If your business only appears under “More places”, the customer has usually already gone to a competitor."
+ },
+ {
+  "de": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>Die ersten drei Betriebe in der Karte bekommen die Anrufe und Anfragen",
+  "en": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>The first three businesses on the map get the calls and inquiries"
+ },
+ {
+  "de": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>Steht dein Konkurrent dort und du nicht, geht jede Anfrage an ihn",
+  "en": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>If your competitor is there and you are not, every inquiry goes to them"
+ },
+ {
+  "de": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>Mit lokalem SEO bringe ich dich in die Top 3 – dorthin, wo Kunden zuerst schauen",
+  "en": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>With local SEO I get you into the top 3, right where customers look first"
+ },
+ {
+  "de": "Google möchte seinen Nutzern die bestmöglichen Suchergebnisse liefern.",
+  "en": "Google wants to give its users the best possible search results."
+ },
+ {
+  "de": "Stell dir vor, du gehst auf Google, suchst nach einer konkreten Sache und bekommst nur irrelevanten Content. Passiert das öfter, würdest du irgendwann zu einer anderen Suchmaschine wechseln?",
+  "en": "Imagine you go to Google, search for something specific and only get irrelevant content. If that happened often, wouldn't you switch to another search engine at some point?"
+ },
+ {
+  "de": "Deshalb muss Google einschätzen, was für deine Suche relevant ist.",
+  "en": "That is why Google has to judge what is relevant to your search."
+ },
+ {
+  "de": "Um die besten Seiten auszuwählen und herauszufinden, wie relevant deine Website ist, schaut sich Google mehr als 200 verschiedene Faktoren an. Wenn du nicht dafür optimiert bist, landest du wahrscheinlich nicht einmal auf Seite 1.",
+  "en": "To pick the best pages and work out how relevant your website is, Google looks at more than 200 different factors. If you are not optimized for them, you probably won't even make it onto page 1."
+ },
+ {
+  "de": "Die gute Nachricht",
+  "en": "The good news"
+ },
+ {
+  "de": "Das kann man ändern.",
+  "en": "You can change that."
+ },
+ {
+  "de": "<strong class=\"gn-accent\">200 Faktoren.</strong> Wir haben dir drei Tipps zusammengestellt, wie du noch heute höher ranken kannst.",
+  "en": "<strong class=\"gn-accent\">200 factors.</strong> We have put together three tips on how you can rank higher starting today."
+ },
+ {
+  "de": "3 Tipps erhalten",
+  "en": "Get 3 tips"
+ },
+ {
+  "de": "Oder gleich vom Profi",
+  "en": "Or leave it to the pros"
+ },
+ {
+  "de": "Sollen wir das komplett übernehmen?",
+  "en": "Should we take care of all of it?"
+ },
+ {
+  "de": "Buche dir ein kostenloses Erstgespräch. Wir bringen dich in die Top 3.",
+  "en": "Book a free intro call. We will get you into the top 3."
+ },
+ {
+  "de": "Kostenloses Erstgespräch sichern <span aria-hidden=\"true\">→</span>",
+  "en": "Book your free intro call <span aria-hidden=\"true\">→</span>"
+ },
+ {
+  "de": "Wir bringen dich in die Top 3",
+  "en": "We get you into the top 3"
+ },
+ {
+  "de": "Wähle dein Paket.",
+  "en": "Choose your package."
+ },
+ {
+  "de": "<strong>Neu:</strong> Jetzt auch von ChatGPT empfohlen",
+  "en": "<strong>New:</strong> now also recommended by ChatGPT"
+ },
+ {
+  "de": "Starter · 3 Monate",
+  "en": "Starter · 3 months"
+ },
+ {
+  "de": "pro Monat",
+  "en": "per month"
+ },
+ {
+  "de": "für 3 Monate · gesamt 1.191 €",
+  "en": "for 3 months · 1,191 € in total"
+ },
+ {
+  "de": "Flexibel: Du zahlst Monat für Monat.",
+  "en": "Flexible: you pay month by month."
+ },
+ {
+  "de": "<strong>Optimiert für ein Keyword</strong> in deiner Umgebung",
+  "en": "<strong>Optimized for one keyword</strong> in your area"
+ },
+ {
+  "de": "Content-Strategie, technische Optimierung deiner Website und Link-Aufbau",
+  "en": "Content strategy, technical optimization of your website and link building"
+ },
+ {
+  "de": "<strong>Optimiert für ChatGPT</strong> – werde jetzt auch dort empfohlen",
+  "en": "<strong>Optimized for ChatGPT</strong>: get recommended there too"
+ },
+ {
+  "de": "<strong>Garantie:</strong> Wenn du nach 90 Tagen nicht in den Top 3 bist, bekommst du dein Geld zurück.",
+  "en": "<strong>Guarantee:</strong> if you are not in the top 3 after 90 days, you get your money back."
+ },
+ {
+  "de": "Am beliebtesten",
+  "en": "Most popular"
+ },
+ {
+  "de": "3 Monate im Voraus",
+  "en": "3 months in advance"
+ },
+ {
+  "de": "einmalig",
+  "en": "one-time"
+ },
+ {
+  "de": "entspricht ca. 366 € pro Monat",
+  "en": "about 366 € per month"
+ },
+ {
+  "de": "Du sparst 92 €",
+  "en": "You save 92 €"
+ },
+ {
+  "de": "Advanced · 12 Monate",
+  "en": "Advanced · 12 months"
+ },
+ {
+  "de": "entspricht ca. 333 € pro Monat",
+  "en": "about 333 € per month"
+ },
+ {
+  "de": "Du sparst 764 € gegenüber 12 × 397 €",
+  "en": "You save 764 € compared to 12 × 397 €"
+ },
+ {
+  "de": "3 Tipps um bei Google <span class=\"lc-tips-title-italic\">höher zu ranken</span>",
+  "en": "3 tips to <span class=\"lc-tips-title-italic\">rank higher</span> on Google"
+ },
+ {
+  "de": "Erhalten Sie ein kostenloses Video mit den ersten drei Schritten, die wir bei jedem lokalen Unternehmen umsetzen, um es in den Top 3 zu platzieren.",
+  "en": "Get a free video with the first three steps we take with every local business to place it in the top 3."
+ },
+ {
+  "de": "Kein technisches Know-how erforderlich.",
+  "en": "No technical know-how required."
+ },
+ {
+  "de": "3 KOSTENLOSE Tipps erhalten",
+  "en": "Get 3 FREE tips"
+ },
+ {
+  "de": "So funktioniert es",
+  "en": "How it works"
+ },
+ {
+  "de": "Ganz einfach.",
+  "en": "Simple as that."
+ },
+ {
+  "de": "Wir analysieren deine aktuelle Sichtbarkeit bei Google und zeigen dir, wo Potenzial liegt.",
+  "en": "We analyze your current visibility on Google and show you where the potential is."
+ },
+ {
+  "de": "Wir erklären dir Schritt für Schritt, wie wir sicheren Zugang zu deinem Google-Profil erhalten – einfach und transparent.",
+  "en": "We explain step by step how we get secure access to your Google profile. Simple and transparent."
+ },
+ {
+  "de": "Wir optimieren dein Profil vollständig – damit du nicht nur sichtbar wirst, sondern Anfragen bekommst.",
+  "en": "We fully optimize your profile, so you don't just become visible but actually get inquiries."
+ },
+ {
+  "de": "Wir tracken relevante Daten, sehen was wirklich funktioniert – und machen davon mehr.",
+  "en": "We track the data that matters, see what really works and do more of it."
+ },
+ {
+  "de": "Kurze Impulse rund um Sichtbarkeit bei Google und mehr Neukunden.",
+  "en": "Short ideas on Google visibility and winning more new customers."
+ },
+ {
+  "de": "Wozu eigentlich bei Google ganz oben auftauchen?",
+  "en": "Why show up at the top of Google at all?"
+ },
+ {
+  "de": "FAQs",
+  "en": "FAQs"
+ },
+ {
+  "de": "Was ist der Unterschied zwischen SEO und Google Ads?",
+  "en": "What is the difference between SEO and Google Ads?"
+ },
+ {
+  "de": "Bei Google Ads kaufst du den ersten Platz bei Google – das bedeutet laufende Kosten und Bezahlung pro Klick. SEO dauert etwas länger (ca. 90 Tage), ist danach aber dauerhaft kostenlos und liefert meist deutlich bessere Ergebnisse. Die besten Resultate entstehen aus einer Kombination beider Ansätze – allerdings sollte die SEO-Grundlage bereits stehen, bevor du mit Google Ads oder ähnlichem startest.",
+  "en": "With Google Ads you buy the top spot on Google, which means ongoing costs and paying per click. SEO takes a little longer (about 90 days), but after that it is permanently free and usually delivers much better results. The best results come from combining both. However, your SEO foundation should be in place before you start with Google Ads or similar."
+ },
+ {
+  "de": "Mit welchen Unternehmen arbeitet ihr?",
+  "en": "Which businesses do you work with?"
+ },
+ {
+  "de": "Wir arbeiten hauptsächlich mit lokalen Dienstleistern und Handwerksbetrieben in Bielefeld und OWL – Unternehmen, die über Google Maps gefunden werden wollen und konkrete Anfragen statt nur Klicks brauchen.",
+  "en": "We mainly work with local service providers and trades businesses: companies that want to be found on Google Maps and need real inquiries, not just clicks."
+ },
+ {
+  "de": "Wie viel Zeit muss ich selbst investieren?",
+  "en": "How much time do I need to invest myself?"
+ },
+ {
+  "de": "Sehr wenig. Nach dem Onboarding übernehmen wir den Großteil. Du musst lediglich einmalig Zugang zu deinem Google-Profil bereitstellen – den Rest erledigen wir.",
+  "en": "Very little. After onboarding we take care of most of it. You only need to give us access to your Google profile once. We handle the rest."
+ },
+ {
+  "de": "Welche Vertragslaufzeiten gibt es?",
+  "en": "What contract terms are there?"
+ },
+ {
+  "de": "Wir arbeiten transparent und ohne versteckte Klauseln. Die Konditionen besprechen wir individuell im ersten Gespräch – abgestimmt auf dein Ziel und deinen Markt.",
+  "en": "We work transparently and without hidden clauses. We discuss the terms individually in our first call, based on your goal and your market."
+ },
+ {
+  "de": "Wie können wir starten?",
+  "en": "How can we get started?"
+ },
+ {
+  "de": "Einfach das Kontaktformular ausfüllen oder uns direkt anschreiben. Wir melden uns innerhalb von 24 Stunden und besprechen den nächsten Schritt.",
+  "en": "Simply fill in the contact form or message us directly. We will get back to you within 24 hours and discuss the next step."
+ },
+ {
+  "de": "<a href=\"seo\">SEO</a>",
+  "en": "<a href=\"seo\">SEO</a>"
+ },
+ {
+  "de": "<a href=\"anzeigen\">Google &amp; Meta Ads</a>",
+  "en": "<a href=\"anzeigen\">Google &amp; Meta Ads</a>"
+ },
+ {
+  "de": "<a href=\"schausteller-websites\">Schausteller Marketing</a>",
+  "en": "∅"
+ },
+ {
+  "de": "Lokales SEO für Bielefeld & OWL | Sichtbarer werden bei Google | ImpressRank",
+  "en": "Local SEO | Get More Visible on Google | ImpressRank"
+ },
+ {
+  "de": "Lokales SEO für Unternehmen in Bielefeld, Bad Salzuflen und OWL. Für bessere Google-Sichtbarkeit, stärkere lokale Signale und mehr qualifizierte Anfragen.",
+  "en": "Local SEO for businesses that want better Google visibility, stronger local signals and more qualified inquiries. Top 3 in 90 days or your money back."
+ },
+ {
+  "de": "Lokales SEO für Bielefeld & OWL | Sichtbarer werden bei Google",
+  "en": "Local SEO | Get More Visible on Google"
+ },
+ {
+  "de": "Handy mit Google-Suche vor dem Hermannsdenkmal: Dominiere den Suchmaschinen-Dschungel in OWL",
+  "en": "Phone with a Google search: master the search engine jungle"
+ },
+ {
+  "de": "Vorher und Nachher umschalten",
+  "en": "Toggle before and after"
+ },
+ {
+  "de": "Google Ranking vor SEO-Optimierung - kaum sichtbar",
+  "en": "Google ranking before SEO optimization: barely visible"
+ },
+ {
+  "de": "Google Ranking nach SEO-Optimierung - überall Position 1",
+  "en": "Google ranking after SEO optimization: position 1 everywhere"
+ },
+ {
+  "de": "Liftpictures: So gewinnt Liftpictures neue Kunden",
+  "en": "Liftpictures: how Liftpictures wins new customers"
+ },
+ {
+  "de": "Google-Suche: die Karte zeigt vier Unternehmen aus der Region, der Pfeil weist auf Weitere Geschäfte",
+  "en": "Google search: the map shows four local businesses, the arrow points to More places"
+ },
+ {
+  "de": "Handy mit Google-Suche: Ergebnisse werden nach Relevanz sortiert",
+  "en": "Phone with a Google search: results are sorted by relevance"
+ },
+ {
+  "de": "Lokales SEO",
+  "en": "Local SEO"
+ },
+ {
+  "de": "Local SEO",
+  "en": "Local SEO"
+ },
+ {
+  "de": "Google-Sichtbarkeit",
+  "en": "Google visibility"
+ },
+ {
+  "de": "Beste Google-Ads- &amp; Meta-Ads-Agentur für Bielefeld &amp; OWL",
+  "en": "Google Ads &amp; Meta Ads agency for local businesses"
+ },
+ {
+  "de": "Gewinne <span class=\"hero-highlight\">planbar Neukunden</span>,<br/>durch Social Media Kampagnen.",
+  "en": "Win <span class=\"hero-highlight\">new customers predictably</span>,<br/>with social media campaigns."
+ },
+ {
+  "de": "Wir schalten Werbung, du gewinnst mehr Neukunden.",
+  "en": "We run the ads, you win more new customers."
+ },
+ {
+  "de": "<a class=\"btn btn-primary btn-cta-blue\" href=\"#kontakt\">Jetzt starten</a>",
+  "en": "<a class=\"btn btn-primary btn-cta-blue\" href=\"#kontakt\">Get started now</a>"
+ },
+ {
+  "de": "„Wir brauchen was mit Social Media.“",
+  "en": "“We need something with social media.”"
+ },
+ {
+  "de": "Kommt dir das bekannt vor?",
+  "en": "Sound familiar?"
+ },
+ {
+  "de": "Die Tochter eines Freundes empfiehlt ein paar lustige TikToks. Oder eine witzige Grafik, schnell mit ChatGPT gebaut. Das muss reichen für marketing – Coca-Cola macht schließlich auch nichts anderes.",
+  "en": "A friend's daughter recommends a few funny TikToks. Or a witty graphic, quickly made with ChatGPT. That has to be enough for marketing. After all, Coca-Cola does nothing else."
+ },
+ {
+  "de": "Nur: Coca-Cola ist seit Jahrzehnten bekannt und gibt Millionen für Markenaufbau aus. Du bist ein deutlich kleineres Unternehmen – und brauchst kein virales Video, sondern <strong>planbare Anfragen von Kunden, die jetzt kaufen wollen.</strong>",
+  "en": "The thing is: Coca-Cola has been famous for decades and spends millions on brand building. You are a much smaller business, and you don't need a viral video but <strong>predictable inquiries from customers who want to buy now.</strong>"
+ },
+ {
+  "de": "Und was machen wir?",
+  "en": "So what do we do?"
+ },
+ {
+  "de": "Aber was macht ihr anders?",
+  "en": "But what do you do differently?"
+ },
+ {
+  "de": "Wir schalten Anzeigen auf Google und Meta als Ads. Im Prinzip zahlen wir diesen Plattformen dafür, deine Beiträge genau den richtigen Personen zu zeigen.",
+  "en": "We run ads on Google and Meta. Basically, we pay these platforms to show your posts to exactly the right people."
+ },
+ {
+  "de": "Wir übernehmen deine komplette Social-Media-Werbung.",
+  "en": "We take over your entire social media advertising."
+ },
+ {
+  "de": "Kurz gesagt: Von der Idee bis zur laufenden Kampagne übernehmen wir alles und sorgen dafür, dass du regelmäßig neue Kunden gewinnst.",
+  "en": "In short: from the idea to the running campaign, we handle everything and make sure you win new customers regularly."
+ },
+ {
+  "de": "Das Prinzip dahinter",
+  "en": "The principle behind it"
+ },
+ {
+  "de": "So funktioniert Neukundengewinnung am Fließband",
+  "en": "How to win new customers on autopilot"
+ },
+ {
+  "de": "Stell dir das wie einen Trichter vor:",
+  "en": "Think of it like a funnel:"
+ },
+ {
+  "de": "Du erreichst <strong>1.000 Menschen</strong> mit einer Anzeige.",
+  "en": "You reach <strong>1,000 people</strong> with one ad."
+ },
+ {
+  "de": "Natürlich werden nicht alle sofort Kunde. Aber ungefähr <strong>1–3 % klicken</strong> und landen auf deiner Website, also rund 30 Personen.",
+  "en": "Of course, not all of them become customers right away. But roughly <strong>1 to 3% click</strong> and land on your website, so about 30 people."
+ },
+ {
+  "de": "Von diesen 30 melden sich vielleicht <strong>3 zu einem Gespräch</strong>, weil sie dein Angebot spannend finden.",
+  "en": "Of those 30, maybe <strong>3 book a call</strong> because they find your offer interesting."
+ },
+ {
+  "de": "Und am Ende wird daraus realistisch <strong>1 neuer Kunde.</strong>",
+  "en": "And in the end, that realistically turns into <strong>1 new customer.</strong>"
+ },
+ {
+  "de": "Einen Teil davon investierst du wieder in Werbung, sodass dich noch mehr Menschen sehen und bei dir anfragen.",
+  "en": "You reinvest part of it in advertising, so even more people see you and get in touch."
+ },
+ {
+  "de": "Du gewinnst Kunden und erzeugst damit Umsatz.",
+  "en": "You win customers and generate revenue."
+ },
+ {
+  "de": "<strong>Und dieser Prozess wird dann immer wieder wiederholt.</strong>",
+  "en": "<strong>And then this process repeats again and again.</strong>"
+ },
+ {
+  "de": "Der größte Vorteil daran: Dieser Prozess ist <em>planbar</em> und <em>skalierbar.</em>",
+  "en": "The biggest advantage: this process is <em>predictable</em> and <em>scalable.</em>"
+ },
+ {
+  "de": "Das technische Setup sieht aus wie ein <span style=\"color:var(--primary)\">Cockpit vom Flugzeug.</span> Und wenn du es falsch machst, wird es teuer.",
+  "en": "The technical setup looks like an <span style=\"color:var(--primary)\">airplane cockpit.</span> And if you get it wrong, it gets expensive."
+ },
+ {
+  "de": "Schonmal versucht, das selbst zu machen? Die Software sieht aus, als hätte Google vor 10 Jahren das Designer-Team entlassen.",
+  "en": "Ever tried doing it yourself? The software looks like Google fired its design team ten years ago."
+ },
+ {
+  "de": "Doch deswegen gibt es uns: Wir übernehmen deine Anzeigen auf Google und Meta.",
+  "en": "That is why we exist: we take care of your ads on Google and Meta."
+ },
+ {
+  "de": "Wenn es teuer wird",
+  "en": "When it gets expensive"
+ },
+ {
+  "de": "5 Gründe, warum die meisten Kampagnen nur Geld kosten und keine Kunden bringen",
+  "en": "5 reasons why most campaigns only cost money and bring no customers"
+ },
+ {
+  "de": "Langweilige Anzeigen",
+  "en": "Boring ads"
+ },
+ {
+  "de": "Deine Anzeige ist so langweilig, dass weitergescrollt wird – du sprichst deine Zielgruppe nicht richtig an.",
+  "en": "Your ad is so boring that people keep scrolling: you are not speaking to your target audience the right way."
+ },
+ {
+  "de": "Kein Narrativ",
+  "en": "No story"
+ },
+ {
+  "de": "Du schaffst es nicht, ein Narrativ um dein Angebot zu erzählen, das deine Kunden wirklich verstehen.",
+  "en": "You don't manage to tell a story around your offer that your customers really understand."
+ },
+ {
+  "de": "Falsches technisches Setup",
+  "en": "Wrong technical setup"
+ },
+ {
+  "de": "Google und Meta zeigen deine Anzeige den falschen Menschen, weil das Setup von Anfang an falsch war.",
+  "en": "Google and Meta show your ad to the wrong people because the setup was wrong from the start."
+ },
+ {
+  "de": "Kein Conversion-Tracking",
+  "en": "No conversion tracking"
+ },
+ {
+  "de": "Ohne sauberes Tracking weißt du nicht, welche Anzeige Anfragen bringt – und zahlst blind weiter.",
+  "en": "Without clean tracking you don't know which ad brings inquiries, and you keep paying blindly."
+ },
+ {
+  "de": "Keine Optimierung",
+  "en": "No optimization"
+ },
+ {
+  "de": "Dein Budget verpufft, weil niemand kontinuierlich analysiert, was funktioniert – und was nicht.",
+  "en": "Your budget goes up in smoke because nobody continuously analyzes what works and what doesn't."
+ },
+ {
+  "de": "So läuft es ab",
+  "en": "How it works"
+ },
+ {
+  "de": "Von null auf erste Anfragen in wenigen Tagen.",
+  "en": "From zero to first inquiries in a few days."
+ },
+ {
+  "de": "Analyse &amp; Strategie",
+  "en": "Analysis &amp; strategy"
+ },
+ {
+  "de": "Wir schauen uns deinen Markt, deine Konkurrenz und dein Angebot an – und entscheiden, welcher Kanal am meisten bringt.",
+  "en": "We look at your market, your competitors and your offer, and decide which channel brings the most."
+ },
+ {
+  "de": "Setup &amp; Tracking",
+  "en": "Setup &amp; tracking"
+ },
+ {
+  "de": "Kampagnenstruktur, Zielgruppen, Anzeigentexte und Conversion-Tracking werden sauber eingerichtet.",
+  "en": "Campaign structure, target audiences, ad copy and conversion tracking are set up properly."
+ },
+ {
+  "de": "Launch",
+  "en": "Launch"
+ },
+ {
+  "de": "Die Kampagne geht live. In den ersten Wochen sammeln wir Daten und optimieren aktiv.",
+  "en": "The campaign goes live. In the first weeks we collect data and optimize actively."
+ },
+ {
+  "de": "Skalierung",
+  "en": "Scaling"
+ },
+ {
+  "de": "Was funktioniert, wird ausgebaut. Du bekommst regelmäßige Berichte und weißt immer, wo dein Budget arbeitet.",
+  "en": "What works gets expanded. You get regular reports and always know where your budget is working."
+ },
+ {
+  "de": "Bereit für Anfragen, die schon morgen kommen?",
+  "en": "Ready for inquiries that arrive as soon as tomorrow?"
+ },
+ {
+  "de": "Wir schauen uns gemeinsam an, welcher Kanal für dein Unternehmen am meisten Sinn macht.",
+  "en": "Together we look at which channel makes the most sense for your business."
+ },
+ {
+  "de": "<a class=\"btn btn-primary btn-cta-blue\" href=\"anfrage\">Kostenloses Erstgespräch sichern</a>",
+  "en": "<a class=\"btn btn-primary btn-cta-blue\" href=\"anfrage\">Book your free intro call</a>"
+ },
+ {
+  "de": "Google Ads & Meta Ads für Bielefeld & OWL | ImpressRank",
+  "en": "Google Ads & Meta Ads for Local Businesses | ImpressRank"
+ },
+ {
+  "de": "Google Ads und Meta Ads für lokale Unternehmen in Bielefeld und OWL. Sofortige Sichtbarkeit, messbare Ergebnisse, kein verschwendetes Budget.",
+  "en": "Google Ads and Meta Ads for local businesses. Instant visibility, measurable results, no wasted budget."
+ },
+ {
+  "de": "Google Ads & Meta Ads | ImpressRank",
+  "en": "Google Ads & Meta Ads | ImpressRank"
+ },
+ {
+  "de": "Google Ads und Meta Ads für lokale Unternehmen in Bielefeld und OWL. Sofortige Sichtbarkeit, messbare Ergebnisse.",
+  "en": "Google Ads and Meta Ads for local businesses. Instant visibility, measurable results."
+ },
+ {
+  "de": "Google Ads und Meta Ads für lokale Unternehmen in Bielefeld und OWL.",
+  "en": "Google Ads and Meta Ads for local businesses."
+ },
+ {
+  "de": "Social Media Beitrag mit Likes, Views und Followern",
+  "en": "Social media post with likes, views and followers"
+ },
+ {
+  "de": "Google Ads und Meta Ads Logos",
+  "en": "Google Ads and Meta Ads logos"
+ },
+ {
+  "de": "Anzeigen produzieren, die auffallen und deine Zielgruppe begeistern",
+  "en": "Produce ads that stand out and excite your target audience"
+ },
+ {
+  "de": "Verkaufsstarke Werbetexte schreiben, die Klicks und Anfragen auslösen",
+  "en": "Write persuasive ad copy that drives clicks and inquiries"
+ },
+ {
+  "de": "Das technische Setup einrichten, Zielgruppen auswählen und Kampagnen sauber aufsetzen",
+  "en": "Set up the technical side, choose target audiences and build campaigns properly"
+ },
+ {
+  "de": "Deine Kampagnen laufend überwachen, Ergebnisse analysieren und optimieren",
+  "en": "Monitor your campaigns continuously, analyze results and optimize"
+ },
+ {
+  "de": "Trichter-Prinzip der Neukundengewinnung: von Reichweite über Website-Besucher und Gespräche bis zum neuen Kunden",
+  "en": "Funnel principle of winning new customers: from reach to website visitors and calls to a new customer"
+ },
+ {
+  "de": "Cockpit eines Flugzeugs als Sinnbild für das komplexe technische Setup von Google und Meta Ads",
+  "en": "Airplane cockpit as a symbol of the complex technical setup of Google and Meta Ads"
+ },
+ {
+  "de": "Beste Website-Referenzen aus Bielefeld &amp; OWL",
+  "en": "Website projects and references"
+ },
+ {
+  "de": "Websites, die mehr Anfragen bringen",
+  "en": "Websites that bring more inquiries"
+ },
+ {
+  "de": "Echte Projekte aus Bielefeld und OWL - was sich verändert hat und warum.",
+  "en": "Real projects: what changed and why."
+ },
+ {
+  "de": "Aloha Beachclub, Herford",
+  "en": "Aloha Beachclub, Herford"
+ },
+ {
+  "de": "Neu aufgebaut mit Fokus auf schnelle Orientierung, klare Darstellung von Menü, Standort und Reservierung.",
+  "en": "Rebuilt with a focus on quick orientation and a clear presentation of menu, location and reservations."
+ },
+ {
+  "de": "Liftpictures Fotosysteme, Bad Salzuflen",
+  "en": "Liftpictures Fotosysteme"
+ },
+ {
+  "de": "Neu strukturiert, inhaltlich geschärft und für internationale Zielgruppen aufgebaut. Mit Quiz-Funnel für qualifiziertere Anfragen.",
+  "en": "Restructured, sharpened in content and built for international audiences. With a quiz funnel for more qualified inquiries."
+ },
+ {
+  "de": "Mehr qualifizierte Anfragen",
+  "en": "More qualified inquiries"
+ },
+ {
+  "de": "Klarere Positionierung im Markt",
+  "en": "Clearer positioning in the market"
+ },
+ {
+  "de": "Internationale Sichtbarkeit verbessert",
+  "en": "Better international visibility"
+ },
+ {
+  "de": "Case Study · Liftpictures",
+  "en": "Case study · Liftpictures"
+ },
+ {
+  "de": "Wie Liftpictures international mehr Anfragen generiert",
+  "en": "How Liftpictures generates more inquiries internationally"
+ },
+ {
+  "de": "Liftpictures bietet Foto- und Videosysteme für Freizeitparks und Attraktionen weltweit. Die ursprüngliche Website war auf den deutschen Markt ausgerichtet und hatte keinen klaren Weg zur Lead-Generierung.",
+  "en": "Liftpictures provides photo and video systems for theme parks and attractions worldwide. The original website was aimed at the German market and had no clear path to lead generation."
+ },
+ {
+  "de": "1 · Neue Website für internationale Besucher",
+  "en": "1 · New website for international visitors"
+ },
+ {
+  "de": "Die Website wurde neu strukturiert, damit internationale Zielgruppen das Angebot schneller verstehen und einfacher Kontakt aufnehmen können.",
+  "en": "The website was restructured so international audiences understand the offer faster and can get in touch more easily."
+ },
+ {
+  "de": "2 · Lead-Funnel zur Lead-Generierung",
+  "en": "2 · Lead funnel for lead generation"
+ },
+ {
+  "de": "Ein kurzer Quiz-Funnel wurde integriert. Besucher beantworten einige Fragen und erhalten ein passendes PDF per E-Mail - auch ohne direkte Anfrage.",
+  "en": "A short quiz funnel was added. Visitors answer a few questions and receive a matching PDF by email, even without a direct inquiry."
+ },
+ {
+  "de": "Ergebnis",
+  "en": "Result"
+ },
+ {
+  "de": "Zusätzlicher Lead-Kanal über Quiz-Funnel",
+  "en": "Additional lead channel through the quiz funnel"
+ },
+ {
+  "de": "Strukturierter Weg von Besucher → Anfrage",
+  "en": "A structured path from visitor → inquiry"
+ },
+ {
+  "de": "Referenzen & Website Projekte in Bielefeld | ImpressRank",
+  "en": "References & Website Projects | ImpressRank"
+ },
+ {
+  "de": "Projektbeispiele für Webdesign, Positionierung und anfrageorientierte Websites für Unternehmen in Bielefeld und OWL.",
+  "en": "Project examples for web design, positioning and inquiry-focused websites for businesses."
+ },
+ {
+  "de": "Photo System Website nachher",
+  "en": "Photo system website after"
+ },
+ {
+  "de": "Photo System Website vorher",
+  "en": "Photo system website before"
+ },
+ {
+  "de": "Photo System Vorher-Nachher Vergleich",
+  "en": "Photo system before and after comparison"
+ },
+ {
+  "de": "Vorheriges Bild",
+  "en": "Previous image"
+ },
+ {
+  "de": "Liftpictures internationale Website",
+  "en": "Liftpictures international website"
+ },
+ {
+  "de": "Liftpictures Funnel Übersicht",
+  "en": "Liftpictures funnel overview"
+ },
+ {
+  "de": "Website Beispielansicht 1",
+  "en": "Website example view 1"
+ },
+ {
+  "de": "Website Beispielansicht 2",
+  "en": "Website example view 2"
+ },
+ {
+  "de": "Nächstes Bild",
+  "en": "Next image"
+ },
+ {
+  "de": "Bestes Marketingbüro in Bad Salzuflen &amp; Bielefeld anfragen",
+  "en": "Contact ImpressRank, your marketing agency"
+ },
+ {
+  "de": "Trete mit uns in Kontakt",
+  "en": "Get in touch with us"
+ },
+ {
+  "de": "Erzähl uns mehr von deinem Projekt.",
+  "en": "Tell us more about your project."
+ },
+ {
+  "de": "Bitte dieses Feld leer lassen",
+  "en": "Please leave this field empty"
+ },
+ {
+  "de": "Name",
+  "en": "Name"
+ },
+ {
+  "de": "Unternehmen",
+  "en": "Company"
+ },
+ {
+  "de": "E-Mail",
+  "en": "Email"
+ },
+ {
+  "de": "Website (falls vorhanden)",
+  "en": "Website (if you have one)"
+ },
+ {
+  "de": "Dein Projekt",
+  "en": "Your project"
+ },
+ {
+  "de": "Anfrage absenden",
+  "en": "Send inquiry"
+ },
+ {
+  "de": "Kontakt &amp; Standort",
+  "en": "Contact &amp; location"
+ },
+ {
+  "de": "Lehmkuhlstr. 18<br/>32108 Bad Salzuflen",
+  "en": "Lehmkuhlstr. 18<br/>32108 Bad Salzuflen, Germany"
+ },
+ {
+  "de": "kontakt@impress-rank.de",
+  "en": "kontakt@impress-rank.de"
+ },
+ {
+  "de": "⟦1⟧ Schreibe uns eine WhatsApp",
+  "en": "⟦1⟧ Message us on WhatsApp"
+ },
+ {
+  "de": "Website Analyse & Anfrage | Webdesign & SEO in Bielefeld",
+  "en": "Website Analysis & Inquiry | Web Design & SEO | ImpressRank"
+ },
+ {
+  "de": "Projekt anfragen und eine klare Ersteinschätzung für Website, SEO, Sichtbarkeit und mehr Anfragen in Bielefeld und OWL erhalten.",
+  "en": "Tell us about your project and get a clear first assessment for your website, SEO, visibility and more inquiries."
+ },
+ {
+  "de": "deinewebsite.de",
+  "en": "yourwebsite.com"
+ },
+ {
+  "de": "Beschreibe kurz, was du dir vorstellst…",
+  "en": "Briefly describe what you have in mind…"
+ },
+ {
+  "de": "Büro Bad Salzuflen",
+  "en": "Office in Bad Salzuflen"
+ },
+ {
+  "de": "<a href=\"webdesign\" tabindex=\"-1\">Websites, die mehr Anfragen bringen</a>",
+  "en": "<a href=\"webdesign\" tabindex=\"-1\">Websites that bring more leads</a>"
+ },
+ {
+  "de": "<a href=\"seo\" tabindex=\"-1\">An der Spitze von Google mit lokalem SEO</a>",
+  "en": "<a href=\"seo\" tabindex=\"-1\">Top of Google with local SEO</a>"
+ },
+ {
+  "de": "<a href=\"anzeigen\" tabindex=\"-1\">Social-Media-Werbung, die Neukunden bringt</a>",
+  "en": "<a href=\"anzeigen\" tabindex=\"-1\">Social media ads that win new customers</a>"
+ },
+ {
+  "de": "<a href=\"seo#preise\" tabindex=\"-1\">Top 3 in Google in 90 Tagen</a>",
+  "en": "<a href=\"seo#preise\" tabindex=\"-1\">Top 3 on Google in 90 days</a>"
+ },
+ {
+  "de": "<a href=\"seo#liftcs\" tabindex=\"-1\">Fallstudie</a>",
+  "en": "<a href=\"seo#liftcs\" tabindex=\"-1\">Case study</a>"
+ },
+ {
+  "de": "<a href=\"fachartikel\" tabindex=\"-1\">Blog</a>",
+  "en": "<a href=\"fachartikel\" tabindex=\"-1\">Blog</a>"
+ },
+ {
+  "de": "<a href=\"anfrage\" tabindex=\"-1\">Kontakt</a>",
+  "en": "<a href=\"anfrage\" tabindex=\"-1\">Contact</a>"
+ },
+ {
+  "de": "Dein nächster Schritt im Marketing",
+  "en": "Your next step in marketing"
+ },
+ {
+  "de": "Erhalte eine <span class=\"quiz-highlight\">kostenlose Videoanalyse</span>",
+  "en": "Get a <span class=\"quiz-highlight\">free video analysis</span>"
+ },
+ {
+  "de": "indem ich mir deinen <span class=\"quiz-highlight\">Online-Auftritt anschaue</span> und dir zeige, wo du aktuell potenzielle <span class=\"quiz-highlight\">Interessenten verlierst</span>, <span style=\"white-space: nowrap;\">+ <span class=\"quiz-highlight\">drei Tipps</span></span>, wie du das schnell <span class=\"quiz-highlight\">fixen</span> kannst.",
+  "en": "in which I look at your <span class=\"quiz-highlight\">online presence</span>, show you where you are currently <span class=\"quiz-highlight\">losing potential customers</span> <span style=\"white-space: nowrap;\">+ <span class=\"quiz-highlight\">three tips</span></span> on how to <span class=\"quiz-highlight\">fix</span> it quickly."
+ },
+ {
+  "de": "Vorname *",
+  "en": "First name *"
+ },
+ {
+  "de": "Nachname *",
+  "en": "Last name *"
+ },
+ {
+  "de": "E-Mail *",
+  "en": "Email *"
+ },
+ {
+  "de": "Firmenname *",
+  "en": "Company name *"
+ },
+ {
+  "de": "Social Media (falls vorhanden)",
+  "en": "Social media (if you have it)"
+ },
+ {
+  "de": "Telefonnummer",
+  "en": "Phone number"
+ },
+ {
+  "de": "Anmerkungen <span class=\"quiz-field-optional\">(nicht erforderlich)</span>",
+  "en": "Notes <span class=\"quiz-field-optional\">(optional)</span>"
+ },
+ {
+  "de": "⟦1⟧ <span>Ich stimme zu, weitere Kommunikation zu erhalten, z. B. einen Newsletter. Jederzeit abbestellbar. *</span>",
+  "en": "⟦1⟧ <span>I agree to receive further communication, such as a newsletter. You can unsubscribe at any time. *</span>"
+ },
+ {
+  "de": "⟦1⟧ <span>Ich stimme der <a href=\"datenschutz\" rel=\"noopener\" target=\"_blank\">Datenschutzerklärung</a> zu. *</span>",
+  "en": "⟦1⟧ <span>I agree to the <a href=\"datenschutz\" rel=\"noopener\" target=\"_blank\">privacy policy</a>. *</span>"
+ },
+ {
+  "de": "Kostenlose Videoanalyse erhalten",
+  "en": "Get your free video analysis"
+ },
+ {
+  "de": "© ImpressRank",
+  "en": "© ImpressRank"
+ },
+ {
+  "de": "Impressum",
+  "en": "Legal notice"
+ },
+ {
+  "de": "Datenschutz",
+  "en": "Privacy policy"
+ },
+ {
+  "de": "Diese Website nutzt notwendige Cookies und optional Google Analytics. Mehr dazu in der <a href=\"datenschutz\">Datenschutzerklärung</a>.",
+  "en": "This website uses necessary cookies and, optionally, Google Analytics. More details in our <a href=\"datenschutz\">privacy policy</a>."
+ },
+ {
+  "de": "Der nächste Schritt im Marketing | ImpressRank",
+  "en": "Your Next Step in Marketing | ImpressRank"
+ },
+ {
+  "de": "Finde in 2 Minuten heraus, welcher Schritt für dein Unternehmen am meisten Sinn macht – und erhalte eine kurze, kostenlose, persönliche Videoanalyse von mir.",
+  "en": "Find out in 2 minutes which step makes the most sense for your business, and get a short, free, personal video analysis from me."
+ },
+ {
+  "de": "<a class=\"active\" href=\"fachartikel\">Blog</a>",
+  "en": "<a class=\"active\" href=\"fachartikel\">Blog</a>"
+ },
+ {
+  "de": "Marketing-Wissen für Unternehmen",
+  "en": "Marketing know-how for businesses"
+ },
+ {
+  "de": "Klare Gedanken und praktische Tipps zu Google, Werbung und lokaler Sichtbarkeit – ohne unnötiges Fachchinesisch.",
+  "en": "Clear thoughts and practical tips on Google, advertising and local visibility, without unnecessary jargon."
+ },
+ {
+  "de": "24. August 2026",
+  "en": "August 24, 2026"
+ },
+ {
+  "de": "Warum Markenbildung ohne die richtige Zielgruppe verpufft – und was stattdessen zählt.",
+  "en": "Why branding fizzles out without the right target audience, and what counts instead."
+ },
+ {
+  "de": "Artikel lesen <span aria-hidden=\"true\">→</span>",
+  "en": "Read article <span aria-hidden=\"true\">→</span>"
+ },
+ {
+  "de": "4. August 2026",
+  "en": "August 4, 2026"
+ },
+ {
+  "de": "Networking, Networking, Networking",
+  "en": "Networking, networking, networking"
+ },
+ {
+  "de": "Warum Empfehlungen wertvoll sind, du deine Neukundengewinnung aber nicht aus der Hand geben solltest.",
+  "en": "Why referrals are valuable, but you shouldn't leave winning new customers to chance."
+ },
+ {
+  "de": "22. Juli 2026",
+  "en": "July 22, 2026"
+ },
+ {
+  "de": "Ein einfacher Weg, bei Google höher zu ranken",
+  "en": "A simple way to rank higher on Google"
+ },
+ {
+  "de": "Eine verständliche Methode für bessere lokale Sichtbarkeit – ohne technisches Vorwissen.",
+  "en": "An easy-to-follow method for better local visibility, no technical background needed."
+ },
+ {
+  "de": "21. Juni 2026",
+  "en": "June 21, 2026"
+ },
+ {
+  "de": "Die Mysterie-Box",
+  "en": "The mystery box"
+ },
+ {
+  "de": "Warum Google Ads am Anfang kompliziert wirken – und wie du trotzdem sinnvoll startest.",
+  "en": "Why Google Ads seem complicated at first, and how you can still get started the right way."
+ },
+ {
+  "de": "14. Juni 2026",
+  "en": "June 14, 2026"
+ },
+ {
+  "de": "Gewinne gegen besseres Marketing",
+  "en": "Win against better marketing"
+ },
+ {
+  "de": "Wie lokale Unternehmen durch konstante Sichtbarkeit mehr Kunden gewinnen können.",
+  "en": "How local businesses can win more customers through consistent visibility."
+ },
+ {
+  "de": "19. Mai 2026",
+  "en": "May 19, 2026"
+ },
+ {
+  "de": "Wann sich ein gutes Google-Ranking wirklich lohnt – und wann du andere Prioritäten setzen solltest.",
+  "en": "When a good Google ranking really pays off, and when you should set other priorities."
+ },
+ {
+  "de": "Du möchtest mehr Neukunden gewinnen?",
+  "en": "Want to win more new customers?"
+ },
+ {
+  "de": "Im kostenlosen Erstgespräch schauen wir gemeinsam, wo du stehst und was für dein Unternehmen sinnvoll ist.",
+  "en": "In a free intro call we look together at where you stand and what makes sense for your business."
+ },
+ {
+  "de": "Der Blog, der dir mehr Neukunden bringt | ImpressRank",
+  "en": "The Blog That Brings You More New Customers | ImpressRank"
+ },
+ {
+  "de": "Praktische Impulse zu lokaler Sichtbarkeit, Google, Werbung und Neukundengewinnung von ImpressRank.",
+  "en": "Practical ideas on local visibility, Google, advertising and winning new customers from ImpressRank."
+ },
+ {
+  "de": "John von ImpressRank erklärt Markenbildung",
+  "en": "John from ImpressRank explains branding"
+ },
+ {
+  "de": "Networking-Veranstaltung mit vielen Besuchern",
+  "en": "Networking event with many visitors"
+ },
+ {
+  "de": "John von ImpressRank erklärt lokale Google-Rankings",
+  "en": "John from ImpressRank explains local Google rankings"
+ },
+ {
+  "de": "Google Ads als komplizierte Mysterie-Box",
+  "en": "Google Ads as a complicated mystery box"
+ },
+ {
+  "de": "Lokale Sichtbarkeit schlägt besseres Marketing",
+  "en": "Local visibility beats better marketing"
+ },
+ {
+  "de": "Warum die ersten Google-Plätze für Unternehmen wichtig sind",
+  "en": "Why the top spots on Google matter for businesses"
+ },
+ {
+  "de": "Anmelden",
+  "en": "Sign up"
+ },
+ {
+  "de": "Ihr Profil analysieren lassen",
+  "en": "Get your profile analyzed"
+ },
+ {
+  "de": "Füllen Sie das Formular aus und wir nehmen eine personalisierte Analyse auf – mit den genauen Schritten, die Sie brauchen, um in Ihrer Region in den Top 3 zu ranken.",
+  "en": "Fill in the form and we will record a personalized analysis with the exact steps you need to rank in the top 3 in your area."
+ },
+ {
+  "de": "Keine Kosten, keine Verpflichtungen, kein nerviger Verkaufsdruck. Garantiert.",
+  "en": "No cost, no obligation, no annoying sales pressure. Guaranteed."
+ },
+ {
+  "de": "Vollständiger Name *",
+  "en": "Full name *"
+ },
+ {
+  "de": "Geschäftliche E-Mail *",
+  "en": "Business email *"
+ },
+ {
+  "de": "Vorwahl *",
+  "en": "Country code *"
+ },
+ {
+  "de": "Telefonnummer *",
+  "en": "Phone number *"
+ },
+ {
+  "de": "Website *",
+  "en": "Website *"
+ },
+ {
+  "de": "Unternehmensname *",
+  "en": "Company name *"
+ },
+ {
+  "de": "Ihre Google Maps URL *",
+  "en": "Your Google Maps URL *"
+ },
+ {
+  "de": "Bis wann möchten Sie dieses Problem lösen? *",
+  "en": "By when do you want to solve this problem? *"
+ },
+ {
+  "de": "⟦1⟧ <span>Heute</span>",
+  "en": "⟦1⟧ <span>Today</span>"
+ },
+ {
+  "de": "⟦1⟧ <span>Morgen</span>",
+  "en": "⟦1⟧ <span>Tomorrow</span>"
+ },
+ {
+  "de": "⟦1⟧ <span>In ein paar Wochen</span>",
+  "en": "⟦1⟧ <span>In a few weeks</span>"
+ },
+ {
+  "de": "Absenden <span aria-hidden=\"true\">↗</span>",
+  "en": "Submit <span aria-hidden=\"true\">↗</span>"
+ },
+ {
+  "de": "Fragen",
+  "en": "Questions"
+ },
+ {
+  "de": "Häufig gestellte <span class=\"lc-tips-title-italic\">Fragen</span>",
+  "en": "Frequently asked <span class=\"lc-tips-title-italic\">questions</span>"
+ },
+ {
+  "de": "1. Wie können Sie garantieren, dass Sie wirklich Top 3 erreichen? <span aria-hidden=\"true\" class=\"lc-faq-toggle\"></span>",
+  "en": "1. How can you guarantee that you will really reach the top 3? <span aria-hidden=\"true\" class=\"lc-faq-toggle\"></span>"
+ },
+ {
+  "de": "Wir haben das bereits für Dutzende lokaler Unternehmen umgesetzt – in Branchen wie Baumpflege, Gutachter, Versicherungen und mehr. Wir nehmen nur Kunden an, bei denen wir sicher sind, dass wir ranken können – deshalb mussten wir noch nie eine Rückzahlung leisten. Bevor wir Ihr Geld annehmen, analysieren wir Ihren Markt und gehen nur weiter, wenn wir überzeugt sind. Wenn wir Top 3 in 90 Tagen nicht erreichen, bekommen Sie jeden Cent zurück.",
+  "en": "We have already done this for dozens of local businesses, in industries like tree care, surveyors, insurance and more. We only take on clients when we are sure we can rank them. That is why we have never had to issue a refund. Before we take your money, we analyze your market and only move forward if we are convinced. If we don't reach the top 3 in 90 days, you get every cent back."
+ },
+ {
+  "de": "2. Was kostet mich das insgesamt? <span aria-hidden=\"true\" class=\"lc-faq-toggle\"></span>",
+  "en": "2. What does it cost me in total? <span aria-hidden=\"true\" class=\"lc-faq-toggle\"></span>"
+ },
+ {
+  "de": "Eine einmalige Zahlung. Das war's. Keine monatlichen Gebühren, keine Einrichtungsgebühren, keine versteckten Kosten. Sie zahlen einmal, wir arbeiten 90 Tage, und Sie ranken entweder Top 3 oder erhalten eine vollständige Rückerstattung.",
+  "en": "One single payment. That's it. No monthly fees, no setup fees, no hidden costs. You pay once, we work for 90 days, and you either rank in the top 3 or get a full refund."
+ },
+ {
+  "de": "3. Funktioniert das für meine spezifische Branche? <span aria-hidden=\"true\" class=\"lc-faq-toggle\"></span>",
+  "en": "3. Does this work for my specific industry? <span aria-hidden=\"true\" class=\"lc-faq-toggle\"></span>"
+ },
+ {
+  "de": "Wenn Sie ein lokales Unternehmen mit einem physischen Einzugsgebiet sind, ja. Wir haben Baumchirurgen, Gutachter, Versicherungsagenturen, Handwerker und mehr platziert – das System funktioniert für jedes lokale Dienstleistungsunternehmen. Im Gespräch sagen wir Ihnen ehrlich, wenn Ihr Markt zu wettbewerbsintensiv ist. Wir nehmen kein Geld, wenn wir nicht liefern können.",
+  "en": "If you are a local business with a physical service area, yes. We have ranked tree surgeons, surveyors, insurance agencies, trades businesses and more. The system works for any local service business. In our call we will tell you honestly if your market is too competitive. We don't take money if we can't deliver."
+ },
+ {
+  "de": "4. Wie lange dauert es, bis ich wirklich Ergebnisse sehe? <span aria-hidden=\"true\" class=\"lc-faq-toggle\"></span>",
+  "en": "4. How long until I actually see results? <span aria-hidden=\"true\" class=\"lc-faq-toggle\"></span>"
+ },
+ {
+  "de": "Die meisten Unternehmen sehen innerhalb von 2–3 Wochen erste Rankingbewegungen. Die Garantie ist Top 3 in 90 Tagen, aber viele erreichen es früher. Sobald Sie in den Top 3 sind, beginnt das Telefon regelmäßig zu klingeln.",
+  "en": "Most businesses see their first ranking movements within 2 to 3 weeks. The guarantee is top 3 in 90 days, but many get there sooner. Once you are in the top 3, the phone starts ringing regularly."
+ },
+ {
+  "de": "5. Wie viel Zeit muss ich investieren? <span aria-hidden=\"true\" class=\"lc-faq-toggle\"></span>",
+  "en": "5. How much time do I need to invest? <span aria-hidden=\"true\" class=\"lc-faq-toggle\"></span>"
+ },
+ {
+  "de": "Insgesamt etwa 30 Minuten. Ein Onboarding-Call, in dem wir Zugang zu Ihrem Google Business Profil erhalten. Danach kümmern wir uns um absolut alles – Optimierung, Bewertungen, Posts, Citations. Sie führen einfach Ihr Unternehmen, während wir das Ranking übernehmen.",
+  "en": "About 30 minutes in total. One onboarding call in which we get access to your Google Business Profile. After that we take care of absolutely everything: optimization, reviews, posts, citations. You simply run your business while we handle the ranking."
+ },
+ {
+  "de": "6. Was ist, wenn ich mein Geld zurückhaben möchte? <span aria-hidden=\"true\" class=\"lc-faq-toggle\"></span>",
+  "en": "6. What if I want my money back? <span aria-hidden=\"true\" class=\"lc-faq-toggle\"></span>"
+ },
+ {
+  "de": "Wenn Sie nach 90 Tagen nicht in den Top 3 sind, schreiben Sie uns eine E-Mail und wir bearbeiten die vollständige Rückerstattung innerhalb von 48 Stunden. Keine Formulare, kein Ärger. Sie bekommen entweder Top-3-Rankings oder Sie bekommen Ihr Geld zurück. So einfach ist das.",
+  "en": "If you are not in the top 3 after 90 days, send us an email and we will process the full refund within 48 hours. No forms, no hassle. You either get top 3 rankings or you get your money back. It's that simple."
+ },
+ {
+  "de": "Profil analysieren lassen – 3 kostenlose Tipps | ImpressRank",
+  "en": "Get Your Profile Analyzed: 3 Free Tips | ImpressRank"
+ },
+ {
+  "de": "Bestätigung",
+  "en": "Confirmation"
+ },
+ {
+  "de": "Schauen Sie in Ihre Inbox –<br/>Ihr Video ist unterwegs",
+  "en": "Check your inbox:<br/>your video is on its way"
+ },
+ {
+  "de": "Während Sie warten, hier eine Vorschau auf das, was Sie im Video lernen werden:",
+  "en": "While you wait, here is a preview of what you will learn in the video:"
+ },
+ {
+  "de": "Überspringen Sie die Arbeit",
+  "en": "Skip the work"
+ },
+ {
+  "de": "Möchten Sie, dass wir das <span class=\"lc-tips-title-italic\">für Sie übernehmen?</span>",
+  "en": "Want us to <span class=\"lc-tips-title-italic\">handle it for you?</span>"
+ },
+ {
+  "de": "Diese 3 Tipps bringen Sie in Gang – aber Top-3-Rankings brauchen eine vollständige Strategie:",
+  "en": "These 3 tips get you started, but top 3 rankings need a complete strategy:"
+ },
+ {
+  "de": "Google Business Profil Optimierung",
+  "en": "Google Business Profile optimization"
+ },
+ {
+  "de": "Technische Website-Anpassungen",
+  "en": "Technical website improvements"
+ },
+ {
+  "de": "Lokaler Autoritätsaufbau",
+  "en": "Building local authority"
+ },
+ {
+  "de": "Wir übernehmen alles. Wenn Sie die Arbeit lieber uns überlassen möchten, klicken Sie unten.",
+  "en": "We handle everything. If you would rather leave the work to us, click below."
+ },
+ {
+  "de": "Sehen Sie, wie wir Sie in die Top 3 bringen",
+  "en": "See how we get you into the top 3"
+ },
+ {
+  "de": "Google Local SEO",
+  "en": "Google Local SEO"
+ },
+ {
+  "de": "Ist Ihr Unternehmen unsichtbar auf Google?",
+  "en": "Is your business invisible on Google?"
+ },
+ {
+  "de": "Schauen Sie sich dieses kurze Video an und erfahren Sie, warum Sie nicht in den Top 3 ranken.",
+  "en": "Watch this short video and find out why you are not ranking in the top 3."
+ },
+ {
+  "de": "<strong>Tragen Sie sich unten ein und erhalten Sie drei KOSTENLOSE Tipps, die Sie noch heute umsetzen können ⬇</strong>",
+  "en": "<strong>Sign up below and get three FREE tips you can put into practice today ⬇</strong>"
+ },
+ {
+  "de": "Hier klicken zum Ansehen",
+  "en": "Click here to watch"
+ },
+ {
+  "de": "Wer wir sind",
+  "en": "Who we are"
+ },
+ {
+  "de": "Marketing Agentur aus Bielefeld – mit Fokus auf Neukundengewinnung",
+  "en": "A marketing agency focused on winning new customers"
+ },
+ {
+  "de": "Ist Ihr Unternehmen unsichtbar auf Google? | ImpressRank",
+  "en": "Is Your Business Invisible on Google? | ImpressRank"
+ },
+ {
+  "de": "name@email.com",
+  "en": "name@email.com"
+ },
+ {
+  "de": "Unsere Kunden",
+  "en": "Our clients"
+ },
+ {
+  "de": "Aloha Beachclub",
+  "en": "Aloha Beachclub"
+ },
+ {
+  "de": "LiftPictures",
+  "en": "LiftPictures"
+ },
+ {
+  "de": "ImpressRank Team – Marketing Kongress",
+  "en": "ImpressRank team at a marketing congress"
+ },
+ {
+  "de": "Rechtliches",
+  "en": "Legal"
+ },
+ {
+  "de": "Angaben gemäß § 5 TMG",
+  "en": "Information pursuant to § 5 TMG (German Telemedia Act)"
+ },
+ {
+  "de": "Name und Anschrift des Diensteanbieters",
+  "en": "Name and address of the service provider"
+ },
+ {
+  "de": "John Marvin Nolting",
+  "en": "John Marvin Nolting"
+ },
+ {
+  "de": "Lehmkuhlstr. 18",
+  "en": "Lehmkuhlstr. 18"
+ },
+ {
+  "de": "32108 Bad Salzuflen",
+  "en": "32108 Bad Salzuflen, Germany"
+ },
+ {
+  "de": "Unternehmensname",
+  "en": "Company name"
+ },
+ {
+  "de": "E-Mail: kontakt@impress-rank.de",
+  "en": "Email: kontakt@impress-rank.de"
+ },
+ {
+  "de": "Umsatzsteuer-ID",
+  "en": "VAT ID"
+ },
+ {
+  "de": "Umsatzsteuer-Identifikationsnummer nach § 27a UStG: DE400173977",
+  "en": "VAT identification number pursuant to § 27a UStG: DE400173977"
+ },
+ {
+  "de": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+  "en": "Responsible for content pursuant to § 55 (2) RStV"
+ },
+ {
+  "de": "Haftungsausschluss",
+  "en": "Disclaimer"
+ },
+ {
+  "de": "Haftung für Inhalte",
+  "en": "Liability for content"
+ },
+ {
+  "de": "Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht unter der Verpflichtung, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.",
+  "en": "As a service provider, we are responsible for our own content on these pages in accordance with general law pursuant to § 7 (1) TMG. According to §§ 8 to 10 TMG, however, we as a service provider are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity."
+ },
+ {
+  "de": "Haftung für Links",
+  "en": "Liability for links"
+ },
+ {
+  "de": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.",
+  "en": "Our website contains links to external third-party websites whose content we have no influence on. Therefore we cannot accept any liability for this third-party content. The respective provider or operator of the linked pages is always responsible for their content."
+ },
+ {
+  "de": "Urheberrecht",
+  "en": "Copyright"
+ },
+ {
+  "de": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.",
+  "en": "The content and works created by the site operators on these pages are subject to German copyright law. Reproduction, editing, distribution and any kind of use beyond the limits of copyright law require the written consent of the respective author or creator."
+ },
+ {
+  "de": "<a href=\"/\">Zurück zur Startseite</a>",
+  "en": "<a href=\"/\">Back to the home page</a>"
+ },
+ {
+  "de": "Impressum | ImpressRank",
+  "en": "Legal Notice | ImpressRank"
+ },
+ {
+  "de": "Datenschutzerklärung",
+  "en": "Privacy policy"
+ },
+ {
+  "de": "1. Datenschutz auf einen Blick",
+  "en": "1. Data protection at a glance"
+ },
+ {
+  "de": "Allgemeine Hinweise",
+  "en": "General information"
+ },
+ {
+  "de": "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.",
+  "en": "The following information gives a simple overview of what happens to your personal data when you visit this website. Personal data is any data that can be used to identify you personally."
+ },
+ {
+  "de": "Datenerfassung auf dieser Website",
+  "en": "Data collection on this website"
+ },
+ {
+  "de": "<strong>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</strong>",
+  "en": "<strong>Who is responsible for data collection on this website?</strong>"
+ },
+ {
+  "de": "Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.",
+  "en": "Data processing on this website is carried out by the website operator. You can find their contact details in the legal notice of this website."
+ },
+ {
+  "de": "2. Allgemeine Hinweise und Pflichtinformationen",
+  "en": "2. General information and mandatory information"
+ },
+ {
+  "de": "Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.",
+  "en": "The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy."
+ },
+ {
+  "de": "Hinweis zur verantwortlichen Stelle",
+  "en": "Information about the controller"
+ },
+ {
+  "de": "Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:",
+  "en": "The controller responsible for data processing on this website is:"
+ },
+ {
+  "de": "John Nolting",
+  "en": "John Nolting"
+ },
+ {
+  "de": "3. Google Analytics",
+  "en": "3. Google Analytics"
+ },
+ {
+  "de": "Verwendung von Google Analytics",
+  "en": "Use of Google Analytics"
+ },
+ {
+  "de": "Diese Website benutzt Google Analytics, einen Webanalysedienst der Google LLC (\"Google\"). Google Analytics verwendet sog. „Cookies\", Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen.",
+  "en": "This website uses Google Analytics, a web analytics service provided by Google LLC (\"Google\"). Google Analytics uses so-called \"cookies\", text files that are stored on your computer and that allow an analysis of how you use the website."
+ },
+ {
+  "de": "Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IP-Anonymisierung auf dieser Website, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt.",
+  "en": "The information generated by the cookie about your use of this website is usually transferred to a Google server in the USA and stored there. If IP anonymization is activated on this website, however, Google will first shorten your IP address within member states of the European Union or in other states party to the Agreement on the European Economic Area."
+ },
+ {
+  "de": "Zweck der Verarbeitung: Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen.",
+  "en": "Purpose of processing: on behalf of the operator of this website, Google will use this information to evaluate your use of the website, to compile reports on website activity and to provide the website operator with further services related to website and internet use."
+ },
+ {
+  "de": "Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse). Unser berechtigtes Interesse liegt in der Analyse, Optimierung und dem wirtschaftlichen Betrieb unserer Website.",
+  "en": "Legal basis: Art. 6 (1) (f) GDPR (legitimate interest). Our legitimate interest lies in the analysis, optimization and economic operation of our website."
+ },
+ {
+  "de": "Widerspruch und Beseitigung: Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem Sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: <a href=\"https://tools.google.com/dlpage/gaoptout?hl=de\">https://tools.google.com/dlpage/gaoptout?hl=de</a>",
+  "en": "Objection and removal: you can prevent cookies from being stored by adjusting your browser software accordingly. You can also prevent Google from collecting the data generated by the cookie and relating to your use of the website (including your IP address) and from processing this data by downloading and installing the browser plug-in available at the following link: <a href=\"https://tools.google.com/dlpage/gaoptout?hl=en\">https://tools.google.com/dlpage/gaoptout?hl=en</a>"
+ },
+ {
+  "de": "Weitere Informationen: Weitere Informationen zum Umgang mit Nutzerdaten bei Google Analytics finden Sie in der Datenschutzerklärung von Google: <a href=\"https://policies.google.com/privacy?hl=de\">https://policies.google.com/privacy?hl=de</a>",
+  "en": "Further information: you can find more information on how Google Analytics handles user data in Google's privacy policy: <a href=\"https://policies.google.com/privacy?hl=en\">https://policies.google.com/privacy?hl=en</a>"
+ },
+ {
+  "de": "Auftragsverarbeitung: Wir haben mit Google einen Vertrag zur Auftragsverarbeitung abgeschlossen und setzen die strengen Vorgaben der deutschen Datenschutzbehörden bei der Nutzung von Google Analytics vollständig um.",
+  "en": "Data processing agreement: we have concluded a data processing agreement with Google and fully implement the strict requirements of the German data protection authorities when using Google Analytics."
+ },
+ {
+  "de": "4. Meta-Pixel (Facebook-Pixel)",
+  "en": "4. Meta Pixel (Facebook Pixel)"
+ },
+ {
+  "de": "Auf einzelnen Seiten dieser Website (Fristenkalender/Newsletter-Anmeldung für Schausteller) setzen wir den Meta-Pixel ein, einen Dienst der Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland (\"Meta\"). Für Nutzer außerhalb des EWR kann die Verarbeitung auch durch Meta Platforms, Inc. erfolgen.",
+  "en": "On individual pages of this website (deadline calendar/newsletter sign-up for fairground operators) we use the Meta Pixel, a service of Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland (\"Meta\"). For users outside the EEA, processing may also be carried out by Meta Platforms, Inc."
+ },
+ {
+  "de": "Der Meta-Pixel wird ausschließlich nach Ihrer Einwilligung über unseren Cookie-Banner geladen und nur auf den genannten Kampagnenseiten eingebunden, nicht website-weit.",
+  "en": "The Meta Pixel is only loaded after you give your consent via our cookie banner and is only included on the campaign pages mentioned, not across the whole website."
+ },
+ {
+  "de": "<strong>Erhobene Daten:</strong>",
+  "en": "<strong>Data collected:</strong>"
+ },
+ {
+  "de": "IP-Adresse und Geräte-/Browserinformationen",
+  "en": "IP address and device/browser information"
+ },
+ {
+  "de": "aufgerufene Seite und Zeitpunkt des Besuchs",
+  "en": "the page visited and the time of the visit"
+ },
+ {
+  "de": "Conversion-Ereignisse, z. B. dass eine Newsletter-Anmeldung abgeschlossen wurde (\"Lead\")",
+  "en": "Conversion events, e.g. that a newsletter sign-up was completed (\"Lead\")"
+ },
+ {
+  "de": "Über den Meta-Pixel werden keine Namen oder E-Mail-Adressen an Meta übermittelt. Die Übertragung erfolgt technisch anonymisiert über die genannten Ereignisdaten.",
+  "en": "No names or email addresses are transmitted to Meta via the Meta Pixel. The transfer is technically anonymized via the event data mentioned."
+ },
+ {
+  "de": "Zweck der Verarbeitung: Meta nutzt diese Daten, um uns zu zeigen, wie Besucher mit unseren Anzeigen interagieren, um die Auslieferung unserer Anzeigen zu optimieren und um passende Zielgruppen für zukünftige Kampagnen zu bilden.",
+  "en": "Purpose of processing: Meta uses this data to show us how visitors interact with our ads, to optimize the delivery of our ads and to build suitable target audiences for future campaigns."
+ },
+ {
+  "de": "Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung). Der Meta-Pixel wird erst aktiv, nachdem Sie im Cookie-Banner \"Alle akzeptieren\" ausgewählt haben. Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft über die Cookie-Einstellungen widerrufen.",
+  "en": "Legal basis: Art. 6 (1) (a) GDPR (consent). The Meta Pixel only becomes active after you have selected \"Accept all\" in the cookie banner. You can withdraw your consent at any time with effect for the future via the cookie settings."
+ },
+ {
+  "de": "Datenübermittlung in die USA: Bei der Nutzung des Meta-Pixels kann es zu einer Übermittlung von Daten in die USA kommen. Meta ist unter dem EU-US Data Privacy Framework zertifiziert bzw. verwendet EU-Standardvertragsklauseln als zusätzliche Garantie.",
+  "en": "Data transfer to the USA: using the Meta Pixel may involve a transfer of data to the USA. Meta is certified under the EU-US Data Privacy Framework or uses EU standard contractual clauses as an additional safeguard."
+ },
+ {
+  "de": "Weitere Informationen zum Umgang mit Ihren Daten durch Meta finden Sie in der Datenschutzerklärung von Meta: <a href=\"https://www.facebook.com/privacy/policy/\">https://www.facebook.com/privacy/policy/</a>",
+  "en": "You can find more information on how Meta handles your data in Meta's privacy policy: <a href=\"https://www.facebook.com/privacy/policy/\">https://www.facebook.com/privacy/policy/</a>"
+ },
+ {
+  "de": "5. Datenerfassung auf dieser Website",
+  "en": "5. Data collection on this website"
+ },
+ {
+  "de": "Buchungs- und Anfrageformular",
+  "en": "Booking and inquiry form"
+ },
+ {
+  "de": "Wenn Sie ein kostenloses Erstgespräch anfragen oder einen Termin buchen, werden die von Ihnen eingegebenen Daten erhoben und verarbeitet.",
+  "en": "When you request a free intro call or book an appointment, the data you enter is collected and processed."
+ },
+ {
+  "de": "Name (Pflichtfeld)",
+  "en": "Name (required)"
+ },
+ {
+  "de": "Unternehmensname (optional)",
+  "en": "Company name (optional)"
+ },
+ {
+  "de": "Website (optional)",
+  "en": "Website (optional)"
+ },
+ {
+  "de": "Auswahlfragen zu Projektzielen und Funktionswünschen",
+  "en": "Multiple-choice questions about project goals and desired features"
+ },
+ {
+  "de": "gewünschter Startzeitraum",
+  "en": "preferred start date"
+ },
+ {
+  "de": "E-Mail-Adresse (Pflichtfeld)",
+  "en": "Email address (required)"
+ },
+ {
+  "de": "gewählte Meeting-Plattform (Zoom oder Microsoft Teams)",
+  "en": "selected meeting platform (Zoom or Microsoft Teams)"
+ },
+ {
+  "de": "gewählter Gesprächstermin",
+  "en": "selected appointment"
+ },
+ {
+  "de": "<strong>Zweck der Verarbeitung:</strong>",
+  "en": "<strong>Purpose of processing:</strong>"
+ },
+ {
+  "de": "Die Daten werden ausschließlich verwendet, um den Termin zu planen, Ihr Anliegen zu verstehen und Sie für das vereinbarte Gespräch zu kontaktieren.",
+  "en": "The data is used exclusively to schedule the appointment, understand your request and contact you for the agreed call."
+ },
+ {
+  "de": "Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung) sowie Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen).",
+  "en": "Legal basis: Art. 6 (1) (a) GDPR (consent) and Art. 6 (1) (b) GDPR (pre-contractual measures)."
+ },
+ {
+  "de": "Speicherdauer: Ihre Angaben werden gelöscht, sobald sie für die Erreichung des Zwecks nicht mehr erforderlich sind, spätestens jedoch 6 Monate nach dem letzten Kontakt, sofern keine Geschäftsbeziehung entsteht.",
+  "en": "Storage period: your information is deleted as soon as it is no longer needed for the purpose, but no later than 6 months after the last contact if no business relationship arises."
+ },
+ {
+  "de": "Verwendung externer Dienste",
+  "en": "Use of external services"
+ },
+ {
+  "de": "Die Terminbuchung und Datenübermittlung erfolgen über unser sicheres Formularsystem. Wenn Sie eine Meeting-Plattform (Zoom oder Microsoft Teams) auswählen, gelten zusätzlich deren Datenschutzbestimmungen:",
+  "en": "Appointment booking and data transfer take place via our secure form system. If you choose a meeting platform (Zoom or Microsoft Teams), their privacy policies also apply:"
+ },
+ {
+  "de": "<a href=\"https://explore.zoom.us/de/privacy/\">Zoom Datenschutzerklärung</a>",
+  "en": "<a href=\"https://explore.zoom.us/en/privacy/\">Zoom privacy policy</a>"
+ },
+ {
+  "de": "<a href=\"https://privacy.microsoft.com/de-de/privacystatement\">Microsoft Teams Datenschutzerklärung</a>",
+  "en": "<a href=\"https://privacy.microsoft.com/en-us/privacystatement\">Microsoft Teams privacy policy</a>"
+ },
+ {
+  "de": "Automatisierte Verarbeitung",
+  "en": "Automated processing"
+ },
+ {
+  "de": "Zur sicheren Übermittlung Ihrer Angaben wird der Integrationsdienst Make (Make s.r.o.) eingesetzt. Die Daten werden ausschließlich zur Übermittlung und Verwaltung des Termins bzw. der Anmeldung verarbeitet.",
+  "en": "The integration service Make (Make s.r.o.) is used to transmit your information securely. The data is processed exclusively for transmitting and managing the appointment or sign-up."
+ },
+ {
+  "de": "Eine Weitergabe an sonstige Dritte findet nicht statt.",
+  "en": "Your data is not passed on to any other third parties."
+ },
+ {
+  "de": "Newsletter- und Fristenkalender-Anmeldung",
+  "en": "Newsletter and deadline calendar sign-up"
+ },
+ {
+  "de": "Auf mehreren Seiten dieser Website (u. a. Fristenkalender für Schausteller) können Sie sich mit Ihrer E-Mail-Adresse für Erinnerungen zu bevorstehenden Bewerbungsfristen anmelden.",
+  "en": "On several pages of this website (including the deadline calendar for fairground operators) you can sign up with your email address for reminders about upcoming application deadlines."
+ },
+ {
+  "de": "Telefonnummer/WhatsApp-Nummer (optional, sofern von Ihnen angegeben)",
+  "en": "Phone/WhatsApp number (optional, if you provide it)"
+ },
+ {
+  "de": "Seite, über die Sie sich angemeldet haben, sowie Zeitpunkt der Anmeldung",
+  "en": "The page you signed up on and the time of sign-up"
+ },
+ {
+  "de": "Wir nutzen Ihre E-Mail-Adresse, um Sie rechtzeitig vor ablaufenden Bewerbungsfristen zu erinnern. Gelegentlich enthalten diese E-Mails auch Hinweise auf unsere eigenen Leistungen für Schausteller (z. B. Websites oder digitale Bewerbungsmappen). Es handelt sich damit nicht ausschließlich um reine Erinnerungs-E-Mails, sondern auch um Werbung im Sinne des UWG.",
+  "en": "We use your email address to remind you in good time before application deadlines expire. These emails occasionally also contain information about our own services for fairground operators (e.g. websites or digital application folders). They are therefore not purely reminder emails, but also advertising within the meaning of the German Unfair Competition Act (UWG)."
+ },
+ {
+  "de": "Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung). Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, z. B. über den Abmeldelink am Ende jeder E-Mail oder per Nachricht an <a href=\"mailto:kontakt@impress-rank.de\">kontakt@impress-rank.de</a>.",
+  "en": "Legal basis: Art. 6 (1) (a) GDPR (consent). You can withdraw your consent at any time with effect for the future, e.g. via the unsubscribe link at the end of every email or by sending a message to <a href=\"mailto:kontakt@impress-rank.de\">kontakt@impress-rank.de</a>."
+ },
+ {
+  "de": "Speicherdauer: Ihre Daten werden gespeichert, bis Sie sich abmelden bzw. Ihre Einwilligung widerrufen.",
+  "en": "Storage period: your data is stored until you unsubscribe or withdraw your consent."
+ },
+ {
+  "de": "Verarbeitung und Weitergabe: Die Übermittlung Ihrer Anmeldedaten erfolgt über den Integrationsdienst Make an das von uns eingesetzte E-Mail-Versandtool, mit dem Erinnerungen versendet werden. Eine Weitergabe an sonstige Dritte findet nicht statt.",
+  "en": "Processing and disclosure: your sign-up data is transmitted via the integration service Make to the email tool we use to send reminders. Your data is not passed on to any other third parties."
+ },
+ {
+  "de": "6. Ihre Rechte",
+  "en": "6. Your rights"
+ },
+ {
+  "de": "Sie haben folgende Rechte:",
+  "en": "You have the following rights:"
+ },
+ {
+  "de": "Recht auf Auskunft über Ihre gespeicherten Daten",
+  "en": "Right of access to your stored data"
+ },
+ {
+  "de": "Recht auf Berichtigung unrichtiger Daten",
+  "en": "Right to rectification of inaccurate data"
+ },
+ {
+  "de": "Recht auf Löschung Ihrer Daten",
+  "en": "Right to erasure of your data"
+ },
+ {
+  "de": "Recht auf Einschränkung der Verarbeitung",
+  "en": "Right to restriction of processing"
+ },
+ {
+  "de": "Recht auf Datenübertragbarkeit",
+  "en": "Right to data portability"
+ },
+ {
+  "de": "Widerspruchsrecht gegen die Verarbeitung",
+  "en": "Right to object to processing"
+ },
+ {
+  "de": "Beschwerderecht bei einer Aufsichtsbehörde",
+  "en": "Right to lodge a complaint with a supervisory authority"
+ },
+ {
+  "de": "Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns gerne eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche Person in unserer Organisation.",
+  "en": "If you have any questions about data protection, feel free to email us or contact the person responsible for data protection in our organization directly."
+ },
+ {
+  "de": "7. Hosting und externe Dienste",
+  "en": "7. Hosting and external services"
+ },
+ {
+  "de": "Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Webseitenzugriffe und sonstige Daten, die über eine Website generiert werden, handeln.",
+  "en": "This website is hosted externally. The personal data collected on this website is stored on the host's servers. This may include IP addresses, contact requests, meta and communication data, contract data, contact details, names, website access data and other data generated via a website."
+ },
+ {
+  "de": "Stand: August 2026. Diese Datenschutzerklärung ist ein Grundgerüst und muss an die spezifischen Gegebenheiten der Website angepasst werden.",
+  "en": "Last updated: August 2026. This privacy policy is a basic framework and must be adapted to the specific circumstances of the website. This English version is a translation for your convenience; the German version is legally binding."
+ },
+ {
+  "de": "Diese Website nutzt notwendige Cookies und optional Google Analytics. Mehr dazu steht in dieser Datenschutzerklärung.",
+  "en": "This website uses necessary cookies and, optionally, Google Analytics. More details in this privacy policy."
+ },
+ {
+  "de": "Datenschutz | ImpressRank",
+  "en": "Privacy Policy | ImpressRank"
+ },
+ {
+  "de": "<a href=\"/webdesign\">Websites, die mehr Anfragen bringen</a>",
+  "en": "<a href=\"/webdesign\">Websites that bring more leads</a>"
+ },
+ {
+  "de": "<a href=\"/seo\">An der Spitze von Google mit lokalem SEO</a>",
+  "en": "<a href=\"/seo\">Top of Google with local SEO</a>"
+ },
+ {
+  "de": "<a href=\"/anzeigen\">Social-Media-Werbung, die Neukunden bringt</a>",
+  "en": "<a href=\"/anzeigen\">Social media ads that win new customers</a>"
+ },
+ {
+  "de": "<a href=\"/seo#preise\">Top 3 in Google in 90 Tagen</a>",
+  "en": "<a href=\"/seo#preise\">Top 3 on Google in 90 days</a>"
+ },
+ {
+  "de": "<a href=\"/seo#liftcs\">Fallstudie</a>",
+  "en": "<a href=\"/seo#liftcs\">Case study</a>"
+ },
+ {
+  "de": "<a class=\"active\" href=\"/fachartikel\">Blog</a>",
+  "en": "<a class=\"active\" href=\"/fachartikel\">Blog</a>"
+ },
+ {
+  "de": "<a class=\"nav-cta\" href=\"/anfrage\">Kostenloses Erstgespräch sichern</a>",
+  "en": "<a class=\"nav-cta\" href=\"/anfrage\">Book your free intro call</a>"
+ },
+ {
+  "de": "Blog",
+  "en": "Blog"
+ },
+ {
+  "de": "Veröffentlicht am 21. Juni 2026 · John",
+  "en": "Published on June 21, 2026 · John"
+ },
+ {
+  "de": "Hi,",
+  "en": "Hi,"
+ },
+ {
+  "de": "hast du schon mal versucht, Google Ads zu schalten?",
+  "en": "have you ever tried running Google Ads?"
+ },
+ {
+  "de": "Wenn sie einmal laufen, sind sie wirklich genial.",
+  "en": "Once they are running, they really are brilliant."
+ },
+ {
+  "de": "Aber bis man an diesen Punkt kommt?",
+  "en": "But getting to that point?"
+ },
+ {
+  "de": "Purer Wahnsinn.",
+  "en": "Pure madness."
+ },
+ {
+  "de": "Man hat das Gefühl, Google hätte sein UX-Team irgendwann 2016 entlassen und die Entwickler hätten gesagt:",
+  "en": "You get the feeling Google fired its UX team sometime in 2016 and the developers said:"
+ },
+ {
+  "de": "„Ach, passt schon. Wir machen das nebenbei.“",
+  "en": "“Oh, it's fine. We'll do it on the side.”"
+ },
+ {
+  "de": "Und das Ergebnis?",
+  "en": "And the result?"
+ },
+ {
+  "de": "Du findest nichts, für jede Kleinigkeit brauchst du gefühlt sieben Klicks und die Berichte sind teilweise so übersichtlich wie eine Steuererklärung auf Altgriechisch.",
+  "en": "You can't find anything, every little thing seems to take seven clicks and some of the reports are about as clear as a tax return in Ancient Greek."
+ },
+ {
+  "de": "Vor allem, wenn du vorher noch nie mit Google Ads gearbeitet hast.",
+  "en": "Especially if you have never worked with Google Ads before."
+ },
+ {
+  "de": "Ich bin 20 und zocke ganz gerne Strategie-Spiele.",
+  "en": "I'm 20 and I like playing strategy games."
+ },
+ {
+  "de": "Ein Kumpel von mir wollte mir irgendwann mal erklären, wie Hearts of Iron 4 funktioniert.",
+  "en": "At some point a friend of mine wanted to explain to me how Hearts of Iron 4 works."
+ },
+ {
+  "de": "Also dachte ich mir: „Kann ja nicht so schwer sein.“",
+  "en": "So I thought: “How hard can it be?”"
+ },
+ {
+  "de": "Falsch gedacht.",
+  "en": "Wrong."
+ },
+ {
+  "de": "„Wie greife ich an?“",
+  "en": "“How do I attack?”"
+ },
+ {
+  "de": "„Gar nicht. Erst musst du deine Armee aufbauen.“",
+  "en": "“You don't. First you have to build up your army.”"
+ },
+ {
+  "de": "Okay. Also ein paar Knöpfe drücken, durch Menüs klicken, irgendwelche Sachen produzieren.",
+  "en": "Okay. So press a few buttons, click through menus, produce some stuff."
+ },
+ {
+  "de": "Ein paar Minuten später denke ich, dass ich endlich Fortschritte mache.",
+  "en": "A few minutes later I think I'm finally making progress."
+ },
+ {
+  "de": "Und plötzlich sieht es so aus, als würde ich den Zweiten Weltkrieg verlieren.",
+  "en": "And suddenly it looks like I'm losing World War II."
+ },
+ {
+  "de": "Nicht optimal.",
+  "en": "Not ideal."
+ },
+ {
+  "de": "„Da kommen Schiffe. Wie zerstöre ich die?“",
+  "en": "“Ships are coming. How do I destroy them?”"
+ },
+ {
+  "de": "„Gar nicht.“",
+  "en": "“You don't.”"
+ },
+ {
+  "de": "„Wie bitte?“",
+  "en": "“Excuse me?”"
+ },
+ {
+  "de": "„Du hast deine Flotte vor vier Runden verloren.“",
+  "en": "“You lost your fleet four turns ago.”"
+ },
+ {
+  "de": "„WAS?! Wann denn das?“",
+  "en": "“WHAT?! When did that happen?”"
+ },
+ {
+  "de": "„Naja, hättest halt ins Marine-Menü schauen müssen.“",
+  "en": "“Well, you should have checked the navy menu.”"
+ },
+ {
+  "de": "Er schaute mich an, als hätte ich gerade versucht, einen Nagel mit einer Banane in die Wand zu schlagen.",
+  "en": "He looked at me as if I had just tried to hammer a nail into the wall with a banana."
+ },
+ {
+  "de": "Und genau so fühlen sich Google Ads an, wenn man zum ersten Mal damit arbeitet.",
+  "en": "And that is exactly how Google Ads feel when you work with them for the first time."
+ },
+ {
+  "de": "Deshalb mein Rat:",
+  "en": "So my advice:"
+ },
+ {
+  "de": "<strong>Mach es dir einfach.</strong>",
+  "en": "<strong>Keep it simple.</strong>"
+ },
+ {
+  "de": "Starte mit einer Suchkampagne und ignoriere erst einmal den ganzen anderen Kram.",
+  "en": "Start with a search campaign and ignore all the other stuff for now."
+ },
+ {
+  "de": "So bekommst du ein Gefühl für die Plattform und kannst dich in den nächsten Wochen Schritt für Schritt weiter vorarbeiten.",
+  "en": "That way you get a feel for the platform and can work your way forward step by step over the next few weeks."
+ },
+ {
+  "de": "Oder:",
+  "en": "Or:"
+ },
+ {
+  "de": "Hol dir jemanden dazu, der sich damit auskennt.",
+  "en": "Bring in someone who knows their way around."
+ },
+ {
+  "de": "Ob ich, jemand anderes oder irgendein Google-Ads-Nerd – völlig egal.",
+  "en": "Whether it's me, someone else or some Google Ads nerd doesn't matter at all."
+ },
+ {
+  "de": "Aber jemanden an der Seite zu haben, der seit Jahren in dem Bereich unterwegs ist, spart dir unglaublich viel Zeit und Nerven.",
+  "en": "But having someone at your side who has been working in this field for years saves you an incredible amount of time and nerves."
+ },
+ {
+  "de": "Google Ads sind wirklich stark und ich kann sie jedem Unternehmen empfehlen.",
+  "en": "Google Ads are really powerful and I can recommend them to every business."
+ },
+ {
+  "de": "Ich hoffe nur, dass Google irgendwann beschließt, einen echten UX-Designer einzustellen.",
+  "en": "I just hope Google decides to hire a real UX designer at some point."
+ },
+ {
+  "de": "Bei einem Milliardenkonzern sollte das eigentlich machbar sein.",
+  "en": "For a company worth billions, that should be doable."
+ },
+ {
+  "de": "Viele Grüße aus Bad Salzuflen",
+  "en": "Best regards"
+ },
+ {
+  "de": "John",
+  "en": "John"
+ },
+ {
+  "de": "Du möchtest wissen, wie du mehr Neukunden gewinnst? Im kostenlosen Erstgespräch schauen wir gemeinsam, wo du stehst.",
+  "en": "Want to know how to win more new customers? In a free intro call we look together at where you stand."
+ },
+ {
+  "de": "Konversionsstarke Websites für lokale Unternehmen.",
+  "en": "High-converting websites for local businesses."
+ },
+ {
+  "de": "<a href=\"../../leistungen.html\">Leistungen</a>",
+  "en": "∅"
+ },
+ {
+  "de": "<a href=\"../../standorte.html\">Standorte</a>",
+  "en": "∅"
+ },
+ {
+  "de": "<a href=\"../../projekte.html\">Projekte / Case Studies</a>",
+  "en": "<a href=\"../../projekte.html\">Projects / Case studies</a>"
+ },
+ {
+  "de": "<a href=\"../../fachartikel.html\">Blog</a>",
+  "en": "<a href=\"../../fachartikel.html\">Blog</a>"
+ },
+ {
+  "de": "<a href=\"../../anfrage.html\">Kontakt</a>",
+  "en": "<a href=\"../../anfrage.html\">Contact</a>"
+ },
+ {
+  "de": "<a href=\"../../impressum.html\">Impressum</a>",
+  "en": "<a href=\"../../impressum.html\">Legal notice</a>"
+ },
+ {
+  "de": "<a href=\"../../datenschutz.html\">Datenschutz</a>",
+  "en": "<a href=\"../../datenschutz.html\">Privacy policy</a>"
+ },
+ {
+  "de": "Die Mysterie-Box | ImpressRank",
+  "en": "The Mystery Box | ImpressRank"
+ },
+ {
+  "de": "Warum Google Ads am Anfang kompliziert wirken und wie du mit einer einfachen Suchkampagne sinnvoll startest.",
+  "en": "Why Google Ads seem complicated at first and how to get started the right way with a simple search campaign."
+ },
+ {
+  "de": "Veröffentlicht am 22. Juli 2026 · John",
+  "en": "Published on July 22, 2026 · John"
+ },
+ {
+  "de": "Hallo,",
+  "en": "Hello,"
+ },
+ {
+  "de": "ich habe eine super einfache Methode für dich, um bei Google besser zu ranken. Und sie ist auch einfach umzusetzen. Es wird nicht einmal technisches Wissen benötigt.",
+  "en": "I have a super simple method for you to rank better on Google. And it is easy to put into practice. You don't even need any technical knowledge."
+ },
+ {
+  "de": "Wenn du ein Unternehmen führst, bekommst du Bewertungen. Hoffentlich sind sie gut. Hoffentlich bekommst du sie einigermaßen regelmäßig.",
+  "en": "If you run a business, you get reviews. Hopefully they are good. Hopefully you get them fairly regularly."
+ },
+ {
+  "de": "Falls nicht, solltest du das ändern. Ein regelmäßiger Strom an Bewertungen hilft beim Ranking. Darüber sprechen wir ein andermal.",
+  "en": "If not, you should change that. A steady stream of reviews helps your ranking. We'll talk about that another time."
+ },
+ {
+  "de": "Jedenfalls: Die meisten Unternehmen bekommen Bewertungen und machen dann eines von zwei Dingen:",
+  "en": "Anyway: most businesses get reviews and then do one of two things:"
+ },
+ {
+  "de": "Sie freuen sich über die Bewertung, antworten aber nicht darauf",
+  "en": "They are happy about the review but don't reply to it"
+ },
+ {
+  "de": "Sie freuen sich über die Bewertung und antworten mit einer höflichen Antwort wie: “Vielen Dank für die nette Bewertung, wir schätzen das sehr!”",
+  "en": "They are happy about the review and reply politely, something like: “Thank you so much for the kind review, we really appreciate it!”"
+ },
+ {
+  "de": "Option 2 ist besser als Option 1. Du solltest auf Bewertungen antworten, das ist eine gute Idee.",
+  "en": "Option 2 is better than option 1. You should reply to reviews, that is a good idea."
+ },
+ {
+  "de": "Aber:",
+  "en": "But:"
+ },
+ {
+  "de": "Google ist ein großer Roboter. Er durchsucht dein Profil ständig, um herauszufinden, WAS du machst und WO du es machst.",
+  "en": "Google is a big robot. It constantly crawls your profile to figure out WHAT you do and WHERE you do it."
+ },
+ {
+  "de": "Alles, was du tun kannst, um Google zu helfen, WAS du tust und WO du es tust besser zu verstehen, ist eine gute Sache.",
+  "en": "Anything you can do to help Google better understand WHAT you do and WHERE you do it is a good thing."
+ },
+ {
+  "de": "Anstatt also nur höflich zu antworten, sorge dafür, dass deine Antwort Keywords enthält, für die du ranken willst.",
+  "en": "So instead of just replying politely, make sure your reply contains keywords you want to rank for."
+ },
+ {
+  "de": "Wenn du zum Beispiel ein Baumpfleger in Bielefeld bist und mehr Aufträge in Bielefeld bekommen möchtest und eine Bewertung von jemandem aus dieser Gegend erhältst, könntest du stattdessen so antworten:",
+  "en": "For example, if you are a tree surgeon in Springfield, want more jobs in Springfield and get a review from someone in the area, you could reply like this instead:"
+ },
+ {
+  "de": "“Vielen Dank für die nette Bewertung. Es war uns eine Freude, Ihre Bäume in Bielefeld zu entfernen. Wir übernehmen immer mehr Aufträge in Bielefeld. Wir würden Ihnen gerne auch in Zukunft bei all Ihren forstwirtschaftlichen Anliegen helfen, sei es Baumfällung, Kronenrückschnitt, Baumschnitt oder alles andere!”",
+  "en": "“Thank you so much for the kind review. It was a pleasure removing your trees in Springfield. We are taking on more and more jobs in Springfield. We would be happy to help you with all your tree care needs in the future too, whether it's tree felling, crown reduction, pruning or anything else!”"
+ },
+ {
+  "de": "Das gibt dem Google-Bot ein volles Fünf-Gänge-Menü, anstatt ihm nur ein paar Krümel hinzuwerfen.",
+  "en": "That gives the Google bot a full five-course meal instead of just throwing it a few crumbs."
+ },
+ {
+  "de": "Das hilft wirklich bei den SEO-Ergebnissen. Probier es aus!",
+  "en": "This really helps your SEO results. Give it a try!"
+ },
+ {
+  "de": "Bis bald, John",
+  "en": "Talk soon, John"
+ },
+ {
+  "de": "Einfacher Weg, bei Google höher zu ranken | ImpressRank",
+  "en": "A Simple Way to Rank Higher on Google | ImpressRank"
+ },
+ {
+  "de": "Hallo, ich habe eine super einfache Methode für dich, um bei Google besser zu ranken. Sie ist einfach umzusetzen und braucht kein technisches Wissen.",
+  "en": "Hello, I have a super simple method for you to rank better on Google. It is easy to put into practice and needs no technical knowledge."
+ },
+ {
+  "de": "Veröffentlicht am 14. Juni 2026 · John",
+  "en": "Published on June 14, 2026 · John"
+ },
+ {
+  "de": "Hi, hier ist John.",
+  "en": "Hi, John here."
+ },
+ {
+  "de": "Neulich habe ich mit einem Kollegen darüber gesprochen, warum manche lokale Unternehmen gefühlt immer gewinnen, obwohl ihr Marketing oft nicht mal besonders gut ist.",
+  "en": "Recently I talked with a colleague about why some local businesses always seem to win, even though their marketing often isn't particularly good."
+ },
+ {
+  "de": "Und ehrlich gesagt ist die Antwort ziemlich simpel.",
+  "en": "And honestly, the answer is pretty simple."
+ },
+ {
+  "de": "Die meisten versuchen, mit dem „perfekten Angebot“ zu gewinnen. Mit fancy Werbung. Mit kreativen Slogans. Mit irgendwelchen Marketing-Tricks.",
+  "en": "Most try to win with the “perfect offer”. With fancy ads. With creative slogans. With some marketing tricks or other."
+ },
+ {
+  "de": "Aber die Unternehmen, die lokal wirklich dominieren?",
+  "en": "But the businesses that really dominate locally?"
+ },
+ {
+  "de": "Die sind einfach überall präsent.",
+  "en": "They are simply present everywhere."
+ },
+ {
+  "de": "Permanent.",
+  "en": "All the time."
+ },
+ {
+  "de": "Wenn jemand in Bielefeld einen Dachdecker braucht … oder einen Zahnarzt … oder einen Immobilienmakler …",
+  "en": "When someone in your town needs a roofer … or a dentist … or a real estate agent …"
+ },
+ {
+  "de": "dann fällt den meisten sofort ein Name ein.",
+  "en": "most people immediately think of one name."
+ },
+ {
+  "de": "Nicht weil deren Werbung genial ist.",
+  "en": "Not because their advertising is brilliant."
+ },
+ {
+  "de": "Sondern weil man sie ständig sieht.",
+  "en": "But because you see them all the time."
+ },
+ {
+  "de": "Bei Google. Auf Instagram. Auf Facebook. Auf YouTube.",
+  "en": "On Google. On Instagram. On Facebook. On YouTube."
+ },
+ {
+  "de": "Immer wieder.",
+  "en": "Again and again."
+ },
+ {
+  "de": "Und genau das ist der Punkt:",
+  "en": "And that is exactly the point:"
+ },
+ {
+  "de": "<strong>Sichtbarkeit schlägt besseres Marketing.</strong>",
+  "en": "<strong>Visibility beats better marketing.</strong>"
+ },
+ {
+  "de": "Denn am Ende kaufen Menschen meistens nicht bei dem „besten“ Anbieter.",
+  "en": "Because in the end, people usually don't buy from the “best” provider."
+ },
+ {
+  "de": "Sie kaufen bei dem Anbieter, an den sie als Erstes denken.",
+  "en": "They buy from the provider they think of first."
+ },
+ {
+  "de": "Die meisten lokalen Unternehmen verlieren nicht, weil sie schlechte Arbeit machen.",
+  "en": "Most local businesses don't lose because they do bad work."
+ },
+ {
+  "de": "Sie verlieren, weil niemand an sie denkt, wenn der Kunde bereit ist zu kaufen.",
+  "en": "They lose because nobody thinks of them when the customer is ready to buy."
+ },
+ {
+  "de": "Und genau da setze ich mit ImpressRank an.",
+  "en": "And that is exactly where I come in with ImpressRank."
+ },
+ {
+  "de": "Ich helfe Unternehmen in Bielefeld dabei, dauerhaft sichtbar zu werden, damit potenzielle Kunden automatisch an sie denken, sobald Bedarf entsteht.",
+  "en": "I help businesses become permanently visible, so potential customers automatically think of them as soon as the need arises."
+ },
+ {
+  "de": "Nicht nur einmal. Sondern konstant.",
+  "en": "Not just once. But consistently."
+ },
+ {
+  "de": "Wenn du willst, dass dein Unternehmen in deiner Region wirklich wahrgenommen wird, dann melde dich bei mir.",
+  "en": "If you want your business to really get noticed, get in touch with me."
+ },
+ {
+  "de": "Bis bald,",
+  "en": "Talk soon,"
+ },
+ {
+  "de": "Gewinne gegen besseres Marketing | ImpressRank",
+  "en": "Win Against Better Marketing | ImpressRank"
+ },
+ {
+  "de": "Wie lokale Unternehmen in Bielefeld durch konstante Sichtbarkeit mehr Kunden gewinnen – auch ohne das vermeintlich perfekte Marketing.",
+  "en": "How local businesses win more customers through consistent visibility, even without supposedly perfect marketing."
+ },
+ {
+  "de": "Veröffentlicht am 4. August 2026 · John",
+  "en": "Published on August 4, 2026 · John"
+ },
+ {
+  "de": "Veranstaltungen und Messen sind eine tolle Sache.",
+  "en": "Events and trade fairs are a great thing."
+ },
+ {
+  "de": "Man wirft sich in Schale, die Hosentasche voller Visitenkarten, und mischt sich unter die Menge.",
+  "en": "You dress up, pockets full of business cards, and mingle with the crowd."
+ },
+ {
+  "de": "Schnell noch den Kaffee geholt, geht man von Stand zu Stand. Hört bei Gesprächen zu, versucht sich einzumischen.",
+  "en": "After grabbing a quick coffee, you go from booth to booth. You listen in on conversations and try to join in."
+ },
+ {
+  "de": "Doch man merkt schnell: Die Gespräche laufen alle gleich ab.",
+  "en": "But you quickly notice: the conversations all go the same way."
+ },
+ {
+  "de": "Jeder hat seinen inneren Pitch einprogrammiert, spricht ihn runter.",
+  "en": "Everyone has their pitch programmed in and just reels it off."
+ },
+ {
+  "de": "Und dann, den Moment für die Visitenkarte verpasst, die Vernetzung auf LinkedIn entgangen. Jemand Neues stößt hinzu oder der Faden wurde verloren.",
+  "en": "And then the moment for the business card is gone, the LinkedIn connection missed. Someone new joins or the thread is lost."
+ },
+ {
+  "de": "Zuhause angekommen, dann stolz erzählt, dass zwei Leute eine Visitenkarte haben wollten.",
+  "en": "Back home, you proudly tell everyone that two people wanted your business card."
+ },
+ {
+  "de": "Sich ein Netzwerk aufzubauen ist etwas Großartiges. Aber bis man es nutzen kann, dauert es in der Regel Jahre.",
+  "en": "Building a network is a great thing. But it usually takes years before you can make use of it."
+ },
+ {
+  "de": "Ein zufriedener Kunde fragt nach einem Prospekt, weil er jemanden kennt.",
+  "en": "A happy customer asks for a brochure because they know someone."
+ },
+ {
+  "de": "Du freust dich.",
+  "en": "You are pleased."
+ },
+ {
+  "de": "Aber nach Monaten immer noch nichts Neues.",
+  "en": "But months later, still nothing new."
+ },
+ {
+  "de": "Warum?",
+  "en": "Why?"
+ },
+ {
+  "de": "Weil du dich darauf verlässt, dass andere Leute dein Produkt oder deinen Service genauso erfolgreich verkaufen können, wie du es kannst.",
+  "en": "Because you are relying on other people to sell your product or service just as successfully as you can."
+ },
+ {
+  "de": "Empfehlungsmarketing ist also nicht nur ein langfristiger Prozess, sondern auch einer, bei dem du die Kontrolle abgibst.",
+  "en": "So referral marketing is not only a long-term process, it is also one where you give up control."
+ },
+ {
+  "de": "Keine Stellschrauben, die du nutzen kannst, um mehr Interessenten anzuwerben.",
+  "en": "No levers you can pull to attract more prospects."
+ },
+ {
+  "de": "Was sind also die besseren Arten von Marketing, bei denen du die Kontrolle behältst?",
+  "en": "So what are the better kinds of marketing where you stay in control?"
+ },
+ {
+  "de": "<strong>Meta und Google Ads.</strong>",
+  "en": "<strong>Meta and Google Ads.</strong>"
+ },
+ {
+  "de": "Du zahlst die Plattformen im Prinzip dafür, den richtigen Leuten genau das anzuzeigen, was und wie du es willst.",
+  "en": "Basically, you pay the platforms to show the right people exactly what you want, the way you want it."
+ },
+ {
+  "de": "Immer und immer wieder.",
+  "en": "Again and again."
+ },
+ {
+  "de": "Bis sie anfragen.",
+  "en": "Until they get in touch."
+ },
+ {
+  "de": "Wenn das also eine interessante Sache ist, die du ausprobieren möchtest, melde dich.",
+  "en": "So if that sounds like something you would like to try, get in touch."
+ },
+ {
+  "de": "Ich übernehme das.",
+  "en": "I'll take care of it."
+ },
+ {
+  "de": "Networking, Networking, Networking | ImpressRank",
+  "en": "Networking, Networking, Networking | ImpressRank"
+ },
+ {
+  "de": "Warum Empfehlungsmarketing wertvoll ist, du die Kontrolle über deine Neukundengewinnung aber nicht abgeben solltest.",
+  "en": "Why referral marketing is valuable, but you shouldn't give up control over winning new customers."
+ },
+ {
+  "de": "Veröffentlicht am 24. August 2026 · John",
+  "en": "Published on August 24, 2026 · John"
+ },
+ {
+  "de": "John hier,",
+  "en": "John here,"
+ },
+ {
+  "de": "jeder spricht über Markenbildung, wahrscheinlich hast du es im Studium mal gehört, oder deine Cousine die „alllles“ über Marketing weiß, hat es dir erzählt.",
+  "en": "everyone talks about branding. You probably heard about it at university, or your cousin who knows “everything” about marketing told you about it."
+ },
+ {
+  "de": "„Du brauchst was mit Social Media“, musst als Chef den nächsten TikTok Trend mitmachen, oder brauchst ein Werbevideo, was cool und lustig ist.",
+  "en": "“You need something with social media”, as the boss you have to join the next TikTok trend, or you need a promo video that is cool and funny."
+ },
+ {
+  "de": "Wozu aber? Naja ist doch logisch, Markenbildung.",
+  "en": "But what for? Well, obviously: branding."
+ },
+ {
+  "de": "Coca-Cola oder Edeka machen schließlich auch nichts anderes.",
+  "en": "After all, Coca-Cola and big supermarket chains do nothing else."
+ },
+ {
+  "de": "Sie müssen deinen Namen kennen, dein Logo sehen, auf Instagram deine Slogans liken.",
+  "en": "People have to know your name, see your logo and like your slogans on Instagram."
+ },
+ {
+  "de": "Doch hier ist die Realität.",
+  "en": "But here is the reality."
+ },
+ {
+  "de": "Als mittelständisches Unternehmen hast du nicht das Budget, was Coca-Cola oder Edeka haben.",
+  "en": "As a mid-sized business, you don't have the budget of Coca-Cola or a supermarket chain."
+ },
+ {
+  "de": "Alles was du investierst, sollte auch in irgendeiner Form zurückkommen.",
+  "en": "Everything you invest should come back in some form."
+ },
+ {
+  "de": "Wenn du 1 Euro in Werbung investierst, sollten idealerweise 2 Euro daraus werden.",
+  "en": "If you invest 1 euro in advertising, ideally it should turn into 2 euros."
+ },
+ {
+  "de": "Klingt einfach? Ist es auch.",
+  "en": "Sounds simple? It is."
+ },
+ {
+  "de": "Du willst mit deiner Werbung genau die Leute ansprechen, die am Ende bei dir kaufen.",
+  "en": "You want your advertising to reach exactly the people who end up buying from you."
+ },
+ {
+  "de": "Wenn du also anfängst, lustige Videos zu machen oder dir coole Slogans überlegst,",
+  "en": "So if you start making funny videos or coming up with cool slogans,"
+ },
+ {
+  "de": "wird das deine Leute nicht zum Kauf führen.",
+  "en": "that won't lead your people to buy."
+ },
+ {
+  "de": "Wenn du die Zielgruppe nicht richtig ansprichst,",
+  "en": "If you don't speak to your target audience the right way,"
+ },
+ {
+  "de": "war alles umsonst.",
+  "en": "it was all for nothing."
+ },
+ {
+  "de": "Doch dafür haben viele Werbeagenturen diese Sache namens „Markenbildung“ eingeführt.",
+  "en": "But that's why many ad agencies introduced this thing called “branding”."
+ },
+ {
+  "de": "Eine gescheiterte Werbekampagne? Ach egal, Leute haben deine Marke gesehen.",
+  "en": "A failed ad campaign? Never mind, people saw your brand."
+ },
+ {
+  "de": "Ein Werbevideo, was die Interessen deiner Zielgruppe nicht weckt? Ach egal, wir haben ein cooles Video.",
+  "en": "A promo video that doesn't spark your audience's interest? Never mind, we have a cool video."
+ },
+ {
+  "de": "Deswegen ist der Grundbaustein guten Marketings zu wissen, was ein potenzieller Interessent hören will.",
+  "en": "That is why the foundation of good marketing is knowing what a potential prospect wants to hear."
+ },
+ {
+  "de": "Und dann kann man Werbung auf Social Media schalten, im Prinzip zahlt man dann die Plattformen, es deiner Zielgruppe anzuzeigen.",
+  "en": "And then you can run ads on social media. Basically, you pay the platforms to show it to your target audience."
+ },
+ {
+  "de": "So wird aus 1 Euro = 2 Euro,",
+  "en": "That is how 1 euro becomes 2 euros,"
+ },
+ {
+  "de": "und das ganze ist planbar und skalierbar.",
+  "en": "and the whole thing is predictable and scalable."
+ },
+ {
+  "de": "So funktioniert Neukundengewinnung am Fließband.",
+  "en": "That is how winning new customers on autopilot works."
+ },
+ {
+  "de": "Wie du das jetzt bekommst?",
+  "en": "How do you get this now?"
+ },
+ {
+  "de": "Oder ob das was für dich ist?",
+  "en": "Or is it even right for you?"
+ },
+ {
+  "de": "Dafür analysiere ich kostenlos deine Zielgruppe, und überlege, mit welchen Methoden du sie am besten erreichst.",
+  "en": "For that, I analyze your target audience for free and work out which methods reach them best."
+ },
+ {
+  "de": "Ob du das dann selber umsetzt, oder ich das übernehme, besprechen wir in einem gemeinsamen Erstgespräch.",
+  "en": "Whether you then do it yourself or I take care of it, we discuss in a joint intro call."
+ },
+ {
+  "de": "Sichere es dir jetzt hier<span> </span><strong><a href=\"https://impress-rank.de/anfrage\">https://impress-rank.de/anfrage</a></strong>",
+  "en": "Book yours now here<span> </span><strong><a href=\"https://impress-rank.de/anfrage\">https://impress-rank.de/anfrage-en</a></strong>"
+ },
+ {
+  "de": "John.",
+  "en": "John."
+ },
+ {
+  "de": "Wie bauen Unternehmer in OWL eine starke Marke auf? | ImpressRank",
+  "en": "How Do Business Owners Build a Strong Brand? | ImpressRank"
+ },
+ {
+  "de": "Wie baust du eine starke Marke als mittelständisches Unternehmen auf? Warum Markenbildung ohne Zielgruppe verpufft und wie aus 1 Euro Werbung 2 Euro werden.",
+  "en": "How do you build a strong brand as a mid-sized business? Why branding fizzles out without a target audience and how 1 euro of advertising becomes 2 euros."
+ },
+ {
+  "de": "Veröffentlicht am 19. Mai 2026 · John",
+  "en": "Published on May 19, 2026 · John"
+ },
+ {
+  "de": "bei Google ganz oben aufzutauchen klingt erstmal gut und schön.",
+  "en": "showing up at the very top of Google sounds nice at first."
+ },
+ {
+  "de": "Aber lohnt sich der ganze Aufwand überhaupt?",
+  "en": "But is all the effort even worth it?"
+ },
+ {
+  "de": "Die meisten Unternehmen haben sowieso schon genug auf dem Tisch. Noch eine weitere Baustelle, die eigentlich niemand braucht.",
+  "en": "Most businesses already have enough on their plate. One more construction site that nobody really needs."
+ },
+ {
+  "de": "Und klar, ich könnte dir jetzt erzählen, dass Google das Wichtigste überhaupt ist und sofort höchste Priorität haben sollte.",
+  "en": "And sure, I could tell you now that Google is the most important thing of all and should be your top priority right away."
+ },
+ {
+  "de": "Aber das wäre ungefähr so objektiv wie ein Autohändler, der dir sagt, dass genau heute der perfekte Zeitpunkt zum Auto kaufen ist.",
+  "en": "But that would be about as objective as a car dealer telling you that today is exactly the perfect day to buy a car."
+ },
+ {
+  "de": "Deshalb hier drei Dinge, die man ziemlich leicht überprüfen kann, ob es priorität haben sollte:",
+  "en": "So here are three things you can check quite easily to see whether it should be a priority:"
+ },
+ {
+  "de": "Die meisten Klicks gehen an die ersten drei Ergebnisse bei Google. Der Großteil der Menschen schaut gar nicht weiter runter. Wer nicht oben steht, bekommt meistens nur den Rest ab.",
+  "en": "Most clicks go to the first three results on Google. Most people don't even scroll further down. If you are not at the top, you usually only get what's left."
+ },
+ {
+  "de": "Und genau deshalb bekommen die Unternehmen dort oben auch die meisten Anfragen, Anrufe und Neukunden. Mehr Sichtbarkeit sorgt automatisch dafür, dass Menschen dich eher wahrnehmen und Vertrauen aufbauen.",
+  "en": "And that is exactly why the businesses up there also get the most inquiries, calls and new customers. More visibility automatically means people notice you sooner and build trust."
+ },
+ {
+  "de": "Die eigentliche Frage ist also:",
+  "en": "So the real question is:"
+ },
+ {
+  "de": "Wenn dein Unternehmen in Bielefeld bei Google weiter oben stehen würde und du mehr Anfragen bekommen würdest als jetzt – könntest du daraus mehr Kunden machen?",
+  "en": "If your business ranked higher on Google and you got more inquiries than now, could you turn them into more customers?"
+ },
+ {
+  "de": "Wenn die Antwort Ja ist, dann lohnt sich lokale Sichtbarkeit wahrscheinlich deutlich mehr, als viele denken.",
+  "en": "If the answer is yes, local visibility is probably worth a lot more than many people think."
+ },
+ {
+  "de": "Wenn die Antwort Nein ist, dann musst du dich damit ehrlich gesagt auch nicht weiter beschäftigen.",
+  "en": "If the answer is no, then honestly, you don't need to spend any more time on it."
+ },
+ {
+  "de": "Am Ende läuft es eigentlich nur auf eine Sache hinaus:",
+  "en": "In the end, it really comes down to one thing:"
+ },
+ {
+  "de": "Willst du überhaupt mehr Kundenanfragen bekommen?",
+  "en": "Do you even want more customer inquiries?"
+ },
+ {
+  "de": "Wenn ja, dann sollte Google bei deinem Marketing ziemlich weit oben auf der Liste stehen.",
+  "en": "If yes, Google should be pretty high up on your marketing list."
+ },
+ {
+  "de": "Bis bald",
+  "en": "Talk soon"
+ },
+ {
+  "de": "Ihr Marketing Büro aus Bad Salzuflen",
+  "en": "Your marketing agency, ImpressRank"
+ },
+ {
+  "de": "P.S. Falls du wissen willst, wie eine Zusammenarbeit mit Impress Rank aussieht, findest du <a href=\"https://impress-rank.de/seo\">hier</a> mehr Infos:",
+  "en": "P.S. If you want to know what working with ImpressRank looks like, you can find more info <a href=\"https://impress-rank.de/seo\">here</a>:"
+ },
+ {
+  "de": "https://impress-rank.de",
+  "en": "https://impress-rank.de/index-en"
+ },
+ {
+  "de": "Wozu eigentlich bei Google ganz oben auftauchen? | ImpressRank",
+  "en": "Why Show Up at the Top of Google at All? | ImpressRank"
+ }
+]
