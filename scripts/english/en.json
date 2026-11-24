@@ -108,10 +108,6 @@
   "en": "at the <strong>top of Google</strong> with <strong>local SEO</strong>"
  },
  {
-  "de": "<strong>Kunden aus der Region</strong> erreichen mit <strong>Google &amp; Meta Ads</strong>",
-  "en": "Reach <strong>the right customers</strong> with <strong>Google &amp; Meta Ads</strong>"
- },
- {
   "de": "Erfahrungen mit ImpressRank",
   "en": "What clients say about ImpressRank"
  },
@@ -1314,14 +1310,6 @@
  {
   "de": "Einfach das Kontaktformular ausfüllen oder uns direkt anschreiben. Wir melden uns innerhalb von 24 Stunden und besprechen den nächsten Schritt.",
   "en": "Simply fill in the contact form or message us directly. We will get back to you within 24 hours and discuss the next step."
- },
- {
-  "de": "<a href=\"seo\">SEO</a>",
-  "en": "<a href=\"seo\">SEO</a>"
- },
- {
-  "de": "<a href=\"anzeigen\">Google &amp; Meta Ads</a>",
-  "en": "<a href=\"anzeigen\">Google &amp; Meta Ads</a>"
  },
  {
   "de": "<a href=\"schausteller-websites\">Schausteller Marketing</a>",
@@ -3444,40 +3432,20 @@
   "en": "<strong>Get recommended by ChatGPT</strong> with <strong>AI SEO</strong>"
  },
  {
-  "de": "Kundengespräch am Telefon im Büro",
-  "en": "Client call on the phone in the office"
+  "de": "Arbeit am Bildschirm im Büro",
+  "en": "Working at the screen in the office"
  },
  {
   "de": "<a href=\"ki-seo\">KI-SEO</a>",
   "en": "<a href=\"ki-seo\">AI SEO</a>"
  },
  {
-  "de": "KI-SEO: Empfohlen werden von ChatGPT, Perplexity und Google",
-  "en": "AI SEO: Get recommended by ChatGPT, Perplexity and Google"
- },
- {
   "de": "Deine Kunden fragen jetzt ChatGPT.<br/> <span class=\"hero-highlight\">Wirst du genannt?</span>",
   "en": "Your customers are asking ChatGPT now.<br/> <span class=\"hero-highlight\">Does it mention you?</span>"
  },
  {
-  "de": "Immer mehr Menschen lassen sich ihren Dienstleister von ChatGPT, Perplexity oder den KI-Antworten bei Google vorschlagen. Wir sorgen dafür, dass dein Unternehmen in dieser Antwort steht.",
-  "en": "More and more people let ChatGPT, Perplexity or Google's AI answers suggest who to hire. We make sure your business is part of that answer."
- },
- {
-  "de": "<a class=\"btn btn-primary btn-cta-blue\" data-wa-cta=\"\" href=\"anfrage\">Kostenlosen KI-Check sichern</a>",
-  "en": "<a class=\"btn btn-primary btn-cta-blue\" data-wa-cta=\"\" href=\"anfrage\">Get your free AI check</a>"
- },
- {
   "de": "KI-Assistent",
   "en": "AI assistant"
- },
- {
-  "de": "Welchen Steuerberater in meiner Stadt kannst du empfehlen?",
-  "en": "Which accountant in my town would you recommend?"
- },
- {
-  "de": "Diese drei Kanzleien werden oft gut bewertet:",
-  "en": "These three firms are often rated highly:"
  },
  {
   "de": "<strong>Kanzlei Becker</strong> · 4,9 Sterne, schnelle Termine",
@@ -3492,52 +3460,8 @@
   "en": "<strong>Your business?</strong>"
  },
  {
-  "de": "Die neue Suche",
-  "en": "The new search"
- },
- {
   "de": "Steht dein Name in der Antwort?",
   "en": "Is your name in the answer?"
- },
- {
-  "de": "Frag ChatGPT einmal: „Wer ist der beste Steuerberater in meiner Stadt?“ Du bekommst zwei oder drei Namen. Keine Liste mit zehn Links, sondern eine Empfehlung. Wer dort nicht steht, wird gar nicht erst angefragt.",
-  "en": "Ask ChatGPT: \"Who is the best accountant in my town?\" You get two or three names. Not a list of ten links, but a recommendation. If you are not on it, nobody even contacts you."
- },
- {
-  "de": "Die KI erfindet ihre Antwort nicht. Sie baut sie aus dem, was im Netz über dich zu finden ist:",
-  "en": "The AI does not make up its answer. It builds it from what it can find about you online:"
- },
- {
-  "de": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>deine Website und was dort klar und verständlich steht",
-  "en": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>your website and how clearly it explains what you do"
- },
- {
-  "de": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>deine Bewertungen bei Google und auf anderen Portalen",
-  "en": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>your reviews on Google and other platforms"
- },
- {
-  "de": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>Einträge in Branchenverzeichnissen",
-  "en": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>listings in business directories"
- },
- {
-  "de": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>Erwähnungen auf anderen Seiten, in Artikeln und Ratgebern",
-  "en": "<span aria-hidden=\"true\" class=\"services-split-check\">⟦1⟧</span>mentions on other sites, in articles and guides"
- },
- {
-  "de": "Ist das dünn oder widersprüchlich, nennt die KI lieber deine Konkurrenz. Und nein, dafür brauchst du keinen selbst ernannten „KI-Guru“. Es ist saubere Arbeit an den richtigen Stellen.",
-  "en": "If that is thin or contradictory, the AI would rather name your competitors. And no, you do not need a self-proclaimed \"AI guru\" for this. It is solid work in the right places."
- },
- {
-  "de": "Unser Kunde Liftpictures wird von ChatGPT empfohlen.",
-  "en": "Our client Liftpictures gets recommended by ChatGPT."
- },
- {
-  "de": "Branchenweit auf Platz 1",
-  "en": "Number 1 across the industry"
- },
- {
-  "de": "Mit unserer Suchmaschinenoptimierung ist Liftpictures in der Branche auf Platz 1 gelandet. Heute nennt auch ChatGPT den Namen, wenn jemand nach Fotosystemen für Attraktionen fragt. Seitdem kommen <strong>7× mehr Anfragen</strong>.",
-  "en": "With our search engine optimisation, Liftpictures reached number 1 in its industry. Today ChatGPT names them too when someone asks about photo systems for attractions. Since then they get <strong>7× more inquiries</strong>."
  },
  {
   "de": "So arbeiten wir zusammen",
@@ -3548,100 +3472,8 @@
   "en": "Two ways to work with us."
  },
  {
-  "de": "Begleitung",
-  "en": "Coaching"
- },
- {
-  "de": "Du setzt selbst um, wir zeigen dir wie.",
-  "en": "You do the work, we show you how."
- },
- {
-  "de": "Wie ChatGPT und Co. entscheiden, wen sie nennen",
-  "en": "How ChatGPT and others decide who to name"
- },
- {
-  "de": "Website und Inhalte so aufbauen, dass eine KI sie versteht",
-  "en": "Building your website and content so an AI understands it"
- },
- {
-  "de": "Bewertungen und Erwähnungen gezielt aufbauen",
-  "en": "Building reviews and mentions on purpose"
- },
- {
-  "de": "Gemeinsamer Test vorher und nachher",
-  "en": "A joint before and after test"
- },
- {
-  "de": "Du behältst das Wissen und kannst es selbst weiterführen.",
-  "en": "You keep the know-how and can carry on yourself."
- },
- {
-  "de": "Wir machen alles",
-  "en": "We do everything"
- },
- {
   "de": "Komplett-Service",
   "en": "Done for you"
- },
- {
-  "de": "Du lehnst dich zurück, wir setzen um.",
-  "en": "You sit back, we do the work."
- },
- {
-  "de": "Check, wie du in den wichtigsten KI-Tools dastehst",
-  "en": "A check of where you stand in the main AI tools"
- },
- {
-  "de": "Website und Inhalte überarbeiten",
-  "en": "Reworking your website and content"
- },
- {
-  "de": "Erwähnungen in Verzeichnissen, Portalen und Artikeln aufbauen",
-  "en": "Building mentions in directories, portals and articles"
- },
- {
-  "de": "Monatlicher Bericht in verständlicher Sprache",
-  "en": "A monthly report in plain language"
- },
- {
-  "de": "Du siehst jeden Monat, was die KI über dich sagt.",
-  "en": "Every month you see what the AI says about you."
- },
- {
-  "de": "Den Preis besprechen wir im kostenlosen Erstgespräch, passend zu deinem Markt.",
-  "en": "We discuss the price in a free intro call, based on your market."
- },
- {
-  "de": "Kostenloser KI-Check",
-  "en": "Free AI check"
- },
- {
-  "de": "Wir fragen ChatGPT, Perplexity und Google so, wie deine Kunden fragen. Du siehst schwarz auf weiß, wer genannt wird und wer nicht.",
-  "en": "We ask ChatGPT, Perplexity and Google the way your customers do. You see in black and white who gets named and who does not."
- },
- {
-  "de": "Grundlage schaffen",
-  "en": "Lay the groundwork"
- },
- {
-  "de": "Website, Google-Profil und Verzeichnisse bekommen klare, einheitliche Angaben. So versteht die KI, wer du bist und was du anbietest.",
-  "en": "Your website, Google profile and directory listings get clear, consistent details. That way the AI understands who you are and what you offer."
- },
- {
-  "de": "Erwähnungen aufbauen",
-  "en": "Build mentions"
- },
- {
-  "de": "Bewertungen, Branchenportale, Artikel: Wir sorgen dafür, dass im Netz mehr Gutes über dich steht.",
-  "en": "Reviews, industry portals, articles: we make sure there is more good stuff about you online."
- },
- {
-  "de": "Messen und nachschärfen",
-  "en": "Measure and refine"
- },
- {
-  "de": "Wir testen regelmäßig, was die KI über dich sagt, und machen mehr von dem, was wirkt.",
-  "en": "We regularly test what the AI says about you and do more of what works."
  },
  {
   "de": "Auch interessant",
@@ -3656,56 +3488,12 @@
   "en": "Local SEO <span aria-hidden=\"true\">→</span>"
  },
  {
-  "de": "Google &amp; Meta Ads <span aria-hidden=\"true\">→</span>",
-  "en": "Google &amp; Meta Ads <span aria-hidden=\"true\">→</span>"
- },
- {
-  "de": "Ist KI-SEO etwas anderes als normales SEO?",
-  "en": "Is AI SEO different from regular SEO?"
- },
- {
-  "de": "Es überschneidet sich stark. Wer bei Google gut dasteht, hat auch bei ChatGPT bessere Karten. Die KI schaut aber über deine Website hinaus: auf Bewertungen, Verzeichnisse und darauf, wer sonst noch über dich schreibt. Genau da setzen wir zusätzlich an.",
-  "en": "There is a lot of overlap. If you do well on Google, you also have better odds with ChatGPT. But the AI looks beyond your website: at reviews, directories and who else writes about you. That is where we add extra work."
- },
- {
   "de": "Könnt ihr garantieren, dass ChatGPT mich empfiehlt?",
   "en": "Can you guarantee that ChatGPT will recommend me?"
  },
  {
-  "de": "Nein. Niemand kann steuern, was eine KI antwortet, und wer das verspricht, sagt nicht die Wahrheit. Wir verbessern das Material, aus dem die KI ihre Antwort baut. Bei Liftpictures hat genau das funktioniert.",
-  "en": "No. Nobody can control what an AI answers, and anyone who promises that is not telling the truth. We improve the material the AI builds its answer from. For Liftpictures, that is exactly what worked."
- },
- {
-  "de": "Welche KI-Tools deckt ihr ab?",
-  "en": "Which AI tools do you cover?"
- },
- {
-  "de": "ChatGPT, Perplexity und die KI-Antworten in der Google-Suche. Das sind heute die Stellen, an denen deine Kunden am häufigsten fragen.",
-  "en": "ChatGPT, Perplexity and the AI answers in Google Search. Those are the places where your customers ask most often today."
- },
- {
-  "de": "Wir arbeiten transparent und ohne versteckte Klauseln. Die Konditionen besprechen wir individuell im ersten Gespräch, abgestimmt auf dein Ziel und deinen Markt.",
-  "en": "We work transparently with no hidden clauses. We discuss the terms individually in the first call, tailored to your goal and your market."
- },
- {
-  "de": "Einfach das Kontaktformular ausfüllen oder uns direkt anschreiben. Wir melden uns innerhalb von 24 Stunden und machen als Erstes den kostenlosen KI-Check.",
-  "en": "Just fill in the contact form or message us directly. We get back to you within 24 hours and start with the free AI check."
- },
- {
-  "de": "Ein kostenloses Video mit den ersten drei Schritten, die wir bei jedem lokalen Unternehmen umsetzen. Was bei Google hilft, hilft auch bei ChatGPT.",
-  "en": "A free video with the first three steps we take for every local business. What helps on Google also helps on ChatGPT."
- },
- {
-  "de": "Kein technisches Know-how nötig.",
-  "en": "No technical know-how needed."
- },
- {
   "de": "KI-SEO | Von ChatGPT empfohlen werden | ImpressRank",
   "en": "AI SEO | Get recommended by ChatGPT | ImpressRank"
- },
- {
-  "de": "KI-SEO für Unternehmen: Wir sorgen dafür, dass ChatGPT, Perplexity und die KI-Antworten von Google dein Unternehmen nennen, wenn Kunden nach deiner Leistung fragen.",
-  "en": "AI SEO for businesses: we make sure ChatGPT, Perplexity and Google's AI answers name your business when customers ask about what you do."
  },
  {
   "de": "KI-SEO | Von ChatGPT empfohlen werden",
@@ -3734,5 +3522,401 @@
  {
   "de": "<a href=\"/ki-seo\">Von ChatGPT empfohlen werden mit KI-SEO</a>",
   "en": "<a href=\"/ki-seo\">Get recommended by ChatGPT with AI SEO</a>"
+ },
+ {
+  "de": "<a href=\"suchmaschinenoptimierung\">Bei Google gefunden werden mit SEO</a>",
+  "en": "<a href=\"suchmaschinenoptimierung\">Get found on Google with SEO</a>"
+ },
+ {
+  "de": "<a href=\"google-ads\">Google Ads, die Kunden bringen</a>",
+  "en": "<a href=\"google-ads\">Google Ads that win customers</a>"
+ },
+ {
+  "de": "<strong>Bei Google gefunden werden</strong>, ohne für jeden Klick zu zahlen",
+  "en": "<strong>Get found on Google</strong> without paying per click"
+ },
+ {
+  "de": "<strong>Google Ads</strong>, die dir <strong>Kunden bringen</strong>",
+  "en": "<strong>Google Ads</strong> that <strong>win you customers</strong>"
+ },
+ {
+  "de": "<strong>Neukunden über Facebook &amp; Instagram</strong> mit <strong>Meta Ads</strong>",
+  "en": "<strong>New customers from Facebook &amp; Instagram</strong> with <strong>Meta Ads</strong>"
+ },
+ {
+  "de": "Arbeit an Google-Platzierungen am Schreibtisch",
+  "en": "Working on Google rankings at the desk"
+ },
+ {
+  "de": "Kundenanruf am Schreibtisch",
+  "en": "Customer call at the desk"
+ },
+ {
+  "de": "<a href=\"seo\">Lokales SEO</a>",
+  "en": "<a href=\"seo\">Local SEO</a>"
+ },
+ {
+  "de": "<a href=\"suchmaschinenoptimierung\">SEO</a>",
+  "en": "<a href=\"suchmaschinenoptimierung\">SEO</a>"
+ },
+ {
+  "de": "<a href=\"google-ads\">Google Ads</a>",
+  "en": "<a href=\"google-ads\">Google Ads</a>"
+ },
+ {
+  "de": "<a href=\"anzeigen\">Meta Ads</a>",
+  "en": "<a href=\"anzeigen\">Meta Ads</a>"
+ },
+ {
+  "de": "Wen sie anrufen, entscheiden die Leute mit ChatGPT, Perplexity und den KI-Antworten von Google. Wir sorgen dafür, dass du in der Antwort stehst.",
+  "en": "More and more people decide who to call by asking ChatGPT, Perplexity or Google's AI answers. We make sure you show up in that answer."
+ },
+ {
+  "de": "<a class=\"btn btn-primary btn-cta-blue\" data-wa-cta=\"\" href=\"anfrage\">Jetzt für eine Zusammenarbeit bewerben</a>",
+  "en": "<a class=\"btn btn-primary btn-cta-blue\" data-wa-cta=\"\" href=\"anfrage\">Apply to work with us</a>"
+ },
+ {
+  "de": "Bester Steuerberater in meiner Stadt?",
+  "en": "Best accountant in my town?"
+ },
+ {
+  "de": "Diese drei Kanzleien werden oft empfohlen:",
+  "en": "These three firms get recommended a lot:"
+ },
+ {
+  "de": "Tipp mal bei ChatGPT ein: „bester Steuerberater in [deine Stadt]“.",
+  "en": "Try typing this into ChatGPT: \"best accountant in [your town]\"."
+ },
+ {
+  "de": "Du bekommst ein paar Namen. Selbstbewusst ohne Ende.",
+  "en": "You get a handful of names, delivered with total confidence."
+ },
+ {
+  "de": "Ist deiner dabei?",
+  "en": "Is yours one of them?"
+ },
+ {
+  "de": "Bei den meisten Unternehmen: nein. Und die meisten wissen nicht einmal, dass diese Frage gestellt wird. Diese Kunden sehen Seite 1 bei Google nie. Sie fragen direkt die KI.",
+  "en": "For most businesses: no. And most do not even know people are asking. Those customers never look at page 1 on Google. They go straight to the AI."
+ },
+ {
+  "de": "KI-Tools nehmen, was das Netz über dich sagt: deine Website, deine Bewertungen, deine Einträge und was andere Seiten über dich schreiben. Ist das dünn oder chaotisch, bist du unsichtbar.",
+  "en": "AI tools work with what the internet says about you: your website, your reviews, your listings and what other sites write about you. If that is thin or messy, you do not exist."
+ },
+ {
+  "de": "Jede Agentur nennt sich jetzt „KI-Experte“ (mit TeChNoLoGiScHeN DuRcHbRüChEn). Wir machen einfach die Arbeit und prüfen, was die KI wirklich über dich sagt.",
+  "en": "Every agency now calls itself an \"AI expert\" (with GaMe-ChAnGiNg TeChNoLoGy). We just do the work and check what the AI actually says about you."
+ },
+ {
+  "de": "Coaching",
+  "en": "Coaching"
+ },
+ {
+  "de": "ab",
+  "en": "from"
+ },
+ {
+  "de": "im Monat",
+  "en": "per month"
+ },
+ {
+  "de": "Wir bringen dir bei, wie KI-Suchen ihre Antworten auswählen und was du ändern musst, damit sie dich auswählen. Deine Website, deine Inhalte, deine Bewertungen und wo dein Unternehmen im Netz erwähnt wird. Gemeinsam testen wir, was die KI vorher und nachher sagt.",
+  "en": "We teach you how AI search picks its answers and what to change so it picks you. Your website, your content, your reviews and where your business gets mentioned online. Together we test what the AI says before and after."
+ },
+ {
+  "de": "Wir machen die Arbeit. Wir prüfen, wo du in den wichtigsten KI-Tools stehst, bringen Website und Inhalte in Ordnung, bauen Erwähnungen im Netz auf und berichten dir, was sich verändert.",
+  "en": "We do the work. We check where you stand across the main AI tools, sort out your website and content, build mentions around the web and report back on what changes."
+ },
+ {
+  "de": "Keine Mindestlaufzeit, monatlich kündbar.",
+  "en": "No minimum term, cancel monthly."
+ },
+ {
+  "de": "SEO <span aria-hidden=\"true\">→</span>",
+  "en": "SEO <span aria-hidden=\"true\">→</span>"
+ },
+ {
+  "de": "Google Ads <span aria-hidden=\"true\">→</span>",
+  "en": "Google Ads <span aria-hidden=\"true\">→</span>"
+ },
+ {
+  "de": "Meta Ads <span aria-hidden=\"true\">→</span>",
+  "en": "Meta Ads <span aria-hidden=\"true\">→</span>"
+ },
+ {
+  "de": "Fragen, die uns oft gestellt werden",
+  "en": "Questions we get asked a lot"
+ },
+ {
+  "de": "Ist das etwas anderes als normales SEO?",
+  "en": "Is this any different from regular SEO?"
+ },
+ {
+  "de": "Es überschneidet sich. Vieles, was dir bei Google hilft, hilft dir auch in KI-Antworten. Aber KI-Tools schauen auf mehr als deine Website, also arbeiten wir auch an mehr als deiner Website.",
+  "en": "There is overlap. Much of what helps you on Google also helps you in AI answers. But AI tools look at more than your website, so we work on more than your website too."
+ },
+ {
+  "de": "Nein. Das kann niemand, und wer es behauptet, will dir etwas verkaufen. Was wir können: das Material verbessern, mit dem die KI arbeitet.",
+  "en": "No. Nobody can, and anyone who says otherwise wants to sell you something. What we can do is improve the material the AI works with."
+ },
+ {
+  "de": "Brauche ich einen langen Vertrag?",
+  "en": "Do I have to sign a long contract?"
+ },
+ {
+  "de": "Nein. Keine Mindestlaufzeit. Monatlich, jederzeit kündbar.",
+  "en": "No. There is no minimum term. It runs month by month and you can cancel any time."
+ },
+ {
+  "de": "Ein kostenloses Video mit den ersten drei Dingen, die wir bei jedem lokalen Unternehmen machen, um es bei Google in die Top 3 zu bringen.",
+  "en": "A free video with the first three things we do for every local business to get it into Google's top 3."
+ },
+ {
+  "de": "Kein technisches Wissen nötig.",
+  "en": "No technical knowledge needed."
+ },
+ {
+  "de": "KI-SEO: Wir sorgen dafür, dass ChatGPT, Perplexity und die KI-Antworten von Google dein Unternehmen nennen. Coaching ab 2.000 € oder Komplett-Service ab 4.000 € im Monat.",
+  "en": "AI SEO: we make sure ChatGPT, Perplexity and Google's AI answers name your business. Coaching from €2,000 or done for you from €4,000 per month."
+ },
+ {
+  "de": "Bei Google gefunden werden,<br/> <span class=\"hero-highlight\">ohne für jeden Klick zu zahlen.</span>",
+  "en": "Get found on Google<br/> <span class=\"hero-highlight\">without paying for each click.</span>"
+ },
+ {
+  "de": "Ranke für die Suchen, die deine Kunden wirklich eintippen. Und mach aus diesen Besuchern Anrufe und Verkäufe.",
+  "en": "Rank for the searches your customers really type. Then turn those visitors into calls and sales."
+ },
+ {
+  "de": "Google",
+  "en": "Google"
+ },
+ {
+  "de": "Dachsanierung Kosten",
+  "en": "roof renovation cost"
+ },
+ {
+  "de": "Platz 1 · ohne Klickkosten",
+  "en": "Position 1 · no click costs"
+ },
+ {
+  "de": "Dein Unternehmen: Was kostet eine Dachsanierung?",
+  "en": "Your business: what does a roof renovation cost?"
+ },
+ {
+  "de": "Preise, Ablauf und Förderung einfach erklärt.",
+  "en": "Prices, process and grants explained simply."
+ },
+ {
+  "de": "Ratgeber-Portal",
+  "en": "Advice portal"
+ },
+ {
+  "de": "Dachsanierung: 10 Tipps",
+  "en": "Roof renovation: 10 tips"
+ },
+ {
+  "de": "Warum SEO weiterwirkt, wenn du aufhörst zu zahlen",
+  "en": "Why SEO keeps working after you stop paying"
+ },
+ {
+  "de": "Anzeigen sind super. Bis du aufhörst zu zahlen. Dann sind sie weg.",
+  "en": "Ads are great. Until you stop paying. Then they vanish."
+ },
+ {
+  "de": "SEO ist das Gegenteil. Langsamer Start, aber wenn eine Seite einmal rankt, bleibt sie oben. Jeden Monat kommen Besucher, und niemand schickt dir eine Rechnung pro Besucher.",
+  "en": "SEO works the other way round. It starts slowly, but once a page ranks it tends to stay there. Visitors keep coming every month, and nobody bills you per visitor."
+ },
+ {
+  "de": "Das Problem: SEO ist voller Kauderwelsch. Agenturen schicken Berichte mit 40 Diagrammen und dem Wort „Sichtbarkeit“ in jedem Satz. Und du weißt immer noch nicht, ob du mehr Kunden bekommst.",
+  "en": "The catch: SEO is full of jargon. Agencies send reports with 40 charts and the word \"visibility\" in every sentence. And you still cannot tell whether you are getting more customers."
+ },
+ {
+  "de": "Wir halten es einfach: Wir bringen dich bei den Suchen nach oben, die deine Kunden eintippen, machen aus diesen Besuchern Anrufe und Verkäufe und zeigen dir die Zahlen.",
+  "en": "We keep it simple: we get you to the top for the searches your customers type, turn those visitors into calls and sales and show you the numbers."
+ },
+ {
+  "de": "Wir bringen dir bei, SEO für dein eigenes Unternehmen zu machen. Keyword-Recherche, Seiten schreiben, die ranken, die technischen Fehler beheben, die deine Website ausbremsen, und andere Seiten dazu bringen, auf dich zu verlinken. Wir prüfen deine Arbeit und sagen dir, was als Nächstes kommt.",
+  "en": "We teach you to do SEO for your own business. Keyword research, writing pages that rank, fixing the technical problems slowing your site down and getting other sites to link to you. We review your work and tell you what comes next."
+ },
+ {
+  "de": "Wir machen die Arbeit. Website-Analyse, technische Verbesserungen, Keyword-Strategie, Inhalte, Links und jeden Monat ein Update in verständlicher Sprache. Du kümmerst dich um dein Geschäft.",
+  "en": "We do the work. Website audit, technical fixes, keyword strategy, content, links and a monthly update in plain language. You focus on running your business."
+ },
+ {
+  "de": "KI-SEO <span aria-hidden=\"true\">→</span>",
+  "en": "AI SEO <span aria-hidden=\"true\">→</span>"
+ },
+ {
+  "de": "Wie lange dauert SEO?",
+  "en": "How long does SEO take?"
+ },
+ {
+  "de": "Monate. Wer dir Seite 1 bis Freitag verspricht, lügt dich an.",
+  "en": "Months. Anyone promising you page 1 by Friday is lying to you."
+ },
+ {
+  "de": "SEO: Bei Google gefunden werden, ohne für jeden Klick zu zahlen | ImpressRank",
+  "en": "SEO: Get found on Google without paying per click | ImpressRank"
+ },
+ {
+  "de": "Suchmaschinenoptimierung, die Anrufe und Verkäufe bringt: Coaching ab 2.000 € oder Komplett-Service ab 4.000 € im Monat. Keine Mindestlaufzeit.",
+  "en": "Search engine optimisation that brings calls and sales: coaching from €2,000 or done for you from €4,000 per month. No minimum term."
+ },
+ {
+  "de": "SEO: Bei Google gefunden werden, ohne für jeden Klick zu zahlen",
+  "en": "SEO: Get found on Google without paying per click"
+ },
+ {
+  "de": "Beispiel eines Google-Suchergebnisses",
+  "en": "Example of a Google search result"
+ },
+ {
+  "de": "Suchmaschinenoptimierung",
+  "en": "Search engine optimisation"
+ },
+ {
+  "de": "Google Ads",
+  "en": "Google Ads"
+ },
+ {
+  "de": "Google Ads,<br/> <span class=\"hero-highlight\">die dir Kunden bringen.</span>",
+  "en": "Google Ads<br/> <span class=\"hero-highlight\">that win you customers.</span>"
+ },
+ {
+  "de": "Der schnellste Weg zu Leuten, die genau jetzt kaufen wollen. Wenn das Konto richtig aufgebaut ist.",
+  "en": "The quickest route to people who want to buy right now. As long as the account is set up properly."
+ },
+ {
+  "de": "Rohrbruch Notdienst <em>23:04 Uhr</em>",
+  "en": "burst pipe emergency <em>11:04 pm</em>"
+ },
+ {
+  "de": "Gesponsert",
+  "en": "Sponsored"
+ },
+ {
+  "de": "Dein Betrieb: Notdienst in 30 Minuten vor Ort",
+  "en": "Your business: emergency service on site in 30 minutes"
+ },
+ {
+  "de": "Jetzt anrufen. Rund um die Uhr erreichbar.",
+  "en": "Call now. Available around the clock."
+ },
+ {
+  "de": "Sanitär Müller",
+  "en": "Miller Plumbing"
+ },
+ {
+  "de": "Öffnungszeiten Mo bis Fr, 8 bis 17 Uhr",
+  "en": "Open Mon to Fri, 8 am to 5 pm"
+ },
+ {
+  "de": "Warum die meisten Google-Ads-Konten Geld verbrennen",
+  "en": "Why most Google Ads accounts waste money"
+ },
+ {
+  "de": "Fast jedes Konto, das wir uns ansehen, hat dasselbe Problem.",
+  "en": "Almost every account we look at has the same problem."
+ },
+ {
+  "de": "Es ist aufs Ausgeben eingestellt. Breite Keywords, keine ausschließenden Keywords und eine „smarte“ Kampagne, die sooooo smart ist, dass sie deine Anzeige Leuten zeigt, die nach Gratis-Sachen suchen.",
+  "en": "It is set up to spend. Broad keywords, no negative keywords and a \"smart\" campaign so incredibly smart that it shows your ad to people looking for freebies."
+ },
+ {
+  "de": "Google liebt so ein Konto. Du solltest es nicht.",
+  "en": "Google loves an account like that. You should not."
+ },
+ {
+  "de": "Jemand tippt um 23 Uhr „Rohrbruch Notdienst“ ein. Der stöbert nicht. Der will einen Klempner. Erscheint deine Anzeige und deine Seite ergibt Sinn, bekommst du den Anruf.",
+  "en": "Someone types \"burst pipe emergency\" at 11 pm. They are not browsing. They need a plumber. If your ad shows up and your page makes sense, you get the call."
+ },
+ {
+  "de": "Das funktioniert nur, wenn das Konto richtig aufgebaut ist. Genau das machen wir.",
+  "en": "That only works when the account is set up properly. That is what we do."
+ },
+ {
+  "de": "Du schaltest deine Anzeigen selbst, und wir bringen dir bei, wie es richtig geht. Wir gehen dein Konto gemeinsam durch, zeigen dir, was du ändern musst und warum, und prüfen deine Arbeit. Das Können behältst du für immer.",
+  "en": "You run your own ads and we teach you to do it properly. We go through your account together, show you what to change and why, and check your work. The skills stay with you for good."
+ },
+ {
+  "de": "Wir bauen dein Konto auf und betreuen es: Keyword-Recherche, Kampagnen, Anzeigentexte, ausschließende Keywords, Gebote, Conversion-Tracking und jeden Monat ein Bericht in verständlicher Sprache. Du gehst ans Telefon.",
+  "en": "We build and manage your account: keyword research, campaigns, ad copy, negative keywords, bidding, conversion tracking and a monthly report in plain language. You pick up the phone."
+ },
+ {
+  "de": "Werbebudget: mindestens 3.000 € im Monat",
+  "en": "Ad budget: at least €3,000 per month"
+ },
+ {
+  "de": "Wir empfehlen mindestens 3.000 € im Monat für die Anzeigen selbst. Das kommt zu unserem Honorar dazu. Mit weniger bekommt Google nicht genug Daten zum Lernen, und du auch nicht.",
+  "en": "We recommend at least €3,000 per month for the ads themselves, on top of our fee. With less, Google does not get enough data to learn from, and neither do you."
+ },
+ {
+  "de": "Wie schnell sehe ich Ergebnisse?",
+  "en": "How quickly will I see results?"
+ },
+ {
+  "de": "Die Anzeigen laufen innerhalb weniger Tage. Die ersten Wochen sind zum Lernen, was funktioniert. Danach streichen wir, was nicht läuft, und stecken mehr Geld in das, was läuft.",
+  "en": "Your ads go live within a few days. The first weeks are about learning what works. After that we cut what does not perform and put more money behind what does."
+ },
+ {
+  "de": "Wem gehört das Konto?",
+  "en": "Who owns the account?"
+ },
+ {
+  "de": "Dir. Immer.",
+  "en": "You do. Always."
+ },
+ {
+  "de": "Google Ads, die Kunden bringen | ImpressRank",
+  "en": "Google Ads that win customers | ImpressRank"
+ },
+ {
+  "de": "Google Ads mit sauber aufgebautem Konto: Coaching ab 2.000 € oder Komplett-Service ab 4.000 € im Monat. Keine Mindestlaufzeit, das Konto gehört dir.",
+  "en": "Google Ads with a properly built account: coaching from €2,000 or done for you from €4,000 per month. No minimum term, and the account is yours."
+ },
+ {
+  "de": "Google Ads, die Kunden bringen",
+  "en": "Google Ads that win customers"
+ },
+ {
+  "de": "Beispiel einer Google-Suche mit Anzeige",
+  "en": "Example of a Google search with an ad"
+ },
+ {
+  "de": "Suchmaschinenwerbung",
+  "en": "Search engine advertising"
+ },
+ {
+  "de": "SEA",
+  "en": "SEA"
+ },
+ {
+  "de": "Wir bringen dir bei, Meta Ads selbst zu schalten. Zielgruppen, Anzeigen, die beim Scrollen stoppen, Angebote, die verkaufen, und wie du die Zahlen liest, ohne den Verstand zu verlieren. Deine Kampagnen gehen wir gemeinsam durch.",
+  "en": "We teach you to run Meta Ads yourself. Targeting, ads that make people stop scrolling, offers that sell and reading the numbers without losing your mind. We go through your campaigns together."
+ },
+ {
+  "de": "Wir übernehmen alles. Kampagnen einrichten, Zielgruppen, Anzeigenmotive und Texte, Tests, Pixel und Tracking und jeden Monat ein Bericht, den du tatsächlich lesen kannst.",
+  "en": "We handle everything. Campaign setup, audiences, ad creative and copy, testing, pixel and tracking and a monthly report you can actually read."
+ },
+ {
+  "de": "Wir empfehlen mindestens 3.000 € im Monat für die Anzeigen. Das kommt zu unserem Honorar dazu. So haben die Anzeigen genug Spielraum, um zu testen und herauszufinden, was funktioniert.",
+  "en": "We recommend at least €3,000 per month for the ads, on top of our fee. That gives the ads enough room to test and find out what works."
+ },
+ {
+  "de": "<a href=\"suchmaschinenoptimierung\" tabindex=\"-1\">Bei Google gefunden werden mit SEO</a>",
+  "en": "<a href=\"suchmaschinenoptimierung\" tabindex=\"-1\">Get found on Google with SEO</a>"
+ },
+ {
+  "de": "<a href=\"google-ads\" tabindex=\"-1\">Google Ads, die Kunden bringen</a>",
+  "en": "<a href=\"google-ads\" tabindex=\"-1\">Google Ads that win customers</a>"
+ },
+ {
+  "de": "<a href=\"/suchmaschinenoptimierung\">Bei Google gefunden werden mit SEO</a>",
+  "en": "<a href=\"/suchmaschinenoptimierung\">Get found on Google with SEO</a>"
+ },
+ {
+  "de": "<a href=\"/google-ads\">Google Ads, die Kunden bringen</a>",
+  "en": "<a href=\"/google-ads\">Google Ads that win customers</a>"
  }
 ]

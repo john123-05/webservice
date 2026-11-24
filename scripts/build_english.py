@@ -39,6 +39,8 @@ PAGES = [
     "webdesign.html",
     "seo.html",
     "ki-seo.html",
+    "suchmaschinenoptimierung.html",
+    "google-ads.html",
     "anzeigen.html",
     "projekte.html",
     "anfrage.html",
@@ -422,6 +424,11 @@ def main() -> int:
         MISSING_PATH.unlink()
     unused = set(d.entries) - d.used
     print(f"{len(PAGES)} englische Seiten gebaut. Ungenutzte Einträge in en.json: {len(unused)}")
+    if unused and "--prune" in sys.argv:
+        entries = json.loads(DICT_PATH.read_text(encoding="utf-8"))
+        kept = [e for e in entries if e["de"] not in unused]
+        DICT_PATH.write_text(json.dumps(kept, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        print(f"--prune: {len(entries) - len(kept)} ungenutzte Einträge entfernt")
     return 0
 
 
