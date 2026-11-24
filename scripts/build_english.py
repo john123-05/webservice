@@ -38,6 +38,7 @@ PAGES = [
     "index.html",
     "webdesign.html",
     "seo.html",
+    "ki-seo.html",
     "anzeigen.html",
     "projekte.html",
     "anfrage.html",

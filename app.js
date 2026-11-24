@@ -36,7 +36,7 @@ const getLocale = () => (document.documentElement.lang || '').toLowerCase().star
 // Seiten mit englischer Fassung (scripts/build_english.py). Für alle anderen führt „EN“
 // zur englischen Startseite. Funktioniert mit sauberen Adressen (/webdesign) wie mit .html.
 const EN_PAGES = new Set([
-  'index', 'webdesign', 'seo', 'anzeigen', 'projekte', 'anfrage', 'naechster-schritt', 'fachartikel',
+  'index', 'webdesign', 'seo', 'ki-seo', 'anzeigen', 'projekte', 'anfrage', 'naechster-schritt', 'fachartikel',
   '3-tipps', 'newsletter', 'impressum', 'datenschutz',
   'blog/die-mysterie-box/index', 'blog/einfacher-weg-bei-google-hoeher-zu-ranken/index',
   'blog/gewinne-gegen-besseres-marketing/index', 'blog/networking-networking-networking/index',
